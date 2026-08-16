@@ -1,0 +1,313 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-16",
+  "groups": [
+    {
+      "id": "nogizaka46",
+      "order": 1,
+      "name": { "ja": "乃木坂46", "ko": "노기자카46", "en": "Nogizaka46" },
+      "shortName": { "ja": "乃木坂", "ko": "노기자카", "en": "Nogi" },
+      "status": "active",
+      "debutedOn": "2011-08-21",
+      "lineage": [
+        {
+          "id": "nogizaka46",
+          "name": { "ja": "乃木坂46", "ko": "노기자카46", "en": "Nogizaka46" },
+          "from": "2011-08-21",
+          "to": null,
+          "color": "#8A6BC1",
+          "logoUsageAllowed": false
+        }
+      ],
+      "palette": {
+        "brand": "#8A6BC1",
+        "blobA": "#B79AE0",
+        "blobB": "#D9C6F2",
+        "blobC": "#EDE3FA",
+        "wash": "#F3EDFB",
+        "ink": "#3E3355"
+      },
+      "motif": "bubble",
+      "official": {
+        "site": "https://www.nogizaka46.com/",
+        "blogIndex": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list",
+        "x": "https://x.com/nogizaka46",
+        "instagram": "https://www.instagram.com/nogizaka46_official/",
+        "youtube": "https://www.youtube.com/user/nogizaka46SMEJ",
+        "tiktok": "https://www.tiktok.com/@nogizaka46_official"
+      },
+      "blogUrlTemplate": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct={code}",
+      "generations": [
+        {
+          "id": "nogi-g1",
+          "order": 1,
+          "sortSuffix": 0,
+          "label": { "ja": "1期生", "ko": "1기생", "en": "1st Gen" },
+          "joinedOn": "2011-08-21",
+          "joinedUnderLineageId": "nogizaka46",
+          "note": null
+        },
+        {
+          "id": "nogi-g2",
+          "order": 2,
+          "sortSuffix": 0,
+          "label": { "ja": "2期生", "ko": "2기생", "en": "2nd Gen" },
+          "joinedOn": "2013-03-28",
+          "joinedUnderLineageId": "nogizaka46",
+          "note": null
+        },
+        {
+          "id": "nogi-g3",
+          "order": 3,
+          "sortSuffix": 0,
+          "label": { "ja": "3期生", "ko": "3기생", "en": "3rd Gen" },
+          "joinedOn": "2016-09-04",
+          "joinedUnderLineageId": "nogizaka46",
+          "note": null
+        },
+        {
+          "id": "nogi-g4",
+          "order": 4,
+          "sortSuffix": 0,
+          "label": { "ja": "4期生", "ko": "4기생", "en": "4th Gen" },
+          "joinedOn": "2018-11-29",
+          "joinedUnderLineageId": "nogizaka46",
+          "note": null
+        },
+        {
+          "id": "nogi-g5",
+          "order": 5,
+          "sortSuffix": 0,
+          "label": { "ja": "5期生", "ko": "5기생", "en": "5th Gen" },
+          "joinedOn": "2022-02-01",
+          "joinedUnderLineageId": "nogizaka46",
+          "note": null
+        },
+        {
+          "id": "nogi-g6",
+          "order": 6,
+          "sortSuffix": 0,
+          "label": { "ja": "6期生", "ko": "6기생", "en": "6th Gen" },
+          "joinedOn": "2025-02-06",
+          "joinedUnderLineageId": "nogizaka46",
+          "note": null
+        }
+      ],
+      "description": {
+        "ja": "AKB48の公式ライバルとして結成された坂道シリーズ第1弾グループ。",
+        "ko": "AKB48의 공식 라이벌로 결성된 사카미치 시리즈의 첫 번째 그룹.",
+        "en": "The first group of the Sakamichi Series, formed as the official rival to AKB48."
+      },
+      "provenance": {
+        "source": "official",
+        "sourceUrl": "https://www.nogizaka46.com/",
+        "checkedAt": "2026-08-16",
+        "note": null
+      }
+    },
+    {
+      "id": "sakurazaka46",
+      "order": 2,
+      "name": { "ja": "櫻坂46", "ko": "사쿠라자카46", "en": "Sakurazaka46" },
+      "shortName": { "ja": "櫻坂", "ko": "사쿠라자카", "en": "Sakura" },
+      "status": "active",
+      "debutedOn": "2015-08-21",
+      "lineage": [
+        {
+          "id": "keyakizaka46",
+          "name": { "ja": "欅坂46", "ko": "케야키자카46", "en": "Keyakizaka46" },
+          "from": "2015-08-21",
+          "to": "2020-10-12",
+          "color": "#5FAE84",
+          "logoUsageAllowed": false
+        },
+        {
+          "id": "sakurazaka46",
+          "name": { "ja": "櫻坂46", "ko": "사쿠라자카46", "en": "Sakurazaka46" },
+          "from": "2020-10-14",
+          "to": null,
+          "color": "#E88AA6",
+          "logoUsageAllowed": false
+        }
+      ],
+      "palette": {
+        "brand": "#E88AA6",
+        "blobA": "#F3AEC2",
+        "blobB": "#F9CFDA",
+        "blobC": "#FDE7EE",
+        "wash": "#FCEFF3",
+        "ink": "#57323E"
+      },
+      "motif": "petal",
+      "official": {
+        "site": "https://sakurazaka46.com/",
+        "blogIndex": "https://sakurazaka46.com/s/s46/diary/blog/list",
+        "x": "https://x.com/sakurazaka46",
+        "instagram": "https://www.instagram.com/sakurazaka46jp/",
+        "youtube": "https://www.youtube.com/channel/UCmr9bYmymidVM8rmmn9FWOA",
+        "tiktok": "https://www.tiktok.com/@sakurazaka46.officialtk"
+      },
+      "blogUrlTemplate": "https://sakurazaka46.com/s/s46/diary/blog/list?ima=0000&ct={code}",
+      "generations": [
+        {
+          "id": "saku-g1",
+          "order": 1,
+          "sortSuffix": 0,
+          "label": { "ja": "1期生", "ko": "1기생", "en": "1st Gen" },
+          "joinedOn": "2015-08-21",
+          "joinedUnderLineageId": "keyakizaka46",
+          "note": null
+        },
+        {
+          "id": "saku-g2",
+          "order": 2,
+          "sortSuffix": 0,
+          "label": { "ja": "2期生", "ko": "2기생", "en": "2nd Gen" },
+          "joinedOn": "2018-11-29",
+          "joinedUnderLineageId": "keyakizaka46",
+          "note": null
+        },
+        {
+          "id": "saku-g2-new",
+          "order": 2,
+          "sortSuffix": 1,
+          "label": { "ja": "新2期生", "ko": "신2기생", "en": "New 2nd Gen" },
+          "joinedOn": "2020-02-16",
+          "joinedUnderLineageId": "keyakizaka46",
+          "note": null
+        },
+        {
+          "id": "saku-g3",
+          "order": 3,
+          "sortSuffix": 0,
+          "label": { "ja": "3期生", "ko": "3기생", "en": "3rd Gen" },
+          "joinedOn": "2023-01-05",
+          "joinedUnderLineageId": "sakurazaka46",
+          "note": null
+        },
+        {
+          "id": "saku-g4",
+          "order": 4,
+          "sortSuffix": 0,
+          "label": { "ja": "4期生", "ko": "4기생", "en": "4th Gen" },
+          "joinedOn": "2025-03-01",
+          "joinedUnderLineageId": "sakurazaka46",
+          "note": null
+        }
+      ],
+      "description": {
+        "ja": "欅坂46から改名・再出発し、咲き誇る桜のように力強く美しいパフォーマンスを展開するグループ。",
+        "ko": "케야키자카46에서 개명하여 새롭게 출발해, 활짝 핀 벚꽃처럼 역동적이고 아름다운 퍼포먼스를 선보이는 그룹.",
+        "en": "Rebranded from Keyakizaka46, showcasing dynamic and elegant performances like blooming cherry blossoms."
+      },
+      "provenance": {
+        "source": "official",
+        "sourceUrl": "https://sakurazaka46.com/",
+        "checkedAt": "2026-08-16",
+        "note": null
+      }
+    },
+    {
+      "id": "hinatazaka46",
+      "order": 3,
+      "name": { "ja": "日向坂46", "ko": "히나타자카46", "en": "Hinatazaka46" },
+      "shortName": { "ja": "日向坂", "ko": "히나타자카", "en": "Hinata" },
+      "status": "active",
+      "debutedOn": "2015-11-30",
+      "lineage": [
+        {
+          "id": "hiragana-keyaki",
+          "name": { "ja": "けやき坂46", "ko": "히라가나 케야키", "en": "Hiragana Keyakizaka46" },
+          "from": "2015-11-30",
+          "to": "2019-02-10",
+          "color": "#77C6EE",
+          "logoUsageAllowed": false
+        },
+        {
+          "id": "hinatazaka46",
+          "name": { "ja": "日向坂46", "ko": "히나타자카46", "en": "Hinatazaka46" },
+          "from": "2019-02-11",
+          "to": null,
+          "color": "#5AB4E0",
+          "logoUsageAllowed": false
+        }
+      ],
+      "palette": {
+        "brand": "#5AB4E0",
+        "blobA": "#8FCFEE",
+        "blobB": "#BEE4F7",
+        "blobC": "#E2F2FB",
+        "wash": "#EDF6FC",
+        "ink": "#274A5C"
+      },
+      "motif": "sparkle",
+      "official": {
+        "site": "https://www.hinatazaka46.com/",
+        "blogIndex": "https://www.hinatazaka46.com/s/official/diary/member/list",
+        "x": "https://x.com/hinatazaka46",
+        "instagram": "https://www.instagram.com/hinatazaka46/",
+        "youtube": "https://www.youtube.com/channel/UCR0V48DJyW5wVEUU5E0gvMw",
+        "tiktok": "https://www.tiktok.com/@hinatazakanew"
+      },
+      "blogUrlTemplate": "https://www.hinatazaka46.com/s/official/diary/member/list?ima=0000&ct={code}",
+      "generations": [
+        {
+          "id": "hina-g1",
+          "order": 1,
+          "sortSuffix": 0,
+          "label": { "ja": "1期生", "ko": "1기생", "en": "1st Gen" },
+          "joinedOn": "2016-05-08",
+          "joinedUnderLineageId": "hiragana-keyaki",
+          "note": null
+        },
+        {
+          "id": "hina-g2",
+          "order": 2,
+          "sortSuffix": 0,
+          "label": { "ja": "2期生", "ko": "2기생", "en": "2nd Gen" },
+          "joinedOn": "2017-08-13",
+          "joinedUnderLineageId": "hiragana-keyaki",
+          "note": null
+        },
+        {
+          "id": "hina-g3",
+          "order": 3,
+          "sortSuffix": 0,
+          "label": { "ja": "3期生", "ko": "3기생", "en": "3rd Gen" },
+          "joinedOn": "2018-11-29",
+          "joinedUnderLineageId": "hinatazaka46",
+          "note": null
+        },
+        {
+          "id": "hina-g4",
+          "order": 4,
+          "sortSuffix": 0,
+          "label": { "ja": "4期生", "ko": "4기생", "en": "4th Gen" },
+          "joinedOn": "2022-09-21",
+          "joinedUnderLineageId": "hinatazaka46",
+          "note": null
+        },
+        {
+          "id": "hina-g5",
+          "order": 5,
+          "sortSuffix": 0,
+          "label": { "ja": "5期生", "ko": "5기생", "en": "5th Gen" },
+          "joinedOn": "2025-03-01",
+          "joinedUnderLineageId": "hinatazaka46",
+          "note": null
+        }
+      ],
+      "description": {
+        "ja": "けやき坂46から改名・単独デビューし、ハッピーオーラを届けるグループ。",
+        "ko": "히라가나 케야키에서 개명하여 단독 데뷔 후, 해피 오라를 전하는 그룹.",
+        "en": "Debuted independently after rebranding from Hiragana Keyaki, spreading happy aura."
+      },
+      "provenance": {
+        "source": "official",
+        "sourceUrl": "https://www.hinatazaka46.com/",
+        "checkedAt": "2026-08-16",
+        "note": null
+      }
+    }
+  ]
+}
