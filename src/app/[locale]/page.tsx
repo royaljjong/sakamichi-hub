@@ -1,5 +1,4 @@
 import { setRequestLocale } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
 import { getGroups, getMembers } from '@/lib/data';
 import { AmbientBackground } from '@/components/background/AmbientBackground';
 import { Navigation } from '@/components/ui/Navigation';
@@ -20,20 +19,14 @@ export default async function HomePage({ params }: HomePageProps) {
   return (
     <div className="relative min-h-screen flex flex-col justify-between">
       <AmbientBackground groupId="home" motif="mixed" />
-      <Navigation />
+      <Navigation showBrand={false} />
 
-      <main id="main-content" className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 py-8 flex-1">
-        {/* Hero Headline */}
-        <div className="text-center max-w-2xl mx-auto mb-14">
-          <span className="text-xs uppercase tracking-widest text-[var(--g-brand)] font-semibold mb-2 block font-[family-name:var(--font-zen-kaku)]">
-            Sakamichi Series Official Link Hub
-          </span>
-          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] mb-4">
+      <main id="main-content" className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-10 flex-1 w-full">
+        {/* Centered Title */}
+        <div className="text-center max-w-2xl mx-auto my-10 sm:my-16">
+          <h1 className="text-4xl sm:text-6xl font-bold tracking-tight text-[var(--g-ink)] font-[family-name:var(--font-klee-one)]">
             坂道シリーズ リンクハブ
           </h1>
-          <p className="text-sm sm:text-base text-[var(--ink-soft)] leading-relaxed">
-            乃木坂46・櫻坂46・日向坂46の現役・卒業メンバー公式リンク集。
-          </p>
         </div>
 
         {/* 3 Large Group Cards */}

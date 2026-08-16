@@ -4,7 +4,11 @@ import { useTranslations } from 'next-intl';
 import { LocaleSwitcher } from './LocaleSwitcher';
 import { SearchIcon } from './icons';
 
-export function Navigation() {
+interface NavigationProps {
+  showBrand?: boolean;
+}
+
+export function Navigation({ showBrand = true }: NavigationProps) {
   const t = useTranslations('common');
   const tNav = useTranslations('nav');
   const tA11y = useTranslations('a11y');
@@ -19,23 +23,28 @@ export function Navigation() {
         {tA11y('skipToContent')}
       </a>
 
-      <nav className="relative z-20 flex items-center justify-between py-6 max-w-6xl mx-auto px-4 sm:px-6">
-        <Link
-          href="/"
-          className="group flex items-center gap-2 text-lg sm:text-xl font-bold tracking-tight text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] focus-visible:outline-2"
-        >
-          <span className="w-2.5 h-2.5 rounded-full bg-[var(--g-brand)] group-hover:scale-125 transition-transform" />
-          <span>{t('siteName')}</span>
-        </Link>
+      <nav className="relative z-20 flex items-center justify-between py-6 max-w-6xl mx-auto px-4 sm:px-6 w-full">
+        {showBrand ? (
+          <Link
+            href="/"
+            className="group flex items-center gap-2 text-lg sm:text-xl font-bold tracking-tight text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] focus-visible:outline-2"
+          >
+            <span className="w-2.5 h-2.5 rounded-full bg-[var(--g-brand)] group-hover:scale-125 transition-transform" />
+            <span>{t('siteName')}</span>
+          </Link>
+        ) : (
+          <div aria-hidden="true" />
+        )}
 
-        <div className="flex items-center gap-3">
+        {/* Top-right Actions: Search & Locales */}
+        <div className="flex items-center gap-2.5 ml-auto">
           <Link
             href="/search"
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[var(--white-veil)] hover:bg-white text-xs font-medium text-[var(--ink)] border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] shadow-xs transition hover:scale-105"
+            className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[var(--white-veil)] hover:bg-white text-xs font-medium text-[var(--ink)] border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] shadow-xs transition hover:scale-105"
             aria-label={tNav('search')}
           >
             <SearchIcon className="w-3.5 h-3.5 text-[var(--ink-soft)]" />
-            <span className="hidden sm:inline">{tNav('search')}</span>
+            <span>{tNav('search')}</span>
           </Link>
 
           <LocaleSwitcher />
