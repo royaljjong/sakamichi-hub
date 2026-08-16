@@ -1,0 +1,68 @@
+{
+  "common": {
+    "siteName": "Sakamichi Series Link Hub",
+    "viewMore": "View more",
+    "back": "Back",
+    "view": "View"
+  },
+  "nav": {
+    "home": "Home",
+    "search": "Search",
+    "about": "About"
+  },
+  "group": {
+    "tabCurrent": "Active Members",
+    "tabGraduated": "Graduated",
+    "tabByGen": "By Generation",
+    "memberCount": "{count} members",
+    "currentCount": "Active: {count}",
+    "graduatedCount": "Graduated: {count}",
+    "debutedOn": "Formed",
+    "archiveLink": "View {name} Era"
+  },
+  "member": {
+    "statusActive": "Active",
+    "statusGraduating": "Graduating Soon",
+    "statusGraduated": "Graduated",
+    "statusWithdrawn": "Withdrawn",
+    "statusTransferred": "Transferred",
+    "joinedOn": "Joined",
+    "graduatedOn": "Graduated",
+    "linksHeading": "Official Links",
+    "sameGeneration": "Generation Peers",
+    "noLinks": "No verified official links available at this time."
+  },
+  "link": {
+    "official_blog": "Official Blog",
+    "official_profile": "Official Profile",
+    "x": "X (formerly Twitter)",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "youtube": "YouTube",
+    "note": "note",
+    "ameblo": "Ameba Blog",
+    "weibo": "Weibo",
+    "agency": "Talent Agency",
+    "personal_site": "Official Site",
+    "other": "Official Website",
+    "archived": "Archived",
+    "openExternal": "Open external link"
+  },
+  "search": {
+    "placeholder": "Search by member name, kanji, kana, or romaji",
+    "noResults": "No members found",
+    "resultCount": "{count} found"
+  },
+  "about": {
+    "disclaimerTitle": "Unofficial Fan Site Notice",
+    "disclaimerBody": "This website is an unofficial, non-commercial link hub maintained by fans. It is not affiliated with Nogizaka46, Sakurazaka46, Hinatazaka46, Seed & Flower LLC, or Sony Music Labels Inc.",
+    "sourcesTitle": "Sources & Licensing",
+    "takedownTitle": "Takedown Requests & Inquiries"
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "reduceMotion": "Reduce motion",
+    "resumeMotion": "Resume motion",
+    "changeLanguage": "Change language"
+  }
+}

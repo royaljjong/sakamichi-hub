@@ -1,0 +1,68 @@
+{
+  "common": {
+    "siteName": "坂道シリーズ リンクハブ",
+    "viewMore": "もっと見る",
+    "back": "戻る",
+    "view": "見る"
+  },
+  "nav": {
+    "home": "ホーム",
+    "search": "検索",
+    "about": "このサイトについて"
+  },
+  "group": {
+    "tabCurrent": "現役メンバー",
+    "tabGraduated": "卒業生",
+    "tabByGen": "期別に見る",
+    "memberCount": "{count}名",
+    "currentCount": "現役 {count}名",
+    "graduatedCount": "卒業生 {count}名",
+    "debutedOn": "結成日",
+    "archiveLink": "{name}時代を見る"
+  },
+  "member": {
+    "statusActive": "現役",
+    "statusGraduating": "卒業予定",
+    "statusGraduated": "卒業",
+    "statusWithdrawn": "活動辞退",
+    "statusTransferred": "移籍",
+    "joinedOn": "加入日",
+    "graduatedOn": "卒業日",
+    "linksHeading": "公式リンク",
+    "sameGeneration": "同期メンバー",
+    "noLinks": "現在利用可能な公式リンクはありません"
+  },
+  "link": {
+    "official_blog": "公式ブログ",
+    "official_profile": "公式プロフィール",
+    "x": "X (舊 Twitter)",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "youtube": "YouTube",
+    "note": "note",
+    "ameblo": "Amebaブログ",
+    "weibo": "Weibo",
+    "agency": "所属事務所",
+    "personal_site": "オフィシャルサイト",
+    "other": "公式サイト",
+    "archived": "アーカイブ",
+    "openExternal": "外部リンクを開く"
+  },
+  "search": {
+    "placeholder": "メンバー名・漢字・かな・ローマ字で検索",
+    "noResults": "見つかりませんでした",
+    "resultCount": "{count}件"
+  },
+  "about": {
+    "disclaimerTitle": "非公式ファンサイト宣言",
+    "disclaimerBody": "当サイトはファンが運営する非公式・非営利のリンクハブです。乃木坂46 / 櫻坂46 / 日向坂46 および運営会社（株式会社Seed & Flower、株式会社ソニー・ミュージックレーベルズ）とは一切関係ありません。",
+    "sourcesTitle": "出典・ライセンス",
+    "takedownTitle": "削除要請・お問い合わせ"
+  },
+  "a11y": {
+    "skipToContent": "本文へスキップ",
+    "reduceMotion": "背景の動きを止める",
+    "resumeMotion": "背景の動きを再開",
+    "changeLanguage": "言語を切り替える"
+  }
+}

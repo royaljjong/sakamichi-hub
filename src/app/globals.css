@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@property --g-blob-a { syntax: '<color>'; inherits: true; initial-value: #B79AE0; }
+@property --g-blob-b { syntax: '<color>'; inherits: true; initial-value: #F3AEC2; }
+@property --g-blob-c { syntax: '<color>'; inherits: true; initial-value: #8FCFEE; }
+@property --g-brand  { syntax: '<color>'; inherits: true; initial-value: #9E8FB8; }
+@property --g-wash   { syntax: '<color>'; inherits: true; initial-value: #F6F2F8; }
+@property --g-ink    { syntax: '<color>'; inherits: true; initial-value: #3A3630; }
+
+:root {
+  --paper: #FBF8F3;
+  --paper-deep: #F4EFE7;
+  --ink: #3A3630;
+  --ink-soft: #7A736A;
+  --ink-faint: #B5ADA2;
+  --white-veil: rgba(251, 248, 243, 0.76);
+
+  --g-brand: #9E8FB8;
+  --g-blob-a: #B79AE0;
+  --g-blob-b: #F3AEC2;
+  --g-blob-c: #8FCFEE;
+  --g-wash: #F6F2F8;
+  --g-ink: #3A3630;
+
+  --r-sm: 12px;
+  --r-md: 20px;
+  --r-lg: 28px;
+  --r-pill: 999px;
+
+  --shadow-soft: 0 2px 8px color-mix(in oklab, var(--g-ink) 8%, transparent), 0 12px 32px color-mix(in oklab, var(--g-ink) 6%, transparent);
+  --shadow-lift: 0 4px 12px color-mix(in oklab, var(--g-ink) 10%, transparent), 0 20px 48px color-mix(in oklab, var(--g-ink) 8%, transparent);
+  --border-hair: 1px solid color-mix(in oklab, var(--g-ink) 12%, transparent);
+
+  transition:
+    --g-blob-a 1200ms cubic-bezier(0.33, 0.02, 0.16, 1),
+    --g-blob-b 1200ms cubic-bezier(0.33, 0.02, 0.16, 1) 80ms,
+    --g-blob-c 1200ms cubic-bezier(0.33, 0.02, 0.16, 1) 160ms,
+    --g-brand  900ms  cubic-bezier(0.33, 0.02, 0.16, 1),
+    --g-wash   900ms  cubic-bezier(0.33, 0.02, 0.16, 1),
+    --g-ink    900ms  cubic-bezier(0.33, 0.02, 0.16, 1);
+}
+
+[data-group="nogizaka46"] {
+  --g-brand: #8A6BC1;
+  --g-blob-a: #B79AE0;
+  --g-blob-b: #D9C6F2;
+  --g-blob-c: #EDE3FA;
+  --g-wash: #F3EDFB;
+  --g-ink: #3E3355;
+}
+
+[data-group="sakurazaka46"] {
+  --g-brand: #E88AA6;
+  --g-blob-a: #F3AEC2;
+  --g-blob-b: #F9CFDA;
+  --g-blob-c: #FDE7EE;
+  --g-wash: #FCEFF3;
+  --g-ink: #57323E;
+}
+
+[data-group="hinatazaka46"] {
+  --g-brand: #5AB4E0;
+  --g-blob-a: #8FCFEE;
+  --g-blob-b: #BEE4F7;
+  --g-blob-c: #E2F2FB;
+  --g-wash: #EDF6FC;
+  --g-ink: #274A5C;
+}
+
+[data-group="keyakizaka46"] {
+  --g-brand: #5FAE84;
+  --g-blob-a: #93CCAB;
+  --g-blob-b: #C0E2CE;
+  --g-blob-c: #E4F2EA;
+  --g-wash: #EFF7F2;
+  --g-ink: #2C4739;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blob { animation: none !important; }
+  :root { transition-duration: 0.01ms !important; }
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  min-height: 100vh;
+  letter-spacing: 0.04em;
+  font-feature-settings: "palt" 1;
+}
+
+:focus-visible {
+  outline: 2px solid var(--g-brand);
+  outline-offset: 3px;
+}
