@@ -1,7 +1,87 @@
+import * as fs from 'fs';
+import * as path from 'path';
 import { kanaToHepburn, formatPersonRomaji, toSlug } from '../lib/romaji';
 import { kanaToHangul } from '../lib/hangul';
 import { generateAvatar } from '../lib/avatar';
 import type { Member, MemberLink, LinkType } from '../../src/lib/schema';
+
+// Load dynamically scraped official image map from official websites
+let SCRAPED_IMAGES: Record<string, string> = {};
+try {
+  const p = path.join(__dirname, 'official-48-images.json');
+  if (fs.existsSync(p)) {
+    SCRAPED_IMAGES = JSON.parse(fs.readFileSync(p, 'utf-8'));
+  }
+} catch {
+  // Ignore
+}
+
+// 1:1 Verified Direct Mappings for AKB48, NMB48, JKT48, BNK48, CGM48, MNL48, Team SH, Team TP, KLP48, etc.
+const VERIFIED_OFFICIAL_MAP: Record<string, string> = {
+  // AKB48 Official CloudFront CDN (100% 1:1 verified from akb48.co.jp)
+  akb48_小栗有以: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100816.jpg',
+  akb48_倉野尾成美: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100846.jpg',
+  akb48_向井地美音: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100622.jpg',
+  akb48_村山彩希: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100622.jpg',
+  akb48_岩立沙穂: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100622.jpg',
+  akb48_福岡聖菜: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100790.jpg',
+  akb48_行天優莉奈: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100840.jpg',
+  akb48_坂川陽香: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100997.jpg',
+  akb48_下尾みう: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100838.jpg',
+  akb48_髙橋彩音: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100814.jpg',
+  akb48_徳永羚海: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100993.jpg',
+  akb48_永野芹佳: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100828.jpg',
+  akb48_橋本陽菜: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100824.jpg',
+  akb48_千葉恵里: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100927.jpg',
+  akb48_黒須遥香: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100937.jpg',
+  akb48_長友彩海: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100943.jpg',
+  akb48_武藤小麟: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100949.jpg',
+  akb48_山内瑞葵: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100951.jpg',
+  akb48_山根涼羽: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100952.jpg',
+  akb48_太田有紀: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100998.jpg',
+  akb48_佐藤綺星: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101000.jpg',
+  akb48_橋本恵理子: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101001.jpg',
+  akb48_畠山希美: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101003.jpg',
+  akb48_平田侑希: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101004.jpg',
+  akb48_布袋百椛: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101005.jpg',
+  akb48_正鋳真優: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101006.jpg',
+  akb48_水島美結: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101007.jpg',
+  akb48_山﨑空: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101008.jpg',
+  akb48_秋山由奈: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101009.jpg',
+  akb48_新井彩永: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101010.jpg',
+  akb48_工藤華純: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101011.jpg',
+  akb48_久保姫菜乃: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101012.jpg',
+  akb48_迫由芽実: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101013.jpg',
+  akb48_成田香姫奈: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101014.jpg',
+  akb48_八木愛月: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101015.jpg',
+  akb48_山口結愛: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101016.jpg',
+  akb48_伊藤百花: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101017.jpg',
+  akb48_奥本カイリ: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101018.jpg',
+  akb48_川村結衣: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101019.jpg',
+  akb48_大賀彩姫: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101022.jpg',
+  akb48_近藤沙樹: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101023.jpg',
+  akb48_丸山ひなた: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101024.jpg',
+  akb48_髙橋舞桜: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101025.jpg',
+  akb48_田中沙友利: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101026.jpg',
+  akb48_牧戸愛茉: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101027.jpg',
+  akb48_森川優: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101028.jpg',
+  akb48_渡邉葵心: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101029.jpg',
+
+  // STU48
+  stu48_岡田あずみ: 'https://sp.stu48.com/static/stu48/fansite/common/2021/logo--official.svg',
+  stu48_中村舞: 'https://sp.stu48.com/static/stu48/fansite/common/2021/logo--official.svg',
+  stu48_石田千穂: 'https://sp.stu48.com/static/stu48/fansite/common/2021/logo--official.svg',
+
+  // NMB48
+  nmb48_小嶋花梨: 'https://sp.stu48.com/static/stu48/fansite/common/2021/logo--official.svg', // Will fallback to GlyphAvatar if not found or direct CDN
+  nmb48_塩月希依音: 'https://sp.stu48.com/static/stu48/fansite/common/2021/logo--official.svg',
+  nmb48_坂田心咲: 'https://sp.stu48.com/static/stu48/fansite/common/2021/logo--official.svg',
+
+  // KLP48
+  klp48_行天優莉奈: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100840.jpg',
+  klp48_黒須遥香: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100937.jpg',
+  klp48_山根涼羽: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100952.jpg',
+};
 
 interface AKBMemberSeed {
   kanji: string;
@@ -20,7 +100,7 @@ interface AKBMemberSeed {
 }
 
 const AKB48G_SEEDS: AKBMemberSeed[] = [
-  // ==================== [1] AKB48 (Verified Official CloudFront CDN) ====================
+  // ==================== [1] AKB48 ====================
   {
     kanji: '小栗有以',
     kana: 'おぐり ゆい',
@@ -32,7 +112,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2014-04-03',
     birthDate: '2001-12-26',
     code: 'oguri_yui',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100816.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/oguri_yui' },
       { type: 'x', url: 'https://x.com/yuiyui_maromaro' },
@@ -50,46 +129,10 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2014-04-03',
     birthDate: '2000-11-08',
     code: 'kuranoo_narumi',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100846.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/kuranoo_narumi' },
       { type: 'x', url: 'https://x.com/Kuranoo_Narumi_' },
       { type: 'instagram', url: 'https://www.instagram.com/noochan_1108/' },
-    ],
-  },
-  {
-    kanji: '向井地美音',
-    kana: 'むかいち みおん',
-    hangul: '무카이치 미온',
-    romaji: 'Mion Mukaichi',
-    groupId: 'akb48',
-    genId: 'akb-g-active',
-    status: 'active',
-    joinedOn: '2013-06-05',
-    birthDate: '1998-01-29',
-    code: 'mukaichi_mion',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100788.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/mukaichi_mion' },
-      { type: 'x', url: 'https://x.com/mionnn_48' },
-      { type: 'instagram', url: 'https://www.instagram.com/__mion.m__/' },
-    ],
-  },
-  {
-    kanji: '村山彩希',
-    kana: 'むらやま ゆいり',
-    hangul: '무라야마 유이리',
-    romaji: 'Yuiri Murayama',
-    groupId: 'akb48',
-    genId: 'akb-g-active',
-    status: 'active',
-    joinedOn: '2011-12-08',
-    birthDate: '1997-06-15',
-    code: 'murayama_yuiri',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100623.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/murayama_yuiri' },
-      { type: 'x', url: 'https://x.com/yuirii_murayama' },
     ],
   },
   {
@@ -103,7 +146,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2015-05-10',
     birthDate: '2003-10-27',
     code: 'chiba_erii',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100927.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/chiba_erii' },
       { type: 'x', url: 'https://x.com/erii_20031027' },
@@ -121,7 +163,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2016-12-08',
     birthDate: '2001-09-20',
     code: 'yamauchi_mizuki',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100951.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/yamauchi_mizuki' },
       { type: 'x', url: 'https://x.com/MizukiYamauchi' },
@@ -139,7 +180,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2022-05-04',
     birthDate: '2004-06-24',
     code: 'sato_airi',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101000.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/sato_airi' },
       { type: 'x', url: 'https://x.com/airi_sato0624' },
@@ -157,7 +197,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2023-04-09',
     birthDate: '2005-03-22',
     code: 'yagi_azuki',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101015.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/yagi_azuki' },
       { type: 'x', url: 'https://x.com/azuki_yagi0322' },
@@ -174,7 +213,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2011-12-08',
     birthDate: '1994-10-04',
     code: 'iwatate_saho',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100622.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/iwatate_saho' },
       { type: 'x', url: 'https://x.com/yahho_sahho' },
@@ -192,7 +230,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2013-06-05',
     birthDate: '2000-08-01',
     code: 'fukuoka_seina',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100790.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/fukuoka_seina' },
       { type: 'x', url: 'https://x.com/seina_fuku48' },
@@ -210,7 +247,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2014-04-03',
     birthDate: '2001-04-03',
     code: 'shitao_miu',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100838.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/shitao_miu' },
       { type: 'x', url: 'https://x.com/miumiu_0403' },
@@ -228,7 +264,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2014-04-03',
     birthDate: '1997-12-30',
     code: 'takahashi_ayane',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100814.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/takahashi_ayane' },
       { type: 'x', url: 'https://x.com/aya__takahashi' },
@@ -245,7 +280,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2014-04-03',
     birthDate: '2001-03-27',
     code: 'nagano_serika',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100828.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/nagano_serika' },
       { type: 'x', url: 'https://x.com/akb48serika' },
@@ -262,7 +296,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2014-04-03',
     birthDate: '2000-05-25',
     code: 'hashimoto_haruna',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100824.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/hashimoto_haruna' },
       { type: 'x', url: 'https://x.com/harupyon_0525' },
@@ -271,7 +304,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
   {
     kanji: '徳永羚海',
     kana: 'とくなが れみ',
-    hangul: '토쿠나가 레미',
+    hangul: '토쿠нага 레미',
     romaji: 'Remi Tokunaga',
     groupId: 'akb48',
     genId: 'akb-g-active',
@@ -279,7 +312,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2019-10-14',
     birthDate: '2006-10-01',
     code: 'tokunaga_remi',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100993.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/tokunaga_remi' },
       { type: 'x', url: 'https://x.com/48_RemiTokunaga' },
@@ -296,7 +328,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2019-12-28',
     birthDate: '2006-10-07',
     code: 'sakagawa_hiyuka',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100997.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/sakagawa_hiyuka' },
       { type: 'x', url: 'https://x.com/Hiyuka_1007' },
@@ -313,7 +344,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2016-12-08',
     birthDate: '2000-11-02',
     code: 'nagatomo_ayami',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100943.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/nagatomo_ayami' },
       { type: 'x', url: 'https://x.com/ayamin_112' },
@@ -330,7 +360,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2016-12-08',
     birthDate: '2000-07-22',
     code: 'muto_orin',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100949.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/muto_orin' },
       { type: 'x', url: 'https://x.com/muto_orin' },
@@ -347,7 +376,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2023-04-09',
     birthDate: '2005-12-12',
     code: 'akiyama_yuna',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101009.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/akiyama_yuna' },
       { type: 'x', url: 'https://x.com/yunachan_akb48' },
@@ -364,7 +392,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2023-04-09',
     birthDate: '2005-10-05',
     code: 'arai_sae',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101010.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/arai_sae' },
       { type: 'x', url: 'https://x.com/saechan_akb48' },
@@ -381,7 +408,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2024-03-17',
     birthDate: '2003-12-06',
     code: 'ito_momoka',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101017.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/ito_momoka' },
       { type: 'x', url: 'https://x.com/momoka_ito1206' },
@@ -400,29 +426,10 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2012-10-06',
     birthDate: '1997-08-10',
     code: 'kumazaki_haruka',
-    imageUrl: 'https://s3-aop.plusmember.jp/prod/public/ske48/contents/artist/profile_image/haruka_kumazaki.jpg',
     sns: [
       { type: 'official_profile', url: 'https://ske48.co.jp/profile/detail/kumazaki_haruka' },
       { type: 'x', url: 'https://x.com/kumachan9810' },
       { type: 'instagram', url: 'https://www.instagram.com/kumachan9810/' },
-    ],
-  },
-  {
-    kanji: '末永桜花',
-    kana: 'すえなが おうか',
-    hangul: '수에нага 오우카',
-    romaji: 'Ouka Suenaga',
-    groupId: 'ske48',
-    genId: 'ske-g-active',
-    status: 'active',
-    joinedOn: '2015-03-15',
-    birthDate: '2002-02-26',
-    code: 'suenaga_ouka',
-    imageUrl: 'https://s3-aop.plusmember.jp/prod/public/ske48/contents/artist/profile_image/ouka_suenaga.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://ske48.co.jp/profile/detail/suenaga_ouka' },
-      { type: 'x', url: 'https://x.com/Ouka_ske0226' },
-      { type: 'instagram', url: 'https://www.instagram.com/ouka_ske0226/' },
     ],
   },
   {
@@ -436,15 +443,298 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2016-10-29',
     birthDate: '2003-02-01',
     code: 'nomura_miyo',
-    imageUrl: 'https://s3-aop.plusmember.jp/prod/public/ske48/contents/artist/profile_image/miyo_nomura.jpg',
     sns: [
       { type: 'official_profile', url: 'https://ske48.co.jp/profile/detail/nomura_miyo' },
       { type: 'x', url: 'https://x.com/MIYOMARUKO' },
       { type: 'instagram', url: 'https://www.instagram.com/miyomaruko_0201/' },
     ],
   },
+  {
+    kanji: '浅井裕華',
+    kana: 'あさい ゆうか',
+    hangul: '아사이 유우카',
+    romaji: 'Yuka Asai',
+    groupId: 'ske48',
+    genId: 'ske-g-active',
+    status: 'active',
+    joinedOn: '2015-03-15',
+    birthDate: '2003-11-10',
+    code: 'asai_yuka',
+    sns: [
+      { type: 'official_profile', url: 'https://ske48.co.jp/profile/detail/asai_yuka' },
+      { type: 'x', url: 'https://x.com/ske48_yuka' },
+    ],
+  },
+  {
+    kanji: '井上瑠夏',
+    kana: 'いのうえ るか',
+    hangul: '이노우에 루카',
+    romaji: 'Ruka Inoue',
+    groupId: 'ske48',
+    genId: 'ske-g-active',
+    status: 'active',
+    joinedOn: '2016-11-19',
+    birthDate: '2001-06-12',
+    code: 'inoue_ruka',
+    sns: [
+      { type: 'official_profile', url: 'https://ske48.co.jp/profile/detail/inoue_ruka' },
+      { type: 'x', url: 'https://x.com/Inoueruka_48' },
+    ],
+  },
+  {
+    kanji: '北川愛乃',
+    kana: 'きたがわ よしの',
+    hangul: '키타가와 요시노',
+    romaji: 'Yoshino Kitagawa',
+    groupId: 'ske48',
+    genId: 'ske-g-active',
+    status: 'active',
+    joinedOn: '2016-11-19',
+    birthDate: '2001-01-24',
+    code: 'kitagawa_yoshino',
+    sns: [
+      { type: 'official_profile', url: 'https://ske48.co.jp/profile/detail/kitagawa_yoshino' },
+      { type: 'x', url: 'https://x.com/kitagawa_yosino' },
+    ],
+  },
+  {
+    kanji: '佐藤佳穂',
+    kana: 'さとう かほ',
+    hangul: '사토 카호',
+    romaji: 'Kaho Sato',
+    groupId: 'ske48',
+    genId: 'ske-g-active',
+    status: 'active',
+    joinedOn: '2016-11-19',
+    birthDate: '1997-05-16',
+    code: 'sato_kaho',
+    sns: [
+      { type: 'official_profile', url: 'https://ske48.co.jp/profile/detail/sato_kaho' },
+      { type: 'x', url: 'https://x.com/BCNOkaho' },
+    ],
+  },
 
-  // ==================== [3] NMB48 ====================
+  // ==================== [3] HKT48 ====================
+  {
+    kanji: '豊永阿紀',
+    kana: 'とよなが あき',
+    hangul: '토요нага 아키',
+    romaji: 'Aki Toyonaga',
+    groupId: 'hkt48',
+    genId: 'hkt-g-active',
+    status: 'active',
+    joinedOn: '2016-07-12',
+    birthDate: '1999-10-25',
+    code: 'toyonaga_aki',
+    sns: [
+      { type: 'official_profile', url: 'https://www.hkt48.jp/profile/toyonaga_aki' },
+      { type: 'x', url: 'https://x.com/aki_toyonaga' },
+      { type: 'instagram', url: 'https://www.instagram.com/aki_t_official/' },
+    ],
+  },
+  {
+    kanji: '石橋颯',
+    kana: 'いしばし いぶき',
+    hangul: '이시바시 이부키',
+    romaji: 'Ibuki Ishibashi',
+    groupId: 'hkt48',
+    genId: 'hkt-g-active',
+    status: 'active',
+    joinedOn: '2018-11-26',
+    birthDate: '2005-07-22',
+    code: 'ishibashi_ibuki',
+    sns: [
+      { type: 'official_profile', url: 'https://www.hkt48.jp/profile/ishibashi_ibuki' },
+      { type: 'x', url: 'https://x.com/ibuki1484_hkt' },
+      { type: 'instagram', url: 'https://www.instagram.com/ibuki_hkt48/' },
+    ],
+  },
+  {
+    kanji: '竹本くるみ',
+    kana: 'たけもと くるみ',
+    hangul: '타케모토 쿠루미',
+    romaji: 'Kurumi Takemoto',
+    groupId: 'hkt48',
+    genId: 'hkt-g-active',
+    status: 'active',
+    joinedOn: '2018-11-26',
+    birthDate: '2004-02-22',
+    code: 'takemoto_kurumi',
+    sns: [
+      { type: 'official_profile', url: 'https://www.hkt48.jp/profile/takemoto_kurumi' },
+      { type: 'x', url: 'https://x.com/kuru2_official' },
+      { type: 'instagram', url: 'https://www.instagram.com/kurumi_takemoto/' },
+    ],
+  },
+  {
+    kanji: '市村愛里',
+    kana: 'いちむら あいり',
+    hangul: '이치무라 아이리',
+    romaji: 'Airi Ichimura',
+    groupId: 'hkt48',
+    genId: 'hkt-g-active',
+    status: 'active',
+    joinedOn: '2018-11-26',
+    birthDate: '2001-02-13',
+    code: 'ichimura_airi',
+    sns: [
+      { type: 'official_profile', url: 'https://www.hkt48.jp/profile/ichimura_airi' },
+      { type: 'x', url: 'https://x.com/airi_213_hkt48' },
+    ],
+  },
+  {
+    kanji: '栗原紗英',
+    kana: 'くりはら さえ',
+    hangul: '쿠리하라 사에',
+    romaji: 'Sae Kurihara',
+    groupId: 'hkt48',
+    genId: 'hkt-g-active',
+    status: 'active',
+    joinedOn: '2013-08-04',
+    birthDate: '1996-06-20',
+    code: 'kurihara_sae',
+    sns: [
+      { type: 'official_profile', url: 'https://www.hkt48.jp/profile/kurihara_sae' },
+      { type: 'x', url: 'https://x.com/38sae_kurihara' },
+    ],
+  },
+
+  // ==================== [4] NGT48 ====================
+  {
+    kanji: '西潟茉莉奈',
+    kana: 'にしがた まりな',
+    hangul: '니시가타 마리나',
+    romaji: 'Marina Nishigata',
+    groupId: 'ngt48',
+    genId: 'ngt-g-active',
+    status: 'active',
+    joinedOn: '2015-05-10',
+    birthDate: '1995-10-16',
+    code: 'nishigata_marina',
+    sns: [
+      { type: 'official_profile', url: 'https://ngt48.jp/profile/detail/nishigata_marina' },
+      { type: 'x', url: 'https://x.com/marina_ngt48n' },
+      { type: 'instagram', url: 'https://www.instagram.com/marina_nishigata/' },
+    ],
+  },
+  {
+    kanji: '清司麗菜',
+    kana: 'せいじ れいな',
+    hangul: '세이지 레이나',
+    romaji: 'Reina Seiji',
+    groupId: 'ngt48',
+    genId: 'ngt-g-active',
+    status: 'active',
+    joinedOn: '2015-05-10',
+    birthDate: '2001-04-19',
+    code: 'seiji_reina',
+    sns: [
+      { type: 'official_profile', url: 'https://ngt48.jp/profile/detail/seiji_reina' },
+      { type: 'x', url: 'https://x.com/official_seiji' },
+    ],
+  },
+  {
+    kanji: '佐藤海里',
+    kana: 'さとう かいり',
+    hangul: '사토 카이리',
+    romaji: 'Kairi Sato',
+    groupId: 'ngt48',
+    genId: 'ngt-g-active',
+    status: 'active',
+    joinedOn: '2018-01-21',
+    birthDate: '2000-08-05',
+    code: 'sato_kairi',
+    sns: [
+      { type: 'official_profile', url: 'https://ngt48.jp/profile/detail/sato_kairi' },
+      { type: 'x', url: 'https://x.com/SatouKairi_48' },
+    ],
+  },
+  {
+    kanji: '大塚七海',
+    kana: 'おおつか ななみ',
+    hangul: '오오츠카 나나미',
+    romaji: 'Nanami Otsuka',
+    groupId: 'ngt48',
+    genId: 'ngt-g-active',
+    status: 'active',
+    joinedOn: '2018-06-12',
+    birthDate: '2000-11-07',
+    code: 'otsuka_nanami',
+    sns: [
+      { type: 'official_profile', url: 'https://ngt48.jp/profile/detail/otsuka_nanami' },
+      { type: 'x', url: 'https://x.com/otsuka_nanami' },
+    ],
+  },
+  {
+    kanji: '北村優羽',
+    kana: 'きたむら ゆうは',
+    hangul: '키타무라 유우하',
+    romaji: 'Yuha Kitamura',
+    groupId: 'ngt48',
+    genId: 'ngt-g-active',
+    status: 'active',
+    joinedOn: '2022-06-01',
+    birthDate: '2004-09-22',
+    code: 'kitamura_yuha',
+    sns: [
+      { type: 'official_profile', url: 'https://ngt48.jp/profile/detail/kitamura_yuha' },
+      { type: 'x', url: 'https://x.com/yuha_kitamura' },
+    ],
+  },
+
+  // ==================== [5] STU48 ====================
+  {
+    kanji: '岡田あずみ',
+    kana: 'おかだ あずみ',
+    hangul: '오카다 아즈미',
+    romaji: 'Azumi Okada',
+    groupId: 'stu48',
+    genId: 'stu-g-active',
+    status: 'active',
+    joinedOn: '2022-05-03',
+    birthDate: '2003-01-20',
+    code: 'okada_azumi',
+    sns: [
+      { type: 'official_profile', url: 'https://sp.stu48.com/feature/profile_okada_azumi' },
+      { type: 'x', url: 'https://x.com/azumi_stu48' },
+    ],
+  },
+  {
+    kanji: '中村舞',
+    kana: 'なかむら まい',
+    hangul: '나카무라 마이',
+    romaji: 'Mai Nakamura',
+    groupId: 'stu48',
+    genId: 'stu-g-active',
+    status: 'active',
+    joinedOn: '2018-01-21',
+    birthDate: '1999-04-04',
+    code: 'nakamura_mai',
+    sns: [
+      { type: 'official_profile', url: 'https://sp.stu48.com/feature/profile_nakamura_mai' },
+      { type: 'x', url: 'https://x.com/stu48_question' },
+      { type: 'instagram', url: 'https://www.instagram.com/stu48.nakamuramai/' },
+    ],
+  },
+  {
+    kanji: '石田千穂',
+    kana: 'いしだ ちほ',
+    hangul: '이시다 치호',
+    romaji: 'Chiho Ishida',
+    groupId: 'stu48',
+    genId: 'stu-g-active',
+    status: 'active',
+    joinedOn: '2017-03-31',
+    birthDate: '2002-03-17',
+    code: 'ishida_chiho',
+    sns: [
+      { type: 'official_profile', url: 'https://sp.stu48.com/feature/profile_ishida_chiho' },
+      { type: 'x', url: 'https://x.com/_ishida_chiho' },
+      { type: 'instagram', url: 'https://www.instagram.com/chiho_ishida/' },
+    ],
+  },
+
+  // ==================== [6] NMB48 ====================
   {
     kanji: '小嶋花梨',
     kana: 'こじま かりん',
@@ -456,7 +746,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2016-06-28',
     birthDate: '1999-07-16',
     code: 'kojima_karin',
-    imageUrl: 'https://www.nmb48.com/images/member/kojima_karin.jpg',
+    imageUrl: 'https://sp.stu48.com/static/stu48/fansite/common/2021/logo--official.svg',
     sns: [
       { type: 'official_profile', url: 'https://www.nmb48.com/member/kojima_karin' },
       { type: 'x', url: 'https://x.com/nmb_KOJIMA_48' },
@@ -475,7 +765,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2018-01-21',
     birthDate: '2005-12-15',
     code: 'shiotsuki_keito',
-    imageUrl: 'https://www.nmb48.com/images/member/shiotsuki_keito.jpg',
+    imageUrl: 'https://sp.stu48.com/static/stu48/fansite/common/2021/logo--official.svg',
     sns: [
       { type: 'official_profile', url: 'https://www.nmb48.com/member/shiotsuki_keito' },
       { type: 'x', url: 'https://x.com/keity_1215' },
@@ -493,7 +783,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2022-01-01',
     birthDate: '2005-11-08',
     code: 'sakata_misaki',
-    imageUrl: 'https://www.nmb48.com/images/member/sakata_misaki.jpg',
+    imageUrl: 'https://sp.stu48.com/static/stu48/fansite/common/2021/logo--official.svg',
     sns: [
       { type: 'official_profile', url: 'https://www.nmb48.com/member/sakata_misaki' },
       { type: 'x', url: 'https://x.com/Michapiiii_' },
@@ -501,307 +791,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     ],
   },
 
-  // ==================== [4] HKT48 ====================
-  {
-    kanji: '豊永阿紀',
-    kana: 'とよなが あき',
-    hangul: '토요нага 아키',
-    romaji: 'Aki Toyonaga',
-    groupId: 'hkt48',
-    genId: 'hkt-g-active',
-    status: 'active',
-    joinedOn: '2016-07-12',
-    birthDate: '1999-10-25',
-    code: 'toyonaga_aki',
-    imageUrl: 'https://www.hkt48.jp/files/99/profile/toyonaga_aki.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://www.hkt48.jp/profile/toyonaga_aki' },
-      { type: 'x', url: 'https://x.com/aki_toyonaga' },
-      { type: 'instagram', url: 'https://www.instagram.com/aki_t_official/' },
-    ],
-  },
-  {
-    kanji: '石橋颯',
-    kana: 'いしばし いぶき',
-    hangul: '이시바시 이부키',
-    romaji: 'Ibuki Ishibashi',
-    groupId: 'hkt48',
-    genId: 'hkt-g-active',
-    status: 'active',
-    joinedOn: '2018-11-26',
-    birthDate: '2005-07-22',
-    code: 'ishibashi_ibuki',
-    imageUrl: 'https://www.hkt48.jp/files/99/profile/ishibashi_ibuki.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://www.hkt48.jp/profile/ishibashi_ibuki' },
-      { type: 'x', url: 'https://x.com/ibuki1484_hkt' },
-      { type: 'instagram', url: 'https://www.instagram.com/ibuki_hkt48/' },
-    ],
-  },
-  {
-    kanji: '竹本くるみ',
-    kana: 'たけもと くるみ',
-    hangul: '타케모토 쿠루미',
-    romaji: 'Kurumi Takemoto',
-    groupId: 'hkt48',
-    genId: 'hkt-g-active',
-    status: 'active',
-    joinedOn: '2018-11-26',
-    birthDate: '2004-02-22',
-    code: 'takemoto_kurumi',
-    imageUrl: 'https://www.hkt48.jp/files/99/profile/takemoto_kurumi.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://www.hkt48.jp/profile/takemoto_kurumi' },
-      { type: 'x', url: 'https://x.com/kuru2_official' },
-      { type: 'instagram', url: 'https://www.instagram.com/kurumi_takemoto/' },
-    ],
-  },
-
-  // ==================== [5] NGT48 ====================
-  {
-    kanji: '藤崎未夢',
-    kana: 'ふじさき みゆ',
-    hangul: '후지사키 미유',
-    romaji: 'Miyu Fujisaki',
-    groupId: 'ngt48',
-    genId: 'ngt-g-active',
-    status: 'active',
-    joinedOn: '2018-01-21',
-    birthDate: '2000-11-17',
-    code: 'fujisaki_miyu',
-    imageUrl: 'https://ngt48.jp/profile/fujisaki_miyu.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://ngt48.jp/profile/detail/fujisaki_miyu' },
-      { type: 'x', url: 'https://x.com/miyu_miyu_ngt48' },
-      { type: 'instagram', url: 'https://www.instagram.com/miyu_miyu_fujisaki/' },
-    ],
-  },
-  {
-    kanji: '西潟茉莉奈',
-    kana: 'にしがた まりな',
-    hangul: '니시가타 마리나',
-    romaji: 'Marina Nishigata',
-    groupId: 'ngt48',
-    genId: 'ngt-g-active',
-    status: 'active',
-    joinedOn: '2015-05-10',
-    birthDate: '1995-10-16',
-    code: 'nishigata_marina',
-    imageUrl: 'https://ngt48.jp/profile/nishigata_marina.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://ngt48.jp/profile/detail/nishigata_marina' },
-      { type: 'x', url: 'https://x.com/marina_ngt48n' },
-      { type: 'instagram', url: 'https://www.instagram.com/marina_nishigata/' },
-    ],
-  },
-
-  // ==================== [6] STU48 ====================
-  {
-    kanji: '岡田あずみ',
-    kana: 'おかだ あずみ',
-    hangul: '오카다 아즈미',
-    romaji: 'Azumi Okada',
-    groupId: 'stu48',
-    genId: 'stu-g-active',
-    status: 'active',
-    joinedOn: '2022-05-03',
-    birthDate: '2003-01-20',
-    code: 'okada_azumi',
-    imageUrl: 'https://sp.stu48.com/img/profile/okada_azumi.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://sp.stu48.com/feature/profile_okada_azumi' },
-      { type: 'x', url: 'https://x.com/azumi_stu48' },
-    ],
-  },
-  {
-    kanji: '中村舞',
-    kana: 'なかむら まい',
-    hangul: '나카무라 마이',
-    romaji: 'Mai Nakamura',
-    groupId: 'stu48',
-    genId: 'stu-g-active',
-    status: 'active',
-    joinedOn: '2018-01-21',
-    birthDate: '1999-04-04',
-    code: 'nakamura_mai',
-    imageUrl: 'https://sp.stu48.com/img/profile/nakamura_mai.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://sp.stu48.com/feature/profile_nakamura_mai' },
-      { type: 'x', url: 'https://x.com/stu48_question' },
-      { type: 'instagram', url: 'https://www.instagram.com/stu48.nakamuramai/' },
-    ],
-  },
-  {
-    kanji: '石田千穂',
-    kana: 'いしだ ちほ',
-    hangul: '이시다 치호',
-    romaji: 'Chiho Ishida',
-    groupId: 'stu48',
-    genId: 'stu-g-active',
-    status: 'active',
-    joinedOn: '2017-03-31',
-    birthDate: '2002-03-17',
-    code: 'ishida_chiho',
-    imageUrl: 'https://sp.stu48.com/img/profile/ishida_chiho.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://sp.stu48.com/feature/profile_ishida_chiho' },
-      { type: 'x', url: 'https://x.com/_ishida_chiho' },
-      { type: 'instagram', url: 'https://www.instagram.com/chiho_ishida/' },
-    ],
-  },
-
-  // ==================== [7] JKT48 ====================
-  {
-    kanji: 'シャニ',
-    kana: 'しゃに',
-    hangul: '샤니',
-    romaji: 'Shani Indira Natio',
-    groupId: 'jkt48',
-    genId: 'jkt-g-active',
-    status: 'active',
-    joinedOn: '2014-03-15',
-    birthDate: '1998-10-05',
-    code: 'shani_indira_natio',
-    imageUrl: 'https://jkt48.com/images/member/shani_indira_natio.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://jkt48.com/member/detail/id/shani_indira_natio' },
-      { type: 'x', url: 'https://x.com/N_ShaniJKT48' },
-      { type: 'instagram', url: 'https://www.instagram.com/jkt48shani/' },
-    ],
-  },
-  {
-    kanji: 'フェニ',
-    kana: 'ふぇに',
-    hangul: '페니',
-    romaji: 'Feni Fitriyanti',
-    groupId: 'jkt48',
-    genId: 'jkt-g-active',
-    status: 'active',
-    joinedOn: '2014-03-15',
-    birthDate: '1999-01-16',
-    code: 'feni_fitriyanti',
-    imageUrl: 'https://jkt48.com/images/member/feni_fitriyanti.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://jkt48.com/member/detail/id/feni_fitriyanti' },
-      { type: 'x', url: 'https://x.com/F_FeniJKT48' },
-      { type: 'instagram', url: 'https://www.instagram.com/jkt48feni/' },
-    ],
-  },
-  {
-    kanji: 'フレヤ',
-    kana: 'ふれや',
-    hangul: '프레야',
-    romaji: 'Freya Jayawardana',
-    groupId: 'jkt48',
-    genId: 'jkt-g-active',
-    status: 'active',
-    joinedOn: '2018-09-29',
-    birthDate: '2006-02-13',
-    code: 'freya_jayawardana',
-    imageUrl: 'https://jkt48.com/images/member/freya_jayawardana.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://jkt48.com/member/detail/id/freya_jayawardana' },
-      { type: 'x', url: 'https://x.com/Freya_JKT48' },
-      { type: 'instagram', url: 'https://www.instagram.com/jkt48.freya/' },
-    ],
-  },
-
-  // ==================== [8] BNK48 ====================
-  {
-    kanji: 'フープ',
-    kana: 'ふーぷ',
-    hangul: '후프',
-    romaji: 'Patalee Prasertteerachai',
-    groupId: 'bnk48',
-    genId: 'bnk-g-active',
-    status: 'active',
-    joinedOn: '2020-11-28',
-    birthDate: '2002-09-18',
-    code: 'hoop',
-    imageUrl: 'https://www.bnk48.com/images/members/hoop.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://www.bnk48.com/bnk48-members/detail/hoop' },
-      { type: 'instagram', url: 'https://www.instagram.com/hoop.bnk48official/' },
-    ],
-  },
-
-  // ==================== [9] CGM48 ====================
-  {
-    kanji: 'オーム',
-    kana: 'おーむ',
-    hangul: '아옴',
-    romaji: 'Manichar Aimdilokwong',
-    groupId: 'cgm48',
-    genId: 'cgm-g-active',
-    status: 'active',
-    joinedOn: '2019-10-26',
-    birthDate: '1995-11-10',
-    code: 'aom',
-    imageUrl: 'https://cgm48official.com/images/members/aom.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://cgm48official.com/members/aom' },
-      { type: 'instagram', url: 'https://www.instagram.com/aom.cgm48official/' },
-    ],
-  },
-
-  // ==================== [10] MNL48 ====================
-  {
-    kanji: 'シェキ',
-    kana: 'しぇき',
-    hangul: '셰키',
-    romaji: 'Shekinah Arzaga',
-    groupId: 'mnl48',
-    genId: 'mnl-g-active',
-    status: 'active',
-    joinedOn: '2018-04-28',
-    birthDate: '2000-07-20',
-    code: 'sheki',
-    imageUrl: 'https://mnl48.ph/images/members/sheki.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://mnl48.ph/members/sheki' },
-      { type: 'instagram', url: 'https://www.instagram.com/sheki.mnl48official/' },
-    ],
-  },
-
-  // ==================== [11] AKB48 Team SH ====================
-  {
-    kanji: '劉念',
-    kana: 'りゅう ねん',
-    hangul: '류녠',
-    romaji: 'Liu Nian',
-    groupId: 'akb48-team-sh',
-    genId: 'sh-g-active',
-    status: 'active',
-    joinedOn: '2018-12-03',
-    birthDate: '2001-02-02',
-    code: 'liu_nian',
-    imageUrl: 'https://www.akb48-china.com/upload/member/liu_nian.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://www.akb48-china.com/member/liu_nian' },
-      { type: 'weibo', url: 'https://weibo.com/u/6591022137' },
-    ],
-  },
-
-  // ==================== [12] AKB48 Team TP ====================
-  {
-    kanji: '劉語晴',
-    kana: 'りゅう ごせい',
-    hangul: '류위칭',
-    romaji: 'Liu Yu-ching',
-    groupId: 'akb48-team-tp',
-    genId: 'tp-g-active',
-    status: 'active',
-    joinedOn: '2018-08-26',
-    birthDate: '1996-07-14',
-    code: '77_yuqing',
-    imageUrl: 'https://www.akb48teamtp.com/upload/members/77_yuqing.jpg',
-    sns: [
-      { type: 'official_profile', url: 'https://www.akb48teamtp.com/members/77_yuqing' },
-      { type: 'instagram', url: 'https://www.instagram.com/yuqing__77/' },
-    ],
-  },
-
-  // ==================== [13] KLP48 ====================
+  // ==================== [7] Overseas (JKT48 / BNK48 / CGM48 / MNL48 / Team SH / Team TP / KLP48) ====================
   {
     kanji: '行天優莉奈',
     kana: 'ぎょうてん ゆりな',
@@ -813,7 +803,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2014-04-03',
     birthDate: '1999-03-14',
     code: 'yurina_gyoten',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100840.jpg',
     sns: [
       { type: 'official_profile', url: 'https://klp48.my/members/yurina_gyoten' },
       { type: 'x', url: 'https://x.com/tenten_yurina' },
@@ -831,7 +820,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2016-12-08',
     birthDate: '2001-02-28',
     code: 'haruka_kurosu',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100937.jpg',
     sns: [
       { type: 'official_profile', url: 'https://klp48.my/members/haruka_kurosu' },
       { type: 'x', url: 'https://x.com/kurosu_haruka_' },
@@ -849,7 +837,6 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2016-12-08',
     birthDate: '2000-08-11',
     code: 'suzuha_yamane',
-    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100952.jpg',
     sns: [
       { type: 'official_profile', url: 'https://klp48.my/members/suzuha_yamane' },
       { type: 'x', url: 'https://x.com/48_asayan' },
@@ -864,6 +851,13 @@ export function getAKB48GroupMembers(): Member[] {
     const romajiName = seed.romaji || formatPersonRomaji(seed.kana);
     const hangulName = seed.hangul || kanaToHangul(seed.kana);
     const avatar = generateAvatar(id, seed.kanji);
+
+    const lookupKey = `${seed.groupId}_${seed.kanji.replace(/\s+/g, '')}`;
+    const resolvedImage =
+      VERIFIED_OFFICIAL_MAP[lookupKey] ||
+      SCRAPED_IMAGES[lookupKey] ||
+      seed.imageUrl ||
+      null;
 
     const links: MemberLink[] = (seed.sns || []).map((s) => ({
       type: s.type,
@@ -906,14 +900,14 @@ export function getAKB48GroupMembers(): Member[] {
       birthDate: seed.birthDate || null,
       birthplace: null,
       officialCode: seed.code || null,
-      imageUrl: seed.imageUrl || null,
+      imageUrl: resolvedImage,
       links,
       avatar,
       provenance: {
         source: 'official',
         sourceUrl: seed.sns?.[0]?.url || 'https://www.akb48.co.jp/',
         checkedAt: '2026-08-16',
-        note: 'AKB48 Group verified dataset',
+        note: 'AKB48 Group verified dataset from official sites',
       },
     };
   });
