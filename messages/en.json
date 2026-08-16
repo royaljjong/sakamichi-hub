@@ -1,9 +1,20 @@
 {
   "common": {
-    "siteName": "Sakamichi Series Link Hub",
+    "siteName": "Sakamichi & 48 Group Link Hub",
     "viewMore": "View more",
     "back": "Back",
     "view": "View"
+  },
+  "franchise": {
+    "sakamichi": "🌸 Sakamichi Series",
+    "sakamichiShort": "Sakamichi Series",
+    "akb48g": "🎀 AKB48 Group",
+    "akb48gShort": "AKB48 Group",
+    "domestic": "🇯🇵 Domestic Groups",
+    "international": "🌏 International Groups",
+    "all": "All",
+    "sakamichiDesc": "Nogizaka46, Sakurazaka46, Hinatazaka46 Directory",
+    "akb48gDesc": "AKB48, SKE48, NMB48, HKT48, NGT48, STU48 & Sister Groups"
   },
   "nav": {
     "home": "Home",

@@ -224,18 +224,33 @@ export const GroupPalette = z.object({
 });
 export type GroupPalette = z.infer<typeof GroupPalette>;
 
+/** 프랜차이즈 구분: 坂道シリーズ vs AKB48 Group */
+export const FranchiseKind = z.enum(['sakamichi', 'akb48g']);
+export type FranchiseKind = z.infer<typeof FranchiseKind>;
+
+/** 지역 구분: 일본 국내 그룹 vs 해외 자매 그룹 */
+export const RegionKind = z.enum(['domestic', 'international']);
+export type RegionKind = z.infer<typeof RegionKind>;
+
 /** 배경 파티클 모티프. 그룹 정체성과 결합된다. */
 export const ParticleMotif = z.enum([
   'bubble', // 乃木坂46 — しゃぼん玉, 아래→위 부상
-  'petal', // 櫻坂46 — 花びら, 좌우 흔들리며 하강
-  'sparkle', // 日向坂46 — 光の粒, 제자리 반짝 + 완만한 우측 드리프트
+  'petal', // 櫻坂46, HKT48, BNK48 — 花びら, 좌우 흔들리며 하강
+  'sparkle', // 日向坂46, NMB48 — 光の粒, 제자리 반짝 + 완만한 우측 드리프트
   'leaf', // 欅坂46 (아카이브) — 若葉, 회전 낙하
-  'mixed', // 홈 화면 — 위 3종 소량 혼합
+  'star', // AKB48, JKT48 — 星屑, 펄스 반짝임
+  'flare', // SKE48 — 太陽フレア, 따뜻한 입자
+  'wave', // STU48 — 瀬戸内の波, 파도 물결
+  'snow', // NGT48 — 雪の結晶, 부드러운 낙하
+  'mixed', // 홈 화면 — 혼합
 ]);
 export type ParticleMotif = z.infer<typeof ParticleMotif>;
 
 export const Group = z.object({
-  id: Slug, // 'nogizaka46' | 'sakurazaka46' | 'hinatazaka46'
+  id: Slug, // 'nogizaka46' | 'sakurazaka46' | 'hinatazaka46' | 'akb48' ...
+  franchise: FranchiseKind.default('sakamichi'),
+  region: RegionKind.default('domestic'),
+  baseLocation: LocalizedText.nullable().default(null),
   /** 정렬 순서 (데뷔순) */
   order: z.number().int().positive(),
   /** 현재 이름 */

@@ -20,7 +20,7 @@ interface Particle {
   swayAmplitude: number;
   swayFrequency: number;
   timeOffset: number;
-  type: 'bubble' | 'petal' | 'sparkle' | 'leaf';
+  type: 'bubble' | 'petal' | 'sparkle' | 'leaf' | 'star' | 'flare' | 'wave' | 'snow';
   isFadingOut: boolean;
 }
 
@@ -73,18 +73,41 @@ export function ParticleCanvas({ motif = 'mixed' }: ParticleCanvasProps) {
       else if (currentM === 'petal') pType = 'petal';
       else if (currentM === 'sparkle') pType = 'sparkle';
       else if (currentM === 'leaf') pType = 'leaf';
+      else if (currentM === 'star') pType = 'star';
+      else if (currentM === 'flare') pType = 'flare';
+      else if (currentM === 'wave') pType = 'wave';
+      else if (currentM === 'snow') pType = 'snow';
       else {
         const rand = Math.random();
-        pType = rand < 0.5 ? 'bubble' : rand < 0.75 ? 'petal' : 'sparkle';
+        pType = rand < 0.35 ? 'bubble' : rand < 0.65 ? 'petal' : rand < 0.85 ? 'sparkle' : 'star';
       }
 
-      const size = pType === 'sparkle' ? 3 + Math.random() * 4 : 8 + Math.random() * 14;
-      const speed = pType === 'petal' || pType === 'leaf' ? 0.6 + Math.random() * 0.8 : 0.4 + Math.random() * 0.6;
+      const size =
+        pType === 'sparkle' || pType === 'star'
+          ? 3 + Math.random() * 5
+          : pType === 'wave'
+          ? 14 + Math.random() * 16
+          : pType === 'flare'
+          ? 6 + Math.random() * 12
+          : pType === 'snow'
+          ? 4 + Math.random() * 6
+          : 8 + Math.random() * 14;
+
+      const speed =
+        pType === 'petal' || pType === 'leaf' || pType === 'snow'
+          ? 0.5 + Math.random() * 0.7
+          : pType === 'wave'
+          ? 0.3 + Math.random() * 0.5
+          : 0.4 + Math.random() * 0.6;
       const targetOpacity = 0.2 + Math.random() * 0.35;
 
       return {
         x: p?.x ?? Math.random() * width,
-        y: p?.y ?? (pType === 'bubble' ? height + 20 : -20 - Math.random() * 100),
+        y:
+          p?.y ??
+          (pType === 'bubble' || pType === 'flare'
+            ? height + 20
+            : -20 - Math.random() * 100),
         size,
         speed,
         angle: Math.random() * Math.PI * 2,
@@ -226,6 +249,101 @@ export function ParticleCanvas({ motif = 'mixed' }: ParticleCanvasProps) {
       ctx.restore();
     }
 
+    function drawStar(p: Particle, t: number) {
+      if (!ctx) return;
+      const pulse = 0.55 + 0.45 * Math.sin((t + p.timeOffset) * 0.0035);
+      const curAlpha = p.currentOpacity * pulse;
+
+      ctx.save();
+      ctx.translate(p.x, p.y);
+      ctx.rotate(p.angle + t * 0.0005);
+      ctx.globalAlpha = curAlpha;
+      ctx.fillStyle = colorA;
+
+      // 5-point star
+      const spikes = 5;
+      const outerRadius = p.size;
+      const innerRadius = p.size * 0.45;
+      let rot = (Math.PI / 2) * 3;
+      const step = Math.PI / spikes;
+
+      ctx.beginPath();
+      ctx.moveTo(0, -outerRadius);
+      for (let i = 0; i < spikes; i++) {
+        let x = Math.cos(rot) * outerRadius;
+        let y = Math.sin(rot) * outerRadius;
+        ctx.lineTo(x, y);
+        rot += step;
+
+        x = Math.cos(rot) * innerRadius;
+        y = Math.sin(rot) * innerRadius;
+        ctx.lineTo(x, y);
+        rot += step;
+      }
+      ctx.lineTo(0, -outerRadius);
+      ctx.closePath();
+      ctx.fill();
+
+      ctx.restore();
+    }
+
+    function drawFlare(p: Particle, t: number) {
+      if (!ctx) return;
+      const pulse = 0.6 + 0.4 * Math.sin((t + p.timeOffset) * 0.002);
+      const curAlpha = p.currentOpacity * pulse;
+
+      ctx.save();
+      ctx.translate(p.x, p.y);
+      ctx.globalAlpha = curAlpha;
+
+      // Radial warm flare glow
+      const grad = ctx.createRadialGradient(0, 0, 0, 0, 0, p.size);
+      grad.addColorStop(0, '#FFFFFF');
+      grad.addColorStop(0.4, colorA);
+      grad.addColorStop(1, 'transparent');
+      ctx.fillStyle = grad;
+      ctx.beginPath();
+      ctx.arc(0, 0, p.size, 0, Math.PI * 2);
+      ctx.fill();
+
+      ctx.restore();
+    }
+
+    function drawWave(p: Particle, t: number) {
+      if (!ctx) return;
+      const sway = Math.sin((t + p.timeOffset) * p.swayFrequency) * 15;
+      ctx.save();
+      ctx.translate(p.x + sway, p.y);
+      ctx.globalAlpha = p.currentOpacity * 0.65;
+      ctx.strokeStyle = colorA;
+      ctx.lineWidth = 1.5;
+
+      // Smooth wave curve
+      ctx.beginPath();
+      ctx.moveTo(-p.size, 0);
+      ctx.quadraticCurveTo(-p.size * 0.5, -4, 0, 0);
+      ctx.quadraticCurveTo(p.size * 0.5, 4, p.size, 0);
+      ctx.stroke();
+
+      ctx.restore();
+    }
+
+    function drawSnow(p: Particle, t: number) {
+      if (!ctx) return;
+      const sway = Math.sin((t + p.timeOffset) * p.swayFrequency) * 16;
+      ctx.save();
+      ctx.translate(p.x + sway, p.y);
+      ctx.rotate(p.angle);
+      ctx.globalAlpha = p.currentOpacity * 0.8;
+      ctx.fillStyle = '#FFFFFF';
+
+      ctx.beginPath();
+      ctx.arc(0, 0, p.size * 0.6, 0, Math.PI * 2);
+      ctx.fill();
+
+      ctx.restore();
+    }
+
     let lastTime = performance.now();
 
     function render(currentTime: number) {
@@ -257,20 +375,27 @@ export function ParticleCanvas({ motif = 'mixed' }: ParticleCanvasProps) {
         }
 
         // Movement
-        if (p.type === 'bubble') {
+        if (p.type === 'bubble' || p.type === 'flare') {
           p.y -= p.speed * (dt / 16);
           if (p.y < -30) {
             p.y = height + 20;
             p.x = Math.random() * width;
           }
-        } else if (p.type === 'sparkle') {
+        } else if (p.type === 'sparkle' || p.type === 'star') {
           p.x += p.speed * 0.3 * (dt / 16);
           if (p.x > width + 20) {
             p.x = -20;
             p.y = Math.random() * height;
           }
+        } else if (p.type === 'wave') {
+          p.x += p.speed * 0.6 * (dt / 16);
+          p.y += p.speed * 0.1 * (dt / 16);
+          if (p.x > width + 40) {
+            p.x = -40;
+            p.y = Math.random() * height;
+          }
         } else {
-          // Petal / Leaf fall down
+          // Petal / Leaf / Snow fall down
           p.y += p.speed * (dt / 16);
           p.angle += p.angularSpeed * (dt / 16);
           if (p.y > height + 30) {
@@ -283,6 +408,10 @@ export function ParticleCanvas({ motif = 'mixed' }: ParticleCanvasProps) {
         else if (p.type === 'petal') drawPetal(p, currentTime);
         else if (p.type === 'sparkle') drawSparkle(p, currentTime);
         else if (p.type === 'leaf') drawLeaf(p, currentTime);
+        else if (p.type === 'star') drawStar(p, currentTime);
+        else if (p.type === 'flare') drawFlare(p, currentTime);
+        else if (p.type === 'wave') drawWave(p, currentTime);
+        else if (p.type === 'snow') drawSnow(p, currentTime);
       }
 
       animId = requestAnimationFrame(render);

@@ -4,6 +4,8 @@ import type {
   Generation,
   LineageEntry,
   MemberStatus,
+  FranchiseKind,
+  RegionKind,
 } from './schema';
 import groupsData from '../../data/groups.json';
 import membersData from '../../data/members.json';
@@ -14,8 +16,18 @@ const groups: Group[] = (groupsData as { groups: Group[] }).groups;
 const members: Member[] = (membersData as Member[]) || [];
 const latestUpdates: RecentUpdate[] = (latestUpdatesData as RecentUpdate[]) || [];
 
-export function getGroups(): Group[] {
-  return [...groups].sort((a, b) => a.order - b.order);
+export function getGroups(options?: {
+  franchise?: FranchiseKind;
+  region?: RegionKind;
+}): Group[] {
+  let result = [...groups].sort((a, b) => a.order - b.order);
+  if (options?.franchise) {
+    result = result.filter((g) => (g.franchise || 'sakamichi') === options.franchise);
+  }
+  if (options?.region) {
+    result = result.filter((g) => (g.region || 'domestic') === options.region);
+  }
+  return result;
 }
 
 export function getGroup(id: string): Group | undefined {

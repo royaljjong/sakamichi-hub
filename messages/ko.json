@@ -1,9 +1,20 @@
 {
   "common": {
-    "siteName": "사카미치 시리즈 링크 허브",
+    "siteName": "사카미치・48그룹 링크 허브",
     "viewMore": "더 보기",
     "back": "돌아가기",
     "view": "보기"
+  },
+  "franchise": {
+    "sakamichi": "🌸 사카미치 시리즈",
+    "sakamichiShort": "사카미치 시리즈",
+    "akb48g": "🎀 AKB48 그룹",
+    "akb48gShort": "AKB48 그룹",
+    "domestic": "🇯🇵 국내 6대 그룹",
+    "international": "🌏 해외 자매그룹",
+    "all": "전체",
+    "sakamichiDesc": "노기자카46・사쿠라자카46・히나타자카46 공식 링크 모음",
+    "akb48gDesc": "AKB48・SKE48・NMB48・HKT48・NGT48・STU48 및 해외 그룹"
   },
   "nav": {
     "home": "홈",

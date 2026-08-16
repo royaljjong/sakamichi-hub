@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-import { setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { getGroups, getMembers, getLatestUpdates } from '@/lib/data';
 import { AmbientBackground } from '@/components/background/AmbientBackground';
 import { Navigation } from '@/components/ui/Navigation';
 import { Footer } from '@/components/ui/Footer';
-import { GroupCard } from '@/components/group/GroupCard';
+import { FranchiseExplorer } from '@/components/home/FranchiseExplorer';
 import { LatestUpdatesMarquee } from '@/components/home/LatestUpdatesMarquee';
 import { JsonLd } from '@/components/seo/JsonLd';
 
@@ -21,14 +21,14 @@ export async function generateMetadata({ params }: HomePageProps): Promise<Metad
   let description = '';
 
   if (locale === 'ja') {
-    title = '坂道シリーズ リンクハブ | 乃木坂46・櫻坂46・日向坂46 公式リンク集';
-    description = '乃木坂46・櫻坂46・日向坂46の現役・卒業メンバー公式プロフィール、公式ブログ、Instagram、X(Twitter)など最新公式リンク集。';
+    title = '坂道・48グループ リンクハブ | 乃木坂・櫻坂・日向坂・AKB48グループ 公式リンク集';
+    description = '乃木坂46・櫻坂46・日向坂46およびAKB48グループ全姉妹グループの公式プロフィール、公式ブログ、Instagram、Xなど最新公式リンク集。';
   } else if (locale === 'ko') {
-    title = '사카미치 시리즈 링크 허브 | 노기자카46・사쿠라자카46・히나타자카46 공식 링크 모음';
-    description = '노기자카46, 사쿠라자카46, 히나타자카46 현역 및 졸업 멤버 공식 프로필, 블로그, 인스타그램, SNS 링크 모음.';
+    title = '사카미치・48그룹 링크 허브 | 노기자카・사쿠라자카・히나타자카・AKB48 그룹 공식 링크 모음';
+    description = '사카미치 시리즈 및 AKB48 그룹 전 자매그룹 공식 프로필, 블로그, 인스타그램, SNS 링크 모음.';
   } else {
-    title = 'Sakamichi Series Link Hub | Nogizaka46, Sakurazaka46, Hinatazaka46 Directory';
-    description = 'Official directory and link hub for Nogizaka46, Sakurazaka46, and Hinatazaka46 members with official blogs, profiles, and SNS.';
+    title = 'Sakamichi & 48 Group Link Hub | Official Directory';
+    description = 'Official directory and link hub for Sakamichi Series and AKB48 Group sister groups with official blogs, profiles, and SNS.';
   }
 
   const canonicalUrl = `${BASE_URL}/${locale}`;
@@ -37,9 +37,9 @@ export async function generateMetadata({ params }: HomePageProps): Promise<Metad
     title,
     description,
     keywords: [
-      '坂道シリーズ', '乃木坂46', '櫻坂46', '日向坂46', '欅坂46', 'けやき坂46',
-      '사카미치', '노기자카46', '사쿠라자카46', '히나타자카46', '케야키자카46',
-      'Sakamichi Series', 'Nogizaka46', 'Sakurazaka46', 'Hinatazaka46',
+      '坂道シリーズ', '乃木坂46', '櫻坂46', '日向坂46', 'AKB48', 'SKE48', 'NMB48', 'HKT48', 'NGT48', 'STU48', 'JKT48', 'BNK48',
+      '사카미치', '노기자카46', '사쿠라자카46', '히나타자카46', 'AKB48',
+      'Sakamichi Series', 'AKB48 Group', 'Nogizaka46', 'Sakurazaka46', 'Hinatazaka46',
       '公式ブログ', 'Instagram', 'Twitter', 'X', 'TikTok',
     ],
     alternates: {
@@ -69,6 +69,7 @@ export default async function HomePage({ params }: HomePageProps) {
   const { locale } = await params;
   setRequestLocale(locale);
 
+  const t = await getTranslations('common');
   const groups = getGroups();
   const allMembers = getMembers();
   const latestUpdates = getLatestUpdates();
@@ -76,8 +77,8 @@ export default async function HomePage({ params }: HomePageProps) {
   const websiteJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: '坂道シリーズ リンクハブ (Sakamichi Series Link Hub)',
-    alternateName: ['사카미치 시리즈 링크 허브', 'Sakamichi Series Link Hub'],
+    name: t('siteName'),
+    alternateName: ['사카미치・48그룹 링크 허브', 'Sakamichi & 48 Group Link Hub'],
     url: BASE_URL,
     potentialAction: {
       '@type': 'SearchAction',
@@ -95,33 +96,25 @@ export default async function HomePage({ params }: HomePageProps) {
       <AmbientBackground groupId="home" motif="mixed" />
       <Navigation showBrand={false} />
 
-      <main id="main-content" className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-10 flex-1 w-full">
+      <main id="main-content" className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-10 flex-1 w-full space-y-10">
         {/* Centered Title */}
-        <div className="text-center max-w-2xl mx-auto my-10 sm:my-16">
-          <h1 className="text-4xl sm:text-6xl font-bold tracking-tight text-[var(--g-ink)] font-[family-name:var(--font-klee-one)]">
-            坂道シリーズ リンクハブ
+        <div className="text-center max-w-3xl mx-auto my-6 sm:my-10">
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-[var(--g-ink)] font-[family-name:var(--font-klee-one)]">
+            {t('siteName')}
           </h1>
         </div>
 
-        {/* 3 Large Group Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 items-stretch">
-          {groups.map((group) => {
-            const groupMembers = allMembers.filter((m) =>
-              m.memberships.some((ms) => ms.groupId === group.id),
-            );
-            return (
-              <GroupCard
-                key={group.id}
-                group={group}
-                members={groupMembers}
-                locale={locale}
-              />
-            );
-          })}
-        </div>
+        {/* Dual Hierarchy Franchise Explorer */}
+        <FranchiseExplorer
+          groups={groups}
+          allMembers={allMembers}
+          locale={locale}
+        />
 
         {/* Latest Blog Updates Infinite Sliding Ticker */}
-        <LatestUpdatesMarquee initialUpdates={latestUpdates} locale={locale} />
+        <div className="pt-6">
+          <LatestUpdatesMarquee initialUpdates={latestUpdates} locale={locale} />
+        </div>
       </main>
 
       <Footer />

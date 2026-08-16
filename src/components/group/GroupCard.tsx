@@ -55,9 +55,16 @@ export function GroupCard({ group, members, locale }: GroupCardProps) {
         />
 
         {/* Group Name & Subtitles */}
-        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-[var(--g-ink)] mb-1 font-[family-name:var(--font-klee-one)]">
-          {group.name.ja}
-        </h2>
+        <div className="flex items-center gap-2 flex-wrap mb-1">
+          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-[var(--g-ink)] font-[family-name:var(--font-klee-one)]">
+            {group.name.ja}
+          </h2>
+          {group.baseLocation && (
+            <span className="px-2 py-0.5 rounded-full text-[11px] font-medium bg-[color-mix(in_oklab,var(--g-brand)_14%,transparent)] text-[var(--g-brand)] border border-[color-mix(in_oklab,var(--g-brand)_25%,transparent)]">
+              {group.baseLocation[locale as 'ja' | 'ko' | 'en'] || group.baseLocation.ja}
+            </span>
+          )}
+        </div>
         {locale !== 'ja' && (
           <p className="text-sm font-medium text-[var(--ink-soft)] mb-2">
             {groupName}

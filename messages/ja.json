@@ -1,9 +1,20 @@
 {
   "common": {
-    "siteName": "坂道シリーズ リンクハブ",
+    "siteName": "坂道・48グループ リンクハブ",
     "viewMore": "もっと見る",
     "back": "戻る",
     "view": "見る"
+  },
+  "franchise": {
+    "sakamichi": "🌸 坂道シリーズ",
+    "sakamichiShort": "坂道シリーズ",
+    "akb48g": "🎀 AKB48グループ",
+    "akb48gShort": "AKB48グループ",
+    "domestic": "🇯🇵 国内6大グループ",
+    "international": "🌏 海外姉妹グループ",
+    "all": "すべて",
+    "sakamichiDesc": "乃木坂46・櫻坂46・日向坂46 公式リンク集",
+    "akb48gDesc": "AKB48・SKE48・NMB48・HKT48・NGT48・STU48・海外グループ"
   },
   "nav": {
     "home": "ホーム",

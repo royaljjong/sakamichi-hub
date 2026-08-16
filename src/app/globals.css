@@ -87,6 +87,125 @@
   --g-ink: #2C4739;
 }
 
+/* AKB48 Group (Domestic) */
+[data-group="akb48"] {
+  --g-brand: #E53975;
+  --g-blob-a: #F48FB1;
+  --g-blob-b: #F8BBD0;
+  --g-blob-c: #FCE4EC;
+  --g-wash: #FDF0F5;
+  --g-ink: #4A1525;
+}
+
+[data-group="ske48"] {
+  --g-brand: #E87722;
+  --g-blob-a: #FFB74D;
+  --g-blob-b: #FFE082;
+  --g-blob-c: #FFF3E0;
+  --g-wash: #FFF8F0;
+  --g-ink: #4E2A0A;
+}
+
+[data-group="nmb48"] {
+  --g-brand: #C59B27;
+  --g-blob-a: #F5D061;
+  --g-blob-b: #FFEAA7;
+  --g-blob-c: #FFF9E6;
+  --g-wash: #FCF9EE;
+  --g-ink: #42320E;
+}
+
+[data-group="hkt48"] {
+  --g-brand: #4A5568;
+  --g-blob-a: #A0AEC0;
+  --g-blob-b: #CBD5E1;
+  --g-blob-c: #F1F5F9;
+  --g-wash: #F8FAFC;
+  --g-ink: #1A202C;
+}
+
+[data-group="ngt48"] {
+  --g-brand: #D32F2F;
+  --g-blob-a: #EF9A9A;
+  --g-blob-b: #FFCDD2;
+  --g-blob-c: #FFEBEE;
+  --g-wash: #FDF2F2;
+  --g-ink: #491212;
+}
+
+[data-group="stu48"] {
+  --g-brand: #0277BD;
+  --g-blob-a: #81D4FA;
+  --g-blob-b: #B3E5FC;
+  --g-blob-c: #E1F5FE;
+  --g-wash: #F0F9FF;
+  --g-ink: #0B3047;
+}
+
+/* AKB48 Group (International) */
+[data-group="jkt48"] {
+  --g-brand: #D32F2F;
+  --g-blob-a: #E57373;
+  --g-blob-b: #FFCDD2;
+  --g-blob-c: #FFEBEE;
+  --g-wash: #FCF2F2;
+  --g-ink: #451010;
+}
+
+[data-group="bnk48"] {
+  --g-brand: #BA68C8;
+  --g-blob-a: #CE93D8;
+  --g-blob-b: #E1BEE7;
+  --g-blob-c: #F3E5F5;
+  --g-wash: #F9F2FB;
+  --g-ink: #421B4A;
+}
+
+[data-group="cgm48"] {
+  --g-brand: #4DB6AC;
+  --g-blob-a: #80CBC4;
+  --g-blob-b: #B2DFDB;
+  --g-blob-c: #E0F2F1;
+  --g-wash: #F0FAF9;
+  --g-ink: #133E3A;
+}
+
+[data-group="mnl48"] {
+  --g-brand: #3949AB;
+  --g-blob-a: #7986CB;
+  --g-blob-b: #C5CAE9;
+  --g-blob-c: #E8EAF6;
+  --g-wash: #F2F4FC;
+  --g-ink: #1A237E;
+}
+
+[data-group="akb48-team-sh"] {
+  --g-brand: #E53935;
+  --g-blob-a: #EF9A9A;
+  --g-blob-b: #FFCDD2;
+  --g-blob-c: #FFEBEE;
+  --g-wash: #FDF2F2;
+  --g-ink: #451010;
+}
+
+[data-group="akb48-team-tp"] {
+  --g-brand: #FB8C00;
+  --g-blob-a: #FFB74D;
+  --g-blob-b: #FFE082;
+  --g-blob-c: #FFF3E0;
+  --g-wash: #FFF8F0;
+  --g-ink: #4E2A0A;
+}
+
+[data-group="klp48"] {
+  --g-brand: #00897B;
+  --g-blob-a: #4DB6AC;
+  --g-blob-b: #B2DFDB;
+  --g-blob-c: #E0F2F1;
+  --g-wash: #EFF8F7;
+  --g-ink: #123D37;
+}
+
 /* L1 BlobField animations */
 .blob {
   position: absolute;

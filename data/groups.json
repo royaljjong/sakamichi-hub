@@ -4,6 +4,9 @@
   "groups": [
     {
       "id": "nogizaka46",
+      "franchise": "sakamichi",
+      "region": "domestic",
+      "baseLocation": { "ja": "東京", "ko": "도쿄", "en": "Tokyo" },
       "order": 1,
       "name": { "ja": "乃木坂46", "ko": "노기자카46", "en": "Nogizaka46" },
       "shortName": { "ja": "乃木坂", "ko": "노기자카", "en": "Nogi" },
@@ -107,6 +110,9 @@
     },
     {
       "id": "sakurazaka46",
+      "franchise": "sakamichi",
+      "region": "domestic",
+      "baseLocation": { "ja": "東京", "ko": "도쿄", "en": "Tokyo" },
       "order": 2,
       "name": { "ja": "櫻坂46", "ko": "사쿠라자카46", "en": "Sakurazaka46" },
       "shortName": { "ja": "櫻坂", "ko": "사쿠라자카", "en": "Sakura" },
@@ -209,6 +215,9 @@
     },
     {
       "id": "hinatazaka46",
+      "franchise": "sakamichi",
+      "region": "domestic",
+      "baseLocation": { "ja": "東京", "ko": "도쿄", "en": "Tokyo" },
       "order": 3,
       "name": { "ja": "日向坂46", "ko": "히나타자카46", "en": "Hinatazaka46" },
       "shortName": { "ja": "日向坂", "ko": "히나타자카", "en": "Hinata" },
@@ -305,6 +314,799 @@
       "provenance": {
         "source": "official",
         "sourceUrl": "https://www.hinatazaka46.com/",
+        "checkedAt": "2026-08-16",
+        "note": null
+      }
+    },
+    {
+      "id": "akb48",
+      "franchise": "akb48g",
+      "region": "domestic",
+      "baseLocation": { "ja": "東京・秋葉原", "ko": "도쿄 아키하바라", "en": "Tokyo / Akihabara" },
+      "order": 4,
+      "name": { "ja": "AKB48", "ko": "AKB48", "en": "AKB48" },
+      "shortName": { "ja": "AKB", "ko": "AKB", "en": "AKB" },
+      "status": "active",
+      "debutedOn": "2005-12-08",
+      "lineage": [
+        {
+          "id": "akb48",
+          "name": { "ja": "AKB48", "ko": "AKB48", "en": "AKB48" },
+          "from": "2005-12-08",
+          "to": null,
+          "color": "#E53975",
+          "logoUsageAllowed": false
+        }
+      ],
+      "palette": {
+        "brand": "#E53975",
+        "blobA": "#F48FB1",
+        "blobB": "#F8BBD0",
+        "blobC": "#FCE4EC",
+        "wash": "#FDF0F5",
+        "ink": "#4A1525"
+      },
+      "motif": "star",
+      "official": {
+        "site": "https://www.akb48.co.jp/",
+        "blogIndex": "https://ameblo.jp/akihabara48/",
+        "x": "https://x.com/AKB48_staff",
+        "instagram": "https://www.instagram.com/akb48/",
+        "youtube": "https://www.youtube.com/user/AKB48",
+        "tiktok": "https://www.tiktok.com/@akb48_official_tiktok"
+      },
+      "blogUrlTemplate": "https://www.akb48.co.jp/about/members/detail/{code}",
+      "generations": [
+        {
+          "id": "akb-g-active",
+          "order": 1,
+          "sortSuffix": 0,
+          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "joinedOn": "2005-12-08",
+          "joinedUnderLineageId": "akb48",
+          "note": null
+        }
+      ],
+      "description": {
+        "ja": "「会いに行けるアイドル」をコンセプトに秋葉原の専用劇場から始まった48グループの本流。",
+        "ko": "'만나러 갈 수 있는 아이돌'을 콘셉트로 아키하바라 전용 극장에서 시작된 48그룹의 본류.",
+        "en": "The flagship group of the 48 Group, originated from Akihabara theater based on 'Idols you can meet'."
+      },
+      "provenance": {
+        "source": "official",
+        "sourceUrl": "https://www.akb48.co.jp/",
+        "checkedAt": "2026-08-16",
+        "note": null
+      }
+    },
+    {
+      "id": "ske48",
+      "franchise": "akb48g",
+      "region": "domestic",
+      "baseLocation": { "ja": "名古屋・栄", "ko": "나고야 사카에", "en": "Nagoya / Sakae" },
+      "order": 5,
+      "name": { "ja": "SKE48", "ko": "SKE48", "en": "SKE48" },
+      "shortName": { "ja": "SKE", "ko": "SKE", "en": "SKE" },
+      "status": "active",
+      "debutedOn": "2008-08-23",
+      "lineage": [
+        {
+          "id": "ske48",
+          "name": { "ja": "SKE48", "ko": "SKE48", "en": "SKE48" },
+          "from": "2008-08-23",
+          "to": null,
+          "color": "#E87722",
+          "logoUsageAllowed": false
+        }
+      ],
+      "palette": {
+        "brand": "#E87722",
+        "blobA": "#FFB74D",
+        "blobB": "#FFE082",
+        "blobC": "#FFF3E0",
+        "wash": "#FFF8F0",
+        "ink": "#4E2A0A"
+      },
+      "motif": "flare",
+      "official": {
+        "site": "https://ske48.co.jp/",
+        "blogIndex": "https://ske48.co.jp/blog",
+        "x": "https://x.com/ske48official",
+        "instagram": "https://www.instagram.com/ske48_official/",
+        "youtube": "https://www.youtube.com/user/SKE48",
+        "tiktok": "https://www.tiktok.com/@ske48official_tiktok"
+      },
+      "blogUrlTemplate": "https://ske48.co.jp/profile/detail/{code}",
+      "generations": [
+        {
+          "id": "ske-g-active",
+          "order": 1,
+          "sortSuffix": 0,
+          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "joinedOn": "2008-08-23",
+          "joinedUnderLineageId": "ske48",
+          "note": null
+        }
+      ],
+      "description": {
+        "ja": "名古屋・栄を拠点とする48グループ初の全国展開姉妹グループ。",
+        "ko": "나고야 사카에를 거점으로 하는 48그룹 최초의 전국 전개 자매 그룹.",
+        "en": "The first sister group of 48 Group based in Sakae, Nagoya."
+      },
+      "provenance": {
+        "source": "official",
+        "sourceUrl": "https://ske48.co.jp/",
+        "checkedAt": "2026-08-16",
+        "note": null
+      }
+    },
+    {
+      "id": "nmb48",
+      "franchise": "akb48g",
+      "region": "domestic",
+      "baseLocation": { "ja": "大阪・難波", "ko": "오사카 난바", "en": "Osaka / Namba" },
+      "order": 6,
+      "name": { "ja": "NMB48", "ko": "NMB48", "en": "NMB48" },
+      "shortName": { "ja": "NMB", "ko": "NMB", "en": "NMB" },
+      "status": "active",
+      "debutedOn": "2010-10-09",
+      "lineage": [
+        {
+          "id": "nmb48",
+          "name": { "ja": "NMB48", "ko": "NMB48", "en": "NMB48" },
+          "from": "2010-10-09",
+          "to": null,
+          "color": "#C59B27",
+          "logoUsageAllowed": false
+        }
+      ],
+      "palette": {
+        "brand": "#C59B27",
+        "blobA": "#F5D061",
+        "blobB": "#FFEAA7",
+        "blobC": "#FFF9E6",
+        "wash": "#FCF9EE",
+        "ink": "#42320E"
+      },
+      "motif": "sparkle",
+      "official": {
+        "site": "https://www.nmb48.com/",
+        "blogIndex": "https://ameblo.jp/nmb48/",
+        "x": "https://x.com/nmb48_official",
+        "instagram": "https://www.instagram.com/nmb48_official/",
+        "youtube": "https://www.youtube.com/user/NMB48",
+        "tiktok": "https://www.tiktok.com/@nmb48_official"
+      },
+      "blogUrlTemplate": "https://www.nmb48.com/member/{code}",
+      "generations": [
+        {
+          "id": "nmb-g-active",
+          "order": 1,
+          "sortSuffix": 0,
+          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "joinedOn": "2010-10-09",
+          "joinedUnderLineageId": "nmb48",
+          "note": null
+        }
+      ],
+      "description": {
+        "ja": "大阪・難波を拠点に、お笑いと華やかなパフォーマンスを融合させたグループ。",
+        "ko": "오사카 난바를 거점으로, 유쾌한 예능감과 화려한 퍼포먼스를 융합한 그룹.",
+        "en": "Based in Namba, Osaka, combining entertainment personality with dazzling performances."
+      },
+      "provenance": {
+        "source": "official",
+        "sourceUrl": "https://www.nmb48.com/",
+        "checkedAt": "2026-08-16",
+        "note": null
+      }
+    },
+    {
+      "id": "hkt48",
+      "franchise": "akb48g",
+      "region": "domestic",
+      "baseLocation": { "ja": "福岡・博多", "ko": "후쿠오카 하카타", "en": "Fukuoka / Hakata" },
+      "order": 7,
+      "name": { "ja": "HKT48", "ko": "HKT48", "en": "HKT48" },
+      "shortName": { "ja": "HKT", "ko": "HKT", "en": "HKT" },
+      "status": "active",
+      "debutedOn": "2011-10-23",
+      "lineage": [
+        {
+          "id": "hkt48",
+          "name": { "ja": "HKT48", "ko": "HKT48", "en": "HKT48" },
+          "from": "2011-10-23",
+          "to": null,
+          "color": "#4A5568",
+          "logoUsageAllowed": false
+        }
+      ],
+      "palette": {
+        "brand": "#4A5568",
+        "blobA": "#A0AEC0",
+        "blobB": "#CBD5E1",
+        "blobC": "#F1F5F9",
+        "wash": "#F8FAFC",
+        "ink": "#1A202C"
+      },
+      "motif": "petal",
+      "official": {
+        "site": "https://www.hkt48.jp/",
+        "blogIndex": "https://ameblo.jp/hkt48/",
+        "x": "https://x.com/hkt48_official_",
+        "instagram": "https://www.instagram.com/official_hkt48/",
+        "youtube": "https://www.youtube.com/user/HKT48",
+        "tiktok": "https://www.tiktok.com/@hkt48_official"
+      },
+      "blogUrlTemplate": "https://www.hkt48.jp/profile/{code}",
+      "generations": [
+        {
+          "id": "hkt-g-active",
+          "order": 1,
+          "sortSuffix": 0,
+          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "joinedOn": "2011-10-23",
+          "joinedUnderLineageId": "hkt48",
+          "note": null
+        }
+      ],
+      "description": {
+        "ja": "福岡・博多を拠点とし、元気いっぱいのライブステージが魅力のグループ。",
+        "ko": "후쿠오카 하카타를 거점으로 활기찬 무대 매력을 선보이는 그룹.",
+        "en": "Based in Hakata, Fukuoka, known for high-energy stage performances."
+      },
+      "provenance": {
+        "source": "official",
+        "sourceUrl": "https://www.hkt48.jp/",
+        "checkedAt": "2026-08-16",
+        "note": null
+      }
+    },
+    {
+      "id": "ngt48",
+      "franchise": "akb48g",
+      "region": "domestic",
+      "baseLocation": { "ja": "新潟", "ko": "니가타", "en": "Niigata" },
+      "order": 8,
+      "name": { "ja": "NGT48", "ko": "NGT48", "en": "NGT48" },
+      "shortName": { "ja": "NGT", "ko": "NGT", "en": "NGT" },
+      "status": "active",
+      "debutedOn": "2015-08-21",
+      "lineage": [
+        {
+          "id": "ngt48",
+          "name": { "ja": "NGT48", "ko": "NGT48", "en": "NGT48" },
+          "from": "2015-08-21",
+          "to": null,
+          "color": "#D32F2F",
+          "logoUsageAllowed": false
+        }
+      ],
+      "palette": {
+        "brand": "#D32F2F",
+        "blobA": "#EF9A9A",
+        "blobB": "#FFCDD2",
+        "blobC": "#FFEBEE",
+        "wash": "#FDF2F2",
+        "ink": "#491212"
+      },
+      "motif": "snow",
+      "official": {
+        "site": "https://ngt48.jp/",
+        "blogIndex": "https://lineblog.me/ngt48_official/",
+        "x": "https://x.com/official_NGT48",
+        "instagram": "https://www.instagram.com/official_ngt48/",
+        "youtube": "https://www.youtube.com/channel/UCySQNm8UHQiB04381Zk6qjg",
+        "tiktok": "https://www.tiktok.com/@ngt48_official"
+      },
+      "blogUrlTemplate": "https://ngt48.jp/profile/detail/{code}",
+      "generations": [
+        {
+          "id": "ngt-g-active",
+          "order": 1,
+          "sortSuffix": 0,
+          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "joinedOn": "2015-08-21",
+          "joinedUnderLineageId": "ngt48",
+          "note": null
+        }
+      ],
+      "description": {
+        "ja": "日本海に面した新潟を拠点とする48グループの雪国姉妹グループ。",
+        "ko": "동해에 면한 니가타를 거점으로 하는 48그룹의 자매 그룹.",
+        "en": "Sister group of 48 Group based in Niigata along the Sea of Japan."
+      },
+      "provenance": {
+        "source": "official",
+        "sourceUrl": "https://ngt48.jp/",
+        "checkedAt": "2026-08-16",
+        "note": null
+      }
+    },
+    {
+      "id": "stu48",
+      "franchise": "akb48g",
+      "region": "domestic",
+      "baseLocation": { "ja": "瀬戸内7県", "ko": "세토우치 7현", "en": "Setouchi" },
+      "order": 9,
+      "name": { "ja": "STU48", "ko": "STU48", "en": "STU48" },
+      "shortName": { "ja": "STU", "ko": "STU", "en": "STU" },
+      "status": "active",
+      "debutedOn": "2017-03-31",
+      "lineage": [
+        {
+          "id": "stu48",
+          "name": { "ja": "STU48", "ko": "STU48", "en": "STU48" },
+          "from": "2017-03-31",
+          "to": null,
+          "color": "#0277BD",
+          "logoUsageAllowed": false
+        }
+      ],
+      "palette": {
+        "brand": "#0277BD",
+        "blobA": "#81D4FA",
+        "blobB": "#B3E5FC",
+        "blobC": "#E1F5FE",
+        "wash": "#F0F9FF",
+        "ink": "#0B3047"
+      },
+      "motif": "wave",
+      "official": {
+        "site": "https://sp.stu48.com/",
+        "blogIndex": "https://sp.stu48.com/blog/",
+        "x": "https://x.com/STU48_official_",
+        "instagram": "https://www.instagram.com/stu48.official/",
+        "youtube": "https://www.youtube.com/channel/UCST5l4Zc0c7E_6I5K4iM1rw",
+        "tiktok": "https://www.tiktok.com/@stu48.official"
+      },
+      "blogUrlTemplate": "https://sp.stu48.com/feature/profile_{code}",
+      "generations": [
+        {
+          "id": "stu-g-active",
+          "order": 1,
+          "sortSuffix": 0,
+          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "joinedOn": "2017-03-31",
+          "joinedUnderLineageId": "stu48",
+          "note": null
+        }
+      ],
+      "description": {
+        "ja": "瀬戸内エリア7県を舞台に活動する48グループ初の広域姉妹グループ。",
+        "ko": "세토우치 지역 7개 현을 무대로 활동하는 48그룹 최초의 광역 자매 그룹.",
+        "en": "The first broad regional sister group of 48 Group across 7 prefectures in Setouchi."
+      },
+      "provenance": {
+        "source": "official",
+        "sourceUrl": "https://sp.stu48.com/",
+        "checkedAt": "2026-08-16",
+        "note": null
+      }
+    },
+    {
+      "id": "jkt48",
+      "franchise": "akb48g",
+      "region": "international",
+      "baseLocation": { "ja": "インドネシア・ジャカルタ", "ko": "인도네시아 자카르타", "en": "Jakarta, Indonesia" },
+      "order": 10,
+      "name": { "ja": "JKT48", "ko": "JKT48", "en": "JKT48" },
+      "shortName": { "ja": "JKT", "ko": "JKT", "en": "JKT" },
+      "status": "active",
+      "debutedOn": "2011-11-02",
+      "lineage": [
+        {
+          "id": "jkt48",
+          "name": { "ja": "JKT48", "ko": "JKT48", "en": "JKT48" },
+          "from": "2011-11-02",
+          "to": null,
+          "color": "#D32F2F",
+          "logoUsageAllowed": false
+        }
+      ],
+      "palette": {
+        "brand": "#D32F2F",
+        "blobA": "#E57373",
+        "blobB": "#FFCDD2",
+        "blobC": "#FFEBEE",
+        "wash": "#FCF2F2",
+        "ink": "#451010"
+      },
+      "motif": "star",
+      "official": {
+        "site": "https://jkt48.com/",
+        "blogIndex": null,
+        "x": "https://x.com/officialJKT48",
+        "instagram": "https://www.instagram.com/jkt48/",
+        "youtube": "https://www.youtube.com/user/JKT48",
+        "tiktok": "https://www.tiktok.com/@jkt48.official"
+      },
+      "blogUrlTemplate": "https://jkt48.com/member/detail/id/{code}",
+      "generations": [
+        {
+          "id": "jkt-g-active",
+          "order": 1,
+          "sortSuffix": 0,
+          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "joinedOn": "2011-11-02",
+          "joinedUnderLineageId": "jkt48",
+          "note": null
+        }
+      ],
+      "description": {
+        "ja": "インドネシア・ジャカルタを拠点とする48グループ初の海外姉妹グループ。",
+        "ko": "인도네시아 자카르타를 거점으로 하는 48그룹 최초의 해외 자매 그룹.",
+        "en": "The first overseas sister group of 48 Group based in Jakarta, Indonesia."
+      },
+      "provenance": {
+        "source": "official",
+        "sourceUrl": "https://jkt48.com/",
+        "checkedAt": "2026-08-16",
+        "note": null
+      }
+    },
+    {
+      "id": "bnk48",
+      "franchise": "akb48g",
+      "region": "international",
+      "baseLocation": { "ja": "タイ・バンコク", "ko": "태국 방콕", "en": "Bangkok, Thailand" },
+      "order": 11,
+      "name": { "ja": "BNK48", "ko": "BNK48", "en": "BNK48" },
+      "shortName": { "ja": "BNK", "ko": "BNK", "en": "BNK" },
+      "status": "active",
+      "debutedOn": "2017-06-02",
+      "lineage": [
+        {
+          "id": "bnk48",
+          "name": { "ja": "BNK48", "ko": "BNK48", "en": "BNK48" },
+          "from": "2017-06-02",
+          "to": null,
+          "color": "#BA68C8",
+          "logoUsageAllowed": false
+        }
+      ],
+      "palette": {
+        "brand": "#BA68C8",
+        "blobA": "#CE93D8",
+        "blobB": "#E1BEE7",
+        "blobC": "#F3E5F5",
+        "wash": "#F9F2FB",
+        "ink": "#421B4A"
+      },
+      "motif": "petal",
+      "official": {
+        "site": "https://www.bnk48.com/",
+        "blogIndex": null,
+        "x": "https://x.com/bnk48official",
+        "instagram": "https://www.instagram.com/bnk48official/",
+        "youtube": "https://www.youtube.com/c/BNK48OfficialYouTubeChannel",
+        "tiktok": "https://www.tiktok.com/@bnk48official_th"
+      },
+      "blogUrlTemplate": "https://www.bnk48.com/bnk48-members/detail/{code}",
+      "generations": [
+        {
+          "id": "bnk-g-active",
+          "order": 1,
+          "sortSuffix": 0,
+          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "joinedOn": "2017-06-02",
+          "joinedUnderLineageId": "bnk48",
+          "note": null
+        }
+      ],
+      "description": {
+        "ja": "タイ・バンコクを拠点とし、国民的ブームを巻き起こした海外姉妹グループ。",
+        "ko": "태국 방콕을 거점으로 국민적 인기를 누리는 48그룹의 해외 자매 그룹.",
+        "en": "Overseas sister group of 48 Group based in Bangkok, Thailand."
+      },
+      "provenance": {
+        "source": "official",
+        "sourceUrl": "https://www.bnk48.com/",
+        "checkedAt": "2026-08-16",
+        "note": null
+      }
+    },
+    {
+      "id": "cgm48",
+      "franchise": "akb48g",
+      "region": "international",
+      "baseLocation": { "ja": "タイ・チェンマイ", "ko": "태국 치앙마이", "en": "Chiang Mai, Thailand" },
+      "order": 12,
+      "name": { "ja": "CGM48", "ko": "CGM48", "en": "CGM48" },
+      "shortName": { "ja": "CGM", "ko": "CGM", "en": "CGM" },
+      "status": "active",
+      "debutedOn": "2019-10-26",
+      "lineage": [
+        {
+          "id": "cgm48",
+          "name": { "ja": "CGM48", "ko": "CGM48", "en": "CGM48" },
+          "from": "2019-10-26",
+          "to": null,
+          "color": "#4DB6AC",
+          "logoUsageAllowed": false
+        }
+      ],
+      "palette": {
+        "brand": "#4DB6AC",
+        "blobA": "#80CBC4",
+        "blobB": "#B2DFDB",
+        "blobC": "#E0F2F1",
+        "wash": "#F0FAF9",
+        "ink": "#133E3A"
+      },
+      "motif": "leaf",
+      "official": {
+        "site": "https://cgm48official.com/",
+        "blogIndex": null,
+        "x": "https://x.com/cgm48official",
+        "instagram": "https://www.instagram.com/cgm48official/",
+        "youtube": "https://www.youtube.com/c/CGM48official",
+        "tiktok": "https://www.tiktok.com/@cgm48official_th"
+      },
+      "blogUrlTemplate": "https://cgm48official.com/members/{code}",
+      "generations": [
+        {
+          "id": "cgm-g-active",
+          "order": 1,
+          "sortSuffix": 0,
+          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "joinedOn": "2019-10-26",
+          "joinedUnderLineageId": "cgm48",
+          "note": null
+        }
+      ],
+      "description": {
+        "ja": "タイ・チェンマイを拠点とするBNK48の姉妹グループ。",
+        "ko": "태국 치앙마이를 거점으로 하는 BNK48의 자매 그룹.",
+        "en": "Sister group to BNK48, based in Chiang Mai, Thailand."
+      },
+      "provenance": {
+        "source": "official",
+        "sourceUrl": "https://cgm48official.com/",
+        "checkedAt": "2026-08-16",
+        "note": null
+      }
+    },
+    {
+      "id": "mnl48",
+      "franchise": "akb48g",
+      "region": "international",
+      "baseLocation": { "ja": "フィリピン・マニラ", "ko": "필리핀 마닐라", "en": "Manila, Philippines" },
+      "order": 13,
+      "name": { "ja": "MNL48", "ko": "MNL48", "en": "MNL48" },
+      "shortName": { "ja": "MNL", "ko": "MNL", "en": "MNL" },
+      "status": "active",
+      "debutedOn": "2018-04-28",
+      "lineage": [
+        {
+          "id": "mnl48",
+          "name": { "ja": "MNL48", "ko": "MNL48", "en": "MNL48" },
+          "from": "2018-04-28",
+          "to": null,
+          "color": "#3949AB",
+          "logoUsageAllowed": false
+        }
+      ],
+      "palette": {
+        "brand": "#3949AB",
+        "blobA": "#7986CB",
+        "blobB": "#C5CAE9",
+        "blobC": "#E8EAF6",
+        "wash": "#F2F4FC",
+        "ink": "#1A237E"
+      },
+      "motif": "sparkle",
+      "official": {
+        "site": "https://mnl48.ph/",
+        "blogIndex": null,
+        "x": "https://x.com/mnl48official",
+        "instagram": "https://www.instagram.com/mnl48official/",
+        "youtube": "https://www.youtube.com/c/MNL48Official",
+        "tiktok": "https://www.tiktok.com/@mnl48official"
+      },
+      "blogUrlTemplate": "https://mnl48.ph/members/{code}",
+      "generations": [
+        {
+          "id": "mnl-g-active",
+          "order": 1,
+          "sortSuffix": 0,
+          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "joinedOn": "2018-04-28",
+          "joinedUnderLineageId": "mnl48",
+          "note": null
+        }
+      ],
+      "description": {
+        "ja": "フィリピン・マニラを拠点とする海外姉妹グループ。",
+        "ko": "필리핀 마닐라를 거점으로 하는 48그룹의 해외 자매 그룹.",
+        "en": "Overseas sister group of 48 Group based in Manila, Philippines."
+      },
+      "provenance": {
+        "source": "official",
+        "sourceUrl": "https://mnl48.ph/",
+        "checkedAt": "2026-08-16",
+        "note": null
+      }
+    },
+    {
+      "id": "akb48-team-sh",
+      "franchise": "akb48g",
+      "region": "international",
+      "baseLocation": { "ja": "中国・上海", "ko": "중국 상하이", "en": "Shanghai, China" },
+      "order": 14,
+      "name": { "ja": "AKB48 Team SH", "ko": "AKB48 Team SH", "en": "AKB48 Team SH" },
+      "shortName": { "ja": "Team SH", "ko": "Team SH", "en": "Team SH" },
+      "status": "active",
+      "debutedOn": "2018-12-03",
+      "lineage": [
+        {
+          "id": "akb48-team-sh",
+          "name": { "ja": "AKB48 Team SH", "ko": "AKB48 Team SH", "en": "AKB48 Team SH" },
+          "from": "2018-12-03",
+          "to": null,
+          "color": "#E53935",
+          "logoUsageAllowed": false
+        }
+      ],
+      "palette": {
+        "brand": "#E53935",
+        "blobA": "#EF9A9A",
+        "blobB": "#FFCDD2",
+        "blobC": "#FFEBEE",
+        "wash": "#FDF2F2",
+        "ink": "#451010"
+      },
+      "motif": "star",
+      "official": {
+        "site": "https://www.akb48-china.com/",
+        "blogIndex": null,
+        "x": "https://x.com/AKB48_Team_SH",
+        "instagram": "https://www.instagram.com/akb48teamsh/",
+        "youtube": "https://www.youtube.com/c/AKB48TeamSH",
+        "tiktok": null
+      },
+      "blogUrlTemplate": "https://www.akb48-china.com/member/{code}",
+      "generations": [
+        {
+          "id": "sh-g-active",
+          "order": 1,
+          "sortSuffix": 0,
+          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "joinedOn": "2018-12-03",
+          "joinedUnderLineageId": "akb48-team-sh",
+          "note": null
+        }
+      ],
+      "description": {
+        "ja": "中国・上海を拠点とする公式海外姉妹グループ。",
+        "ko": "중국 상하이를 거점으로 하는 공식 해외 자매 그룹.",
+        "en": "Official overseas sister group of 48 Group based in Shanghai, China."
+      },
+      "provenance": {
+        "source": "official",
+        "sourceUrl": "https://www.akb48-china.com/",
+        "checkedAt": "2026-08-16",
+        "note": null
+      }
+    },
+    {
+      "id": "akb48-team-tp",
+      "franchise": "akb48g",
+      "region": "international",
+      "baseLocation": { "ja": "台湾・台北", "ko": "대만 타이베이", "en": "Taipei, Taiwan" },
+      "order": 15,
+      "name": { "ja": "AKB48 Team TP", "ko": "AKB48 Team TP", "en": "AKB48 Team TP" },
+      "shortName": { "ja": "Team TP", "ko": "Team TP", "en": "Team TP" },
+      "status": "active",
+      "debutedOn": "2018-08-26",
+      "lineage": [
+        {
+          "id": "akb48-team-tp",
+          "name": { "ja": "AKB48 Team TP", "ko": "AKB48 Team TP", "en": "AKB48 Team TP" },
+          "from": "2018-08-26",
+          "to": null,
+          "color": "#FB8C00",
+          "logoUsageAllowed": false
+        }
+      ],
+      "palette": {
+        "brand": "#FB8C00",
+        "blobA": "#FFB74D",
+        "blobB": "#FFE082",
+        "blobC": "#FFF3E0",
+        "wash": "#FFF8F0",
+        "ink": "#4E2A0A"
+      },
+      "motif": "flare",
+      "official": {
+        "site": "https://www.akb48teamtp.com/",
+        "blogIndex": null,
+        "x": "https://x.com/akb48teamtp",
+        "instagram": "https://www.instagram.com/akb48teamtp/",
+        "youtube": "https://www.youtube.com/c/AKB48TeamTP",
+        "tiktok": "https://www.tiktok.com/@akb48teamtp_official"
+      },
+      "blogUrlTemplate": "https://www.akb48teamtp.com/members/{code}",
+      "generations": [
+        {
+          "id": "tp-g-active",
+          "order": 1,
+          "sortSuffix": 0,
+          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "joinedOn": "2018-08-26",
+          "joinedUnderLineageId": "akb48-team-tp",
+          "note": null
+        }
+      ],
+      "description": {
+        "ja": "台湾・台北を拠点とする公式海外姉妹グループ。",
+        "ko": "대만 타이베이를 거점으로 하는 공식 해외 자매 그룹.",
+        "en": "Official overseas sister group of 48 Group based in Taipei, Taiwan."
+      },
+      "provenance": {
+        "source": "official",
+        "sourceUrl": "https://www.akb48teamtp.com/",
+        "checkedAt": "2026-08-16",
+        "note": null
+      }
+    },
+    {
+      "id": "klp48",
+      "franchise": "akb48g",
+      "region": "international",
+      "baseLocation": { "ja": "マレーシア・クアラルンプール", "ko": "말레이시아 쿠알라룸푸르", "en": "Kuala Lumpur, Malaysia" },
+      "order": 16,
+      "name": { "ja": "KLP48", "ko": "KLP48", "en": "KLP48" },
+      "shortName": { "ja": "KLP", "ko": "KLP", "en": "KLP" },
+      "status": "active",
+      "debutedOn": "2024-08-18",
+      "lineage": [
+        {
+          "id": "klp48",
+          "name": { "ja": "KLP48", "ko": "KLP48", "en": "KLP48" },
+          "from": "2024-08-18",
+          "to": null,
+          "color": "#00897B",
+          "logoUsageAllowed": false
+        }
+      ],
+      "palette": {
+        "brand": "#00897B",
+        "blobA": "#4DB6AC",
+        "blobB": "#B2DFDB",
+        "blobC": "#E0F2F1",
+        "wash": "#EFF8F7",
+        "ink": "#123D37"
+      },
+      "motif": "wave",
+      "official": {
+        "site": "https://klp48.my/",
+        "blogIndex": null,
+        "x": "https://x.com/KLP48official",
+        "instagram": "https://www.instagram.com/klp48official/",
+        "youtube": "https://www.youtube.com/@KLP48official",
+        "tiktok": "https://www.tiktok.com/@klp48official"
+      },
+      "blogUrlTemplate": "https://klp48.my/members/{code}",
+      "generations": [
+        {
+          "id": "klp-g-active",
+          "order": 1,
+          "sortSuffix": 0,
+          "label": { "ja": "1期生", "ko": "1기생", "en": "1st Gen" },
+          "joinedOn": "2024-08-18",
+          "joinedUnderLineageId": "klp48",
+          "note": null
+        }
+      ],
+      "description": {
+        "ja": "マレーシア・クアラルンプールを拠点とする最新の海外姉妹グループ。",
+        "ko": "말레이시아 쿠알라룸푸르를 거점으로 하는 48그룹의 최신 해외 자매 그룹.",
+        "en": "The newest overseas sister group of 48 Group based in Kuala Lumpur, Malaysia."
+      },
+      "provenance": {
+        "source": "official",
+        "sourceUrl": "https://klp48.my/",
         "checkedAt": "2026-08-16",
         "note": null
       }
