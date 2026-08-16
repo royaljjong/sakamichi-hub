@@ -7,6 +7,7 @@ import { ExternalLinkIcon } from '@/components/ui/icons';
 export interface RecentUpdate {
   id: string;
   groupId: string;
+  franchise?: 'sakamichi' | 'akb48g';
   memberId?: string;
   memberName: {
     ja: string;
@@ -86,6 +87,26 @@ const GROUP_BADGES: Record<
     color: '#BA68C8',
     bg: 'rgba(186, 104, 200, 0.14)',
   },
+  cgm48: {
+    name: { ja: 'CGM48', ko: 'CGM48', en: 'CGM48' },
+    color: '#26A69A',
+    bg: 'rgba(38, 166, 154, 0.14)',
+  },
+  mnl48: {
+    name: { ja: 'MNL48', ko: 'MNL48', en: 'MNL48' },
+    color: '#3949AB',
+    bg: 'rgba(57, 73, 171, 0.14)',
+  },
+  'akb48-team-sh': {
+    name: { ja: 'Team SH', ko: 'Team SH', en: 'Team SH' },
+    color: '#E53935',
+    bg: 'rgba(229, 57, 53, 0.14)',
+  },
+  'akb48-team-tp': {
+    name: { ja: 'Team TP', ko: 'Team TP', en: 'Team TP' },
+    color: '#FB8C00',
+    bg: 'rgba(251, 140, 0, 0.14)',
+  },
   klp48: {
     name: { ja: 'KLP48', ko: 'KLP48', en: 'KLP48' },
     color: '#00897B',
@@ -93,8 +114,14 @@ const GROUP_BADGES: Record<
   },
 };
 
-export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMarqueeProps) {
-  const [updates, setUpdates] = useState<RecentUpdate[]>(initialUpdates);
+interface MarqueeRowProps {
+  title: string;
+  badgeEmoji: string;
+  items: RecentUpdate[];
+  locale: string;
+}
+
+function MarqueeRow({ title, badgeEmoji, items, locale }: MarqueeRowProps) {
   const [isPaused, setIsPaused] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
@@ -105,27 +132,10 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
   const hasMovedRef = useRef(false);
   const animFrameIdRef = useRef<number | null>(null);
 
-  // Background auto-refresh from live API
-  useEffect(() => {
-    fetch('/api/updates')
-      .then((res) => {
-        if (res.ok) return res.json();
-        return null;
-      })
-      .then((data) => {
-        if (Array.isArray(data) && data.length > 0) {
-          setUpdates(data);
-        }
-      })
-      .catch((err) => {
-        console.warn('Background updates check error:', err);
-      });
-  }, []);
-
   // Triple items for seamless loop and dragging
-  const displayItems = updates.length > 0 ? [...updates, ...updates, ...updates] : [];
+  const displayItems = items.length > 0 ? [...items, ...items, ...items] : [];
 
-  // Gentle, calm auto-scroll (speed ~ 20px / second)
+  // Calm auto-scroll (~ 20px / sec)
   useEffect(() => {
     const el = containerRef.current;
     if (!el || displayItems.length === 0) return;
@@ -158,7 +168,7 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
     };
   }, [isPaused, isHovered, isDragging, displayItems.length]);
 
-  // Robust Pointer-based Drag-to-Scroll Handlers
+  // Pointer drag handlers
   const handlePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
     const el = containerRef.current;
     if (!el) return;
@@ -168,11 +178,10 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
     startXRef.current = e.clientX;
     scrollLeftRef.current = el.scrollLeft;
 
-    // Capture pointer so dragging continues even if cursor leaves container
     try {
       el.setPointerCapture(e.pointerId);
     } catch {
-      // Ignore if not supported
+      // Ignore
     }
   };
 
@@ -202,14 +211,12 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
   };
 
   const handleCardClick = (e: React.MouseEvent) => {
-    // If the user performed a drag gesture, prevent opening the link
     if (hasMovedRef.current) {
       e.preventDefault();
       e.stopPropagation();
     }
   };
 
-  // Manual Previous/Next Step Controls
   const scrollStep = useCallback((direction: 'left' | 'right') => {
     const el = containerRef.current;
     if (!el) return;
@@ -217,40 +224,32 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
     el.scrollBy({ left: offset, behavior: 'smooth' });
   }, []);
 
-  if (!updates || updates.length === 0) return null;
-
-  const headerTitle =
-    locale === 'ko'
-      ? '공식 블로그 최신 갱신'
-      : locale === 'ja'
-      ? '公式ブログ最新更新'
-      : 'Latest Official Blog Updates';
+  if (items.length === 0) return null;
 
   return (
-    <section className="relative z-10 w-full mt-12 sm:mt-16 pt-8 pb-4 border-t border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)]">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 mb-4 flex items-center justify-between flex-wrap gap-3">
-        {/* Left: Indicator & Title */}
+    <div className="w-full">
+      {/* Header bar */}
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 mb-3 flex items-center justify-between flex-wrap gap-2">
         <div className="flex items-center gap-2.5">
-          <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse shadow-sm" />
-          <h2 className="text-xs sm:text-sm font-bold tracking-wide text-[var(--g-ink)] font-[family-name:var(--font-klee-one)]">
-            {headerTitle}
-          </h2>
+          <span className="text-base leading-none">{badgeEmoji}</span>
+          <h3 className="text-xs sm:text-sm font-bold tracking-wide text-[var(--g-ink)] font-[family-name:var(--font-klee-one)]">
+            {title}
+          </h3>
           <span className="text-[11px] px-2.5 py-0.5 rounded-full bg-[var(--paper-deep)] text-[var(--ink-soft)] font-medium">
-            {updates.length} updates
+            {items.length} posts
           </span>
         </div>
 
-        {/* Right: Controls (Prev, Next, Pause/Play) */}
         <div className="flex items-center gap-1.5">
           <span className="text-[11px] text-[var(--ink-faint)] font-mono mr-2 hidden md:inline">
-            Drag to scroll • 드래그로 되돌리기
+            Drag to scroll • 되감기
           </span>
 
           <button
             type="button"
             onClick={() => scrollStep('left')}
-            aria-label="Previous updates"
-            className="w-8 h-8 rounded-full bg-[var(--white-veil)] hover:bg-white border border-[color-mix(in_oklab,var(--g-ink)_15%,transparent)] hover:border-[var(--g-brand)] text-[var(--ink)] flex items-center justify-center text-sm shadow-sm transition-all active:scale-95 cursor-pointer"
+            aria-label="Previous posts"
+            className="w-7 h-7 rounded-full bg-[var(--white-veil)] hover:bg-white border border-[color-mix(in_oklab,var(--g-ink)_15%,transparent)] hover:border-[var(--g-brand)] text-[var(--ink)] flex items-center justify-center text-xs shadow-xs transition-all active:scale-95 cursor-pointer"
           >
             ←
           </button>
@@ -259,7 +258,7 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
             type="button"
             onClick={() => setIsPaused((prev) => !prev)}
             aria-label={isPaused ? 'Resume auto scroll' : 'Pause auto scroll'}
-            className="px-3 h-8 rounded-full bg-[var(--white-veil)] hover:bg-white border border-[color-mix(in_oklab,var(--g-ink)_15%,transparent)] hover:border-[var(--g-brand)] text-[var(--ink)] flex items-center justify-center text-xs font-mono shadow-sm transition-all active:scale-95 cursor-pointer"
+            className="px-2.5 h-7 rounded-full bg-[var(--white-veil)] hover:bg-white border border-[color-mix(in_oklab,var(--g-ink)_15%,transparent)] hover:border-[var(--g-brand)] text-[var(--ink)] flex items-center justify-center text-[11px] font-mono shadow-xs transition-all active:scale-95 cursor-pointer"
           >
             {isPaused ? '▶ Play' : '⏸ Pause'}
           </button>
@@ -267,17 +266,17 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
           <button
             type="button"
             onClick={() => scrollStep('right')}
-            aria-label="Next updates"
-            className="w-8 h-8 rounded-full bg-[var(--white-veil)] hover:bg-white border border-[color-mix(in_oklab,var(--g-ink)_15%,transparent)] hover:border-[var(--g-brand)] text-[var(--ink)] flex items-center justify-center text-sm shadow-sm transition-all active:scale-95 cursor-pointer"
+            aria-label="Next posts"
+            className="w-7 h-7 rounded-full bg-[var(--white-veil)] hover:bg-white border border-[color-mix(in_oklab,var(--g-ink)_15%,transparent)] hover:border-[var(--g-brand)] text-[var(--ink)] flex items-center justify-center text-xs shadow-xs transition-all active:scale-95 cursor-pointer"
           >
             →
           </button>
         </div>
       </div>
 
-      {/* Interactive Drag & Scroll Container */}
+      {/* Row scroll viewport */}
       <div
-        className="relative w-full overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_2%,black_98%,transparent)] py-2"
+        className="relative w-full overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_2%,black_98%,transparent)] py-1.5"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
@@ -287,7 +286,7 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
           onPointerMove={handlePointerMove}
           onPointerUp={handlePointerUp}
           onPointerCancel={handlePointerUp}
-          className={`flex gap-4 overflow-x-auto no-scrollbar select-none px-4 py-1.5 touch-pan-y ${
+          className={`flex gap-3.5 overflow-x-auto no-scrollbar select-none px-4 py-1 touch-pan-y ${
             isDragging ? 'cursor-grabbing' : 'cursor-grab'
           }`}
           style={{
@@ -314,7 +313,7 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
                 draggable={false}
                 onDragStart={(e) => e.preventDefault()}
                 onClick={handleCardClick}
-                className="group relative flex items-center gap-3.5 p-3 sm:p-3.5 min-w-[290px] max-w-[340px] rounded-2xl bg-[var(--white-veil)] hover:bg-white border border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)] hover:border-[var(--g-brand)] shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-lift)] transition-all duration-300 hover:-translate-y-0.5 shrink-0 select-none"
+                className="group relative flex items-center gap-3 p-3 min-w-[280px] max-w-[330px] rounded-2xl bg-[var(--white-veil)] hover:bg-white border border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)] hover:border-[var(--g-brand)] shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-lift)] transition-all duration-300 hover:-translate-y-0.5 shrink-0 select-none"
               >
                 <MemberAvatar
                   glyph={item.memberGlyph}
@@ -326,9 +325,9 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
                 />
 
                 <div className="min-w-0 flex-1 pointer-events-none">
-                  <div className="flex items-center gap-2 mb-1">
+                  <div className="flex items-center gap-1.5 mb-1">
                     <span
-                      className="text-[10px] font-bold px-2 py-0.5 rounded-full"
+                      className="text-[10px] font-bold px-2 py-0.5 rounded-full shrink-0"
                       style={{
                         color: groupInfo.color,
                         backgroundColor: groupInfo.bg,
@@ -356,6 +355,73 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
           })}
         </div>
       </div>
+    </div>
+  );
+}
+
+export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMarqueeProps) {
+  const [updates, setUpdates] = useState<RecentUpdate[]>(initialUpdates);
+
+  // Background auto-refresh from live API
+  useEffect(() => {
+    fetch('/api/updates')
+      .then((res) => {
+        if (res.ok) return res.json();
+        return null;
+      })
+      .then((data) => {
+        if (Array.isArray(data) && data.length > 0) {
+          setUpdates(data);
+        }
+      })
+      .catch((err) => {
+        console.warn('Background updates check error:', err);
+      });
+  }, []);
+
+  if (!updates || updates.length === 0) return null;
+
+  // Split into Sakamichi vs AKB48 Group (Up to 30 each)
+  const sakamichiGroupIds = new Set(['nogizaka46', 'sakurazaka46', 'hinatazaka46']);
+  const sakamichiUpdates = updates
+    .filter((u) => u.franchise === 'sakamichi' || sakamichiGroupIds.has(u.groupId))
+    .slice(0, 30);
+
+  const akbUpdates = updates
+    .filter((u) => u.franchise === 'akb48g' || !sakamichiGroupIds.has(u.groupId))
+    .slice(0, 30);
+
+  const sakamichiTitle =
+    locale === 'ko'
+      ? '사카미치 시리즈 공식 블로그 최신 갱신'
+      : locale === 'ja'
+      ? '坂道シリーズ 公式ブログ最新更新'
+      : 'Sakamichi Series Latest Blog Updates';
+
+  const akbTitle =
+    locale === 'ko'
+      ? 'AKB48 그룹 공식 블로그 최신 갱신'
+      : locale === 'ja'
+      ? 'AKB48グループ 公式ブログ最新更新'
+      : 'AKB48 Group Latest Blog Updates';
+
+  return (
+    <section className="relative z-10 w-full mt-12 sm:mt-16 pt-8 pb-4 border-t border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)] space-y-8">
+      {/* 1. Sakamichi Series Row (Top) */}
+      <MarqueeRow
+        title={sakamichiTitle}
+        badgeEmoji="🌸"
+        items={sakamichiUpdates}
+        locale={locale}
+      />
+
+      {/* 2. AKB48 Group Row (Bottom) */}
+      <MarqueeRow
+        title={akbTitle}
+        badgeEmoji="🎀"
+        items={akbUpdates}
+        locale={locale}
+      />
     </section>
   );
 }

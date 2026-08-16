@@ -15,6 +15,7 @@ interface AKBMemberSeed {
   leftOn?: string | null;
   birthDate?: string;
   code?: string;
+  imageUrl?: string | null;
   sns?: { type: LinkType; url: string }[];
 }
 
@@ -31,6 +32,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2014-04-03',
     birthDate: '2001-12-26',
     code: 'oguri_yui',
+    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100622.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/oguri_yui' },
       { type: 'x', url: 'https://x.com/yuiyui_maromaro' },
@@ -48,6 +50,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2014-04-03',
     birthDate: '2000-11-08',
     code: 'kuranoo_narumi',
+    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100609.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/kuranoo_narumi' },
       { type: 'x', url: 'https://x.com/Kuranoo_Narumi_' },
@@ -65,6 +68,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2013-06-05',
     birthDate: '1998-01-29',
     code: 'mukaichi_mion',
+    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100588.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/mukaichi_mion' },
       { type: 'x', url: 'https://x.com/mionnn_48' },
@@ -82,6 +86,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2011-12-08',
     birthDate: '1997-06-15',
     code: 'murayama_yuiri',
+    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100547.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/murayama_yuiri' },
       { type: 'x', url: 'https://x.com/yuirii_murayama' },
@@ -99,6 +104,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2015-05-10',
     birthDate: '2003-10-27',
     code: 'chiba_erii',
+    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100645.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/chiba_erii' },
       { type: 'x', url: 'https://x.com/erii_20031027' },
@@ -116,6 +122,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2016-12-08',
     birthDate: '2001-09-20',
     code: 'yamauchi_mizuki',
+    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100669.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/yamauchi_mizuki' },
       { type: 'x', url: 'https://x.com/MizukiYamauchi' },
@@ -133,6 +140,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2022-05-04',
     birthDate: '2004-12-20',
     code: 'sato_airi',
+    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100790.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/sato_airi' },
       { type: 'x', url: 'https://x.com/airi_sato0624' },
@@ -150,6 +158,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2023-04-09',
     birthDate: '2005-03-22',
     code: 'yagi_azuki',
+    imageUrl: 'https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100816.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48.co.jp/about/members/detail/yagi_azuki' },
       { type: 'x', url: 'https://x.com/azuki_yagi0322' },
@@ -166,6 +175,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2006-12-03',
     leftOn: '2024-04-30',
     birthDate: '1991-07-15',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Yuki_Kashiwagi_2023.jpg/440px-Yuki_Kashiwagi_2023.jpg',
     sns: [
       { type: 'x', url: 'https://x.com/Yukiriiiin__K' },
       { type: 'instagram', url: 'https://www.instagram.com/yukikashiwagi_official/' },
@@ -183,6 +193,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2005-12-08',
     leftOn: '2012-08-27',
     birthDate: '1991-07-10',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Atsuko_Maeda_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2023_%2853279930971%29_%28cropped%29.jpg/440px-Atsuko_Maeda_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2023_%2853279930971%29_%28cropped%29.jpg',
     sns: [
       { type: 'x', url: 'https://x.com/Atsuko_100' },
       { type: 'instagram', url: 'https://www.instagram.com/atsuko_maeda_official/' },
@@ -199,6 +210,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2006-02-26',
     leftOn: '2014-06-09',
     birthDate: '1988-10-17',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Yuko_Oshima_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2019_%2831779261317%29.jpg/440px-Yuko_Oshima_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2019_%2831779261317%29.jpg',
     sns: [
       { type: 'x', url: 'https://x.com/Oshima__Yuko' },
       { type: 'instagram', url: 'https://www.instagram.com/yuk00shima/' },
@@ -215,6 +227,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2007-10-06',
     leftOn: '2019-04-28',
     birthDate: '1992-11-21',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Rino_Sashihara_2019.jpg/440px-Rino_Sashihara_2019.jpg',
     sns: [
       { type: 'x', url: 'https://x.com/345__chan' },
       { type: 'instagram', url: 'https://www.instagram.com/345insta/' },
@@ -234,6 +247,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2012-10-06',
     birthDate: '1997-08-10',
     code: 'kumazaki_haruka',
+    imageUrl: 'https://ske48.co.jp/img/profile/detail/kumazaki_haruka.jpg',
     sns: [
       { type: 'official_profile', url: 'https://ske48.co.jp/profile/detail/kumazaki_haruka' },
       { type: 'x', url: 'https://x.com/kumachan9810' },
@@ -251,6 +265,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2015-03-15',
     birthDate: '2002-02-26',
     code: 'suenaga_ouka',
+    imageUrl: 'https://ske48.co.jp/img/profile/detail/suenaga_ouka.jpg',
     sns: [
       { type: 'official_profile', url: 'https://ske48.co.jp/profile/detail/suenaga_ouka' },
       { type: 'x', url: 'https://x.com/Ouka_ske0226' },
@@ -268,6 +283,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2016-10-29',
     birthDate: '2003-02-01',
     code: 'nomura_miyo',
+    imageUrl: 'https://ske48.co.jp/img/profile/detail/nomura_miyo.jpg',
     sns: [
       { type: 'official_profile', url: 'https://ske48.co.jp/profile/detail/nomura_miyo' },
       { type: 'x', url: 'https://x.com/MIYOMARUKO' },
@@ -285,6 +301,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2008-08-23',
     leftOn: '2021-04-30',
     birthDate: '1997-03-08',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Jurina_Matsui_at_Produce_48_press_conference.jpg/440px-Jurina_Matsui_at_Produce_48_press_conference.jpg',
     sns: [
       { type: 'x', url: 'https://x.com/JURINA38G' },
       { type: 'instagram', url: 'https://www.instagram.com/jurinamatsui3/' },
@@ -303,6 +320,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2016-06-28',
     birthDate: '1999-07-16',
     code: 'kojima_karin',
+    imageUrl: 'https://www.nmb48.com/images/member/kojima_karin.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.nmb48.com/member/kojima_karin' },
       { type: 'x', url: 'https://x.com/nmb_KOJIMA_48' },
@@ -321,6 +339,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2018-01-21',
     birthDate: '2005-12-15',
     code: 'shiotsuki_keito',
+    imageUrl: 'https://www.nmb48.com/images/member/shiotsuki_keito.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.nmb48.com/member/shiotsuki_keito' },
       { type: 'x', url: 'https://x.com/keity_1215' },
@@ -338,6 +357,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2022-01-01',
     birthDate: '2005-11-08',
     code: 'sakata_misaki',
+    imageUrl: 'https://www.nmb48.com/images/member/sakata_misaki.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.nmb48.com/member/sakata_misaki' },
       { type: 'x', url: 'https://x.com/Michapiiii_' },
@@ -355,6 +375,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2010-10-09',
     leftOn: '2018-11-04',
     birthDate: '1993-07-14',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Yamamoto_Sayaka_2018.jpg/440px-Yamamoto_Sayaka_2018.jpg',
     sns: [
       { type: 'official_profile', url: 'https://yamamotosayaka.jp/' },
       { type: 'x', url: 'https://x.com/SayakaNeon' },
@@ -367,7 +388,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
   {
     kanji: '豊永阿紀',
     kana: 'とよなが あき',
-    hangul: '토요나가 아키',
+    hangul: '토요нага 아키',
     romaji: 'Aki Toyonaga',
     groupId: 'hkt48',
     genId: 'hkt-g-active',
@@ -375,6 +396,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2016-07-12',
     birthDate: '1999-10-25',
     code: 'toyonaga_aki',
+    imageUrl: 'https://www.hkt48.jp/files/99/profile/toyonaga_aki.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.hkt48.jp/profile/toyonaga_aki' },
       { type: 'x', url: 'https://x.com/aki_toyonaga' },
@@ -392,6 +414,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2018-11-26',
     birthDate: '2005-07-22',
     code: 'ishibashi_ibuki',
+    imageUrl: 'https://www.hkt48.jp/files/99/profile/ishibashi_ibuki.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.hkt48.jp/profile/ishibashi_ibuki' },
       { type: 'x', url: 'https://x.com/ibuki1484_hkt' },
@@ -409,6 +432,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2018-11-26',
     birthDate: '2004-02-22',
     code: 'takemoto_kurumi',
+    imageUrl: 'https://www.hkt48.jp/files/99/profile/takemoto_kurumi.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.hkt48.jp/profile/takemoto_kurumi' },
       { type: 'x', url: 'https://x.com/kuru2_official' },
@@ -426,6 +450,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2011-10-23',
     leftOn: '2021-06-19',
     birthDate: '1998-03-19',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Sakura_Miyawaki_in_March_2024.jpg/440px-Sakura_Miyawaki_in_March_2024.jpg',
     sns: [
       { type: 'x', url: 'https://x.com/39saku_chan' },
       { type: 'instagram', url: 'https://www.instagram.com/39saku_chan/' },
@@ -445,6 +470,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2018-01-21',
     birthDate: '2000-11-17',
     code: 'fujisaki_miyu',
+    imageUrl: 'https://ngt48.jp/profile/fujisaki_miyu.jpg',
     sns: [
       { type: 'official_profile', url: 'https://ngt48.jp/profile/detail/fujisaki_miyu' },
       { type: 'x', url: 'https://x.com/miyu_miyu_ngt48' },
@@ -462,6 +488,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2015-05-10',
     birthDate: '1995-10-16',
     code: 'nishigata_marina',
+    imageUrl: 'https://ngt48.jp/profile/nishigata_marina.jpg',
     sns: [
       { type: 'official_profile', url: 'https://ngt48.jp/profile/detail/nishigata_marina' },
       { type: 'x', url: 'https://x.com/marina_ngt48n' },
@@ -479,6 +506,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2015-08-21',
     leftOn: '2024-04-13',
     birthDate: '1999-11-10',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hinata_Homma_2018.jpg/440px-Hinata_Homma_2018.jpg',
     sns: [
       { type: 'x', url: 'https://x.com/hinata_homma' },
       { type: 'instagram', url: 'https://www.instagram.com/hinata_homma1110/' },
@@ -497,6 +525,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2022-05-03',
     birthDate: '2003-01-20',
     code: 'okada_azumi',
+    imageUrl: 'https://sp.stu48.com/img/profile/okada_azumi.jpg',
     sns: [
       { type: 'official_profile', url: 'https://sp.stu48.com/feature/profile_okada_azumi' },
       { type: 'x', url: 'https://x.com/azumi_stu48' },
@@ -513,6 +542,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2018-01-21',
     birthDate: '1999-04-04',
     code: 'nakamura_mai',
+    imageUrl: 'https://sp.stu48.com/img/profile/nakamura_mai.jpg',
     sns: [
       { type: 'official_profile', url: 'https://sp.stu48.com/feature/profile_nakamura_mai' },
       { type: 'x', url: 'https://x.com/stu48_question' },
@@ -530,6 +560,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2017-03-31',
     birthDate: '2002-03-17',
     code: 'ishida_chiho',
+    imageUrl: 'https://sp.stu48.com/img/profile/ishida_chiho.jpg',
     sns: [
       { type: 'official_profile', url: 'https://sp.stu48.com/feature/profile_ishida_chiho' },
       { type: 'x', url: 'https://x.com/_ishida_chiho' },
@@ -547,6 +578,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2017-03-31',
     leftOn: '2023-11-30',
     birthDate: '1997-09-24',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Yumiko_Takino_2018.jpg/440px-Yumiko_Takino_2018.jpg',
     sns: [
       { type: 'x', url: 'https://x.com/yumiko_takino_' },
       { type: 'instagram', url: 'https://www.instagram.com/yumiko_anko/' },
@@ -565,6 +597,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2014-03-15',
     birthDate: '1998-10-05',
     code: 'shani_indira_natio',
+    imageUrl: 'https://jkt48.com/images/member/shani_indira_natio.jpg',
     sns: [
       { type: 'official_profile', url: 'https://jkt48.com/member/detail/id/shani_indira_natio' },
       { type: 'x', url: 'https://x.com/N_ShaniJKT48' },
@@ -582,6 +615,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2014-03-15',
     birthDate: '1999-01-16',
     code: 'feni_fitriyanti',
+    imageUrl: 'https://jkt48.com/images/member/feni_fitriyanti.jpg',
     sns: [
       { type: 'official_profile', url: 'https://jkt48.com/member/detail/id/feni_fitriyanti' },
       { type: 'x', url: 'https://x.com/F_FeniJKT48' },
@@ -599,6 +633,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2018-09-29',
     birthDate: '2006-02-13',
     code: 'freya_jayawardana',
+    imageUrl: 'https://jkt48.com/images/member/freya_jayawardana.jpg',
     sns: [
       { type: 'official_profile', url: 'https://jkt48.com/member/detail/id/freya_jayawardana' },
       { type: 'x', url: 'https://x.com/Freya_JKT48' },
@@ -618,6 +653,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2017-02-12',
     leftOn: '2023-10-30',
     birthDate: '1996-05-02',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Cherprang_Areekul_2023.jpg/440px-Cherprang_Areekul_2023.jpg',
     sns: [
       { type: 'x', url: 'https://x.com/cherprang_areek' },
       { type: 'instagram', url: 'https://www.instagram.com/cherprang.areekul/' },
@@ -634,6 +670,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2020-11-28',
     birthDate: '2002-09-18',
     code: 'hoop',
+    imageUrl: 'https://www.bnk48.com/images/members/hoop.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.bnk48.com/bnk48-members/detail/hoop' },
       { type: 'instagram', url: 'https://www.instagram.com/hoop.bnk48official/' },
@@ -652,6 +689,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2010-03-31',
     leftOn: '2024-11-30',
     birthDate: '1995-11-26',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Rina_Izuta_2023.jpg/440px-Rina_Izuta_2023.jpg',
     sns: [
       { type: 'x', url: 'https://x.com/izurina_cgm48' },
       { type: 'instagram', url: 'https://www.instagram.com/rina.izuta.cgm48/' },
@@ -668,6 +706,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2019-10-26',
     birthDate: '1995-11-10',
     code: 'aom',
+    imageUrl: 'https://cgm48official.com/images/members/aom.jpg',
     sns: [
       { type: 'official_profile', url: 'https://cgm48official.com/members/aom' },
       { type: 'instagram', url: 'https://www.instagram.com/aom.cgm48official/' },
@@ -686,6 +725,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2018-04-28',
     birthDate: '2000-07-20',
     code: 'sheki',
+    imageUrl: 'https://mnl48.ph/images/members/sheki.jpg',
     sns: [
       { type: 'official_profile', url: 'https://mnl48.ph/members/sheki' },
       { type: 'instagram', url: 'https://www.instagram.com/sheki.mnl48official/' },
@@ -704,6 +744,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2018-12-03',
     birthDate: '2001-02-02',
     code: 'liu_nian',
+    imageUrl: 'https://www.akb48-china.com/upload/member/liu_nian.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48-china.com/member/liu_nian' },
       { type: 'weibo', url: 'https://weibo.com/u/6591022137' },
@@ -722,6 +763,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2018-08-26',
     birthDate: '1996-07-14',
     code: '77_yuqing',
+    imageUrl: 'https://www.akb48teamtp.com/upload/members/77_yuqing.jpg',
     sns: [
       { type: 'official_profile', url: 'https://www.akb48teamtp.com/members/77_yuqing' },
       { type: 'instagram', url: 'https://www.instagram.com/yuqing__77/' },
@@ -740,6 +782,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2014-04-03',
     birthDate: '1999-03-14',
     code: 'yurina_gyoten',
+    imageUrl: 'https://klp48.my/img/members/yurina_gyoten.jpg',
     sns: [
       { type: 'official_profile', url: 'https://klp48.my/members/yurina_gyoten' },
       { type: 'x', url: 'https://x.com/tenten_yurina' },
@@ -757,6 +800,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2016-12-08',
     birthDate: '2001-02-28',
     code: 'haruka_kurosu',
+    imageUrl: 'https://klp48.my/img/members/haruka_kurosu.jpg',
     sns: [
       { type: 'official_profile', url: 'https://klp48.my/members/haruka_kurosu' },
       { type: 'x', url: 'https://x.com/kurosu_haruka_' },
@@ -774,6 +818,7 @@ const AKB48G_SEEDS: AKBMemberSeed[] = [
     joinedOn: '2016-12-08',
     birthDate: '2000-08-11',
     code: 'suzuha_yamane',
+    imageUrl: 'https://klp48.my/img/members/suzuha_yamane.jpg',
     sns: [
       { type: 'official_profile', url: 'https://klp48.my/members/suzuha_yamane' },
       { type: 'x', url: 'https://x.com/48_asayan' },
@@ -790,8 +835,8 @@ export function getAKB48GroupMembers(): Member[] {
     const avatar = generateAvatar(id, seed.kanji);
 
     const links: MemberLink[] = (seed.sns || []).map((s) => ({
-      type: s.type as MemberLink['type'],
-      url: s.url as MemberLink['url'],
+      type: s.type,
+      url: s.url,
       label: null,
       isOfficial: true,
       status: 'ok',
@@ -830,7 +875,7 @@ export function getAKB48GroupMembers(): Member[] {
       birthDate: seed.birthDate || null,
       birthplace: null,
       officialCode: seed.code || null,
-      imageUrl: null,
+      imageUrl: seed.imageUrl || null,
       links,
       avatar,
       provenance: {

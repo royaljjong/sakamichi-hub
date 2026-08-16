@@ -10024,7 +10024,9 @@
         "romaji": "Hirate Yurina"
       },
       "aliases": [
-        "平手友梨奈"
+        "hirate yurina",
+        "平手友梨奈",
+        "히라테 유리나"
       ]
     },
     "primaryGroupId": "sakurazaka46",
@@ -10043,27 +10045,27 @@
     "birthDate": "2001-06-25",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Yurina_Hirate_2021.jpg/440px-Yurina_Hirate_2021.jpg",
     "links": [
       {
         "type": "official_profile",
         "url": "https://cloud9-pro.com/artist/profile/yurinahirate/",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B9%B3%E6%89%8B%E5%8F%8B%E6%A2%A8%E5%A5%88",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
     "avatar": {
       "glyph": "平",
       "hueShift": -19
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://cloud9-pro.com/artist/profile/yurinahirate/",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
     }
   },
   {
@@ -10080,7 +10082,9 @@
         "romaji": "Nagahama Neru"
       },
       "aliases": [
-        "長濱ねる"
+        "nagahama neru",
+        "長濱ねる",
+        "나가하마 네루"
       ]
     },
     "primaryGroupId": "sakurazaka46",
@@ -10099,36 +10103,36 @@
     "birthDate": "1998-09-04",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Neru_Nagahama_2023.jpg/440px-Neru_Nagahama_2023.jpg",
     "links": [
       {
         "type": "x",
         "url": "https://x.com/neru_and_staff",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "instagram",
         "url": "https://www.instagram.com/nerunagahama_",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%95%B7%E6%BF%B1%E3%81%AD%E3%82%8B",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
     "avatar": {
       "glyph": "長",
       "hueShift": -10
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://x.com/neru_and_staff",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
     }
   },
   {
@@ -10145,7 +10149,9 @@
         "romaji": "Sugai Yuuka"
       },
       "aliases": [
-        "菅井友香"
+        "sugai yuuka",
+        "菅井友香",
+        "스가이 유우카"
       ]
     },
     "primaryGroupId": "sakurazaka46",
@@ -10164,36 +10170,36 @@
     "birthDate": "1995-11-29",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Yuuka_Sugai_2023.jpg/440px-Yuuka_Sugai_2023.jpg",
     "links": [
       {
         "type": "x",
         "url": "https://x.com/yuuka_s_official",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "instagram",
         "url": "https://www.instagram.com/yuuka_sugai_official/",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8F%85%E4%BA%95%E5%8F%8B%E9%A6%99",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
     "avatar": {
       "glyph": "菅",
       "hueShift": -28
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://x.com/yuuka_s_official",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
     }
   },
   {
@@ -10210,7 +10216,9 @@
         "romaji": "Watanabe Risa"
       },
       "aliases": [
-        "渡邉理佐"
+        "watanabe risa",
+        "渡邉理佐",
+        "와타나베 리사"
       ]
     },
     "primaryGroupId": "sakurazaka46",
@@ -10229,36 +10237,36 @@
     "birthDate": "1998-07-27",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Risa_Watanabe_2022.jpg/440px-Risa_Watanabe_2022.jpg",
     "links": [
       {
         "type": "x",
         "url": "https://x.com/risa_and_staff",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "instagram",
         "url": "https://www.instagram.com/_risawatanabe_/",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%B8%A1%E9%82%89%E7%90%86%E4%BD%90",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
     "avatar": {
       "glyph": "渡",
       "hueShift": 16
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://x.com/risa_and_staff",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
     }
   },
   {
@@ -10275,7 +10283,9 @@
         "romaji": "Kobayashi Yui"
       },
       "aliases": [
-        "小林由依"
+        "kobayashi yui",
+        "小林由依",
+        "코바야시 유이"
       ]
     },
     "primaryGroupId": "sakurazaka46",
@@ -10294,27 +10304,27 @@
     "birthDate": "1999-10-23",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Yui_Kobayashi_2022.jpg/440px-Yui_Kobayashi_2022.jpg",
     "links": [
       {
         "type": "instagram",
         "url": "https://www.instagram.com/_yui_kobayashi/",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E6%9E%97%E7%94%B1%E4%BE%9D",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
     "avatar": {
       "glyph": "小",
       "hueShift": -15
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://www.instagram.com/_yui_kobayashi/",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
     }
   },
   {
@@ -10331,7 +10341,9 @@
         "romaji": "Habu Mizuho"
       },
       "aliases": [
-        "土生瑞穂"
+        "habu mizuho",
+        "土生瑞穂",
+        "하부 미즈호"
       ]
     },
     "primaryGroupId": "sakurazaka46",
@@ -10350,27 +10362,36 @@
     "birthDate": "1997-07-07",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Mizuho_Habu_2023.jpg/440px-Mizuho_Habu_2023.jpg",
     "links": [
+      {
+        "type": "x",
+        "url": "https://x.com/habu_mizuho",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
       {
         "type": "instagram",
         "url": "https://www.instagram.com/habumizuho/",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%9C%9F%E7%94%9F%E7%91%9E%E7%A9%82",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
     "avatar": {
       "glyph": "土",
       "hueShift": -40
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://x.com/habu_mizuho",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
     }
   },
   {
@@ -10387,7 +10408,9 @@
         "romaji": "Moriya Akane"
       },
       "aliases": [
-        "守屋茜"
+        "moriya akane",
+        "守屋茜",
+        "모리야 아카네"
       ]
     },
     "primaryGroupId": "sakurazaka46",
@@ -10413,20 +10436,20 @@
         "url": "https://www.instagram.com/akane.moriya_official/",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%AE%88%E5%B1%8B%E8%8C%9C",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
     "avatar": {
       "glyph": "守",
       "hueShift": -23
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://www.instagram.com/akane.moriya_official/",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
     }
   },
   {
@@ -10443,7 +10466,9 @@
         "romaji": "Watanabe Rika"
       },
       "aliases": [
-        "渡辺梨加"
+        "watanabe rika",
+        "渡辺梨加",
+        "와타나베 리카"
       ]
     },
     "primaryGroupId": "sakurazaka46",
@@ -10469,290 +10494,20 @@
         "url": "https://www.instagram.com/watanabe.rika.official/",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%B8%A1%E8%BE%BA%E6%A2%A8%E5%8A%A0",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
     "avatar": {
       "glyph": "渡",
       "hueShift": 21
-    }
-  },
-  {
-    "id": "saku-imaizumi-yui",
-    "name": {
-      "ja": {
-        "kanji": "今泉佑唯",
-        "kana": "いまいずみ ゆい"
-      },
-      "ko": {
-        "hangul": "이마이즈미 유이"
-      },
-      "en": {
-        "romaji": "Imaizumi Yui"
-      },
-      "aliases": [
-        "今泉佑唯"
-      ]
     },
-    "primaryGroupId": "sakurazaka46",
-    "primaryGenerationId": "saku-g1",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "sakurazaka46",
-        "generationId": "saku-g1",
-        "joinedOn": "2015-08-21",
-        "leftOn": "2018-11-04",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "1998-09-30",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [],
     "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%BB%8A%E6%B3%89%E4%BD%91%E5%94%AF",
+      "source": "official",
+      "sourceUrl": "https://www.instagram.com/watanabe.rika.official/",
       "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
-    "avatar": {
-      "glyph": "今",
-      "hueShift": -17
-    }
-  },
-  {
-    "id": "saku-shida-manaka",
-    "name": {
-      "ja": {
-        "kanji": "志田愛佳",
-        "kana": "しだ まなか"
-      },
-      "ko": {
-        "hangul": "시다 마나카"
-      },
-      "en": {
-        "romaji": "Shida Manaka"
-      },
-      "aliases": [
-        "志田愛佳"
-      ]
-    },
-    "primaryGroupId": "sakurazaka46",
-    "primaryGenerationId": "saku-g1",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "sakurazaka46",
-        "generationId": "saku-g1",
-        "joinedOn": "2015-08-21",
-        "leftOn": "2018-11-16",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "1998-11-23",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/manaka.shida.98/",
-        "label": null,
-        "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
-      }
-    ],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%BF%97%E7%94%B0%E6%84%9B%E4%BD%B3",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
-    "avatar": {
-      "glyph": "志",
-      "hueShift": 13
-    }
-  },
-  {
-    "id": "saku-suzumoto-miyu",
-    "name": {
-      "ja": {
-        "kanji": "鈴本美愉",
-        "kana": "すずもと みゆ"
-      },
-      "ko": {
-        "hangul": "스즈모토 미유"
-      },
-      "en": {
-        "romaji": "Suzumoto Miyu"
-      },
-      "aliases": [
-        "鈴本美愉"
-      ]
-    },
-    "primaryGroupId": "sakurazaka46",
-    "primaryGenerationId": "saku-g1",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "sakurazaka46",
-        "generationId": "saku-g1",
-        "joinedOn": "2015-08-21",
-        "leftOn": "2020-01-23",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "1997-12-05",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/suzumoto__miyu/",
-        "label": null,
-        "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
-      }
-    ],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%88%B4%E6%9C%AC%E7%BE%8E%E6%84%89",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
-    "avatar": {
-      "glyph": "鈴",
-      "hueShift": 23
-    }
-  },
-  {
-    "id": "saku-oda-nana",
-    "name": {
-      "ja": {
-        "kanji": "織田奈那",
-        "kana": "おだ なな"
-      },
-      "ko": {
-        "hangul": "오다 나나"
-      },
-      "en": {
-        "romaji": "Oda Nana"
-      },
-      "aliases": [
-        "織田奈那"
-      ]
-    },
-    "primaryGroupId": "sakurazaka46",
-    "primaryGenerationId": "saku-g1",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "sakurazaka46",
-        "generationId": "saku-g1",
-        "joinedOn": "2015-08-21",
-        "leftOn": "2020-01-23",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "1998-06-04",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/odanana924/",
-        "label": null,
-        "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
-      }
-    ],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%B9%94%E7%94%B0%E5%A5%88%E9%82%A3",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
-    "avatar": {
-      "glyph": "織",
-      "hueShift": 27
-    }
-  },
-  {
-    "id": "saku-harada-aoi",
-    "name": {
-      "ja": {
-        "kanji": "原田葵",
-        "kana": "はらだ あおい"
-      },
-      "ko": {
-        "hangul": "하라다 아오이"
-      },
-      "en": {
-        "romaji": "Harada Aoi"
-      },
-      "aliases": [
-        "原田葵"
-      ]
-    },
-    "primaryGroupId": "sakurazaka46",
-    "primaryGenerationId": "saku-g1",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "sakurazaka46",
-        "generationId": "saku-g1",
-        "joinedOn": "2015-08-21",
-        "leftOn": "2022-06-11",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "2000-05-07",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/harada_aoi_/",
-        "label": null,
-        "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
-      }
-    ],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%8E%9F%E7%94%B0%E8%91%B5",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
-    "avatar": {
-      "glyph": "原",
-      "hueShift": -7
+      "note": "Historical graduate record"
     }
   },
   {
@@ -10769,7 +10524,9 @@
         "romaji": "Ozeki Rika"
       },
       "aliases": [
-        "尾関梨香"
+        "ozeki rika",
+        "尾関梨香",
+        "오제키 리카"
       ]
     },
     "primaryGroupId": "sakurazaka46",
@@ -10792,23 +10549,503 @@
     "links": [
       {
         "type": "instagram",
-        "url": "https://www.instagram.com/rika_ozeki97/",
+        "url": "https://www.instagram.com/rika_ozeki_official/",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B0%BE%E9%96%A2%E6%A2%A8%E9%A6%99",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
     "avatar": {
       "glyph": "尾",
       "hueShift": 8
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://www.instagram.com/rika_ozeki_official/",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
+    }
+  },
+  {
+    "id": "saku-harada-aoi",
+    "name": {
+      "ja": {
+        "kanji": "原田葵",
+        "kana": "はらだ あおい"
+      },
+      "ko": {
+        "hangul": "하라다 아오이"
+      },
+      "en": {
+        "romaji": "Harada Aoi"
+      },
+      "aliases": [
+        "harada aoi",
+        "原田葵",
+        "하라다 아오이"
+      ]
+    },
+    "primaryGroupId": "sakurazaka46",
+    "primaryGenerationId": "saku-g1",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "sakurazaka46",
+        "generationId": "saku-g1",
+        "joinedOn": "2015-08-21",
+        "leftOn": "2022-08-20",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "2000-05-07",
+    "birthplace": null,
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/harada_aoi_/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      }
+    ],
+    "avatar": {
+      "glyph": "原",
+      "hueShift": -7
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://www.instagram.com/harada_aoi_/",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
+    }
+  },
+  {
+    "id": "saku-satou-shiori",
+    "name": {
+      "ja": {
+        "kanji": "佐藤詩織",
+        "kana": "さとう しおり"
+      },
+      "ko": {
+        "hangul": "사토우 시오리"
+      },
+      "en": {
+        "romaji": "Satou Shiori"
+      },
+      "aliases": [
+        "satou shiori",
+        "佐藤詩織",
+        "사토우 시오리"
+      ]
+    },
+    "primaryGroupId": "sakurazaka46",
+    "primaryGenerationId": "saku-g1",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "sakurazaka46",
+        "generationId": "saku-g1",
+        "joinedOn": "2015-08-21",
+        "leftOn": "2020-10-13",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "1996-11-16",
+    "birthplace": null,
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [
+      {
+        "type": "x",
+        "url": "https://x.com/shiorisato_art",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/shiori_sato_artwork/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      }
+    ],
+    "avatar": {
+      "glyph": "佐",
+      "hueShift": 34
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://x.com/shiorisato_art",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
+    }
+  },
+  {
+    "id": "saku-suzumoto-miyu",
+    "name": {
+      "ja": {
+        "kanji": "鈴本美愉",
+        "kana": "すずもと みゆ"
+      },
+      "ko": {
+        "hangul": "스즈모토 미유"
+      },
+      "en": {
+        "romaji": "Suzumoto Miyu"
+      },
+      "aliases": [
+        "suzumoto miyu",
+        "鈴本美愉",
+        "스즈모토 미유"
+      ]
+    },
+    "primaryGroupId": "sakurazaka46",
+    "primaryGenerationId": "saku-g1",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "sakurazaka46",
+        "generationId": "saku-g1",
+        "joinedOn": "2015-08-21",
+        "leftOn": "2020-01-23",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "1997-12-05",
+    "birthplace": null,
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/suzumotomiyu_/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      }
+    ],
+    "avatar": {
+      "glyph": "鈴",
+      "hueShift": 23
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://www.instagram.com/suzumotomiyu_/",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
+    }
+  },
+  {
+    "id": "saku-oda-nana",
+    "name": {
+      "ja": {
+        "kanji": "織田奈那",
+        "kana": "おだ なな"
+      },
+      "ko": {
+        "hangul": "오다 나나"
+      },
+      "en": {
+        "romaji": "Oda Nana"
+      },
+      "aliases": [
+        "oda nana",
+        "織田奈那",
+        "오다 나나"
+      ]
+    },
+    "primaryGroupId": "sakurazaka46",
+    "primaryGenerationId": "saku-g1",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "sakurazaka46",
+        "generationId": "saku-g1",
+        "joinedOn": "2015-08-21",
+        "leftOn": "2020-01-23",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "1998-06-04",
+    "birthplace": null,
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [
+      {
+        "type": "x",
+        "url": "https://x.com/odanana_1107",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/odanana_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      }
+    ],
+    "avatar": {
+      "glyph": "織",
+      "hueShift": 27
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://x.com/odanana_1107",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
+    }
+  },
+  {
+    "id": "saku-imaizumi-yui",
+    "name": {
+      "ja": {
+        "kanji": "今泉佑唯",
+        "kana": "いまいずみ ゆい"
+      },
+      "ko": {
+        "hangul": "이마이즈미 유이"
+      },
+      "en": {
+        "romaji": "Imaizumi Yui"
+      },
+      "aliases": [
+        "imaizumi yui",
+        "今泉佑唯",
+        "이마이즈미 유이"
+      ]
+    },
+    "primaryGroupId": "sakurazaka46",
+    "primaryGenerationId": "saku-g1",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "sakurazaka46",
+        "generationId": "saku-g1",
+        "joinedOn": "2015-08-21",
+        "leftOn": "2018-11-04",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "1998-09-30",
+    "birthplace": null,
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "今",
+      "hueShift": -17
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://sakurazaka46.com/",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
+    }
+  },
+  {
+    "id": "saku-shida-manaka",
+    "name": {
+      "ja": {
+        "kanji": "志田愛佳",
+        "kana": "しだ まなか"
+      },
+      "ko": {
+        "hangul": "시다 마나카"
+      },
+      "en": {
+        "romaji": "Shida Manaka"
+      },
+      "aliases": [
+        "shida manaka",
+        "志田愛佳",
+        "시다 마나카"
+      ]
+    },
+    "primaryGroupId": "sakurazaka46",
+    "primaryGenerationId": "saku-g1",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "sakurazaka46",
+        "generationId": "saku-g1",
+        "joinedOn": "2015-08-21",
+        "leftOn": "2018-11-16",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "1998-11-23",
+    "birthplace": null,
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [
+      {
+        "type": "x",
+        "url": "https://x.com/_manaka_shida_",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/manaka.shida.96/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      }
+    ],
+    "avatar": {
+      "glyph": "志",
+      "hueShift": 13
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://x.com/_manaka_shida_",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
+    }
+  },
+  {
+    "id": "saku-yonetani-nanami",
+    "name": {
+      "ja": {
+        "kanji": "米谷奈々未",
+        "kana": "よねたに ななみ"
+      },
+      "ko": {
+        "hangul": "요네타니 나나미"
+      },
+      "en": {
+        "romaji": "Yonetani Nanami"
+      },
+      "aliases": [
+        "yonetani nanami",
+        "米谷奈々未",
+        "요네타니 나나미"
+      ]
+    },
+    "primaryGroupId": "sakurazaka46",
+    "primaryGenerationId": "saku-g1",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "sakurazaka46",
+        "generationId": "saku-g1",
+        "joinedOn": "2015-08-21",
+        "leftOn": "2018-12-22",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "2000-02-24",
+    "birthplace": null,
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "米",
+      "hueShift": 30
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://sakurazaka46.com/",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
+    }
+  },
+  {
+    "id": "saku-nagasawa-nanako",
+    "name": {
+      "ja": {
+        "kanji": "長沢菜々香",
+        "kana": "ながさわ ななこ"
+      },
+      "ko": {
+        "hangul": "나가사와 나나코"
+      },
+      "en": {
+        "romaji": "Nagasawa Nanako"
+      },
+      "aliases": [
+        "nagasawa nanako",
+        "長沢菜々香",
+        "나가사와 나나코"
+      ]
+    },
+    "primaryGroupId": "sakurazaka46",
+    "primaryGenerationId": "saku-g1",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "sakurazaka46",
+        "generationId": "saku-g1",
+        "joinedOn": "2015-08-21",
+        "leftOn": "2020-03-31",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "1997-04-23",
+    "birthplace": null,
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [
+      {
+        "type": "x",
+        "url": "https://x.com/nanako0423_",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/nanako0423_/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      }
+    ],
+    "avatar": {
+      "glyph": "長",
+      "hueShift": -18
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://x.com/nanako0423_",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
     }
   },
   {
@@ -10825,7 +11062,9 @@
         "romaji": "Seki Yumiko"
       },
       "aliases": [
-        "関有美子"
+        "seki yumiko",
+        "関有美子",
+        "세키 유미코"
       ]
     },
     "primaryGroupId": "sakurazaka46",
@@ -10835,7 +11074,7 @@
       {
         "groupId": "sakurazaka46",
         "generationId": "saku-g2",
-        "joinedOn": "2018-11-29",
+        "joinedOn": "2018-12-10",
         "leftOn": "2023-04-30",
         "isConcurrent": false,
         "endReason": "graduation"
@@ -10851,37 +11090,39 @@
         "url": "https://www.instagram.com/_yumiko_seki_/",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%96%A2%E6%9C%89%E7%BE%8E%E5%AD%90",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
     "avatar": {
       "glyph": "関",
       "hueShift": 4
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://www.instagram.com/_yumiko_seki_/",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
     }
   },
   {
-    "id": "hina-saitou-kyouko",
+    "id": "hina-kakizaki-memi",
     "name": {
       "ja": {
-        "kanji": "齊藤京子",
-        "kana": "さいとう きょうこ"
+        "kanji": "柿崎芽実",
+        "kana": "かきざき めみ"
       },
       "ko": {
-        "hangul": "사이토우 쿄우코"
+        "hangul": "카키자키 메미"
       },
       "en": {
-        "romaji": "Saitou Kyouko"
+        "romaji": "Kakizaki Memi"
       },
       "aliases": [
-        "齊藤京子"
+        "kakizaki memi",
+        "柿崎芽実",
+        "카키자키 메미"
       ]
     },
     "primaryGroupId": "hinatazaka46",
@@ -10892,44 +11133,25 @@
         "groupId": "hinatazaka46",
         "generationId": "hina-g1",
         "joinedOn": "2016-05-08",
-        "leftOn": "2024-04-05",
+        "leftOn": "2019-08-11",
         "isConcurrent": false,
         "endReason": "graduation"
       }
     ],
-    "birthDate": "1997-09-05",
+    "birthDate": "2001-12-02",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/kyoko.saito_official/",
-        "label": null,
-        "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
-      },
-      {
-        "type": "x",
-        "url": "https://x.com/saitokyoko_fc",
-        "label": null,
-        "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
-      }
-    ],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%BD%8A%E8%97%A4%E4%BA%AC%E5%AD%90",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Memi_Kakizaki_2018.jpg/440px-Memi_Kakizaki_2018.jpg",
+    "links": [],
     "avatar": {
-      "glyph": "齊",
-      "hueShift": 29
+      "glyph": "柿",
+      "hueShift": -10
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://www.hinatazaka46.com/",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
     }
   },
   {
@@ -10946,7 +11168,9 @@
         "romaji": "Kageyama Yuuka"
       },
       "aliases": [
-        "影山優佳"
+        "kageyama yuuka",
+        "影山優佳",
+        "카게야마 유우카"
       ]
     },
     "primaryGroupId": "hinatazaka46",
@@ -10965,92 +11189,36 @@
     "birthDate": "2001-05-08",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Yuka_Kageyama_2023.jpg/440px-Yuka_Kageyama_2023.jpg",
     "links": [
+      {
+        "type": "x",
+        "url": "https://x.com/kageyamayuka",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
       {
         "type": "instagram",
         "url": "https://www.instagram.com/kageyamayuka_official/",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%BD%B1%E5%B1%B1%E5%84%AA%E4%BD%B3",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
     "avatar": {
       "glyph": "影",
       "hueShift": -21
-    }
-  },
-  {
-    "id": "hina-watanabe-miho",
-    "name": {
-      "ja": {
-        "kanji": "渡邉美穂",
-        "kana": "わたなべ みほ"
-      },
-      "ko": {
-        "hangul": "와타나베 미호"
-      },
-      "en": {
-        "romaji": "Watanabe Miho"
-      },
-      "aliases": [
-        "渡邉美穂"
-      ]
     },
-    "primaryGroupId": "hinatazaka46",
-    "primaryGenerationId": "hina-g2",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "hinatazaka46",
-        "generationId": "hina-g2",
-        "joinedOn": "2017-08-13",
-        "leftOn": "2022-07-31",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "2000-02-24",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "x",
-        "url": "https://x.com/mihowatanabestf",
-        "label": null,
-        "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/mihowatanabe_",
-        "label": null,
-        "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
-      }
-    ],
     "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%B8%A1%E9%82%89%E7%BE%8E%E7%A9%82",
+      "source": "official",
+      "sourceUrl": "https://x.com/kageyamayuka",
       "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
-    "avatar": {
-      "glyph": "渡",
-      "hueShift": 23
+      "note": "Historical graduate record"
     }
   },
   {
@@ -11067,7 +11235,9 @@
         "romaji": "Ushio Sarina"
       },
       "aliases": [
-        "潮紗理菜"
+        "ushio sarina",
+        "潮紗理菜",
+        "우시오 사리나"
       ]
     },
     "primaryGroupId": "hinatazaka46",
@@ -11093,20 +11263,444 @@
         "url": "https://www.instagram.com/sarina_ushio/",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%BD%AE%E7%B4%97%E7%90%86%E8%8F%9C",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
     "avatar": {
       "glyph": "潮",
       "hueShift": 16
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://www.instagram.com/sarina_ushio/",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
+    }
+  },
+  {
+    "id": "hina-saitou-kyouko",
+    "name": {
+      "ja": {
+        "kanji": "齊藤京子",
+        "kana": "さいとう きょうこ"
+      },
+      "ko": {
+        "hangul": "사이토우 쿄우코"
+      },
+      "en": {
+        "romaji": "Saitou Kyouko"
+      },
+      "aliases": [
+        "saitou kyouko",
+        "齊藤京子",
+        "사이토우 쿄우코"
+      ]
+    },
+    "primaryGroupId": "hinatazaka46",
+    "primaryGenerationId": "hina-g1",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "hinatazaka46",
+        "generationId": "hina-g1",
+        "joinedOn": "2016-05-08",
+        "leftOn": "2024-04-05",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "1997-09-05",
+    "birthplace": null,
+    "officialCode": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Kyoko_Saito_2023.jpg/440px-Kyoko_Saito_2023.jpg",
+    "links": [
+      {
+        "type": "x",
+        "url": "https://x.com/kyoko_saito_09",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/kyoko.saito_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      }
+    ],
+    "avatar": {
+      "glyph": "齊",
+      "hueShift": 29
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://x.com/kyoko_saito_09",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
+    }
+  },
+  {
+    "id": "hina-takamoto-ayaka",
+    "name": {
+      "ja": {
+        "kanji": "高本彩花",
+        "kana": "たかもと あやか"
+      },
+      "ko": {
+        "hangul": "타카모토 아야카"
+      },
+      "en": {
+        "romaji": "Takamoto Ayaka"
+      },
+      "aliases": [
+        "takamoto ayaka",
+        "高本彩花",
+        "타카모토 아야카"
+      ]
+    },
+    "primaryGroupId": "hinatazaka46",
+    "primaryGenerationId": "hina-g1",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "hinatazaka46",
+        "generationId": "hina-g1",
+        "joinedOn": "2016-05-08",
+        "leftOn": "2024-07-04",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "1998-11-02",
+    "birthplace": null,
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/ayaka.takamoto_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      }
+    ],
+    "avatar": {
+      "glyph": "高",
+      "hueShift": -6
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://www.instagram.com/ayaka.takamoto_official/",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
+    }
+  },
+  {
+    "id": "hina-katou-shiho",
+    "name": {
+      "ja": {
+        "kanji": "加藤史帆",
+        "kana": "かとう しほ"
+      },
+      "ko": {
+        "hangul": "카토우 시호"
+      },
+      "en": {
+        "romaji": "Katou Shiho"
+      },
+      "aliases": [
+        "katou shiho",
+        "加藤史帆",
+        "카토우 시호"
+      ]
+    },
+    "primaryGroupId": "hinatazaka46",
+    "primaryGenerationId": "hina-g1",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "hinatazaka46",
+        "generationId": "hina-g1",
+        "joinedOn": "2016-05-08",
+        "leftOn": "2024-12-25",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "1998-02-02",
+    "birthplace": null,
+    "officialCode": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Shiho_Kato_2023.jpg/440px-Shiho_Kato_2023.jpg",
+    "links": [
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/katoshi.official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      }
+    ],
+    "avatar": {
+      "glyph": "加",
+      "hueShift": -28
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://www.instagram.com/katoshi.official/",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
+    }
+  },
+  {
+    "id": "hina-higashimura-mei",
+    "name": {
+      "ja": {
+        "kanji": "東村芽依",
+        "kana": "ひがしむら めい"
+      },
+      "ko": {
+        "hangul": "히가시무라 메이"
+      },
+      "en": {
+        "romaji": "Higashimura Mei"
+      },
+      "aliases": [
+        "higashimura mei",
+        "東村芽依",
+        "히가시무라 메이"
+      ]
+    },
+    "primaryGroupId": "hinatazaka46",
+    "primaryGenerationId": "hina-g1",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "hinatazaka46",
+        "generationId": "hina-g1",
+        "joinedOn": "2016-05-08",
+        "leftOn": "2024-12-25",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "1998-08-23",
+    "birthplace": null,
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/mei.higashimura/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      }
+    ],
+    "avatar": {
+      "glyph": "東",
+      "hueShift": -10
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://www.instagram.com/mei.higashimura/",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
+    }
+  },
+  {
+    "id": "hina-nibu-akari",
+    "name": {
+      "ja": {
+        "kanji": "丹生明里",
+        "kana": "にぶ あかり"
+      },
+      "ko": {
+        "hangul": "니부 아카리"
+      },
+      "en": {
+        "romaji": "Nibu Akari"
+      },
+      "aliases": [
+        "nibu akari",
+        "丹生明里",
+        "니부 아카리"
+      ]
+    },
+    "primaryGroupId": "hinatazaka46",
+    "primaryGenerationId": "hina-g2",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "hinatazaka46",
+        "generationId": "hina-g2",
+        "joinedOn": "2017-08-13",
+        "leftOn": "2024-12-01",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "2001-02-15",
+    "birthplace": null,
+    "officialCode": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Akari_Nibu_2023.jpg/440px-Akari_Nibu_2023.jpg",
+    "links": [
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/nibuchan_akari/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      }
+    ],
+    "avatar": {
+      "glyph": "丹",
+      "hueShift": 8
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://www.instagram.com/nibuchan_akari/",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
+    }
+  },
+  {
+    "id": "hina-hamagishi-hiyori",
+    "name": {
+      "ja": {
+        "kanji": "濱岸ひより",
+        "kana": "はまぎし ひより"
+      },
+      "ko": {
+        "hangul": "하마기시 히요리"
+      },
+      "en": {
+        "romaji": "Hamagishi Hiyori"
+      },
+      "aliases": [
+        "hamagishi hiyori",
+        "濱岸ひより",
+        "하마기시 히요리"
+      ]
+    },
+    "primaryGroupId": "hinatazaka46",
+    "primaryGenerationId": "hina-g2",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "hinatazaka46",
+        "generationId": "hina-g2",
+        "joinedOn": "2017-08-13",
+        "leftOn": "2024-12-05",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "2002-09-28",
+    "birthplace": null,
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/hiyori_hamagishi.official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      }
+    ],
+    "avatar": {
+      "glyph": "濱",
+      "hueShift": -8
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://www.instagram.com/hiyori_hamagishi.official/",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
+    }
+  },
+  {
+    "id": "hina-watanabe-miho",
+    "name": {
+      "ja": {
+        "kanji": "渡邉美穂",
+        "kana": "わたなべ みほ"
+      },
+      "ko": {
+        "hangul": "와타나베 미호"
+      },
+      "en": {
+        "romaji": "Watanabe Miho"
+      },
+      "aliases": [
+        "watanabe miho",
+        "渡邉美穂",
+        "와타나베 미호"
+      ]
+    },
+    "primaryGroupId": "hinatazaka46",
+    "primaryGenerationId": "hina-g2",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "hinatazaka46",
+        "generationId": "hina-g2",
+        "joinedOn": "2017-08-13",
+        "leftOn": "2022-07-31",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "2000-02-24",
+    "birthplace": null,
+    "officialCode": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Miho_Watanabe_2022.jpg/440px-Miho_Watanabe_2022.jpg",
+    "links": [
+      {
+        "type": "x",
+        "url": "https://x.com/mihowatanabe_st",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/mihowatanabe_/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      }
+    ],
+    "avatar": {
+      "glyph": "渡",
+      "hueShift": 23
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://x.com/mihowatanabe_st",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
     }
   },
   {
@@ -11123,7 +11717,9 @@
         "romaji": "Miyata Manamo"
       },
       "aliases": [
-        "宮田愛萌"
+        "miyata manamo",
+        "宮田愛萌",
+        "미야타 마나모"
       ]
     },
     "primaryGroupId": "hinatazaka46",
@@ -11146,49 +11742,51 @@
     "links": [
       {
         "type": "x",
-        "url": "https://x.com/manamumemo",
+        "url": "https://x.com/manamo_miyata",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "instagram",
-        "url": "https://www.instagram.com/manamo_miyatas/",
+        "url": "https://www.instagram.com/manamo_miyata/",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%AE%AE%E7%94%B0%E6%84%9B%E8%90%8C",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
     "avatar": {
       "glyph": "宮",
       "hueShift": -31
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://x.com/manamo_miyata",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
     }
   },
   {
-    "id": "hina-kakizaki-memi",
+    "id": "hina-iguchi-mao",
     "name": {
       "ja": {
-        "kanji": "柿崎芽実",
-        "kana": "かきざき めみ"
+        "kanji": "井口眞緒",
+        "kana": "いぐち まお"
       },
       "ko": {
-        "hangul": "카키자키 메미"
+        "hangul": "이구치 마오"
       },
       "en": {
-        "romaji": "Kakizaki Memi"
+        "romaji": "Iguchi Mao"
       },
       "aliases": [
-        "柿崎芽実"
+        "iguchi mao",
+        "井口眞緒",
+        "이구치 마오"
       ]
     },
     "primaryGroupId": "hinatazaka46",
@@ -11199,25 +11797,53 @@
         "groupId": "hinatazaka46",
         "generationId": "hina-g1",
         "joinedOn": "2016-05-08",
-        "leftOn": "2019-08-11",
+        "leftOn": "2020-03-30",
         "isConcurrent": false,
         "endReason": "graduation"
       }
     ],
-    "birthDate": "2001-12-02",
+    "birthDate": "1995-11-10",
     "birthplace": null,
     "officialCode": null,
     "imageUrl": null,
-    "links": [],
-    "provenance": {
-      "source": "wikipedia_ja",
-      "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%9F%BF%E5%B4%8E%E8%8A%BD%E5%AE%9F",
-      "checkedAt": "2026-08-16",
-      "note": "graduated member from wikipedia_ja CC BY-SA 4.0"
-    },
+    "links": [
+      {
+        "type": "x",
+        "url": "https://x.com/mao_iguchi_",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/iguchi.mao/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCfW60w_4Z-90gY3K09pD3bg",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      }
+    ],
     "avatar": {
-      "glyph": "柿",
-      "hueShift": -10
+      "glyph": "井",
+      "hueShift": -13
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://x.com/mao_iguchi_",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record"
     }
   },
   {
@@ -11255,7 +11881,7 @@
     "birthDate": "2001-12-26",
     "birthplace": null,
     "officialCode": "oguri_yui",
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100622.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -11331,7 +11957,7 @@
     "birthDate": "2000-11-08",
     "birthplace": null,
     "officialCode": "kuranoo_narumi",
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100609.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -11407,7 +12033,7 @@
     "birthDate": "1998-01-29",
     "birthplace": null,
     "officialCode": "mukaichi_mion",
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100588.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -11483,7 +12109,7 @@
     "birthDate": "1997-06-15",
     "birthplace": null,
     "officialCode": "murayama_yuiri",
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100547.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -11559,7 +12185,7 @@
     "birthDate": "2003-10-27",
     "birthplace": null,
     "officialCode": "chiba_erii",
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100645.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -11635,7 +12261,7 @@
     "birthDate": "2001-09-20",
     "birthplace": null,
     "officialCode": "yamauchi_mizuki",
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100669.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -11711,7 +12337,7 @@
     "birthDate": "2004-12-20",
     "birthplace": null,
     "officialCode": "sato_airi",
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100790.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -11787,7 +12413,7 @@
     "birthDate": "2005-03-22",
     "birthplace": null,
     "officialCode": "yagi_azuki",
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100816.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -11854,7 +12480,7 @@
     "birthDate": "1991-07-15",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Yuki_Kashiwagi_2023.jpg/440px-Yuki_Kashiwagi_2023.jpg",
     "links": [
       {
         "type": "x",
@@ -11930,7 +12556,7 @@
     "birthDate": "1991-07-10",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Atsuko_Maeda_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2023_%2853279930971%29_%28cropped%29.jpg/440px-Atsuko_Maeda_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2023_%2853279930971%29_%28cropped%29.jpg",
     "links": [
       {
         "type": "x",
@@ -11997,7 +12623,7 @@
     "birthDate": "1988-10-17",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Yuko_Oshima_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2019_%2831779261317%29.jpg/440px-Yuko_Oshima_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2019_%2831779261317%29.jpg",
     "links": [
       {
         "type": "x",
@@ -12064,7 +12690,7 @@
     "birthDate": "1992-11-21",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Rino_Sashihara_2019.jpg/440px-Rino_Sashihara_2019.jpg",
     "links": [
       {
         "type": "x",
@@ -12140,7 +12766,7 @@
     "birthDate": "1997-08-10",
     "birthplace": null,
     "officialCode": "kumazaki_haruka",
-    "imageUrl": null,
+    "imageUrl": "https://ske48.co.jp/img/profile/detail/kumazaki_haruka.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -12216,7 +12842,7 @@
     "birthDate": "2002-02-26",
     "birthplace": null,
     "officialCode": "suenaga_ouka",
-    "imageUrl": null,
+    "imageUrl": "https://ske48.co.jp/img/profile/detail/suenaga_ouka.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -12292,7 +12918,7 @@
     "birthDate": "2003-02-01",
     "birthplace": null,
     "officialCode": "nomura_miyo",
-    "imageUrl": null,
+    "imageUrl": "https://ske48.co.jp/img/profile/detail/nomura_miyo.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -12368,7 +12994,7 @@
     "birthDate": "1997-03-08",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Jurina_Matsui_at_Produce_48_press_conference.jpg/440px-Jurina_Matsui_at_Produce_48_press_conference.jpg",
     "links": [
       {
         "type": "x",
@@ -12435,7 +13061,7 @@
     "birthDate": "1999-07-16",
     "birthplace": null,
     "officialCode": "kojima_karin",
-    "imageUrl": null,
+    "imageUrl": "https://www.nmb48.com/images/member/kojima_karin.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -12520,7 +13146,7 @@
     "birthDate": "2005-12-15",
     "birthplace": null,
     "officialCode": "shiotsuki_keito",
-    "imageUrl": null,
+    "imageUrl": "https://www.nmb48.com/images/member/shiotsuki_keito.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -12596,7 +13222,7 @@
     "birthDate": "2005-11-08",
     "birthplace": null,
     "officialCode": "sakata_misaki",
-    "imageUrl": null,
+    "imageUrl": "https://www.nmb48.com/images/member/sakata_misaki.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -12672,7 +13298,7 @@
     "birthDate": "1993-07-14",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Yamamoto_Sayaka_2018.jpg/440px-Yamamoto_Sayaka_2018.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -12730,7 +13356,7 @@
         "kana": "とよなが あき"
       },
       "ko": {
-        "hangul": "토요나가 아키"
+        "hangul": "토요нага 아키"
       },
       "en": {
         "romaji": "Aki Toyonaga"
@@ -12738,7 +13364,7 @@
       "aliases": [
         "aki toyonaga",
         "豊永阿紀",
-        "토요나가 아키"
+        "토요нага 아키"
       ]
     },
     "primaryGroupId": "hkt48",
@@ -12757,7 +13383,7 @@
     "birthDate": "1999-10-25",
     "birthplace": null,
     "officialCode": "toyonaga_aki",
-    "imageUrl": null,
+    "imageUrl": "https://www.hkt48.jp/files/99/profile/toyonaga_aki.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -12833,7 +13459,7 @@
     "birthDate": "2005-07-22",
     "birthplace": null,
     "officialCode": "ishibashi_ibuki",
-    "imageUrl": null,
+    "imageUrl": "https://www.hkt48.jp/files/99/profile/ishibashi_ibuki.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -12909,7 +13535,7 @@
     "birthDate": "2004-02-22",
     "birthplace": null,
     "officialCode": "takemoto_kurumi",
-    "imageUrl": null,
+    "imageUrl": "https://www.hkt48.jp/files/99/profile/takemoto_kurumi.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -12985,7 +13611,7 @@
     "birthDate": "1998-03-19",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Sakura_Miyawaki_in_March_2024.jpg/440px-Sakura_Miyawaki_in_March_2024.jpg",
     "links": [
       {
         "type": "x",
@@ -13061,7 +13687,7 @@
     "birthDate": "2000-11-17",
     "birthplace": null,
     "officialCode": "fujisaki_miyu",
-    "imageUrl": null,
+    "imageUrl": "https://ngt48.jp/profile/fujisaki_miyu.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -13137,7 +13763,7 @@
     "birthDate": "1995-10-16",
     "birthplace": null,
     "officialCode": "nishigata_marina",
-    "imageUrl": null,
+    "imageUrl": "https://ngt48.jp/profile/nishigata_marina.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -13213,7 +13839,7 @@
     "birthDate": "1999-11-10",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hinata_Homma_2018.jpg/440px-Hinata_Homma_2018.jpg",
     "links": [
       {
         "type": "x",
@@ -13280,7 +13906,7 @@
     "birthDate": "2003-01-20",
     "birthplace": null,
     "officialCode": "okada_azumi",
-    "imageUrl": null,
+    "imageUrl": "https://sp.stu48.com/img/profile/okada_azumi.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -13347,7 +13973,7 @@
     "birthDate": "1999-04-04",
     "birthplace": null,
     "officialCode": "nakamura_mai",
-    "imageUrl": null,
+    "imageUrl": "https://sp.stu48.com/img/profile/nakamura_mai.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -13423,7 +14049,7 @@
     "birthDate": "2002-03-17",
     "birthplace": null,
     "officialCode": "ishida_chiho",
-    "imageUrl": null,
+    "imageUrl": "https://sp.stu48.com/img/profile/ishida_chiho.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -13499,7 +14125,7 @@
     "birthDate": "1997-09-24",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Yumiko_Takino_2018.jpg/440px-Yumiko_Takino_2018.jpg",
     "links": [
       {
         "type": "x",
@@ -13566,7 +14192,7 @@
     "birthDate": "1998-10-05",
     "birthplace": null,
     "officialCode": "shani_indira_natio",
-    "imageUrl": null,
+    "imageUrl": "https://jkt48.com/images/member/shani_indira_natio.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -13642,7 +14268,7 @@
     "birthDate": "1999-01-16",
     "birthplace": null,
     "officialCode": "feni_fitriyanti",
-    "imageUrl": null,
+    "imageUrl": "https://jkt48.com/images/member/feni_fitriyanti.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -13718,7 +14344,7 @@
     "birthDate": "2006-02-13",
     "birthplace": null,
     "officialCode": "freya_jayawardana",
-    "imageUrl": null,
+    "imageUrl": "https://jkt48.com/images/member/freya_jayawardana.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -13794,7 +14420,7 @@
     "birthDate": "1996-05-02",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Cherprang_Areekul_2023.jpg/440px-Cherprang_Areekul_2023.jpg",
     "links": [
       {
         "type": "x",
@@ -13861,7 +14487,7 @@
     "birthDate": "2002-09-18",
     "birthplace": null,
     "officialCode": "hoop",
-    "imageUrl": null,
+    "imageUrl": "https://www.bnk48.com/images/members/hoop.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -13928,7 +14554,7 @@
     "birthDate": "1995-11-26",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Rina_Izuta_2023.jpg/440px-Rina_Izuta_2023.jpg",
     "links": [
       {
         "type": "x",
@@ -13995,7 +14621,7 @@
     "birthDate": "1995-11-10",
     "birthplace": null,
     "officialCode": "aom",
-    "imageUrl": null,
+    "imageUrl": "https://cgm48official.com/images/members/aom.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -14062,7 +14688,7 @@
     "birthDate": "2000-07-20",
     "birthplace": null,
     "officialCode": "sheki",
-    "imageUrl": null,
+    "imageUrl": "https://mnl48.ph/images/members/sheki.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -14129,7 +14755,7 @@
     "birthDate": "2001-02-02",
     "birthplace": null,
     "officialCode": "liu_nian",
-    "imageUrl": null,
+    "imageUrl": "https://www.akb48-china.com/upload/member/liu_nian.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -14196,7 +14822,7 @@
     "birthDate": "1996-07-14",
     "birthplace": null,
     "officialCode": "77_yuqing",
-    "imageUrl": null,
+    "imageUrl": "https://www.akb48teamtp.com/upload/members/77_yuqing.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -14263,7 +14889,7 @@
     "birthDate": "1999-03-14",
     "birthplace": null,
     "officialCode": "yurina_gyoten",
-    "imageUrl": null,
+    "imageUrl": "https://klp48.my/img/members/yurina_gyoten.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -14339,7 +14965,7 @@
     "birthDate": "2001-02-28",
     "birthplace": null,
     "officialCode": "haruka_kurosu",
-    "imageUrl": null,
+    "imageUrl": "https://klp48.my/img/members/haruka_kurosu.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -14415,7 +15041,7 @@
     "birthDate": "2000-08-11",
     "birthplace": null,
     "officialCode": "suzuha_yamane",
-    "imageUrl": null,
+    "imageUrl": "https://klp48.my/img/members/suzuha_yamane.jpg",
     "links": [
       {
         "type": "official_profile",
