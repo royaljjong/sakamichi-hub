@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master, main]
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 11
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Validate Schema & Relational Integrity
+        run: pnpm data:validate
+
+      - name: Check WCAG Color Contrast
+        run: pnpm data:contrast
+
+      - name: TypeScript Typecheck
+        run: pnpm typecheck
+
+      - name: Build Next.js Static Site
+        run: pnpm build
