@@ -6,7 +6,7 @@ import { ExternalLinkIcon } from '@/components/ui/icons';
 
 export interface RecentUpdate {
   id: string;
-  groupId: 'nogizaka46' | 'sakurazaka46' | 'hinatazaka46';
+  groupId: string;
   memberId?: string;
   memberName: {
     ja: string;
@@ -27,7 +27,10 @@ interface LatestUpdatesMarqueeProps {
   locale: string;
 }
 
-const GROUP_BADGES = {
+const GROUP_BADGES: Record<
+  string,
+  { name: { ja: string; ko: string; en: string }; color: string; bg: string }
+> = {
   nogizaka46: {
     name: { ja: '乃木坂46', ko: '노기자카46', en: 'Nogizaka46' },
     color: '#8A6BC1',
@@ -43,6 +46,51 @@ const GROUP_BADGES = {
     color: '#5AB4E0',
     bg: 'rgba(90, 180, 224, 0.14)',
   },
+  akb48: {
+    name: { ja: 'AKB48', ko: 'AKB48', en: 'AKB48' },
+    color: '#E53975',
+    bg: 'rgba(229, 57, 117, 0.14)',
+  },
+  ske48: {
+    name: { ja: 'SKE48', ko: 'SKE48', en: 'SKE48' },
+    color: '#E87722',
+    bg: 'rgba(232, 119, 34, 0.14)',
+  },
+  nmb48: {
+    name: { ja: 'NMB48', ko: 'NMB48', en: 'NMB48' },
+    color: '#C59B27',
+    bg: 'rgba(197, 155, 39, 0.15)',
+  },
+  hkt48: {
+    name: { ja: 'HKT48', ko: 'HKT48', en: 'HKT48' },
+    color: '#4A5568',
+    bg: 'rgba(74, 85, 104, 0.14)',
+  },
+  ngt48: {
+    name: { ja: 'NGT48', ko: 'NGT48', en: 'NGT48' },
+    color: '#D32F2F',
+    bg: 'rgba(211, 47, 47, 0.14)',
+  },
+  stu48: {
+    name: { ja: 'STU48', ko: 'STU48', en: 'STU48' },
+    color: '#0277BD',
+    bg: 'rgba(2, 119, 189, 0.14)',
+  },
+  jkt48: {
+    name: { ja: 'JKT48', ko: 'JKT48', en: 'JKT48' },
+    color: '#D32F2F',
+    bg: 'rgba(211, 47, 47, 0.14)',
+  },
+  bnk48: {
+    name: { ja: 'BNK48', ko: 'BNK48', en: 'BNK48' },
+    color: '#BA68C8',
+    bg: 'rgba(186, 104, 200, 0.14)',
+  },
+  klp48: {
+    name: { ja: 'KLP48', ko: 'KLP48', en: 'KLP48' },
+    color: '#00897B',
+    bg: 'rgba(0, 137, 123, 0.14)',
+  },
 };
 
 export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMarqueeProps) {
@@ -54,7 +102,7 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
   const containerRef = useRef<HTMLDivElement>(null);
   const startXRef = useRef(0);
   const scrollLeftRef = useRef(0);
-  const hasDraggedRef = useRef(false);
+  const hasMovedRef = useRef(false);
   const animFrameIdRef = useRef<number | null>(null);
 
   // Background auto-refresh from live API
@@ -74,25 +122,24 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
       });
   }, []);
 
-  // Triple items to allow smooth continuous wrap-around dragging
+  // Triple items for seamless loop and dragging
   const displayItems = updates.length > 0 ? [...updates, ...updates, ...updates] : [];
 
-  // Smooth Auto-scroll (Very gentle, slow reading speed ~ 0.5px/frame)
+  // Gentle, calm auto-scroll (speed ~ 20px / second)
   useEffect(() => {
     const el = containerRef.current;
     if (!el || displayItems.length === 0) return;
 
     let lastTimestamp = performance.now();
-    const speedPixelsPerSecond = 24; // Slow, calm reading speed
+    const speed = 20;
 
-    const scrollLoop = (timestamp: number) => {
+    const loop = (timestamp: number) => {
       const delta = (timestamp - lastTimestamp) / 1000;
       lastTimestamp = timestamp;
 
       if (!isPaused && !isHovered && !isDragging && el) {
-        el.scrollLeft += speedPixelsPerSecond * delta;
+        el.scrollLeft += speed * delta;
 
-        // Loop seamlessly when reached 2/3 of content
         const maxScroll = el.scrollWidth / 3;
         if (el.scrollLeft >= maxScroll * 2) {
           el.scrollLeft -= maxScroll;
@@ -101,58 +148,72 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
         }
       }
 
-      animFrameIdRef.current = requestAnimationFrame(scrollLoop);
+      animFrameIdRef.current = requestAnimationFrame(loop);
     };
 
-    animFrameIdRef.current = requestAnimationFrame(scrollLoop);
+    animFrameIdRef.current = requestAnimationFrame(loop);
 
     return () => {
-      if (animFrameIdRef.current) {
-        cancelAnimationFrame(animFrameIdRef.current);
-      }
+      if (animFrameIdRef.current) cancelAnimationFrame(animFrameIdRef.current);
     };
   }, [isPaused, isHovered, isDragging, displayItems.length]);
 
-  // Mouse Drag to Scroll handlers
-  const handleMouseDown = (e: React.MouseEvent) => {
+  // Robust Pointer-based Drag-to-Scroll Handlers
+  const handlePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
     const el = containerRef.current;
     if (!el) return;
+
     setIsDragging(true);
-    hasDraggedRef.current = false;
-    startXRef.current = e.pageX - el.offsetLeft;
+    hasMovedRef.current = false;
+    startXRef.current = e.clientX;
     scrollLeftRef.current = el.scrollLeft;
+
+    // Capture pointer so dragging continues even if cursor leaves container
+    try {
+      el.setPointerCapture(e.pointerId);
+    } catch {
+      // Ignore if not supported
+    }
   };
 
-  const handleMouseMove = (e: React.MouseEvent) => {
+  const handlePointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
     if (!isDragging) return;
     const el = containerRef.current;
     if (!el) return;
-    e.preventDefault();
-    const x = e.pageX - el.offsetLeft;
-    const walk = (x - startXRef.current) * 1.5; // Drag sensitivity
-    if (Math.abs(walk) > 4) {
-      hasDraggedRef.current = true;
+
+    const diff = e.clientX - startXRef.current;
+    if (Math.abs(diff) > 5) {
+      hasMovedRef.current = true;
     }
-    el.scrollLeft = scrollLeftRef.current - walk;
+
+    el.scrollLeft = scrollLeftRef.current - diff;
   };
 
-  const handleMouseUpOrLeave = () => {
+  const handlePointerUp = (e: React.PointerEvent<HTMLDivElement>) => {
+    const el = containerRef.current;
+    if (el) {
+      try {
+        el.releasePointerCapture(e.pointerId);
+      } catch {
+        // Ignore
+      }
+    }
     setIsDragging(false);
   };
 
-  const handleCardClick = (e: React.MouseEvent, url: string) => {
-    // If user was dragging, don't trigger the link navigation
-    if (hasDraggedRef.current) {
+  const handleCardClick = (e: React.MouseEvent) => {
+    // If the user performed a drag gesture, prevent opening the link
+    if (hasMovedRef.current) {
       e.preventDefault();
       e.stopPropagation();
     }
   };
 
-  // Manual Previous/Next Controls
+  // Manual Previous/Next Step Controls
   const scrollStep = useCallback((direction: 'left' | 'right') => {
     const el = containerRef.current;
     if (!el) return;
-    const offset = direction === 'left' ? -340 : 340;
+    const offset = direction === 'left' ? -360 : 360;
     el.scrollBy({ left: offset, behavior: 'smooth' });
   }, []);
 
@@ -174,22 +235,22 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
           <h2 className="text-xs sm:text-sm font-bold tracking-wide text-[var(--g-ink)] font-[family-name:var(--font-klee-one)]">
             {headerTitle}
           </h2>
-          <span className="text-[11px] px-2 py-0.5 rounded-full bg-[var(--paper-deep)] text-[var(--ink-soft)] font-medium hidden sm:inline">
-            {updates.length} posts
+          <span className="text-[11px] px-2.5 py-0.5 rounded-full bg-[var(--paper-deep)] text-[var(--ink-soft)] font-medium">
+            {updates.length} updates
           </span>
         </div>
 
-        {/* Right: Navigation Controls (Prev, Next, Pause/Play) */}
+        {/* Right: Controls (Prev, Next, Pause/Play) */}
         <div className="flex items-center gap-1.5">
           <span className="text-[11px] text-[var(--ink-faint)] font-mono mr-2 hidden md:inline">
-            Drag to rewind • 드래그로 되돌리기
+            Drag to scroll • 드래그로 되돌리기
           </span>
 
           <button
             type="button"
             onClick={() => scrollStep('left')}
             aria-label="Previous updates"
-            className="w-7 h-7 rounded-full bg-[var(--white-veil)] hover:bg-white border border-[color-mix(in_oklab,var(--g-ink)_15%,transparent)] hover:border-[var(--g-brand)] text-[var(--ink)] flex items-center justify-center text-xs shadow-sm transition-all active:scale-95"
+            className="w-8 h-8 rounded-full bg-[var(--white-veil)] hover:bg-white border border-[color-mix(in_oklab,var(--g-ink)_15%,transparent)] hover:border-[var(--g-brand)] text-[var(--ink)] flex items-center justify-center text-sm shadow-sm transition-all active:scale-95 cursor-pointer"
           >
             ←
           </button>
@@ -198,7 +259,7 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
             type="button"
             onClick={() => setIsPaused((prev) => !prev)}
             aria-label={isPaused ? 'Resume auto scroll' : 'Pause auto scroll'}
-            className="px-2.5 h-7 rounded-full bg-[var(--white-veil)] hover:bg-white border border-[color-mix(in_oklab,var(--g-ink)_15%,transparent)] hover:border-[var(--g-brand)] text-[var(--ink)] flex items-center justify-center text-xs font-mono shadow-sm transition-all active:scale-95"
+            className="px-3 h-8 rounded-full bg-[var(--white-veil)] hover:bg-white border border-[color-mix(in_oklab,var(--g-ink)_15%,transparent)] hover:border-[var(--g-brand)] text-[var(--ink)] flex items-center justify-center text-xs font-mono shadow-sm transition-all active:scale-95 cursor-pointer"
           >
             {isPaused ? '▶ Play' : '⏸ Pause'}
           </button>
@@ -207,7 +268,7 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
             type="button"
             onClick={() => scrollStep('right')}
             aria-label="Next updates"
-            className="w-7 h-7 rounded-full bg-[var(--white-veil)] hover:bg-white border border-[color-mix(in_oklab,var(--g-ink)_15%,transparent)] hover:border-[var(--g-brand)] text-[var(--ink)] flex items-center justify-center text-xs shadow-sm transition-all active:scale-95"
+            className="w-8 h-8 rounded-full bg-[var(--white-veil)] hover:bg-white border border-[color-mix(in_oklab,var(--g-ink)_15%,transparent)] hover:border-[var(--g-brand)] text-[var(--ink)] flex items-center justify-center text-sm shadow-sm transition-all active:scale-95 cursor-pointer"
           >
             →
           </button>
@@ -216,28 +277,31 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
 
       {/* Interactive Drag & Scroll Container */}
       <div
-        className="relative w-full overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_3%,black_97%,transparent)] py-2"
+        className="relative w-full overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_2%,black_98%,transparent)] py-2"
         onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => {
-          setIsHovered(false);
-          handleMouseUpOrLeave();
-        }}
+        onMouseLeave={() => setIsHovered(false)}
       >
         <div
           ref={containerRef}
-          onMouseDown={handleMouseDown}
-          onMouseMove={handleMouseMove}
-          onMouseUp={handleMouseUpOrLeave}
-          className={`flex gap-4 overflow-x-auto no-scrollbar select-none px-4 py-1 cursor-grab ${
-            isDragging ? 'cursor-grabbing' : ''
+          onPointerDown={handlePointerDown}
+          onPointerMove={handlePointerMove}
+          onPointerUp={handlePointerUp}
+          onPointerCancel={handlePointerUp}
+          className={`flex gap-4 overflow-x-auto no-scrollbar select-none px-4 py-1.5 touch-pan-y ${
+            isDragging ? 'cursor-grabbing' : 'cursor-grab'
           }`}
           style={{
             scrollbarWidth: 'none',
             msOverflowStyle: 'none',
+            WebkitOverflowScrolling: 'touch',
           }}
         >
           {displayItems.map((item, idx) => {
-            const groupInfo = GROUP_BADGES[item.groupId] || GROUP_BADGES.nogizaka46;
+            const groupInfo = GROUP_BADGES[item.groupId] || {
+              name: { ja: item.groupId, ko: item.groupId, en: item.groupId },
+              color: '#8A6BC1',
+              bg: 'rgba(138, 107, 193, 0.12)',
+            };
             const groupLabel = groupInfo.name[locale as 'ja' | 'ko' | 'en'] || groupInfo.name.ja;
             const nameLabel = item.memberName[locale as 'ja' | 'ko' | 'en'] || item.memberName.ja;
 
@@ -247,8 +311,10 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
                 href={item.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                onClick={(e) => handleCardClick(e, item.url)}
-                className="group relative flex items-center gap-3.5 p-3 sm:p-3.5 min-w-[280px] max-w-[320px] rounded-2xl bg-[var(--white-veil)] hover:bg-white border border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)] hover:border-[var(--g-brand)] shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-lift)] transition-all duration-300 hover:-translate-y-0.5 shrink-0"
+                draggable={false}
+                onDragStart={(e) => e.preventDefault()}
+                onClick={handleCardClick}
+                className="group relative flex items-center gap-3.5 p-3 sm:p-3.5 min-w-[290px] max-w-[340px] rounded-2xl bg-[var(--white-veil)] hover:bg-white border border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)] hover:border-[var(--g-brand)] shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-lift)] transition-all duration-300 hover:-translate-y-0.5 shrink-0 select-none"
               >
                 <MemberAvatar
                   glyph={item.memberGlyph}
@@ -256,10 +322,10 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
                   imageUrl={item.memberImage}
                   name={item.memberName.ja}
                   size={42}
-                  className="shrink-0"
+                  className="shrink-0 pointer-events-none"
                 />
 
-                <div className="min-w-0 flex-1">
+                <div className="min-w-0 flex-1 pointer-events-none">
                   <div className="flex items-center gap-2 mb-1">
                     <span
                       className="text-[10px] font-bold px-2 py-0.5 rounded-full"
@@ -284,7 +350,7 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
                   </p>
                 </div>
 
-                <ExternalLinkIcon className="w-3.5 h-3.5 text-[var(--ink-faint)] group-hover:text-[var(--g-brand)] shrink-0 transition-transform group-hover:translate-x-0.5" />
+                <ExternalLinkIcon className="w-3.5 h-3.5 text-[var(--ink-faint)] group-hover:text-[var(--g-brand)] shrink-0 transition-transform group-hover:translate-x-0.5 pointer-events-none" />
               </a>
             );
           })}

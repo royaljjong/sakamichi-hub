@@ -4,21 +4,24 @@ import { fetchNogizaka } from './nogizaka';
 import { fetchSakurazaka } from './sakurazaka';
 import { fetchHinatazaka } from './hinatazaka';
 import { getGraduates } from './graduates';
+import { getAKB48GroupMembers } from './akb48g';
 import type { Member } from '../../src/lib/schema';
 
 async function fetchAll() {
-  console.log('🚀 Starting full Sakamichi members data fetch...\n');
+  console.log('🚀 Starting full Sakamichi & AKB48 Group members data fetch...\n');
 
   const nogiMembers = await fetchNogizaka();
   const sakuraMembers = await fetchSakurazaka();
   const hinataMembers = await fetchHinatazaka();
   const graduates = getGraduates();
+  const akbGroupMembers = getAKB48GroupMembers();
 
   const allMembers: Member[] = [
     ...nogiMembers,
     ...sakuraMembers,
     ...hinataMembers,
     ...graduates,
+    ...akbGroupMembers,
   ];
 
   // Validate ID uniqueness

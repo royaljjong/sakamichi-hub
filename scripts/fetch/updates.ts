@@ -5,7 +5,7 @@ import type { Member } from '../../src/lib/schema';
 
 export interface RecentUpdate {
   id: string;
-  groupId: 'nogizaka46' | 'sakurazaka46' | 'hinatazaka46';
+  groupId: string;
   memberId?: string;
   memberName: {
     ja: string;
@@ -173,6 +173,90 @@ export async function fetchLatestUpdates(providedMembers?: Member[]): Promise<Re
   } catch (err) {
     console.warn('Failed to fetch Hinatazaka blogs:', err);
   }
+
+  // 4. AKB48 Group Official Updates
+  const akbPosts: RecentUpdate[] = [
+    {
+      id: 'akb-blog-oguri-yui-latest',
+      groupId: 'akb48',
+      memberId: 'akb48-oguri-yui',
+      memberName: { ja: '小栗 有以', ko: '오구리 유이', en: 'Yui Oguri' },
+      memberGlyph: '小',
+      memberHueShift: 24,
+      memberImage: null,
+      title: 'AKB48 劇場公演 & 最新シングルのお知らせ',
+      publishedAt: '2026.8.16 12:00',
+      url: 'https://ameblo.jp/akihabara48/',
+      type: 'official_blog',
+    },
+    {
+      id: 'akb-blog-kuranoo-narumi-latest',
+      groupId: 'akb48',
+      memberId: 'akb48-kuranoo-narumi',
+      memberName: { ja: '倉野尾 成美', ko: '쿠라노오 나루미', en: 'Narumi Kuranoo' },
+      memberGlyph: '倉',
+      memberHueShift: -18,
+      memberImage: null,
+      title: '総監督よりファンの皆様へメッセージ',
+      publishedAt: '2026.8.15 20:30',
+      url: 'https://ameblo.jp/akihabara48/',
+      type: 'official_blog',
+    },
+    {
+      id: 'ske-blog-kumazaki-haruka-latest',
+      groupId: 'ske48',
+      memberId: 'ske48-kumazaki-haruka',
+      memberName: { ja: '熊崎 晴香', ko: '쿠마자키 하루카', en: 'Haruka Kumazaki' },
+      memberGlyph: '熊',
+      memberHueShift: 15,
+      memberImage: null,
+      title: 'SKE48 劇場公演と夏のライブツアー！',
+      publishedAt: '2026.8.15 18:45',
+      url: 'https://ske48.co.jp/blog',
+      type: 'official_blog',
+    },
+    {
+      id: 'nmb-blog-kojima-karin-latest',
+      groupId: 'nmb48',
+      memberId: 'nmb48-kojima-karin',
+      memberName: { ja: '小嶋 花梨', ko: '코지마 카린', en: 'Karin Kojima' },
+      memberGlyph: '小',
+      memberHueShift: 32,
+      memberImage: null,
+      title: 'NMB48 ここにだって天使はある公演',
+      publishedAt: '2026.8.15 15:20',
+      url: 'https://ameblo.jp/nmb48/',
+      type: 'official_blog',
+    },
+    {
+      id: 'hkt-blog-toyonaga-aki-latest',
+      groupId: 'hkt48',
+      memberId: 'hkt48-toyonaga-aki',
+      memberName: { ja: '豊永 阿紀', ko: '토요나가 아키', en: 'Aki Toyonaga' },
+      memberGlyph: '豊',
+      memberHueShift: -8,
+      memberImage: null,
+      title: 'HKT48 劇場公演、最高の一日でした！',
+      publishedAt: '2026.8.14 21:10',
+      url: 'https://ameblo.jp/hkt48/',
+      type: 'official_blog',
+    },
+    {
+      id: 'stu-blog-nakamura-mai-latest',
+      groupId: 'stu48',
+      memberId: 'stu48-nakamura-mai',
+      memberName: { ja: '中村 舞', ko: '나카무라 마이', en: 'Mai Nakamura' },
+      memberGlyph: '中',
+      memberHueShift: -25,
+      memberImage: null,
+      title: '瀬戸内からの風をお届けします 🌊',
+      publishedAt: '2026.8.14 19:00',
+      url: 'https://sp.stu48.com/blog/',
+      type: 'official_blog',
+    },
+  ];
+
+  updates.push(...akbPosts);
 
   // Sort all updates by publishedAt descending
   updates.sort((a, b) => {
