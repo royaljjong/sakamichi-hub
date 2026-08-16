@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
@@ -11,9 +12,93 @@ import { StatusBadge } from '@/components/ui/StatusBadge';
 import { LinkGrid } from '@/components/member/LinkGrid';
 import { MemberCard } from '@/components/member/MemberCard';
 import { Ruby } from '@/components/ui/Ruby';
+import { JsonLd } from '@/components/seo/JsonLd';
 
 interface MemberPageProps {
   params: Promise<{ locale: string; memberId: string }>;
+}
+
+const BASE_URL = 'https://sakamichi-hub.vercel.app';
+
+export async function generateMetadata({ params }: MemberPageProps): Promise<Metadata> {
+  const { locale, memberId } = await params;
+  const member = getMember(memberId);
+  if (!member) return {};
+
+  const group = getGroup(member.primaryGroupId);
+  const gen = getGeneration(member.primaryGroupId, member.primaryGenerationId);
+
+  const groupJa = group?.name.ja || '坂道シリーズ';
+  const groupKo = group?.name.ko || '사카미치 시리즈';
+  const groupEn = group?.name.en || 'Sakamichi Series';
+
+  const kanji = member.name.ja.kanji;
+  const kana = member.name.ja.kana;
+  const hangul = member.name.ko.hangul;
+  const romaji = member.name.en.romaji;
+
+  let title = '';
+  let description = '';
+
+  if (locale === 'ja') {
+    title = `${kanji} (${groupJa}) 公式リンク・ブログ・SNSまとめ`;
+    description = `${groupJa} ${gen?.label.ja || ''}メンバー「${kanji}（${kana}）」の公式プロフィール、公式ブログ、Instagram、X(Twitter)など最新公式リンク集。`;
+  } else if (locale === 'ko') {
+    title = `${hangul} (${kanji} · ${groupKo}) 공식 링크・블로그・SNS`;
+    description = `${groupKo} ${gen?.label.ko || ''} 멤버 ${hangul}(${kanji}, ${kana})의 공식 프로필, 블로그, 인스타그램, SNS 링크 모음.`;
+  } else {
+    title = `${romaji} (${kanji} - ${groupEn}) Official Links, Blog & SNS`;
+    description = `Official links, blog, profile, Instagram, and SNS directory for ${romaji} (${kanji}) of ${groupEn}.`;
+  }
+
+  const keywords = [
+    kanji,
+    kana,
+    hangul,
+    romaji,
+    groupJa,
+    groupKo,
+    groupEn,
+    '公式ブログ',
+    '공식 블로그',
+    'Instagram',
+    'Twitter',
+    'X',
+    '坂道シリーズ',
+    '사카미치',
+    'Sakamichi',
+    ...(member.name.aliases || []),
+  ];
+
+  const canonicalUrl = `${BASE_URL}/${locale}/m/${member.id}`;
+
+  return {
+    title,
+    description,
+    keywords,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        ja: `${BASE_URL}/ja/m/${member.id}`,
+        ko: `${BASE_URL}/ko/m/${member.id}`,
+        en: `${BASE_URL}/en/m/${member.id}`,
+        'x-default': `${BASE_URL}/ja/m/${member.id}`,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url: canonicalUrl,
+      type: 'profile',
+      images: member.imageUrl ? [{ url: member.imageUrl, alt: kanji }] : undefined,
+    },
+    twitter: {
+      card: 'summary',
+      title,
+      description,
+      images: member.imageUrl ? [member.imageUrl] : undefined,
+    },
+  };
 }
 
 export function generateStaticParams() {
@@ -47,8 +132,35 @@ export default async function MemberPage({ params }: MemberPageProps) {
   const genLabel = gen?.label[locale as 'ja' | 'ko' | 'en'] || gen?.label.ja || '';
   const groupName = group?.name[locale as 'ja' | 'ko' | 'en'] || group?.name.ja || '';
 
+  // Schema.org Person JSON-LD
+  const sameAsLinks = member.links.map((l) => l.url);
+  const jsonLdData = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: member.name.ja.kanji,
+    alternateName: [
+      member.name.ja.kana,
+      member.name.ko.hangul,
+      member.name.en.romaji,
+      ...(member.name.aliases || []),
+    ],
+    image: member.imageUrl || undefined,
+    birthDate: member.birthDate || undefined,
+    memberOf: group
+      ? {
+          '@type': 'MusicGroup',
+          name: group.name.ja,
+          alternateName: [group.name.ko, group.name.en],
+          url: group.official.site,
+        }
+      : undefined,
+    sameAs: sameAsLinks,
+    url: `${BASE_URL}/${locale}/m/${member.id}`,
+  };
+
   return (
     <div className="relative min-h-screen flex flex-col justify-between" data-group={group?.id || 'home'}>
+      <JsonLd data={jsonLdData} />
       <AmbientBackground groupId={group?.id || 'home'} motif={group?.motif || 'mixed'} />
       <Navigation />
 

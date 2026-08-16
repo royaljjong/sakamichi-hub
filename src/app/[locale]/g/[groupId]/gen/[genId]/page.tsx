@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
@@ -11,6 +12,38 @@ import { GenerationChip } from '@/components/generation/GenerationChip';
 
 interface GenerationPageProps {
   params: Promise<{ locale: string; groupId: string; genId: string }>;
+}
+
+const BASE_URL = 'https://sakamichi-hub.vercel.app';
+
+export async function generateMetadata({ params }: GenerationPageProps): Promise<Metadata> {
+  const { locale, groupId, genId } = await params;
+  const group = getGroup(groupId);
+  const gen = getGeneration(groupId, genId);
+  if (!group || !gen) return {};
+
+  const groupName = group.name[locale as 'ja' | 'ko' | 'en'] || group.name.ja;
+  const genLabel = gen.label[locale as 'ja' | 'ko' | 'en'] || gen.label.ja;
+
+  const title = `${groupName} ${genLabel} メンバー一覧・公式リンク | 坂道シリーズ リンクハブ`;
+  const description = `${groupName} ${genLabel}のメンバー一覧、公式ブログ、Instagram、SNSリンクまとめ。`;
+
+  const canonicalUrl = `${BASE_URL}/${locale}/g/${group.id}/gen/${gen.id}`;
+
+  return {
+    title,
+    description,
+    keywords: [groupName, genLabel, group.name.ja, group.name.ko, group.name.en, 'メンバー', '공식 블로그'],
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        ja: `${BASE_URL}/ja/g/${group.id}/gen/${gen.id}`,
+        ko: `${BASE_URL}/ko/g/${group.id}/gen/${gen.id}`,
+        en: `${BASE_URL}/en/g/${group.id}/gen/${gen.id}`,
+        'x-default': `${BASE_URL}/ja/g/${group.id}/gen/${gen.id}`,
+      },
+    },
+  };
 }
 
 export function generateStaticParams() {

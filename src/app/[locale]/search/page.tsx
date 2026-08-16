@@ -1,5 +1,5 @@
+import type { Metadata } from 'next';
 import { setRequestLocale } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
 import { routing } from '@/i18n/routing';
 import { AmbientBackground } from '@/components/background/AmbientBackground';
 import { Navigation } from '@/components/ui/Navigation';
@@ -8,6 +8,37 @@ import { SearchBox } from '@/components/search/SearchBox';
 
 interface SearchPageProps {
   params: Promise<{ locale: string }>;
+}
+
+const BASE_URL = 'https://sakamichi-hub.vercel.app';
+
+export async function generateMetadata({ params }: SearchPageProps): Promise<Metadata> {
+  const { locale } = await params;
+
+  let title = 'メンバー検索 | 坂道シリーズ リンクハブ';
+  let description = '乃木坂46・櫻坂46・日向坂46の全メンバーを漢字・ひらがな・ハングル・ローマ字・初声(초성)で高速検索。';
+
+  if (locale === 'ko') {
+    title = '멤버 검색 | 사카미치 시리즈 링크 허브';
+    description = '노기자카46, 사쿠라자카46, 히나타자카46 전 멤버를 한글, 초성, 한자, 로마자로 실시간 검색.';
+  } else if (locale === 'en') {
+    title = 'Member Search | Sakamichi Series Link Hub';
+    description = 'Search all members of Nogizaka46, Sakurazaka46, and Hinatazaka46 by Romaji, Kanji, Kana, and Korean Hangul.';
+  }
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${BASE_URL}/${locale}/search`,
+      languages: {
+        ja: `${BASE_URL}/ja/search`,
+        ko: `${BASE_URL}/ko/search`,
+        en: `${BASE_URL}/en/search`,
+        'x-default': `${BASE_URL}/ja/search`,
+      },
+    },
+  };
 }
 
 export function generateStaticParams() {

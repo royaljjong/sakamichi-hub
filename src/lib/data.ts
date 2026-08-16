@@ -7,9 +7,12 @@ import type {
 } from './schema';
 import groupsData from '../../data/groups.json';
 import membersData from '../../data/members.json';
+import latestUpdatesData from '../../data/latest-updates.json';
+import type { RecentUpdate } from '@/components/home/LatestUpdatesMarquee';
 
 const groups: Group[] = (groupsData as { groups: Group[] }).groups;
 const members: Member[] = (membersData as Member[]) || [];
+const latestUpdates: RecentUpdate[] = (latestUpdatesData as RecentUpdate[]) || [];
 
 export function getGroups(): Group[] {
   return [...groups].sort((a, b) => a.order - b.order);
@@ -87,4 +90,8 @@ export function getSameGenerationMembers(
         (ms) => ms.groupId === groupId && ms.generationId === genId,
       ),
   );
+}
+
+export function getLatestUpdates(): RecentUpdate[] {
+  return latestUpdates;
 }

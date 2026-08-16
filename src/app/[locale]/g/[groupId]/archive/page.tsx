@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
@@ -11,6 +12,38 @@ import { LineageTimeline } from '@/components/group/LineageTimeline';
 
 interface ArchivePageProps {
   params: Promise<{ locale: string; groupId: string }>;
+}
+
+const BASE_URL = 'https://sakamichi-hub.vercel.app';
+
+export async function generateMetadata({ params }: ArchivePageProps): Promise<Metadata> {
+  const { locale, groupId } = await params;
+  const isSakura = groupId === 'sakurazaka46';
+
+  const eraName = isSakura
+    ? { ja: '欅坂46', ko: '케야키자카46', en: 'Keyakizaka46' }
+    : { ja: 'けやき坂46 (ひらがなけやき)', ko: '히라가나 케야키', en: 'Hiragana Keyakizaka46' };
+
+  const name = eraName[locale as 'ja' | 'ko' | 'en'] || eraName.ja;
+  const title = `${name} 時代アーカイブ | 坂道シリーズ リンクハブ`;
+  const description = `${name} 時代の活動記録、所属メンバー一覧、公式リンクアーカイブ。`;
+
+  const canonicalUrl = `${BASE_URL}/${locale}/g/${groupId}/archive`;
+
+  return {
+    title,
+    description,
+    keywords: [name, '欅坂46', 'けやき坂46', 'ひらがなけやき', '케야키자카46', '히라가나 케야키', 'Keyakizaka46', 'Hiragana Keyaki'],
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        ja: `${BASE_URL}/ja/g/${groupId}/archive`,
+        ko: `${BASE_URL}/ko/g/${groupId}/archive`,
+        en: `${BASE_URL}/en/g/${groupId}/archive`,
+        'x-default': `${BASE_URL}/ja/g/${groupId}/archive`,
+      },
+    },
+  };
 }
 
 export function generateStaticParams() {
