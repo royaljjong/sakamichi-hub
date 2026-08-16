@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-08-16",
+  "totalLinks": 303,
+  "okCount": 295,
+  "redirectedCount": 2,
+  "deadCount": 6,
+  "unverifiedCount": 0,
+  "deadLinks": [
+    {
+      "memberId": "saku-hirate-yurina",
+      "url": "https://cloud9-pro.com/artist/profile/yurinahirate/",
+      "status": 0,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "saku-nagahama-neru",
+      "url": "https://x.com/neru_and_staff",
+      "status": 404
+    },
+    {
+      "memberId": "saku-sugai-yuuka",
+      "url": "https://x.com/yuuka_s_official",
+      "status": 404
+    },
+    {
+      "memberId": "hina-saitou-kyouko",
+      "url": "https://x.com/saitokyoko_fc",
+      "status": 404
+    },
+    {
+      "memberId": "hina-watanabe-miho",
+      "url": "https://x.com/mihowatanabestf",
+      "status": 404
+    },
+    {
+      "memberId": "hina-miyata-manamo",
+      "url": "https://x.com/manamumemo",
+      "status": 404
+    }
+  ]
+}
