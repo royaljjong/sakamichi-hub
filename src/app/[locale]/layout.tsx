@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { Analytics } from '@vercel/analytics/react';
 import { routing, type Locale } from '@/i18n/routing';
 import { fontClassNames } from '@/app/fonts';
 import '@/app/globals.css';
@@ -45,6 +46,7 @@ export default async function LocaleLayout({
       >
         <NextIntlClientProvider messages={messages}>
           {children}
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>

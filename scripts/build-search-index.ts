@@ -25,6 +25,7 @@ function buildIndex() {
     aliases: m.name.aliases || [],
     glyph: m.avatar.glyph,
     hueShift: m.avatar.hueShift,
+    imageUrl: m.imageUrl || null,
   }));
 
   const publicDir = path.join(__dirname, '..', 'public');

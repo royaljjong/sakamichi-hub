@@ -114,6 +114,7 @@ export async function fetchNogizaka(): Promise<Member[]> {
       birthDate,
       birthplace: null,
       officialCode: codeStr,
+      imageUrl: raw.img && raw.img.startsWith('http') ? raw.img : null,
       links,
       provenance: {
         source: 'official',

@@ -14,6 +14,7 @@
     "data:contrast": "tsx scripts/check-contrast.ts"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "motion": "^12.4.7",
     "next": "^15.1.7",
     "next-intl": "^3.26.3",

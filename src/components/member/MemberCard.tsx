@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from '@/i18n/routing';
 import type { Member, Group } from '@/lib/schema';
 import { renderableLinks } from '@/lib/schema';
-import { GlyphAvatar } from './GlyphAvatar';
+import { MemberAvatar } from './MemberAvatar';
 import { Ruby } from '@/components/ui/Ruby';
 
 interface MemberCardProps {
@@ -46,9 +46,11 @@ export function MemberCard({
       className="group relative flex flex-col justify-between p-4.5 sm:p-5 rounded-[22px] bg-[var(--white-veil)] hover:bg-white/95 border border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)] hover:border-[var(--g-brand)] shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-lift)] transition-all duration-300 hover:-translate-y-1 focus-visible:outline-2"
     >
       <div className="flex items-start gap-3.5 mb-3">
-        <GlyphAvatar
+        <MemberAvatar
           glyph={member.avatar.glyph}
           hueShift={member.avatar.hueShift}
+          imageUrl={member.imageUrl}
+          name={member.name.ja.kanji}
           size={size === 'sm' ? 46 : 54}
           isGraduated={isGraduated}
           className="group-hover:scale-105 transition-transform duration-300"

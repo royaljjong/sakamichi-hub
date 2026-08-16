@@ -74,6 +74,13 @@ export async function fetchHinatazaka(): Promise<Member[]> {
   for (const [code, html] of Array.from(uniqueItems.entries())) {
     const nameMatch = html.match(/<div class="c-member__name">([\s\S]*?)<\/div>/);
     const kanaMatch = html.match(/<div class="c-member__kana">([\s\S]*?)<\/div>/);
+    const imgMatch = html.match(/<div class="c-member__thumb"[^>]*>[\s\S]*?<img [^>]*src="([^"]+)"/) || html.match(/<img [^>]*src="([^"]+)"/);
+
+    let imageUrl: string | null = null;
+    if (imgMatch && imgMatch[1]) {
+      const rawImg = imgMatch[1];
+      imageUrl = rawImg.startsWith('http') ? rawImg : `https://www.hinatazaka46.com${rawImg}`;
+    }
 
     const rawKanji = nameMatch && nameMatch[1] ? nameMatch[1].replace(/\s+/g, ' ').trim() : '';
     let rawKana = kanaMatch && kanaMatch[1] ? kanaMatch[1].replace(/\s+/g, ' ').trim() : '';
@@ -200,6 +207,7 @@ export async function fetchHinatazaka(): Promise<Member[]> {
       birthDate,
       birthplace,
       officialCode: code,
+      imageUrl,
       links,
       provenance: {
         source: 'official',

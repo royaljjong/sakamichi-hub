@@ -66,6 +66,13 @@ export async function fetchSakurazaka(): Promise<Member[]> {
 
     const nameMatch = box.match(/<p class="name">([^<]+)<\/p>/);
     const kanaMatch = box.match(/<p class="kana">([^<]+)<\/p>/);
+    const imgMatch = box.match(/<img [^>]*src="([^"]+)"/);
+
+    let imageUrl: string | null = null;
+    if (imgMatch && imgMatch[1]) {
+      const rawImg = imgMatch[1];
+      imageUrl = rawImg.startsWith('http') ? rawImg : `https://sakurazaka46.com${rawImg}`;
+    }
 
     const rawKanji = nameMatch && nameMatch[1] ? nameMatch[1].trim() : '';
     const rawKana = kanaMatch && kanaMatch[1] ? kanaMatch[1].trim() : '';
@@ -182,6 +189,7 @@ export async function fetchSakurazaka(): Promise<Member[]> {
       birthDate,
       birthplace,
       officialCode: code,
+      imageUrl,
       links,
       provenance: {
         source: 'official',

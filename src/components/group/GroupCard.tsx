@@ -4,7 +4,7 @@ import React from 'react';
 import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 import type { Group, Member } from '@/lib/schema';
-import { GlyphAvatar } from '@/components/member/GlyphAvatar';
+import { MemberAvatar } from '@/components/member/MemberAvatar';
 
 interface GroupCardProps {
   group: Group;
@@ -76,13 +76,15 @@ export function GroupCard({ group, members, locale }: GroupCardProps) {
       </div>
 
       <div className="mt-8 pt-6 border-t border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)] flex items-center justify-between">
-        {/* 3 Glyph Avatars Preview */}
+        {/* 3 Avatars Preview */}
         <div className="flex items-center -space-x-2.5">
           {previewMembers.map((m) => (
-            <GlyphAvatar
+            <MemberAvatar
               key={m.id}
               glyph={m.avatar.glyph}
               hueShift={m.avatar.hueShift}
+              imageUrl={m.imageUrl}
+              name={m.name.ja.kanji}
               size={36}
               className="ring-2 ring-white/90"
             />

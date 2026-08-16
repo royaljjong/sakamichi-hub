@@ -6,7 +6,7 @@ import { routing } from '@/i18n/routing';
 import { AmbientBackground } from '@/components/background/AmbientBackground';
 import { Navigation } from '@/components/ui/Navigation';
 import { Footer } from '@/components/ui/Footer';
-import { GlyphAvatar } from '@/components/member/GlyphAvatar';
+import { MemberAvatar } from '@/components/member/MemberAvatar';
 import { StatusBadge } from '@/components/ui/StatusBadge';
 import { LinkGrid } from '@/components/member/LinkGrid';
 import { MemberCard } from '@/components/member/MemberCard';
@@ -86,10 +86,12 @@ export default async function MemberPage({ params }: MemberPageProps) {
         {/* Member Profile Header */}
         <section className="p-6 sm:p-10 rounded-[32px] bg-[var(--white-veil)] border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] shadow-[var(--shadow-lift)] backdrop-blur-md mb-10">
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 text-center sm:text-left">
-            <GlyphAvatar
+            <MemberAvatar
               glyph={member.avatar.glyph}
               hueShift={member.avatar.hueShift}
-              size={84}
+              imageUrl={member.imageUrl}
+              name={member.name.ja.kanji}
+              size={96}
               isGraduated={isGraduated}
               className="shadow-md"
             />

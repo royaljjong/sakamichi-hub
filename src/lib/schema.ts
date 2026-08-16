@@ -321,6 +321,7 @@ export const Member = z.object({
   birthplace: LocalizedText.nullable().default(null),
   /** 공식 사이트 블로그 URL의 ct 파라미터 값. 문자열임에 주의 ('03' 같은 0 패딩 존재) */
   officialCode: z.string().nullable().default(null),
+  imageUrl: z.string().url().nullable().default(null),
   links: z.array(MemberLink).default([]),
   provenance: Provenance,
   /**

@@ -13,6 +13,7 @@ export interface SearchIndexItem {
   aliases: string[];
   glyph: string;
   hueShift: number;
+  imageUrl?: string | null;
 }
 
 const CHOSEONG = [

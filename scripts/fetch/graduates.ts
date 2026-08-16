@@ -306,6 +306,7 @@ export function getGraduates(): Member[] {
       birthDate: g.birthDate || null,
       birthplace: null,
       officialCode: null,
+      imageUrl: null,
       links,
       provenance: {
         source: 'wikipedia_ja',

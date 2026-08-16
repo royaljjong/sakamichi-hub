@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from '@/i18n/routing';
 import type { SearchIndexItem } from '@/lib/search';
-import { GlyphAvatar } from '@/components/member/GlyphAvatar';
+import { MemberAvatar } from '@/components/member/MemberAvatar';
 
 interface SearchResultsProps {
   results: SearchIndexItem[];
@@ -57,9 +57,11 @@ export function SearchResults({
             className="group flex items-center justify-between p-3.5 rounded-2xl bg-[var(--white-veil)] hover:bg-white/95 border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] hover:border-[var(--g-brand)] shadow-[var(--shadow-soft)] transition duration-200"
           >
             <div className="flex items-center gap-3 min-w-0">
-              <GlyphAvatar
+              <MemberAvatar
                 glyph={item.glyph}
                 hueShift={item.hueShift}
+                imageUrl={item.imageUrl}
+                name={item.kanji}
                 size={44}
                 isGraduated={isGraduated}
                 className="group-hover:scale-105"
