@@ -11,7 +11,6 @@ interface GradSeed {
   joinedOn: string;
   leftOn: string;
   birthDate?: string;
-  imageUrl?: string | null;
   sns?: { type: 'instagram' | 'x' | 'youtube' | 'official_profile' | 'agency'; url: string }[];
 }
 
@@ -25,7 +24,6 @@ const GRADUATES_SEED: GradSeed[] = [
     joinedOn: '2015-08-21',
     leftOn: '2020-01-23',
     birthDate: '2001-06-25',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Yurina_Hirate_2021.jpg/440px-Yurina_Hirate_2021.jpg',
     sns: [{ type: 'official_profile', url: 'https://cloud9-pro.com/artist/profile/yurinahirate/' }],
   },
   {
@@ -36,7 +34,6 @@ const GRADUATES_SEED: GradSeed[] = [
     joinedOn: '2015-11-30',
     leftOn: '2019-07-30',
     birthDate: '1998-09-04',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Neru_Nagahama_2023.jpg/440px-Neru_Nagahama_2023.jpg',
     sns: [
       { type: 'x', url: 'https://x.com/neru_and_staff' },
       { type: 'instagram', url: 'https://www.instagram.com/nerunagahama_' },
@@ -50,7 +47,6 @@ const GRADUATES_SEED: GradSeed[] = [
     joinedOn: '2015-08-21',
     leftOn: '2022-11-09',
     birthDate: '1995-11-29',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Yuuka_Sugai_2023.jpg/440px-Yuuka_Sugai_2023.jpg',
     sns: [
       { type: 'x', url: 'https://x.com/yuuka_s_official' },
       { type: 'instagram', url: 'https://www.instagram.com/yuuka_sugai_official/' },
@@ -64,7 +60,6 @@ const GRADUATES_SEED: GradSeed[] = [
     joinedOn: '2015-08-21',
     leftOn: '2022-05-22',
     birthDate: '1998-07-27',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Risa_Watanabe_2022.jpg/440px-Risa_Watanabe_2022.jpg',
     sns: [
       { type: 'x', url: 'https://x.com/risa_and_staff' },
       { type: 'instagram', url: 'https://www.instagram.com/_risawatanabe_/' },
@@ -78,7 +73,6 @@ const GRADUATES_SEED: GradSeed[] = [
     joinedOn: '2015-08-21',
     leftOn: '2024-02-01',
     birthDate: '1999-10-23',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Yui_Kobayashi_2022.jpg/440px-Yui_Kobayashi_2022.jpg',
     sns: [
       { type: 'instagram', url: 'https://www.instagram.com/_yui_kobayashi/' },
     ],
@@ -91,7 +85,6 @@ const GRADUATES_SEED: GradSeed[] = [
     joinedOn: '2015-08-21',
     leftOn: '2023-11-25',
     birthDate: '1997-07-07',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Mizuho_Habu_2023.jpg/440px-Mizuho_Habu_2023.jpg',
     sns: [
       { type: 'x', url: 'https://x.com/habu_mizuho' },
       { type: 'instagram', url: 'https://www.instagram.com/habumizuho/' },
@@ -249,7 +242,6 @@ const GRADUATES_SEED: GradSeed[] = [
     joinedOn: '2016-05-08',
     leftOn: '2019-08-11',
     birthDate: '2001-12-02',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Memi_Kakizaki_2018.jpg/440px-Memi_Kakizaki_2018.jpg',
   },
   {
     kanji: '影山優佳',
@@ -259,7 +251,6 @@ const GRADUATES_SEED: GradSeed[] = [
     joinedOn: '2016-05-08',
     leftOn: '2023-07-23',
     birthDate: '2001-05-08',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Yuka_Kageyama_2023.jpg/440px-Yuka_Kageyama_2023.jpg',
     sns: [
       { type: 'x', url: 'https://x.com/kageyamayuka' },
       { type: 'instagram', url: 'https://www.instagram.com/kageyamayuka_official/' },
@@ -285,7 +276,6 @@ const GRADUATES_SEED: GradSeed[] = [
     joinedOn: '2016-05-08',
     leftOn: '2024-04-05',
     birthDate: '1997-09-05',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Kyoko_Saito_2023.jpg/440px-Kyoko_Saito_2023.jpg',
     sns: [
       { type: 'x', url: 'https://x.com/kyoko_saito_09' },
       { type: 'instagram', url: 'https://www.instagram.com/kyoko.saito_official/' },
@@ -311,7 +301,6 @@ const GRADUATES_SEED: GradSeed[] = [
     joinedOn: '2016-05-08',
     leftOn: '2024-12-25',
     birthDate: '1998-02-02',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Shiho_Kato_2023.jpg/440px-Shiho_Kato_2023.jpg',
     sns: [
       { type: 'instagram', url: 'https://www.instagram.com/katoshi.official/' },
     ],
@@ -336,7 +325,6 @@ const GRADUATES_SEED: GradSeed[] = [
     joinedOn: '2017-08-13',
     leftOn: '2024-12-01',
     birthDate: '2001-02-15',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Akari_Nibu_2023.jpg/440px-Akari_Nibu_2023.jpg',
     sns: [
       { type: 'instagram', url: 'https://www.instagram.com/nibuchan_akari/' },
     ],
@@ -361,7 +349,6 @@ const GRADUATES_SEED: GradSeed[] = [
     joinedOn: '2017-08-13',
     leftOn: '2022-07-31',
     birthDate: '2000-02-24',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Miho_Watanabe_2022.jpg/440px-Miho_Watanabe_2022.jpg',
     sns: [
       { type: 'x', url: 'https://x.com/mihowatanabe_st' },
       { type: 'instagram', url: 'https://www.instagram.com/mihowatanabe_/' },
@@ -445,7 +432,7 @@ export function getGraduates(): Member[] {
       birthDate: seed.birthDate || null,
       birthplace: null,
       officialCode: null,
-      imageUrl: seed.imageUrl || null,
+      imageUrl: null,
       links,
       avatar,
       provenance: {

@@ -1,5 +1,41 @@
 [
   {
+    "id": "hina-sofficialdiarydetail70610ima0000cdmember",
+    "groupId": "hinatazaka46",
+    "franchise": "sakamichi",
+    "memberId": "hina-oota-mizuki",
+    "memberName": {
+      "ja": "大田 美月",
+      "ko": "오오타 미즈키",
+      "en": "Oota Mizuki"
+    },
+    "memberGlyph": "大",
+    "memberHueShift": 27,
+    "memberImage": "https://cdn.hinatazaka46.com/images/14/3ad/e07febee32edf17721f512802ee4b/800_800_102400.jpg",
+    "title": "個別ページ",
+    "publishedAt": "2026.8.16 19:35",
+    "url": "https://www.hinatazaka46.com/s/official/diary/detail/70610?ima=0000&cd=member",
+    "type": "official_blog"
+  },
+  {
+    "id": "hina-httpsyoutubeUC1D0U0s8tw",
+    "groupId": "hinatazaka46",
+    "franchise": "sakamichi",
+    "memberId": "hina-satou-yuu",
+    "memberName": {
+      "ja": "佐藤 優羽",
+      "ko": "사토우 유우",
+      "en": "Satou Yuu"
+    },
+    "memberGlyph": "佐",
+    "memberHueShift": -28,
+    "memberImage": "https://cdn.hinatazaka46.com/images/14/37b/f66d43760157d8da05872b14a4e3d/800_800_102400.jpg",
+    "title": "https:&#x2F;&#x2F;youtu.be&#x2F;UC1D0U0s8tw",
+    "publishedAt": "2026.8.16 17:34",
+    "url": "https://youtu.be/UC1D0U0s8tw",
+    "type": "official_blog"
+  },
+  {
     "id": "hina-httpswwwhinatazaka46comsofficialnewsdetailE00854",
     "groupId": "hinatazaka46",
     "franchise": "sakamichi",
@@ -198,7 +234,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104772ima5756cdMEMBER",
+    "id": "nogi-sn46diarydetail104772ima4730cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -211,7 +247,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mobrK6rZE.jpg",
     "title": "愛",
     "publishedAt": "2026.08.14 21:33",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104772?ima=5756&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104772?ima=4730&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -233,7 +269,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104771ima5756cdMEMBER",
+    "id": "nogi-sn46diarydetail104771ima4730cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -246,11 +282,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mobpMyacJ.jpg",
     "title": "8月生まれの皆さんおめでとうございます   #岡本姫奈  #hinadaniblog",
     "publishedAt": "2026.08.14 19:42",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104771?ima=5756&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104771?ima=4730&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104770ima5756cdMEMBER",
+    "id": "nogi-sn46diarydetail104770ima4730cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -263,7 +299,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/moboh8PBy.jpg",
     "title": "傘をさせる人になれるように",
     "publishedAt": "2026.08.14 18:04",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104770?ima=5756&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104770?ima=4730&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -393,43 +429,7 @@
     "type": "official_blog"
   },
   {
-    "id": "hina-sofficialdiarydetail70582ima0000cdmember",
-    "groupId": "hinatazaka46",
-    "franchise": "sakamichi",
-    "memberId": "hina-kanemura-miku",
-    "memberName": {
-      "ja": "金村 美玖",
-      "ko": "카네무라 미쿠",
-      "en": "Kanemura Miku"
-    },
-    "memberGlyph": "金",
-    "memberHueShift": 2,
-    "memberImage": "https://cdn.hinatazaka46.com/images/14/ce8/27d3cdf85a9b6c4cf7550f02268b0/800_800_102400.jpg",
-    "title": "個別ページ",
-    "publishedAt": "2026.8.13 17:18",
-    "url": "https://www.hinatazaka46.com/s/official/diary/detail/70582?ima=0000&cd=member",
-    "type": "official_blog"
-  },
-  {
-    "id": "hina-httpsfortunemusicjphinatazaka202609",
-    "groupId": "hinatazaka46",
-    "franchise": "sakamichi",
-    "memberId": "hina-sakai-niina",
-    "memberName": {
-      "ja": "坂井 新奈",
-      "ko": "사카이 니이나",
-      "en": "Sakai Niina"
-    },
-    "memberGlyph": "坂",
-    "memberHueShift": 33,
-    "memberImage": "https://cdn.hinatazaka46.com/images/14/fc5/d14c63e95fbc0ebb286ed7c74657a/800_800_102400.jpg",
-    "title": "https:&#x2F;&#x2F;fortunemusic.jp&#x2F;hinatazaka_202609&#x2F;",
-    "publishedAt": "2026.8.13 13:05",
-    "url": "https://fortunemusic.jp/hinatazaka_202609/",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-sn46diarydetail104769ima5756cdMEMBER",
+    "id": "nogi-sn46diarydetail104769ima4730cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -442,11 +442,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mob5sRc1K.jpg",
     "title": "正解はわからないたった一度の人生だ",
     "publishedAt": "2026.08.11 20:29",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104769?ima=5756&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104769?ima=4730&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104768ima5756cdMEMBER",
+    "id": "nogi-sn46diarydetail104768ima4730cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -459,11 +459,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mobjVzXVS.jpg",
     "title": "令和8年8月8日、8回目！",
     "publishedAt": "2026.08.09 15:06",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104768?ima=5756&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104768?ima=4730&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104767ima5756cdMEMBER",
+    "id": "nogi-sn46diarydetail104767ima4730cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -476,11 +476,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mobjlkthK.jpg",
     "title": "おずんだ",
     "publishedAt": "2026.08.08 15:26",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104767?ima=5756&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104767?ima=4730&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104766ima5756cdMEMBER",
+    "id": "nogi-sn46diarydetail104766ima4730cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -493,11 +493,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mobMILAjK.png",
     "title": "所作をゆっくりしていい女になりたい、、　金川紗耶",
     "publishedAt": "2026.08.08 11:13",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104766?ima=5756&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104766?ima=4730&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104765ima5756cdMEMBER",
+    "id": "nogi-sn46diarydetail104765ima4730cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -510,11 +510,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mobH2kaL2.jpg",
     "title": "七文字",
     "publishedAt": "2026.08.07 18:58",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104765?ima=5756&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104765?ima=4730&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104764ima5756cdMEMBER",
+    "id": "nogi-sn46diarydetail104764ima4730cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -527,7 +527,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mobvfo2ap.jpg",
     "title": "いツノせ参上！",
     "publishedAt": "2026.08.07 14:46",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104764?ima=5756&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104764?ima=4730&cd=MEMBER",
     "type": "official_blog"
   },
   {
