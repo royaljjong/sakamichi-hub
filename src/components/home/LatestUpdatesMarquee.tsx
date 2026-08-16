@@ -362,22 +362,11 @@ function MarqueeRow({ title, badgeEmoji, items, locale }: MarqueeRowProps) {
 export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMarqueeProps) {
   const [updates, setUpdates] = useState<RecentUpdate[]>(initialUpdates);
 
-  // Background auto-refresh from live API
   useEffect(() => {
-    fetch('/api/updates')
-      .then((res) => {
-        if (res.ok) return res.json();
-        return null;
-      })
-      .then((data) => {
-        if (Array.isArray(data) && data.length > 0) {
-          setUpdates(data);
-        }
-      })
-      .catch((err) => {
-        console.warn('Background updates check error:', err);
-      });
-  }, []);
+    if (initialUpdates && initialUpdates.length > 0) {
+      setUpdates(initialUpdates);
+    }
+  }, [initialUpdates]);
 
   if (!updates || updates.length === 0) return null;
 
@@ -407,7 +396,7 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
 
   return (
     <section className="relative z-10 w-full mt-12 sm:mt-16 pt-8 pb-4 border-t border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)] space-y-8">
-      {/* 1. Sakamichi Series Row (Top) */}
+      {/* 1. Sakamichi Series Row (Top - 30 items) */}
       <MarqueeRow
         title={sakamichiTitle}
         badgeEmoji="🌸"
@@ -415,7 +404,7 @@ export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMa
         locale={locale}
       />
 
-      {/* 2. AKB48 Group Row (Bottom) */}
+      {/* 2. AKB48 Group Row (Bottom - 30 items) */}
       <MarqueeRow
         title={akbTitle}
         badgeEmoji="🎀"

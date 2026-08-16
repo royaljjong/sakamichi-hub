@@ -544,15 +544,20 @@ export async function fetchLatestUpdates(providedMembers?: Member[]): Promise<Re
   ];
 
   for (const p of akbPostsRaw) {
+    const matchedMember = memberNameMap.get(p.name.ja.replace(/\s+/g, ''));
     akbUpdates.push({
       id: p.id,
       groupId: p.groupId,
       franchise: 'akb48g',
-      memberId: p.memberId,
-      memberName: p.name,
-      memberGlyph: p.glyph,
-      memberHueShift: p.hueShift,
-      memberImage: p.image,
+      memberId: matchedMember?.id || p.memberId,
+      memberName: {
+        ja: p.name.ja,
+        ko: matchedMember?.name.ko.hangul || p.name.ko,
+        en: matchedMember?.name.en.romaji || p.name.en,
+      },
+      memberGlyph: matchedMember?.avatar.glyph || p.glyph,
+      memberHueShift: matchedMember?.avatar.hueShift || p.hueShift,
+      memberImage: matchedMember?.imageUrl || p.image,
       title: p.title,
       publishedAt: p.publishedAt,
       url: p.url,

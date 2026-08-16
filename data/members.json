@@ -11999,6 +11999,149 @@
     }
   },
   {
+    "id": "akb48-mukaichi-mion",
+    "name": {
+      "ja": {
+        "kanji": "向井地美音",
+        "kana": "むかいち みおん"
+      },
+      "ko": {
+        "hangul": "무카이치 미온"
+      },
+      "en": {
+        "romaji": "Mion Mukaichi"
+      },
+      "aliases": [
+        "mion mukaichi",
+        "向井地美音",
+        "무카이치 미온"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2013-06-05",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "1998-01-29",
+    "birthplace": null,
+    "officialCode": "mukaichi_mion",
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100788.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.akb48.co.jp/about/members/detail/mukaichi_mion",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "x",
+        "url": "https://x.com/mionnn_48",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/__mion.m__/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      }
+    ],
+    "avatar": {
+      "glyph": "向",
+      "hueShift": 7
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail/mukaichi_mion",
+      "checkedAt": "2026-08-16",
+      "note": "AKB48 Group verified dataset"
+    }
+  },
+  {
+    "id": "akb48-murayama-yuiri",
+    "name": {
+      "ja": {
+        "kanji": "村山彩希",
+        "kana": "むらやま ゆいり"
+      },
+      "ko": {
+        "hangul": "무라야마 유이리"
+      },
+      "en": {
+        "romaji": "Yuiri Murayama"
+      },
+      "aliases": [
+        "yuiri murayama",
+        "村山彩希",
+        "무라야마 유이리"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2011-12-08",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "1997-06-15",
+    "birthplace": null,
+    "officialCode": "murayama_yuiri",
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100623.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.akb48.co.jp/about/members/detail/murayama_yuiri",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "x",
+        "url": "https://x.com/yuirii_murayama",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      }
+    ],
+    "avatar": {
+      "glyph": "村",
+      "hueShift": -10
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail/murayama_yuiri",
+      "checkedAt": "2026-08-16",
+      "note": "AKB48 Group verified dataset"
+    }
+  },
+  {
     "id": "akb48-chiba-erii",
     "name": {
       "ja": {
@@ -13192,435 +13335,6 @@
     }
   },
   {
-    "id": "akb48-mukaichi-mion",
-    "name": {
-      "ja": {
-        "kanji": "向井地美音",
-        "kana": "むかいち みおん"
-      },
-      "ko": {
-        "hangul": "무카이치 미온"
-      },
-      "en": {
-        "romaji": "Mion Mukaichi"
-      },
-      "aliases": [
-        "mion mukaichi",
-        "向井地美音",
-        "무카이치 미온"
-      ]
-    },
-    "primaryGroupId": "akb48",
-    "primaryGenerationId": "akb-g-active",
-    "status": "active",
-    "memberships": [
-      {
-        "groupId": "akb48",
-        "generationId": "akb-g-active",
-        "joinedOn": "2013-06-05",
-        "leftOn": null,
-        "isConcurrent": false,
-        "endReason": null
-      }
-    ],
-    "birthDate": "1998-01-29",
-    "birthplace": null,
-    "officialCode": "mukaichi_mion",
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "official_profile",
-        "url": "https://www.akb48.co.jp/about/members/detail/mukaichi_mion",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "x",
-        "url": "https://x.com/mionnn_48",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/__mion.m__/",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      }
-    ],
-    "avatar": {
-      "glyph": "向",
-      "hueShift": 7
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://www.akb48.co.jp/about/members/detail/mukaichi_mion",
-      "checkedAt": "2026-08-16",
-      "note": "AKB48 Group verified dataset"
-    }
-  },
-  {
-    "id": "akb48-murayama-yuiri",
-    "name": {
-      "ja": {
-        "kanji": "村山彩希",
-        "kana": "むらやま ゆいり"
-      },
-      "ko": {
-        "hangul": "무라야마 유이리"
-      },
-      "en": {
-        "romaji": "Yuiri Murayama"
-      },
-      "aliases": [
-        "yuiri murayama",
-        "村山彩希",
-        "무라야마 유이리"
-      ]
-    },
-    "primaryGroupId": "akb48",
-    "primaryGenerationId": "akb-g-active",
-    "status": "active",
-    "memberships": [
-      {
-        "groupId": "akb48",
-        "generationId": "akb-g-active",
-        "joinedOn": "2011-12-08",
-        "leftOn": null,
-        "isConcurrent": false,
-        "endReason": null
-      }
-    ],
-    "birthDate": "1997-06-15",
-    "birthplace": null,
-    "officialCode": "murayama_yuiri",
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "official_profile",
-        "url": "https://www.akb48.co.jp/about/members/detail/murayama_yuiri",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "x",
-        "url": "https://x.com/yuirii_murayama",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      }
-    ],
-    "avatar": {
-      "glyph": "村",
-      "hueShift": -10
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://www.akb48.co.jp/about/members/detail/murayama_yuiri",
-      "checkedAt": "2026-08-16",
-      "note": "AKB48 Group verified dataset"
-    }
-  },
-  {
-    "id": "akb48-kashiwagi-yuki",
-    "name": {
-      "ja": {
-        "kanji": "柏木由紀",
-        "kana": "かしわぎ ゆき"
-      },
-      "ko": {
-        "hangul": "카시와기 유키"
-      },
-      "en": {
-        "romaji": "Yuki Kashiwagi"
-      },
-      "aliases": [
-        "yuki kashiwagi",
-        "柏木由紀",
-        "카시와기 유키"
-      ]
-    },
-    "primaryGroupId": "akb48",
-    "primaryGenerationId": "akb-g-active",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "akb48",
-        "generationId": "akb-g-active",
-        "joinedOn": "2006-12-03",
-        "leftOn": "2024-04-30",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "1991-07-15",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "x",
-        "url": "https://x.com/Yukiriiiin__K",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/yukikashiwagi_official/",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/c/yukirinworld",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      }
-    ],
-    "avatar": {
-      "glyph": "柏",
-      "hueShift": -11
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://x.com/Yukiriiiin__K",
-      "checkedAt": "2026-08-16",
-      "note": "AKB48 Group verified dataset"
-    }
-  },
-  {
-    "id": "akb48-maeda-atsuko",
-    "name": {
-      "ja": {
-        "kanji": "前田敦子",
-        "kana": "まえだ あつこ"
-      },
-      "ko": {
-        "hangul": "마에다 아츠코"
-      },
-      "en": {
-        "romaji": "Atsuko Maeda"
-      },
-      "aliases": [
-        "atsuko maeda",
-        "前田敦子",
-        "마에다 아츠코"
-      ]
-    },
-    "primaryGroupId": "akb48",
-    "primaryGenerationId": "akb-g-active",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "akb48",
-        "generationId": "akb-g-active",
-        "joinedOn": "2005-12-08",
-        "leftOn": "2012-08-27",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "1991-07-10",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "x",
-        "url": "https://x.com/Atsuko_100",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/atsuko_maeda_official/",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      }
-    ],
-    "avatar": {
-      "glyph": "前",
-      "hueShift": -17
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://x.com/Atsuko_100",
-      "checkedAt": "2026-08-16",
-      "note": "AKB48 Group verified dataset"
-    }
-  },
-  {
-    "id": "akb48-ooshima-yuuko",
-    "name": {
-      "ja": {
-        "kanji": "大島優子",
-        "kana": "おおしま ゆうこ"
-      },
-      "ko": {
-        "hangul": "오오시마 유코"
-      },
-      "en": {
-        "romaji": "Yuko Oshima"
-      },
-      "aliases": [
-        "yuko oshima",
-        "大島優子",
-        "오오시마 유코"
-      ]
-    },
-    "primaryGroupId": "akb48",
-    "primaryGenerationId": "akb-g-active",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "akb48",
-        "generationId": "akb-g-active",
-        "joinedOn": "2006-02-26",
-        "leftOn": "2014-06-09",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "1988-10-17",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "x",
-        "url": "https://x.com/Oshima__Yuko",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/yuk00shima/",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      }
-    ],
-    "avatar": {
-      "glyph": "大",
-      "hueShift": -27
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://x.com/Oshima__Yuko",
-      "checkedAt": "2026-08-16",
-      "note": "AKB48 Group verified dataset"
-    }
-  },
-  {
-    "id": "akb48-sashihara-rino",
-    "name": {
-      "ja": {
-        "kanji": "指原莉乃",
-        "kana": "さしはら りの"
-      },
-      "ko": {
-        "hangul": "사시하라 리노"
-      },
-      "en": {
-        "romaji": "Rino Sashihara"
-      },
-      "aliases": [
-        "rino sashihara",
-        "指原莉乃",
-        "사시하라 리노"
-      ]
-    },
-    "primaryGroupId": "akb48",
-    "primaryGenerationId": "akb-g-active",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "akb48",
-        "generationId": "akb-g-active",
-        "joinedOn": "2007-10-06",
-        "leftOn": "2019-04-28",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "1992-11-21",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "x",
-        "url": "https://x.com/345__chan",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/345insta/",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/c/345channel",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      }
-    ],
-    "avatar": {
-      "glyph": "指",
-      "hueShift": 33
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://x.com/345__chan",
-      "checkedAt": "2026-08-16",
-      "note": "AKB48 Group verified dataset"
-    }
-  },
-  {
     "id": "ske48-kumazaki-haruka",
     "name": {
       "ja": {
@@ -13655,7 +13369,7 @@
     "birthDate": "1997-08-10",
     "birthplace": null,
     "officialCode": "kumazaki_haruka",
-    "imageUrl": null,
+    "imageUrl": "https://s3-aop.plusmember.jp/prod/public/ske48/contents/artist/profile_image/haruka_kumazaki.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -13704,7 +13418,7 @@
         "kana": "すえなが おうか"
       },
       "ko": {
-        "hangul": "수에나가 오우카"
+        "hangul": "수에нага 오우카"
       },
       "en": {
         "romaji": "Ouka Suenaga"
@@ -13712,7 +13426,7 @@
       "aliases": [
         "ouka suenaga",
         "末永桜花",
-        "수에나가 오우카"
+        "수에нага 오우카"
       ]
     },
     "primaryGroupId": "ske48",
@@ -13731,7 +13445,7 @@
     "birthDate": "2002-02-26",
     "birthplace": null,
     "officialCode": "suenaga_ouka",
-    "imageUrl": null,
+    "imageUrl": "https://s3-aop.plusmember.jp/prod/public/ske48/contents/artist/profile_image/ouka_suenaga.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -13807,7 +13521,7 @@
     "birthDate": "2003-02-01",
     "birthplace": null,
     "officialCode": "nomura_miyo",
-    "imageUrl": null,
+    "imageUrl": "https://s3-aop.plusmember.jp/prod/public/ske48/contents/artist/profile_image/miyo_nomura.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -13849,73 +13563,6 @@
     }
   },
   {
-    "id": "ske48-matsui-jurina",
-    "name": {
-      "ja": {
-        "kanji": "松井珠理奈",
-        "kana": "まつい じゅりな"
-      },
-      "ko": {
-        "hangul": "마츠이 쥬리나"
-      },
-      "en": {
-        "romaji": "Jurina Matsui"
-      },
-      "aliases": [
-        "jurina matsui",
-        "松井珠理奈",
-        "마츠이 쥬리나"
-      ]
-    },
-    "primaryGroupId": "ske48",
-    "primaryGenerationId": "ske-g-active",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "ske48",
-        "generationId": "ske-g-active",
-        "joinedOn": "2008-08-23",
-        "leftOn": "2021-04-30",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "1997-03-08",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "x",
-        "url": "https://x.com/JURINA38G",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/jurinamatsui3/",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      }
-    ],
-    "avatar": {
-      "glyph": "松",
-      "hueShift": 12
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://x.com/JURINA38G",
-      "checkedAt": "2026-08-16",
-      "note": "AKB48 Group verified dataset"
-    }
-  },
-  {
     "id": "nmb48-kojima-karin",
     "name": {
       "ja": {
@@ -13950,7 +13597,7 @@
     "birthDate": "1999-07-16",
     "birthplace": null,
     "officialCode": "kojima_karin",
-    "imageUrl": null,
+    "imageUrl": "https://www.nmb48.com/images/member/kojima_karin.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -14035,7 +13682,7 @@
     "birthDate": "2005-12-15",
     "birthplace": null,
     "officialCode": "shiotsuki_keito",
-    "imageUrl": null,
+    "imageUrl": "https://www.nmb48.com/images/member/shiotsuki_keito.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -14111,7 +13758,7 @@
     "birthDate": "2005-11-08",
     "birthplace": null,
     "officialCode": "sakata_misaki",
-    "imageUrl": null,
+    "imageUrl": "https://www.nmb48.com/images/member/sakata_misaki.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -14153,91 +13800,6 @@
     }
   },
   {
-    "id": "nmb48-yamamoto-sayaka",
-    "name": {
-      "ja": {
-        "kanji": "山本彩",
-        "kana": "やまもと さやか"
-      },
-      "ko": {
-        "hangul": "야마모토 사야카"
-      },
-      "en": {
-        "romaji": "Sayaka Yamamoto"
-      },
-      "aliases": [
-        "sayaka yamamoto",
-        "山本彩",
-        "야마모토 사야카"
-      ]
-    },
-    "primaryGroupId": "nmb48",
-    "primaryGenerationId": "nmb-g-active",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "nmb48",
-        "generationId": "nmb-g-active",
-        "joinedOn": "2010-10-09",
-        "leftOn": "2018-11-04",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "1993-07-14",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "official_profile",
-        "url": "https://yamamotosayaka.jp/",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "x",
-        "url": "https://x.com/SayakaNeon",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/sayaka__714/",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/c/sayakayamamoto",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      }
-    ],
-    "avatar": {
-      "glyph": "山",
-      "hueShift": 32
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://yamamotosayaka.jp/",
-      "checkedAt": "2026-08-16",
-      "note": "AKB48 Group verified dataset"
-    }
-  },
-  {
     "id": "hkt48-toyonaga-aki",
     "name": {
       "ja": {
@@ -14272,7 +13834,7 @@
     "birthDate": "1999-10-25",
     "birthplace": null,
     "officialCode": "toyonaga_aki",
-    "imageUrl": null,
+    "imageUrl": "https://www.hkt48.jp/files/99/profile/toyonaga_aki.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -14348,7 +13910,7 @@
     "birthDate": "2005-07-22",
     "birthplace": null,
     "officialCode": "ishibashi_ibuki",
-    "imageUrl": null,
+    "imageUrl": "https://www.hkt48.jp/files/99/profile/ishibashi_ibuki.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -14424,7 +13986,7 @@
     "birthDate": "2004-02-22",
     "birthplace": null,
     "officialCode": "takemoto_kurumi",
-    "imageUrl": null,
+    "imageUrl": "https://www.hkt48.jp/files/99/profile/takemoto_kurumi.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -14466,82 +14028,6 @@
     }
   },
   {
-    "id": "hkt48-miyawaki-sakura",
-    "name": {
-      "ja": {
-        "kanji": "宮脇咲良",
-        "kana": "みやわき さくら"
-      },
-      "ko": {
-        "hangul": "미야와키 사쿠라"
-      },
-      "en": {
-        "romaji": "Sakura Miyawaki"
-      },
-      "aliases": [
-        "sakura miyawaki",
-        "宮脇咲良",
-        "미야와키 사쿠라"
-      ]
-    },
-    "primaryGroupId": "hkt48",
-    "primaryGenerationId": "hkt-g-active",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "hkt48",
-        "generationId": "hkt-g-active",
-        "joinedOn": "2011-10-23",
-        "leftOn": "2021-06-19",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "1998-03-19",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "x",
-        "url": "https://x.com/39saku_chan",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/39saku_chan/",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/channel/UC9Z0cgzpLK2DC4Um9VOQK5Q",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      }
-    ],
-    "avatar": {
-      "glyph": "宮",
-      "hueShift": 12
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://x.com/39saku_chan",
-      "checkedAt": "2026-08-16",
-      "note": "AKB48 Group verified dataset"
-    }
-  },
-  {
     "id": "ngt48-fujisaki-miyu",
     "name": {
       "ja": {
@@ -14576,7 +14062,7 @@
     "birthDate": "2000-11-17",
     "birthplace": null,
     "officialCode": "fujisaki_miyu",
-    "imageUrl": null,
+    "imageUrl": "https://ngt48.jp/profile/fujisaki_miyu.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -14652,7 +14138,7 @@
     "birthDate": "1995-10-16",
     "birthplace": null,
     "officialCode": "nishigata_marina",
-    "imageUrl": null,
+    "imageUrl": "https://ngt48.jp/profile/nishigata_marina.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -14694,73 +14180,6 @@
     }
   },
   {
-    "id": "ngt48-honma-hinata",
-    "name": {
-      "ja": {
-        "kanji": "本間日陽",
-        "kana": "ほんま ひなた"
-      },
-      "ko": {
-        "hangul": "혼마 히나타"
-      },
-      "en": {
-        "romaji": "Hinata Homma"
-      },
-      "aliases": [
-        "hinata homma",
-        "本間日陽",
-        "혼마 히나타"
-      ]
-    },
-    "primaryGroupId": "ngt48",
-    "primaryGenerationId": "ngt-g-active",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "ngt48",
-        "generationId": "ngt-g-active",
-        "joinedOn": "2015-08-21",
-        "leftOn": "2024-04-13",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "1999-11-10",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "x",
-        "url": "https://x.com/hinata_homma",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/hinata_homma1110/",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      }
-    ],
-    "avatar": {
-      "glyph": "本",
-      "hueShift": -30
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://x.com/hinata_homma",
-      "checkedAt": "2026-08-16",
-      "note": "AKB48 Group verified dataset"
-    }
-  },
-  {
     "id": "stu48-okada-azumi",
     "name": {
       "ja": {
@@ -14795,7 +14214,7 @@
     "birthDate": "2003-01-20",
     "birthplace": null,
     "officialCode": "okada_azumi",
-    "imageUrl": null,
+    "imageUrl": "https://sp.stu48.com/img/profile/okada_azumi.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -14862,7 +14281,7 @@
     "birthDate": "1999-04-04",
     "birthplace": null,
     "officialCode": "nakamura_mai",
-    "imageUrl": null,
+    "imageUrl": "https://sp.stu48.com/img/profile/nakamura_mai.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -14938,7 +14357,7 @@
     "birthDate": "2002-03-17",
     "birthplace": null,
     "officialCode": "ishida_chiho",
-    "imageUrl": null,
+    "imageUrl": "https://sp.stu48.com/img/profile/ishida_chiho.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -14980,73 +14399,6 @@
     }
   },
   {
-    "id": "stu48-takino-yumiko",
-    "name": {
-      "ja": {
-        "kanji": "瀧野由美子",
-        "kana": "たきの ゆみこ"
-      },
-      "ko": {
-        "hangul": "타키노 유미코"
-      },
-      "en": {
-        "romaji": "Yumiko Takino"
-      },
-      "aliases": [
-        "yumiko takino",
-        "瀧野由美子",
-        "타키노 유미코"
-      ]
-    },
-    "primaryGroupId": "stu48",
-    "primaryGenerationId": "stu-g-active",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "stu48",
-        "generationId": "stu-g-active",
-        "joinedOn": "2017-03-31",
-        "leftOn": "2023-11-30",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "1997-09-24",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "x",
-        "url": "https://x.com/yumiko_takino_",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/yumiko_anko/",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      }
-    ],
-    "avatar": {
-      "glyph": "瀧",
-      "hueShift": 19
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://x.com/yumiko_takino_",
-      "checkedAt": "2026-08-16",
-      "note": "AKB48 Group verified dataset"
-    }
-  },
-  {
     "id": "jkt48-shani",
     "name": {
       "ja": {
@@ -15081,7 +14433,7 @@
     "birthDate": "1998-10-05",
     "birthplace": null,
     "officialCode": "shani_indira_natio",
-    "imageUrl": null,
+    "imageUrl": "https://jkt48.com/images/member/shani_indira_natio.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -15157,7 +14509,7 @@
     "birthDate": "1999-01-16",
     "birthplace": null,
     "officialCode": "feni_fitriyanti",
-    "imageUrl": null,
+    "imageUrl": "https://jkt48.com/images/member/feni_fitriyanti.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -15233,7 +14585,7 @@
     "birthDate": "2006-02-13",
     "birthplace": null,
     "officialCode": "freya_jayawardana",
-    "imageUrl": null,
+    "imageUrl": "https://jkt48.com/images/member/freya_jayawardana.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -15275,73 +14627,6 @@
     }
   },
   {
-    "id": "bnk48-chapuran",
-    "name": {
-      "ja": {
-        "kanji": "チャープラン",
-        "kana": "ちゃーぷらん"
-      },
-      "ko": {
-        "hangul": "체프랑"
-      },
-      "en": {
-        "romaji": "Cherprang Areekul"
-      },
-      "aliases": [
-        "cherprang areekul",
-        "チャープラン",
-        "체프랑"
-      ]
-    },
-    "primaryGroupId": "bnk48",
-    "primaryGenerationId": "bnk-g-active",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "bnk48",
-        "generationId": "bnk-g-active",
-        "joinedOn": "2017-02-12",
-        "leftOn": "2023-10-30",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "1996-05-02",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "x",
-        "url": "https://x.com/cherprang_areek",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/cherprang.areekul/",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      }
-    ],
-    "avatar": {
-      "glyph": "チ",
-      "hueShift": 22
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://x.com/cherprang_areek",
-      "checkedAt": "2026-08-16",
-      "note": "AKB48 Group verified dataset"
-    }
-  },
-  {
     "id": "bnk48-fupu",
     "name": {
       "ja": {
@@ -15376,7 +14661,7 @@
     "birthDate": "2002-09-18",
     "birthplace": null,
     "officialCode": "hoop",
-    "imageUrl": null,
+    "imageUrl": "https://www.bnk48.com/images/members/hoop.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -15404,73 +14689,6 @@
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.bnk48.com/bnk48-members/detail/hoop",
-      "checkedAt": "2026-08-16",
-      "note": "AKB48 Group verified dataset"
-    }
-  },
-  {
-    "id": "cgm48-izuta-rina",
-    "name": {
-      "ja": {
-        "kanji": "伊豆田莉奈",
-        "kana": "いずた りな"
-      },
-      "ko": {
-        "hangul": "이즈타 리나"
-      },
-      "en": {
-        "romaji": "Rina Izuta"
-      },
-      "aliases": [
-        "rina izuta",
-        "伊豆田莉奈",
-        "이즈타 리나"
-      ]
-    },
-    "primaryGroupId": "cgm48",
-    "primaryGenerationId": "cgm-g-active",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "cgm48",
-        "generationId": "cgm-g-active",
-        "joinedOn": "2010-03-31",
-        "leftOn": "2024-11-30",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "1995-11-26",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "x",
-        "url": "https://x.com/izurina_cgm48",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/rina.izuta.cgm48/",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      }
-    ],
-    "avatar": {
-      "glyph": "伊",
-      "hueShift": 31
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://x.com/izurina_cgm48",
       "checkedAt": "2026-08-16",
       "note": "AKB48 Group verified dataset"
     }
@@ -15510,7 +14728,7 @@
     "birthDate": "1995-11-10",
     "birthplace": null,
     "officialCode": "aom",
-    "imageUrl": null,
+    "imageUrl": "https://cgm48official.com/images/members/aom.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -15577,7 +14795,7 @@
     "birthDate": "2000-07-20",
     "birthplace": null,
     "officialCode": "sheki",
-    "imageUrl": null,
+    "imageUrl": "https://mnl48.ph/images/members/sheki.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -15644,7 +14862,7 @@
     "birthDate": "2001-02-02",
     "birthplace": null,
     "officialCode": "liu_nian",
-    "imageUrl": null,
+    "imageUrl": "https://www.akb48-china.com/upload/member/liu_nian.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -15711,7 +14929,7 @@
     "birthDate": "1996-07-14",
     "birthplace": null,
     "officialCode": "77_yuqing",
-    "imageUrl": null,
+    "imageUrl": "https://www.akb48teamtp.com/upload/members/77_yuqing.jpg",
     "links": [
       {
         "type": "official_profile",
