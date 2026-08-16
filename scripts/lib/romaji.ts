@@ -34,6 +34,8 @@ const KANA_MAP: Record<string, string> = {
   ふぁ: 'fa', ふぃ: 'fi', ふぇ: 'fe', ふぉ: 'fo',
   てぃ: 'ti', でぃ: 'di', とぅ: 'tu', どぅ: 'du',
   うぃ: 'wi', うぇ: 'we', うぉ: 'wo',
+  ぁ: 'a', ぃ: 'i', ぅ: 'u', ぇ: 'e', ぉ: 'o',
+  ー: '',
 };
 
 // Katakana to Hiragana conversion

@@ -9724,17 +9724,17 @@
     }
   },
   {
-    "id": "hina-morimoto-mari",
+    "id": "hina-morimoto-marii",
     "name": {
       "ja": {
         "kanji": "森本茉莉",
         "kana": "もりもと まりぃ"
       },
       "ko": {
-        "hangul": "모리모토 마리ぃ"
+        "hangul": "모리모토 마리이"
       },
       "en": {
-        "romaji": "Morimoto Mariぃ"
+        "romaji": "Morimoto Marii"
       },
       "aliases": [
         "森本 茉莉"
@@ -9794,7 +9794,7 @@
     },
     "avatar": {
       "glyph": "森",
-      "hueShift": -35
+      "hueShift": 25
     }
   },
   {
@@ -10325,7 +10325,7 @@
         "kana": "はぶ みづほ"
       },
       "ko": {
-        "hangul": "하ぶ 미즈호"
+        "hangul": "하부 미즈호"
       },
       "en": {
         "romaji": "Habu Mizuho"

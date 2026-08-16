@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-08-16T04:23:37.843Z",
+  "stats": {
+    "total": 176,
+    "activeWithPhoto": 92,
+    "activeWithoutPhoto": 1,
+    "graduatesWithPhoto": 62,
+    "graduatesWithoutPhoto": 21,
+    "photoCheckPassed": 154,
+    "photoCheckFailed": 0,
+    "officialLinksChecked": 0,
+    "officialLinksFailed": 0
+  },
+  "issues": []
+}
