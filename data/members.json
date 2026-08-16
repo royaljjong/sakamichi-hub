@@ -40,29 +40,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/63111?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=63111",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "矢",
+      "hueShift": -18
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "矢",
-      "hueShift": -18
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -106,29 +106,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/63110?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=63110",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "森",
+      "hueShift": -10
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "森",
-      "hueShift": -10
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -172,29 +172,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/63109?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=63109",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "増",
+      "hueShift": -23
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "増",
-      "hueShift": -23
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -238,29 +238,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/63107?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=63107",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "瀬",
+      "hueShift": 17
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "瀬",
-      "hueShift": 17
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -304,29 +304,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/63106?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=63106",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "鈴",
+      "hueShift": 16
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "鈴",
-      "hueShift": 16
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -370,29 +370,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/63105?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=63105",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "川",
+      "hueShift": 1
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "川",
-      "hueShift": 1
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -436,29 +436,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/63104?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=63104",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "海",
+      "hueShift": 21
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "海",
-      "hueShift": 21
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -502,29 +502,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/63103?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=63103",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "小",
+      "hueShift": 2
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "小",
-      "hueShift": 2
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -568,29 +568,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/63102?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=63102",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "大",
+      "hueShift": -17
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "大",
-      "hueShift": -17
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -634,29 +634,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/63101?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=63101",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "愛",
+      "hueShift": -14
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "愛",
-      "hueShift": -14
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -700,29 +700,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/63108?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=63108",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "長",
+      "hueShift": -40
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "長",
-      "hueShift": -40
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -766,29 +766,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/55401?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=55401",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "岡",
+      "hueShift": -32
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "岡",
-      "hueShift": -32
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -832,29 +832,38 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/55400?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=55400",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/sakura_kawasaki_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "川",
+      "hueShift": 21
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "川",
-      "hueShift": 21
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -898,29 +907,38 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/55397?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=55397",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/teresa_ikeda_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "池",
+      "hueShift": -30
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "池",
-      "hueShift": -30
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -964,29 +982,38 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/55396?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=55396",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/ioki_mao_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "五",
+      "hueShift": -37
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "五",
-      "hueShift": -37
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -1030,29 +1057,38 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/55395?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=55395",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/arno_nakanishi_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "中",
+      "hueShift": 18
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "中",
-      "hueShift": 18
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -1096,29 +1132,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/55394?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=55394",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "奥",
+      "hueShift": 9
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "奥",
-      "hueShift": 9
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -1162,29 +1198,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/55393?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=55393",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "冨",
+      "hueShift": 2
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "冨",
-      "hueShift": 2
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -1228,29 +1264,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/55392?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=55392",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "小",
+      "hueShift": -19
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "小",
-      "hueShift": -19
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -1294,29 +1330,38 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/55391?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=55391",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/satsuki_sugawara_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "菅",
+      "hueShift": 22
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "菅",
-      "hueShift": 22
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -1360,29 +1405,38 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/55389?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=55389",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/nagi_inoue_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "井",
+      "hueShift": -9
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "井",
-      "hueShift": -9
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -1426,29 +1480,38 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/55387?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=55387",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/nao.yumiki_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "弓",
+      "hueShift": 13
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "弓",
-      "hueShift": 13
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -1492,20 +1555,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/55386?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "松",
+      "hueShift": -9
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "松",
-      "hueShift": -9
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -1549,29 +1612,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/55385?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=55385",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "林",
+      "hueShift": -15
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "林",
-      "hueShift": -15
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -1615,20 +1678,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/55384?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "佐",
+      "hueShift": -3
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "佐",
-      "hueShift": -3
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -1672,29 +1735,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/55383?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=55383",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "黒",
+      "hueShift": 40
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "黒",
-      "hueShift": 40
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -1738,20 +1801,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/48014?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "清",
+      "hueShift": 27
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "清",
-      "hueShift": 27
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -1795,20 +1858,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/48012?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "北",
+      "hueShift": 38
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "北",
-      "hueShift": 38
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -1852,29 +1915,38 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/48010?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=48010",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/kanagawa_saya.official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "金",
+      "hueShift": 36
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "金",
-      "hueShift": 36
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -1918,20 +1990,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/48019?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "矢",
+      "hueShift": 30
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "矢",
-      "hueShift": 30
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -1975,20 +2047,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/48018?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "早",
+      "hueShift": 38
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "早",
-      "hueShift": 38
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -2032,20 +2104,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/48009?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "掛",
+      "hueShift": -2
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "掛",
-      "hueShift": -2
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -2089,29 +2161,38 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/48008?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=48008",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/kaki.haruka_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "賀",
+      "hueShift": -15
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "賀",
-      "hueShift": -15
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -2155,29 +2236,38 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/48017?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=48017",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/ayame.tsutsui_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "筒",
+      "hueShift": 5
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "筒",
-      "hueShift": 5
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -2221,29 +2311,38 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/48015?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=48015",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/tamura.mayu_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "田",
+      "hueShift": 18
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "田",
-      "hueShift": 18
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -2287,29 +2386,38 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/48013?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=48013",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/yuna_shibata.official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "柴",
+      "hueShift": 34
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "柴",
-      "hueShift": 34
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -2353,29 +2461,38 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/48006?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=48006",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/sakura.endo_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "遠",
+      "hueShift": -1
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "遠",
-      "hueShift": -1
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -2419,20 +2536,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/36760?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/yodayuuki_oimo/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "与",
+      "hueShift": 35
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "与",
-      "hueShift": 35
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -2476,29 +2602,38 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/36759?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=36759",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/yoshida_ayanochristie/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "吉",
+      "hueShift": 40
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "吉",
-      "hueShift": 40
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -2542,20 +2677,47 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/36758?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://mizukiyamashita.com/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "x",
+        "url": "https://x.com/mizuki_staff",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/mizuki.yamashita.official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "山",
+      "hueShift": 19
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "山",
-      "hueShift": 19
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -2599,20 +2761,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/36757?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/hazuki.p3.official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "向",
+      "hueShift": 30
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "向",
-      "hueShift": 30
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -2656,20 +2827,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/36756?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/n.reno_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "中",
+      "hueShift": -26
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "中",
-      "hueShift": -26
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -2713,20 +2893,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/36755?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "佐",
+      "hueShift": 20
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "佐",
-      "hueShift": 20
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -2770,20 +2950,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/36754?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "阪",
+      "hueShift": 30
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "阪",
-      "hueShift": 30
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -2827,20 +3007,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/36753?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/kubo.shiori.official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "久",
+      "hueShift": 5
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "久",
-      "hueShift": 5
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -2884,20 +3073,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/36752?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/oAggregation/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "大",
+      "hueShift": -21
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "大",
-      "hueShift": -21
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -2941,20 +3139,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/36751?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/ume_minami.official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "梅",
+      "hueShift": 14
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "梅",
-      "hueShift": 14
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -2998,29 +3205,38 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/36750?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=36750",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/renka.i_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "岩",
+      "hueShift": -1
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "岩",
-      "hueShift": -1
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -3064,29 +3280,38 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/36749?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=36749",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/riria.ito_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "伊",
+      "hueShift": -28
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "伊",
-      "hueShift": -28
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -3130,20 +3355,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/19634?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "相",
+      "hueShift": 11
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "相",
-      "hueShift": 11
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -3187,20 +3412,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/17383?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "渡",
+      "hueShift": 33
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "渡",
-      "hueShift": 33
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -3244,20 +3469,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/17382?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "米",
+      "hueShift": -22
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "米",
-      "hueShift": -22
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -3301,20 +3526,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/17381?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "山",
+      "hueShift": 7
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "山",
-      "hueShift": 7
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -3358,20 +3583,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/17380?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "矢",
+      "hueShift": 21
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "矢",
-      "hueShift": 21
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -3415,20 +3640,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/17379?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "寺",
+      "hueShift": 1
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "寺",
-      "hueShift": 1
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -3472,20 +3697,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/17378?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "鈴",
+      "hueShift": 22
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "鈴",
-      "hueShift": 22
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -3529,20 +3754,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/17377?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "佐",
+      "hueShift": 33
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "佐",
-      "hueShift": 33
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -3586,20 +3811,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/17376?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "伊",
+      "hueShift": -27
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "伊",
-      "hueShift": -27
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -3643,20 +3868,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/17375?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "伊",
+      "hueShift": 22
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "伊",
-      "hueShift": 22
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -3700,20 +3925,29 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/17068?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/mai_shinuchi_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "新",
+      "hueShift": 28
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "新",
-      "hueShift": 28
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -3757,20 +3991,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/16454?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "北",
+      "hueShift": -13
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "北",
-      "hueShift": -13
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -3814,20 +4048,56 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/14470?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://hori-miona.com/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "x",
+        "url": "https://x.com/mionaaaaa_staff",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/horimiona_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/c/horimiona37",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "堀",
+      "hueShift": 40
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "堀",
-      "hueShift": 40
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -3871,20 +4141,47 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/7639?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://akimotomanatsu-fc.jp/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "x",
+        "url": "https://x.com/manatsu_staff",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/manatsu.akimoto_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "秋",
+      "hueShift": 2
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "秋",
-      "hueShift": 2
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -3928,20 +4225,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/284?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "和",
+      "hueShift": -25
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "和",
-      "hueShift": -25
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -3985,20 +4282,47 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/283?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://yumiwakatsuki.com/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "x",
+        "url": "https://x.com/WASM_official",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/yumi_wakatsuki_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "若",
+      "hueShift": -9
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "若",
-      "hueShift": -9
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -4042,20 +4366,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/282?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "大",
+      "hueShift": -16
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "大",
-      "hueShift": -16
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -4099,20 +4423,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/281?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "宮",
+      "hueShift": 4
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "宮",
-      "hueShift": 4
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -4156,20 +4480,47 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/280?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://sayurimatsumura.com/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "x",
+        "url": "https://x.com/sayuringo_staff",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/matsumura_sayuri_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "松",
+      "hueShift": 0
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "松",
-      "hueShift": 0
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -4213,20 +4564,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/279?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "星",
+      "hueShift": -9
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "星",
-      "hueShift": -9
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -4270,20 +4621,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/278?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "深",
+      "hueShift": 20
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "深",
-      "hueShift": 20
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -4327,20 +4678,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/277?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "樋",
+      "hueShift": 3
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "樋",
-      "hueShift": 3
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -4384,20 +4735,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/276?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "畠",
+      "hueShift": -20
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "畠",
-      "hueShift": -20
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -4441,20 +4792,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/275?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "橋",
+      "hueShift": 13
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "橋",
-      "hueShift": 13
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -4498,20 +4849,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/274?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "能",
+      "hueShift": 1
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "能",
-      "hueShift": 1
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -4555,20 +4906,47 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/273?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://nishinonanase.com/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "x",
+        "url": "https://x.com/nanase_andstaff",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/nishino.nanase.official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "西",
+      "hueShift": -38
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "西",
-      "hueShift": -38
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -4612,20 +4990,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/272?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "永",
+      "hueShift": 23
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "永",
-      "hueShift": 23
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -4669,20 +5047,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/271?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "中",
+      "hueShift": 33
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "中",
-      "hueShift": 33
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -4726,20 +5104,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/270?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "中",
+      "hueShift": 38
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "中",
-      "hueShift": 38
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -4783,20 +5161,47 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/269?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://kazumitakayama.com/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "x",
+        "url": "https://x.com/takayama_staff",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/takayama.kazumi.official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "高",
+      "hueShift": 25
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "高",
-      "hueShift": 25
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -4840,20 +5245,56 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/268?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://maishiraishi-official.com/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "x",
+        "url": "https://x.com/shiraishi_staff",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/m.shiraishi.official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/c/mychannel_official",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "白",
+      "hueShift": 8
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "白",
-      "hueShift": 8
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -4897,20 +5338,38 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/267?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://reikasakurai.com/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/reika_s16/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "桜",
+      "hueShift": 9
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "桜",
-      "hueShift": 9
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -4954,20 +5413,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/266?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "斉",
+      "hueShift": -32
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "斉",
-      "hueShift": -32
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -5011,20 +5470,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/265?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "斎",
+      "hueShift": -9
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "斎",
-      "hueShift": -9
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -5068,20 +5527,47 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/264?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://asukasaito.jp/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "x",
+        "url": "https://x.com/asuka3110_staff",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/asuka.3110.official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "齋",
+      "hueShift": -15
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "齋",
-      "hueShift": -15
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -5125,20 +5611,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/263?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "川",
+      "hueShift": -10
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "川",
-      "hueShift": -10
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -5182,20 +5668,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/262?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "川",
+      "hueShift": 27
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "川",
-      "hueShift": 27
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -5239,20 +5725,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/261?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "柏",
+      "hueShift": -14
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "柏",
-      "hueShift": -14
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -5296,20 +5782,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/260?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "衛",
+      "hueShift": 17
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "衛",
-      "hueShift": 17
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -5353,20 +5839,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/258?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "井",
+      "hueShift": 22
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "井",
-      "hueShift": 22
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -5410,20 +5896,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/257?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "伊",
+      "hueShift": 27
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "伊",
-      "hueShift": 27
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -5467,20 +5953,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/256?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "伊",
+      "hueShift": -3
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "伊",
-      "hueShift": -3
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -5524,20 +6010,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/255?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "市",
+      "hueShift": -13
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "市",
-      "hueShift": -13
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -5581,20 +6067,20 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/55388?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "岩",
+      "hueShift": -4
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "岩",
-      "hueShift": -4
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -5638,20 +6124,47 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/254?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://ikomarina.com/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "x",
+        "url": "https://x.com/ikomarina_staff",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/ikoma_rina_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "生",
+      "hueShift": 40
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "生",
-      "hueShift": 40
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -5695,20 +6208,47 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/253?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://erikaikuta.jp/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "x",
+        "url": "https://x.com/ikuta_staff",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/ikutaerika.official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "生",
+      "hueShift": 27
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "生",
-      "hueShift": 27
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -5752,29 +6292,38 @@
         "url": "https://www.nogizaka46.com/s/n46/artist/55390?ima=0000",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       },
       {
         "type": "official_blog",
         "url": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct=55390",
         "label": null,
         "isOfficial": true,
-        "status": "unverified",
-        "lastCheckedAt": null,
-        "lastStatusCode": null
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/miku_ichinose_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
       }
     ],
+    "avatar": {
+      "glyph": "一",
+      "hueShift": 37
+    },
     "provenance": {
       "source": "official",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/search/artist?ima=0000",
       "checkedAt": "2026-08-16",
-      "note": "auto-converted, needs human review for hangul"
-    },
-    "avatar": {
-      "glyph": "一",
-      "hueShift": 37
+      "note": "Nogizaka46 official dataset with verified SNS"
     }
   },
   {
@@ -10045,11 +10594,20 @@
     "birthDate": "2001-06-25",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sakurazaka46.com/images/14/083/c989c92fa3daefaeeb4e3415cf2bc/1000_1000_102400.jpg",
     "links": [
       {
         "type": "official_profile",
         "url": "https://cloud9-pro.com/artist/profile/yurinahirate/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "x",
+        "url": "https://x.com/Im_YurinaHirate",
         "label": null,
         "isOfficial": true,
         "status": "ok",
@@ -10065,7 +10623,7 @@
       "source": "official",
       "sourceUrl": "https://cloud9-pro.com/artist/profile/yurinahirate/",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -10103,8 +10661,17 @@
     "birthDate": "1998-09-04",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sakurazaka46.com/images/14/012/6fe2dc2c9f95cb0542387799d1fa7/1000_1000_102400.jpg",
     "links": [
+      {
+        "type": "official_profile",
+        "url": "https://seedandflower.co.jp/s/sal/artist/002",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
       {
         "type": "x",
         "url": "https://x.com/neru_and_staff",
@@ -10130,9 +10697,9 @@
     },
     "provenance": {
       "source": "official",
-      "sourceUrl": "https://x.com/neru_and_staff",
+      "sourceUrl": "https://seedandflower.co.jp/s/sal/artist/002",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -10170,8 +10737,17 @@
     "birthDate": "1995-11-29",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sakurazaka46.com/images/14/067/8df4f52e5a7bfe4239854be7e3c15/1000_1000_102400.jpg",
     "links": [
+      {
+        "type": "official_profile",
+        "url": "https://seedandflower.co.jp/s/sal/artist/006",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
       {
         "type": "x",
         "url": "https://x.com/yuuka_s_official",
@@ -10197,9 +10773,9 @@
     },
     "provenance": {
       "source": "official",
-      "sourceUrl": "https://x.com/yuuka_s_official",
+      "sourceUrl": "https://seedandflower.co.jp/s/sal/artist/006",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -10237,8 +10813,17 @@
     "birthDate": "1998-07-27",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sakurazaka46.com/images/14/011/ff3f7dc57b44783307612f008852d/1000_1000_102400.jpg",
     "links": [
+      {
+        "type": "official_profile",
+        "url": "https://seedandflower.co.jp/s/sal/artist/003",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
       {
         "type": "x",
         "url": "https://x.com/risa_and_staff",
@@ -10264,9 +10849,9 @@
     },
     "provenance": {
       "source": "official",
-      "sourceUrl": "https://x.com/risa_and_staff",
+      "sourceUrl": "https://seedandflower.co.jp/s/sal/artist/003",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -10304,8 +10889,17 @@
     "birthDate": "1999-10-23",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sakurazaka46.com/images/14/007/35790d97fe5b2b2b1ce050b182cb6/1000_1000_102400.jpg",
     "links": [
+      {
+        "type": "official_profile",
+        "url": "https://seedandflower.co.jp/s/sal/artist/009",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
       {
         "type": "instagram",
         "url": "https://www.instagram.com/_yui_kobayashi/",
@@ -10322,9 +10916,9 @@
     },
     "provenance": {
       "source": "official",
-      "sourceUrl": "https://www.instagram.com/_yui_kobayashi/",
+      "sourceUrl": "https://seedandflower.co.jp/s/sal/artist/009",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -10362,8 +10956,17 @@
     "birthDate": "1997-07-07",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sakurazaka46.com/images/14/014/3f769df8b46da246c4f0ff0c2a2dc/1000_1000_102400.jpg",
     "links": [
+      {
+        "type": "official_profile",
+        "url": "https://habumizuho.com/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
       {
         "type": "x",
         "url": "https://x.com/habu_mizuho",
@@ -10389,9 +10992,9 @@
     },
     "provenance": {
       "source": "official",
-      "sourceUrl": "https://x.com/habu_mizuho",
+      "sourceUrl": "https://habumizuho.com/",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -10429,8 +11032,17 @@
     "birthDate": "1997-11-12",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sakurazaka46.com/images/14/020/2eefef18f50c058778f5a600a9497/1000_1000_102400.jpg",
     "links": [
+      {
+        "type": "official_profile",
+        "url": "https://tencarat.co.jp/moriyaakane/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
       {
         "type": "instagram",
         "url": "https://www.instagram.com/akane.moriya_official/",
@@ -10447,9 +11059,9 @@
     },
     "provenance": {
       "source": "official",
-      "sourceUrl": "https://www.instagram.com/akane.moriya_official/",
+      "sourceUrl": "https://tencarat.co.jp/moriyaakane/",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -10487,7 +11099,7 @@
     "birthDate": "1995-05-16",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sakurazaka46.com/images/14/021/bf9bc5c3a3b04c86bc91f63004e6c/1000_1000_102400.jpg",
     "links": [
       {
         "type": "instagram",
@@ -10507,7 +11119,7 @@
       "source": "official",
       "sourceUrl": "https://www.instagram.com/watanabe.rika.official/",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -10545,7 +11157,7 @@
     "birthDate": "1997-10-07",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sakurazaka46.com/images/14/004/b53bdf702eeeb9c7d03a11fc6db91/1000_1000_102400.jpg",
     "links": [
       {
         "type": "instagram",
@@ -10565,7 +11177,7 @@
       "source": "official",
       "sourceUrl": "https://www.instagram.com/rika_ozeki_official/",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -10603,7 +11215,7 @@
     "birthDate": "2000-05-07",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sakurazaka46.com/images/14/015/63bc7242c1613ee1f654b7325be91/1000_1000_102400.jpg",
     "links": [
       {
         "type": "instagram",
@@ -10623,7 +11235,7 @@
       "source": "official",
       "sourceUrl": "https://www.instagram.com/harada_aoi_/",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -10661,7 +11273,7 @@
     "birthDate": "1996-11-16",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sakurazaka46.com/images/14/009/44daaa2c4819d9b626e2e4ff9d01e/1000_1000_102400.jpg",
     "links": [
       {
         "type": "x",
@@ -10690,7 +11302,7 @@
       "source": "official",
       "sourceUrl": "https://x.com/shiorisato_art",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -10728,7 +11340,7 @@
     "birthDate": "1997-12-05",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sakurazaka46.com/images/14/010/893c5dca9e87515f4039b5635f791/1000_1000_102400.jpg",
     "links": [
       {
         "type": "instagram",
@@ -10748,7 +11360,7 @@
       "source": "official",
       "sourceUrl": "https://www.instagram.com/suzumotomiyu_/",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -10786,7 +11398,7 @@
     "birthDate": "1998-06-04",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sakurazaka46.com/images/14/005/23e934fb9e2d31fe186e812586b5e/1000_1000_102400.jpg",
     "links": [
       {
         "type": "x",
@@ -10815,7 +11427,7 @@
       "source": "official",
       "sourceUrl": "https://x.com/odanana_1107",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -10853,7 +11465,7 @@
     "birthDate": "1998-09-30",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sakurazaka46.com/images/14/002/5e41cebfa18a99478f77372cf5bc9/1000_1000_102400.jpg",
     "links": [],
     "avatar": {
       "glyph": "今",
@@ -10863,7 +11475,7 @@
       "source": "official",
       "sourceUrl": "https://sakurazaka46.com/",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -10901,7 +11513,7 @@
     "birthDate": "1998-11-23",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sakurazaka46.com/images/14/008/172e73778a487cb18e202517ee8ff/1000_1000_102400.jpg",
     "links": [
       {
         "type": "x",
@@ -10930,7 +11542,7 @@
       "source": "official",
       "sourceUrl": "https://x.com/_manaka_shida_",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -10968,7 +11580,7 @@
     "birthDate": "2000-02-24",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sakurazaka46.com/images/14/022/944e83c27e02dfaa36fb2629b359f/1000_1000_102400.jpg",
     "links": [],
     "avatar": {
       "glyph": "米",
@@ -10978,7 +11590,7 @@
       "source": "official",
       "sourceUrl": "https://sakurazaka46.com/",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -11016,7 +11628,7 @@
     "birthDate": "1997-04-23",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sakurazaka46.com/images/14/013/2a5c2d3cf38eb2aa026d36e2ce597/1000_1000_102400.jpg",
     "links": [
       {
         "type": "x",
@@ -11045,7 +11657,7 @@
       "source": "official",
       "sourceUrl": "https://x.com/nanako0423_",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -11083,7 +11695,7 @@
     "birthDate": "1998-06-29",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sakurazaka46.com/images/14/044/9233630f9a2e6fca7cce65b530c80/1000_1000_102400.jpg",
     "links": [
       {
         "type": "instagram",
@@ -11103,180 +11715,7 @@
       "source": "official",
       "sourceUrl": "https://www.instagram.com/_yumiko_seki_/",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
-    }
-  },
-  {
-    "id": "hina-kakizaki-memi",
-    "name": {
-      "ja": {
-        "kanji": "柿崎芽実",
-        "kana": "かきざき めみ"
-      },
-      "ko": {
-        "hangul": "카키자키 메미"
-      },
-      "en": {
-        "romaji": "Kakizaki Memi"
-      },
-      "aliases": [
-        "kakizaki memi",
-        "柿崎芽実",
-        "카키자키 메미"
-      ]
-    },
-    "primaryGroupId": "hinatazaka46",
-    "primaryGenerationId": "hina-g1",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "hinatazaka46",
-        "generationId": "hina-g1",
-        "joinedOn": "2016-05-08",
-        "leftOn": "2019-08-11",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "2001-12-02",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [],
-    "avatar": {
-      "glyph": "柿",
-      "hueShift": -10
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://www.hinatazaka46.com/",
-      "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
-    }
-  },
-  {
-    "id": "hina-kageyama-yuuka",
-    "name": {
-      "ja": {
-        "kanji": "影山優佳",
-        "kana": "かげやま ゆうか"
-      },
-      "ko": {
-        "hangul": "카게야마 유우카"
-      },
-      "en": {
-        "romaji": "Kageyama Yuuka"
-      },
-      "aliases": [
-        "kageyama yuuka",
-        "影山優佳",
-        "카게야마 유우카"
-      ]
-    },
-    "primaryGroupId": "hinatazaka46",
-    "primaryGenerationId": "hina-g1",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "hinatazaka46",
-        "generationId": "hina-g1",
-        "joinedOn": "2016-05-08",
-        "leftOn": "2023-07-23",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "2001-05-08",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "x",
-        "url": "https://x.com/kageyamayuka",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/kageyamayuka_official/",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      }
-    ],
-    "avatar": {
-      "glyph": "影",
-      "hueShift": -21
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://x.com/kageyamayuka",
-      "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
-    }
-  },
-  {
-    "id": "hina-ushio-sarina",
-    "name": {
-      "ja": {
-        "kanji": "潮紗理菜",
-        "kana": "うしお さりな"
-      },
-      "ko": {
-        "hangul": "우시오 사리나"
-      },
-      "en": {
-        "romaji": "Ushio Sarina"
-      },
-      "aliases": [
-        "ushio sarina",
-        "潮紗理菜",
-        "우시오 사리나"
-      ]
-    },
-    "primaryGroupId": "hinatazaka46",
-    "primaryGenerationId": "hina-g1",
-    "status": "graduated",
-    "memberships": [
-      {
-        "groupId": "hinatazaka46",
-        "generationId": "hina-g1",
-        "joinedOn": "2016-05-08",
-        "leftOn": "2023-12-09",
-        "isConcurrent": false,
-        "endReason": "graduation"
-      }
-    ],
-    "birthDate": "1997-12-26",
-    "birthplace": null,
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/sarina_ushio/",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      }
-    ],
-    "avatar": {
-      "glyph": "潮",
-      "hueShift": 16
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://www.instagram.com/sarina_ushio/",
-      "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -11314,8 +11753,17 @@
     "birthDate": "1997-09-05",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://cdn.hinatazaka46.com/images/14/170/36b80e81c000f2fe829c9fe60da11/1000_1000_102400.jpg",
     "links": [
+      {
+        "type": "official_profile",
+        "url": "https://seedandflower.co.jp/s/sal/artist/010",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
       {
         "type": "x",
         "url": "https://x.com/kyoko_saito_09",
@@ -11341,28 +11789,28 @@
     },
     "provenance": {
       "source": "official",
-      "sourceUrl": "https://x.com/kyoko_saito_09",
+      "sourceUrl": "https://seedandflower.co.jp/s/sal/artist/010",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
-    "id": "hina-takamoto-ayaka",
+    "id": "hina-kageyama-yuuka",
     "name": {
       "ja": {
-        "kanji": "高本彩花",
-        "kana": "たかもと あやか"
+        "kanji": "影山優佳",
+        "kana": "かげやま ゆうか"
       },
       "ko": {
-        "hangul": "타카모토 아야카"
+        "hangul": "카게야마 유우카"
       },
       "en": {
-        "romaji": "Takamoto Ayaka"
+        "romaji": "Kageyama Yuuka"
       },
       "aliases": [
-        "takamoto ayaka",
-        "高本彩花",
-        "타카모토 아야카"
+        "kageyama yuuka",
+        "影山優佳",
+        "카게야마 유우카"
       ]
     },
     "primaryGroupId": "hinatazaka46",
@@ -11373,19 +11821,37 @@
         "groupId": "hinatazaka46",
         "generationId": "hina-g1",
         "joinedOn": "2016-05-08",
-        "leftOn": "2024-07-04",
+        "leftOn": "2023-07-23",
         "isConcurrent": false,
         "endReason": "graduation"
       }
     ],
-    "birthDate": "1998-11-02",
+    "birthDate": "2001-05-08",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://cdn.hinatazaka46.com/images/14/097/13359d9c223c6f4f25bca253e6dcf/1000_1000_102400.jpg",
     "links": [
       {
+        "type": "official_profile",
+        "url": "https://production.ogipro.com/talent/kageyamayuka/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "x",
+        "url": "https://x.com/kageyamayuka",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
         "type": "instagram",
-        "url": "https://www.instagram.com/ayaka.takamoto_official/",
+        "url": "https://www.instagram.com/kageyamayuka_official/",
         "label": null,
         "isOfficial": true,
         "status": "ok",
@@ -11394,14 +11860,14 @@
       }
     ],
     "avatar": {
-      "glyph": "高",
-      "hueShift": -6
+      "glyph": "影",
+      "hueShift": -21
     },
     "provenance": {
       "source": "official",
-      "sourceUrl": "https://www.instagram.com/ayaka.takamoto_official/",
+      "sourceUrl": "https://production.ogipro.com/talent/kageyamayuka/",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -11439,8 +11905,17 @@
     "birthDate": "1998-02-02",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://cdn.hinatazaka46.com/images/14/176/4089849fa86196f7c32bf28b29c94/1000_1000_102400.jpg",
     "links": [
+      {
+        "type": "official_profile",
+        "url": "https://seedandflower.co.jp/s/sal/artist/011",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
       {
         "type": "instagram",
         "url": "https://www.instagram.com/katoshi.official/",
@@ -11457,9 +11932,9 @@
     },
     "provenance": {
       "source": "official",
-      "sourceUrl": "https://www.instagram.com/katoshi.official/",
+      "sourceUrl": "https://seedandflower.co.jp/s/sal/artist/011",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -11497,8 +11972,17 @@
     "birthDate": "1998-08-23",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://cdn.hinatazaka46.com/images/14/182/b86bdf3b54cb11ef628c6aa8c5cc1/1000_1000_102400.jpg",
     "links": [
+      {
+        "type": "official_profile",
+        "url": "https://seedandflower.co.jp/s/sal/artist/012",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
       {
         "type": "instagram",
         "url": "https://www.instagram.com/mei.higashimura/",
@@ -11515,9 +11999,9 @@
     },
     "provenance": {
       "source": "official",
-      "sourceUrl": "https://www.instagram.com/mei.higashimura/",
+      "sourceUrl": "https://seedandflower.co.jp/s/sal/artist/012",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -11555,8 +12039,17 @@
     "birthDate": "2001-02-15",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://cdn.hinatazaka46.com/images/14/177/0e74fec05ea5882650058b76c810d/1000_1000_102400.jpg",
     "links": [
+      {
+        "type": "official_profile",
+        "url": "https://seedandflower.co.jp/s/sal/artist/013",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
       {
         "type": "instagram",
         "url": "https://www.instagram.com/nibuchan_akari/",
@@ -11573,9 +12066,9 @@
     },
     "provenance": {
       "source": "official",
-      "sourceUrl": "https://www.instagram.com/nibuchan_akari/",
+      "sourceUrl": "https://seedandflower.co.jp/s/sal/artist/013",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -11613,8 +12106,17 @@
     "birthDate": "2002-09-28",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://cdn.hinatazaka46.com/images/14/179/11b6be91176bfa254ff0391eb68d4/1000_1000_102400.jpg",
     "links": [
+      {
+        "type": "official_profile",
+        "url": "https://seedandflower.co.jp/s/sal/artist/014",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
       {
         "type": "instagram",
         "url": "https://www.instagram.com/hiyori_hamagishi.official/",
@@ -11631,9 +12133,134 @@
     },
     "provenance": {
       "source": "official",
-      "sourceUrl": "https://www.instagram.com/hiyori_hamagishi.official/",
+      "sourceUrl": "https://seedandflower.co.jp/s/sal/artist/014",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
+    }
+  },
+  {
+    "id": "hina-takamoto-ayaka",
+    "name": {
+      "ja": {
+        "kanji": "高本彩花",
+        "kana": "たかもと あやか"
+      },
+      "ko": {
+        "hangul": "타카모토 아야카"
+      },
+      "en": {
+        "romaji": "Takamoto Ayaka"
+      },
+      "aliases": [
+        "takamoto ayaka",
+        "高本彩花",
+        "타카모토 아야카"
+      ]
+    },
+    "primaryGroupId": "hinatazaka46",
+    "primaryGenerationId": "hina-g1",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "hinatazaka46",
+        "generationId": "hina-g1",
+        "joinedOn": "2016-05-08",
+        "leftOn": "2024-07-04",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "1998-11-02",
+    "birthplace": null,
+    "officialCode": null,
+    "imageUrl": "https://cdn.hinatazaka46.com/images/14/174/61a34d7d13eb80dfa8717a6a4aee7/1000_1000_102400.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://seedandflower.co.jp/s/sal/artist/015",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/ayaka.takamoto_official/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      }
+    ],
+    "avatar": {
+      "glyph": "高",
+      "hueShift": -6
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://seedandflower.co.jp/s/sal/artist/015",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record with official photo and SNS"
+    }
+  },
+  {
+    "id": "hina-ushio-sarina",
+    "name": {
+      "ja": {
+        "kanji": "潮紗理菜",
+        "kana": "うしお さりな"
+      },
+      "ko": {
+        "hangul": "우시오 사리나"
+      },
+      "en": {
+        "romaji": "Ushio Sarina"
+      },
+      "aliases": [
+        "ushio sarina",
+        "潮紗理菜",
+        "우시오 사리나"
+      ]
+    },
+    "primaryGroupId": "hinatazaka46",
+    "primaryGenerationId": "hina-g1",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "hinatazaka46",
+        "generationId": "hina-g1",
+        "joinedOn": "2016-05-08",
+        "leftOn": "2023-12-09",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "1997-12-26",
+    "birthplace": null,
+    "officialCode": null,
+    "imageUrl": "https://cdn.hinatazaka46.com/images/14/149/1dff90e85493b8e75e96ff72f0db3/1000_1000_102400.jpg",
+    "links": [
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/sarina_ushio/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      }
+    ],
+    "avatar": {
+      "glyph": "潮",
+      "hueShift": 16
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://www.instagram.com/sarina_ushio/",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -11671,8 +12298,17 @@
     "birthDate": "2000-02-24",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://cdn.hinatazaka46.com/images/14/127/3a2bc0a95ff71c6dcbb31ef9d27a1/1000_1000_102400.jpg",
     "links": [
+      {
+        "type": "official_profile",
+        "url": "https://mihowatanabe.jp/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
       {
         "type": "x",
         "url": "https://x.com/mihowatanabe_st",
@@ -11698,9 +12334,9 @@
     },
     "provenance": {
       "source": "official",
-      "sourceUrl": "https://x.com/mihowatanabe_st",
+      "sourceUrl": "https://mihowatanabe.jp/",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -11738,7 +12374,7 @@
     "birthDate": "1998-04-28",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://cdn.hinatazaka46.com/images/14/136/f1b80d0d8bb5d1a0841b8a531ceba/1000_1000_102400.jpg",
     "links": [
       {
         "type": "x",
@@ -11767,7 +12403,55 @@
       "source": "official",
       "sourceUrl": "https://x.com/manamo_miyata",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
+    }
+  },
+  {
+    "id": "hina-kakizaki-memi",
+    "name": {
+      "ja": {
+        "kanji": "柿崎芽実",
+        "kana": "かきざき めみ"
+      },
+      "ko": {
+        "hangul": "카키자키 메미"
+      },
+      "en": {
+        "romaji": "Kakizaki Memi"
+      },
+      "aliases": [
+        "kakizaki memi",
+        "柿崎芽実",
+        "카키자키 메미"
+      ]
+    },
+    "primaryGroupId": "hinatazaka46",
+    "primaryGenerationId": "hina-g1",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "hinatazaka46",
+        "generationId": "hina-g1",
+        "joinedOn": "2016-05-08",
+        "leftOn": "2019-08-11",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "2001-12-02",
+    "birthplace": null,
+    "officialCode": null,
+    "imageUrl": "https://cdn.hinatazaka46.com/images/14/002/2ef2d4e8992a543ee7d4dfbfafc56/1000_1000_102400.jpg",
+    "links": [],
+    "avatar": {
+      "glyph": "柿",
+      "hueShift": -10
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://www.hinatazaka46.com/",
+      "checkedAt": "2026-08-16",
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -11805,7 +12489,7 @@
     "birthDate": "1995-11-10",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://cdn.hinatazaka46.com/images/14/001/01783cfdcf2d9c490a6ea5e4c0226/1000_1000_102400.jpg",
     "links": [
       {
         "type": "x",
@@ -11843,7 +12527,7 @@
       "source": "official",
       "sourceUrl": "https://x.com/mao_iguchi_",
       "checkedAt": "2026-08-16",
-      "note": "Historical graduate record"
+      "note": "Historical graduate record with official photo and SNS"
     }
   },
   {
@@ -13369,7 +14053,7 @@
     "birthDate": "1991-07-10",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100001.jpg",
     "links": [
       {
         "type": "x",
@@ -13436,7 +14120,7 @@
     "birthDate": "1988-10-17",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100048.jpg",
     "links": [
       {
         "type": "x",
@@ -13503,7 +14187,7 @@
     "birthDate": "1994-03-26",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100067.jpg",
     "links": [],
     "avatar": {
       "glyph": "渡",
@@ -13551,7 +14235,7 @@
     "birthDate": "1991-07-15",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100064.jpg",
     "links": [
       {
         "type": "x",
@@ -13627,7 +14311,7 @@
     "birthDate": "1992-11-21",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100140.jpg",
     "links": [
       {
         "type": "x",
@@ -13703,7 +14387,7 @@
     "birthDate": "1991-04-08",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100003.jpg",
     "links": [
       {
         "type": "x",
@@ -13770,7 +14454,7 @@
     "birthDate": "1988-04-19",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100002.jpg",
     "links": [
       {
         "type": "x",
@@ -13846,7 +14530,7 @@
     "birthDate": "1991-07-03",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100004.jpg",
     "links": [
       {
         "type": "x",
@@ -13913,7 +14597,7 @@
     "birthDate": "1986-03-11",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100010.jpg",
     "links": [
       {
         "type": "x",
@@ -13980,7 +14664,7 @@
     "birthDate": "1992-11-15",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100005.jpg",
     "links": [
       {
         "type": "x",
@@ -14047,7 +14731,7 @@
     "birthDate": "2001-10-06",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100808.jpg",
     "links": [
       {
         "type": "x",
@@ -14114,7 +14798,7 @@
     "birthDate": "1997-11-07",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100620.jpg",
     "links": [
       {
         "type": "x",
@@ -14900,7 +15584,7 @@
     "birthDate": "1997-03-08",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://ske48.co.jp/image/profile/member_1.jpg",
     "links": [
       {
         "type": "x",
@@ -14967,7 +15651,7 @@
     "birthDate": "1991-07-27",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://ske48.co.jp/image/profile/member_2.jpg",
     "links": [
       {
         "type": "x",
@@ -15034,7 +15718,7 @@
     "birthDate": "1991-10-31",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://ske48.co.jp/image/profile/member_3.jpg",
     "links": [
       {
         "type": "x",
@@ -15838,7 +16522,7 @@
     "birthDate": "1993-07-14",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sp.stu48.com/static/stu48/fansite/common/2021/logo--official.svg",
     "links": [
       {
         "type": "official_profile",
@@ -15923,7 +16607,7 @@
     "birthDate": "1993-09-19",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sp.stu48.com/static/stu48/fansite/common/2021/logo--official.svg",
     "links": [
       {
         "type": "x",
@@ -15990,7 +16674,7 @@
     "birthDate": "1997-10-14",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sp.stu48.com/static/stu48/fansite/common/2021/logo--official.svg",
     "links": [
       {
         "type": "x",
@@ -16057,7 +16741,7 @@
     "birthDate": "1996-08-25",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sp.stu48.com/static/stu48/fansite/common/2021/logo--official.svg",
     "links": [
       {
         "type": "x",
@@ -16602,7 +17286,7 @@
     "birthDate": "2000-09-27",
     "birthplace": null,
     "officialCode": "jitoe_nene",
-    "imageUrl": null,
+    "imageUrl": "http://cf-pc.c-hkt48.com/img/profile/images/0073_240.jpg",
     "links": [
       {
         "type": "x",
@@ -16660,7 +17344,7 @@
     "birthDate": "2000-09-12",
     "birthplace": null,
     "officialCode": "sakamoto_erena",
-    "imageUrl": null,
+    "imageUrl": "http://cf-pc.c-hkt48.com/img/profile/images/0055_240.jpg",
     "links": [
       {
         "type": "x",
@@ -16718,7 +17402,7 @@
     "birthDate": "2001-01-28",
     "birthplace": null,
     "officialCode": "mogami_nanaka",
-    "imageUrl": null,
+    "imageUrl": "http://cf-pc.c-hkt48.com/img/profile/images/0088_240.jpg",
     "links": [
       {
         "type": "x",
@@ -16776,7 +17460,7 @@
     "birthDate": "1998-03-19",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "http://cf-pc.c-hkt48.com/img/profile/images/0001_240.jpg",
     "links": [
       {
         "type": "x",
@@ -16843,7 +17527,7 @@
     "birthDate": "2001-06-18",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "http://cf-pc.c-hkt48.com/img/profile/images/0002_240.jpg",
     "links": [
       {
         "type": "x",
@@ -16910,7 +17594,7 @@
     "birthDate": "2001-09-12",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "http://cf-pc.c-hkt48.com/img/profile/images/0003_240.jpg",
     "links": [
       {
         "type": "x",
@@ -17486,7 +18170,7 @@
     "birthDate": "1999-11-10",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://img.ngt48.com/artist/114/ngt_1768022673365.jpg",
     "links": [
       {
         "type": "x",
@@ -17553,7 +18237,7 @@
     "birthDate": "1999-02-16",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://img.ngt48.com/artist/112/ngt_1768022673365.jpg",
     "links": [
       {
         "type": "x",
@@ -17620,7 +18304,7 @@
     "birthDate": "1997-08-23",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://img.ngt48.com/artist/113/ngt_1768022673365.jpg",
     "links": [
       {
         "type": "x",
@@ -18678,7 +19362,7 @@
     "birthDate": "1997-09-24",
     "birthplace": null,
     "officialCode": null,
-    "imageUrl": null,
+    "imageUrl": "https://sp.stu48.com/static/stu48/fansite/common/2021/logo--official.svg",
     "links": [
       {
         "type": "x",
