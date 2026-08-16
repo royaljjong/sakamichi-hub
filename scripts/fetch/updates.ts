@@ -21,9 +21,25 @@ export interface RecentUpdate {
   type: 'official_blog';
 }
 
-export async function fetchLatestUpdates(): Promise<RecentUpdate[]> {
-  const membersPath = path.join(__dirname, '..', '..', 'data', 'members.json');
-  const members: Member[] = JSON.parse(fs.readFileSync(membersPath, 'utf-8'));
+export async function fetchLatestUpdates(providedMembers?: Member[]): Promise<RecentUpdate[]> {
+  let members: Member[] = providedMembers || [];
+
+  if (members.length === 0) {
+    try {
+      const p1 = path.join(process.cwd(), 'data', 'members.json');
+      if (fs.existsSync(p1)) {
+        members = JSON.parse(fs.readFileSync(p1, 'utf-8'));
+      } else {
+        const p2 = path.join(__dirname, '..', '..', 'data', 'members.json');
+        if (fs.existsSync(p2)) {
+          members = JSON.parse(fs.readFileSync(p2, 'utf-8'));
+        }
+      }
+    } catch (e) {
+      console.warn('Could not read members.json from filesystem:', e);
+    }
+  }
+
   const memberNameMap = new Map<string, Member>();
   for (const m of members) {
     memberNameMap.set(m.name.ja.kanji.replace(/\s+/g, ''), m);
@@ -165,9 +181,13 @@ export async function fetchLatestUpdates(): Promise<RecentUpdate[]> {
     return timeB - timeA;
   });
 
-  const outPath = path.join(__dirname, '..', '..', 'data', 'latest-updates.json');
-  fs.writeFileSync(outPath, JSON.stringify(updates, null, 2), 'utf-8');
-  console.log(`✅ Successfully saved ${updates.length} latest updates to data/latest-updates.json`);
+  try {
+    const outPath = path.join(process.cwd(), 'data', 'latest-updates.json');
+    fs.writeFileSync(outPath, JSON.stringify(updates, null, 2), 'utf-8');
+    console.log(`✅ Successfully saved ${updates.length} latest updates to data/latest-updates.json`);
+  } catch (e) {
+    // Read-only serverless environment fallback
+  }
 
   return updates;
 }

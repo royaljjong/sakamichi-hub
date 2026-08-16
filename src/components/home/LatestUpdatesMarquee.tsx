@@ -1,7 +1,6 @@
 'use client';
 
-import React from 'react';
-import { useTranslations } from 'next-intl';
+import React, { useState, useEffect } from 'react';
 import { MemberAvatar } from '@/components/member/MemberAvatar';
 import { ExternalLinkIcon } from '@/components/ui/icons';
 
@@ -24,7 +23,7 @@ export interface RecentUpdate {
 }
 
 interface LatestUpdatesMarqueeProps {
-  updates: RecentUpdate[];
+  initialUpdates: RecentUpdate[];
   locale: string;
 }
 
@@ -46,7 +45,27 @@ const GROUP_BADGES = {
   },
 };
 
-export function LatestUpdatesMarquee({ updates, locale }: LatestUpdatesMarqueeProps) {
+export function LatestUpdatesMarquee({ initialUpdates, locale }: LatestUpdatesMarqueeProps) {
+  const [updates, setUpdates] = useState<RecentUpdate[]>(initialUpdates);
+
+  // Background auto-refresh from live API
+  useEffect(() => {
+    fetch('/api/updates')
+      .then((res) => {
+        if (res.ok) return res.json();
+        return null;
+      })
+      .then((data) => {
+        if (Array.isArray(data) && data.length > 0) {
+          setUpdates(data);
+        }
+      })
+      .catch((err) => {
+        // Gracefully keep initialUpdates on network error
+        console.warn('Background updates check error:', err);
+      });
+  }, []);
+
   if (!updates || updates.length === 0) return null;
 
   // Duplicate items to ensure seamless infinite scroll

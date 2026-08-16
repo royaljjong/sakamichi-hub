@@ -121,7 +121,7 @@ export default async function HomePage({ params }: HomePageProps) {
         </div>
 
         {/* Latest Blog Updates Infinite Sliding Ticker */}
-        <LatestUpdatesMarquee updates={latestUpdates} locale={locale} />
+        <LatestUpdatesMarquee initialUpdates={latestUpdates} locale={locale} />
       </main>
 
       <Footer />
