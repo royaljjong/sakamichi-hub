@@ -137,6 +137,12 @@ export async function fetchSakurazaka(): Promise<Member[]> {
             en: bpJa,
           };
         }
+        if (!imageUrl) {
+          const detailImgMatch = pRes.text.match(/<img[^>]+src="(\/images\/14\/[^"]+)"/);
+          if (detailImgMatch && detailImgMatch[1]) {
+            imageUrl = `https://sakurazaka46.com${detailImgMatch[1]}`;
+          }
+        }
         // Parse Instagram link
         const instaMatch = pRes.text.match(/href="(https:\/\/(?:www\.)?instagram\.com\/[^"]+)"/);
         if (instaMatch && instaMatch[1]) {

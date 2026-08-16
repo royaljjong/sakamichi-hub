@@ -11,11 +11,12 @@ interface GradSeed {
   joinedOn: string;
   leftOn: string;
   birthDate?: string;
+  imageUrl?: string | null;
   sns?: { type: 'instagram' | 'x' | 'youtube' | 'official_profile' | 'agency'; url: string }[];
 }
 
 const GRADUATES_SEED: GradSeed[] = [
-  // Sakurazaka / Keyakizaka 1期生
+  // ==================== [1] Sakurazaka46 / Keyakizaka46 1期生 & 2期生 Graduates ====================
   {
     kanji: '平手友梨奈',
     kana: 'ひらて ゆりな',
@@ -233,7 +234,7 @@ const GRADUATES_SEED: GradSeed[] = [
     ],
   },
 
-  // Hinatazaka / Hiragana Keyaki 1期生 Graduates
+  // ==================== [2] Hinatazaka46 / Hiragana Keyaki 1期生 & 2期生 Graduates ====================
   {
     kanji: '柿崎芽実',
     kana: 'かきざき めみ',
@@ -385,7 +386,8 @@ const GRADUATES_SEED: GradSeed[] = [
 
 export function getGraduates(): Member[] {
   return GRADUATES_SEED.map((seed) => {
-    const slugName = toSlug(seed.groupId === 'sakurazaka46' ? 'saku' : 'hina', seed.kana);
+    const slugPrefix = seed.groupId === 'sakurazaka46' ? 'saku' : 'hina';
+    const slugName = toSlug(slugPrefix, seed.kana);
     const id = slugName;
     const romajiName = formatPersonRomaji(seed.kana);
     const hangulName = kanaToHangul(seed.kana);
@@ -432,7 +434,7 @@ export function getGraduates(): Member[] {
       birthDate: seed.birthDate || null,
       birthplace: null,
       officialCode: null,
-      imageUrl: null,
+      imageUrl: seed.imageUrl || null,
       links,
       avatar,
       provenance: {

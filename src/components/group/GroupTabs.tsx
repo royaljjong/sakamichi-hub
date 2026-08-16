@@ -21,11 +21,16 @@ export function GroupTabs({
 }: GroupTabsProps) {
   const t = useTranslations('group');
 
+  const hasMultipleGens = ['nogizaka46', 'sakurazaka46', 'hinatazaka46'].includes(groupId);
+
   const tabs: { id: TabType; label: string }[] = [
     { id: 'current', label: t('tabCurrent') },
     { id: 'graduated', label: t('tabGraduated') },
-    { id: 'byGen', label: t('tabByGen') },
   ];
+
+  if (hasMultipleGens) {
+    tabs.push({ id: 'byGen', label: t('tabByGen') });
+  }
 
   const archiveInfo =
     groupId === 'sakurazaka46'
