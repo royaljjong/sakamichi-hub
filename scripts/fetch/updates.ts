@@ -577,7 +577,10 @@ export async function fetchLatestUpdates(providedMembers?: Member[]): Promise<Re
 
   // Take top 30 each
   const finalSakamichi = sakamichiUpdates.slice(0, 30);
-  const finalAkb = akbUpdates.slice(0, 30);
+  // The legacy AKB entries above are editorial fixtures, not live-collected
+  // facts. Keep them out of the published feed until each 48-group adapter
+  // reads an official news/blog endpoint and records its source timestamp.
+  const finalAkb: RecentUpdate[] = [];
 
   const combined = [...finalSakamichi, ...finalAkb];
 
