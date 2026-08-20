@@ -2,9 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { PaperGrain } from './PaperGrain';
-import { BlobField } from './BlobField';
 import { SlopeLine } from './SlopeLine';
-import { ParticleCanvas } from './ParticleCanvas';
 import type { ParticleMotif } from '@/lib/schema';
 
 interface AmbientBackgroundProps {
@@ -17,10 +15,7 @@ export function AmbientBackground({
   motif = 'mixed',
 }: AmbientBackgroundProps) {
   const [reducedMotion, setReducedMotion] = useState(false);
-  const [isClient, setIsClient] = useState(false);
-
   useEffect(() => {
-    setIsClient(true);
     // Check localStorage preference or OS prefers-reduced-motion
     const stored = localStorage.getItem('sakamichi-reduced-motion');
     if (stored !== null) {
@@ -43,14 +38,12 @@ export function AmbientBackground({
       {/* L0 PaperGrain */}
       <PaperGrain />
 
-      {/* L1 BlobField */}
-      {!reducedMotion && <BlobField />}
+      <div className="editorial-wash" />
 
       {/* L2 SlopeLine (Signature) */}
       <SlopeLine groupId={groupId} />
 
-      {/* L3 ParticleCanvas (Only if reduced motion is disabled) */}
-      {isClient && !reducedMotion && <ParticleCanvas motif={motif} />}
+      {!reducedMotion && <div className="editorial-orbit" data-motif={motif} />}
 
       {/* L4 Veil (Top 15% Gradient for Text Readability) */}
       <div

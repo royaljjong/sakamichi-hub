@@ -15,7 +15,7 @@
   --ink: #3A3630;
   --ink-soft: #7A736A;
   --ink-faint: #B5ADA2;
-  --white-veil: rgba(251, 248, 243, 0.76);
+  --white-veil: rgba(255, 255, 255, 0.82);
 
   --g-brand: #9E8FB8;
   --g-blob-a: #B79AE0;
@@ -40,6 +40,32 @@
     --g-brand  900ms  cubic-bezier(0.33, 0.02, 0.16, 1),
     --g-wash   900ms  cubic-bezier(0.33, 0.02, 0.16, 1),
     --g-ink    900ms  cubic-bezier(0.33, 0.02, 0.16, 1);
+}
+
+.editorial-wash {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(110deg, color-mix(in oklab, var(--g-wash) 72%, white) 0%, transparent 48%),
+    radial-gradient(ellipse at 86% 8%, color-mix(in oklab, var(--g-brand) 18%, transparent), transparent 44%),
+    linear-gradient(180deg, #fff 0%, var(--paper) 68%);
+}
+
+.editorial-orbit {
+  position: absolute;
+  width: 46rem;
+  height: 46rem;
+  top: -28rem;
+  right: -12rem;
+  border: 1px solid color-mix(in oklab, var(--g-brand) 22%, transparent);
+  border-radius: 50%;
+  box-shadow: 0 0 0 7rem color-mix(in oklab, var(--g-brand) 3%, transparent);
+  animation: orbit-breathe 18s ease-in-out infinite alternate;
+}
+
+@keyframes orbit-breathe {
+  from { transform: translate3d(0, 0, 0) scale(1); opacity: .7; }
+  to { transform: translate3d(-2rem, 2rem, 0) scale(1.04); opacity: 1; }
 }
 
 [data-group="home"] {
@@ -288,6 +314,57 @@ body {
   min-height: 100vh;
   letter-spacing: 0.04em;
   font-feature-settings: "palt" 1;
+}
+
+.editorial-panel {
+  background: var(--white-veil);
+  border: 1px solid color-mix(in oklab, var(--g-ink) 11%, transparent);
+  box-shadow: 0 18px 60px color-mix(in oklab, var(--g-ink) 5%, transparent);
+  backdrop-filter: blur(18px);
+}
+
+.section-kicker {
+  font-size: .65rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  color: var(--g-brand);
+}
+
+.section-title {
+  font-size: clamp(1.45rem, 3vw, 2.2rem);
+  font-weight: 650;
+  letter-spacing: -.035em;
+  color: var(--g-ink);
+}
+
+.map-label {
+  min-height: 42px;
+  border: 1px solid color-mix(in oklab, var(--g-ink) 13%, transparent);
+  background: rgba(255,255,255,.72);
+  padding: .55rem .7rem;
+  font-size: .72rem;
+  font-weight: 600;
+  text-align: left;
+  transition: 180ms ease;
+}
+
+.map-label:hover, .map-label-active {
+  border-color: var(--g-brand);
+  background: var(--g-brand);
+  color: white;
+}
+
+.group-tile {
+  min-height: 138px;
+  background: rgba(255,255,255,.88);
+  padding: 1.1rem;
+  text-align: left;
+  transition: 200ms ease;
+}
+
+.group-tile:hover, .group-tile-active {
+  background: color-mix(in oklab, var(--g-wash) 74%, white);
+  box-shadow: inset 3px 0 0 var(--g-brand);
 }
 
 :focus-visible {

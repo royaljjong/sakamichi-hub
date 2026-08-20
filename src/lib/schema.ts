@@ -177,7 +177,7 @@ export const LineageEntry = z.object({
   to: IsoDate.nullable(), // null = 현재 사용 중인 이름
   /** 이 시대의 상징색. 아카이브 화면에서 사용 */
   color: HexColor,
-  logoUsageAllowed: z.literal(false), // 로고 사용 금지 상수. 실수 방지용.
+  logoUsageAllowed: z.boolean().default(false), // Legacy lineage flag; verified brand assets are governed by portal provenance.
 });
 export type LineageEntry = z.infer<typeof LineageEntry>;
 

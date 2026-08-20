@@ -1,11 +1,10 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { getGroups, getMembers, getLatestUpdates } from '@/lib/data';
+import { getGroups, getMembers, getLatestUpdates, getPortalData } from '@/lib/data';
 import { AmbientBackground } from '@/components/background/AmbientBackground';
 import { Navigation } from '@/components/ui/Navigation';
 import { Footer } from '@/components/ui/Footer';
-import { FranchiseExplorer } from '@/components/home/FranchiseExplorer';
-import { LatestUpdatesMarquee } from '@/components/home/LatestUpdatesMarquee';
+import { HomePortal } from '@/components/home/HomePortal';
 import { JsonLd } from '@/components/seo/JsonLd';
 
 interface HomePageProps {
@@ -73,6 +72,7 @@ export default async function HomePage({ params }: HomePageProps) {
   const groups = getGroups();
   const allMembers = getMembers();
   const latestUpdates = getLatestUpdates();
+  const portal = getPortalData();
 
   const websiteJsonLd = {
     '@context': 'https://schema.org',
@@ -94,27 +94,10 @@ export default async function HomePage({ params }: HomePageProps) {
     <div className="relative min-h-screen flex flex-col justify-between">
       <JsonLd data={websiteJsonLd} />
       <AmbientBackground groupId="home" motif="mixed" />
-      <Navigation showBrand={false} />
+      <Navigation />
 
-      <main id="main-content" className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-10 flex-1 w-full space-y-10">
-        {/* Centered Title */}
-        <div className="text-center max-w-3xl mx-auto my-6 sm:my-10">
-          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-[var(--g-ink)] font-[family-name:var(--font-klee-one)]">
-            {t('siteName')}
-          </h1>
-        </div>
-
-        {/* Dual Hierarchy Franchise Explorer */}
-        <FranchiseExplorer
-          groups={groups}
-          allMembers={allMembers}
-          locale={locale}
-        />
-
-        {/* Latest Blog Updates Infinite Sliding Ticker */}
-        <div className="pt-6">
-          <LatestUpdatesMarquee initialUpdates={latestUpdates} locale={locale} />
-        </div>
+      <main id="main-content" className="relative z-10 mx-auto w-full max-w-7xl flex-1 px-4 py-6 sm:px-6 sm:py-10">
+        <HomePortal groups={groups} members={allMembers} updates={latestUpdates} locale={locale} portal={portal} />
       </main>
 
       <Footer />

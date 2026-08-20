@@ -24,7 +24,9 @@ export function MemberAvatar({
 }: MemberAvatarProps) {
   const [imgError, setImgError] = useState(false);
 
-  if (imageUrl && !imgError) {
+  const isLikelyLogo = imageUrl ? /(?:^|[\/_-])logo(?:[._/-]|$)/i.test(imageUrl) : false;
+
+  if (imageUrl && !imgError && !isLikelyLogo) {
     return (
       <div
         className={`relative inline-block overflow-hidden rounded-full shrink-0 select-none bg-[var(--paper-deep)] border-2 transition-transform duration-300 ${

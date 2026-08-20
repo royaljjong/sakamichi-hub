@@ -1,13 +1,14 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
-import { getGroup, getGroups, getMembers } from '@/lib/data';
+import { getGroup, getGroups, getMembers, getLatestUpdates, getPortalData } from '@/lib/data';
 import { routing } from '@/i18n/routing';
 import { AmbientBackground } from '@/components/background/AmbientBackground';
 import { Navigation } from '@/components/ui/Navigation';
 import { Footer } from '@/components/ui/Footer';
 import { GroupHeader } from '@/components/group/GroupHeader';
 import { GroupView } from '@/components/group/GroupView';
+import { GroupInsights } from '@/components/group/GroupInsights';
 import { JsonLd } from '@/components/seo/JsonLd';
 
 interface GroupPageProps {
@@ -88,6 +89,8 @@ export default async function GroupPage({ params }: GroupPageProps) {
   }
 
   const members = getMembers({ groupId });
+  const updates = getLatestUpdates();
+  const portal = getPortalData();
 
   const jsonLdData = {
     '@context': 'https://schema.org',
@@ -119,6 +122,7 @@ export default async function GroupPage({ params }: GroupPageProps) {
 
       <main id="main-content" className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 py-8 flex-1">
         <GroupHeader group={group} locale={locale} />
+        <GroupInsights group={group} members={members} updates={updates} locale={locale} portal={portal} />
         <GroupView group={group} members={members} locale={locale} />
       </main>
 

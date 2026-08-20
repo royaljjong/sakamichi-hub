@@ -10,11 +10,14 @@ import type {
 import groupsData from '../../data/groups.json';
 import membersData from '../../data/members.json';
 import latestUpdatesData from '../../data/latest-updates.json';
+import portalData from '../../data/portal.json';
+import { PortalDataset } from './portal-schema';
 import type { RecentUpdate } from '@/components/home/LatestUpdatesMarquee';
 
 const groups: Group[] = (groupsData as { groups: Group[] }).groups;
 const members: Member[] = (membersData as Member[]) || [];
 const latestUpdates: RecentUpdate[] = (latestUpdatesData as RecentUpdate[]) || [];
+const portal = PortalDataset.parse(portalData);
 
 export function getGroups(options?: {
   franchise?: FranchiseKind;
@@ -105,5 +108,9 @@ export function getSameGenerationMembers(
 }
 
 export function getLatestUpdates(): RecentUpdate[] {
-  return latestUpdates;
+  return latestUpdates.filter((update) => Boolean(update.memberId));
+}
+
+export function getPortalData() {
+  return portal;
 }

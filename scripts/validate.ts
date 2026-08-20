@@ -1,11 +1,13 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { Dataset, checkIntegrity } from '../src/lib/schema';
+import { PortalDataset } from '../src/lib/portal-schema';
 
 function validate() {
   const dataDir = path.join(__dirname, '..', 'data');
   const groupsPath = path.join(dataDir, 'groups.json');
   const membersPath = path.join(dataDir, 'members.json');
+  const portalPath = path.join(dataDir, 'portal.json');
 
   if (!fs.existsSync(groupsPath)) {
     console.error('❌ Error: data/groups.json does not exist');
@@ -46,7 +48,23 @@ function validate() {
   }
 
   console.log('✅ Relational integrity check passed.');
+  console.log('🔍 Validating portal events, venues, and rankings...');
+  const portalFile = JSON.parse(fs.readFileSync(portalPath, 'utf-8'));
+  const portalResult = PortalDataset.safeParse(portalFile);
+  if (!portalResult.success) {
+    console.error('❌ Portal Schema Validation Failed:');
+    console.error(JSON.stringify(portalResult.error.format(), null, 2));
+    process.exit(1);
+  }
+  console.log(`✅ Portal schema passed: ${portalResult.data.events.length} events, ${portalResult.data.venues.length} venues, ${portalResult.data.rankings.length} ranking facts.`);
   console.log(`📊 Summary: ${parseResult.data.groups.length} groups, ${parseResult.data.members.length} members.`);
+  const auditPath = path.join(dataDir, 'audit-report.json');
+  if (fs.existsSync(auditPath)) {
+    const audit = JSON.parse(fs.readFileSync(auditPath, 'utf-8'));
+    if (audit?.stats?.total !== parseResult.data.members.length) {
+      console.warn(`⚠️ Audit report is stale: ${audit?.stats?.total ?? 0}/${parseResult.data.members.length} members covered.`);
+    }
+  }
 }
 
 validate();
