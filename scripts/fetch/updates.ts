@@ -24,10 +24,12 @@ export interface RecentUpdate {
 
 // ─── Helpers ───────────────────────────────────────────────────────────────
 
-/** Strip all HTML tags and decode common HTML entities, then trim. */
+/** Strip all HTML tags and decode common HTML entities (including numeric), then trim. */
 function stripHtml(s: string): string {
   return s
     .replace(/<[^>]+>/g, '')
+    .replace(/&#x([0-9A-Fa-f]+);/g, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, dec) => String.fromCodePoint(parseInt(dec, 10)))
     .replace(/&amp;/g, '&')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
@@ -140,6 +142,89 @@ async function fetchAmebloGroup(
       memberGlyph: groupInfo.glyph,
       memberHueShift: 0,
       memberImage: null,
+      title,
+      publishedAt,
+      url,
+      type: 'official_blog',
+    });
+  }
+
+  return results;
+}
+
+// ─── SKE48 per-member blog scraper ─────────────────────────────────────────
+//
+// SKE48 Mobile public endpoint: https://ske48.co.jp/blog/list/3/0/
+//
+// Observed structure (2026-08-22, publicly accessible without login):
+//   <a href="/blog/detail/89230/" class="clearfix">
+//     <span class="cat name">井田玲音名</span>
+//     <p class="date">2026.08.21</p>
+//     <p class="tit">花粉</p>
+//   </a>
+//
+// Each <a> block = one post with member name, date, and title.
+// The member name is in <span class="cat name"> and matches members.json kanji.
+async function fetchSke48MemberBlogs(
+  memberNameMap: Map<string, Member>,
+  limit = 10,
+): Promise<RecentUpdate[]> {
+  const groupInfo = GROUP_NAME_MAP['ske48']!;
+  const SKE_BASE = 'https://ske48.co.jp';
+  const listUrl = `${SKE_BASE}/blog/list/3/0/`;
+
+  let text: string;
+  try {
+    const res = await safeFetch(listUrl);
+    if (!res.ok) {
+      console.warn(`[fetchSke48MemberBlogs] HTTP ${res.status}`);
+      return [];
+    }
+    text = res.text;
+  } catch (err: any) {
+    console.warn(`[fetchSke48MemberBlogs] fetch error: ${err.message}`);
+    return [];
+  }
+
+  // Match entire <a href="/blog/detail/..."> ... </a> blocks
+  const blockRe = /<a\s+href="(\/blog\/detail\/\d+\/)"[^>]*>([\s\S]*?)<\/a>/g;
+  const results: RecentUpdate[] = [];
+
+  for (const m of text.matchAll(blockRe)) {
+    if (results.length >= limit) break;
+    const linkPath = m[1] ?? '';
+    const inner = m[2] ?? '';
+
+    const nameMatch = inner.match(/<span class="cat name">([^<]+)<\/span>/);
+    const dateMatch = inner.match(/<p class="date">([^<]+)<\/p>/);
+    const titMatch = inner.match(/<p class="tit">([\s\S]*?)<\/p>/);
+
+    if (!nameMatch || !titMatch) continue;
+
+    const rawName = stripHtml(nameMatch[1] ?? '').replace(/\s+/g, '');
+    const title = stripHtml(titMatch[1] ?? '').replace(/\s+/g, ' ').trim();
+    if (!rawName || !title) continue;
+
+    const rawDate = (dateMatch?.[1] ?? '').replace(/\./g, '-');
+    const publishedAt =
+      rawDate.match(/^\d{4}-\d{2}-\d{2}$/) ? rawDate : new Date().toISOString().slice(0, 10);
+
+    const url = `${SKE_BASE}${linkPath}`;
+    const matchedMember = memberNameMap.get(rawName);
+
+    results.push({
+      id: `ske-blog-${shortHash(url)}`,
+      groupId: 'ske48',
+      franchise: 'akb48g',
+      memberId: matchedMember?.id,
+      memberName: {
+        ja: matchedMember?.name.ja.kanji ?? rawName,
+        ko: matchedMember?.name.ko.hangul ?? rawName,
+        en: matchedMember?.name.en.romaji ?? rawName,
+      },
+      memberGlyph: matchedMember?.avatar.glyph ?? rawName[0] ?? groupInfo.glyph,
+      memberHueShift: matchedMember?.avatar.hueShift ?? 0,
+      memberImage: matchedMember?.imageUrl ?? null,
       title,
       publishedAt,
       url,
@@ -860,10 +945,22 @@ export async function fetchLatestUpdates(providedMembers?: Member[]): Promise<Re
   // akbPostsRaw is retained for editorial reference ONLY — not published.
   void akbPostsRaw;
 
-  // ── 4a. Ameblo RSS per group (parallel) ────────────────────────────────
+  // ── 4a. SKE48 per-member blog (official site, public) ──────────────────
+  console.log('Fetching SKE48 per-member blogs...');
+  try {
+    const skeEntries = await fetchSke48MemberBlogs(memberNameMap, 10);
+    console.log(`  ske48 (per-member): ${skeEntries.length} entries`);
+    akbUpdates.push(...skeEntries);
+  } catch (err) {
+    console.warn('  SKE48 per-member blog failed:', err);
+  }
+
+  // ── 4b. Ameblo RSS per group (parallel) ────────────────────────────────
+  // SKE48 kept as fallback if per-member scrape returns 0 entries.
   console.log('Fetching AKB48 group Ameblo RSS feeds...');
   const amebloSources: Array<[string, string]> = [
     ['akihabara48', 'akb48'],
+    // ske48official: per-member scraper above preferred; include as fallback
     ['ske48official', 'ske48'],
     ['nmb48', 'nmb48'],
     ['hkt48', 'hkt48'],
@@ -875,12 +972,22 @@ export async function fetchLatestUpdates(providedMembers?: Member[]): Promise<Re
     amebloSources.map(([handle, groupId]) => fetchAmebloGroup(handle, groupId, 10)),
   );
 
+  // Collect seen URLs to deduplicate (prefer per-member entries already added)
+  const seenUrls = new Set(akbUpdates.map((u) => u.url));
+
   for (let i = 0; i < amebloResults.length; i++) {
     const r = amebloResults[i]!;
     const [handle, groupId] = amebloSources[i]!;
     if (r.status === 'fulfilled') {
-      console.log(`  ${groupId} (ameblo/${handle}): ${r.value.length} entries`);
-      akbUpdates.push(...r.value);
+      // For SKE48: only add Ameblo entries not already covered by per-member fetch
+      const newEntries = r.value.filter((e) => !seenUrls.has(e.url));
+      console.log(
+        `  ${groupId} (ameblo/${handle}): ${r.value.length} entries (${newEntries.length} new after dedup)`,
+      );
+      for (const e of newEntries) {
+        seenUrls.add(e.url);
+        akbUpdates.push(e);
+      }
     } else {
       console.warn(`  ${groupId} (ameblo/${handle}) rejected:`, r.reason);
     }
