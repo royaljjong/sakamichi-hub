@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslations } from 'next-intl';
 import type { Member, Group } from '@/lib/schema';
 import { MemberCard } from './MemberCard';
 
@@ -9,10 +10,12 @@ interface MemberGridProps {
 }
 
 export function MemberGrid({ members, group, locale }: MemberGridProps) {
+  const t = useTranslations('member');
+
   if (members.length === 0) {
     return (
       <div className="py-12 text-center text-sm text-[var(--ink-soft)] bg-[var(--white-veil)] rounded-3xl border border-[color-mix(in_oklab,var(--g-ink)_8%,transparent)]">
-        該当するメンバーはいません。
+        {t('emptyGrid')}
       </div>
     );
   }

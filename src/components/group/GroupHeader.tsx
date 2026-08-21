@@ -15,20 +15,27 @@ interface GroupHeaderProps {
   locale: string;
 }
 
+interface OfficialLinkPill {
+  type: string;
+  url: string;
+  label: string;
+  icon: React.ReactElement;
+}
+
 export function GroupHeader({ group, locale }: GroupHeaderProps) {
   const t = useTranslations('group');
   const tLink = useTranslations('link');
 
   const groupName = group.name[locale as 'ja' | 'ko' | 'en'] || group.name.ja;
 
-  const officialLinks = [
+  const officialLinks: OfficialLinkPill[] = [
     { type: 'site', url: group.official.site, label: group.shortName[locale as 'ja' | 'ko' | 'en'] + ' ' + tLink('other'), icon: <GlobeIcon className="w-4 h-4" /> },
     group.official.blogIndex ? { type: 'blog', url: group.official.blogIndex, label: tLink('official_blog'), icon: <BlogIcon className="w-4 h-4" /> } : null,
     group.official.x ? { type: 'x', url: group.official.x, label: 'X', icon: <XIcon className="w-4 h-4" /> } : null,
     group.official.instagram ? { type: 'instagram', url: group.official.instagram, label: 'Instagram', icon: <InstagramIcon className="w-4 h-4" /> } : null,
     group.official.youtube ? { type: 'youtube', url: group.official.youtube, label: 'YouTube', icon: <YouTubeIcon className="w-4 h-4" /> } : null,
     group.official.tiktok ? { type: 'tiktok', url: group.official.tiktok, label: 'TikTok', icon: <TikTokIcon className="w-4 h-4" /> } : null,
-  ].filter(Boolean);
+  ].filter((entry): entry is OfficialLinkPill => entry !== null);
 
   return (
     <header className="mb-10 text-center md:text-left">
@@ -61,7 +68,7 @@ export function GroupHeader({ group, locale }: GroupHeaderProps) {
 
         {/* Official Links Pills */}
         <div className="flex flex-wrap items-center justify-center md:justify-end gap-2 shrink-0">
-          {officialLinks.map((ol: any, idx) => (
+          {officialLinks.map((ol, idx) => (
             <a
               key={idx}
               href={ol.url}

@@ -31,6 +31,15 @@ export function AmbientBackground({
     }
   }, []);
 
+  useEffect(() => {
+    const handler = (e: Event) => {
+      const detail = (e as CustomEvent<boolean>).detail;
+      if (typeof detail === 'boolean') setReducedMotion(detail);
+    };
+    window.addEventListener('sakamichi-motion-change', handler);
+    return () => window.removeEventListener('sakamichi-motion-change', handler);
+  }, []);
+
   return (
     <div
       className="fixed inset-0 pointer-events-none z-0 overflow-hidden"

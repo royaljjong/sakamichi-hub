@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslations } from 'next-intl';
 import type { LineageEntry } from '@/lib/schema';
 
 interface LineageTimelineProps {
@@ -7,12 +8,14 @@ interface LineageTimelineProps {
 }
 
 export function LineageTimeline({ lineage, locale }: LineageTimelineProps) {
+  const t = useTranslations('lineage');
+
   if (lineage.length <= 1) return null;
 
   return (
     <div className="my-6 p-5 rounded-2xl bg-[var(--white-veil)] border border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)]">
       <h3 className="text-xs font-bold text-[var(--ink-soft)] uppercase tracking-wider mb-4">
-        Lineage / 계보 변천사
+        {t('heading')}
       </h3>
       <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 relative">
         {lineage.map((item, idx) => {
@@ -31,7 +34,7 @@ export function LineageTimeline({ lineage, locale }: LineageTimelineProps) {
                     {name}
                   </p>
                   <p className="text-[11px] text-[var(--ink-soft)] font-[family-name:var(--font-zen-kaku)]">
-                    {item.from} ~ {item.to || 'Present'}
+                    {item.from} ~ {item.to || t('present')}
                   </p>
                 </div>
               </div>

@@ -96,7 +96,7 @@ export default async function HomePage({ params }: HomePageProps) {
       <Navigation />
 
       <main id="main-content" className="relative z-10 mx-auto w-full max-w-7xl flex-1 px-4 py-6 sm:px-6 sm:py-10">
-        <HomePortal groups={groups} members={allMembers} updates={[]} locale={locale} portal={portal} />
+        <HomePortal groups={groups} members={allMembers} locale={locale} portal={portal} />
       </main>
 
       <Footer />

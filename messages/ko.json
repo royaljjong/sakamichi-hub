@@ -23,13 +23,16 @@
   },
   "group": {
     "tabCurrent": "현역 멤버",
+    "tabTrainee": "연습생",
     "tabGraduated": "졸업생",
     "tabByGen": "기수별 보기",
     "memberCount": "{count}명",
     "currentCount": "현역 {count}명",
     "graduatedCount": "졸업생 {count}명",
     "debutedOn": "결성일",
-    "archiveLink": "{name} 시대 보기"
+    "archiveLink": "{name} 시대 보기",
+    "archiveKeyaki": "케야키자카46",
+    "archiveHiragana": "히라가나 케야키"
   },
   "member": {
     "statusActive": "현역",
@@ -41,7 +44,9 @@
     "graduatedOn": "졸업일",
     "linksHeading": "공식 링크",
     "sameGeneration": "동기 멤버",
-    "noLinks": "현재 이용 가능한 공식 링크가 없습니다"
+    "noLinks": "현재 이용 가능한 공식 링크가 없습니다",
+    "gradBadge": "졸",
+    "emptyGrid": "해당하는 멤버가 없습니다."
   },
   "link": {
     "official_blog": "공식 블로그",
@@ -62,7 +67,8 @@
   "search": {
     "placeholder": "멤버 이름·한글·한자·초성·로마자로 검색",
     "noResults": "검색 결과가 없습니다",
-    "resultCount": "{count}건"
+    "resultCount": "{count}건",
+    "indexing": "인덱스 불러오는 중..."
   },
   "about": {
     "disclaimerTitle": "비공식 팬사이트 선언",
@@ -75,5 +81,45 @@
     "reduceMotion": "배경 움직임 끄기",
     "resumeMotion": "배경 움직임 켜기",
     "changeLanguage": "언어 변경"
+  },
+  "home": {
+    "title": "사카미치와 AKB48 그룹",
+    "lead": "그룹에서 멤버, 그리고 공식 SNS까지.",
+    "groups": "그룹 선택",
+    "events": "라이브·공연",
+    "birthdays": "이달의 생일자",
+    "emptyEvent": "검증된 예정 라이브가 없습니다",
+    "emptyBirthday": "이번 달 생일자가 없습니다",
+    "memberCountLabel": "멤버",
+    "updated": "공식 정보를 매일 업데이트"
+  },
+  "event": {
+    "title": "다가오는 공연",
+    "concert": "콘서트",
+    "theater": "극장 공연",
+    "ticket": "공식·티켓",
+    "map": "지도",
+    "price": "가격은 공식 페이지에서 확인",
+    "empty": "해당 공연이 없습니다."
+  },
+  "birthday": {
+    "title": "이달의 생일자",
+    "empty": "이번 달 생일자가 없습니다."
+  },
+  "ranking": {
+    "title": "아이돌 랭킹",
+    "tabPopularity": "인기",
+    "tabFollowers": "팔로워",
+    "tabTrend": "검색 이슈",
+    "pending": "공식 데이터 소스 검증 중",
+    "detail": "추정값이나 합성 점수는 표시하지 않습니다. 출처와 집계일이 확인된 데이터만 공개합니다."
+  },
+  "generation": {
+    "joinedOn": "가입",
+    "totalLine": "총 {count}명 (현역 {active}명 / 졸업 {graduated}명)"
+  },
+  "lineage": {
+    "heading": "계보 변천사",
+    "present": "현재"
   }
 }

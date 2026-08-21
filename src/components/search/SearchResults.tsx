@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import type { SearchIndexItem } from '@/lib/search';
 import { MemberAvatar } from '@/components/member/MemberAvatar';
@@ -16,10 +17,13 @@ export function SearchResults({
   locale,
   loading,
 }: SearchResultsProps) {
+  const t = useTranslations('search');
+  const tMember = useTranslations('member');
+
   if (loading) {
     return (
       <div className="py-8 text-center text-sm text-[var(--ink-soft)]">
-        インデックス読み込み中...
+        {t('indexing')}
       </div>
     );
   }
@@ -73,7 +77,7 @@ export function SearchResults({
                   </p>
                   {isGraduated && (
                     <span className="text-[9px] px-1 py-0.2 rounded bg-stone-200 text-stone-600">
-                      卒
+                      {tMember('gradBadge')}
                     </span>
                   )}
                 </div>

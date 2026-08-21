@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslations } from 'next-intl';
 import type { Generation, Member, Group } from '@/lib/schema';
 import { MemberGrid } from '@/components/member/MemberGrid';
 
@@ -15,6 +16,7 @@ export function GenerationSection({
   group,
   locale,
 }: GenerationSectionProps) {
+  const t = useTranslations('generation');
   const label =
     generation.label[locale as 'ja' | 'ko' | 'en'] || generation.label.ja;
 
@@ -29,12 +31,12 @@ export function GenerationSection({
             {label}
           </h2>
           <span className="text-xs text-[var(--ink-soft)] font-[family-name:var(--font-zen-kaku)]">
-            {generation.joinedOn && `${generation.joinedOn} 가입 / 加入`}
+            {generation.joinedOn && `${generation.joinedOn} ${t('joinedOn')}`}
           </span>
         </div>
 
         <div className="text-xs text-[var(--ink-soft)] font-medium font-[family-name:var(--font-zen-kaku)]">
-          計 {members.length}名 (現役 {activeCount}名 / 卒業 {gradCount}名)
+          {t('totalLine', { count: members.length, active: activeCount, graduated: gradCount })}
         </div>
       </div>
 

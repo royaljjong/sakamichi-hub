@@ -1,5 +1,6 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import type { Group, Member } from '@/lib/schema';
 import { MemberAvatar } from '@/components/member/MemberAvatar';
@@ -13,13 +14,8 @@ interface BirthdayPanelProps {
   groupId?: string;
 }
 
-const COPY = {
-  ja: { eyebrow: 'BIRTHDAY CALENDAR', title: '今月の誕生日', empty: '今月の誕生日メンバーはいません。' },
-  ko: { eyebrow: 'BIRTHDAY CALENDAR', title: '이달의 생일자', empty: '이번 달 생일자가 없습니다.' },
-  en: { eyebrow: 'BIRTHDAY CALENDAR', title: 'Birthdays this month', empty: 'No birthdays this month.' },
-};
-
 export function BirthdayPanel({ members, groups, locale, groupId }: BirthdayPanelProps) {
+  const t = useTranslations('birthday');
   const lang = (['ja', 'ko', 'en'].includes(locale) ? locale : 'ja') as Locale;
   const month = new Date().getMonth() + 1;
   const filtered = members
@@ -30,9 +26,9 @@ export function BirthdayPanel({ members, groups, locale, groupId }: BirthdayPane
 
   return (
     <section className="editorial-panel p-5 sm:p-7">
-      <p className="section-kicker">{COPY[lang].eyebrow}</p>
+      <p className="section-kicker">BIRTHDAY CALENDAR</p>
       <div className="mt-2 flex items-end justify-between gap-4">
-        <h2 className="section-title">{COPY[lang].title}</h2>
+        <h2 className="section-title">{t('title')}</h2>
         <span className="text-xs text-[var(--ink-soft)]">{month.toString().padStart(2, '0')} / {filtered.length}</span>
       </div>
       {filtered.length ? (
@@ -51,7 +47,7 @@ export function BirthdayPanel({ members, groups, locale, groupId }: BirthdayPane
             );
           })}
         </div>
-      ) : <p className="mt-5 text-sm text-[var(--ink-soft)]">{COPY[lang].empty}</p>}
+      ) : <p className="mt-5 text-sm text-[var(--ink-soft)]">{t('empty')}</p>}
     </section>
   );
 }

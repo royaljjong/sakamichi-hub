@@ -2,9 +2,11 @@
 
 > **문서 버전:** 2.0.0  
 > **최종 수정일:** 2026-08-16  
-> **프로젝트 루트:** `C:\Users\royal\Desktop\programming\window\Sakamichi Box`  
+> **프로젝트 루트:** `D:\drive\programming\window\Sakamichi Box`  
 > **GitHub 저장소:** [https://github.com/royaljjong/sakamichi-hub](https://github.com/royaljjong/sakamichi-hub)  
 > **Vercel 라이브:** [https://sakamichi-hub.vercel.app](https://sakamichi-hub.vercel.app)  
+
+> ⚠️ **현행 계약**: 이 문서는 2026-08-16 시점 서술 기록입니다. 실행 계약은 [`AUDIT_AND_REBUILD_PLAN.md`](./AUDIT_AND_REBUILD_PLAN.md) + [`CODEX_HANDOVER.md`](./CODEX_HANDOVER.md)를 우선합니다.
 
 ---
 

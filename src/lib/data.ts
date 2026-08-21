@@ -12,7 +12,7 @@ import membersData from '../../data/members.json';
 import latestUpdatesData from '../../data/latest-updates.json';
 import portalData from '../../data/portal.json';
 import { PortalDataset } from './portal-schema';
-import type { RecentUpdate } from '@/components/home/LatestUpdatesMarquee';
+import type { RecentUpdate } from '@/lib/updates-schema';
 
 const groups: Group[] = (groupsData as { groups: Group[] }).groups;
 const members: Member[] = (membersData as Member[]) || [];

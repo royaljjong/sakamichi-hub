@@ -1,5 +1,5 @@
 import type { Group, Member } from '@/lib/schema';
-import type { RecentUpdate } from '@/components/home/LatestUpdatesMarquee';
+import type { RecentUpdate } from '@/lib/updates-schema';
 import { BirthdayPanel } from '@/components/home/BirthdayPanel';
 import { RankingPanel } from '@/components/home/RankingPanel';
 import { EventBoard } from '@/components/home/EventBoard';

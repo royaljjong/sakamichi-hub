@@ -23,7 +23,7 @@ export function MotionToggle() {
     const next = !reduced;
     setReduced(next);
     localStorage.setItem('sakamichi-reduced-motion', String(next));
-    window.location.reload();
+    window.dispatchEvent(new CustomEvent('sakamichi-motion-change', { detail: next }));
   };
 
   if (!mounted) return null;

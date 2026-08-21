@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import type { Member, Group } from '@/lib/schema';
 import { renderableLinks } from '@/lib/schema';
@@ -18,6 +19,7 @@ export function MemberCard({
   locale,
   size = 'md',
 }: MemberCardProps) {
+  const t = useTranslations('member');
   const isGraduated = member.status === 'graduated';
   const validLinks = renderableLinks(member.links);
 
@@ -71,7 +73,7 @@ export function MemberCard({
             </h3>
             {isGraduated && (
               <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-stone-200/80 text-stone-600 shrink-0">
-                卒
+                {t('gradBadge')}
               </span>
             )}
           </div>

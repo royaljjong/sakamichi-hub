@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 
@@ -25,7 +25,7 @@ export function GroupTabs({
 
   const tabs: { id: TabType; label: string }[] = [
     { id: 'current', label: t('tabCurrent') },
-    { id: 'trainee', label: locale === 'ko' ? '연습생' : locale === 'en' ? 'Trainees' : '研究生' },
+    { id: 'trainee', label: t('tabTrainee') },
     { id: 'graduated', label: t('tabGraduated') },
   ];
 
@@ -33,17 +33,26 @@ export function GroupTabs({
     tabs.push({ id: 'byGen', label: t('tabByGen') });
   }
 
+  const tabRefs = useRef<Array<HTMLButtonElement | null>>([]);
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLButtonElement>, currentIndex: number) => {
+    let nextIndex: number | null = null;
+    if (e.key === 'ArrowRight') nextIndex = (currentIndex + 1) % tabs.length;
+    else if (e.key === 'ArrowLeft') nextIndex = (currentIndex - 1 + tabs.length) % tabs.length;
+    else if (e.key === 'Home') nextIndex = 0;
+    else if (e.key === 'End') nextIndex = tabs.length - 1;
+    if (nextIndex !== null) {
+      e.preventDefault();
+      onTabChange(tabs[nextIndex]!.id);
+      requestAnimationFrame(() => tabRefs.current[nextIndex!]?.focus());
+    }
+  };
+
   const archiveInfo =
     groupId === 'sakurazaka46'
-      ? {
-          name: locale === 'ko' ? '케야키자카46' : locale === 'en' ? 'Keyakizaka46' : '欅坂46',
-          href: `/g/${groupId}/archive`,
-        }
+      ? { name: t('archiveKeyaki'), href: `/g/${groupId}/archive` }
       : groupId === 'hinatazaka46'
-      ? {
-          name: locale === 'ko' ? '히라가나 케야키' : locale === 'en' ? 'Hiragana Keyaki' : 'けやき坂46',
-          href: `/g/${groupId}/archive`,
-        }
+      ? { name: t('archiveHiragana'), href: `/g/${groupId}/archive` }
       : null;
 
   return (
@@ -54,7 +63,7 @@ export function GroupTabs({
         aria-label="Member Categories"
         className="inline-flex p-1 rounded-full bg-[var(--paper-deep)] border border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)] self-start"
       >
-        {tabs.map((tab) => {
+        {tabs.map((tab, index) => {
           const isActive = activeTab === tab.id;
           return (
             <button
@@ -63,6 +72,8 @@ export function GroupTabs({
               aria-selected={isActive}
               tabIndex={isActive ? 0 : -1}
               onClick={() => onTabChange(tab.id)}
+              onKeyDown={(e) => handleKeyDown(e, index)}
+              ref={(el) => { tabRefs.current[index] = el; }}
               className={`px-4 py-2 text-xs sm:text-sm font-semibold rounded-full transition-all duration-200 focus-visible:outline-2 ${
                 isActive
                   ? 'bg-[var(--white-veil)] text-[var(--g-ink)] shadow-xs font-bold'

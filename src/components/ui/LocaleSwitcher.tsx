@@ -24,7 +24,7 @@ export function LocaleSwitcher() {
     <div
       role="group"
       aria-label="Language Selector"
-      className="inline-flex p-0.5 rounded-full bg-[var(--paper-deep)] border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)]"
+      className="inline-flex p-1 rounded-full bg-[var(--paper-deep)] border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)]"
     >
       {routing.locales.map((loc) => {
         const isActive = currentLocale === loc;
@@ -32,7 +32,7 @@ export function LocaleSwitcher() {
           <button
             key={loc}
             onClick={() => handleSwitch(loc)}
-            className={`px-2.5 py-1 text-xs font-semibold rounded-full transition-all duration-200 focus-visible:outline-2 ${
+            className={`min-w-[44px] min-h-[44px] px-3 py-2 text-xs font-semibold rounded-full flex items-center justify-center transition-all duration-200 focus-visible:outline-2 ${
               isActive
                 ? 'bg-[var(--white-veil)] text-[var(--g-ink)] shadow-xs'
                 : 'text-[var(--ink-soft)] hover:text-[var(--ink)]'

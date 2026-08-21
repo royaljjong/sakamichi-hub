@@ -1,6 +1,7 @@
 # 🌸 坂道シリーズ & AKB48グループ リンクハブ (Sakamichi & 48 Group Hub)
 
 > 乃木坂46・櫻坂46・日向坂46 및 AKB48 그룹의 현역・졸업 멤버 공식 링크, 프로필 및 블로그 최신 갱신 포털（日本語 / 한국어 / English 3언어 지원 정적 허브）
+> ⚠️ **현행 계약**: 실행 계약은 [`AUDIT_AND_REBUILD_PLAN.md`](./AUDIT_AND_REBUILD_PLAN.md) + [`CODEX_HANDOVER.md`](./CODEX_HANDOVER.md)입니다. 본 README와 [`HANDOVER.md`](./HANDOVER.md)는 서술 기록입니다.
 
 ---
 

@@ -23,13 +23,16 @@
   },
   "group": {
     "tabCurrent": "Active Members",
+    "tabTrainee": "Trainees",
     "tabGraduated": "Graduated",
     "tabByGen": "By Generation",
     "memberCount": "{count} members",
     "currentCount": "Active: {count}",
     "graduatedCount": "Graduated: {count}",
     "debutedOn": "Formed",
-    "archiveLink": "View {name} Era"
+    "archiveLink": "View {name} Era",
+    "archiveKeyaki": "Keyakizaka46",
+    "archiveHiragana": "Hiragana Keyaki"
   },
   "member": {
     "statusActive": "Active",
@@ -41,7 +44,9 @@
     "graduatedOn": "Graduated",
     "linksHeading": "Official Links",
     "sameGeneration": "Generation Peers",
-    "noLinks": "No verified official links available at this time."
+    "noLinks": "No verified official links available at this time.",
+    "gradBadge": "OG",
+    "emptyGrid": "No matching members."
   },
   "link": {
     "official_blog": "Official Blog",
@@ -62,7 +67,8 @@
   "search": {
     "placeholder": "Search by member name, kanji, kana, or romaji",
     "noResults": "No members found",
-    "resultCount": "{count} found"
+    "resultCount": "{count} found",
+    "indexing": "Loading index..."
   },
   "about": {
     "disclaimerTitle": "Unofficial Fan Site Notice",
@@ -75,5 +81,45 @@
     "reduceMotion": "Reduce motion",
     "resumeMotion": "Resume motion",
     "changeLanguage": "Change language"
+  },
+  "home": {
+    "title": "Sakamichi & AKB48 Group",
+    "lead": "From group to member to official social links.",
+    "groups": "Choose a group",
+    "events": "Live & shows",
+    "birthdays": "Birthdays this month",
+    "emptyEvent": "No verified upcoming live shows",
+    "emptyBirthday": "No birthdays this month",
+    "memberCountLabel": "Members",
+    "updated": "Updated daily from official sources"
+  },
+  "event": {
+    "title": "Upcoming performances",
+    "concert": "Concert",
+    "theater": "Theater",
+    "ticket": "Official · Tickets",
+    "map": "Map",
+    "price": "Check the official page for pricing",
+    "empty": "No matching performances."
+  },
+  "birthday": {
+    "title": "Birthdays this month",
+    "empty": "No birthdays this month."
+  },
+  "ranking": {
+    "title": "Idol rankings",
+    "tabPopularity": "Popularity",
+    "tabFollowers": "Followers",
+    "tabTrend": "Search trend",
+    "pending": "Verifying official data sources",
+    "detail": "No estimates or opaque composite scores. Only sourced metrics with a collection date will be published."
+  },
+  "generation": {
+    "joinedOn": "Joined",
+    "totalLine": "Total {count} ({active} active / {graduated} graduated)"
+  },
+  "lineage": {
+    "heading": "Lineage",
+    "present": "Present"
   }
 }
