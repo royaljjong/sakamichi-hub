@@ -58,6 +58,19 @@ function validate() {
   }
   console.log(`✅ Portal schema passed: ${portalResult.data.events.length} events, ${portalResult.data.venues.length} venues, ${portalResult.data.rankings.length} ranking facts.`);
   console.log(`📊 Summary: ${parseResult.data.groups.length} groups, ${parseResult.data.members.length} members.`);
+  const imageOwners = new Map<string, string[]>();
+  for (const member of parseResult.data.members) {
+    if (!member.imageUrl) continue;
+    const owners = imageOwners.get(member.imageUrl) ?? [];
+    owners.push(member.id);
+    imageOwners.set(member.imageUrl, owners);
+    if (/(?:^|[\/_-])logo(?:[._/-]|$)/i.test(member.imageUrl)) {
+      console.warn(`⚠️ Quarantined logo used as member photo: ${member.id}`);
+    }
+  }
+  for (const [url, owners] of imageOwners) {
+    if (owners.length > 1) console.warn(`⚠️ Duplicate member image (${owners.length}): ${owners.join(', ')} -> ${url}`);
+  }
   const auditPath = path.join(dataDir, 'audit-report.json');
   if (fs.existsSync(auditPath)) {
     const audit = JSON.parse(fs.readFileSync(auditPath, 'utf-8'));

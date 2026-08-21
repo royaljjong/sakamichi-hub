@@ -24,7 +24,7 @@ export function MemberAvatar({
 }: MemberAvatarProps) {
   const [imgError, setImgError] = useState(false);
 
-  const isLikelyLogo = imageUrl ? /(?:^|[\/_-])logo(?:[._/-]|$)/i.test(imageUrl) : false;
+  const isLikelyLogo = imageUrl ? /(?:^|[\/_-])logo(?:[._/-]|$)|83100622\.jpg/i.test(imageUrl) : false;
 
   if (imageUrl && !imgError && !isLikelyLogo) {
     return (
