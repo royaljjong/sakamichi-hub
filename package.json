@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit",
     "data:validate": "tsx scripts/validate.ts",
     "data:fetch": "tsx scripts/fetch/all.ts",
+    "data:events": "tsx scripts/fetch/events.ts",
     "data:links": "tsx scripts/check-links.ts",
     "data:contrast": "tsx scripts/check-contrast.ts"
   },

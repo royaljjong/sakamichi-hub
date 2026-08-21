@@ -1,90 +1,62 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-20",
+  "generatedAt": "2026-08-21",
   "brandAssets": [],
   "venues": [
     {
       "id": "meiji-jingu-stadium",
-      "name": { "ja": "明治神宮野球場", "ko": "메이지진구 야구장", "en": "Meiji Jingu Stadium" },
+      "name": {
+        "ja": "明治神宮野球場",
+        "ko": "메이지진구 야구장",
+        "en": "Meiji Jingu Stadium"
+      },
       "cityId": "tokyo",
-      "address": { "ja": "東京都新宿区霞ヶ丘町3-1", "ko": "도쿄도 신주쿠구 가스미가오카마치 3-1", "en": "3-1 Kasumigaokamachi, Shinjuku, Tokyo" },
+      "address": {
+        "ja": "東京都新宿区霞ヶ丘町3-1",
+        "ko": "도쿄도 신주쿠구 가스미가오카마치 3-1",
+        "en": "3-1 Kasumigaokamachi, Shinjuku, Tokyo"
+      },
       "latitude": null,
       "longitude": null,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%98%8E%E6%B2%BB%E7%A5%9E%E5%AE%AE%E9%87%8E%E7%90%83%E5%A0%B4",
-      "provenance": { "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026", "checkedAt": "2026-08-20" }
+      "provenance": {
+        "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+        "checkedAt": "2026-08-20"
+      }
     },
     {
       "id": "akb48-theater",
-      "name": { "ja": "AKB48劇場", "ko": "AKB48 극장", "en": "AKB48 Theater" },
+      "name": {
+        "ja": "AKB48劇場",
+        "ko": "AKB48 극장",
+        "en": "AKB48 Theater"
+      },
       "cityId": "tokyo-akihabara",
-      "address": { "ja": "東京都千代田区外神田4-3-3", "ko": "도쿄도 지요다구 소토칸다 4-3-3", "en": "4-3-3 Sotokanda, Chiyoda, Tokyo" },
+      "address": {
+        "ja": "東京都千代田区外神田4-3-3",
+        "ko": "도쿄도 지요다구 소토칸다 4-3-3",
+        "en": "4-3-3 Sotokanda, Chiyoda, Tokyo"
+      },
       "latitude": null,
       "longitude": null,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=AKB48%E5%8A%87%E5%A0%B4",
-      "provenance": { "sourceUrl": "https://www.akb48.co.jp/theater/", "checkedAt": "2026-08-20" }
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/",
+        "checkedAt": "2026-08-20"
+      }
     }
   ],
   "events": [
     {
-      "id": "nogi-summer-tour-2026-tokyo-day1",
-      "groupIds": ["nogizaka46"],
-      "title": { "ja": "真夏の全国ツアー2026 東京公演 DAY 1", "ko": "한여름의 전국 투어 2026 도쿄 공연 DAY 1", "en": "Midsummer National Tour 2026 Tokyo DAY 1" },
-      "kind": "concert",
-      "startsAt": "2026-08-20T18:00:00+09:00",
-      "endsAt": null,
-      "venueId": "meiji-jingu-stadium",
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "officialUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "provenance": { "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026", "checkedAt": "2026-08-20" }
-    },
-    {
-      "id": "nogi-summer-tour-2026-tokyo-day2",
-      "groupIds": ["nogizaka46"],
-      "title": { "ja": "真夏の全国ツアー2026 東京公演 DAY 2", "ko": "한여름의 전국 투어 2026 도쿄 공연 DAY 2", "en": "Midsummer National Tour 2026 Tokyo DAY 2" },
-      "kind": "concert",
-      "startsAt": "2026-08-21T18:00:00+09:00",
-      "endsAt": null,
-      "venueId": "meiji-jingu-stadium",
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "officialUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "provenance": { "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026", "checkedAt": "2026-08-20" }
-    },
-    {
-      "id": "nogi-summer-tour-2026-tokyo-day3",
-      "groupIds": ["nogizaka46"],
-      "title": { "ja": "真夏の全国ツアー2026 東京公演 DAY 3", "ko": "한여름의 전국 투어 2026 도쿄 공연 DAY 3", "en": "Midsummer National Tour 2026 Tokyo DAY 3" },
-      "kind": "concert",
-      "startsAt": "2026-08-22T18:00:00+09:00",
-      "endsAt": null,
-      "venueId": "meiji-jingu-stadium",
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "officialUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "provenance": { "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026", "checkedAt": "2026-08-20" }
-    },
-    {
-      "id": "nogi-summer-tour-2026-tokyo-day4",
-      "groupIds": ["nogizaka46"],
-      "title": { "ja": "真夏の全国ツアー2026 東京公演 DAY 4", "ko": "한여름의 전국 투어 2026 도쿄 공연 DAY 4", "en": "Midsummer National Tour 2026 Tokyo DAY 4" },
-      "kind": "concert",
-      "startsAt": "2026-08-23T18:00:00+09:00",
-      "endsAt": null,
-      "venueId": "meiji-jingu-stadium",
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "officialUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "provenance": { "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026", "checkedAt": "2026-08-20" }
-    },
-    {
       "id": "akb48-reset-2026-08-20",
-      "groupIds": ["akb48"],
-      "title": { "ja": "「RESET」公演", "ko": "‘RESET’ 극장 공연", "en": "RESET Theater Performance" },
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「RESET」公演",
+        "ko": "‘RESET’ 극장 공연",
+        "en": "RESET Theater Performance"
+      },
       "kind": "theater",
       "startsAt": "2026-08-20T18:30:00+09:00",
       "endsAt": null,
@@ -93,7 +65,102 @@
       "price": null,
       "ticketUrl": "https://www.akb48.co.jp/theater/ticket.php",
       "officialUrl": "https://www.akb48.co.jp/theater/",
-      "provenance": { "sourceUrl": "https://www.akb48.co.jp/theater/ticket.php", "checkedAt": "2026-08-20" }
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/ticket.php",
+        "checkedAt": "2026-08-20"
+      }
+    },
+    {
+      "id": "nogi-auto-106708-20260821",
+      "groupIds": [
+        "nogizaka46"
+      ],
+      "title": {
+        "ja": "「真夏の全国ツアー2026 東京公演」",
+        "ko": "「真夏の全国ツアー2026 東京公演」",
+        "en": "「真夏の全国ツアー2026 東京公演」"
+      },
+      "kind": "concert",
+      "startsAt": "2026-08-21T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106708?ima=4103&pri1=202608&wd00=2026&wd01=08&wd02=21",
+      "provenance": {
+        "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202608",
+        "checkedAt": "2026-08-21"
+      }
+    },
+    {
+      "id": "nogi-auto-106708-20260822",
+      "groupIds": [
+        "nogizaka46"
+      ],
+      "title": {
+        "ja": "「真夏の全国ツアー2026 東京公演」",
+        "ko": "「真夏の全国ツアー2026 東京公演」",
+        "en": "「真夏の全国ツアー2026 東京公演」"
+      },
+      "kind": "concert",
+      "startsAt": "2026-08-22T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106708?ima=4103&pri1=202608&wd00=2026&wd01=08&wd02=22",
+      "provenance": {
+        "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202608",
+        "checkedAt": "2026-08-21"
+      }
+    },
+    {
+      "id": "nogi-auto-106708-20260823",
+      "groupIds": [
+        "nogizaka46"
+      ],
+      "title": {
+        "ja": "「真夏の全国ツアー2026 東京公演」",
+        "ko": "「真夏の全国ツアー2026 東京公演」",
+        "en": "「真夏の全国ツアー2026 東京公演」"
+      },
+      "kind": "concert",
+      "startsAt": "2026-08-23T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106708?ima=4103&pri1=202608&wd00=2026&wd01=08&wd02=23",
+      "provenance": {
+        "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202608",
+        "checkedAt": "2026-08-21"
+      }
+    },
+    {
+      "id": "nogi-auto-106810-20260919",
+      "groupIds": [
+        "nogizaka46"
+      ],
+      "title": {
+        "ja": "「プロ野球 東北楽天ゴールデンイーグルス vs 福岡ソフトバンクホークス＠楽天モバイル 最強パーク宮城」乃木坂野球部",
+        "ko": "「プロ野球 東北楽天ゴールデンイーグルス vs 福岡ソフトバンクホークス＠楽天モバイル 最強パーク宮城」乃木坂野球部",
+        "en": "「プロ野球 東北楽天ゴールデンイーグルス vs 福岡ソフトバンクホークス＠楽天モバイル 最強パーク宮城」乃木坂野球部"
+      },
+      "kind": "concert",
+      "startsAt": "2026-09-19T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=4108&pri1=202609&wd00=2026&wd01=09&wd02=19",
+      "provenance": {
+        "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
+        "checkedAt": "2026-08-21"
+      }
     }
   ],
   "rankings": []

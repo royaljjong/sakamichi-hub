@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { PaperGrain } from './PaperGrain';
 import { SlopeLine } from './SlopeLine';
+import { AquaPointerField } from './AquaPointerField';
 import type { ParticleMotif } from '@/lib/schema';
 
 interface AmbientBackgroundProps {
@@ -39,6 +40,7 @@ export function AmbientBackground({
       <PaperGrain />
 
       <div className="editorial-wash" />
+      {!reducedMotion && <AquaPointerField />}
 
       {/* L2 SlopeLine (Signature) */}
       <SlopeLine groupId={groupId} />
