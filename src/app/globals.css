@@ -367,6 +367,21 @@ body {
   box-shadow: inset 3px 0 0 var(--g-brand);
 }
 
+.family-gate{min-height:210px;border:1px solid color-mix(in oklab,var(--g-ink) 12%,transparent);background:color-mix(in oklab,white 78%,var(--g-wash));padding:1.5rem;text-align:left;transition:transform .3s ease,background .3s ease,color .3s ease}
+.family-gate span,.family-gate small{display:block;font-size:10px;letter-spacing:.16em;color:var(--ink-soft)}
+.family-gate strong{display:block;margin:3.5rem 0 .75rem;font-size:clamp(1.7rem,4vw,3rem);letter-spacing:-.04em}
+.family-gate:hover,.family-gate-active{transform:translateY(-3px);background:var(--g-ink);color:white}
+.family-gate:hover span,.family-gate:hover small,.family-gate-active span,.family-gate-active small{color:rgba(255,255,255,.62)}
+.rail-button{display:grid;height:2rem;width:2rem;place-items:center;border:1px solid color-mix(in oklab,var(--g-ink) 18%,transparent);background:rgba(255,255,255,.7);font-size:.75rem;transition:.2s ease}
+.rail-button:hover{border-color:var(--g-brand);color:var(--g-brand)}
+.hide-scrollbar{scrollbar-width:thin;scrollbar-color:color-mix(in oklab,var(--g-brand) 42%,transparent) transparent}
+.event-poster-card{width:min(72vw,260px);flex:0 0 auto;scroll-snap-align:start;overflow:hidden;border:1px solid rgba(0,0,0,.1);background:rgba(255,255,255,.76);transition:transform .25s ease,border-color .25s ease}
+.event-poster-card:hover{transform:translateY(-4px);border-color:var(--g-brand)}
+.event-poster-media{aspect-ratio:3/4;overflow:hidden;background:#ecebe7}
+.event-poster-placeholder{display:flex;height:100%;flex-direction:column;justify-content:space-between;padding:1.5rem;background:linear-gradient(145deg,color-mix(in oklab,var(--event-color,#777) 88%,#111),#111);color:white}
+.event-poster-placeholder span{font-size:.75rem;letter-spacing:.12em}.event-poster-placeholder b{font-size:3rem;letter-spacing:-.08em}
+.birthday-slide{width:150px;flex:0 0 auto;scroll-snap-align:start;border-top:2px solid var(--g-brand);padding:1rem 0;text-align:center;transition:color .2s ease}.birthday-slide:hover{color:var(--g-brand)}
+
 :focus-visible {
   outline: 2px solid var(--g-brand);
   outline-offset: 3px;

@@ -290,6 +290,7 @@ export type Group = z.infer<typeof Group>;
 
 export const MemberStatus = z.enum([
   'active', // 현역
+  'trainee', // 연구생/연습생 — 공식 분류가 확인된 경우만 사용
   'graduating', // 졸업 발표 완료, 최종 활동일 이전 → 현역으로 취급하되 배지 표시
   'graduated', // 졸업
   'withdrawn', // 계약해지/탈퇴 등 졸업 이외의 이탈

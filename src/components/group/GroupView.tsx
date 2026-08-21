@@ -19,8 +19,9 @@ export function GroupView({ group, members, locale }: GroupViewProps) {
     document.documentElement.setAttribute('data-group', group.id);
   }, [group.id]);
 
-  const activeMembers = members.filter((m) => m.status === 'active');
-  const graduatedMembers = members.filter((m) => m.status === 'graduated');
+  const activeMembers = members.filter((m) => m.status === 'active' || m.status === 'graduating');
+  const traineeMembers = members.filter((m) => m.status === 'trainee');
+  const graduatedMembers = members.filter((m) => ['graduated', 'withdrawn', 'transferred'].includes(m.status));
 
   return (
     <div>
@@ -37,6 +38,10 @@ export function GroupView({ group, members, locale }: GroupViewProps) {
 
       {activeTab === 'graduated' && (
         <MemberGrid members={graduatedMembers} group={group} locale={locale} />
+      )}
+
+      {activeTab === 'trainee' && (
+        <MemberGrid members={traineeMembers} group={group} locale={locale} />
       )}
 
       {activeTab === 'byGen' && (

@@ -4,7 +4,7 @@ import React from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 
-export type TabType = 'current' | 'graduated' | 'byGen';
+export type TabType = 'current' | 'trainee' | 'graduated' | 'byGen';
 
 interface GroupTabsProps {
   activeTab: TabType;
@@ -25,6 +25,7 @@ export function GroupTabs({
 
   const tabs: { id: TabType; label: string }[] = [
     { id: 'current', label: t('tabCurrent') },
+    { id: 'trainee', label: locale === 'ko' ? '연습생' : locale === 'en' ? 'Trainees' : '研究生' },
     { id: 'graduated', label: t('tabGraduated') },
   ];
 
