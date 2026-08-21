@@ -44,6 +44,11 @@
     "graduatedOn": "졸업일",
     "linksHeading": "공식 링크",
     "sameGeneration": "동기 멤버",
+    "affiliationLabel": "소속",
+    "generationLabel": "기수",
+    "birthDateLabel": "생년월일",
+    "birthplaceLabel": "출신지",
+    "linksCount": "{count} 링크",
     "noLinks": "현재 이용 가능한 공식 링크가 없습니다",
     "gradBadge": "졸",
     "emptyGrid": "해당하는 멤버가 없습니다."

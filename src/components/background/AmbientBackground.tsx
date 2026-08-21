@@ -58,6 +58,21 @@ export function AmbientBackground({
     return () => observer.disconnect();
   }, []);
 
+  useEffect(() => {
+    let raf = 0;
+    const update = () => {
+      const y = window.scrollY;
+      document.documentElement.style.setProperty('--parallax-slow', `${y * -0.03}px`);
+      document.documentElement.style.setProperty('--parallax-mid', `${y * -0.08}px`);
+      document.documentElement.style.setProperty('--parallax-fast', `${y * 0.05}px`);
+      raf = 0;
+    };
+    const onScroll = () => { if (!raf) raf = requestAnimationFrame(update); };
+    update();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => { window.removeEventListener('scroll', onScroll); if (raf) cancelAnimationFrame(raf); };
+  }, []);
+
   return (
     <>
       <div

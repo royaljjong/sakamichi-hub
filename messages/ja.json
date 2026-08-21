@@ -44,6 +44,11 @@
     "graduatedOn": "卒業日",
     "linksHeading": "公式リンク",
     "sameGeneration": "同期メンバー",
+    "affiliationLabel": "所属",
+    "generationLabel": "期数",
+    "birthDateLabel": "生年月日",
+    "birthplaceLabel": "出身地",
+    "linksCount": "{count} リンク",
     "noLinks": "現在利用可能な公式リンクはありません",
     "gradBadge": "卒",
     "emptyGrid": "該当するメンバーはいません。"

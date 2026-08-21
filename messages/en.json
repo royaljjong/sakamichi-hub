@@ -44,6 +44,11 @@
     "graduatedOn": "Graduated",
     "linksHeading": "Official Links",
     "sameGeneration": "Generation Peers",
+    "affiliationLabel": "Group",
+    "generationLabel": "Generation",
+    "birthDateLabel": "Born",
+    "birthplaceLabel": "From",
+    "linksCount": "{count} links",
     "noLinks": "No verified official links available at this time.",
     "gradBadge": "OG",
     "emptyGrid": "No matching members."

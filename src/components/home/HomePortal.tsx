@@ -22,18 +22,19 @@ export function HomePortal({ groups, members, locale, portal }: { groups: Group[
   const tMember = useTranslations('member');
   const lang = (['ja', 'ko', 'en'].includes(locale) ? locale : 'ja') as Locale;
   const [family, setFamily] = useState<Family>('sakamichi');
+  const [hasSelected, setHasSelected] = useState(false);
   const familyGroups = useMemo(() => groups.filter((group) => group.franchise === family), [groups, family]);
   const venues = new Map(portal.venues.map((venue) => [venue.id, venue]));
   const groupMap = new Map(groups.map((group) => [group.id, group]));
   const month = new Date().getMonth() + 1;
   const localized = (value: { ja: string; ko: string; en: string }) => value[lang] || value.ja;
 
-  const committedGroup = family === 'sakamichi' ? 'nogizaka46' : 'akb48';
+  const committedGroup = hasSelected ? (family === 'sakamichi' ? 'nogizaka46' : 'akb48') : 'home';
   const setPreview = (id: string) => document.documentElement.setAttribute('data-group', id);
   const clearPreview = () => document.documentElement.setAttribute('data-group', committedGroup);
   useEffect(() => { document.documentElement.setAttribute('data-group', committedGroup); }, [committedGroup]);
 
-  const selectFamily = (next: Family) => { setFamily(next); };
+  const selectFamily = (next: Family) => { setFamily(next); setHasSelected(true); };
   const eventsFor = (target: Family) => portal.events.filter((event) => event.groupIds.some((id) => groups.find((g) => g.id === id)?.franchise === target)).sort((a, b) => a.startsAt.localeCompare(b.startsAt));
   const birthdaysFor = (target: Family) => members.filter((member) => groups.find((g) => g.id === member.primaryGroupId)?.franchise === target && Number(member.birthDate?.slice(5, 7)) === month).sort((a, b) => (a.birthDate ?? '').slice(5).localeCompare((b.birthDate ?? '').slice(5)));
 

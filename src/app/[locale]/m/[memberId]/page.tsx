@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { getMember, getMembers, getGroup, getGeneration, getSameGenerationMembers } from '@/lib/data';
 import { routing } from '@/i18n/routing';
@@ -114,6 +114,7 @@ export function generateStaticParams() {
 export default async function MemberPage({ params }: MemberPageProps) {
   const { locale, memberId } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations('member');
 
   const member = getMember(memberId);
   if (!member) {
@@ -236,10 +237,10 @@ export default async function MemberPage({ params }: MemberPageProps) {
 
               {/* Metadata */}
               <div className="mt-4 pt-4 border-t border-[color-mix(in_oklab,var(--g-ink)_8%,transparent)] flex flex-wrap items-center justify-center sm:justify-start gap-x-6 gap-y-1 text-xs text-[var(--ink-soft)] font-[family-name:var(--font-zen-kaku)]">
-                <span>所属: <strong>{groupName}</strong></span>
-                <span>期数: <strong>{genLabel}</strong></span>
-                {member.birthDate && <span>生年月日: <strong>{member.birthDate}</strong></span>}
-                {member.birthplace && <span>出身地: <strong>{member.birthplace[locale as 'ja'|'ko'|'en'] || member.birthplace.ja}</strong></span>}
+                <span>{t('affiliationLabel')}: <strong>{groupName}</strong></span>
+                <span>{t('generationLabel')}: <strong>{genLabel}</strong></span>
+                {member.birthDate && <span>{t('birthDateLabel')}: <strong>{member.birthDate}</strong></span>}
+                {member.birthplace && <span>{t('birthplaceLabel')}: <strong>{member.birthplace[locale as 'ja'|'ko'|'en'] || member.birthplace.ja}</strong></span>}
               </div>
             </div>
           </div>
@@ -249,10 +250,10 @@ export default async function MemberPage({ params }: MemberPageProps) {
         <section className="mb-14">
           <div className="flex items-center justify-between pb-3 mb-6 border-b border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)]">
             <h2 className="text-xl sm:text-2xl font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)]">
-              公式リンク / Official Links
+              {t('linksHeading')}
             </h2>
             <span className="text-xs text-[var(--ink-soft)] font-[family-name:var(--font-zen-kaku)]">
-              {member.links.length} Links
+              {t('linksCount', { count: member.links.length })}
             </span>
           </div>
 
@@ -264,7 +265,7 @@ export default async function MemberPage({ params }: MemberPageProps) {
           <section className="mb-12">
             <div className="pb-3 mb-6 border-b border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)]">
               <h2 className="text-lg sm:text-xl font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)]">
-                同期メンバー ({genLabel})
+                {t('sameGeneration')} ({genLabel})
               </h2>
             </div>
 
