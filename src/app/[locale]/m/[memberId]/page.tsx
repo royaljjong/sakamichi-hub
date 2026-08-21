@@ -68,6 +68,14 @@ export async function generateMetadata({ params }: MemberPageProps): Promise<Met
     '사카미치',
     'Sakamichi',
     ...(member.name.aliases || []),
+    // Additional multilingual keywords
+    'idol profile',
+    'member SNS',
+    '프로필',
+    '멤버 정보',
+    'アイドル プロフィール',
+    'japanese idol',
+    'jpop idol',
   ];
 
   const canonicalUrl = `${BASE_URL}/${locale}/m/${member.id}`;

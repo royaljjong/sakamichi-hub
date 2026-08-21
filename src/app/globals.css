@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+[data-today="true"] { position: relative; }
+[data-today="true"]::before {
+  content: '🎂';
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  font-size: 14px;
+  animation: birthday-bounce 1.6s ease-in-out infinite;
+}
+@keyframes birthday-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-today="true"]::before { animation: none; }
+}
+
 @property --g-blob-a { syntax: '<color>'; inherits: true; initial-value: #B79AE0; }
 @property --g-blob-b { syntax: '<color>'; inherits: true; initial-value: #F3AEC2; }
 @property --g-blob-c { syntax: '<color>'; inherits: true; initial-value: #8FCFEE; }

@@ -40,6 +40,14 @@ export async function generateMetadata({ params }: HomePageProps): Promise<Metad
       '사카미치', '노기자카46', '사쿠라자카46', '히나타자카46', 'AKB48',
       'Sakamichi Series', 'AKB48 Group', 'Nogizaka46', 'Sakurazaka46', 'Hinatazaka46',
       '公式ブログ', 'Instagram', 'Twitter', 'X', 'TikTok',
+      // Korean
+      '사카미치 시리즈', '노기자카46 멤버', '사쿠라자카46 멤버', '히나타자카46 멤버', 'AKB48 멤버',
+      '일본 아이돌', 'JPOP 아이돌', '여자아이돌', '공식 SNS', '팬사이트', '링크 모음',
+      // Japanese
+      '女性アイドル', 'アイドル公式リンク', '秋元康グループ', '姉妹グループ',
+      // English
+      'Japanese idol', 'jpop idol', 'girls idol group', 'AKB48 sister groups',
+      'official SNS', 'member directory', 'fan directory', 'korean fans', 'chinese fans',
     ],
     alternates: {
       canonical: canonicalUrl,

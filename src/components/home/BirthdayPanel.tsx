@@ -17,11 +17,20 @@ interface BirthdayPanelProps {
 export function BirthdayPanel({ members, groups, locale, groupId }: BirthdayPanelProps) {
   const t = useTranslations('birthday');
   const lang = (['ja', 'ko', 'en'].includes(locale) ? locale : 'ja') as Locale;
-  const month = new Date().getMonth() + 1;
+  const today = new Date();
+  const month = today.getMonth() + 1;
+  const todayMd = `${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
   const filtered = members
     .filter((member) => !groupId || member.primaryGroupId === groupId)
     .filter((member) => Number(member.birthDate?.slice(5, 7)) === month)
-    .sort((a, b) => (a.birthDate ?? '').slice(5).localeCompare((b.birthDate ?? '').slice(5)));
+    .sort((a, b) => {
+      const aMd = (a.birthDate ?? '').slice(5);
+      const bMd = (b.birthDate ?? '').slice(5);
+      const aBucket = aMd === todayMd ? 0 : aMd > todayMd ? 1 : 2;
+      const bBucket = bMd === todayMd ? 0 : bMd > todayMd ? 1 : 2;
+      if (aBucket !== bBucket) return aBucket - bBucket;
+      return aMd.localeCompare(bMd);
+    });
   const groupMap = new Map(groups.map((group) => [group.id, group]));
 
   return (
@@ -38,7 +47,7 @@ export function BirthdayPanel({ members, groups, locale, groupId }: BirthdayPane
             const name = lang === 'ko' ? member.name.ko.hangul : lang === 'en' ? member.name.en.romaji : member.name.ja.kanji;
             return (
               <div key={member.id} className="stagger-item" style={{ '--i': Math.min(i, 12) } as React.CSSProperties}>
-              <Link href={`/m/${member.id}`} className="flex min-w-0 items-center gap-3 border-t border-black/10 py-3 transition-colors hover:text-[var(--g-brand)]">
+              <Link href={`/m/${member.id}`} className="flex min-w-0 items-center gap-3 border-t border-black/10 py-3 transition-colors hover:text-[var(--g-brand)]" data-today={member.birthDate?.slice(5) === todayMd ? 'true' : undefined}>
                 <MemberAvatar glyph={member.avatar.glyph} hueShift={member.avatar.hueShift} imageUrl={member.imageUrl} name={name} size={42} />
                 <span className="min-w-0">
                   <span className="block truncate text-sm font-semibold">{name}</span>

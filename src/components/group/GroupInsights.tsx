@@ -23,7 +23,7 @@ interface GroupInsightsProps {
 
 export function GroupInsights({ group, members, updates, locale, portal }: GroupInsightsProps) {
   const lang = (['ja', 'ko', 'en'].includes(locale) ? locale : 'ja') as Locale;
-  const groupUpdates = updates.filter((item) => item.groupId === group.id).slice(0, 5);
+  const groupUpdates = updates.filter((item) => item.groupId === group.id).slice(0, 20);
 
   return (
     <div className="mb-12 space-y-6">

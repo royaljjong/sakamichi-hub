@@ -45,7 +45,23 @@ export async function generateMetadata({ params }: GroupPageProps): Promise<Meta
   return {
     title,
     description,
-    keywords: [nameJa, nameKo, nameEn, 'メンバー', '멤버', 'Members', '公式ブログ', '블로그', 'Instagram', 'X', 'Twitter'],
+    keywords: [
+      nameJa, nameKo, nameEn,
+      'メンバー', '멤버', 'Members',
+      '公式ブログ', '블로그', 'Instagram', 'X', 'Twitter',
+      // Group name variations
+      `${nameJa} メンバー`, `${nameKo} 멤버`, `${nameEn} members`,
+      `${nameJa} 卒業生`, `${nameKo} 졸업생`, `${nameEn} graduated`,
+      // Category keywords
+      '坂道シリーズ', '사카미치 시리즈', 'Sakamichi Series',
+      'AKB48グループ', 'AKB48 그룹', 'AKB48 Group',
+      'japanese idol group', '日本アイドル', '일본 아이돌 그룹',
+      // Discovery
+      'member profile', 'member ranking', 'member birthday',
+      'official blog', 'twitter', 'instagram',
+      '멤버 프로필', '멤버 랭킹', '멤버 생일',
+      'アイドル プロフィール', 'ランキング', '誕生日',
+    ],
     alternates: {
       canonical: canonicalUrl,
       languages: {

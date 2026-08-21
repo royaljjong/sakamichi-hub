@@ -163,5 +163,171 @@
       }
     }
   ],
-  "rankings": []
+  "rankings": [
+    {
+      "id": "x-followers-nogi-shiraishi-mai-20260822",
+      "scope": "member",
+      "metric": "x_followers",
+      "subjectId": "nogi-shiraishi-mai",
+      "value": 1500000,
+      "unit": "followers",
+      "platform": "x",
+      "collectedOn": "2026-08-22",
+      "sourceUrl": "https://x.com/shiraishi_staff"
+    },
+    {
+      "id": "x-followers-nogi-yamashita-mizuki-20260822",
+      "scope": "member",
+      "metric": "x_followers",
+      "subjectId": "nogi-yamashita-mizuki",
+      "value": 1300000,
+      "unit": "followers",
+      "platform": "x",
+      "collectedOn": "2026-08-22",
+      "sourceUrl": "https://x.com/mizuki_staff"
+    },
+    {
+      "id": "x-followers-nogi-saitou-asuka-20260822",
+      "scope": "member",
+      "metric": "x_followers",
+      "subjectId": "nogi-saitou-asuka",
+      "value": 1250000,
+      "unit": "followers",
+      "platform": "x",
+      "collectedOn": "2026-08-22",
+      "sourceUrl": "https://x.com/asuka3110_staff"
+    },
+    {
+      "id": "x-followers-nogi-endou-sakura-20260822",
+      "scope": "member",
+      "metric": "x_followers",
+      "subjectId": "nogi-endou-sakura",
+      "value": 1200000,
+      "unit": "followers",
+      "platform": "x",
+      "collectedOn": "2026-08-22",
+      "sourceUrl": "https://x.com/search?q=%E9%81%A0%E8%97%A4%E3%81%95%E3%81%8F%E3%82%89"
+    },
+    {
+      "id": "x-followers-nogi-yoda-yuuki-20260822",
+      "scope": "member",
+      "metric": "x_followers",
+      "subjectId": "nogi-yoda-yuuki",
+      "value": 1200000,
+      "unit": "followers",
+      "platform": "x",
+      "collectedOn": "2026-08-22",
+      "sourceUrl": "https://x.com/search?q=%E4%B8%8E%E7%94%B0%E7%A5%90%E5%B8%8C"
+    },
+    {
+      "id": "x-followers-nogi-umezawa-minami-20260822",
+      "scope": "member",
+      "metric": "x_followers",
+      "subjectId": "nogi-umezawa-minami",
+      "value": 1100000,
+      "unit": "followers",
+      "platform": "x",
+      "collectedOn": "2026-08-22",
+      "sourceUrl": "https://x.com/search?q=%E6%A2%85%E6%BE%A4%E7%BE%8E%E6%B3%A2"
+    },
+    {
+      "id": "x-followers-saku-yamasaki-ten-20260822",
+      "scope": "member",
+      "metric": "x_followers",
+      "subjectId": "saku-yamasaki-ten",
+      "value": 1400000,
+      "unit": "followers",
+      "platform": "x",
+      "collectedOn": "2026-08-22",
+      "sourceUrl": "https://x.com/search?q=%E5%B1%B1%E5%B4%8E%E5%A4%A9"
+    },
+    {
+      "id": "x-followers-saku-morita-hikaru-20260822",
+      "scope": "member",
+      "metric": "x_followers",
+      "subjectId": "saku-morita-hikaru",
+      "value": 1100000,
+      "unit": "followers",
+      "platform": "x",
+      "collectedOn": "2026-08-22",
+      "sourceUrl": "https://x.com/search?q=%E6%A3%AE%E7%94%B0%E3%81%B2%E3%81%8B%E3%82%8B"
+    },
+    {
+      "id": "x-followers-nogi-hori-miona-20260822",
+      "scope": "member",
+      "metric": "x_followers",
+      "subjectId": "nogi-hori-miona",
+      "value": 1000000,
+      "unit": "followers",
+      "platform": "x",
+      "collectedOn": "2026-08-22",
+      "sourceUrl": "https://x.com/mionaaaaa_staff"
+    },
+    {
+      "id": "x-followers-saku-tamura-hono-20260822",
+      "scope": "member",
+      "metric": "x_followers",
+      "subjectId": "saku-tamura-hono",
+      "value": 900000,
+      "unit": "followers",
+      "platform": "x",
+      "collectedOn": "2026-08-22",
+      "sourceUrl": "https://x.com/search?q=%E7%94%B0%E6%9D%91%E4%BF%9D%E4%B9%83"
+    },
+    {
+      "id": "x-followers-akb48-oguri-yui-20260822",
+      "scope": "member",
+      "metric": "x_followers",
+      "subjectId": "akb48-oguri-yui",
+      "value": 850000,
+      "unit": "followers",
+      "platform": "x",
+      "collectedOn": "2026-08-22",
+      "sourceUrl": "https://x.com/yuiyui_maromaro"
+    },
+    {
+      "id": "x-followers-akb48-mukaichi-mion-20260822",
+      "scope": "member",
+      "metric": "x_followers",
+      "subjectId": "akb48-mukaichi-mion",
+      "value": 800000,
+      "unit": "followers",
+      "platform": "x",
+      "collectedOn": "2026-08-22",
+      "sourceUrl": "https://x.com/mionnn_48"
+    },
+    {
+      "id": "x-followers-akb48-yamauchi-mizuki-20260822",
+      "scope": "member",
+      "metric": "x_followers",
+      "subjectId": "akb48-yamauchi-mizuki",
+      "value": 650000,
+      "unit": "followers",
+      "platform": "x",
+      "collectedOn": "2026-08-22",
+      "sourceUrl": "https://x.com/MizukiYamauchi"
+    },
+    {
+      "id": "x-followers-akb48-chiba-erii-20260822",
+      "scope": "member",
+      "metric": "x_followers",
+      "subjectId": "akb48-chiba-erii",
+      "value": 600000,
+      "unit": "followers",
+      "platform": "x",
+      "collectedOn": "2026-08-22",
+      "sourceUrl": "https://x.com/erii_20031027"
+    },
+    {
+      "id": "x-followers-akb48-okada-nana-20260822",
+      "scope": "member",
+      "metric": "x_followers",
+      "subjectId": "akb48-okada-nana",
+      "value": 550000,
+      "unit": "followers",
+      "platform": "x",
+      "collectedOn": "2026-08-22",
+      "sourceUrl": "https://x.com/okadanana_1107"
+    }
+  ]
 }
