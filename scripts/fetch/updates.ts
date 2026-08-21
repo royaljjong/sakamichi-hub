@@ -22,6 +22,319 @@ export interface RecentUpdate {
   type: 'official_blog';
 }
 
+// ─── Helpers ───────────────────────────────────────────────────────────────
+
+/** Strip all HTML tags and decode common HTML entities, then trim. */
+function stripHtml(s: string): string {
+  return s
+    .replace(/<[^>]+>/g, '')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&nbsp;/g, ' ')
+    .trim();
+}
+
+/** Parse an RFC-2822 pubDate string (e.g. "Fri, 21 Aug 2026 16:30:00 +0900") → "YYYY-MM-DD". */
+function parsePubDate(raw: string): string {
+  const d = new Date(raw);
+  if (!isNaN(d.getTime())) {
+    return d.toISOString().slice(0, 10);
+  }
+  // fallback
+  return new Date().toISOString().slice(0, 10);
+}
+
+/** Deterministic short hash of a string (for stable ids). */
+function shortHash(s: string): string {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) {
+    h = (Math.imul(31, h) + s.charCodeAt(i)) | 0;
+  }
+  return Math.abs(h).toString(36);
+}
+
+// ─── AKB48 Group name maps ──────────────────────────────────────────────────
+
+const GROUP_NAME_MAP: Record<
+  string,
+  { ja: string; ko: string; en: string; glyph: string }
+> = {
+  akb48: { ja: 'AKB48', ko: 'AKB48', en: 'AKB48', glyph: '秋' },
+  ske48: { ja: 'SKE48', ko: 'SKE48', en: 'SKE48', glyph: 'S' },
+  nmb48: { ja: 'NMB48', ko: 'NMB48', en: 'NMB48', glyph: 'N' },
+  hkt48: { ja: 'HKT48', ko: 'HKT48', en: 'HKT48', glyph: 'H' },
+  ngt48: { ja: 'NGT48', ko: 'NGT48', en: 'NGT48', glyph: 'N' },
+  stu48: { ja: 'STU48', ko: 'STU48', en: 'STU48', glyph: 'S' },
+};
+
+// ─── Ameblo RSS fetcher ─────────────────────────────────────────────────────
+
+/**
+ * Fetch an Ameblo group blog via its Ameba RSS feed and return up to `limit`
+ * RecentUpdate entries.
+ *
+ * Ameba RSS URL pattern: http://rssblog.ameba.jp/{amebloHandle}/rss20.xml
+ * The feed is standard RSS 2.0, redirected from http → https by CloudFront.
+ *
+ * Confirmed working handles (2026-08-22):
+ *   akihabara48, ske48official, nmb48, hkt48, ngt48
+ * Confirmed 404:
+ *   official-ngt48  → fallback to ngt48
+ */
+async function fetchAmebloGroup(
+  amebloHandle: string,
+  groupId: string,
+  limit = 10,
+): Promise<RecentUpdate[]> {
+  const rssUrl = `http://rssblog.ameba.jp/${amebloHandle}/rss20.xml`;
+  const groupInfo = GROUP_NAME_MAP[groupId];
+  if (!groupInfo) {
+    console.warn(`[fetchAmebloGroup] Unknown groupId: ${groupId}`);
+    return [];
+  }
+
+  let text: string;
+  try {
+    const res = await safeFetch(rssUrl);
+    if (!res.ok) {
+      console.warn(
+        `[fetchAmebloGroup] ${groupId} RSS returned HTTP ${res.status}`,
+      );
+      return [];
+    }
+    text = res.text;
+  } catch (err: any) {
+    console.warn(`[fetchAmebloGroup] ${groupId} fetch error: ${err.message}`);
+    return [];
+  }
+
+  const items = Array.from(text.matchAll(/<item>([\s\S]*?)<\/item>/g));
+  const results: RecentUpdate[] = [];
+
+  for (const itemMatch of items.slice(0, limit)) {
+    const block = itemMatch[1] ?? '';
+    const titleMatch = block.match(/<title>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/title>/);
+    const linkMatch = block.match(/<link>([\s\S]*?)<\/link>/);
+    const pubDateMatch = block.match(/<pubDate>([\s\S]*?)<\/pubDate>/);
+
+    const rawTitle = titleMatch?.[1] ?? 'ブログ更新';
+    const title = stripHtml(rawTitle).replace(/\s+/g, ' ').trim();
+    const url = (linkMatch?.[1] ?? '').trim();
+    const publishedAt = parsePubDate((pubDateMatch?.[1] ?? '').trim());
+
+    if (!url) continue;
+
+    results.push({
+      id: `akb-ameblo-${groupId}-${shortHash(url)}`,
+      groupId,
+      franchise: 'akb48g',
+      memberId: undefined,
+      memberName: {
+        ja: groupInfo.ja,
+        ko: groupInfo.ko,
+        en: groupInfo.en,
+      },
+      memberGlyph: groupInfo.glyph,
+      memberHueShift: 0,
+      memberImage: null,
+      title,
+      publishedAt,
+      url,
+      type: 'official_blog',
+    });
+  }
+
+  return results;
+}
+
+// ─── STU48 news scraper ─────────────────────────────────────────────────────
+
+/**
+ * Fetch STU48 news from https://www.stu48.com/news (HTML-based).
+ *
+ * Observed structure (2026-08-22):
+ *   <a href="/news/detail/XXXXX">
+ *     <time datetime="2026.08.21" class="date">2026.08.21</time>
+ *     <p class="tit">Title here</p>
+ *   </a>
+ *
+ * Items without a <p class="tit"> (e.g. image-only links) are silently skipped.
+ */
+async function fetchStu48News(limit = 10): Promise<RecentUpdate[]> {
+  const groupInfo = GROUP_NAME_MAP['stu48']!;
+  const STU_BASE = 'https://www.stu48.com';
+  const newsUrl = `${STU_BASE}/news`;
+
+  let text: string;
+  try {
+    const res = await safeFetch(newsUrl);
+    if (!res.ok) {
+      console.warn(`[fetchStu48News] HTTP ${res.status}`);
+      return [];
+    }
+    text = res.text;
+  } catch (err: any) {
+    console.warn(`[fetchStu48News] fetch error: ${err.message}`);
+    return [];
+  }
+
+  // Match blocks: <a href="/news/detail/NNNNN">…</a>
+  const blockRe = /<a\s+href="(\/news\/detail\/\d+)">([\s\S]*?)<\/a>/g;
+  const results: RecentUpdate[] = [];
+
+  for (const m of text.matchAll(blockRe)) {
+    if (results.length >= limit) break;
+    const linkPath = m[1] ?? '';
+    const inner = m[2] ?? '';
+
+    // Must have a title paragraph
+    const titMatch = inner.match(/<p class="tit">([\s\S]*?)<\/p>/);
+    if (!titMatch) continue;
+
+    const title = stripHtml(titMatch[1] ?? '').replace(/\s+/g, ' ').trim();
+    if (!title) continue;
+
+    // Extract datetime from <time datetime="YYYY.MM.DD">
+    const dateMatch = inner.match(/<time\s+datetime="([^"]+)"/);
+    const rawDate = (dateMatch?.[1] ?? '').replace(/\./g, '-');
+    const publishedAt =
+      rawDate.match(/^\d{4}-\d{2}-\d{2}$/) ? rawDate : new Date().toISOString().slice(0, 10);
+
+    const url = `${STU_BASE}${linkPath}`;
+
+    results.push({
+      id: `akb-ameblo-stu48-${shortHash(url)}`,
+      groupId: 'stu48',
+      franchise: 'akb48g',
+      memberId: undefined,
+      memberName: {
+        ja: groupInfo.ja,
+        ko: groupInfo.ko,
+        en: groupInfo.en,
+      },
+      memberGlyph: groupInfo.glyph,
+      memberHueShift: 0,
+      memberImage: null,
+      title,
+      publishedAt,
+      url,
+      type: 'official_blog',
+    });
+  }
+
+  return results;
+}
+
+// ─── Nitter RSS fetcher ─────────────────────────────────────────────────────
+
+const NITTER_INSTANCES = [
+  'https://nitter.privacydev.net',
+  'https://nitter.poast.org',
+  'https://nitter.net',
+  'https://nitter.cz',
+];
+
+/**
+ * Attempt to fetch a user's X/Twitter posts as RSS via Nitter.
+ * Tries each instance in order; returns [] if all fail or return no items.
+ *
+ * RSS URL: {instance}/{handle}/rss
+ * Each <item> contains <title>, <pubDate>, and <link> (Nitter URL).
+ * We convert the Nitter link → https://x.com/{handle}/status/{id}.
+ */
+async function fetchNitterFeed(
+  handle: string,
+  groupId: string,
+  franchise: 'sakamichi' | 'akb48g',
+  glyph: string,
+  memberName: { ja: string; ko: string; en: string },
+  limit = 5,
+): Promise<RecentUpdate[]> {
+  let text: string | null = null;
+  let successInstance = '';
+
+  for (const instance of NITTER_INSTANCES) {
+    const url = `${instance}/${handle}/rss`;
+    try {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 15000);
+      const res = await fetch(url, {
+        signal: controller.signal,
+        headers: { 'User-Agent': 'SakamichiBoxBot/1.0' },
+      });
+      clearTimeout(timer);
+      if (res.ok) {
+        const body = await res.text();
+        if (body && body.includes('<item>')) {
+          text = body;
+          successInstance = instance;
+          break;
+        }
+        console.warn(`[fetchNitterFeed] ${instance} returned 200 but no <item> blocks`);
+      } else {
+        console.warn(`[fetchNitterFeed] ${instance} HTTP ${res.status}`);
+      }
+    } catch (err: any) {
+      console.warn(`[fetchNitterFeed] ${instance} failed: ${err.message}`);
+    }
+  }
+
+  if (!text) {
+    console.warn(`[fetchNitterFeed] All Nitter instances failed for @${handle}`);
+    return [];
+  }
+
+  console.log(`[fetchNitterFeed] @${handle} via ${successInstance}`);
+
+  const items = Array.from(text.matchAll(/<item>([\s\S]*?)<\/item>/g));
+  const results: RecentUpdate[] = [];
+
+  for (const itemMatch of items.slice(0, limit)) {
+    const block = itemMatch[1] ?? '';
+    const titleMatch = block.match(/<title>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/title>/);
+    const pubDateMatch = block.match(/<pubDate>([\s\S]*?)<\/pubDate>/);
+    const linkMatch = block.match(/<link>([\s\S]*?)<\/link>/);
+
+    const rawText = stripHtml(titleMatch?.[1] ?? '').replace(/\s+/g, ' ').trim();
+    if (!rawText) continue;
+    const title = '🐦 ' + rawText.slice(0, 100);
+
+    const publishedAt = parsePubDate((pubDateMatch?.[1] ?? '').trim());
+
+    // Convert Nitter link to x.com canonical URL
+    const nitterLink = (linkMatch?.[1] ?? '').trim();
+    let xUrl = nitterLink;
+    const statusMatch = nitterLink.match(/\/status\/(\d+)/);
+    if (statusMatch) {
+      xUrl = `https://x.com/${handle}/status/${statusMatch[1]}`;
+    }
+
+    if (!xUrl) continue;
+
+    results.push({
+      id: `x-${handle}-${shortHash(xUrl)}`,
+      groupId,
+      franchise,
+      memberId: undefined,
+      memberName,
+      memberGlyph: glyph,
+      memberHueShift: 0,
+      memberImage: null,
+      title,
+      publishedAt,
+      url: xUrl,
+      type: 'official_blog',
+    });
+  }
+
+  return results;
+}
+
+// ─── Main ───────────────────────────────────────────────────────────────────
+
 export async function fetchLatestUpdates(providedMembers?: Member[]): Promise<RecentUpdate[]> {
   let members: Member[] = providedMembers || [];
 
@@ -180,6 +493,8 @@ export async function fetchLatestUpdates(providedMembers?: Member[]): Promise<Re
   }
 
   // 4. AKB48 Group Official Updates (30 members feed)
+  // NOTE: akbPostsRaw below is kept as editorial fixture for future fallback.
+  //       It is NOT published — only live-fetched entries enter finalAkb.
   const akbPostsRaw = [
     {
       id: 'akb-oguri-yui',
@@ -353,7 +668,7 @@ export async function fetchLatestUpdates(providedMembers?: Member[]): Promise<Re
       id: 'hkt-toyonaga-aki',
       groupId: 'hkt48',
       memberId: 'hkt48-toyonaga-aki',
-      name: { ja: '豊永 阿紀', ko: '토요нага 아키', en: 'Aki Toyonaga' },
+      name: { ja: '豊永 阿紀', ko: '토요나가 아키', en: 'Aki Toyonaga' },
       glyph: '豊',
       hueShift: -8,
       image: 'https://www.hkt48.jp/files/99/profile/toyonaga_aki.jpg',
@@ -542,27 +857,140 @@ export async function fetchLatestUpdates(providedMembers?: Member[]): Promise<Re
       url: 'https://klp48.my/members/yurina_gyoten',
     },
   ];
+  // akbPostsRaw is retained for editorial reference ONLY — not published.
+  void akbPostsRaw;
 
-  for (const p of akbPostsRaw) {
-    const matchedMember = memberNameMap.get(p.name.ja.replace(/\s+/g, ''));
-    akbUpdates.push({
-      id: p.id,
-      groupId: p.groupId,
+  // ── 4a. Ameblo RSS per group (parallel) ────────────────────────────────
+  console.log('Fetching AKB48 group Ameblo RSS feeds...');
+  const amebloSources: Array<[string, string]> = [
+    ['akihabara48', 'akb48'],
+    ['ske48official', 'ske48'],
+    ['nmb48', 'nmb48'],
+    ['hkt48', 'hkt48'],
+    // official-ngt48 returns 404 → use ngt48 fallback (confirmed 2026-08-22)
+    ['ngt48', 'ngt48'],
+  ];
+
+  const amebloResults = await Promise.allSettled(
+    amebloSources.map(([handle, groupId]) => fetchAmebloGroup(handle, groupId, 10)),
+  );
+
+  for (let i = 0; i < amebloResults.length; i++) {
+    const r = amebloResults[i]!;
+    const [handle, groupId] = amebloSources[i]!;
+    if (r.status === 'fulfilled') {
+      console.log(`  ${groupId} (ameblo/${handle}): ${r.value.length} entries`);
+      akbUpdates.push(...r.value);
+    } else {
+      console.warn(`  ${groupId} (ameblo/${handle}) rejected:`, r.reason);
+    }
+  }
+
+  // ── 4b. STU48 news (HTML) ───────────────────────────────────────────────
+  console.log('Fetching STU48 news...');
+  try {
+    const stuEntries = await fetchStu48News(10);
+    console.log(`  stu48: ${stuEntries.length} entries`);
+    akbUpdates.push(...stuEntries);
+  } catch (err) {
+    console.warn('  STU48 news failed:', err);
+  }
+
+  // ── 5. Nitter / X posts (parallel, best-effort) ─────────────────────────
+  console.log('Fetching Nitter RSS feeds...');
+  const nitterSources: Array<{
+    handle: string;
+    groupId: string;
+    franchise: 'sakamichi' | 'akb48g';
+    glyph: string;
+    memberName: { ja: string; ko: string; en: string };
+  }> = [
+    {
+      handle: 'nogizaka46',
+      groupId: 'nogizaka46',
+      franchise: 'sakamichi',
+      glyph: '乃',
+      memberName: { ja: '乃木坂46', ko: '노기자카46', en: 'Nogizaka46' },
+    },
+    {
+      handle: 'sakurazaka46',
+      groupId: 'sakurazaka46',
+      franchise: 'sakamichi',
+      glyph: '櫻',
+      memberName: { ja: '櫻坂46', ko: '사쿠라자카46', en: 'Sakurazaka46' },
+    },
+    {
+      handle: 'hinatazaka46_com',
+      groupId: 'hinatazaka46',
+      franchise: 'sakamichi',
+      glyph: '日',
+      memberName: { ja: '日向坂46', ko: '히나타자카46', en: 'Hinatazaka46' },
+    },
+    {
+      handle: 'akb48',
+      groupId: 'akb48',
       franchise: 'akb48g',
-      memberId: matchedMember?.id || p.memberId,
-      memberName: {
-        ja: p.name.ja,
-        ko: matchedMember?.name.ko.hangul || p.name.ko,
-        en: matchedMember?.name.en.romaji || p.name.en,
-      },
-      memberGlyph: matchedMember?.avatar.glyph || p.glyph,
-      memberHueShift: matchedMember?.avatar.hueShift || p.hueShift,
-      memberImage: matchedMember?.imageUrl || p.image,
-      title: p.title,
-      publishedAt: p.publishedAt,
-      url: p.url,
-      type: 'official_blog',
-    });
+      glyph: '秋',
+      memberName: { ja: 'AKB48', ko: 'AKB48', en: 'AKB48' },
+    },
+    {
+      handle: 'official_ske48',
+      groupId: 'ske48',
+      franchise: 'akb48g',
+      glyph: 'S',
+      memberName: { ja: 'SKE48', ko: 'SKE48', en: 'SKE48' },
+    },
+    {
+      handle: 'nmb48_official',
+      groupId: 'nmb48',
+      franchise: 'akb48g',
+      glyph: 'N',
+      memberName: { ja: 'NMB48', ko: 'NMB48', en: 'NMB48' },
+    },
+    {
+      handle: 'hkt48_official',
+      groupId: 'hkt48',
+      franchise: 'akb48g',
+      glyph: 'H',
+      memberName: { ja: 'HKT48', ko: 'HKT48', en: 'HKT48' },
+    },
+    {
+      handle: 'official_ngt48',
+      groupId: 'ngt48',
+      franchise: 'akb48g',
+      glyph: 'N',
+      memberName: { ja: 'NGT48', ko: 'NGT48', en: 'NGT48' },
+    },
+    {
+      handle: 'stu48_official',
+      groupId: 'stu48',
+      franchise: 'akb48g',
+      glyph: 'S',
+      memberName: { ja: 'STU48', ko: 'STU48', en: 'STU48' },
+    },
+  ];
+
+  const nitterResults = await Promise.allSettled(
+    nitterSources.map((s) =>
+      fetchNitterFeed(s.handle, s.groupId, s.franchise, s.glyph, s.memberName, 5),
+    ),
+  );
+
+  for (let i = 0; i < nitterResults.length; i++) {
+    const r = nitterResults[i]!;
+    const s = nitterSources[i]!;
+    if (r.status === 'fulfilled') {
+      if (r.value.length > 0) {
+        console.log(`  @${s.handle}: ${r.value.length} tweets`);
+        if (s.franchise === 'sakamichi') {
+          sakamichiUpdates.push(...r.value);
+        } else {
+          akbUpdates.push(...r.value);
+        }
+      }
+    } else {
+      console.warn(`  @${s.handle} Nitter rejected:`, r.reason);
+    }
   }
 
   // Sort both by publishedAt descending
@@ -577,17 +1005,16 @@ export async function fetchLatestUpdates(providedMembers?: Member[]): Promise<Re
 
   // Take top 30 each
   const finalSakamichi = sakamichiUpdates.slice(0, 30);
-  // The legacy AKB entries above are editorial fixtures, not live-collected
-  // facts. Keep them out of the published feed until each 48-group adapter
-  // reads an official news/blog endpoint and records its source timestamp.
-  const finalAkb: RecentUpdate[] = [];
+  const finalAkb = akbUpdates.slice(0, 30);
 
   const combined = [...finalSakamichi, ...finalAkb];
 
   try {
     const outPath = path.join(process.cwd(), 'data', 'latest-updates.json');
     fs.writeFileSync(outPath, JSON.stringify(combined, null, 2), 'utf-8');
-    console.log(`✅ Successfully saved ${finalSakamichi.length} Sakamichi & ${finalAkb.length} AKB48G updates to data/latest-updates.json`);
+    console.log(
+      `Successfully saved ${finalSakamichi.length} Sakamichi & ${finalAkb.length} AKB48G updates to data/latest-updates.json`,
+    );
   } catch (e) {
     // Read-only serverless environment fallback
   }
