@@ -33,17 +33,19 @@ export function BirthdayPanel({ members, groups, locale, groupId }: BirthdayPane
       </div>
       {filtered.length ? (
         <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-          {filtered.map((member) => {
+          {filtered.map((member, i) => {
             const group = groupMap.get(member.primaryGroupId);
             const name = lang === 'ko' ? member.name.ko.hangul : lang === 'en' ? member.name.en.romaji : member.name.ja.kanji;
             return (
-              <Link key={member.id} href={`/m/${member.id}`} className="flex min-w-0 items-center gap-3 border-t border-black/10 py-3 transition-colors hover:text-[var(--g-brand)]">
+              <div key={member.id} className="stagger-item" style={{ '--i': Math.min(i, 12) } as React.CSSProperties}>
+              <Link href={`/m/${member.id}`} className="flex min-w-0 items-center gap-3 border-t border-black/10 py-3 transition-colors hover:text-[var(--g-brand)]">
                 <MemberAvatar glyph={member.avatar.glyph} hueShift={member.avatar.hueShift} imageUrl={member.imageUrl} name={name} size={42} />
                 <span className="min-w-0">
                   <span className="block truncate text-sm font-semibold">{name}</span>
                   <span className="block truncate text-[11px] text-[var(--ink-soft)]">{member.birthDate?.slice(5).replace('-', '.')} · {group?.shortName[lang]}</span>
                 </span>
               </Link>
+              </div>
             );
           })}
         </div>

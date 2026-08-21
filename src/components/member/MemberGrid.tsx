@@ -22,13 +22,14 @@ export function MemberGrid({ members, group, locale }: MemberGridProps) {
 
   return (
     <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4">
-      {members.map((member) => (
-        <MemberCard
-          key={member.id}
-          member={member}
-          group={group}
-          locale={locale}
-        />
+      {members.map((member, i) => (
+        <div key={member.id} className="stagger-item" style={{ '--i': Math.min(i, 20) } as React.CSSProperties}>
+          <MemberCard
+            member={member}
+            group={group}
+            locale={locale}
+          />
+        </div>
       ))}
     </div>
   );
