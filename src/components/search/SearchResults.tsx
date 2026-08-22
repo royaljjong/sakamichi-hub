@@ -9,6 +9,7 @@ interface SearchResultsProps {
   query: string;
   locale: string;
   loading: boolean;
+  hasFilters?: boolean;
 }
 
 export function SearchResults({
@@ -16,6 +17,7 @@ export function SearchResults({
   query,
   locale,
   loading,
+  hasFilters,
 }: SearchResultsProps) {
   const t = useTranslations('search');
   const tMember = useTranslations('member');
@@ -28,7 +30,7 @@ export function SearchResults({
     );
   }
 
-  if (!query.trim()) {
+  if (!query.trim() && !hasFilters) {
     return null;
   }
 

@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import type { Member } from '../src/lib/schema';
-import { extractChoseong, type SearchIndexItem } from '../src/lib/search';
+import { extractChoseong, deriveFranchise, type SearchIndexItem } from '../src/lib/search';
 
 function buildIndex() {
   const membersPath = path.join(__dirname, '..', 'data', 'members.json');
@@ -15,6 +15,7 @@ function buildIndex() {
   const indexItems: SearchIndexItem[] = members.map((m) => ({
     id: m.id,
     groupId: m.primaryGroupId,
+    franchise: deriveFranchise(m.primaryGroupId),
     genId: m.primaryGenerationId,
     status: m.status,
     kanji: m.name.ja.kanji,

@@ -73,7 +73,19 @@
     "placeholder": "Search by member name, kanji, kana, or romaji",
     "noResults": "No members found",
     "resultCount": "{count} found",
-    "indexing": "Loading index..."
+    "indexing": "Loading index...",
+    "pageTitle": "Member Search",
+    "pageSubtitle": "Search by kanji, kana, romaji, hangul, or choseong. Covers Nogizaka, Sakurazaka, Hinatazaka & all AKB48 groups.",
+    "filterFranchise": "Series",
+    "filterStatus": "Status",
+    "filterGroup": "Group",
+    "filterAll": "All",
+    "statusActive": "Active",
+    "statusGraduated": "Graduated",
+    "statusTrainee": "Trainee",
+    "browseByFilterHint": "Browse with filters…",
+    "franchiseSakamichi": "Sakamichi Series",
+    "franchiseAkb48g": "AKB48 Group"
   },
   "about": {
     "disclaimerTitle": "Unofficial Fan Site Notice",
@@ -96,7 +108,14 @@
     "emptyEvent": "No verified upcoming live shows",
     "emptyBirthday": "No birthdays this month",
     "memberCountLabel": "Members",
-    "updated": "Updated daily from official sources"
+    "updated": "Updated daily from official sources",
+    "youtubeChannels": "YOUTUBE · YouTube channels",
+    "youtubeVideos": "LATEST VIDEOS / 最新映像",
+    "tiktokChannels": "TIKTOK · TikTok channels",
+    "tiktokVideos": "LATEST TIKTOKS / 最新TikTok",
+    "emptyChannels": "No channels registered yet",
+    "emptyVideos": "No videos available",
+    "tiktokComingSoon": "TikTok coming soon"
   },
   "event": {
     "title": "Upcoming performances",

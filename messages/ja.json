@@ -73,7 +73,19 @@
     "placeholder": "メンバー名・漢字・かな・ローマ字で検索",
     "noResults": "見つかりませんでした",
     "resultCount": "{count}件",
-    "indexing": "インデックス読み込み中..."
+    "indexing": "インデックス読み込み中...",
+    "pageTitle": "メンバー検索",
+    "pageSubtitle": "漢字・かな・ローマ字・한글・초성検索に対応。乃木坂・櫻坂・日向坂・AKB48全グループ。",
+    "filterFranchise": "シリーズ",
+    "filterStatus": "状態",
+    "filterGroup": "グループ",
+    "filterAll": "すべて",
+    "statusActive": "現役",
+    "statusGraduated": "卒業",
+    "statusTrainee": "研究生",
+    "browseByFilterHint": "フィルタから探す…",
+    "franchiseSakamichi": "坂道シリーズ",
+    "franchiseAkb48g": "AKB48グループ"
   },
   "about": {
     "disclaimerTitle": "非公式ファンサイト宣言",
@@ -96,7 +108,14 @@
     "emptyEvent": "確認済みの今後のライブはありません",
     "emptyBirthday": "今月の誕生日メンバーはいません",
     "memberCountLabel": "メンバー",
-    "updated": "公式情報を毎日更新"
+    "updated": "公式情報を毎日更新",
+    "youtubeChannels": "YOUTUBE · チャンネル",
+    "youtubeVideos": "LATEST VIDEOS / 最新映像",
+    "tiktokChannels": "TIKTOK · チャンネル",
+    "tiktokVideos": "LATEST TIKTOKS / 最新TikTok",
+    "emptyChannels": "現在チャンネルが登録されていません",
+    "emptyVideos": "動画がありません",
+    "tiktokComingSoon": "TikTok 準備中"
   },
   "event": {
     "title": "これからの公演",
