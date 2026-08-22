@@ -1,6 +1,42 @@
 [
   {
-    "id": "saku-ss46diarydetail70680ima0000cdblog",
+    "id": "hina-sofficialdiarydetail70684ima0000cdmember",
+    "groupId": "hinatazaka46",
+    "franchise": "sakamichi",
+    "memberId": "hina-tsurusaki-niko",
+    "memberName": {
+      "ja": "鶴崎 仁香",
+      "ko": "쓰루사키 니코",
+      "en": "Tsurusaki Niko"
+    },
+    "memberGlyph": "鶴",
+    "memberHueShift": 11,
+    "memberImage": "https://cdn.hinatazaka46.com/images/14/468/a512adc17581d6f50cdd3205557e2/800_800_102400.jpg",
+    "title": "個別ページ",
+    "publishedAt": "2026.8.22 15:02",
+    "url": "https://www.hinatazaka46.com/s/official/diary/detail/70684?ima=0000&cd=member",
+    "type": "official_blog"
+  },
+  {
+    "id": "saku-ss46diarydetail70682ima0000cdblog",
+    "groupId": "sakurazaka46",
+    "franchise": "sakamichi",
+    "memberId": "saku-yamakawa-ui",
+    "memberName": {
+      "ja": "山川 宇衣",
+      "ko": "야마카와 우이",
+      "en": "Yamakawa Ui"
+    },
+    "memberGlyph": "山",
+    "memberHueShift": 9,
+    "memberImage": "https://sakurazaka46.com/images/14/0fd/f9ee562906efcad21c91605f3c632/400_320_102400.jpg",
+    "title": "遠藤 理子\n        \n      \n      \n        2026/8/22\n        　\n      \n      いつのまにか8月後半ですね🫢12公演の長いツアー期間だと思っていたけど、いつの間にか残り4公演！！！Buddies の皆さんと過ごす...\n    \n    \n      MORE",
+    "publishedAt": "2026/8/22",
+    "url": "https://sakurazaka46.com/s/s46/diary/detail/70682?ima=0000&cd=blog",
+    "type": "official_blog"
+  },
+  {
+    "id": "saku-ss46diarydetail70678ima0000cdblog",
     "groupId": "sakurazaka46",
     "franchise": "sakamichi",
     "memberId": "saku-endou-riko",
@@ -12,9 +48,9 @@
     "memberGlyph": "遠",
     "memberHueShift": 37,
     "memberImage": "https://sakurazaka46.com/images/14/d69/6df426b2e6f16523b91fca0be779d/400_320_102400.jpg",
-    "title": "山川 宇衣\n        \n      \n      \n        2026/8/21\n        けっぱれさくらざか！\n      \n      こんばんはブログを開いてくださりありがとうございます⏾⋆˙宮城県出身20歳四期生の山川宇衣（やまかわうい）です先ほど、NHK仙台...\n    \n    \n      MORE",
+    "title": "松本 和子\n        \n      \n      \n        2026/8/21\n        スタートライン!\n      \n      こんばんは四期生の松本和子(まつもとわこ)です開いてくださり、ありがとうございますちーとかき氷を食べに行きました🧊きなこ味...\n    \n    \n      MORE",
     "publishedAt": "2026/8/22",
-    "url": "https://sakurazaka46.com/s/s46/diary/detail/70680?ima=0000&cd=blog",
+    "url": "https://sakurazaka46.com/s/s46/diary/detail/70678?ima=0000&cd=blog",
     "type": "official_blog"
   },
   {
@@ -72,7 +108,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104784ima0936cdMEMBER",
+    "id": "nogi-sn46diarydetail104784ima2524cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -85,11 +121,11 @@
     "memberImage": "/files/46/assets/img/blog/none.png",
     "title": "幸せの座標",
     "publishedAt": "2026.08.21 17:54",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104784?ima=0936&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104784?ima=2524&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104783ima0936cdMEMBER",
+    "id": "nogi-sn46diarydetail104783ima2524cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -102,7 +138,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mob1GkshO.png",
     "title": "この夏を忘れない",
     "publishedAt": "2026.08.21 16:53",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104783?ima=0936&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104783?ima=2524&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -124,7 +160,7 @@
     "type": "official_blog"
   },
   {
-    "id": "saku-ss46diarydetail70674ima0000cdblog",
+    "id": "saku-ss46diarydetail70676ima0000cdblog",
     "groupId": "sakurazaka46",
     "franchise": "sakamichi",
     "memberId": "saku-yamakawa-ui",
@@ -136,13 +172,13 @@
     "memberGlyph": "山",
     "memberHueShift": 9,
     "memberImage": "https://sakurazaka46.com/images/14/0fd/f9ee562906efcad21c91605f3c632/400_320_102400.jpg",
-    "title": "向井 純葉\n        \n      \n      \n        2026/8/21\n        目が合う回数\n      \n      ブログをご覧頂きありがとうございます。広 島 県 出 身 2 0 歳向 井 純 葉 ( む か い い と は ) で すSakurazaka46 ARENA TOU...\n    \n    \n      MORE",
+    "title": "佐藤 愛桜\n        \n      \n      \n        2026/8/21\n        　\n      \n      ブログを開いて下さりありがとうございます！佐賀県出身&amp;nbsp;19歳&amp;nbsp;佐藤愛桜です🌸「Sakurazaka46 ARENA TOUR 2026-What&#039;s ...\n    \n    \n      MORE",
     "publishedAt": "2026/8/21",
-    "url": "https://sakurazaka46.com/s/s46/diary/detail/70674?ima=0000&cd=blog",
+    "url": "https://sakurazaka46.com/s/s46/diary/detail/70676?ima=0000&cd=blog",
     "type": "official_blog"
   },
   {
-    "id": "saku-ss46diarydetail70666ima0000cdblog",
+    "id": "saku-ss46diarydetail70663ima0000cdblog",
     "groupId": "sakurazaka46",
     "franchise": "sakamichi",
     "memberId": "saku-matsumoto-wako",
@@ -154,13 +190,13 @@
     "memberGlyph": "松",
     "memberHueShift": 31,
     "memberImage": "https://sakurazaka46.com/images/14/bf2/8064d1930ea330c874b8c2a7e9be8/400_320_102400.jpg",
-    "title": "山田 桃実\n        \n      \n      \n        2026/8/20\n        きっかけ\n      \n      こんばんは！ブログを開いて下さりありがとうございます櫻坂46 四期生 山田桃実(やまだももみ)です☺︎岡山にうっすら雪が積もった...\n    \n    \n      MORE",
+    "title": "中川 智尋\n        \n      \n      \n        2026/8/20\n        青葉、ゆらゆら\n      \n      こんにちは四期生の中川智尋です🍀ここまで会いに来てくれてありがとうございます(  . .)&amp;quot;♩抹茶のかき氷を食べにいったよ誰...\n    \n    \n      MORE",
     "publishedAt": "2026/8/21",
-    "url": "https://sakurazaka46.com/s/s46/diary/detail/70666?ima=0000&cd=blog",
+    "url": "https://sakurazaka46.com/s/s46/diary/detail/70663?ima=0000&cd=blog",
     "type": "official_blog"
   },
   {
-    "id": "saku-ss46diarydetail70639ima0000cdblog",
+    "id": "saku-ss46diarydetail70643ima0000cdblog",
     "groupId": "sakurazaka46",
     "franchise": "sakamichi",
     "memberId": "saku-mukai-itoha",
@@ -172,13 +208,13 @@
     "memberGlyph": "向",
     "memberHueShift": -22,
     "memberImage": "https://sakurazaka46.com/images/14/9ae/17778d4155da0c18a427f993973b8/400_320_102400.jpg",
-    "title": "石森 璃花\n        \n      \n      \n        2026/8/19\n        青葉、195\n      \n      これは櫻坂46三期生オーディションの四次審査？のときの写真。今日と言う日を忘れないようにって思って撮った写真。目指す理由は...\n    \n    \n      MORE",
+    "title": "遠藤 光莉\n        \n      \n      \n        2026/8/19\n        #414. 青葉坂46🌱\n      \n      ブログを開いて下さり、ありがとうございます。櫻坂46 二期生の遠藤光莉です。ﾟ+｡::ﾟ｡:.ﾟ｡+｡｡+.:ﾟ｡:.ﾟ｡+｡｡+.｡ﾟ:;｡+ﾟ+｡:昨夜、渋...\n    \n    \n      MORE",
     "publishedAt": "2026/8/21",
-    "url": "https://sakurazaka46.com/s/s46/diary/detail/70639?ima=0000&cd=blog",
+    "url": "https://sakurazaka46.com/s/s46/diary/detail/70643?ima=0000&cd=blog",
     "type": "official_blog"
   },
   {
-    "id": "saku-ss46diarydetail70629ima0000cdblog",
+    "id": "saku-ss46diarydetail70628ima0000cdblog",
     "groupId": "sakurazaka46",
     "franchise": "sakamichi",
     "memberId": "saku-satou-neo",
@@ -190,9 +226,9 @@
     "memberGlyph": "佐",
     "memberHueShift": -21,
     "memberImage": "https://sakurazaka46.com/images/14/35d/3c74f9e90f2436549fad9918ba4ac/400_320_102400.jpg",
-    "title": "目黒 陽色\n        \n      \n      \n        2026/8/18\n        夏のご褒美。　目黒陽色\n      \n      こんばんは。四期生の目黒陽色（めぐろひいろ）です。夏もいよいよ折り返し☀️毎日暑いですが、みなさん元気に過ごしていますか❔...\n    \n    \n      MORE",
+    "title": "田村 保乃\n        \n      \n      \n        2026/8/18\n        ホワイト餃子\n      \n      ツアー千葉公演ありがとうございました☺️🎈上の方までたくさんみえたよーー‪＾‬ ‪＾‬初めて食べたホワイト餃子がとってもおいし...\n    \n    \n      MORE",
     "publishedAt": "2026/8/21",
-    "url": "https://sakurazaka46.com/s/s46/diary/detail/70629?ima=0000&cd=blog",
+    "url": "https://sakurazaka46.com/s/s46/diary/detail/70628?ima=0000&cd=blog",
     "type": "official_blog"
   },
   {
@@ -232,7 +268,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104781ima0936cdMEMBER",
+    "id": "nogi-sn46diarydetail104781ima2524cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -245,11 +281,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mobCg282P.jpg",
     "title": "神宮ー！！はじまるよー🏖☀️",
     "publishedAt": "2026.08.20 16:26",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104781?ima=0936&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104781?ima=2524&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104780ima0936cdMEMBER",
+    "id": "nogi-sn46diarydetail104780ima2524cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -262,7 +298,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mobVpEkCE.jpg",
     "title": "まるで母親みたいに",
     "publishedAt": "2026.08.20 15:13",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104780?ima=0936&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104780?ima=2524&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -317,24 +353,6 @@
     "title": "https://youtube.com/live/oKeXOP7idus",
     "publishedAt": "2026.8.20 12:31",
     "url": "https://youtube.com/live/oKeXOP7idus",
-    "type": "official_blog"
-  },
-  {
-    "id": "saku-ss46diarydetail70622ima0000cdblog",
-    "groupId": "sakurazaka46",
-    "franchise": "sakamichi",
-    "memberId": "saku-yamada-momomi",
-    "memberName": {
-      "ja": "山田 桃実",
-      "ko": "야마다 모모미",
-      "en": "Yamada Momomi"
-    },
-    "memberGlyph": "山",
-    "memberHueShift": 34,
-    "memberImage": "https://sakurazaka46.com/images/14/676/8b28bb50d64b1f8b3fed70b156476/400_320_102400.jpg",
-    "title": "松本 和子\n        \n      \n      \n        2026/8/18\n        ツアー！\n      \n      こんにちは開いてくださり、ありがとうございます！四期生の松本和子(まつもとわこ)です「Sakurazaka46 ARENA TOUR 2026 -What&amp;#...\n    \n    \n      MORE",
-    "publishedAt": "2026/8/20",
-    "url": "https://sakurazaka46.com/s/s46/diary/detail/70622?ima=0000&cd=blog",
     "type": "official_blog"
   },
   {
@@ -428,25 +446,7 @@
     "type": "official_blog"
   },
   {
-    "id": "hina-httpsfortunemusicjphinatazaka202609",
-    "groupId": "hinatazaka46",
-    "franchise": "sakamichi",
-    "memberId": "hina-fujishima-kaho",
-    "memberName": {
-      "ja": "藤嶌 果歩",
-      "ko": "후지시마 카호",
-      "en": "Fujishima Kaho"
-    },
-    "memberGlyph": "藤",
-    "memberHueShift": -14,
-    "memberImage": "https://cdn.hinatazaka46.com/images/14/064/fde79c3b07861b47854268d3e1f04/800_800_102400.jpg",
-    "title": "https:&#x2F;&#x2F;fortunemusic.jp&#x2F;hinatazaka_202609&#x2F;",
-    "publishedAt": "2026.8.19 20:13",
-    "url": "https://fortunemusic.jp/hinatazaka_202609/",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-sn46diarydetail104778ima0936cdMEMBER",
+    "id": "nogi-sn46diarydetail104778ima2524cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -459,11 +459,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mob0BlvtG.jpg",
     "title": "東風吹かば　匂いおこせよ　乃木坂ちゃん！",
     "publishedAt": "2026.08.19 16:59",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104778?ima=0936&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104778?ima=2524&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104779ima0936cdMEMBER",
+    "id": "nogi-sn46diarydetail104779ima2524cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -476,11 +476,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/260819_1.jpg",
     "title": "涼しくなあれ涼しくなあれ",
     "publishedAt": "2026.08.19 16:45",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104779?ima=0936&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104779?ima=2524&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104777ima0936cdMEMBER",
+    "id": "nogi-sn46diarydetail104777ima2524cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -493,11 +493,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mob1R3ORD.jpg",
     "title": "優しさ",
     "publishedAt": "2026.08.18 11:52",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104777?ima=0936&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104777?ima=2524&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104776ima0936cdMEMBER",
+    "id": "nogi-sn46diarydetail104776ima2524cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -510,11 +510,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mob8SZLzf.png",
     "title": "神様はキミの味方！",
     "publishedAt": "2026.08.17 21:10",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104776?ima=0936&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104776?ima=2524&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104775ima0936cdMEMBER",
+    "id": "nogi-sn46diarydetail104775ima2524cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -527,7 +527,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mobf7RdNf.jpg",
     "title": "愛は与えるものと君を見てて思った",
     "publishedAt": "2026.08.17 12:48",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104775?ima=0936&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104775?ima=2524&cd=MEMBER",
     "type": "official_blog"
   },
   {
