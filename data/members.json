@@ -22974,5 +22974,3541 @@
       "checkedAt": "2026-08-22",
       "note": null
     }
+  },
+  {
+    "id": "akb48-gyouten-yurina",
+    "name": {
+      "ja": {
+        "kanji": "行天優莉奈",
+        "kana": "ぎょうてん ゆりな"
+      },
+      "ko": {
+        "hangul": "교우템 유리나"
+      },
+      "en": {
+        "romaji": "Gyouten Yurina"
+      },
+      "aliases": [
+        "gyouten yurina",
+        "行天優莉奈",
+        "교우템 유리나"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "1999-03-14",
+    "birthplace": {
+      "ja": "香川県",
+      "ko": "香川県",
+      "en": "香川県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "行",
+      "hueShift": -37
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/AKB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "akb48-kurosu-haruka",
+    "name": {
+      "ja": {
+        "kanji": "黒須遥香",
+        "kana": "くろす はるか"
+      },
+      "ko": {
+        "hangul": "쿠로스 하루카"
+      },
+      "en": {
+        "romaji": "Kurosu Haruka"
+      },
+      "aliases": [
+        "kurosu haruka",
+        "黒須遥香",
+        "쿠로스 하루카"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2001-02-28",
+    "birthplace": {
+      "ja": "埼玉県",
+      "ko": "埼玉県",
+      "en": "埼玉県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "黒",
+      "hueShift": 39
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/AKB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "akb48-yamane-suzuha",
+    "name": {
+      "ja": {
+        "kanji": "山根涼羽",
+        "kana": "やまね すずは"
+      },
+      "ko": {
+        "hangul": "야마네 스즈하"
+      },
+      "en": {
+        "romaji": "Yamane Suzuha"
+      },
+      "aliases": [
+        "yamane suzuha",
+        "山根涼羽",
+        "야마네 스즈하"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2000-08-11",
+    "birthplace": {
+      "ja": "兵庫県",
+      "ko": "兵庫県",
+      "en": "兵庫県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "山",
+      "hueShift": -24
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/AKB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "akb48-oota-yuki",
+    "name": {
+      "ja": {
+        "kanji": "太田有紀",
+        "kana": "おおた ゆき"
+      },
+      "ko": {
+        "hangul": "오오타 유키"
+      },
+      "en": {
+        "romaji": "Oota Yuki"
+      },
+      "aliases": [
+        "oota yuki",
+        "太田有紀",
+        "오오타 유키"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2004-03-27",
+    "birthplace": {
+      "ja": "神奈川県",
+      "ko": "神奈川県",
+      "en": "神奈川県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "太",
+      "hueShift": -38
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/AKB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "akb48-hashimoto-eriko",
+    "name": {
+      "ja": {
+        "kanji": "橋本恵理子",
+        "kana": "はしもと えりこ"
+      },
+      "ko": {
+        "hangul": "하시모토 에리코"
+      },
+      "en": {
+        "romaji": "Hashimoto Eriko"
+      },
+      "aliases": [
+        "hashimoto eriko",
+        "橋本恵理子",
+        "하시모토 에리코"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2006-04-16",
+    "birthplace": {
+      "ja": "大阪府",
+      "ko": "大阪府",
+      "en": "大阪府"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "橋",
+      "hueShift": 20
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/AKB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "akb48-hatakeyama-nozomi",
+    "name": {
+      "ja": {
+        "kanji": "畠山希美",
+        "kana": "はたけやま のぞみ"
+      },
+      "ko": {
+        "hangul": "하타케야마 노조미"
+      },
+      "en": {
+        "romaji": "Hatakeyama Nozomi"
+      },
+      "aliases": [
+        "hatakeyama nozomi",
+        "畠山希美",
+        "하타케야마 노조미"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2008-01-25",
+    "birthplace": {
+      "ja": "埼玉県",
+      "ko": "埼玉県",
+      "en": "埼玉県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "畠",
+      "hueShift": -37
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/AKB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "akb48-hirata-yuki",
+    "name": {
+      "ja": {
+        "kanji": "平田侑希",
+        "kana": "ひらた ゆき"
+      },
+      "ko": {
+        "hangul": "히라타 유키"
+      },
+      "en": {
+        "romaji": "Hirata Yuki"
+      },
+      "aliases": [
+        "hirata yuki",
+        "平田侑希",
+        "히라타 유키"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2002-09-03",
+    "birthplace": {
+      "ja": "埼玉県",
+      "ko": "埼玉県",
+      "en": "埼玉県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "平",
+      "hueShift": -18
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/AKB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "akb48-hotei-moka",
+    "name": {
+      "ja": {
+        "kanji": "布袋百椛",
+        "kana": "ほてい もか"
+      },
+      "ko": {
+        "hangul": "호테이 모카"
+      },
+      "en": {
+        "romaji": "Hotei Moka"
+      },
+      "aliases": [
+        "hotei moka",
+        "布袋百椛",
+        "호테이 모카"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2004-12-01",
+    "birthplace": {
+      "ja": "兵庫県",
+      "ko": "兵庫県",
+      "en": "兵庫県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "布",
+      "hueShift": 7
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/AKB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "akb48-masai-mayuu",
+    "name": {
+      "ja": {
+        "kanji": "正鋳真優",
+        "kana": "まさい まゆう"
+      },
+      "ko": {
+        "hangul": "마사이 마유우"
+      },
+      "en": {
+        "romaji": "Masai Mayuu"
+      },
+      "aliases": [
+        "masai mayuu",
+        "正鋳真優",
+        "마사이 마유우"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2005-03-01",
+    "birthplace": {
+      "ja": "埼玉県",
+      "ko": "埼玉県",
+      "en": "埼玉県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "正",
+      "hueShift": -17
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/AKB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "akb48-mizushima-miyuu",
+    "name": {
+      "ja": {
+        "kanji": "水島美結",
+        "kana": "みずしま みゆう"
+      },
+      "ko": {
+        "hangul": "미즈시마 미유우"
+      },
+      "en": {
+        "romaji": "Mizushima Miyuu"
+      },
+      "aliases": [
+        "mizushima miyuu",
+        "水島美結",
+        "미즈시마 미유우"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2003-11-12",
+    "birthplace": {
+      "ja": "北海道",
+      "ko": "北海道",
+      "en": "北海道"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "水",
+      "hueShift": -25
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/AKB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "akb48-kudou-kasumi",
+    "name": {
+      "ja": {
+        "kanji": "工藤華純",
+        "kana": "くどう かすみ"
+      },
+      "ko": {
+        "hangul": "쿠도우 카스미"
+      },
+      "en": {
+        "romaji": "Kudou Kasumi"
+      },
+      "aliases": [
+        "kudou kasumi",
+        "工藤華純",
+        "쿠도우 카스미"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2005-06-15",
+    "birthplace": {
+      "ja": "大分県",
+      "ko": "大分県",
+      "en": "大分県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "工",
+      "hueShift": 19
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/AKB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "akb48-kubo-hinano",
+    "name": {
+      "ja": {
+        "kanji": "久保姫菜乃",
+        "kana": "くぼ ひなの"
+      },
+      "ko": {
+        "hangul": "쿠보 히나노"
+      },
+      "en": {
+        "romaji": "Kubo Hinano"
+      },
+      "aliases": [
+        "kubo hinano",
+        "久保姫菜乃",
+        "쿠보 히나노"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2006-02-02",
+    "birthplace": {
+      "ja": "長野県",
+      "ko": "長野県",
+      "en": "長野県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "久",
+      "hueShift": -20
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/AKB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "akb48-sako-yumemi",
+    "name": {
+      "ja": {
+        "kanji": "迫由芽実",
+        "kana": "さこ ゆめみ"
+      },
+      "ko": {
+        "hangul": "사코 유메미"
+      },
+      "en": {
+        "romaji": "Sako Yumemi"
+      },
+      "aliases": [
+        "sako yumemi",
+        "迫由芽実",
+        "사코 유메미"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2006-02-05",
+    "birthplace": {
+      "ja": "埼玉県",
+      "ko": "埼玉県",
+      "en": "埼玉県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "迫",
+      "hueShift": -20
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/AKB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "akb48-narita-kohina",
+    "name": {
+      "ja": {
+        "kanji": "成田香姫奈",
+        "kana": "なりた こひな"
+      },
+      "ko": {
+        "hangul": "나리타 코히나"
+      },
+      "en": {
+        "romaji": "Narita Kohina"
+      },
+      "aliases": [
+        "narita kohina",
+        "成田香姫奈",
+        "나리타 코히나"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2004-03-03",
+    "birthplace": {
+      "ja": "北海道",
+      "ko": "北海道",
+      "en": "北海道"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "成",
+      "hueShift": 8
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/AKB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "akb48-yamaguchi-yui",
+    "name": {
+      "ja": {
+        "kanji": "山口結愛",
+        "kana": "やまぐち ゆい"
+      },
+      "ko": {
+        "hangul": "야마구치 유이"
+      },
+      "en": {
+        "romaji": "Yamaguchi Yui"
+      },
+      "aliases": [
+        "yamaguchi yui",
+        "山口結愛",
+        "야마구치 유이"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2009-03-08",
+    "birthplace": {
+      "ja": "長崎県",
+      "ko": "長崎県",
+      "en": "長崎県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "山",
+      "hueShift": 4
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/AKB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "akb48-okumoto-kairi",
+    "name": {
+      "ja": {
+        "kanji": "奥本カイリ",
+        "kana": "おくもと かいり"
+      },
+      "ko": {
+        "hangul": "오쿠모토 카이리"
+      },
+      "en": {
+        "romaji": "Okumoto Kairi"
+      },
+      "aliases": [
+        "okumoto kairi",
+        "奥本カイリ",
+        "오쿠모토 카이리"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2007-01-27",
+    "birthplace": {
+      "ja": "東京都",
+      "ko": "東京都",
+      "en": "東京都"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "奥",
+      "hueShift": 7
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/AKB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "akb48-kawamura-yui",
+    "name": {
+      "ja": {
+        "kanji": "川村結衣",
+        "kana": "かわむら ゆい"
+      },
+      "ko": {
+        "hangul": "카와무라 유이"
+      },
+      "en": {
+        "romaji": "Kawamura Yui"
+      },
+      "aliases": [
+        "kawamura yui",
+        "川村結衣",
+        "카와무라 유이"
+      ]
+    },
+    "primaryGroupId": "akb48",
+    "primaryGenerationId": "akb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "akb48",
+        "generationId": "akb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2006-06-18",
+    "birthplace": {
+      "ja": "北海道",
+      "ko": "北海道",
+      "en": "北海道"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "川",
+      "hueShift": -38
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/AKB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-aobara-yuka",
+    "name": {
+      "ja": {
+        "kanji": "青原優花",
+        "kana": "あおばら ゆか"
+      },
+      "ko": {
+        "hangul": "아오바라 유카"
+      },
+      "en": {
+        "romaji": "Aobara Yuka"
+      },
+      "aliases": [
+        "aobara yuka",
+        "青原優花",
+        "아오바라 유카"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2007-07-12",
+    "birthplace": {
+      "ja": "大阪府",
+      "ko": "大阪府",
+      "en": "大阪府"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "青",
+      "hueShift": 3
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-ike-honoka",
+    "name": {
+      "ja": {
+        "kanji": "池帆乃香",
+        "kana": "いけ ほのか"
+      },
+      "ko": {
+        "hangul": "이케 호노카"
+      },
+      "en": {
+        "romaji": "Ike Honoka"
+      },
+      "aliases": [
+        "ike honoka",
+        "池帆乃香",
+        "이케 호노카"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2003-12-16",
+    "birthplace": {
+      "ja": "奈良県",
+      "ko": "奈良県",
+      "en": "奈良県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "池",
+      "hueShift": -19
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-ikeda-tenna",
+    "name": {
+      "ja": {
+        "kanji": "池田典愛",
+        "kana": "いけだ てんな"
+      },
+      "ko": {
+        "hangul": "이케다 텐나"
+      },
+      "en": {
+        "romaji": "Ikeda Tenna"
+      },
+      "aliases": [
+        "ikeda tenna",
+        "池田典愛",
+        "이케다 텐나"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2005-10-05",
+    "birthplace": {
+      "ja": "兵庫県",
+      "ko": "兵庫県",
+      "en": "兵庫県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "池",
+      "hueShift": 12
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-ishiyama-chihiro",
+    "name": {
+      "ja": {
+        "kanji": "石山千尋",
+        "kana": "いしやま ちひろ"
+      },
+      "ko": {
+        "hangul": "이시야마 치히로"
+      },
+      "en": {
+        "romaji": "Ishiyama Chihiro"
+      },
+      "aliases": [
+        "ishiyama chihiro",
+        "石山千尋",
+        "이시야마 치히로"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2008-05-24",
+    "birthplace": {
+      "ja": "兵庫県",
+      "ko": "兵庫県",
+      "en": "兵庫県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "石",
+      "hueShift": -4
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-itagaki-koyori",
+    "name": {
+      "ja": {
+        "kanji": "板垣心和",
+        "kana": "いたがき こより"
+      },
+      "ko": {
+        "hangul": "이타가키 코요리"
+      },
+      "en": {
+        "romaji": "Itagaki Koyori"
+      },
+      "aliases": [
+        "itagaki koyori",
+        "板垣心和",
+        "이타가키 코요리"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2005-05-23",
+    "birthplace": {
+      "ja": "三重県",
+      "ko": "三重県",
+      "en": "三重県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "板",
+      "hueShift": 31
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-uchida-aisha",
+    "name": {
+      "ja": {
+        "kanji": "内田愛彩",
+        "kana": "うちだ あいしゃ"
+      },
+      "ko": {
+        "hangul": "우치다 아이샤"
+      },
+      "en": {
+        "romaji": "Uchida Aisha"
+      },
+      "aliases": [
+        "uchida aisha",
+        "内田愛彩",
+        "우치다 아이샤"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2004-06-12",
+    "birthplace": {
+      "ja": "大阪府",
+      "ko": "大阪府",
+      "en": "大阪府"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "内",
+      "hueShift": -29
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-okagoshi-seira",
+    "name": {
+      "ja": {
+        "kanji": "岡腰星来",
+        "kana": "おかごし せいら"
+      },
+      "ko": {
+        "hangul": "오카고시 세이라"
+      },
+      "en": {
+        "romaji": "Okagoshi Seira"
+      },
+      "aliases": [
+        "okagoshi seira",
+        "岡腰星来",
+        "오카고시 세이라"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2006-11-10",
+    "birthplace": {
+      "ja": "大阪府",
+      "ko": "大阪府",
+      "en": "大阪府"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "岡",
+      "hueShift": 22
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-kinugasa-ayami",
+    "name": {
+      "ja": {
+        "kanji": "衣笠彩実",
+        "kana": "きぬがさ あやみ"
+      },
+      "ko": {
+        "hangul": "키누가사 아야미"
+      },
+      "en": {
+        "romaji": "Kinugasa Ayami"
+      },
+      "aliases": [
+        "kinugasa ayami",
+        "衣笠彩実",
+        "키누가사 아야미"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2010-11-03",
+    "birthplace": {
+      "ja": "大阪府",
+      "ko": "大阪府",
+      "en": "大阪府"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "衣",
+      "hueShift": -1
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-kine-iroha",
+    "name": {
+      "ja": {
+        "kanji": "木根彩呂花",
+        "kana": "きね いろは"
+      },
+      "ko": {
+        "hangul": "키네 이로하"
+      },
+      "en": {
+        "romaji": "Kine Iroha"
+      },
+      "aliases": [
+        "kine iroha",
+        "木根彩呂花",
+        "키네 이로하"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2010-10-25",
+    "birthplace": {
+      "ja": "大阪府",
+      "ko": "大阪府",
+      "en": "大阪府"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "木",
+      "hueShift": 5
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-kuroshima-sakura",
+    "name": {
+      "ja": {
+        "kanji": "黒島咲花",
+        "kana": "くろしま さくら"
+      },
+      "ko": {
+        "hangul": "쿠로시마 사쿠라"
+      },
+      "en": {
+        "romaji": "Kuroshima Sakura"
+      },
+      "aliases": [
+        "kuroshima sakura",
+        "黒島咲花",
+        "쿠로시마 사쿠라"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2009-04-07",
+    "birthplace": {
+      "ja": "大阪府",
+      "ko": "大阪府",
+      "en": "大阪府"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "黒",
+      "hueShift": 0
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-sakashita-mako",
+    "name": {
+      "ja": {
+        "kanji": "坂下真心",
+        "kana": "さかした まこ"
+      },
+      "ko": {
+        "hangul": "사카시타 마코"
+      },
+      "en": {
+        "romaji": "Sakashita Mako"
+      },
+      "aliases": [
+        "sakashita mako",
+        "坂下真心",
+        "사카시타 마코"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2005-08-02",
+    "birthplace": {
+      "ja": "大阪府",
+      "ko": "大阪府",
+      "en": "大阪府"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "坂",
+      "hueShift": -17
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-sakurada-ayaka",
+    "name": {
+      "ja": {
+        "kanji": "桜田彩叶",
+        "kana": "さくらだ あやか"
+      },
+      "ko": {
+        "hangul": "사쿠라다 아야카"
+      },
+      "en": {
+        "romaji": "Sakurada Ayaka"
+      },
+      "aliases": [
+        "sakurada ayaka",
+        "桜田彩叶",
+        "사쿠라다 아야카"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2002-03-25",
+    "birthplace": {
+      "ja": "岡山県",
+      "ko": "岡山県",
+      "en": "岡山県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "桜",
+      "hueShift": -16
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-shibuya-asana",
+    "name": {
+      "ja": {
+        "kanji": "澁谷愛紗南",
+        "kana": "しぶや あさな"
+      },
+      "ko": {
+        "hangul": "시부야 아사나"
+      },
+      "en": {
+        "romaji": "Shibuya Asana"
+      },
+      "aliases": [
+        "shibuya asana",
+        "澁谷愛紗南",
+        "시부야 아사나"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2006-10-27",
+    "birthplace": {
+      "ja": "宮城県",
+      "ko": "宮城県",
+      "en": "宮城県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "澁",
+      "hueShift": 12
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-takahashi-kotone",
+    "name": {
+      "ja": {
+        "kanji": "高橋ことね",
+        "kana": "たかはし ことね"
+      },
+      "ko": {
+        "hangul": "타카하시 코토네"
+      },
+      "en": {
+        "romaji": "Takahashi Kotone"
+      },
+      "aliases": [
+        "takahashi kotone",
+        "高橋ことね",
+        "타카하시 코토네"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2003-04-20",
+    "birthplace": {
+      "ja": "大阪府",
+      "ko": "大阪府",
+      "en": "大阪府"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "高",
+      "hueShift": -30
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-takeda-kyouka",
+    "name": {
+      "ja": {
+        "kanji": "竹田京加",
+        "kana": "たけだ きょうか"
+      },
+      "ko": {
+        "hangul": "타케다 쿄우카"
+      },
+      "en": {
+        "romaji": "Takeda Kyouka"
+      },
+      "aliases": [
+        "takeda kyouka",
+        "竹田京加",
+        "타케다 쿄우카"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2012-09-13",
+    "birthplace": {
+      "ja": "大阪府",
+      "ko": "大阪府",
+      "en": "大阪府"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "竹",
+      "hueShift": -2
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-tatsumoto-yayoi",
+    "name": {
+      "ja": {
+        "kanji": "龍本弥生",
+        "kana": "たつもと やよい"
+      },
+      "ko": {
+        "hangul": "타쓰모토 야요이"
+      },
+      "en": {
+        "romaji": "Tatsumoto Yayoi"
+      },
+      "aliases": [
+        "tatsumoto yayoi",
+        "龍本弥生",
+        "타쓰모토 야요이"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2005-03-02",
+    "birthplace": {
+      "ja": "兵庫県",
+      "ko": "兵庫県",
+      "en": "兵庫県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "龍",
+      "hueShift": -18
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-tanaka-misora",
+    "name": {
+      "ja": {
+        "kanji": "田中美空",
+        "kana": "たなか みそら"
+      },
+      "ko": {
+        "hangul": "타나카 미소라"
+      },
+      "en": {
+        "romaji": "Tanaka Misora"
+      },
+      "aliases": [
+        "tanaka misora",
+        "田中美空",
+        "타나카 미소라"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2004-08-24",
+    "birthplace": {
+      "ja": "京都府",
+      "ko": "京都府",
+      "en": "京都府"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "田",
+      "hueShift": -5
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-nakagawa-tomoka",
+    "name": {
+      "ja": {
+        "kanji": "中川朋香",
+        "kana": "なかがわ ともか"
+      },
+      "ko": {
+        "hangul": "나카가와 토모카"
+      },
+      "en": {
+        "romaji": "Nakagawa Tomoka"
+      },
+      "aliases": [
+        "nakagawa tomoka",
+        "中川朋香",
+        "나카가와 토모카"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2006-01-02",
+    "birthplace": {
+      "ja": "和歌山県",
+      "ko": "和歌山県",
+      "en": "和歌山県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "中",
+      "hueShift": 36
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-nishijima-rio",
+    "name": {
+      "ja": {
+        "kanji": "西島梨央",
+        "kana": "にしじま りお"
+      },
+      "ko": {
+        "hangul": "니시지마 리오"
+      },
+      "en": {
+        "romaji": "Nishijima Rio"
+      },
+      "aliases": [
+        "nishijima rio",
+        "西島梨央",
+        "니시지마 리오"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2004-11-08",
+    "birthplace": {
+      "ja": "静岡県",
+      "ko": "静岡県",
+      "en": "静岡県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "西",
+      "hueShift": -28
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-nishida-honoka",
+    "name": {
+      "ja": {
+        "kanji": "西田帆花",
+        "kana": "にしだ ほのか"
+      },
+      "ko": {
+        "hangul": "니시다 호노카"
+      },
+      "en": {
+        "romaji": "Nishida Honoka"
+      },
+      "aliases": [
+        "nishida honoka",
+        "西田帆花",
+        "니시다 호노카"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2005-03-10",
+    "birthplace": {
+      "ja": "奈良県",
+      "ko": "奈良県",
+      "en": "奈良県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "西",
+      "hueShift": -31
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-fukuno-ami",
+    "name": {
+      "ja": {
+        "kanji": "福野杏実",
+        "kana": "ふくの あみ"
+      },
+      "ko": {
+        "hangul": "후쿠노 아미"
+      },
+      "en": {
+        "romaji": "Fukuno Ami"
+      },
+      "aliases": [
+        "fukuno ami",
+        "福野杏実",
+        "후쿠노 아미"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2005-05-24",
+    "birthplace": {
+      "ja": "大阪府",
+      "ko": "大阪府",
+      "en": "大阪府"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "福",
+      "hueShift": -35
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-matsuoka-sakura",
+    "name": {
+      "ja": {
+        "kanji": "松岡さくら",
+        "kana": "まつおか さくら"
+      },
+      "ko": {
+        "hangul": "마쓰오카 사쿠라"
+      },
+      "en": {
+        "romaji": "Matsuoka Sakura"
+      },
+      "aliases": [
+        "matsuoka sakura",
+        "松岡さくら",
+        "마쓰오카 사쿠라"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2003-06-24",
+    "birthplace": {
+      "ja": "大阪府",
+      "ko": "大阪府",
+      "en": "大阪府"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "松",
+      "hueShift": 35
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-matsumoto-mihina",
+    "name": {
+      "ja": {
+        "kanji": "松本海日菜",
+        "kana": "まつもと みひな"
+      },
+      "ko": {
+        "hangul": "마쓰모토 미히나"
+      },
+      "en": {
+        "romaji": "Matsumoto Mihina"
+      },
+      "aliases": [
+        "matsumoto mihina",
+        "松本海日菜",
+        "마쓰모토 미히나"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2008-05-22",
+    "birthplace": {
+      "ja": "大阪府",
+      "ko": "大阪府",
+      "en": "大阪府"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "松",
+      "hueShift": -40
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-mikamo-kurumi",
+    "name": {
+      "ja": {
+        "kanji": "三鴨くるみ",
+        "kana": "みかも くるみ"
+      },
+      "ko": {
+        "hangul": "미카모 쿠루미"
+      },
+      "en": {
+        "romaji": "Mikamo Kurumi"
+      },
+      "aliases": [
+        "mikamo kurumi",
+        "三鴨くるみ",
+        "미카모 쿠루미"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2001-10-31",
+    "birthplace": {
+      "ja": "東京都",
+      "ko": "東京都",
+      "en": "東京都"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "三",
+      "hueShift": -35
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-miyazaki-sae",
+    "name": {
+      "ja": {
+        "kanji": "宮崎紗衣",
+        "kana": "みやざき さえ"
+      },
+      "ko": {
+        "hangul": "미야자키 사에"
+      },
+      "en": {
+        "romaji": "Miyazaki Sae"
+      },
+      "aliases": [
+        "miyazaki sae",
+        "宮崎紗衣",
+        "미야자키 사에"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2010-12-29",
+    "birthplace": {
+      "ja": "三重県",
+      "ko": "三重県",
+      "en": "三重県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "宮",
+      "hueShift": 34
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-miyahara-konon",
+    "name": {
+      "ja": {
+        "kanji": "宮原心音",
+        "kana": "みやはら このん"
+      },
+      "ko": {
+        "hangul": "미야하라 코놈"
+      },
+      "en": {
+        "romaji": "Miyahara Konon"
+      },
+      "aliases": [
+        "miyahara konon",
+        "宮原心音",
+        "미야하라 코놈"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2010-04-19",
+    "birthplace": {
+      "ja": "大阪府",
+      "ko": "大阪府",
+      "en": "大阪府"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "宮",
+      "hueShift": 12
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-miyamoto-ami",
+    "name": {
+      "ja": {
+        "kanji": "宮本杏海",
+        "kana": "みやもと あみ"
+      },
+      "ko": {
+        "hangul": "미야모토 아미"
+      },
+      "en": {
+        "romaji": "Miyamoto Ami"
+      },
+      "aliases": [
+        "miyamoto ami",
+        "宮本杏海",
+        "미야모토 아미"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2010-07-01",
+    "birthplace": {
+      "ja": "兵庫県",
+      "ko": "兵庫県",
+      "en": "兵庫県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "宮",
+      "hueShift": 27
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-murai-yuuri",
+    "name": {
+      "ja": {
+        "kanji": "村井悠莉",
+        "kana": "むらい ゆうり"
+      },
+      "ko": {
+        "hangul": "무라이 유우리"
+      },
+      "en": {
+        "romaji": "Murai Yuuri"
+      },
+      "aliases": [
+        "murai yuuri",
+        "村井悠莉",
+        "무라이 유우리"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2005-03-05",
+    "birthplace": {
+      "ja": "三重県",
+      "ko": "三重県",
+      "en": "三重県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "村",
+      "hueShift": -4
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-yamaguchi-mio",
+    "name": {
+      "ja": {
+        "kanji": "山口美桜",
+        "kana": "やまぐち みお"
+      },
+      "ko": {
+        "hangul": "야마구치 미오"
+      },
+      "en": {
+        "romaji": "Yamaguchi Mio"
+      },
+      "aliases": [
+        "yamaguchi mio",
+        "山口美桜",
+        "야마구치 미오"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2007-09-27",
+    "birthplace": {
+      "ja": "大阪府",
+      "ko": "大阪府",
+      "en": "大阪府"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "山",
+      "hueShift": 2
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "nmb48-yoshimi-ayane",
+    "name": {
+      "ja": {
+        "kanji": "吉見純音",
+        "kana": "よしみ あやね"
+      },
+      "ko": {
+        "hangul": "요시미 아야네"
+      },
+      "en": {
+        "romaji": "Yoshimi Ayane"
+      },
+      "aliases": [
+        "yoshimi ayane",
+        "吉見純音",
+        "요시미 아야네"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2007-10-18",
+    "birthplace": {
+      "ja": "兵庫県",
+      "ko": "兵庫県",
+      "en": "兵庫県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "吉",
+      "hueShift": 5
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NMB48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-ikuno-rina",
+    "name": {
+      "ja": {
+        "kanji": "生野莉奈",
+        "kana": "いくの りな"
+      },
+      "ko": {
+        "hangul": "이쿠노 리나"
+      },
+      "en": {
+        "romaji": "Ikuno Rina"
+      },
+      "aliases": [
+        "ikuno rina",
+        "生野莉奈",
+        "이쿠노 리나"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2010-08-03",
+    "birthplace": {
+      "ja": "福岡県",
+      "ko": "福岡県",
+      "en": "福岡県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "生",
+      "hueShift": -35
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-ishimatsu-yuina",
+    "name": {
+      "ja": {
+        "kanji": "石松結菜",
+        "kana": "いしまつ ゆいな"
+      },
+      "ko": {
+        "hangul": "이시마쓰 유이나"
+      },
+      "en": {
+        "romaji": "Ishimatsu Yuina"
+      },
+      "aliases": [
+        "ishimatsu yuina",
+        "石松結菜",
+        "이시마쓰 유이나"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2012-01-28",
+    "birthplace": {
+      "ja": "福岡県",
+      "ko": "福岡県",
+      "en": "福岡県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "石",
+      "hueShift": -25
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-kitagawa-hiiro",
+    "name": {
+      "ja": {
+        "kanji": "北川陽彩",
+        "kana": "きたがわ ひいろ"
+      },
+      "ko": {
+        "hangul": "키타가와 히이로"
+      },
+      "en": {
+        "romaji": "Kitagawa Hiiro"
+      },
+      "aliases": [
+        "kitagawa hiiro",
+        "北川陽彩",
+        "키타가와 히이로"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2004-01-23",
+    "birthplace": {
+      "ja": "福岡県",
+      "ko": "福岡県",
+      "en": "福岡県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "北",
+      "hueShift": 6
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-shibui-mina",
+    "name": {
+      "ja": {
+        "kanji": "渋井美奈",
+        "kana": "しぶい みな"
+      },
+      "ko": {
+        "hangul": "시부이 미나"
+      },
+      "en": {
+        "romaji": "Shibui Mina"
+      },
+      "aliases": [
+        "shibui mina",
+        "渋井美奈",
+        "시부이 미나"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2009-03-23",
+    "birthplace": {
+      "ja": "東京都",
+      "ko": "東京都",
+      "en": "東京都"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "渋",
+      "hueShift": -2
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-nakano-minami",
+    "name": {
+      "ja": {
+        "kanji": "中野南実",
+        "kana": "なかの みなみ"
+      },
+      "ko": {
+        "hangul": "나카노 미나미"
+      },
+      "en": {
+        "romaji": "Nakano Minami"
+      },
+      "aliases": [
+        "nakano minami",
+        "中野南実",
+        "나카노 미나미"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2008-12-29",
+    "birthplace": {
+      "ja": "福岡県",
+      "ko": "福岡県",
+      "en": "福岡県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "中",
+      "hueShift": -26
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-fujino-kokoha",
+    "name": {
+      "ja": {
+        "kanji": "藤野心葉",
+        "kana": "ふじの ここは"
+      },
+      "ko": {
+        "hangul": "후지노 코코하"
+      },
+      "en": {
+        "romaji": "Fujino Kokoha"
+      },
+      "aliases": [
+        "fujino kokoha",
+        "藤野心葉",
+        "후지노 코코하"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2008-05-25",
+    "birthplace": {
+      "ja": "福岡県",
+      "ko": "福岡県",
+      "en": "福岡県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "藤",
+      "hueShift": -29
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-matsunaga-yui",
+    "name": {
+      "ja": {
+        "kanji": "松永悠良",
+        "kana": "まつなが ゆい"
+      },
+      "ko": {
+        "hangul": "마쓰나가 유이"
+      },
+      "en": {
+        "romaji": "Matsunaga Yui"
+      },
+      "aliases": [
+        "matsunaga yui",
+        "松永悠良",
+        "마쓰나가 유이"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2009-11-13",
+    "birthplace": {
+      "ja": "福岡県",
+      "ko": "福岡県",
+      "en": "福岡県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "松",
+      "hueShift": 9
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-yanase-reia",
+    "name": {
+      "ja": {
+        "kanji": "梁瀬鈴雅",
+        "kana": "やなせ れいあ"
+      },
+      "ko": {
+        "hangul": "야나세 레이아"
+      },
+      "en": {
+        "romaji": "Yanase Reia"
+      },
+      "aliases": [
+        "yanase reia",
+        "梁瀬鈴雅",
+        "야나세 레이아"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2006-06-29",
+    "birthplace": {
+      "ja": "神奈川県",
+      "ko": "神奈川県",
+      "en": "神奈川県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "梁",
+      "hueShift": -33
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-yamauchi-yuuna",
+    "name": {
+      "ja": {
+        "kanji": "山内祐奈",
+        "kana": "やまうち ゆうな"
+      },
+      "ko": {
+        "hangul": "야마우치 유우나"
+      },
+      "en": {
+        "romaji": "Yamauchi Yuuna"
+      },
+      "aliases": [
+        "yamauchi yuuna",
+        "山内祐奈",
+        "야마우치 유우나"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "1999-07-06",
+    "birthplace": {
+      "ja": "福岡県",
+      "ko": "福岡県",
+      "en": "福岡県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "山",
+      "hueShift": 26
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-ryuutou-ayane",
+    "name": {
+      "ja": {
+        "kanji": "龍頭綺音",
+        "kana": "りゅうとう あやね"
+      },
+      "ko": {
+        "hangul": "류우토우 아야네"
+      },
+      "en": {
+        "romaji": "Ryuutou Ayane"
+      },
+      "aliases": [
+        "ryuutou ayane",
+        "龍頭綺音",
+        "류우토우 아야네"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2010-06-30",
+    "birthplace": {
+      "ja": "長崎県",
+      "ko": "長崎県",
+      "en": "長崎県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "龍",
+      "hueShift": 14
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-izawa-miyu",
+    "name": {
+      "ja": {
+        "kanji": "井澤美優",
+        "kana": "いざわ みゆ"
+      },
+      "ko": {
+        "hangul": "이자와 미유"
+      },
+      "en": {
+        "romaji": "Izawa Miyu"
+      },
+      "aliases": [
+        "izawa miyu",
+        "井澤美優",
+        "이자와 미유"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2006-08-14",
+    "birthplace": {
+      "ja": "福岡県",
+      "ko": "福岡県",
+      "en": "福岡県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "井",
+      "hueShift": 14
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-ishii-ayane",
+    "name": {
+      "ja": {
+        "kanji": "石井彩音",
+        "kana": "いしい あやね"
+      },
+      "ko": {
+        "hangul": "이시이 아야네"
+      },
+      "en": {
+        "romaji": "Ishii Ayane"
+      },
+      "aliases": [
+        "ishii ayane",
+        "石井彩音",
+        "이시이 아야네"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2006-11-27",
+    "birthplace": {
+      "ja": "福岡県",
+      "ko": "福岡県",
+      "en": "福岡県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "石",
+      "hueShift": -35
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-ihara-hanna",
+    "name": {
+      "ja": {
+        "kanji": "猪原絆愛",
+        "kana": "いはら はんな"
+      },
+      "ko": {
+        "hangul": "이하라 한나"
+      },
+      "en": {
+        "romaji": "Ihara Hanna"
+      },
+      "aliases": [
+        "ihara hanna",
+        "猪原絆愛",
+        "이하라 한나"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2011-02-27",
+    "birthplace": {
+      "ja": "大分県",
+      "ko": "大分県",
+      "en": "大分県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "猪",
+      "hueShift": 37
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-imamura-maria",
+    "name": {
+      "ja": {
+        "kanji": "今村麻莉愛",
+        "kana": "いまむら まりあ"
+      },
+      "ko": {
+        "hangul": "이마무라 마리아"
+      },
+      "en": {
+        "romaji": "Imamura Maria"
+      },
+      "aliases": [
+        "imamura maria",
+        "今村麻莉愛",
+        "이마무라 마리아"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2003-09-14",
+    "birthplace": {
+      "ja": "群馬県",
+      "ko": "群馬県",
+      "en": "群馬県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "今",
+      "hueShift": 26
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-eura-yuuka",
+    "name": {
+      "ja": {
+        "kanji": "江浦優香",
+        "kana": "えうら ゆうか"
+      },
+      "ko": {
+        "hangul": "에우라 유우카"
+      },
+      "en": {
+        "romaji": "Eura Yuuka"
+      },
+      "aliases": [
+        "eura yuuka",
+        "江浦優香",
+        "에우라 유우카"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2011-05-03",
+    "birthplace": {
+      "ja": "福岡県",
+      "ko": "福岡県",
+      "en": "福岡県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "江",
+      "hueShift": 14
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-ooba-risaki",
+    "name": {
+      "ja": {
+        "kanji": "大庭凜咲",
+        "kana": "おおば りさき"
+      },
+      "ko": {
+        "hangul": "오오바 리사키"
+      },
+      "en": {
+        "romaji": "Ooba Risaki"
+      },
+      "aliases": [
+        "ooba risaki",
+        "大庭凜咲",
+        "오오바 리사키"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2005-04-23",
+    "birthplace": {
+      "ja": "福岡県",
+      "ko": "福岡県",
+      "en": "福岡県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "大",
+      "hueShift": 40
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-kuriyama-rina",
+    "name": {
+      "ja": {
+        "kanji": "栗山梨奈",
+        "kana": "くりやま りな"
+      },
+      "ko": {
+        "hangul": "쿠리야마 리나"
+      },
+      "en": {
+        "romaji": "Kuriyama Rina"
+      },
+      "aliases": [
+        "kuriyama rina",
+        "栗山梨奈",
+        "쿠리야마 리나"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2000-12-30",
+    "birthplace": {
+      "ja": "大分県",
+      "ko": "大分県",
+      "en": "大分県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "栗",
+      "hueShift": -15
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-tachibana-kokoro",
+    "name": {
+      "ja": {
+        "kanji": "立花心良",
+        "kana": "たちばな こころ"
+      },
+      "ko": {
+        "hangul": "타치바나 코코로"
+      },
+      "en": {
+        "romaji": "Tachibana Kokoro"
+      },
+      "aliases": [
+        "tachibana kokoro",
+        "立花心良",
+        "타치바나 코코로"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2009-06-24",
+    "birthplace": {
+      "ja": "福岡県",
+      "ko": "福岡県",
+      "en": "福岡県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "立",
+      "hueShift": -30
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-tanaka-iori",
+    "name": {
+      "ja": {
+        "kanji": "田中伊桜莉",
+        "kana": "たなか いおり"
+      },
+      "ko": {
+        "hangul": "타나카 이오리"
+      },
+      "en": {
+        "romaji": "Tanaka Iori"
+      },
+      "aliases": [
+        "tanaka iori",
+        "田中伊桜莉",
+        "타나카 이오리"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2002-08-31",
+    "birthplace": {
+      "ja": "熊本県",
+      "ko": "熊本県",
+      "en": "熊本県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "田",
+      "hueShift": -26
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-fukui-karen",
+    "name": {
+      "ja": {
+        "kanji": "福井可憐",
+        "kana": "ふくい かれん"
+      },
+      "ko": {
+        "hangul": "후쿠이 카렘"
+      },
+      "en": {
+        "romaji": "Fukui Karen"
+      },
+      "aliases": [
+        "fukui karen",
+        "福井可憐",
+        "후쿠이 카렘"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2006-12-04",
+    "birthplace": {
+      "ja": "長崎県",
+      "ko": "長崎県",
+      "en": "長崎県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "福",
+      "hueShift": 34
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "hkt48-yasui-hina",
+    "name": {
+      "ja": {
+        "kanji": "安井妃奈",
+        "kana": "やすい ひな"
+      },
+      "ko": {
+        "hangul": "야스이 히나"
+      },
+      "en": {
+        "romaji": "Yasui Hina"
+      },
+      "aliases": [
+        "yasui hina",
+        "安井妃奈",
+        "야스이 히나"
+      ]
+    },
+    "primaryGroupId": "hkt48",
+    "primaryGenerationId": "hkt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "hkt48",
+        "generationId": "hkt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2011-02-09",
+    "birthplace": {
+      "ja": "福岡県",
+      "ko": "福岡県",
+      "en": "福岡県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "安",
+      "hueShift": -29
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/HKT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
   }
 ]
