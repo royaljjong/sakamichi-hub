@@ -108,7 +108,14 @@
     "emptyEvent": "검증된 예정 라이브가 없습니다",
     "emptyBirthday": "이번 달 생일자가 없습니다",
     "memberCountLabel": "멤버",
-    "updated": "공식 정보를 매일 업데이트"
+    "updated": "공식 정보를 매일 업데이트",
+    "youtubeChannels": "YOUTUBE · YouTube 채널",
+    "youtubeVideos": "LATEST VIDEOS / 최신 영상",
+    "tiktokChannels": "TIKTOK · TikTok 채널",
+    "tiktokVideos": "LATEST TIKTOKS / 최신 틱톡",
+    "emptyChannels": "등록된 채널이 없습니다",
+    "emptyVideos": "영상이 없습니다",
+    "tiktokComingSoon": "TikTok 준비 중"
   },
   "event": {
     "title": "다가오는 공연",

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { getGroups, getMembers, getPortalData } from '@/lib/data';
+import { getGroups, getMembers, getPortalData, getLatestVideos } from '@/lib/data';
 import { AmbientBackground } from '@/components/background/AmbientBackground';
 import { Navigation } from '@/components/ui/Navigation';
 import { Footer } from '@/components/ui/Footer';
@@ -80,6 +80,7 @@ export default async function HomePage({ params }: HomePageProps) {
   const groups = getGroups();
   const allMembers = getMembers();
   const portal = getPortalData();
+  const videos = getLatestVideos();
 
   const websiteJsonLd = {
     '@context': 'https://schema.org',
@@ -104,7 +105,7 @@ export default async function HomePage({ params }: HomePageProps) {
       <Navigation />
 
       <main id="main-content" className="relative z-10 mx-auto w-full max-w-7xl flex-1 px-4 py-6 sm:px-6 sm:py-10">
-        <HomePortal groups={groups} members={allMembers} locale={locale} portal={portal} />
+        <HomePortal groups={groups} members={allMembers} locale={locale} portal={portal} videos={videos} />
       </main>
 
       <Footer />

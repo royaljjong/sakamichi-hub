@@ -41,8 +41,11 @@ jobs:
       - name: Fetch Latest Official Live Schedule
         run: pnpm exec tsx scripts/fetch/events.ts
 
+      - name: Fetch Latest Member Videos
+        run: pnpm exec tsx scripts/fetch/videos.ts
+
       - name: Commit and Push if new blogs available
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore(blogs): auto-sync latest official blog updates'
-          file_pattern: 'data/latest-updates.json data/portal.json'
+          file_pattern: 'data/latest-updates.json data/portal.json data/latest-videos.json'

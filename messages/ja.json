@@ -108,7 +108,14 @@
     "emptyEvent": "確認済みの今後のライブはありません",
     "emptyBirthday": "今月の誕生日メンバーはいません",
     "memberCountLabel": "メンバー",
-    "updated": "公式情報を毎日更新"
+    "updated": "公式情報を毎日更新",
+    "youtubeChannels": "YOUTUBE · チャンネル",
+    "youtubeVideos": "LATEST VIDEOS / 最新映像",
+    "tiktokChannels": "TIKTOK · チャンネル",
+    "tiktokVideos": "LATEST TIKTOKS / 最新TikTok",
+    "emptyChannels": "現在チャンネルが登録されていません",
+    "emptyVideos": "動画がありません",
+    "tiktokComingSoon": "TikTok 準備中"
   },
   "event": {
     "title": "これからの公演",

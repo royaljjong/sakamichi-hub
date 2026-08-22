@@ -108,7 +108,14 @@
     "emptyEvent": "No verified upcoming live shows",
     "emptyBirthday": "No birthdays this month",
     "memberCountLabel": "Members",
-    "updated": "Updated daily from official sources"
+    "updated": "Updated daily from official sources",
+    "youtubeChannels": "YOUTUBE · YouTube channels",
+    "youtubeVideos": "LATEST VIDEOS / 最新映像",
+    "tiktokChannels": "TIKTOK · TikTok channels",
+    "tiktokVideos": "LATEST TIKTOKS / 最新TikTok",
+    "emptyChannels": "No channels registered yet",
+    "emptyVideos": "No videos available",
+    "tiktokComingSoon": "TikTok coming soon"
   },
   "event": {
     "title": "Upcoming performances",

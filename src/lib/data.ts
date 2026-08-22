@@ -11,8 +11,10 @@ import groupsData from '../../data/groups.json';
 import membersData from '../../data/members.json';
 import latestUpdatesData from '../../data/latest-updates.json';
 import portalData from '../../data/portal.json';
+import latestVideosData from '../../data/latest-videos.json';
 import { PortalDataset } from './portal-schema';
 import type { RecentUpdate } from '@/lib/updates-schema';
+import type { MemberVideo } from './videos-schema';
 
 const groups: Group[] = (groupsData as { groups: Group[] }).groups;
 const members: Member[] = (membersData as Member[]) || [];
@@ -113,4 +115,8 @@ export function getLatestUpdates(): RecentUpdate[] {
 
 export function getPortalData() {
   return portal;
+}
+
+export function getLatestVideos(): MemberVideo[] {
+  return (latestVideosData as MemberVideo[]) || [];
 }
