@@ -17660,7 +17660,7 @@
     ],
     "birthDate": "1995-10-16",
     "birthplace": null,
-    "officialCode": "nishigata_marina",
+    "officialCode": "118",
     "imageUrl": "https://img.ngt48.com/artist/118/ngt_1768022673365.jpg",
     "links": [
       {
@@ -17689,6 +17689,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/118",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -17736,7 +17749,7 @@
     ],
     "birthDate": "2001-04-19",
     "birthplace": null,
-    "officialCode": "seiji_reina",
+    "officialCode": "111",
     "imageUrl": "https://img.ngt48.com/artist/111/ngt_1768022064896.jpg",
     "links": [
       {
@@ -17756,6 +17769,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/111",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -17803,7 +17829,7 @@
     ],
     "birthDate": "2000-08-05",
     "birthplace": null,
-    "officialCode": "sato_kairi",
+    "officialCode": "128",
     "imageUrl": "https://img.ngt48.com/artist/128/ngt_1768021897841.jpg",
     "links": [
       {
@@ -17823,6 +17849,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/128",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -17870,7 +17909,7 @@
     ],
     "birthDate": "2000-11-07",
     "birthplace": null,
-    "officialCode": "otsuka_nanami",
+    "officialCode": "132",
     "imageUrl": "https://img.ngt48.com/artist/132/ngt_1768021829524.jpg",
     "links": [
       {
@@ -17890,6 +17929,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/132",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -17937,7 +17989,7 @@
     ],
     "birthDate": "2004-09-22",
     "birthplace": null,
-    "officialCode": "kitamura_yuha",
+    "officialCode": "151",
     "imageUrl": "https://img.ngt48.com/artist/151/ngt_1768021598578.jpg",
     "links": [
       {
@@ -17948,6 +18000,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/151",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -17995,7 +18060,7 @@
     ],
     "birthDate": "2004-04-27",
     "birthplace": null,
-    "officialCode": "suizu_natsuki",
+    "officialCode": "154",
     "imageUrl": "https://img.ngt48.com/artist/154/ngt_1768021677009.jpg",
     "links": [
       {
@@ -18006,6 +18071,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/154",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -18053,7 +18131,7 @@
     ],
     "birthDate": "2005-07-17",
     "birthplace": null,
-    "officialCode": "sugimoto_moe",
+    "officialCode": "155",
     "imageUrl": "https://img.ngt48.com/artist/155/ngt_1768021692253.jpg",
     "links": [
       {
@@ -18064,6 +18142,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/155",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -18111,7 +18202,7 @@
     ],
     "birthDate": "2002-06-15",
     "birthplace": null,
-    "officialCode": "mimura_hino",
+    "officialCode": "144",
     "imageUrl": "https://img.ngt48.com/artist/144/ngt_1768021841829.jpg",
     "links": [
       {
@@ -18122,6 +18213,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/144",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -26549,9 +26653,23 @@
       "ko": "新潟県",
       "en": "新潟県"
     },
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "officialCode": "149",
+    "imageUrl": "https://img.ngt48.com/artist/149/ngt_1768021484217.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/149",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "磯",
       "hueShift": 37
@@ -26601,9 +26719,23 @@
       "ko": "神奈川県",
       "en": "神奈川県"
     },
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "officialCode": "150",
+    "imageUrl": "https://img.ngt48.com/artist/150/ngt_1768021515757.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/150",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "喜",
       "hueShift": -4
@@ -26653,9 +26785,23 @@
       "ko": "新潟県",
       "en": "新潟県"
     },
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "officialCode": "163",
+    "imageUrl": "https://img.ngt48.com/artist/163/ngt_1768022179596.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/163",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "木",
       "hueShift": -30
@@ -26705,9 +26851,23 @@
       "ko": "新潟県",
       "en": "新潟県"
     },
-    "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "officialCode": "164",
+    "imageUrl": "https://img.ngt48.com/artist/164/ngt_1768022197907.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/164",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "佐",
       "hueShift": 10
@@ -27497,6 +27657,1458 @@
       "sourceUrl": "https://ja.wikipedia.org/wiki/STU48",
       "checkedAt": "2026-08-22",
       "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "ngt48-isozaki-nana",
+    "name": {
+      "ja": {
+        "kanji": "磯崎菜々",
+        "kana": "いそざき なな"
+      },
+      "ko": {
+        "hangul": "이소자키 나나"
+      },
+      "en": {
+        "romaji": "Isozaki Nana"
+      },
+      "aliases": [
+        "isozaki nana",
+        "磯崎菜々",
+        "이소자키 나나"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2006-07-12",
+    "birthplace": {
+      "ja": "神奈川県",
+      "ko": "神奈川県",
+      "en": "神奈川県"
+    },
+    "officialCode": "160",
+    "imageUrl": "https://img.ngt48.com/artist/160/ngt_1768022113723.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/160",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "磯",
+      "hueShift": 17
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-shinzawa-aoi",
+    "name": {
+      "ja": {
+        "kanji": "新沢葵唯",
+        "kana": "しんざわ あおい"
+      },
+      "ko": {
+        "hangul": "신자와 아오이"
+      },
+      "en": {
+        "romaji": "Shinzawa Aoi"
+      },
+      "aliases": [
+        "shinzawa aoi",
+        "新沢葵唯",
+        "신자와 아오이"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2008-07-24",
+    "birthplace": {
+      "ja": "新潟県",
+      "ko": "新潟県",
+      "en": "新潟県"
+    },
+    "officialCode": "165",
+    "imageUrl": "https://img.ngt48.com/artist/165/ngt_1768022233914.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/165",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "新",
+      "hueShift": 20
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-takashima-yua",
+    "name": {
+      "ja": {
+        "kanji": "高島柚愛",
+        "kana": "たかしま ゆあ"
+      },
+      "ko": {
+        "hangul": "타카시마 유아"
+      },
+      "en": {
+        "romaji": "Takashima Yua"
+      },
+      "aliases": [
+        "takashima yua",
+        "高島柚愛",
+        "타카시마 유아"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2010-01-21",
+    "birthplace": {
+      "ja": "新潟県",
+      "ko": "新潟県",
+      "en": "新潟県"
+    },
+    "officialCode": "167",
+    "imageUrl": "https://img.ngt48.com/artist/167/ngt_1768022258745.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/167",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "高",
+      "hueShift": -14
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-nishikawa-haruna",
+    "name": {
+      "ja": {
+        "kanji": "西川晴菜",
+        "kana": "にしかわ はるな"
+      },
+      "ko": {
+        "hangul": "니시카와 하루나"
+      },
+      "en": {
+        "romaji": "Nishikawa Haruna"
+      },
+      "aliases": [
+        "nishikawa haruna",
+        "西川晴菜",
+        "니시카와 하루나"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2003-05-17",
+    "birthplace": {
+      "ja": "大阪府",
+      "ko": "大阪府",
+      "en": "大阪府"
+    },
+    "officialCode": "168",
+    "imageUrl": "https://img.ngt48.com/artist/168/ngt_1773149242476.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/168",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "西",
+      "hueShift": 0
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-azama-yui",
+    "name": {
+      "ja": {
+        "kanji": "安座間結",
+        "kana": "あざま ゆい"
+      },
+      "ko": {
+        "hangul": "아자마 유이"
+      },
+      "en": {
+        "romaji": "Azama Yui"
+      },
+      "aliases": [
+        "azama yui",
+        "安座間結",
+        "아자마 유이"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2012-01-07",
+    "birthplace": {
+      "ja": "兵庫県",
+      "ko": "兵庫県",
+      "en": "兵庫県"
+    },
+    "officialCode": "172",
+    "imageUrl": "https://img.ngt48.com/artist/172/ngt_1768021014933.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/172",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "安",
+      "hueShift": -39
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-adachi-yume",
+    "name": {
+      "ja": {
+        "kanji": "阿達夢",
+        "kana": "あだち ゆめ"
+      },
+      "ko": {
+        "hangul": "아다치 유메"
+      },
+      "en": {
+        "romaji": "Adachi Yume"
+      },
+      "aliases": [
+        "adachi yume",
+        "阿達夢",
+        "아다치 유메"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2007-09-05",
+    "birthplace": {
+      "ja": "新潟県",
+      "ko": "新潟県",
+      "en": "新潟県"
+    },
+    "officialCode": "173",
+    "imageUrl": "https://img.ngt48.com/artist/173/ngt_1768021064042.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/173",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "阿",
+      "hueShift": 28
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-oomachi-yuuka",
+    "name": {
+      "ja": {
+        "kanji": "大町佑香",
+        "kana": "おおまち ゆうか"
+      },
+      "ko": {
+        "hangul": "오오마치 유우카"
+      },
+      "en": {
+        "romaji": "Oomachi Yuuka"
+      },
+      "aliases": [
+        "oomachi yuuka",
+        "大町佑香",
+        "오오마치 유우카"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2006-10-06",
+    "birthplace": {
+      "ja": "長野県",
+      "ko": "長野県",
+      "en": "長野県"
+    },
+    "officialCode": "174",
+    "imageUrl": "https://img.ngt48.com/artist/174/ngt_1768021075559.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/174",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "大",
+      "hueShift": -20
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-kai-mizuki",
+    "name": {
+      "ja": {
+        "kanji": "甲斐瑞季",
+        "kana": "かい みずき"
+      },
+      "ko": {
+        "hangul": "카이 미즈키"
+      },
+      "en": {
+        "romaji": "Kai Mizuki"
+      },
+      "aliases": [
+        "kai mizuki",
+        "甲斐瑞季",
+        "카이 미즈키"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2008-06-10",
+    "birthplace": {
+      "ja": "茨城県",
+      "ko": "茨城県",
+      "en": "茨城県"
+    },
+    "officialCode": "175",
+    "imageUrl": "https://img.ngt48.com/artist/175/ngt_1768021127984.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/175",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "甲",
+      "hueShift": -7
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-kitazawa-mone",
+    "name": {
+      "ja": {
+        "kanji": "北澤百音",
+        "kana": "きたざわ もね"
+      },
+      "ko": {
+        "hangul": "키타자와 모네"
+      },
+      "en": {
+        "romaji": "Kitazawa Mone"
+      },
+      "aliases": [
+        "kitazawa mone",
+        "北澤百音",
+        "키타자와 모네"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2008-08-05",
+    "birthplace": {
+      "ja": "長野県",
+      "ko": "長野県",
+      "en": "長野県"
+    },
+    "officialCode": "176",
+    "imageUrl": "https://img.ngt48.com/artist/176/ngt_1768021146338.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/176",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "北",
+      "hueShift": -32
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-satou-yuuka",
+    "name": {
+      "ja": {
+        "kanji": "佐藤柚花",
+        "kana": "さとう ゆうか"
+      },
+      "ko": {
+        "hangul": "사토우 유우카"
+      },
+      "en": {
+        "romaji": "Satou Yuuka"
+      },
+      "aliases": [
+        "satou yuuka",
+        "佐藤柚花",
+        "사토우 유우카"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2008-10-16",
+    "birthplace": {
+      "ja": "東京都",
+      "ko": "東京都",
+      "en": "東京都"
+    },
+    "officialCode": "177",
+    "imageUrl": "https://img.ngt48.com/artist/177/ngt_1768021206412.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/177",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "佐",
+      "hueShift": 7
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-sutou-rinka",
+    "name": {
+      "ja": {
+        "kanji": "須藤凜華",
+        "kana": "すとう りんか"
+      },
+      "ko": {
+        "hangul": "스토우 링카"
+      },
+      "en": {
+        "romaji": "Sutou Rinka"
+      },
+      "aliases": [
+        "sutou rinka",
+        "須藤凜華",
+        "스토우 링카"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2011-09-09",
+    "birthplace": {
+      "ja": "群馬県",
+      "ko": "群馬県",
+      "en": "群馬県"
+    },
+    "officialCode": "178",
+    "imageUrl": "https://img.ngt48.com/artist/178/ngt_1768021262732.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/178",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "須",
+      "hueShift": -31
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-taniguchi-haruka",
+    "name": {
+      "ja": {
+        "kanji": "谷口陽香",
+        "kana": "たにぐち はるか"
+      },
+      "ko": {
+        "hangul": "타니구치 하루카"
+      },
+      "en": {
+        "romaji": "Taniguchi Haruka"
+      },
+      "aliases": [
+        "taniguchi haruka",
+        "谷口陽香",
+        "타니구치 하루카"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2006-02-23",
+    "birthplace": {
+      "ja": "富山県",
+      "ko": "富山県",
+      "en": "富山県"
+    },
+    "officialCode": "179",
+    "imageUrl": "https://img.ngt48.com/artist/179/ngt_1768021271898.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/179",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "谷",
+      "hueShift": 6
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-nakata-asami",
+    "name": {
+      "ja": {
+        "kanji": "中田麻実",
+        "kana": "なかた あさみ"
+      },
+      "ko": {
+        "hangul": "나카타 아사미"
+      },
+      "en": {
+        "romaji": "Nakata Asami"
+      },
+      "aliases": [
+        "nakata asami",
+        "中田麻実",
+        "나카타 아사미"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2006-07-07",
+    "birthplace": {
+      "ja": "長野県",
+      "ko": "長野県",
+      "en": "長野県"
+    },
+    "officialCode": "181",
+    "imageUrl": "https://img.ngt48.com/artist/181/ngt_1768021325244.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/181",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "中",
+      "hueShift": 2
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-minagawa-hiyori",
+    "name": {
+      "ja": {
+        "kanji": "皆川日和",
+        "kana": "みながわ ひより"
+      },
+      "ko": {
+        "hangul": "미나가와 히요리"
+      },
+      "en": {
+        "romaji": "Minagawa Hiyori"
+      },
+      "aliases": [
+        "minagawa hiyori",
+        "皆川日和",
+        "미나가와 히요리"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2010-08-31",
+    "birthplace": {
+      "ja": "新潟県",
+      "ko": "新潟県",
+      "en": "新潟県"
+    },
+    "officialCode": "182",
+    "imageUrl": "https://img.ngt48.com/artist/182/ngt_1768021338796.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/182",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "皆",
+      "hueShift": -17
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-aiki-maaya",
+    "name": {
+      "ja": {
+        "kanji": "相木茉采",
+        "kana": "あいき まあや"
+      },
+      "ko": {
+        "hangul": "아이키 마아야"
+      },
+      "en": {
+        "romaji": "Aiki Maaya"
+      },
+      "aliases": [
+        "aiki maaya",
+        "相木茉采",
+        "아이키 마아야"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2011-05-24",
+    "birthplace": {
+      "ja": "新潟県",
+      "ko": "新潟県",
+      "en": "新潟県"
+    },
+    "officialCode": "183",
+    "imageUrl": "https://img.ngt48.com/artist/183/ngt_1781311712871.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/183",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "相",
+      "hueShift": -13
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-inomata-sana",
+    "name": {
+      "ja": {
+        "kanji": "猪股咲那",
+        "kana": "いのまた さな"
+      },
+      "ko": {
+        "hangul": "이노마타 사나"
+      },
+      "en": {
+        "romaji": "Inomata Sana"
+      },
+      "aliases": [
+        "inomata sana",
+        "猪股咲那",
+        "이노마타 사나"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2011-06-17",
+    "birthplace": {
+      "ja": "新潟県",
+      "ko": "新潟県",
+      "en": "新潟県"
+    },
+    "officialCode": "184",
+    "imageUrl": "https://img.ngt48.com/artist/184/ngt_1781311972020.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/184",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "猪",
+      "hueShift": -5
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-oohashi-ayano",
+    "name": {
+      "ja": {
+        "kanji": "大橋彩乃",
+        "kana": "おおはし あやの"
+      },
+      "ko": {
+        "hangul": "오오하시 아야노"
+      },
+      "en": {
+        "romaji": "Oohashi Ayano"
+      },
+      "aliases": [
+        "oohashi ayano",
+        "大橋彩乃",
+        "오오하시 아야노"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2009-03-18",
+    "birthplace": {
+      "ja": "新潟県",
+      "ko": "新潟県",
+      "en": "新潟県"
+    },
+    "officialCode": "185",
+    "imageUrl": "https://img.ngt48.com/artist/185/ngt_1781312318217.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/185",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "大",
+      "hueShift": 36
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-katayama-shuri",
+    "name": {
+      "ja": {
+        "kanji": "片山珠吏",
+        "kana": "かたやま しゅり"
+      },
+      "ko": {
+        "hangul": "카타야마 슈리"
+      },
+      "en": {
+        "romaji": "Katayama Shuri"
+      },
+      "aliases": [
+        "katayama shuri",
+        "片山珠吏",
+        "카타야마 슈리"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2012-04-03",
+    "birthplace": {
+      "ja": "新潟県",
+      "ko": "新潟県",
+      "en": "新潟県"
+    },
+    "officialCode": "186",
+    "imageUrl": "https://img.ngt48.com/artist/186/ngt_1781312731096.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/186",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "片",
+      "hueShift": 29
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-kuga-mirei",
+    "name": {
+      "ja": {
+        "kanji": "久我水羚",
+        "kana": "くが みれい"
+      },
+      "ko": {
+        "hangul": "쿠가 미레이"
+      },
+      "en": {
+        "romaji": "Kuga Mirei"
+      },
+      "aliases": [
+        "kuga mirei",
+        "久我水羚",
+        "쿠가 미레이"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2011-09-09",
+    "birthplace": {
+      "ja": "新潟県",
+      "ko": "新潟県",
+      "en": "新潟県"
+    },
+    "officialCode": "187",
+    "imageUrl": "https://img.ngt48.com/artist/187/ngt_1781315852119.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/187",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "久",
+      "hueShift": 16
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-satou-honoka",
+    "name": {
+      "ja": {
+        "kanji": "佐藤歩夏",
+        "kana": "さとう ほのか"
+      },
+      "ko": {
+        "hangul": "사토우 호노카"
+      },
+      "en": {
+        "romaji": "Satou Honoka"
+      },
+      "aliases": [
+        "satou honoka",
+        "佐藤歩夏",
+        "사토우 호노카"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2011-05-26",
+    "birthplace": {
+      "ja": "新潟県",
+      "ko": "新潟県",
+      "en": "新潟県"
+    },
+    "officialCode": "188",
+    "imageUrl": "https://img.ngt48.com/artist/188/ngt_1781316209226.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/188",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "佐",
+      "hueShift": -6
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-hirai-yuzuha",
+    "name": {
+      "ja": {
+        "kanji": "平井柚葉",
+        "kana": "ひらい ゆずは"
+      },
+      "ko": {
+        "hangul": "히라이 유즈하"
+      },
+      "en": {
+        "romaji": "Hirai Yuzuha"
+      },
+      "aliases": [
+        "hirai yuzuha",
+        "平井柚葉",
+        "히라이 유즈하"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2010-09-19",
+    "birthplace": {
+      "ja": "新潟県",
+      "ko": "新潟県",
+      "en": "新潟県"
+    },
+    "officialCode": "189",
+    "imageUrl": "https://img.ngt48.com/artist/189/ngt_1781316432820.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/189",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "平",
+      "hueShift": 40
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ngt48-hosoya-naho",
+    "name": {
+      "ja": {
+        "kanji": "細矢夏帆",
+        "kana": "ほそや なほ"
+      },
+      "ko": {
+        "hangul": "호소야 나호"
+      },
+      "en": {
+        "romaji": "Hosoya Naho"
+      },
+      "aliases": [
+        "hosoya naho",
+        "細矢夏帆",
+        "호소야 나호"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2007-07-16",
+    "birthplace": {
+      "ja": "神奈川県",
+      "ko": "神奈川県",
+      "en": "神奈川県"
+    },
+    "officialCode": "190",
+    "imageUrl": "https://img.ngt48.com/artist/190/ngt_1781316619834.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ngt48.jp/profile/detail/190",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ngt48.jp/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "細",
+      "hueShift": 32
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ngt48.jp/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
     }
   }
 ]
