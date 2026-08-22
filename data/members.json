@@ -26510,5 +26510,993 @@
       "checkedAt": "2026-08-22",
       "note": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "ngt48-isobe-rua",
+    "name": {
+      "ja": {
+        "kanji": "磯部瑠紅",
+        "kana": "いそべ るあ"
+      },
+      "ko": {
+        "hangul": "이소베 루아"
+      },
+      "en": {
+        "romaji": "Isobe Rua"
+      },
+      "aliases": [
+        "isobe rua",
+        "磯部瑠紅",
+        "이소베 루아"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2007-05-07",
+    "birthplace": {
+      "ja": "新潟県",
+      "ko": "新潟県",
+      "en": "新潟県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "磯",
+      "hueShift": 37
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NGT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "ngt48-kita-hanae",
+    "name": {
+      "ja": {
+        "kanji": "喜多花恵",
+        "kana": "きた はなえ"
+      },
+      "ko": {
+        "hangul": "키타 하나에"
+      },
+      "en": {
+        "romaji": "Kita Hanae"
+      },
+      "aliases": [
+        "kita hanae",
+        "喜多花恵",
+        "키타 하나에"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2003-09-09",
+    "birthplace": {
+      "ja": "神奈川県",
+      "ko": "神奈川県",
+      "en": "神奈川県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "喜",
+      "hueShift": -4
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NGT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "ngt48-kimoto-anna",
+    "name": {
+      "ja": {
+        "kanji": "木本杏菜",
+        "kana": "きもと あんな"
+      },
+      "ko": {
+        "hangul": "키모토 안나"
+      },
+      "en": {
+        "romaji": "Kimoto Anna"
+      },
+      "aliases": [
+        "kimoto anna",
+        "木本杏菜",
+        "키모토 안나"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2007-10-16",
+    "birthplace": {
+      "ja": "新潟県",
+      "ko": "新潟県",
+      "en": "新潟県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "木",
+      "hueShift": -30
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NGT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "ngt48-satou-hiroka",
+    "name": {
+      "ja": {
+        "kanji": "佐藤広花",
+        "kana": "さとう ひろか"
+      },
+      "ko": {
+        "hangul": "사토우 히로카"
+      },
+      "en": {
+        "romaji": "Satou Hiroka"
+      },
+      "aliases": [
+        "satou hiroka",
+        "佐藤広花",
+        "사토우 히로카"
+      ]
+    },
+    "primaryGroupId": "ngt48",
+    "primaryGenerationId": "ngt-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ngt48",
+        "generationId": "ngt-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2006-08-08",
+    "birthplace": {
+      "ja": "新潟県",
+      "ko": "新潟県",
+      "en": "新潟県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "佐",
+      "hueShift": 10
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/NGT48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "stu48-kai-kokoa",
+    "name": {
+      "ja": {
+        "kanji": "甲斐心愛",
+        "kana": "かい ここあ"
+      },
+      "ko": {
+        "hangul": "카이 코코아"
+      },
+      "en": {
+        "romaji": "Kai Kokoa"
+      },
+      "aliases": [
+        "kai kokoa",
+        "甲斐心愛",
+        "카이 코코아"
+      ]
+    },
+    "primaryGroupId": "stu48",
+    "primaryGenerationId": "stu-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "stu48",
+        "generationId": "stu-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2003-11-28",
+    "birthplace": {
+      "ja": "広島県",
+      "ko": "広島県",
+      "en": "広島県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "甲",
+      "hueShift": -16
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/STU48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "stu48-ikeda-yura",
+    "name": {
+      "ja": {
+        "kanji": "池田裕楽",
+        "kana": "いけだ ゆら"
+      },
+      "ko": {
+        "hangul": "이케다 유라"
+      },
+      "en": {
+        "romaji": "Ikeda Yura"
+      },
+      "aliases": [
+        "ikeda yura",
+        "池田裕楽",
+        "이케다 유라"
+      ]
+    },
+    "primaryGroupId": "stu48",
+    "primaryGenerationId": "stu-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "stu48",
+        "generationId": "stu-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2004-02-08",
+    "birthplace": {
+      "ja": "広島県",
+      "ko": "広島県",
+      "en": "広島県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "池",
+      "hueShift": 21
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/STU48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "stu48-utsumi-rine",
+    "name": {
+      "ja": {
+        "kanji": "内海里音",
+        "kana": "うつみ りね"
+      },
+      "ko": {
+        "hangul": "우쓰미 리네"
+      },
+      "en": {
+        "romaji": "Utsumi Rine"
+      },
+      "aliases": [
+        "utsumi rine",
+        "内海里音",
+        "우쓰미 리네"
+      ]
+    },
+    "primaryGroupId": "stu48",
+    "primaryGenerationId": "stu-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "stu48",
+        "generationId": "stu-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2002-11-05",
+    "birthplace": {
+      "ja": "岡山県",
+      "ko": "岡山県",
+      "en": "岡山県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "内",
+      "hueShift": 5
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/STU48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "stu48-osaki-serika",
+    "name": {
+      "ja": {
+        "kanji": "尾崎世里花",
+        "kana": "おさき せりか"
+      },
+      "ko": {
+        "hangul": "오사키 세리카"
+      },
+      "en": {
+        "romaji": "Osaki Serika"
+      },
+      "aliases": [
+        "osaki serika",
+        "尾崎世里花",
+        "오사키 세리카"
+      ]
+    },
+    "primaryGroupId": "stu48",
+    "primaryGenerationId": "stu-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "stu48",
+        "generationId": "stu-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "1997-11-16",
+    "birthplace": {
+      "ja": "長崎県",
+      "ko": "長崎県",
+      "en": "長崎県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "尾",
+      "hueShift": 31
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/STU48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "stu48-kawamata-yuuna",
+    "name": {
+      "ja": {
+        "kanji": "川又優菜",
+        "kana": "かわまた ゆうな"
+      },
+      "ko": {
+        "hangul": "카와마타 유우나"
+      },
+      "en": {
+        "romaji": "Kawamata Yuuna"
+      },
+      "aliases": [
+        "kawamata yuuna",
+        "川又優菜",
+        "카와마타 유우나"
+      ]
+    },
+    "primaryGroupId": "stu48",
+    "primaryGenerationId": "stu-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "stu48",
+        "generationId": "stu-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2003-12-10",
+    "birthplace": {
+      "ja": "広島県",
+      "ko": "広島県",
+      "en": "広島県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "川",
+      "hueShift": 39
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/STU48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "stu48-takao-sayaka",
+    "name": {
+      "ja": {
+        "kanji": "高雄さやか",
+        "kana": "たかお さやか"
+      },
+      "ko": {
+        "hangul": "타카오 사야카"
+      },
+      "en": {
+        "romaji": "Takao Sayaka"
+      },
+      "aliases": [
+        "takao sayaka",
+        "高雄さやか",
+        "타카오 사야카"
+      ]
+    },
+    "primaryGroupId": "stu48",
+    "primaryGenerationId": "stu-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "stu48",
+        "generationId": "stu-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "1998-12-04",
+    "birthplace": {
+      "ja": "福岡県",
+      "ko": "福岡県",
+      "en": "福岡県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "高",
+      "hueShift": 37
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/STU48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "stu48-okamura-rio",
+    "name": {
+      "ja": {
+        "kanji": "岡村梨央",
+        "kana": "おかむら りお"
+      },
+      "ko": {
+        "hangul": "오카무라 리오"
+      },
+      "en": {
+        "romaji": "Okamura Rio"
+      },
+      "aliases": [
+        "okamura rio",
+        "岡村梨央",
+        "오카무라 리오"
+      ]
+    },
+    "primaryGroupId": "stu48",
+    "primaryGenerationId": "stu-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "stu48",
+        "generationId": "stu-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2008-10-08",
+    "birthplace": {
+      "ja": "広島県",
+      "ko": "広島県",
+      "en": "広島県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "岡",
+      "hueShift": -34
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/STU48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "stu48-kurushima-yuuka",
+    "name": {
+      "ja": {
+        "kanji": "久留島優果",
+        "kana": "くるしま ゆうか"
+      },
+      "ko": {
+        "hangul": "쿠루시마 유우카"
+      },
+      "en": {
+        "romaji": "Kurushima Yuuka"
+      },
+      "aliases": [
+        "kurushima yuuka",
+        "久留島優果",
+        "쿠루시마 유우카"
+      ]
+    },
+    "primaryGroupId": "stu48",
+    "primaryGenerationId": "stu-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "stu48",
+        "generationId": "stu-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2005-09-24",
+    "birthplace": {
+      "ja": "広島県",
+      "ko": "広島県",
+      "en": "広島県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "久",
+      "hueShift": -27
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/STU48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "stu48-morokuzu-noa",
+    "name": {
+      "ja": {
+        "kanji": "諸葛望愛",
+        "kana": "もろくず のあ"
+      },
+      "ko": {
+        "hangul": "모로쿠즈 노아"
+      },
+      "en": {
+        "romaji": "Morokuzu Noa"
+      },
+      "aliases": [
+        "morokuzu noa",
+        "諸葛望愛",
+        "모로쿠즈 노아"
+      ]
+    },
+    "primaryGroupId": "stu48",
+    "primaryGenerationId": "stu-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "stu48",
+        "generationId": "stu-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2009-11-11",
+    "birthplace": {
+      "ja": "広島県",
+      "ko": "広島県",
+      "en": "広島県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "諸",
+      "hueShift": -1
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/STU48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "stu48-arai-ria",
+    "name": {
+      "ja": {
+        "kanji": "新井梨杏",
+        "kana": "あらい りあ"
+      },
+      "ko": {
+        "hangul": "아라이 리아"
+      },
+      "en": {
+        "romaji": "Arai Ria"
+      },
+      "aliases": [
+        "arai ria",
+        "新井梨杏",
+        "아라이 리아"
+      ]
+    },
+    "primaryGroupId": "stu48",
+    "primaryGenerationId": "stu-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "stu48",
+        "generationId": "stu-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2008-10-05",
+    "birthplace": {
+      "ja": "広島県",
+      "ko": "広島県",
+      "en": "広島県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "新",
+      "hueShift": -30
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/STU48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "stu48-ishihara-yuuna",
+    "name": {
+      "ja": {
+        "kanji": "石原侑奈",
+        "kana": "いしはら ゆうな"
+      },
+      "ko": {
+        "hangul": "이시하라 유우나"
+      },
+      "en": {
+        "romaji": "Ishihara Yuuna"
+      },
+      "aliases": [
+        "ishihara yuuna",
+        "石原侑奈",
+        "이시하라 유우나"
+      ]
+    },
+    "primaryGroupId": "stu48",
+    "primaryGenerationId": "stu-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "stu48",
+        "generationId": "stu-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2004-08-07",
+    "birthplace": {
+      "ja": "岡山県",
+      "ko": "岡山県",
+      "en": "岡山県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "石",
+      "hueShift": -35
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/STU48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "stu48-okuda-yuina",
+    "name": {
+      "ja": {
+        "kanji": "奥田唯菜",
+        "kana": "おくだ ゆいな"
+      },
+      "ko": {
+        "hangul": "오쿠다 유이나"
+      },
+      "en": {
+        "romaji": "Okuda Yuina"
+      },
+      "aliases": [
+        "okuda yuina",
+        "奥田唯菜",
+        "오쿠다 유이나"
+      ]
+    },
+    "primaryGroupId": "stu48",
+    "primaryGenerationId": "stu-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "stu48",
+        "generationId": "stu-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2006-07-07",
+    "birthplace": {
+      "ja": "岐阜県",
+      "ko": "岐阜県",
+      "en": "岐阜県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "奥",
+      "hueShift": -5
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/STU48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "stu48-kitazawa-ichigo",
+    "name": {
+      "ja": {
+        "kanji": "北澤苺",
+        "kana": "きたざわ いちご"
+      },
+      "ko": {
+        "hangul": "키타자와 이치고"
+      },
+      "en": {
+        "romaji": "Kitazawa Ichigo"
+      },
+      "aliases": [
+        "kitazawa ichigo",
+        "北澤苺",
+        "키타자와 이치고"
+      ]
+    },
+    "primaryGroupId": "stu48",
+    "primaryGenerationId": "stu-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "stu48",
+        "generationId": "stu-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2004-12-27",
+    "birthplace": {
+      "ja": "山梨県",
+      "ko": "山梨県",
+      "en": "山梨県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "北",
+      "hueShift": 8
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/STU48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "stu48-hamada-hibiki",
+    "name": {
+      "ja": {
+        "kanji": "濵田響",
+        "kana": "はまだ ひびき"
+      },
+      "ko": {
+        "hangul": "하마다 히비키"
+      },
+      "en": {
+        "romaji": "Hamada Hibiki"
+      },
+      "aliases": [
+        "hamada hibiki",
+        "濵田響",
+        "하마다 히비키"
+      ]
+    },
+    "primaryGroupId": "stu48",
+    "primaryGenerationId": "stu-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "stu48",
+        "generationId": "stu-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2003-01-23",
+    "birthplace": {
+      "ja": "長崎県",
+      "ko": "長崎県",
+      "en": "長崎県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "濵",
+      "hueShift": -23
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/STU48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "stu48-morisue-himena",
+    "name": {
+      "ja": {
+        "kanji": "森末妃奈",
+        "kana": "もりすえ ひめな"
+      },
+      "ko": {
+        "hangul": "모리스에 히메나"
+      },
+      "en": {
+        "romaji": "Morisue Himena"
+      },
+      "aliases": [
+        "morisue himena",
+        "森末妃奈",
+        "모리스에 히메나"
+      ]
+    },
+    "primaryGroupId": "stu48",
+    "primaryGenerationId": "stu-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "stu48",
+        "generationId": "stu-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": "2002-06-20",
+    "birthplace": {
+      "ja": "岡山県",
+      "ko": "岡山県",
+      "en": "岡山県"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [],
+    "avatar": {
+      "glyph": "森",
+      "hueShift": -20
+    },
+    "provenance": {
+      "source": "wikipedia_ja",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/STU48",
+      "checkedAt": "2026-08-22",
+      "note": "CC BY-SA 4.0"
+    }
   }
 ]
