@@ -1,0 +1,51 @@
+name: Scrape AKB48-family Profile Images
+
+on:
+  schedule:
+    # Weekly, Monday 00:15 UTC (09:15 JST)
+    - cron: '15 0 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-akb-images
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 11
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install Playwright Chromium
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: Scrape AKB48 family profile images
+        run: pnpm exec tsx scripts/fetch/akb-images.ts
+
+      - name: Validate updated data
+        run: pnpm data:validate
+
+      - name: Commit and push if members updated
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(images): auto-sync AKB48 family profile images'
+          file_pattern: 'data/members.json'
