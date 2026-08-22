@@ -2707,6 +2707,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@mizuki_yamashita_official",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.tiktok.com/@mizuki_yamashita_official",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -3871,6 +3884,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@karin_channel",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@karin_channel",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -4087,6 +4113,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@horimiona_official",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.tiktok.com/@horimiona_official",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -4312,6 +4351,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@wakatsukiyumi_channel",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@wakatsukiyumi_channel",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -4510,6 +4562,32 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@matsumutei",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@matsumutei",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@sayuringo_official",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.tiktok.com/@sayuringo_official",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -5191,6 +5269,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@KazumiTakayama_Official",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@KazumiTakayama_Official",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -5284,6 +5375,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@shiraishimai_official",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.tiktok.com/@shiraishimai_official",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -5842,6 +5946,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@sayu_channel",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@sayu_channel",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -6154,6 +6271,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@IKOMACHANNEL",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@IKOMACHANNEL",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -10613,6 +10743,32 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCQthcc4Ikq_PiNOs7wwmP9g",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "wikipedia_ja",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B9%B3%E6%89%8B%E5%8F%8B%E6%A2%A8%E5%A5%88",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@yurina_hirate",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.tiktok.com/@yurina_hirate",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -10765,6 +10921,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@yuukasugai_official",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@yuukasugai_official",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -11417,6 +11586,32 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@oda_nana",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@oda_nana",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@oda_nana",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.tiktok.com/@oda_nana",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -11466,7 +11661,21 @@
     "birthplace": null,
     "officialCode": null,
     "imageUrl": "https://sakurazaka46.com/images/14/002/5e41cebfa18a99478f77372cf5bc9/1000_1000_102400.jpg",
-    "links": [],
+    "links": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UC4LdiXC7cnInUPbpoNZPCNQ",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "wikipedia_ja",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%BB%8A%E6%B3%89%E4%BD%91%E5%94%AF",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "今",
       "hueShift": -17
@@ -11532,6 +11741,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@shidamanaka_official",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@shidamanaka_official",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -11781,6 +12003,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@saitoukyoko_official",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@saitoukyoko_official",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -12326,6 +12561,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@watanabemiho_official",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.tiktok.com/@watanabemiho_official",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -12745,6 +12993,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@yunamogion",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@yunamogion",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -12812,6 +13073,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@yunamogion",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@yunamogion",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -14072,6 +14346,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@atsukomaeda_official",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@atsukomaeda_official",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -14263,6 +14550,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@yukirin_k_official",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.tiktok.com/@yukirin_k_official",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -14339,6 +14639,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@345_chan",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.tiktok.com/@345_chan",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -14482,6 +14795,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@harunakojima19",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.tiktok.com/@harunakojima19",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -14549,6 +14875,32 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@tomo_i",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@tomo_i",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@tomo.i_0703",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.tiktok.com/@tomo.i_0703",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -14616,6 +14968,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@shinodamariko_channel",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@shinodamariko_channel",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -14683,6 +15048,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@minegishi_minami",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@minegishi_minami",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -15737,6 +16115,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@akari_suda",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@akari_suda",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -16626,6 +17017,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@miyuki.watanabe.official",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "wikipedia_ja",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%B8%A1%E8%BE%BA%E7%BE%8E%E5%84%AA%E7%B4%80",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -16693,6 +17097,32 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@shiro36run",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "wikipedia_ja",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%99%BD%E9%96%93%E7%BE%8E%E7%91%A0",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@mirurunchannel",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@mirurunchannel",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -16760,6 +17190,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@nagichannel",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@nagichannel",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -17570,6 +18013,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@ChannelMiyawaki",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@ChannelMiyawaki",
+          "checkedAt": "2026-08-22",
+          "note": "user-curated"
+        }
       }
     ],
     "avatar": {
@@ -17637,6 +18093,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@nako_75_",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "wikipedia_ja",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%9F%A2%E5%90%B9%E5%A5%88%E5%AD%90",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -18451,6 +18920,32 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCHf-Nqd7p4rgksVCWyfHqiA",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "wikipedia_ja",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8D%BB%E9%87%8E%E7%94%B1%E4%BD%B3",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@yuka_ippaiwarae",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "wikipedia_ja",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8D%BB%E9%87%8E%E7%94%B1%E4%BD%B3",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -18518,6 +19013,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@rika___n24x",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "wikipedia_ja",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E4%BA%95%E3%82%8A%E3%81%8B",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -20429,6 +20937,19 @@
           "note": null
         },
         "lastCheckedAt": "2026-08-22"
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@aikawa_honoka",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "wikipedia_ja",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E5%B7%9D%E6%9A%96%E8%8A%B1",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -23626,7 +24147,21 @@
     },
     "officialCode": null,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Masaimayuu001.png/960px-Masaimayuu001.png?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "links": [],
+    "links": [
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@yuruyurumayuu",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "wikipedia_ja",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%AD%A3%E9%8B%B3%E7%9C%9F%E5%84%AA",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "正",
       "hueShift": -17
@@ -24614,7 +25149,34 @@
     },
     "officialCode": null,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/%E5%9D%82%E4%B8%8B_%E7%9C%9F%E5%BF%83.jpg/960px-%E5%9D%82%E4%B8%8B_%E7%9C%9F%E5%BF%83.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "links": [],
+    "links": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@sakashita_mako",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "wikipedia_ja",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%9D%82%E4%B8%8B%E7%9C%9F%E5%BF%83",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@mako._.chii",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "wikipedia_ja",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%9D%82%E4%B8%8B%E7%9C%9F%E5%BF%83",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "坂",
       "hueShift": -17

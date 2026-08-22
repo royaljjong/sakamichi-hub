@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import type { Group, Member } from '@/lib/schema';
@@ -40,19 +40,25 @@ export function HomePortal({ groups, members, locale, portal, videos }: { groups
 
   const selectFamily = (next: Family) => { setFamily(next); setHasSelected(true); };
   const eventsFor = (target: Family) => portal.events.filter((event) => event.groupIds.some((id) => groups.find((g) => g.id === id)?.franchise === target)).sort((a, b) => a.startsAt.localeCompare(b.startsAt));
-  const birthdaysFor = (target: Family) => members
-    .filter((member) =>
+  const tBirthday = useTranslations('birthday');
+  const birthdayBucketsFor = (target: Family) => {
+    const filtered = members.filter((member) =>
       groups.find((g) => g.id === member.primaryGroupId)?.franchise === target &&
       Number(member.birthDate?.slice(5, 7)) === month
-    )
-    .sort((a, b) => {
-      const aMd = (a.birthDate ?? '').slice(5);
-      const bMd = (b.birthDate ?? '').slice(5);
-      const aBucket = aMd === todayMd ? 0 : aMd > todayMd ? 1 : 2;
-      const bBucket = bMd === todayMd ? 0 : bMd > todayMd ? 1 : 2;
-      if (aBucket !== bBucket) return aBucket - bBucket;
-      return aMd.localeCompare(bMd);
-    });
+    );
+    const todayBucket: Member[] = [];
+    const upcoming: Member[] = [];
+    const past: Member[] = [];
+    for (const m of filtered) {
+      const md = (m.birthDate ?? '').slice(5);
+      if (md === todayMd) todayBucket.push(m);
+      else if (md > todayMd) upcoming.push(m);
+      else past.push(m);
+    }
+    upcoming.sort((a, b) => (a.birthDate ?? '').slice(5).localeCompare((b.birthDate ?? '').slice(5)));
+    past.sort((a, b) => (a.birthDate ?? '').slice(5).localeCompare((b.birthDate ?? '').slice(5)));
+    return { today: todayBucket, upcoming, past, total: filtered.length };
+  };
 
   // Section 5 & 7: channel member helpers (active / trainee / graduating only)
   const activeStatuses = new Set<string>(['active', 'trainee', 'graduating']);
@@ -88,7 +94,54 @@ export function HomePortal({ groups, members, locale, portal, videos }: { groups
 
     {(['sakamichi', 'akb48g'] as Family[]).map((target) => { const events = eventsFor(target); return <section key={`events-${target}`} className="editorial-panel p-5 sm:p-7"><div className="flex items-end justify-between gap-4"><div><p className="section-kicker">{target === 'sakamichi' ? tFranchise('sakamichiShort') : tFranchise('akb48gShort')}</p><h2 className="section-title mt-2">{t('events')}</h2><p className="mt-2 text-[11px] text-[var(--ink-soft)]">{t('updated')} · {portal.generatedAt}</p></div><span className="count-pill">{events.length}</span></div>{events.length ? <Rail label={`${target} events`}>{events.map((event, i) => { const group = groupMap.get(event.groupIds[0] ?? ''); const venue = event.venueId ? venues.get(event.venueId) : undefined; return <div key={event.id} className="stagger-item" style={{ '--i': Math.min(i, 12) } as React.CSSProperties}><a href={event.ticketUrl ?? event.officialUrl} target="_blank" rel="noopener noreferrer" className="event-poster-card group" onMouseEnter={() => group && setPreview(group.id)} onMouseLeave={clearPreview}><div className="event-poster-media">{event.posterUrl ? <img src={event.posterUrl} alt="" className="h-full w-full object-cover" /> : <div className="event-poster-placeholder" style={{ '--event-color': group?.palette.brand } as React.CSSProperties}><span>{group ? localized(group.shortName) : ''}</span><b>LIVE</b></div>}</div><div className="p-4"><time className="text-[11px] text-[var(--ink-soft)]">{new Intl.DateTimeFormat(lang, { month: 'short', day: 'numeric', weekday: 'short' }).format(new Date(event.startsAt))}</time><h3 className="mt-2 line-clamp-2 text-sm font-semibold">{localized(event.title)}</h3><p className="mt-2 truncate text-[11px] text-[var(--ink-soft)]">{venue ? localized(venue.name) : localized(group?.baseLocation ?? { ja: 'オンライン', ko: '온라인', en: 'Online' })} ↗</p></div></a></div>; })}</Rail> : <p className="mt-6 border-t border-black/10 py-8 text-sm text-[var(--ink-soft)]">{t('emptyEvent')}</p>}</section>; })}
 
-    <section className="space-y-6">{(['sakamichi', 'akb48g'] as Family[]).map((target) => { const birthdays = birthdaysFor(target); return <div key={`birthday-${target}`} className="editorial-panel p-5 sm:p-7"><p className="section-kicker">{target === 'sakamichi' ? tFranchise('sakamichiShort') : tFranchise('akb48gShort')}</p><h2 className="section-title mt-2">{t('birthdays')}</h2>{birthdays.length ? <Rail label={`${target} birthdays`}>{birthdays.map((member, i) => { const group = groupMap.get(member.primaryGroupId); const name = lang === 'ko' ? member.name.ko.hangul : lang === 'en' ? member.name.en.romaji : member.name.ja.kanji; return <div key={member.id} className="stagger-item" style={{ '--i': Math.min(i, 12) } as React.CSSProperties}><Link href={`/m/${member.id}`} className="birthday-slide" data-today={member.birthDate?.slice(5) === todayMd ? 'true' : undefined}><MemberAvatar glyph={member.avatar.glyph} hueShift={member.avatar.hueShift} imageUrl={member.imageUrl} name={name} size={72} /><span className="mt-3 block font-semibold">{name}</span><span className="mt-1 block text-[11px] text-[var(--ink-soft)]">{member.birthDate?.slice(5).replace('-', '.')} · {group?.shortName[lang]}</span></Link></div>; })}</Rail> : <p className="mt-5 text-sm text-[var(--ink-soft)]">{t('emptyBirthday')}</p>}</div>; })}</section>
+    <section className="space-y-6">
+      {(['sakamichi', 'akb48g'] as Family[]).map((target) => {
+        const { today: todayMembers, upcoming: upcomingMembers, past: pastMembers, total } = birthdayBucketsFor(target);
+        const buckets: { key: string; members: Member[]; label: string }[] = [
+          { key: 'today', members: todayMembers, label: tBirthday('bucketToday') },
+          { key: 'upcoming', members: upcomingMembers, label: tBirthday('bucketUpcoming') },
+          { key: 'past', members: pastMembers, label: tBirthday('bucketPast') },
+        ];
+        const nonEmpty = buckets.filter((b) => b.members.length > 0);
+        let staggerOffset = 0;
+        return (
+          <div key={`birthday-${target}`} className="editorial-panel p-5 sm:p-7">
+            <p className="section-kicker">{target === 'sakamichi' ? tFranchise('sakamichiShort') : tFranchise('akb48gShort')}</p>
+            <h2 className="section-title mt-2">{t('birthdays')}</h2>
+            {total > 0 ? (
+              <Rail label={`${target} birthdays`}>
+                {nonEmpty.map((bucket, bucketIdx) => {
+                  const startOffset = staggerOffset;
+                  staggerOffset += bucket.members.length;
+                  return (
+                    <React.Fragment key={bucket.key}>
+                      {bucketIdx > 0 && (
+                        <div className="birthday-bucket-divider" role="separator">
+                          <span>{bucket.label}</span>
+                        </div>
+                      )}
+                      {bucket.members.map((member, i) => {
+                        const group = groupMap.get(member.primaryGroupId);
+                        const name = lang === 'ko' ? member.name.ko.hangul : lang === 'en' ? member.name.en.romaji : member.name.ja.kanji;
+                        return (
+                          <div key={member.id} className="stagger-item" style={{ '--i': Math.min(startOffset + i, 12) } as React.CSSProperties}>
+                            <Link href={`/m/${member.id}`} className="birthday-slide" data-today={member.birthDate?.slice(5) === todayMd ? 'true' : undefined}>
+                              <MemberAvatar glyph={member.avatar.glyph} hueShift={member.avatar.hueShift} imageUrl={member.imageUrl} name={name} size={72} />
+                              <span className="mt-3 block font-semibold">{name}</span>
+                              <span className="mt-1 block text-[11px] text-[var(--ink-soft)]">{member.birthDate?.slice(5).replace('-', '.')} · {group?.shortName[lang]}</span>
+                            </Link>
+                          </div>
+                        );
+                      })}
+                    </React.Fragment>
+                  );
+                })}
+              </Rail>
+            ) : <p className="mt-5 text-sm text-[var(--ink-soft)]">{t('emptyBirthday')}</p>}
+          </div>
+        );
+      })}
+    </section>
 
     {/* Section 5 — YouTube channels rail (per franchise) */}
     <section className="space-y-6">

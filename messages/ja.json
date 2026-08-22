@@ -128,7 +128,10 @@
   },
   "birthday": {
     "title": "今月の誕生日",
-    "empty": "今月の誕生日メンバーはいません。"
+    "empty": "今月の誕生日メンバーはいません。",
+    "bucketToday": "今日の誕生日",
+    "bucketUpcoming": "今月これから",
+    "bucketPast": "今月既に"
   },
   "ranking": {
     "title": "ランキング",
