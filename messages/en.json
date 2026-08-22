@@ -73,7 +73,19 @@
     "placeholder": "Search by member name, kanji, kana, or romaji",
     "noResults": "No members found",
     "resultCount": "{count} found",
-    "indexing": "Loading index..."
+    "indexing": "Loading index...",
+    "pageTitle": "Member Search",
+    "pageSubtitle": "Search by kanji, kana, romaji, hangul, or choseong. Covers Nogizaka, Sakurazaka, Hinatazaka & all AKB48 groups.",
+    "filterFranchise": "Series",
+    "filterStatus": "Status",
+    "filterGroup": "Group",
+    "filterAll": "All",
+    "statusActive": "Active",
+    "statusGraduated": "Graduated",
+    "statusTrainee": "Trainee",
+    "browseByFilterHint": "Browse with filters…",
+    "franchiseSakamichi": "Sakamichi Series",
+    "franchiseAkb48g": "AKB48 Group"
   },
   "about": {
     "disclaimerTitle": "Unofficial Fan Site Notice",

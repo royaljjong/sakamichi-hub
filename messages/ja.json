@@ -73,7 +73,19 @@
     "placeholder": "メンバー名・漢字・かな・ローマ字で検索",
     "noResults": "見つかりませんでした",
     "resultCount": "{count}件",
-    "indexing": "インデックス読み込み中..."
+    "indexing": "インデックス読み込み中...",
+    "pageTitle": "メンバー検索",
+    "pageSubtitle": "漢字・かな・ローマ字・한글・초성検索に対応。乃木坂・櫻坂・日向坂・AKB48全グループ。",
+    "filterFranchise": "シリーズ",
+    "filterStatus": "状態",
+    "filterGroup": "グループ",
+    "filterAll": "すべて",
+    "statusActive": "現役",
+    "statusGraduated": "卒業",
+    "statusTrainee": "研究生",
+    "browseByFilterHint": "フィルタから探す…",
+    "franchiseSakamichi": "坂道シリーズ",
+    "franchiseAkb48g": "AKB48グループ"
   },
   "about": {
     "disclaimerTitle": "非公式ファンサイト宣言",

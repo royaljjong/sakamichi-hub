@@ -73,7 +73,19 @@
     "placeholder": "멤버 이름·한글·한자·초성·로마자로 검색",
     "noResults": "검색 결과가 없습니다",
     "resultCount": "{count}건",
-    "indexing": "인덱스 불러오는 중..."
+    "indexing": "인덱스 불러오는 중...",
+    "pageTitle": "멤버 검색",
+    "pageSubtitle": "한글·초성·한자·로마자 검색 지원. 노기자카·사쿠라자카·히나타자카·AKB48 전 그룹.",
+    "filterFranchise": "시리즈",
+    "filterStatus": "상태",
+    "filterGroup": "그룹",
+    "filterAll": "전체",
+    "statusActive": "현역",
+    "statusGraduated": "졸업",
+    "statusTrainee": "연습생",
+    "browseByFilterHint": "필터로 찾아보기…",
+    "franchiseSakamichi": "사카미치 시리즈",
+    "franchiseAkb48g": "AKB48 그룹"
   },
   "about": {
     "disclaimerTitle": "비공식 팬사이트 선언",
