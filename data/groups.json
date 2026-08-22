@@ -6,16 +6,32 @@
       "id": "nogizaka46",
       "franchise": "sakamichi",
       "region": "domestic",
-      "baseLocation": { "ja": "東京", "ko": "도쿄", "en": "Tokyo" },
+      "baseLocation": {
+        "ja": "東京",
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
       "order": 1,
-      "name": { "ja": "乃木坂46", "ko": "노기자카46", "en": "Nogizaka46" },
-      "shortName": { "ja": "乃木坂", "ko": "노기자카", "en": "Nogi" },
+      "name": {
+        "ja": "乃木坂46",
+        "ko": "노기자카46",
+        "en": "Nogizaka46"
+      },
+      "shortName": {
+        "ja": "乃木坂",
+        "ko": "노기자카",
+        "en": "Nogi"
+      },
       "status": "active",
       "debutedOn": "2011-08-21",
       "lineage": [
         {
           "id": "nogizaka46",
-          "name": { "ja": "乃木坂46", "ko": "노기자카46", "en": "Nogizaka46" },
+          "name": {
+            "ja": "乃木坂46",
+            "ko": "노기자카46",
+            "en": "Nogizaka46"
+          },
           "from": "2011-08-21",
           "to": null,
           "color": "#8A6BC1",
@@ -36,8 +52,9 @@
         "blogIndex": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list",
         "x": "https://x.com/nogizaka46",
         "instagram": "https://www.instagram.com/nogizaka46_official/",
-        "youtube": "https://www.youtube.com/user/nogizaka46SMEJ",
-        "tiktok": "https://www.tiktok.com/@nogizaka46_official"
+        "youtube": "https://www.youtube.com/@Nogizaka46",
+        "tiktok": "https://www.tiktok.com/@nogizaka46_official",
+        "youtubeExtra": "https://www.youtube.com/@nogizaka46haishin"
       },
       "blogUrlTemplate": "https://www.nogizaka46.com/s/n46/diary/MEMBER/list?ima=0000&ct={code}",
       "generations": [
@@ -45,7 +62,11 @@
           "id": "nogi-g1",
           "order": 1,
           "sortSuffix": 0,
-          "label": { "ja": "1期生", "ko": "1기생", "en": "1st Gen" },
+          "label": {
+            "ja": "1期生",
+            "ko": "1기생",
+            "en": "1st Gen"
+          },
           "joinedOn": "2011-08-21",
           "joinedUnderLineageId": "nogizaka46",
           "note": null
@@ -54,7 +75,11 @@
           "id": "nogi-g2",
           "order": 2,
           "sortSuffix": 0,
-          "label": { "ja": "2期生", "ko": "2기생", "en": "2nd Gen" },
+          "label": {
+            "ja": "2期生",
+            "ko": "2기생",
+            "en": "2nd Gen"
+          },
           "joinedOn": "2013-03-28",
           "joinedUnderLineageId": "nogizaka46",
           "note": null
@@ -63,7 +88,11 @@
           "id": "nogi-g3",
           "order": 3,
           "sortSuffix": 0,
-          "label": { "ja": "3期生", "ko": "3기생", "en": "3rd Gen" },
+          "label": {
+            "ja": "3期生",
+            "ko": "3기생",
+            "en": "3rd Gen"
+          },
           "joinedOn": "2016-09-04",
           "joinedUnderLineageId": "nogizaka46",
           "note": null
@@ -72,7 +101,11 @@
           "id": "nogi-g4",
           "order": 4,
           "sortSuffix": 0,
-          "label": { "ja": "4期生", "ko": "4기생", "en": "4th Gen" },
+          "label": {
+            "ja": "4期生",
+            "ko": "4기생",
+            "en": "4th Gen"
+          },
           "joinedOn": "2018-11-29",
           "joinedUnderLineageId": "nogizaka46",
           "note": null
@@ -81,7 +114,11 @@
           "id": "nogi-g5",
           "order": 5,
           "sortSuffix": 0,
-          "label": { "ja": "5期生", "ko": "5기생", "en": "5th Gen" },
+          "label": {
+            "ja": "5期生",
+            "ko": "5기생",
+            "en": "5th Gen"
+          },
           "joinedOn": "2022-02-01",
           "joinedUnderLineageId": "nogizaka46",
           "note": null
@@ -90,7 +127,11 @@
           "id": "nogi-g6",
           "order": 6,
           "sortSuffix": 0,
-          "label": { "ja": "6期生", "ko": "6기생", "en": "6th Gen" },
+          "label": {
+            "ja": "6期生",
+            "ko": "6기생",
+            "en": "6th Gen"
+          },
           "joinedOn": "2025-02-06",
           "joinedUnderLineageId": "nogizaka46",
           "note": null
@@ -112,16 +153,32 @@
       "id": "sakurazaka46",
       "franchise": "sakamichi",
       "region": "domestic",
-      "baseLocation": { "ja": "東京", "ko": "도쿄", "en": "Tokyo" },
+      "baseLocation": {
+        "ja": "東京",
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
       "order": 2,
-      "name": { "ja": "櫻坂46", "ko": "사쿠라자카46", "en": "Sakurazaka46" },
-      "shortName": { "ja": "櫻坂", "ko": "사쿠라자카", "en": "Sakura" },
+      "name": {
+        "ja": "櫻坂46",
+        "ko": "사쿠라자카46",
+        "en": "Sakurazaka46"
+      },
+      "shortName": {
+        "ja": "櫻坂",
+        "ko": "사쿠라자카",
+        "en": "Sakura"
+      },
       "status": "active",
       "debutedOn": "2015-08-21",
       "lineage": [
         {
           "id": "keyakizaka46",
-          "name": { "ja": "欅坂46", "ko": "케야키자카46", "en": "Keyakizaka46" },
+          "name": {
+            "ja": "欅坂46",
+            "ko": "케야키자카46",
+            "en": "Keyakizaka46"
+          },
           "from": "2015-08-21",
           "to": "2020-10-12",
           "color": "#5FAE84",
@@ -129,7 +186,11 @@
         },
         {
           "id": "sakurazaka46",
-          "name": { "ja": "櫻坂46", "ko": "사쿠라자카46", "en": "Sakurazaka46" },
+          "name": {
+            "ja": "櫻坂46",
+            "ko": "사쿠라자카46",
+            "en": "Sakurazaka46"
+          },
           "from": "2020-10-14",
           "to": null,
           "color": "#E88AA6",
@@ -151,7 +212,8 @@
         "x": "https://x.com/sakurazaka46",
         "instagram": "https://www.instagram.com/sakurazaka46jp/",
         "youtube": "https://www.youtube.com/channel/UCmr9bYmymidVM8rmmn9FWOA",
-        "tiktok": "https://www.tiktok.com/@sakurazaka46.officialtk"
+        "tiktok": "https://www.tiktok.com/@sakurazaka46.officialtk",
+        "youtubeExtra": "https://www.youtube.com/@sakurazakachannel"
       },
       "blogUrlTemplate": "https://sakurazaka46.com/s/s46/diary/blog/list?ima=0000&ct={code}",
       "generations": [
@@ -159,7 +221,11 @@
           "id": "saku-g1",
           "order": 1,
           "sortSuffix": 0,
-          "label": { "ja": "1期生", "ko": "1기생", "en": "1st Gen" },
+          "label": {
+            "ja": "1期生",
+            "ko": "1기생",
+            "en": "1st Gen"
+          },
           "joinedOn": "2015-08-21",
           "joinedUnderLineageId": "keyakizaka46",
           "note": null
@@ -168,7 +234,11 @@
           "id": "saku-g2",
           "order": 2,
           "sortSuffix": 0,
-          "label": { "ja": "2期生", "ko": "2기생", "en": "2nd Gen" },
+          "label": {
+            "ja": "2期生",
+            "ko": "2기생",
+            "en": "2nd Gen"
+          },
           "joinedOn": "2018-11-29",
           "joinedUnderLineageId": "keyakizaka46",
           "note": null
@@ -177,7 +247,11 @@
           "id": "saku-g2-new",
           "order": 2,
           "sortSuffix": 1,
-          "label": { "ja": "新2期生", "ko": "신2기생", "en": "New 2nd Gen" },
+          "label": {
+            "ja": "新2期生",
+            "ko": "신2기생",
+            "en": "New 2nd Gen"
+          },
           "joinedOn": "2020-02-16",
           "joinedUnderLineageId": "keyakizaka46",
           "note": null
@@ -186,7 +260,11 @@
           "id": "saku-g3",
           "order": 3,
           "sortSuffix": 0,
-          "label": { "ja": "3期生", "ko": "3기생", "en": "3rd Gen" },
+          "label": {
+            "ja": "3期生",
+            "ko": "3기생",
+            "en": "3rd Gen"
+          },
           "joinedOn": "2023-01-05",
           "joinedUnderLineageId": "sakurazaka46",
           "note": null
@@ -195,7 +273,11 @@
           "id": "saku-g4",
           "order": 4,
           "sortSuffix": 0,
-          "label": { "ja": "4期生", "ko": "4기생", "en": "4th Gen" },
+          "label": {
+            "ja": "4期生",
+            "ko": "4기생",
+            "en": "4th Gen"
+          },
           "joinedOn": "2025-03-01",
           "joinedUnderLineageId": "sakurazaka46",
           "note": null
@@ -217,16 +299,32 @@
       "id": "hinatazaka46",
       "franchise": "sakamichi",
       "region": "domestic",
-      "baseLocation": { "ja": "東京", "ko": "도쿄", "en": "Tokyo" },
+      "baseLocation": {
+        "ja": "東京",
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
       "order": 3,
-      "name": { "ja": "日向坂46", "ko": "히나타자카46", "en": "Hinatazaka46" },
-      "shortName": { "ja": "日向坂", "ko": "히나타자카", "en": "Hinata" },
+      "name": {
+        "ja": "日向坂46",
+        "ko": "히나타자카46",
+        "en": "Hinatazaka46"
+      },
+      "shortName": {
+        "ja": "日向坂",
+        "ko": "히나타자카",
+        "en": "Hinata"
+      },
       "status": "active",
       "debutedOn": "2015-11-30",
       "lineage": [
         {
           "id": "hiragana-keyaki",
-          "name": { "ja": "けやき坂46", "ko": "히라가나 케야키", "en": "Hiragana Keyakizaka46" },
+          "name": {
+            "ja": "けやき坂46",
+            "ko": "히라가나 케야키",
+            "en": "Hiragana Keyakizaka46"
+          },
           "from": "2015-11-30",
           "to": "2019-02-10",
           "color": "#77C6EE",
@@ -234,7 +332,11 @@
         },
         {
           "id": "hinatazaka46",
-          "name": { "ja": "日向坂46", "ko": "히나타자카46", "en": "Hinatazaka46" },
+          "name": {
+            "ja": "日向坂46",
+            "ko": "히나타자카46",
+            "en": "Hinatazaka46"
+          },
           "from": "2019-02-11",
           "to": null,
           "color": "#5AB4E0",
@@ -256,7 +358,8 @@
         "x": "https://x.com/hinatazaka46",
         "instagram": "https://www.instagram.com/hinatazaka46/",
         "youtube": "https://www.youtube.com/channel/UCR0V48DJyW5wVEUU5E0gvMw",
-        "tiktok": "https://www.tiktok.com/@hinatazakanew"
+        "tiktok": "https://www.tiktok.com/@hinatazakanew",
+        "youtubeExtra": "https://www.youtube.com/@hinatazakachannel"
       },
       "blogUrlTemplate": "https://www.hinatazaka46.com/s/official/diary/member/list?ima=0000&ct={code}",
       "generations": [
@@ -264,7 +367,11 @@
           "id": "hina-g1",
           "order": 1,
           "sortSuffix": 0,
-          "label": { "ja": "1期生", "ko": "1기생", "en": "1st Gen" },
+          "label": {
+            "ja": "1期生",
+            "ko": "1기생",
+            "en": "1st Gen"
+          },
           "joinedOn": "2016-05-08",
           "joinedUnderLineageId": "hiragana-keyaki",
           "note": null
@@ -273,7 +380,11 @@
           "id": "hina-g2",
           "order": 2,
           "sortSuffix": 0,
-          "label": { "ja": "2期生", "ko": "2기생", "en": "2nd Gen" },
+          "label": {
+            "ja": "2期生",
+            "ko": "2기생",
+            "en": "2nd Gen"
+          },
           "joinedOn": "2017-08-13",
           "joinedUnderLineageId": "hiragana-keyaki",
           "note": null
@@ -282,7 +393,11 @@
           "id": "hina-g3",
           "order": 3,
           "sortSuffix": 0,
-          "label": { "ja": "3期生", "ko": "3기생", "en": "3rd Gen" },
+          "label": {
+            "ja": "3期生",
+            "ko": "3기생",
+            "en": "3rd Gen"
+          },
           "joinedOn": "2018-11-29",
           "joinedUnderLineageId": "hinatazaka46",
           "note": null
@@ -291,7 +406,11 @@
           "id": "hina-g4",
           "order": 4,
           "sortSuffix": 0,
-          "label": { "ja": "4期生", "ko": "4기생", "en": "4th Gen" },
+          "label": {
+            "ja": "4期生",
+            "ko": "4기생",
+            "en": "4th Gen"
+          },
           "joinedOn": "2022-09-21",
           "joinedUnderLineageId": "hinatazaka46",
           "note": null
@@ -300,7 +419,11 @@
           "id": "hina-g5",
           "order": 5,
           "sortSuffix": 0,
-          "label": { "ja": "5期生", "ko": "5기생", "en": "5th Gen" },
+          "label": {
+            "ja": "5期生",
+            "ko": "5기생",
+            "en": "5th Gen"
+          },
           "joinedOn": "2025-03-01",
           "joinedUnderLineageId": "hinatazaka46",
           "note": null
@@ -322,16 +445,32 @@
       "id": "akb48",
       "franchise": "akb48g",
       "region": "domestic",
-      "baseLocation": { "ja": "東京・秋葉原", "ko": "도쿄 아키하바라", "en": "Tokyo / Akihabara" },
+      "baseLocation": {
+        "ja": "東京・秋葉原",
+        "ko": "도쿄 아키하바라",
+        "en": "Tokyo / Akihabara"
+      },
       "order": 4,
-      "name": { "ja": "AKB48", "ko": "AKB48", "en": "AKB48" },
-      "shortName": { "ja": "AKB", "ko": "AKB", "en": "AKB" },
+      "name": {
+        "ja": "AKB48",
+        "ko": "AKB48",
+        "en": "AKB48"
+      },
+      "shortName": {
+        "ja": "AKB",
+        "ko": "AKB",
+        "en": "AKB"
+      },
       "status": "active",
       "debutedOn": "2005-12-08",
       "lineage": [
         {
           "id": "akb48",
-          "name": { "ja": "AKB48", "ko": "AKB48", "en": "AKB48" },
+          "name": {
+            "ja": "AKB48",
+            "ko": "AKB48",
+            "en": "AKB48"
+          },
           "from": "2005-12-08",
           "to": null,
           "color": "#E53975",
@@ -361,7 +500,11 @@
           "id": "akb-g-active",
           "order": 1,
           "sortSuffix": 0,
-          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "label": {
+            "ja": "現役メンバー",
+            "ko": "현역 멤버",
+            "en": "Active Members"
+          },
           "joinedOn": "2005-12-08",
           "joinedUnderLineageId": "akb48",
           "note": null
@@ -383,16 +526,32 @@
       "id": "ske48",
       "franchise": "akb48g",
       "region": "domestic",
-      "baseLocation": { "ja": "名古屋・栄", "ko": "나고야 사카에", "en": "Nagoya / Sakae" },
+      "baseLocation": {
+        "ja": "名古屋・栄",
+        "ko": "나고야 사카에",
+        "en": "Nagoya / Sakae"
+      },
       "order": 5,
-      "name": { "ja": "SKE48", "ko": "SKE48", "en": "SKE48" },
-      "shortName": { "ja": "SKE", "ko": "SKE", "en": "SKE" },
+      "name": {
+        "ja": "SKE48",
+        "ko": "SKE48",
+        "en": "SKE48"
+      },
+      "shortName": {
+        "ja": "SKE",
+        "ko": "SKE",
+        "en": "SKE"
+      },
       "status": "active",
       "debutedOn": "2008-08-23",
       "lineage": [
         {
           "id": "ske48",
-          "name": { "ja": "SKE48", "ko": "SKE48", "en": "SKE48" },
+          "name": {
+            "ja": "SKE48",
+            "ko": "SKE48",
+            "en": "SKE48"
+          },
           "from": "2008-08-23",
           "to": null,
           "color": "#E87722",
@@ -422,7 +581,11 @@
           "id": "ske-g-active",
           "order": 1,
           "sortSuffix": 0,
-          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "label": {
+            "ja": "現役メンバー",
+            "ko": "현역 멤버",
+            "en": "Active Members"
+          },
           "joinedOn": "2008-08-23",
           "joinedUnderLineageId": "ske48",
           "note": null
@@ -444,16 +607,32 @@
       "id": "nmb48",
       "franchise": "akb48g",
       "region": "domestic",
-      "baseLocation": { "ja": "大阪・難波", "ko": "오사카 난바", "en": "Osaka / Namba" },
+      "baseLocation": {
+        "ja": "大阪・難波",
+        "ko": "오사카 난바",
+        "en": "Osaka / Namba"
+      },
       "order": 6,
-      "name": { "ja": "NMB48", "ko": "NMB48", "en": "NMB48" },
-      "shortName": { "ja": "NMB", "ko": "NMB", "en": "NMB" },
+      "name": {
+        "ja": "NMB48",
+        "ko": "NMB48",
+        "en": "NMB48"
+      },
+      "shortName": {
+        "ja": "NMB",
+        "ko": "NMB",
+        "en": "NMB"
+      },
       "status": "active",
       "debutedOn": "2010-10-09",
       "lineage": [
         {
           "id": "nmb48",
-          "name": { "ja": "NMB48", "ko": "NMB48", "en": "NMB48" },
+          "name": {
+            "ja": "NMB48",
+            "ko": "NMB48",
+            "en": "NMB48"
+          },
           "from": "2010-10-09",
           "to": null,
           "color": "#C59B27",
@@ -483,7 +662,11 @@
           "id": "nmb-g-active",
           "order": 1,
           "sortSuffix": 0,
-          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "label": {
+            "ja": "現役メンバー",
+            "ko": "현역 멤버",
+            "en": "Active Members"
+          },
           "joinedOn": "2010-10-09",
           "joinedUnderLineageId": "nmb48",
           "note": null
@@ -505,16 +688,32 @@
       "id": "hkt48",
       "franchise": "akb48g",
       "region": "domestic",
-      "baseLocation": { "ja": "福岡・博多", "ko": "후쿠오카 하카타", "en": "Fukuoka / Hakata" },
+      "baseLocation": {
+        "ja": "福岡・博多",
+        "ko": "후쿠오카 하카타",
+        "en": "Fukuoka / Hakata"
+      },
       "order": 7,
-      "name": { "ja": "HKT48", "ko": "HKT48", "en": "HKT48" },
-      "shortName": { "ja": "HKT", "ko": "HKT", "en": "HKT" },
+      "name": {
+        "ja": "HKT48",
+        "ko": "HKT48",
+        "en": "HKT48"
+      },
+      "shortName": {
+        "ja": "HKT",
+        "ko": "HKT",
+        "en": "HKT"
+      },
       "status": "active",
       "debutedOn": "2011-10-23",
       "lineage": [
         {
           "id": "hkt48",
-          "name": { "ja": "HKT48", "ko": "HKT48", "en": "HKT48" },
+          "name": {
+            "ja": "HKT48",
+            "ko": "HKT48",
+            "en": "HKT48"
+          },
           "from": "2011-10-23",
           "to": null,
           "color": "#4A5568",
@@ -544,7 +743,11 @@
           "id": "hkt-g-active",
           "order": 1,
           "sortSuffix": 0,
-          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "label": {
+            "ja": "現役メンバー",
+            "ko": "현역 멤버",
+            "en": "Active Members"
+          },
           "joinedOn": "2011-10-23",
           "joinedUnderLineageId": "hkt48",
           "note": null
@@ -566,16 +769,32 @@
       "id": "ngt48",
       "franchise": "akb48g",
       "region": "domestic",
-      "baseLocation": { "ja": "新潟", "ko": "니가타", "en": "Niigata" },
+      "baseLocation": {
+        "ja": "新潟",
+        "ko": "니가타",
+        "en": "Niigata"
+      },
       "order": 8,
-      "name": { "ja": "NGT48", "ko": "NGT48", "en": "NGT48" },
-      "shortName": { "ja": "NGT", "ko": "NGT", "en": "NGT" },
+      "name": {
+        "ja": "NGT48",
+        "ko": "NGT48",
+        "en": "NGT48"
+      },
+      "shortName": {
+        "ja": "NGT",
+        "ko": "NGT",
+        "en": "NGT"
+      },
       "status": "active",
       "debutedOn": "2015-08-21",
       "lineage": [
         {
           "id": "ngt48",
-          "name": { "ja": "NGT48", "ko": "NGT48", "en": "NGT48" },
+          "name": {
+            "ja": "NGT48",
+            "ko": "NGT48",
+            "en": "NGT48"
+          },
           "from": "2015-08-21",
           "to": null,
           "color": "#D32F2F",
@@ -605,7 +824,11 @@
           "id": "ngt-g-active",
           "order": 1,
           "sortSuffix": 0,
-          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "label": {
+            "ja": "現役メンバー",
+            "ko": "현역 멤버",
+            "en": "Active Members"
+          },
           "joinedOn": "2015-08-21",
           "joinedUnderLineageId": "ngt48",
           "note": null
@@ -627,16 +850,32 @@
       "id": "stu48",
       "franchise": "akb48g",
       "region": "domestic",
-      "baseLocation": { "ja": "瀬戸内7県", "ko": "세토우치 7현", "en": "Setouchi" },
+      "baseLocation": {
+        "ja": "瀬戸内7県",
+        "ko": "세토우치 7현",
+        "en": "Setouchi"
+      },
       "order": 9,
-      "name": { "ja": "STU48", "ko": "STU48", "en": "STU48" },
-      "shortName": { "ja": "STU", "ko": "STU", "en": "STU" },
+      "name": {
+        "ja": "STU48",
+        "ko": "STU48",
+        "en": "STU48"
+      },
+      "shortName": {
+        "ja": "STU",
+        "ko": "STU",
+        "en": "STU"
+      },
       "status": "active",
       "debutedOn": "2017-03-31",
       "lineage": [
         {
           "id": "stu48",
-          "name": { "ja": "STU48", "ko": "STU48", "en": "STU48" },
+          "name": {
+            "ja": "STU48",
+            "ko": "STU48",
+            "en": "STU48"
+          },
           "from": "2017-03-31",
           "to": null,
           "color": "#0277BD",
@@ -666,7 +905,11 @@
           "id": "stu-g-active",
           "order": 1,
           "sortSuffix": 0,
-          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "label": {
+            "ja": "現役メンバー",
+            "ko": "현역 멤버",
+            "en": "Active Members"
+          },
           "joinedOn": "2017-03-31",
           "joinedUnderLineageId": "stu48",
           "note": null
@@ -688,16 +931,32 @@
       "id": "jkt48",
       "franchise": "akb48g",
       "region": "international",
-      "baseLocation": { "ja": "インドネシア・ジャカルタ", "ko": "인도네시아 자카르타", "en": "Jakarta, Indonesia" },
+      "baseLocation": {
+        "ja": "インドネシア・ジャカルタ",
+        "ko": "인도네시아 자카르타",
+        "en": "Jakarta, Indonesia"
+      },
       "order": 10,
-      "name": { "ja": "JKT48", "ko": "JKT48", "en": "JKT48" },
-      "shortName": { "ja": "JKT", "ko": "JKT", "en": "JKT" },
+      "name": {
+        "ja": "JKT48",
+        "ko": "JKT48",
+        "en": "JKT48"
+      },
+      "shortName": {
+        "ja": "JKT",
+        "ko": "JKT",
+        "en": "JKT"
+      },
       "status": "active",
       "debutedOn": "2011-11-02",
       "lineage": [
         {
           "id": "jkt48",
-          "name": { "ja": "JKT48", "ko": "JKT48", "en": "JKT48" },
+          "name": {
+            "ja": "JKT48",
+            "ko": "JKT48",
+            "en": "JKT48"
+          },
           "from": "2011-11-02",
           "to": null,
           "color": "#D32F2F",
@@ -727,7 +986,11 @@
           "id": "jkt-g-active",
           "order": 1,
           "sortSuffix": 0,
-          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "label": {
+            "ja": "現役メンバー",
+            "ko": "현역 멤버",
+            "en": "Active Members"
+          },
           "joinedOn": "2011-11-02",
           "joinedUnderLineageId": "jkt48",
           "note": null
@@ -749,16 +1012,32 @@
       "id": "bnk48",
       "franchise": "akb48g",
       "region": "international",
-      "baseLocation": { "ja": "タイ・バンコク", "ko": "태국 방콕", "en": "Bangkok, Thailand" },
+      "baseLocation": {
+        "ja": "タイ・バンコク",
+        "ko": "태국 방콕",
+        "en": "Bangkok, Thailand"
+      },
       "order": 11,
-      "name": { "ja": "BNK48", "ko": "BNK48", "en": "BNK48" },
-      "shortName": { "ja": "BNK", "ko": "BNK", "en": "BNK" },
+      "name": {
+        "ja": "BNK48",
+        "ko": "BNK48",
+        "en": "BNK48"
+      },
+      "shortName": {
+        "ja": "BNK",
+        "ko": "BNK",
+        "en": "BNK"
+      },
       "status": "active",
       "debutedOn": "2017-06-02",
       "lineage": [
         {
           "id": "bnk48",
-          "name": { "ja": "BNK48", "ko": "BNK48", "en": "BNK48" },
+          "name": {
+            "ja": "BNK48",
+            "ko": "BNK48",
+            "en": "BNK48"
+          },
           "from": "2017-06-02",
           "to": null,
           "color": "#BA68C8",
@@ -788,7 +1067,11 @@
           "id": "bnk-g-active",
           "order": 1,
           "sortSuffix": 0,
-          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "label": {
+            "ja": "現役メンバー",
+            "ko": "현역 멤버",
+            "en": "Active Members"
+          },
           "joinedOn": "2017-06-02",
           "joinedUnderLineageId": "bnk48",
           "note": null
@@ -810,16 +1093,32 @@
       "id": "cgm48",
       "franchise": "akb48g",
       "region": "international",
-      "baseLocation": { "ja": "タイ・チェンマイ", "ko": "태국 치앙마이", "en": "Chiang Mai, Thailand" },
+      "baseLocation": {
+        "ja": "タイ・チェンマイ",
+        "ko": "태국 치앙마이",
+        "en": "Chiang Mai, Thailand"
+      },
       "order": 12,
-      "name": { "ja": "CGM48", "ko": "CGM48", "en": "CGM48" },
-      "shortName": { "ja": "CGM", "ko": "CGM", "en": "CGM" },
+      "name": {
+        "ja": "CGM48",
+        "ko": "CGM48",
+        "en": "CGM48"
+      },
+      "shortName": {
+        "ja": "CGM",
+        "ko": "CGM",
+        "en": "CGM"
+      },
       "status": "active",
       "debutedOn": "2019-10-26",
       "lineage": [
         {
           "id": "cgm48",
-          "name": { "ja": "CGM48", "ko": "CGM48", "en": "CGM48" },
+          "name": {
+            "ja": "CGM48",
+            "ko": "CGM48",
+            "en": "CGM48"
+          },
           "from": "2019-10-26",
           "to": null,
           "color": "#4DB6AC",
@@ -849,7 +1148,11 @@
           "id": "cgm-g-active",
           "order": 1,
           "sortSuffix": 0,
-          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "label": {
+            "ja": "現役メンバー",
+            "ko": "현역 멤버",
+            "en": "Active Members"
+          },
           "joinedOn": "2019-10-26",
           "joinedUnderLineageId": "cgm48",
           "note": null
@@ -871,16 +1174,32 @@
       "id": "mnl48",
       "franchise": "akb48g",
       "region": "international",
-      "baseLocation": { "ja": "フィリピン・マニラ", "ko": "필리핀 마닐라", "en": "Manila, Philippines" },
+      "baseLocation": {
+        "ja": "フィリピン・マニラ",
+        "ko": "필리핀 마닐라",
+        "en": "Manila, Philippines"
+      },
       "order": 13,
-      "name": { "ja": "MNL48", "ko": "MNL48", "en": "MNL48" },
-      "shortName": { "ja": "MNL", "ko": "MNL", "en": "MNL" },
+      "name": {
+        "ja": "MNL48",
+        "ko": "MNL48",
+        "en": "MNL48"
+      },
+      "shortName": {
+        "ja": "MNL",
+        "ko": "MNL",
+        "en": "MNL"
+      },
       "status": "active",
       "debutedOn": "2018-04-28",
       "lineage": [
         {
           "id": "mnl48",
-          "name": { "ja": "MNL48", "ko": "MNL48", "en": "MNL48" },
+          "name": {
+            "ja": "MNL48",
+            "ko": "MNL48",
+            "en": "MNL48"
+          },
           "from": "2018-04-28",
           "to": null,
           "color": "#3949AB",
@@ -910,7 +1229,11 @@
           "id": "mnl-g-active",
           "order": 1,
           "sortSuffix": 0,
-          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "label": {
+            "ja": "現役メンバー",
+            "ko": "현역 멤버",
+            "en": "Active Members"
+          },
           "joinedOn": "2018-04-28",
           "joinedUnderLineageId": "mnl48",
           "note": null
@@ -932,16 +1255,32 @@
       "id": "akb48-team-sh",
       "franchise": "akb48g",
       "region": "international",
-      "baseLocation": { "ja": "中国・上海", "ko": "중국 상하이", "en": "Shanghai, China" },
+      "baseLocation": {
+        "ja": "中国・上海",
+        "ko": "중국 상하이",
+        "en": "Shanghai, China"
+      },
       "order": 14,
-      "name": { "ja": "AKB48 Team SH", "ko": "AKB48 Team SH", "en": "AKB48 Team SH" },
-      "shortName": { "ja": "Team SH", "ko": "Team SH", "en": "Team SH" },
+      "name": {
+        "ja": "AKB48 Team SH",
+        "ko": "AKB48 Team SH",
+        "en": "AKB48 Team SH"
+      },
+      "shortName": {
+        "ja": "Team SH",
+        "ko": "Team SH",
+        "en": "Team SH"
+      },
       "status": "active",
       "debutedOn": "2018-12-03",
       "lineage": [
         {
           "id": "akb48-team-sh",
-          "name": { "ja": "AKB48 Team SH", "ko": "AKB48 Team SH", "en": "AKB48 Team SH" },
+          "name": {
+            "ja": "AKB48 Team SH",
+            "ko": "AKB48 Team SH",
+            "en": "AKB48 Team SH"
+          },
           "from": "2018-12-03",
           "to": null,
           "color": "#E53935",
@@ -971,7 +1310,11 @@
           "id": "sh-g-active",
           "order": 1,
           "sortSuffix": 0,
-          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "label": {
+            "ja": "現役メンバー",
+            "ko": "현역 멤버",
+            "en": "Active Members"
+          },
           "joinedOn": "2018-12-03",
           "joinedUnderLineageId": "akb48-team-sh",
           "note": null
@@ -993,16 +1336,32 @@
       "id": "akb48-team-tp",
       "franchise": "akb48g",
       "region": "international",
-      "baseLocation": { "ja": "台湾・台北", "ko": "대만 타이베이", "en": "Taipei, Taiwan" },
+      "baseLocation": {
+        "ja": "台湾・台北",
+        "ko": "대만 타이베이",
+        "en": "Taipei, Taiwan"
+      },
       "order": 15,
-      "name": { "ja": "AKB48 Team TP", "ko": "AKB48 Team TP", "en": "AKB48 Team TP" },
-      "shortName": { "ja": "Team TP", "ko": "Team TP", "en": "Team TP" },
+      "name": {
+        "ja": "AKB48 Team TP",
+        "ko": "AKB48 Team TP",
+        "en": "AKB48 Team TP"
+      },
+      "shortName": {
+        "ja": "Team TP",
+        "ko": "Team TP",
+        "en": "Team TP"
+      },
       "status": "active",
       "debutedOn": "2018-08-26",
       "lineage": [
         {
           "id": "akb48-team-tp",
-          "name": { "ja": "AKB48 Team TP", "ko": "AKB48 Team TP", "en": "AKB48 Team TP" },
+          "name": {
+            "ja": "AKB48 Team TP",
+            "ko": "AKB48 Team TP",
+            "en": "AKB48 Team TP"
+          },
           "from": "2018-08-26",
           "to": null,
           "color": "#FB8C00",
@@ -1032,7 +1391,11 @@
           "id": "tp-g-active",
           "order": 1,
           "sortSuffix": 0,
-          "label": { "ja": "現役メンバー", "ko": "현역 멤버", "en": "Active Members" },
+          "label": {
+            "ja": "現役メンバー",
+            "ko": "현역 멤버",
+            "en": "Active Members"
+          },
           "joinedOn": "2018-08-26",
           "joinedUnderLineageId": "akb48-team-tp",
           "note": null
@@ -1054,16 +1417,32 @@
       "id": "klp48",
       "franchise": "akb48g",
       "region": "international",
-      "baseLocation": { "ja": "マレーシア・クアラルンプール", "ko": "말레이시아 쿠알라룸푸르", "en": "Kuala Lumpur, Malaysia" },
+      "baseLocation": {
+        "ja": "マレーシア・クアラルンプール",
+        "ko": "말레이시아 쿠알라룸푸르",
+        "en": "Kuala Lumpur, Malaysia"
+      },
       "order": 16,
-      "name": { "ja": "KLP48", "ko": "KLP48", "en": "KLP48" },
-      "shortName": { "ja": "KLP", "ko": "KLP", "en": "KLP" },
+      "name": {
+        "ja": "KLP48",
+        "ko": "KLP48",
+        "en": "KLP48"
+      },
+      "shortName": {
+        "ja": "KLP",
+        "ko": "KLP",
+        "en": "KLP"
+      },
       "status": "active",
       "debutedOn": "2024-08-18",
       "lineage": [
         {
           "id": "klp48",
-          "name": { "ja": "KLP48", "ko": "KLP48", "en": "KLP48" },
+          "name": {
+            "ja": "KLP48",
+            "ko": "KLP48",
+            "en": "KLP48"
+          },
           "from": "2024-08-18",
           "to": null,
           "color": "#00897B",
@@ -1093,7 +1472,11 @@
           "id": "klp-g-active",
           "order": 1,
           "sortSuffix": 0,
-          "label": { "ja": "1期生", "ko": "1기생", "en": "1st Gen" },
+          "label": {
+            "ja": "1期生",
+            "ko": "1기생",
+            "en": "1st Gen"
+          },
           "joinedOn": "2024-08-18",
           "joinedUnderLineageId": "klp48",
           "note": null

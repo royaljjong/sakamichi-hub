@@ -128,7 +128,10 @@
   },
   "birthday": {
     "title": "이달의 생일자",
-    "empty": "이번 달 생일자가 없습니다."
+    "empty": "이번 달 생일자가 없습니다.",
+    "bucketToday": "오늘 생일자",
+    "bucketUpcoming": "곧 생일자",
+    "bucketPast": "지난 생일자"
   },
   "ranking": {
     "title": "아이돌 랭킹",

@@ -128,7 +128,10 @@
   },
   "birthday": {
     "title": "Birthdays this month",
-    "empty": "No birthdays this month."
+    "empty": "No birthdays this month.",
+    "bucketToday": "Birthdays today",
+    "bucketUpcoming": "Upcoming this month",
+    "bucketPast": "Earlier this month"
   },
   "ranking": {
     "title": "Idol rankings",
