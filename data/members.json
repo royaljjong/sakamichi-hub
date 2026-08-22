@@ -20184,5 +20184,2795 @@
       "checkedAt": "2026-08-16",
       "note": "AKB48 Group verified dataset from official sites"
     }
+  },
+  {
+    "id": "ske48-aikawa-honoka",
+    "name": {
+      "ja": {
+        "kanji": "相川暖花",
+        "kana": "あいかわ ほのか"
+      },
+      "ko": {
+        "hangul": "아이카와 호노카"
+      },
+      "en": {
+        "romaji": "Aikawa Honoka"
+      },
+      "aliases": [
+        "aikawa honoka",
+        "相川暖花",
+        "아이카와 호노카"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "43",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_43.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/aikawa_honoka",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "相",
+      "hueShift": 4
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-ishiguro-yuzuki",
+    "name": {
+      "ja": {
+        "kanji": "石黒友月",
+        "kana": "いしぐろ ゆずき"
+      },
+      "ko": {
+        "hangul": "이시구로 유즈키"
+      },
+      "en": {
+        "romaji": "Ishiguro Yuzuki"
+      },
+      "aliases": [
+        "ishiguro yuzuki",
+        "石黒友月",
+        "이시구로 유즈키"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "4",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_4.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/ishiguro_yuzuki",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "石",
+      "hueShift": 17
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-ito-kokomi",
+    "name": {
+      "ja": {
+        "kanji": "伊藤虹々美",
+        "kana": "いと ここみ"
+      },
+      "ko": {
+        "hangul": "이토 코코미"
+      },
+      "en": {
+        "romaji": "Ito Kokomi"
+      },
+      "aliases": [
+        "ito kokomi",
+        "伊藤虹々美",
+        "이토 코코미"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "81",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_81.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/kokomi_ito",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "伊",
+      "hueShift": 11
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-iriuchijima-sayaka",
+    "name": {
+      "ja": {
+        "kanji": "入内嶋涼",
+        "kana": "いりうちじま さやか"
+      },
+      "ko": {
+        "hangul": "이리우치지마 사야카"
+      },
+      "en": {
+        "romaji": "Iriuchijima Sayaka"
+      },
+      "aliases": [
+        "iriuchijima sayaka",
+        "入内嶋涼",
+        "이리우치지마 사야카"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "23",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_23.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/iriuchijima_sayaka",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "入",
+      "hueShift": 39
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-kurashima-ami",
+    "name": {
+      "ja": {
+        "kanji": "倉島杏実",
+        "kana": "くらしま あみ"
+      },
+      "ko": {
+        "hangul": "쿠라시마 아미"
+      },
+      "en": {
+        "romaji": "Kurashima Ami"
+      },
+      "aliases": [
+        "kurashima ami",
+        "倉島杏実",
+        "쿠라시마 아미"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "50",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_50.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/kurashima_ami",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "倉",
+      "hueShift": 17
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-kuwahara-tsubaki",
+    "name": {
+      "ja": {
+        "kanji": "桒原椿",
+        "kana": "くわはら つばき"
+      },
+      "ko": {
+        "hangul": "쿠와하라 쓰바키"
+      },
+      "en": {
+        "romaji": "Kuwahara Tsubaki"
+      },
+      "aliases": [
+        "kuwahara tsubaki",
+        "桒原椿",
+        "쿠와하라 쓰바키"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "96",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_96.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/tsubaki_kuwahara",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "桒",
+      "hueShift": 7
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-sugimoto-riina",
+    "name": {
+      "ja": {
+        "kanji": "杉本りいな",
+        "kana": "すぎもと りいな"
+      },
+      "ko": {
+        "hangul": "스기모토 리이나"
+      },
+      "en": {
+        "romaji": "Sugimoto Riina"
+      },
+      "aliases": [
+        "sugimoto riina",
+        "杉本りいな",
+        "스기모토 리이나"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "76",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_76.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/sugimoto_riina",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "杉",
+      "hueShift": -21
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-suzuki-kokona",
+    "name": {
+      "ja": {
+        "kanji": "鈴木恋奈",
+        "kana": "すずき ここな"
+      },
+      "ko": {
+        "hangul": "스즈키 코코나"
+      },
+      "en": {
+        "romaji": "Suzuki Kokona"
+      },
+      "aliases": [
+        "suzuki kokona",
+        "鈴木恋奈",
+        "스즈키 코코나"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "55",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_55.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/suzuki_kokona",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "鈴",
+      "hueShift": 32
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-hara-yune",
+    "name": {
+      "ja": {
+        "kanji": "原優寧",
+        "kana": "はら ゆね"
+      },
+      "ko": {
+        "hangul": "하라 유네"
+      },
+      "en": {
+        "romaji": "Hara Yune"
+      },
+      "aliases": [
+        "hara yune",
+        "原優寧",
+        "하라 유네"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "77",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_77.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/hara_yune",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "原",
+      "hueShift": -40
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-matsukawa-miyu",
+    "name": {
+      "ja": {
+        "kanji": "松川みゆ",
+        "kana": "まつかわ みゆ"
+      },
+      "ko": {
+        "hangul": "마쓰카와 미유"
+      },
+      "en": {
+        "romaji": "Matsukawa Miyu"
+      },
+      "aliases": [
+        "matsukawa miyu",
+        "松川みゆ",
+        "마쓰카와 미유"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "90",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_90.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/miyu_matsukawa",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "松",
+      "hueShift": 1
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-minamisawa-coco",
+    "name": {
+      "ja": {
+        "kanji": "南澤恋々",
+        "kana": "みなみさわ おお"
+      },
+      "ko": {
+        "hangul": "미나미사와 오오"
+      },
+      "en": {
+        "romaji": "Minamisawa Coco"
+      },
+      "aliases": [
+        "minamisawa coco",
+        "南澤恋々",
+        "미나미사와 오오"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "91",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_91.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/coco_minamisawa",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "南",
+      "hueShift": 29
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-yamamura-sakura",
+    "name": {
+      "ja": {
+        "kanji": "山村さくら",
+        "kana": "やまむら さくら"
+      },
+      "ko": {
+        "hangul": "야마무라 사쿠라"
+      },
+      "en": {
+        "romaji": "Yamamura Sakura"
+      },
+      "aliases": [
+        "yamamura sakura",
+        "山村さくら",
+        "야마무라 사쿠라"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "79",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_79.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/yamamura_sakura",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "山",
+      "hueShift": -32
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-arano-himeka",
+    "name": {
+      "ja": {
+        "kanji": "荒野姫楓",
+        "kana": "あらの ひめか"
+      },
+      "ko": {
+        "hangul": "아라노 히메카"
+      },
+      "en": {
+        "romaji": "Arano Himeka"
+      },
+      "aliases": [
+        "arano himeka",
+        "荒野姫楓",
+        "아라노 히메카"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "3",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_3.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/arano_himeka",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "荒",
+      "hueShift": 21
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-ikeda-kaede",
+    "name": {
+      "ja": {
+        "kanji": "池田楓",
+        "kana": "いけだ かえで"
+      },
+      "ko": {
+        "hangul": "이케다 카에데"
+      },
+      "en": {
+        "romaji": "Ikeda Kaede"
+      },
+      "aliases": [
+        "ikeda kaede",
+        "池田楓",
+        "이케다 카에데"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "45",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_45.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/ikeda_kaede",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "池",
+      "hueShift": -22
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-ito-miki",
+    "name": {
+      "ja": {
+        "kanji": "伊藤実希",
+        "kana": "いと みき"
+      },
+      "ko": {
+        "hangul": "이토 미키"
+      },
+      "en": {
+        "romaji": "Ito Miki"
+      },
+      "aliases": [
+        "ito miki",
+        "伊藤実希",
+        "이토 미키"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "67",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_67.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/ito_miki",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "伊",
+      "hueShift": -35
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-okuno-kokoha",
+    "name": {
+      "ja": {
+        "kanji": "奥野心羽",
+        "kana": "おくの ここは"
+      },
+      "ko": {
+        "hangul": "오쿠노 코코하"
+      },
+      "en": {
+        "romaji": "Okuno Kokoha"
+      },
+      "aliases": [
+        "okuno kokoha",
+        "奥野心羽",
+        "오쿠노 코코하"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "82",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_82.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/kokoha_okuno",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "奥",
+      "hueShift": -6
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-kumoi-sana",
+    "name": {
+      "ja": {
+        "kanji": "雲井紗菜",
+        "kana": "くもい さな"
+      },
+      "ko": {
+        "hangul": "쿠모이 사나"
+      },
+      "en": {
+        "romaji": "Kumoi Sana"
+      },
+      "aliases": [
+        "kumoi sana",
+        "雲井紗菜",
+        "쿠모이 사나"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "95",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_95.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/sana_kumoi",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "雲",
+      "hueShift": 13
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-kuramoto-hana",
+    "name": {
+      "ja": {
+        "kanji": "倉本羽菜",
+        "kana": "くらもと はな"
+      },
+      "ko": {
+        "hangul": "쿠라모토 하나"
+      },
+      "en": {
+        "romaji": "Kuramoto Hana"
+      },
+      "aliases": [
+        "kuramoto hana",
+        "倉本羽菜",
+        "쿠라모토 하나"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "86",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_86.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/hana_kuramoto",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "倉",
+      "hueShift": 5
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-kondo-mikoto",
+    "name": {
+      "ja": {
+        "kanji": "近藤海琴",
+        "kana": "こんど みこと"
+      },
+      "ko": {
+        "hangul": "콘도 미코토"
+      },
+      "en": {
+        "romaji": "Kondo Mikoto"
+      },
+      "aliases": [
+        "kondo mikoto",
+        "近藤海琴",
+        "콘도 미코토"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "97",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_97.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/mikoto_kondo",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "近",
+      "hueShift": 35
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-shinohara-kyoka",
+    "name": {
+      "ja": {
+        "kanji": "篠原京香",
+        "kana": "しのはら きょか"
+      },
+      "ko": {
+        "hangul": "시노하라 쿄카"
+      },
+      "en": {
+        "romaji": "Shinohara Kyoka"
+      },
+      "aliases": [
+        "shinohara kyoka",
+        "篠原京香",
+        "시노하라 쿄카"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "75",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_75.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/shinohara_kyoka",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "篠",
+      "hueShift": -12
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-akahori-kimie",
+    "name": {
+      "ja": {
+        "kanji": "赤堀君江",
+        "kana": "あかほり きみえ"
+      },
+      "ko": {
+        "hangul": "아카호리 키미에"
+      },
+      "en": {
+        "romaji": "Akahori Kimie"
+      },
+      "aliases": [
+        "akahori kimie",
+        "赤堀君江",
+        "아카호리 키미에"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "2",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_2.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/akahori_kimie",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "赤",
+      "hueShift": 22
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-ida-reona",
+    "name": {
+      "ja": {
+        "kanji": "井田玲音名",
+        "kana": "いだ れおな"
+      },
+      "ko": {
+        "hangul": "이다 레오나"
+      },
+      "en": {
+        "romaji": "Ida Reona"
+      },
+      "aliases": [
+        "ida reona",
+        "井田玲音名",
+        "이다 레오나"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "47",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_47.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/reona_ida",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "井",
+      "hueShift": -4
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-ota-manae",
+    "name": {
+      "ja": {
+        "kanji": "太田愛恵",
+        "kana": "おた まなえ"
+      },
+      "ko": {
+        "hangul": "오타 마나에"
+      },
+      "en": {
+        "romaji": "Ota Manae"
+      },
+      "aliases": [
+        "ota manae",
+        "太田愛恵",
+        "오타 마나에"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "92",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_92.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/manae_ota",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "太",
+      "hueShift": -5
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-omura-anzu",
+    "name": {
+      "ja": {
+        "kanji": "大村杏",
+        "kana": "おむら あんず"
+      },
+      "ko": {
+        "hangul": "오무라 안즈"
+      },
+      "en": {
+        "romaji": "Omura Anzu"
+      },
+      "aliases": [
+        "omura anzu",
+        "大村杏",
+        "오무라 안즈"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "74",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_74.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/omura_anzu",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "大",
+      "hueShift": 19
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-kawamura-yua",
+    "name": {
+      "ja": {
+        "kanji": "河村優愛",
+        "kana": "かわむら ゆあ"
+      },
+      "ko": {
+        "hangul": "카와무라 유아"
+      },
+      "en": {
+        "romaji": "Kawamura Yua"
+      },
+      "aliases": [
+        "kawamura yua",
+        "河村優愛",
+        "카와무라 유아"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "85",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_85.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/yua_kawamura",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "河",
+      "hueShift": -30
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-suzuki-ena",
+    "name": {
+      "ja": {
+        "kanji": "鈴木愛菜",
+        "kana": "すずき えな"
+      },
+      "ko": {
+        "hangul": "스즈키 에나"
+      },
+      "en": {
+        "romaji": "Suzuki Ena"
+      },
+      "aliases": [
+        "suzuki ena",
+        "鈴木愛菜",
+        "스즈키 에나"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "34",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_34.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/suzuki_ena",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "鈴",
+      "hueShift": -18
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-nakasaka-miyu",
+    "name": {
+      "ja": {
+        "kanji": "中坂美祐",
+        "kana": "なかさか みゆ"
+      },
+      "ko": {
+        "hangul": "나카사카 미유"
+      },
+      "en": {
+        "romaji": "Nakasaka Miyu"
+      },
+      "aliases": [
+        "nakasaka miyu",
+        "中坂美祐",
+        "나카사카 미유"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "13",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_13.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/nakasaka_miyu",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "中",
+      "hueShift": -18
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-nishii-mio",
+    "name": {
+      "ja": {
+        "kanji": "西井美桜",
+        "kana": "にしい みお"
+      },
+      "ko": {
+        "hangul": "니시이 미오"
+      },
+      "en": {
+        "romaji": "Nishii Mio"
+      },
+      "aliases": [
+        "nishii mio",
+        "西井美桜",
+        "니시이 미오"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "72",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_72.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/nishii_mio",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "西",
+      "hueShift": -36
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-hasegawa-miyabi",
+    "name": {
+      "ja": {
+        "kanji": "長谷川雅",
+        "kana": "はせがわ みやび"
+      },
+      "ko": {
+        "hangul": "하세가와 미야비"
+      },
+      "en": {
+        "romaji": "Hasegawa Miyabi"
+      },
+      "aliases": [
+        "hasegawa miyabi",
+        "長谷川雅",
+        "하세가와 미야비"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "89",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_89.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/miyabi_hasegawa",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "長",
+      "hueShift": 24
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-morimoto-kurumi",
+    "name": {
+      "ja": {
+        "kanji": "森本くるみ",
+        "kana": "もりもと くるみ"
+      },
+      "ko": {
+        "hangul": "모리모토 쿠루미"
+      },
+      "en": {
+        "romaji": "Morimoto Kurumi"
+      },
+      "aliases": [
+        "morimoto kurumi",
+        "森本くるみ",
+        "모리모토 쿠루미"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "78",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_78.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/morimoto_kurumi",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "森",
+      "hueShift": -31
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-iida-yura",
+    "name": {
+      "ja": {
+        "kanji": "飯田ゆら",
+        "kana": "いいだ ゆら"
+      },
+      "ko": {
+        "hangul": "이이다 유라"
+      },
+      "en": {
+        "romaji": "Iida Yura"
+      },
+      "aliases": [
+        "iida yura",
+        "飯田ゆら",
+        "이이다 유라"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "106",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_106.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/yura_iida",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "飯",
+      "hueShift": 17
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-ikeda-arisa",
+    "name": {
+      "ja": {
+        "kanji": "池田有沙",
+        "kana": "いけだ ありさ"
+      },
+      "ko": {
+        "hangul": "이케다 아리사"
+      },
+      "en": {
+        "romaji": "Ikeda Arisa"
+      },
+      "aliases": [
+        "ikeda arisa",
+        "池田有沙",
+        "이케다 아리사"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "107",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_107.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/arisa_ikeda",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "池",
+      "hueShift": 30
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-kawamura-syoko",
+    "name": {
+      "ja": {
+        "kanji": "川村昇子",
+        "kana": "かわむら よこ"
+      },
+      "ko": {
+        "hangul": "카와무라 요코"
+      },
+      "en": {
+        "romaji": "Kawamura Syoko"
+      },
+      "aliases": [
+        "kawamura syoko",
+        "川村昇子",
+        "카와무라 요코"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "93",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_93.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/syoko_kuwamura",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "川",
+      "hueShift": -13
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-kubota-rei",
+    "name": {
+      "ja": {
+        "kanji": "久保田怜",
+        "kana": "くぼた れい"
+      },
+      "ko": {
+        "hangul": "쿠보타 레이"
+      },
+      "en": {
+        "romaji": "Kubota Rei"
+      },
+      "aliases": [
+        "kubota rei",
+        "久保田怜",
+        "쿠보타 레이"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "94",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_94.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/rei_kubota",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "久",
+      "hueShift": -35
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-sakurai-arisa",
+    "name": {
+      "ja": {
+        "kanji": "桜井愛莉咲",
+        "kana": "さくらい ありさ"
+      },
+      "ko": {
+        "hangul": "사쿠라이 아리사"
+      },
+      "en": {
+        "romaji": "Sakurai Arisa"
+      },
+      "aliases": [
+        "sakurai arisa",
+        "桜井愛莉咲",
+        "사쿠라이 아리사"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "98",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_98.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/sakurai_arisa",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "桜",
+      "hueShift": -24
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-sasaki-nozomi",
+    "name": {
+      "ja": {
+        "kanji": "佐々木希美",
+        "kana": "ささき のぞみ"
+      },
+      "ko": {
+        "hangul": "사사키 노조미"
+      },
+      "en": {
+        "romaji": "Sasaki Nozomi"
+      },
+      "aliases": [
+        "sasaki nozomi",
+        "佐々木希美",
+        "사사키 노조미"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "99",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_99.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/nozomi_sasaki",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "佐",
+      "hueShift": -31
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-takamura-saya",
+    "name": {
+      "ja": {
+        "kanji": "高村紗弥",
+        "kana": "たかむら さや"
+      },
+      "ko": {
+        "hangul": "타카무라 사야"
+      },
+      "en": {
+        "romaji": "Takamura Saya"
+      },
+      "aliases": [
+        "takamura saya",
+        "高村紗弥",
+        "타카무라 사야"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "88",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_88.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/saya_takamura",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "高",
+      "hueShift": 23
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-takeshita-marika",
+    "name": {
+      "ja": {
+        "kanji": "竹下茉莉花",
+        "kana": "たけした まりか"
+      },
+      "ko": {
+        "hangul": "타케시타 마리카"
+      },
+      "en": {
+        "romaji": "Takeshita Marika"
+      },
+      "aliases": [
+        "takeshita marika",
+        "竹下茉莉花",
+        "타케시타 마리카"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "108",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_108.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/marika_takeshita",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "竹",
+      "hueShift": 37
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-tachibana-ayame",
+    "name": {
+      "ja": {
+        "kanji": "立花菖",
+        "kana": "たちばな あやめ"
+      },
+      "ko": {
+        "hangul": "타치바나 아야메"
+      },
+      "en": {
+        "romaji": "Tachibana Ayame"
+      },
+      "aliases": [
+        "tachibana ayame",
+        "立花菖",
+        "타치바나 아야메"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "100",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_100.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/ayame_tachibana",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "立",
+      "hueShift": 30
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-tamura-mayu",
+    "name": {
+      "ja": {
+        "kanji": "田村真悠",
+        "kana": "たむら まゆ"
+      },
+      "ko": {
+        "hangul": "타무라 마유"
+      },
+      "en": {
+        "romaji": "Tamura Mayu"
+      },
+      "aliases": [
+        "tamura mayu",
+        "田村真悠",
+        "타무라 마유"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "101",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_101.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/mayu_tamura",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "田",
+      "hueShift": 22
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-nakao-fuka",
+    "name": {
+      "ja": {
+        "kanji": "中尾楓華",
+        "kana": "なかお ふか"
+      },
+      "ko": {
+        "hangul": "나카오 후카"
+      },
+      "en": {
+        "romaji": "Nakao Fuka"
+      },
+      "aliases": [
+        "nakao fuka",
+        "中尾楓華",
+        "나카오 후카"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "109",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_109.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/fuka_nakao",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "中",
+      "hueShift": 15
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-hijiri-haruka",
+    "name": {
+      "ja": {
+        "kanji": "聖遥花",
+        "kana": "ひじり はるか"
+      },
+      "ko": {
+        "hangul": "히지리 하루카"
+      },
+      "en": {
+        "romaji": "Hijiri Haruka"
+      },
+      "aliases": [
+        "hijiri haruka",
+        "聖遥花",
+        "히지리 하루카"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "102",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_102.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/haruka_hijiri",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "聖",
+      "hueShift": 35
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-miyamoto-rinka",
+    "name": {
+      "ja": {
+        "kanji": "宮本倫花",
+        "kana": "みやもと りんか"
+      },
+      "ko": {
+        "hangul": "미야모토 링카"
+      },
+      "en": {
+        "romaji": "Miyamoto Rinka"
+      },
+      "aliases": [
+        "miyamoto rinka",
+        "宮本倫花",
+        "미야모토 링카"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "104",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_104.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/rinka_miyamoto",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "宮",
+      "hueShift": 14
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-yajima-nagi",
+    "name": {
+      "ja": {
+        "kanji": "矢島凪",
+        "kana": "やじま なぎ"
+      },
+      "ko": {
+        "hangul": "야지마 나기"
+      },
+      "en": {
+        "romaji": "Yajima Nagi"
+      },
+      "aliases": [
+        "yajima nagi",
+        "矢島凪",
+        "야지마 나기"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "110",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_110.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/nagi_yajima",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "矢",
+      "hueShift": 17
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
+  },
+  {
+    "id": "ske48-yokoi-shiho",
+    "name": {
+      "ja": {
+        "kanji": "横井志穂",
+        "kana": "よこい しほ"
+      },
+      "ko": {
+        "hangul": "요코이 시호"
+      },
+      "en": {
+        "romaji": "Yokoi Shiho"
+      },
+      "aliases": [
+        "yokoi shiho",
+        "横井志穂",
+        "요코이 시호"
+      ]
+    },
+    "primaryGroupId": "ske48",
+    "primaryGenerationId": "ske-g-active",
+    "status": "active",
+    "memberships": [
+      {
+        "groupId": "ske48",
+        "generationId": "ske-g-active",
+        "joinedOn": "2020-01-01",
+        "leftOn": null,
+        "isConcurrent": false,
+        "endReason": null
+      }
+    ],
+    "birthDate": null,
+    "birthplace": null,
+    "officialCode": "105",
+    "imageUrl": "https://ske48.co.jp/image/profile/member_105.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://ske48.co.jp/feature/shiho_yokoi",
+        "status": "ok",
+        "isOfficial": true,
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://ske48.co.jp/feature/profile",
+          "checkedAt": "2026-08-22",
+          "note": null
+        },
+        "lastCheckedAt": "2026-08-22"
+      }
+    ],
+    "avatar": {
+      "glyph": "横",
+      "hueShift": 12
+    },
+    "provenance": {
+      "source": "official",
+      "sourceUrl": "https://ske48.co.jp/feature/profile",
+      "checkedAt": "2026-08-22",
+      "note": null
+    }
   }
 ]
