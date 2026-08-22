@@ -16808,7 +16808,7 @@
     "birthDate": "1999-10-25",
     "birthplace": null,
     "officialCode": "toyonaga_aki",
-    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0067_240.jpg?20260816211842",
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0067_240.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -16836,6 +16836,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/67",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -16884,7 +16897,7 @@
     "birthDate": "2005-07-22",
     "birthplace": null,
     "officialCode": "ishibashi_ibuki",
-    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0078_240.jpg?20260816211842",
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0078_240.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -16912,6 +16925,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/78",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -16960,7 +16986,7 @@
     "birthDate": "2004-02-22",
     "birthplace": null,
     "officialCode": "takemoto_kurumi",
-    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0087_240.jpg?20260816211842",
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0087_240.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -16988,6 +17014,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/87",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -17036,7 +17075,7 @@
     "birthDate": "2001-02-13",
     "birthplace": null,
     "officialCode": "ichimura_airi",
-    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0079_240.jpg?20260816211842",
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0079_240.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -17055,6 +17094,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/79",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -17103,7 +17155,7 @@
     "birthDate": "1996-06-20",
     "birthplace": null,
     "officialCode": "kurihara_sae",
-    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0046_240.jpg?20260816211842",
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0046_240.jpg",
     "links": [
       {
         "type": "official_profile",
@@ -17122,6 +17174,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/46",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -17170,7 +17235,7 @@
     "birthDate": "1996-09-21",
     "birthplace": null,
     "officialCode": "fuchigami_mai",
-    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0042_240.jpg?20260816211842",
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0042_240.jpg",
     "links": [
       {
         "type": "x",
@@ -17180,6 +17245,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/42",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -17228,7 +17306,7 @@
     "birthDate": "2000-10-24",
     "birthplace": null,
     "officialCode": "akiyoshi_yuka",
-    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0023_240.jpg?20260816211842",
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0023_240.jpg",
     "links": [
       {
         "type": "x",
@@ -17238,6 +17316,19 @@
         "status": "ok",
         "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/23",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
       }
     ],
     "avatar": {
@@ -25562,8 +25653,22 @@
       "en": "福岡県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0100_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/100",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "生",
       "hueShift": -35
@@ -25614,8 +25719,22 @@
       "en": "福岡県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0102_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/102",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "石",
       "hueShift": -25
@@ -25666,8 +25785,22 @@
       "en": "福岡県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0108_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/108",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "北",
       "hueShift": 6
@@ -25718,8 +25851,22 @@
       "en": "東京都"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0109_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/109",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "渋",
       "hueShift": -2
@@ -25770,8 +25917,22 @@
       "en": "福岡県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0127_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/127",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "中",
       "hueShift": -26
@@ -25822,8 +25983,22 @@
       "en": "福岡県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0112_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/112",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "藤",
       "hueShift": -29
@@ -25874,8 +26049,22 @@
       "en": "福岡県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0129_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/129",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "松",
       "hueShift": 9
@@ -25926,8 +26115,22 @@
       "en": "神奈川県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0117_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/117",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "梁",
       "hueShift": -33
@@ -25978,8 +26181,22 @@
       "en": "福岡県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0052_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/52",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "山",
       "hueShift": 26
@@ -26030,8 +26247,22 @@
       "en": "長崎県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0133_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/133",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "龍",
       "hueShift": 14
@@ -26082,8 +26313,22 @@
       "en": "福岡県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0101_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/101",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "井",
       "hueShift": 14
@@ -26134,8 +26379,22 @@
       "en": "福岡県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0119_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/119",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "石",
       "hueShift": -35
@@ -26186,8 +26445,22 @@
       "en": "大分県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0103_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/103",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "猪",
       "hueShift": 37
@@ -26238,8 +26511,22 @@
       "en": "群馬県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0056_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/56",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "今",
       "hueShift": 26
@@ -26290,8 +26577,22 @@
       "en": "福岡県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0122_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/122",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "江",
       "hueShift": 14
@@ -26342,8 +26643,22 @@
       "en": "福岡県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0106_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/106",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "大",
       "hueShift": 40
@@ -26394,8 +26709,22 @@
       "en": "大分県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0084_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/84",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "栗",
       "hueShift": -15
@@ -26446,8 +26775,22 @@
       "en": "福岡県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0110_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/110",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "立",
       "hueShift": -30
@@ -26498,8 +26841,22 @@
       "en": "熊本県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0088_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/88",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "田",
       "hueShift": -26
@@ -26550,8 +26907,22 @@
       "en": "長崎県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0111_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/111",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "福",
       "hueShift": 34
@@ -26602,8 +26973,22 @@
       "en": "福岡県"
     },
     "officialCode": null,
-    "imageUrl": null,
-    "links": [],
+    "imageUrl": "https://cf-pc.c-hkt48.com/img/profile/images/0116_240.jpg",
+    "links": [
+      {
+        "type": "official_profile",
+        "url": "https://www.hkt48.jp/profile/116",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-22",
+        "provenance": {
+          "source": "official",
+          "sourceUrl": "https://www.hkt48.jp/profile/",
+          "checkedAt": "2026-08-22",
+          "note": null
+        }
+      }
+    ],
     "avatar": {
       "glyph": "安",
       "hueShift": -29
