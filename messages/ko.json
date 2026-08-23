@@ -205,5 +205,12 @@
     "homeLink": "홈으로",
     "searchLink": "멤버 검색",
     "groupsHeading": "그룹 선택"
+  },
+  "discography": {
+    "kicker": "DISCOGRAPHY",
+    "title": "싱글",
+    "empty": "아직 싱글 정보가 없습니다",
+    "single": "싱글",
+    "viewOnWikipedia": "Wikipedia에서 보기"
   }
 }

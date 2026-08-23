@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
-import { getGroup, getGroups, getMembers, getLatestUpdates, getPortalData } from '@/lib/data';
+import { getGroup, getGroups, getMembers, getLatestUpdates, getPortalData, getGroupSingles } from '@/lib/data';
 import { routing } from '@/i18n/routing';
 import { AmbientBackground } from '@/components/background/AmbientBackground';
 import { Navigation } from '@/components/ui/Navigation';
@@ -9,6 +9,7 @@ import { Footer } from '@/components/ui/Footer';
 import { GroupHeader } from '@/components/group/GroupHeader';
 import { GroupView } from '@/components/group/GroupView';
 import { GroupInsights } from '@/components/group/GroupInsights';
+import { GroupDiscography } from '@/components/group/GroupDiscography';
 import { JsonLd } from '@/components/seo/JsonLd';
 
 interface GroupPageProps {
@@ -107,6 +108,7 @@ export default async function GroupPage({ params }: GroupPageProps) {
   const members = getMembers({ groupId });
   const updates = getLatestUpdates();
   const portal = getPortalData();
+  const singles = getGroupSingles(group.id, 12);
 
   const jsonLdData = {
     '@context': 'https://schema.org',
@@ -169,16 +171,33 @@ export default async function GroupPage({ params }: GroupPageProps) {
         }
       : null;
 
+  // Task 5 — MusicRelease Schema.org for latest 5 singles
+  const top5Singles = getGroupSingles(group.id, 5);
+  const musicReleaseJsonLd =
+    top5Singles.length > 0
+      ? {
+          '@context': 'https://schema.org',
+          '@graph': top5Singles.map((s) => ({
+            '@type': 'MusicRelease',
+            name: s.title.ja,
+            releaseDate: s.releaseDate,
+            byArtist: { '@type': 'MusicGroup', name: group.name.ja },
+          })),
+        }
+      : null;
+
   return (
     <div className="relative min-h-screen flex flex-col justify-between">
       <JsonLd data={jsonLdData} />
       {eventJsonLd && <JsonLd data={eventJsonLd} />}
+      {musicReleaseJsonLd && <JsonLd data={musicReleaseJsonLd} />}
       <AmbientBackground groupId={group.id} motif={group.motif} />
       <Navigation />
 
       <main id="main-content" className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 py-8 flex-1">
         <GroupHeader group={group} locale={locale} />
         <GroupInsights group={group} members={members} updates={updates} locale={locale} portal={portal} />
+        <GroupDiscography singles={singles} group={group} locale={locale} />
         <GroupView group={group} members={members} locale={locale} />
       </main>
 

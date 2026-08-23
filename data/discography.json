@@ -1,0 +1,2876 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-23",
+  "singles": [
+    {
+      "id": "nogi-single-001",
+      "groupId": "nogizaka46",
+      "number": 1,
+      "title": {
+        "ja": "ぐるぐるカーテン",
+        "en": "Guruguru Curtain"
+      },
+      "releaseDate": "2012-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-002",
+      "groupId": "nogizaka46",
+      "number": 2,
+      "title": {
+        "ja": "おいでシャンプー",
+        "en": "Oide Shampoo"
+      },
+      "releaseDate": "2012-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-003",
+      "groupId": "nogizaka46",
+      "number": 3,
+      "title": {
+        "ja": "走れ! Bicycle",
+        "en": "Hashire! Bicycle"
+      },
+      "releaseDate": "2012-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-004",
+      "groupId": "nogizaka46",
+      "number": 4,
+      "title": {
+        "ja": "制服のマネキン",
+        "en": "Seifuku no Mannequin"
+      },
+      "releaseDate": "2012-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-005",
+      "groupId": "nogizaka46",
+      "number": 5,
+      "title": {
+        "ja": "君の名は希望",
+        "en": "Kimi no Na wa Kibō"
+      },
+      "releaseDate": "2013-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-006",
+      "groupId": "nogizaka46",
+      "number": 6,
+      "title": {
+        "ja": "ガールズルール",
+        "en": "Girls' Rule"
+      },
+      "releaseDate": "2013-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-007",
+      "groupId": "nogizaka46",
+      "number": 7,
+      "title": {
+        "ja": "バレッタ",
+        "en": "Barrette"
+      },
+      "releaseDate": "2013-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-008",
+      "groupId": "nogizaka46",
+      "number": 8,
+      "title": {
+        "ja": "気づいたら片想い",
+        "en": "Kizuitara Kataomoi"
+      },
+      "releaseDate": "2014-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-009",
+      "groupId": "nogizaka46",
+      "number": 9,
+      "title": {
+        "ja": "夏のFree＆Easy",
+        "en": "Natsu no Free & Easy"
+      },
+      "releaseDate": "2014-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-010",
+      "groupId": "nogizaka46",
+      "number": 10,
+      "title": {
+        "ja": "何度目の青空か?",
+        "en": "Nandome no Aozora ka?"
+      },
+      "releaseDate": "2014-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-011",
+      "groupId": "nogizaka46",
+      "number": 11,
+      "title": {
+        "ja": "命は美しい",
+        "en": "Inochi wa Utsukushii"
+      },
+      "releaseDate": "2015-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-012",
+      "groupId": "nogizaka46",
+      "number": 12,
+      "title": {
+        "ja": "太陽ノック",
+        "en": "Taiyō Knock"
+      },
+      "releaseDate": "2015-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-013",
+      "groupId": "nogizaka46",
+      "number": 13,
+      "title": {
+        "ja": "今、話したい誰かがいる",
+        "en": "Ima, Hanashitai Dareka ga Iru"
+      },
+      "releaseDate": "2015-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-014",
+      "groupId": "nogizaka46",
+      "number": 14,
+      "title": {
+        "ja": "ハルジオンが咲く頃",
+        "en": "Harujion ga Sakukoro"
+      },
+      "releaseDate": "2016-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-015",
+      "groupId": "nogizaka46",
+      "number": 15,
+      "title": {
+        "ja": "裸足でSummer",
+        "en": "Hadashi de Summer"
+      },
+      "releaseDate": "2016-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-016",
+      "groupId": "nogizaka46",
+      "number": 16,
+      "title": {
+        "ja": "サヨナラの意味",
+        "en": "Sayonara no Imi"
+      },
+      "releaseDate": "2016-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-017",
+      "groupId": "nogizaka46",
+      "number": 17,
+      "title": {
+        "ja": "インフルエンサー",
+        "en": "Influencer"
+      },
+      "releaseDate": "2017-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-018",
+      "groupId": "nogizaka46",
+      "number": 18,
+      "title": {
+        "ja": "逃げ水",
+        "en": "Nigemizu"
+      },
+      "releaseDate": "2017-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-019",
+      "groupId": "nogizaka46",
+      "number": 19,
+      "title": {
+        "ja": "いつかできるから今日できる",
+        "en": "Itsuka Dekiru kara Kyō Dekiru"
+      },
+      "releaseDate": "2017-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-020",
+      "groupId": "nogizaka46",
+      "number": 20,
+      "title": {
+        "ja": "シンクロニシティ",
+        "en": "Synchronicity"
+      },
+      "releaseDate": "2018-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-021",
+      "groupId": "nogizaka46",
+      "number": 21,
+      "title": {
+        "ja": "ジコチューで行こう!",
+        "en": "Jikochū de Ikō!"
+      },
+      "releaseDate": "2018-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-022",
+      "groupId": "nogizaka46",
+      "number": 22,
+      "title": {
+        "ja": "帰り道は遠回りしたくなる",
+        "en": "Kaerimichi wa Tōmawari Shitaku Naru"
+      },
+      "releaseDate": "2018-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-023",
+      "groupId": "nogizaka46",
+      "number": 23,
+      "title": {
+        "ja": "Sing Out!",
+        "en": "Sing Out!"
+      },
+      "releaseDate": "2019-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-024",
+      "groupId": "nogizaka46",
+      "number": 24,
+      "title": {
+        "ja": "夜明けまで強がらなくてもいい",
+        "en": "Yoake Made Tsuyogaranakutemoii"
+      },
+      "releaseDate": "2019-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-025",
+      "groupId": "nogizaka46",
+      "number": 25,
+      "title": {
+        "ja": "しあわせの保護色",
+        "en": "Shiawase no Hogoshoku"
+      },
+      "releaseDate": "2020-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-026",
+      "groupId": "nogizaka46",
+      "number": 26,
+      "title": {
+        "ja": "僕は僕を好きになる",
+        "en": "Boku wa Boku o Suki ni Naru"
+      },
+      "releaseDate": "2021-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-027",
+      "groupId": "nogizaka46",
+      "number": 27,
+      "title": {
+        "ja": "ごめんねFingers crossed",
+        "en": "Gomen ne Fingers Crossed"
+      },
+      "releaseDate": "2021-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-028",
+      "groupId": "nogizaka46",
+      "number": 28,
+      "title": {
+        "ja": "君に叱られた",
+        "en": "Kimi ni Shikarareta"
+      },
+      "releaseDate": "2021-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-029",
+      "groupId": "nogizaka46",
+      "number": 29,
+      "title": {
+        "ja": "Actually...",
+        "en": "Actually..."
+      },
+      "releaseDate": "2022-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-030",
+      "groupId": "nogizaka46",
+      "number": 30,
+      "title": {
+        "ja": "好きというのはロックだぜ！",
+        "en": "Suki to Iu no wa Rock da ze!"
+      },
+      "releaseDate": "2022-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-031",
+      "groupId": "nogizaka46",
+      "number": 31,
+      "title": {
+        "ja": "ここにはないもの",
+        "en": "Koko ni wa Nai Mono"
+      },
+      "releaseDate": "2022-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-032",
+      "groupId": "nogizaka46",
+      "number": 32,
+      "title": {
+        "ja": "人は夢を二度見る",
+        "en": "Hito wa Yume o Nido Miru"
+      },
+      "releaseDate": "2023-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-033",
+      "groupId": "nogizaka46",
+      "number": 33,
+      "title": {
+        "ja": "row",
+        "en": "row"
+      },
+      "releaseDate": "2023-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-034",
+      "groupId": "nogizaka46",
+      "number": 34,
+      "title": {
+        "ja": "row",
+        "en": "row"
+      },
+      "releaseDate": "2023-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-035",
+      "groupId": "nogizaka46",
+      "number": 35,
+      "title": {
+        "ja": "チャンスは平等",
+        "en": "Oricon"
+      },
+      "releaseDate": "2024-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-036",
+      "groupId": "nogizaka46",
+      "number": 36,
+      "title": {
+        "ja": "チートデイ",
+        "en": "row"
+      },
+      "releaseDate": "2024-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-037",
+      "groupId": "nogizaka46",
+      "number": 37,
+      "title": {
+        "ja": "歩道橋",
+        "en": "Oricon"
+      },
+      "releaseDate": "2024-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-038",
+      "groupId": "nogizaka46",
+      "number": 38,
+      "title": {
+        "ja": "ネーブルオレンジ",
+        "en": "row"
+      },
+      "releaseDate": "2025-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-039",
+      "groupId": "nogizaka46",
+      "number": 39,
+      "title": {
+        "ja": "row",
+        "en": "row"
+      },
+      "releaseDate": "2025-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-040",
+      "groupId": "nogizaka46",
+      "number": 40,
+      "title": {
+        "ja": "ビリヤニ",
+        "en": "row"
+      },
+      "releaseDate": "2025-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-041",
+      "groupId": "nogizaka46",
+      "number": 41,
+      "title": {
+        "ja": "最後に階段を駆け上がったのはいつだ?",
+        "en": "Oricon"
+      },
+      "releaseDate": "2026-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "nogi-single-042",
+      "groupId": "nogizaka46",
+      "number": 42,
+      "title": {
+        "ja": "是非に及ばず",
+        "en": "Oricon"
+      },
+      "releaseDate": "2026-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nogizaka46_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-001",
+      "groupId": "akb48",
+      "number": 1,
+      "title": {
+        "ja": "桜の花びらたち",
+        "en": "Sakura no Hanabiratachi"
+      },
+      "releaseDate": "2006-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-002",
+      "groupId": "akb48",
+      "number": 2,
+      "title": {
+        "ja": "スカート、ひらり",
+        "en": "Skirt, Hirari"
+      },
+      "releaseDate": "2006-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-003",
+      "groupId": "akb48",
+      "number": 3,
+      "title": {
+        "ja": "会いたかった",
+        "en": "Aitakatta"
+      },
+      "releaseDate": "2006-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-004",
+      "groupId": "akb48",
+      "number": 4,
+      "title": {
+        "ja": "制服が邪魔をする",
+        "en": "Seifuku ga Jama o Suru"
+      },
+      "releaseDate": "2007-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-005",
+      "groupId": "akb48",
+      "number": 5,
+      "title": {
+        "ja": "軽蔑していた愛情",
+        "en": "Keibetsu Shiteita Aijō"
+      },
+      "releaseDate": "2007-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-006",
+      "groupId": "akb48",
+      "number": 6,
+      "title": {
+        "ja": "Bingo!",
+        "en": "Bingo!"
+      },
+      "releaseDate": "2007-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-007",
+      "groupId": "akb48",
+      "number": 7,
+      "title": {
+        "ja": "僕の太陽",
+        "en": "Boku no Taiyō"
+      },
+      "releaseDate": "2007-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-008",
+      "groupId": "akb48",
+      "number": 8,
+      "title": {
+        "ja": "夕陽を見ているか?",
+        "en": "Yūhi o Miteiru ka?"
+      },
+      "releaseDate": "2007-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-009",
+      "groupId": "akb48",
+      "number": 9,
+      "title": {
+        "ja": "ロマンス、イラネ",
+        "en": "Romance, Irane"
+      },
+      "releaseDate": "2008-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-010",
+      "groupId": "akb48",
+      "number": 10,
+      "title": {
+        "ja": "桜の花びらたち2008",
+        "en": "Sakura no Hanabiratachi 2008"
+      },
+      "releaseDate": "2008-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-011",
+      "groupId": "akb48",
+      "number": 11,
+      "title": {
+        "ja": "Kamikyokutachi",
+        "en": "Kamikyokutachi"
+      },
+      "releaseDate": "2008-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-012",
+      "groupId": "akb48",
+      "number": 12,
+      "title": {
+        "ja": "大声ダイヤモンド",
+        "en": "Ōgoe Diamond"
+      },
+      "releaseDate": "2008-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-013",
+      "groupId": "akb48",
+      "number": 13,
+      "title": {
+        "ja": "10年桜",
+        "en": "10nen Zakura"
+      },
+      "releaseDate": "2009-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-014",
+      "groupId": "akb48",
+      "number": 14,
+      "title": {
+        "ja": "涙サプライズ！",
+        "en": "Namida Surprise!"
+      },
+      "releaseDate": "2009-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-015",
+      "groupId": "akb48",
+      "number": 15,
+      "title": {
+        "ja": "言い訳Maybe",
+        "en": "Iiwake Maybe"
+      },
+      "releaseDate": "2009-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-016",
+      "groupId": "akb48",
+      "number": 16,
+      "title": {
+        "ja": "River",
+        "en": "River"
+      },
+      "releaseDate": "2009-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-017",
+      "groupId": "akb48",
+      "number": 17,
+      "title": {
+        "ja": "桜の栞",
+        "en": "Sakura no Shiori"
+      },
+      "releaseDate": "2010-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-018",
+      "groupId": "akb48",
+      "number": 18,
+      "title": {
+        "ja": "ポニーテールとシュシュ",
+        "en": "Ponytail to Shushu"
+      },
+      "releaseDate": "2010-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-019",
+      "groupId": "akb48",
+      "number": 19,
+      "title": {
+        "ja": "ヘビーローテーション",
+        "en": "Heavy Rotation"
+      },
+      "releaseDate": "2010-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-020",
+      "groupId": "akb48",
+      "number": 20,
+      "title": {
+        "ja": "Beginner",
+        "en": "Beginner"
+      },
+      "releaseDate": "2010-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-021",
+      "groupId": "akb48",
+      "number": 21,
+      "title": {
+        "ja": "チャンスの順番",
+        "en": "Chance no Junban"
+      },
+      "releaseDate": "2010-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-022",
+      "groupId": "akb48",
+      "number": 22,
+      "title": {
+        "ja": "桜の木になろう",
+        "en": "Sakura no Ki ni Narō"
+      },
+      "releaseDate": "2011-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-023",
+      "groupId": "akb48",
+      "number": 23,
+      "title": {
+        "ja": "Everyday、カチューシャ",
+        "en": "Everyday, Katyusha"
+      },
+      "releaseDate": "2011-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-024",
+      "groupId": "akb48",
+      "number": 24,
+      "title": {
+        "ja": "フライングゲット",
+        "en": "Flying Get"
+      },
+      "releaseDate": "2011-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-025",
+      "groupId": "akb48",
+      "number": 25,
+      "title": {
+        "ja": "風は吹いている",
+        "en": "Kaze wa Fuiteiru"
+      },
+      "releaseDate": "2011-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-026",
+      "groupId": "akb48",
+      "number": 26,
+      "title": {
+        "ja": "上からマリコ",
+        "en": "Ue kara Mariko"
+      },
+      "releaseDate": "2011-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-027",
+      "groupId": "akb48",
+      "number": 27,
+      "title": {
+        "ja": "Give Me Five!",
+        "en": "Give Me Five!"
+      },
+      "releaseDate": "2012-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-028",
+      "groupId": "akb48",
+      "number": 28,
+      "title": {
+        "ja": "真夏のSounds good!",
+        "en": "Manatsu no Sounds Good!"
+      },
+      "releaseDate": "2012-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-029",
+      "groupId": "akb48",
+      "number": 29,
+      "title": {
+        "ja": "ギンガムチェック",
+        "en": "Gingham Check"
+      },
+      "releaseDate": "2012-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-030",
+      "groupId": "akb48",
+      "number": 30,
+      "title": {
+        "ja": "Uza",
+        "en": "Uza"
+      },
+      "releaseDate": "2012-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-031",
+      "groupId": "akb48",
+      "number": 31,
+      "title": {
+        "ja": "永遠プレッシャー",
+        "en": "Eien Pressure"
+      },
+      "releaseDate": "2012-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-032",
+      "groupId": "akb48",
+      "number": 32,
+      "title": {
+        "ja": "So Long!",
+        "en": "So Long!"
+      },
+      "releaseDate": "2013-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-033",
+      "groupId": "akb48",
+      "number": 33,
+      "title": {
+        "ja": "さよならクロール",
+        "en": "Sayonara Crawl"
+      },
+      "releaseDate": "2013-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-034",
+      "groupId": "akb48",
+      "number": 34,
+      "title": {
+        "ja": "恋するフォーチュンクッキー",
+        "en": "Koi Suru Fortune Cookie"
+      },
+      "releaseDate": "2013-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-035",
+      "groupId": "akb48",
+      "number": 35,
+      "title": {
+        "ja": "ハート・エレキ",
+        "en": "Heart Electric"
+      },
+      "releaseDate": "2013-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-036",
+      "groupId": "akb48",
+      "number": 36,
+      "title": {
+        "ja": "鈴懸なんちゃら",
+        "en": "Suzukake Nanchara"
+      },
+      "releaseDate": "2013-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-037",
+      "groupId": "akb48",
+      "number": 37,
+      "title": {
+        "ja": "前しか向かねえ",
+        "en": "Mae shika Mukanee"
+      },
+      "releaseDate": "2014-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-038",
+      "groupId": "akb48",
+      "number": 38,
+      "title": {
+        "ja": "ラブラドール･レトリバー",
+        "en": "Labrador Retriever"
+      },
+      "releaseDate": "2014-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-039",
+      "groupId": "akb48",
+      "number": 39,
+      "title": {
+        "ja": "心のプラカード",
+        "en": "Kokoro no Placard"
+      },
+      "releaseDate": "2014-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-040",
+      "groupId": "akb48",
+      "number": 40,
+      "title": {
+        "ja": "希望的リフレイン",
+        "en": "Kibōteki Refrain"
+      },
+      "releaseDate": "2014-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-041",
+      "groupId": "akb48",
+      "number": 41,
+      "title": {
+        "ja": "Green Flash",
+        "en": "Green Flash"
+      },
+      "releaseDate": "2015-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-042",
+      "groupId": "akb48",
+      "number": 42,
+      "title": {
+        "ja": "僕たちは戦わない",
+        "en": "Bokutachi wa Tatakawanai"
+      },
+      "releaseDate": "2015-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-043",
+      "groupId": "akb48",
+      "number": 43,
+      "title": {
+        "ja": "ハロウィン・ナイト",
+        "en": "Halloween Night"
+      },
+      "releaseDate": "2015-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-044",
+      "groupId": "akb48",
+      "number": 44,
+      "title": {
+        "ja": "唇にBe My Baby",
+        "en": "Kuchibiru ni Be My Baby"
+      },
+      "releaseDate": "2015-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-045",
+      "groupId": "akb48",
+      "number": 45,
+      "title": {
+        "ja": "君はメロディー",
+        "en": "Kimi wa Melody"
+      },
+      "releaseDate": "2016-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-046",
+      "groupId": "akb48",
+      "number": 46,
+      "title": {
+        "ja": "翼はいらない",
+        "en": "Tsubasa wa Iranai"
+      },
+      "releaseDate": "2016-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-047",
+      "groupId": "akb48",
+      "number": 47,
+      "title": {
+        "ja": "Love Trip",
+        "en": "Love Trip"
+      },
+      "releaseDate": "2016-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-048",
+      "groupId": "akb48",
+      "number": 48,
+      "title": {
+        "ja": "しあわせを分けなさい",
+        "en": "Shiawase o Wakenasai"
+      },
+      "releaseDate": "2016-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-049",
+      "groupId": "akb48",
+      "number": 49,
+      "title": {
+        "ja": "ハイテンション",
+        "en": "High Tension"
+      },
+      "releaseDate": "2016-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-050",
+      "groupId": "akb48",
+      "number": 50,
+      "title": {
+        "ja": "シュートサイン",
+        "en": "Shoot Sign"
+      },
+      "releaseDate": "2017-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-051",
+      "groupId": "akb48",
+      "number": 51,
+      "title": {
+        "ja": "願いごとの持ち腐れ",
+        "en": "Negaigoto no Mochigusare"
+      },
+      "releaseDate": "2017-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-052",
+      "groupId": "akb48",
+      "number": 52,
+      "title": {
+        "ja": "#好きなんだ",
+        "en": "#Sukinanda"
+      },
+      "releaseDate": "2017-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-053",
+      "groupId": "akb48",
+      "number": 53,
+      "title": {
+        "ja": "11月のアンクレット",
+        "en": "11gatsu no Anklet"
+      },
+      "releaseDate": "2017-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-054",
+      "groupId": "akb48",
+      "number": 54,
+      "title": {
+        "ja": "ジャーバージャ",
+        "en": "Jabaja"
+      },
+      "releaseDate": "2018-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-055",
+      "groupId": "akb48",
+      "number": 55,
+      "title": {
+        "ja": "Teacher Teacher",
+        "en": "Teacher Teacher"
+      },
+      "releaseDate": "2018-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-056",
+      "groupId": "akb48",
+      "number": 56,
+      "title": {
+        "ja": "センチメンタルトレイン",
+        "en": "Sentimental Train"
+      },
+      "releaseDate": "2018-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-057",
+      "groupId": "akb48",
+      "number": 57,
+      "title": {
+        "ja": "No Way Man",
+        "en": "No Way Man"
+      },
+      "releaseDate": "2018-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-058",
+      "groupId": "akb48",
+      "number": 58,
+      "title": {
+        "ja": "ジワるDAYS",
+        "en": "Jiwaru Days"
+      },
+      "releaseDate": "2019-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-059",
+      "groupId": "akb48",
+      "number": 59,
+      "title": {
+        "ja": "サステナブル",
+        "en": "Sustainable"
+      },
+      "releaseDate": "2019-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-060",
+      "groupId": "akb48",
+      "number": 60,
+      "title": {
+        "ja": "失恋、ありがとう",
+        "en": "Shitsuren, Arigatō"
+      },
+      "releaseDate": "2020-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-061",
+      "groupId": "akb48",
+      "number": 61,
+      "title": {
+        "ja": "根も葉もRumor",
+        "en": "Nemohamo Rumor"
+      },
+      "releaseDate": "2021-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-062",
+      "groupId": "akb48",
+      "number": 62,
+      "title": {
+        "ja": "元カレです",
+        "en": "Motokare Desu"
+      },
+      "releaseDate": "2022-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-063",
+      "groupId": "akb48",
+      "number": 63,
+      "title": {
+        "ja": "久しぶりのリップグロス",
+        "en": "Hisashiburi no Lip Gloss"
+      },
+      "releaseDate": "2022-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-064",
+      "groupId": "akb48",
+      "number": 64,
+      "title": {
+        "ja": "どうしても君が好きだ",
+        "en": "Dōshitemo Kimi ga Suki da"
+      },
+      "releaseDate": "2023-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-065",
+      "groupId": "akb48",
+      "number": 65,
+      "title": {
+        "ja": "アイドルなんかじゃなかったら",
+        "en": "Idol Nanka Janakattara"
+      },
+      "releaseDate": "2023-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-066",
+      "groupId": "akb48",
+      "number": 66,
+      "title": {
+        "ja": "カラコンウインク",
+        "en": "row"
+      },
+      "releaseDate": "2024-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-067",
+      "groupId": "akb48",
+      "number": 67,
+      "title": {
+        "ja": "恋 詰んじゃった",
+        "en": "row"
+      },
+      "releaseDate": "2024-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-068",
+      "groupId": "akb48",
+      "number": 68,
+      "title": {
+        "ja": "まさかのConfession",
+        "en": "row"
+      },
+      "releaseDate": "2025-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-069",
+      "groupId": "akb48",
+      "number": 69,
+      "title": {
+        "ja": "Oh My Pumpkin!",
+        "en": "Oh My Pumpkin!"
+      },
+      "releaseDate": "2025-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "akb48-single-070",
+      "groupId": "akb48",
+      "number": 70,
+      "title": {
+        "ja": "名残り桜",
+        "en": "row"
+      },
+      "releaseDate": "2026-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AKB48_discography",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-001",
+      "groupId": "sakurazaka46",
+      "number": 1,
+      "title": {
+        "ja": "Silent Majority",
+        "en": "Silent Majority"
+      },
+      "releaseDate": "2016-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-002",
+      "groupId": "sakurazaka46",
+      "number": 2,
+      "title": {
+        "ja": "Sekai ni wa Ai Shika Nai",
+        "en": "Sekai ni wa Ai Shika Nai"
+      },
+      "releaseDate": "2016-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-003",
+      "groupId": "sakurazaka46",
+      "number": 3,
+      "title": {
+        "ja": "Futari Saison",
+        "en": "Futari Saison"
+      },
+      "releaseDate": "2016-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-004",
+      "groupId": "sakurazaka46",
+      "number": 4,
+      "title": {
+        "ja": "Fukyōwaon",
+        "en": "Fukyōwaon"
+      },
+      "releaseDate": "2017-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-005",
+      "groupId": "sakurazaka46",
+      "number": 5,
+      "title": {
+        "ja": "Kaze ni Fukarete mo",
+        "en": "Kaze ni Fukarete mo"
+      },
+      "releaseDate": "2017-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-006",
+      "groupId": "sakurazaka46",
+      "number": 6,
+      "title": {
+        "ja": "Glass wo Ware!",
+        "en": "Glass wo Ware!"
+      },
+      "releaseDate": "2018-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-007",
+      "groupId": "sakurazaka46",
+      "number": 7,
+      "title": {
+        "ja": "Ambivalent",
+        "en": "Ambivalent"
+      },
+      "releaseDate": "2018-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-008",
+      "groupId": "sakurazaka46",
+      "number": 8,
+      "title": {
+        "ja": "Kuroi Hitsuji",
+        "en": "Kuroi Hitsuji"
+      },
+      "releaseDate": "2019-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-009",
+      "groupId": "sakurazaka46",
+      "number": 9,
+      "title": {
+        "ja": "Dare ga Sono Kane o Narasu no ka?",
+        "en": "Dare ga Sono Kane o Narasu no ka?"
+      },
+      "releaseDate": "2020-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-010",
+      "groupId": "sakurazaka46",
+      "number": 10,
+      "title": {
+        "ja": "Nobody's Fault",
+        "en": "Nobody's Fault"
+      },
+      "releaseDate": "2020-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-011",
+      "groupId": "sakurazaka46",
+      "number": 11,
+      "title": {
+        "ja": "Ban",
+        "en": "Ban"
+      },
+      "releaseDate": "2021-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-012",
+      "groupId": "sakurazaka46",
+      "number": 12,
+      "title": {
+        "ja": "Nagaredama",
+        "en": "Nagaredama"
+      },
+      "releaseDate": "2021-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-013",
+      "groupId": "sakurazaka46",
+      "number": 13,
+      "title": {
+        "ja": "Samidare yo",
+        "en": "Samidare yo"
+      },
+      "releaseDate": "2022-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-014",
+      "groupId": "sakurazaka46",
+      "number": 14,
+      "title": {
+        "ja": "Sakurazuki",
+        "en": "Sakurazuki"
+      },
+      "releaseDate": "2023-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-015",
+      "groupId": "sakurazaka46",
+      "number": 15,
+      "title": {
+        "ja": "row",
+        "en": "row"
+      },
+      "releaseDate": "2023-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-016",
+      "groupId": "sakurazaka46",
+      "number": 16,
+      "title": {
+        "ja": "row",
+        "en": "row"
+      },
+      "releaseDate": "2023-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-017",
+      "groupId": "sakurazaka46",
+      "number": 17,
+      "title": {
+        "ja": "Oricon",
+        "en": "Oricon"
+      },
+      "releaseDate": "2024-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-018",
+      "groupId": "sakurazaka46",
+      "number": 18,
+      "title": {
+        "ja": "row",
+        "en": "row"
+      },
+      "releaseDate": "2024-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-019",
+      "groupId": "sakurazaka46",
+      "number": 19,
+      "title": {
+        "ja": "row",
+        "en": "row"
+      },
+      "releaseDate": "2024-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-020",
+      "groupId": "sakurazaka46",
+      "number": 20,
+      "title": {
+        "ja": "Oricon",
+        "en": "Oricon"
+      },
+      "releaseDate": "2025-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-021",
+      "groupId": "sakurazaka46",
+      "number": 21,
+      "title": {
+        "ja": "row",
+        "en": "row"
+      },
+      "releaseDate": "2025-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-022",
+      "groupId": "sakurazaka46",
+      "number": 22,
+      "title": {
+        "ja": "row",
+        "en": "row"
+      },
+      "releaseDate": "2025-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-023",
+      "groupId": "sakurazaka46",
+      "number": 23,
+      "title": {
+        "ja": "Oricon",
+        "en": "Oricon"
+      },
+      "releaseDate": "2026-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-024",
+      "groupId": "sakurazaka46",
+      "number": 24,
+      "title": {
+        "ja": "Oricon",
+        "en": "Oricon"
+      },
+      "releaseDate": "2026-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "saku-single-025",
+      "groupId": "sakurazaka46",
+      "number": 25,
+      "title": {
+        "ja": "row",
+        "en": "row"
+      },
+      "releaseDate": "2026-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakurazaka46",
+      "type": "single"
+    },
+    {
+      "id": "hina-single-001",
+      "groupId": "hinatazaka46",
+      "number": 1,
+      "title": {
+        "ja": "キュン",
+        "en": "Kyun"
+      },
+      "releaseDate": "2019-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hinatazaka46",
+      "type": "single"
+    },
+    {
+      "id": "hina-single-002",
+      "groupId": "hinatazaka46",
+      "number": 2,
+      "title": {
+        "ja": "ドレミソラシド",
+        "en": "Do Re Mi Sol La Si Do"
+      },
+      "releaseDate": "2019-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hinatazaka46",
+      "type": "single"
+    },
+    {
+      "id": "hina-single-003",
+      "groupId": "hinatazaka46",
+      "number": 3,
+      "title": {
+        "ja": "こんなに好きになっちゃっていいの?",
+        "en": "Konna ni Suki ni Natchatte Ii no?"
+      },
+      "releaseDate": "2019-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hinatazaka46",
+      "type": "single"
+    },
+    {
+      "id": "hina-single-004",
+      "groupId": "hinatazaka46",
+      "number": 4,
+      "title": {
+        "ja": "ソンナコトナイヨ",
+        "en": "Sonna Koto Nai yo"
+      },
+      "releaseDate": "2020-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hinatazaka46",
+      "type": "single"
+    },
+    {
+      "id": "hina-single-005",
+      "groupId": "hinatazaka46",
+      "number": 5,
+      "title": {
+        "ja": "君しか勝たん",
+        "en": "Kimi Shika Katan"
+      },
+      "releaseDate": "2021-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hinatazaka46",
+      "type": "single"
+    },
+    {
+      "id": "hina-single-006",
+      "groupId": "hinatazaka46",
+      "number": 6,
+      "title": {
+        "ja": "ってか",
+        "en": "Tteka"
+      },
+      "releaseDate": "2021-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hinatazaka46",
+      "type": "single"
+    },
+    {
+      "id": "hina-single-007",
+      "groupId": "hinatazaka46",
+      "number": 7,
+      "title": {
+        "ja": "僕なんか",
+        "en": "Boku Nanka"
+      },
+      "releaseDate": "2022-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hinatazaka46",
+      "type": "single"
+    },
+    {
+      "id": "hina-single-008",
+      "groupId": "hinatazaka46",
+      "number": 8,
+      "title": {
+        "ja": "月と星が踊るMidnight",
+        "en": "Tsuki to Hoshi ga Odoru Midnight"
+      },
+      "releaseDate": "2022-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hinatazaka46",
+      "type": "single"
+    },
+    {
+      "id": "hina-single-009",
+      "groupId": "hinatazaka46",
+      "number": 9,
+      "title": {
+        "ja": "One Choice",
+        "en": "One Choice"
+      },
+      "releaseDate": "2023-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hinatazaka46",
+      "type": "single"
+    },
+    {
+      "id": "hina-single-010",
+      "groupId": "hinatazaka46",
+      "number": 10,
+      "title": {
+        "ja": "Am I Ready?",
+        "en": "Am I Ready?"
+      },
+      "releaseDate": "2023-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hinatazaka46",
+      "type": "single"
+    },
+    {
+      "id": "hina-single-011",
+      "groupId": "hinatazaka46",
+      "number": 11,
+      "title": {
+        "ja": "君はハニーデュー",
+        "en": "Kimi wa Honeydew"
+      },
+      "releaseDate": "2024-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hinatazaka46",
+      "type": "single"
+    },
+    {
+      "id": "hina-single-012",
+      "groupId": "hinatazaka46",
+      "number": 12,
+      "title": {
+        "ja": "絶対的第六感",
+        "en": "Zettaiteki Dairokkan"
+      },
+      "releaseDate": "2024-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hinatazaka46",
+      "type": "single"
+    },
+    {
+      "id": "hina-single-013",
+      "groupId": "hinatazaka46",
+      "number": 13,
+      "title": {
+        "ja": "卒業写真だけが知ってる",
+        "en": "Sotsugyō Shashin Dake ga Shitteru"
+      },
+      "releaseDate": "2025-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hinatazaka46",
+      "type": "single"
+    },
+    {
+      "id": "hina-single-014",
+      "groupId": "hinatazaka46",
+      "number": 14,
+      "title": {
+        "ja": "Love Yourself!",
+        "en": "Love Yourself!"
+      },
+      "releaseDate": "2025-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hinatazaka46",
+      "type": "single"
+    },
+    {
+      "id": "hina-single-015",
+      "groupId": "hinatazaka46",
+      "number": 15,
+      "title": {
+        "ja": "お願いバッハ!",
+        "en": "Onegai Bach!"
+      },
+      "releaseDate": "2025-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hinatazaka46",
+      "type": "single"
+    },
+    {
+      "id": "hina-single-016",
+      "groupId": "hinatazaka46",
+      "number": 16,
+      "title": {
+        "ja": "クリフハンガー",
+        "en": "Cliffhanger"
+      },
+      "releaseDate": "2026-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hinatazaka46",
+      "type": "single"
+    },
+    {
+      "id": "hina-single-017",
+      "groupId": "hinatazaka46",
+      "number": 17,
+      "title": {
+        "ja": "Kind of Love",
+        "en": "Kind of Love"
+      },
+      "releaseDate": "2026-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hinatazaka46",
+      "type": "single"
+    },
+    {
+      "id": "hina-single-018",
+      "groupId": "hinatazaka46",
+      "number": 18,
+      "title": {
+        "ja": "イチャイチャ虫",
+        "en": "row"
+      },
+      "releaseDate": "2026-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hinatazaka46",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-001",
+      "groupId": "ske48",
+      "number": 1,
+      "title": {
+        "ja": "Tsuyoki Mono yo",
+        "en": "Tsuyoki Mono yo"
+      },
+      "releaseDate": "2009-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-002",
+      "groupId": "ske48",
+      "number": 2,
+      "title": {
+        "ja": "Aozora Kataomoi",
+        "en": "Aozora Kataomoi"
+      },
+      "releaseDate": "2010-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-003",
+      "groupId": "ske48",
+      "number": 3,
+      "title": {
+        "ja": "Gomen ne, Summer",
+        "en": "Gomen ne, Summer"
+      },
+      "releaseDate": "2010-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-004",
+      "groupId": "ske48",
+      "number": 4,
+      "title": {
+        "ja": "1! 2! 3! 4! Yoroshiku!",
+        "en": "1! 2! 3! 4! Yoroshiku!"
+      },
+      "releaseDate": "2010-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-005",
+      "groupId": "ske48",
+      "number": 5,
+      "title": {
+        "ja": "Banzai Venus",
+        "en": "Banzai Venus"
+      },
+      "releaseDate": "2011-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-006",
+      "groupId": "ske48",
+      "number": 6,
+      "title": {
+        "ja": "Pareo wa Emerald",
+        "en": "Pareo wa Emerald"
+      },
+      "releaseDate": "2011-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-007",
+      "groupId": "ske48",
+      "number": 7,
+      "title": {
+        "ja": "Okey Dokey",
+        "en": "Okey Dokey"
+      },
+      "releaseDate": "2011-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-008",
+      "groupId": "ske48",
+      "number": 8,
+      "title": {
+        "ja": "Kataomoi Finally",
+        "en": "Kataomoi Finally"
+      },
+      "releaseDate": "2012-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-009",
+      "groupId": "ske48",
+      "number": 9,
+      "title": {
+        "ja": "Aishite-love-ru!",
+        "en": "Aishite-love-ru!"
+      },
+      "releaseDate": "2012-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-010",
+      "groupId": "ske48",
+      "number": 10,
+      "title": {
+        "ja": "Kiss Datte Hidarikiki",
+        "en": "Kiss Datte Hidarikiki"
+      },
+      "releaseDate": "2012-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-011",
+      "groupId": "ske48",
+      "number": 11,
+      "title": {
+        "ja": "Choco no Dorei",
+        "en": "Choco no Dorei"
+      },
+      "releaseDate": "2013-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-012",
+      "groupId": "ske48",
+      "number": 12,
+      "title": {
+        "ja": "Utsukushii Inazuma",
+        "en": "Utsukushii Inazuma"
+      },
+      "releaseDate": "2013-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-013",
+      "groupId": "ske48",
+      "number": 13,
+      "title": {
+        "ja": "Sansei Kawaii!",
+        "en": "Sansei Kawaii!"
+      },
+      "releaseDate": "2013-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-014",
+      "groupId": "ske48",
+      "number": 14,
+      "title": {
+        "ja": "Mirai to wa?",
+        "en": "Mirai to wa?"
+      },
+      "releaseDate": "2014-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-015",
+      "groupId": "ske48",
+      "number": 15,
+      "title": {
+        "ja": "Bukiyō Taiyō",
+        "en": "Bukiyō Taiyō"
+      },
+      "releaseDate": "2014-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-016",
+      "groupId": "ske48",
+      "number": 16,
+      "title": {
+        "ja": "12gatsu no Kangaroo",
+        "en": "12gatsu no Kangaroo"
+      },
+      "releaseDate": "2014-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-017",
+      "groupId": "ske48",
+      "number": 17,
+      "title": {
+        "ja": "Coquettish Jūtai Chū",
+        "en": "Coquettish Jūtai Chū"
+      },
+      "releaseDate": "2015-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-018",
+      "groupId": "ske48",
+      "number": 18,
+      "title": {
+        "ja": "Maenomeri",
+        "en": "Maenomeri"
+      },
+      "releaseDate": "2015-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-019",
+      "groupId": "ske48",
+      "number": 19,
+      "title": {
+        "ja": "Chicken Line",
+        "en": "Chicken Line"
+      },
+      "releaseDate": "2016-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-020",
+      "groupId": "ske48",
+      "number": 20,
+      "title": {
+        "ja": "Kin no Ai, Gin no Ai",
+        "en": "Kin no Ai, Gin no Ai"
+      },
+      "releaseDate": "2016-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-021",
+      "groupId": "ske48",
+      "number": 21,
+      "title": {
+        "ja": "Igai ni Mango",
+        "en": "Igai ni Mango"
+      },
+      "releaseDate": "2017-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-022",
+      "groupId": "ske48",
+      "number": 22,
+      "title": {
+        "ja": "Muishiki no Iro",
+        "en": "Muishiki no Iro"
+      },
+      "releaseDate": "2018-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-023",
+      "groupId": "ske48",
+      "number": 23,
+      "title": {
+        "ja": "row",
+        "en": "row"
+      },
+      "releaseDate": "2018-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-024",
+      "groupId": "ske48",
+      "number": 24,
+      "title": {
+        "ja": "row",
+        "en": "row"
+      },
+      "releaseDate": "2018-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-025",
+      "groupId": "ske48",
+      "number": 25,
+      "title": {
+        "ja": "row",
+        "en": "row"
+      },
+      "releaseDate": "2019-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-026",
+      "groupId": "ske48",
+      "number": 26,
+      "title": {
+        "ja": "row",
+        "en": "row"
+      },
+      "releaseDate": "2020-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-027",
+      "groupId": "ske48",
+      "number": 27,
+      "title": {
+        "ja": "Koiochi Flag",
+        "en": "Koiochi Flag"
+      },
+      "releaseDate": "2021-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-028",
+      "groupId": "ske48",
+      "number": 28,
+      "title": {
+        "ja": "row",
+        "en": "row"
+      },
+      "releaseDate": "2021-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-029",
+      "groupId": "ske48",
+      "number": 29,
+      "title": {
+        "ja": "Oricon",
+        "en": "Oricon"
+      },
+      "releaseDate": "2022-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-030",
+      "groupId": "ske48",
+      "number": 30,
+      "title": {
+        "ja": "Oricon",
+        "en": "Oricon"
+      },
+      "releaseDate": "2022-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-031",
+      "groupId": "ske48",
+      "number": 31,
+      "title": {
+        "ja": "Oricon",
+        "en": "Oricon"
+      },
+      "releaseDate": "2023-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-032",
+      "groupId": "ske48",
+      "number": 32,
+      "title": {
+        "ja": "Oricon",
+        "en": "Oricon"
+      },
+      "releaseDate": "2024-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-033",
+      "groupId": "ske48",
+      "number": 33,
+      "title": {
+        "ja": "Oricon",
+        "en": "Oricon"
+      },
+      "releaseDate": "2024-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-034",
+      "groupId": "ske48",
+      "number": 34,
+      "title": {
+        "ja": "Oricon",
+        "en": "Oricon"
+      },
+      "releaseDate": "2025-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-035",
+      "groupId": "ske48",
+      "number": 35,
+      "title": {
+        "ja": "Oricon",
+        "en": "Oricon"
+      },
+      "releaseDate": "2025-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-036",
+      "groupId": "ske48",
+      "number": 36,
+      "title": {
+        "ja": "Oricon",
+        "en": "Oricon"
+      },
+      "releaseDate": "2026-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "ske48-single-037",
+      "groupId": "ske48",
+      "number": 37,
+      "title": {
+        "ja": "row",
+        "en": "row"
+      },
+      "releaseDate": "2026-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SKE48",
+      "type": "single"
+    },
+    {
+      "id": "stu48-single-001",
+      "groupId": "stu48",
+      "number": 1,
+      "title": {
+        "ja": "Kurayami",
+        "en": "Kurayami"
+      },
+      "releaseDate": "2018-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/STU48",
+      "type": "single"
+    },
+    {
+      "id": "stu48-single-002",
+      "groupId": "stu48",
+      "number": 2,
+      "title": {
+        "ja": "Kaze wo Matsu",
+        "en": "Kaze wo Matsu"
+      },
+      "releaseDate": "2019-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/STU48",
+      "type": "single"
+    },
+    {
+      "id": "stu48-single-003",
+      "groupId": "stu48",
+      "number": 3,
+      "title": {
+        "ja": "Daisuki na Hito",
+        "en": "Daisuki na Hito"
+      },
+      "releaseDate": "2019-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/STU48",
+      "type": "single"
+    },
+    {
+      "id": "stu48-single-004",
+      "groupId": "stu48",
+      "number": 4,
+      "title": {
+        "ja": "Mubō na Yume wa Sameru Koto ga Nai",
+        "en": "Mubō na Yume wa Sameru Koto ga Nai"
+      },
+      "releaseDate": "2020-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/STU48",
+      "type": "single"
+    },
+    {
+      "id": "stu48-single-005",
+      "groupId": "stu48",
+      "number": 5,
+      "title": {
+        "ja": "Omoidaseru Koi wo Shiyō",
+        "en": "Omoidaseru Koi wo Shiyō"
+      },
+      "releaseDate": "2020-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/STU48",
+      "type": "single"
+    },
+    {
+      "id": "stu48-single-006",
+      "groupId": "stu48",
+      "number": 6,
+      "title": {
+        "ja": "Hitorigoto de Kataru Kurainara",
+        "en": "Hitorigoto de Kataru Kurainara"
+      },
+      "releaseDate": "2021-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/STU48",
+      "type": "single"
+    },
+    {
+      "id": "stu48-single-007",
+      "groupId": "stu48",
+      "number": 7,
+      "title": {
+        "ja": "Hetaretachi yo",
+        "en": "Hetaretachi yo"
+      },
+      "releaseDate": "2021-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/STU48",
+      "type": "single"
+    },
+    {
+      "id": "stu48-single-008",
+      "groupId": "stu48",
+      "number": 8,
+      "title": {
+        "ja": "Hana wa Dare no Mono?",
+        "en": "Hana wa Dare no Mono?"
+      },
+      "releaseDate": "2022-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/STU48",
+      "type": "single"
+    },
+    {
+      "id": "stu48-single-009",
+      "groupId": "stu48",
+      "number": 9,
+      "title": {
+        "ja": "Iki o Suru Kokoro",
+        "en": "Iki o Suru Kokoro"
+      },
+      "releaseDate": "2023-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/STU48",
+      "type": "single"
+    },
+    {
+      "id": "stu48-single-010",
+      "groupId": "stu48",
+      "number": 10,
+      "title": {
+        "ja": "Oricon",
+        "en": "Oricon"
+      },
+      "releaseDate": "2023-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/STU48",
+      "type": "single"
+    },
+    {
+      "id": "stu48-single-011",
+      "groupId": "stu48",
+      "number": 11,
+      "title": {
+        "ja": "Oricon",
+        "en": "Oricon"
+      },
+      "releaseDate": "2025-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/STU48",
+      "type": "single"
+    },
+    {
+      "id": "stu48-single-012",
+      "groupId": "stu48",
+      "number": 12,
+      "title": {
+        "ja": "Oricon",
+        "en": "Oricon"
+      },
+      "releaseDate": "2025-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/STU48",
+      "type": "single"
+    },
+    {
+      "id": "stu48-single-013",
+      "groupId": "stu48",
+      "number": 13,
+      "title": {
+        "ja": "Oricon",
+        "en": "Oricon"
+      },
+      "releaseDate": "2026-01-01",
+      "catalogNumber": null,
+      "coverUrl": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/STU48",
+      "type": "single"
+    }
+  ]
+}
