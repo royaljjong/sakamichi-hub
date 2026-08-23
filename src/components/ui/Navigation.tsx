@@ -39,6 +39,13 @@ export function Navigation({ showBrand = true }: NavigationProps) {
         {/* Top-right Actions: Search & Locales */}
         <div className="flex items-center gap-2.5 ml-auto">
           <Link
+            href="/compare"
+            className="hidden sm:flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[var(--white-veil)] hover:bg-white text-xs font-medium text-[var(--ink)] border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] shadow-xs transition hover:scale-105"
+            aria-label={tNav('compare')}
+          >
+            <span>{tNav('compare')}</span>
+          </Link>
+          <Link
             href="/search"
             className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[var(--white-veil)] hover:bg-white text-xs font-medium text-[var(--ink)] border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] shadow-xs transition hover:scale-105"
             aria-label={tNav('search')}

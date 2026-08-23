@@ -19,7 +19,8 @@
   "nav": {
     "home": "ホーム",
     "search": "検索",
-    "about": "このサイトについて"
+    "about": "このサイトについて",
+    "compare": "グループ比較"
   },
   "group": {
     "tabCurrent": "現役メンバー",
@@ -184,6 +185,19 @@
     "eventTransferred": "移籍",
     "chipConcurrent": "兼任",
     "currentStatus": "現在"
+  },
+  "compare": {
+    "pageTitle": "グループ比較",
+    "pageSubtitle": "最大3グループを並べてメンバー数・フォロワー・最新ブログを比較。",
+    "selectGroup": "グループを選択",
+    "selectNone": "選択しない",
+    "statDebut": "結成日",
+    "statActiveSince": "活動期間",
+    "statActiveMembers": "現役メンバー",
+    "statGraduates": "卒業メンバー",
+    "statOfficial": "公式",
+    "topFollowers": "X フォロワー TOP 3",
+    "latestPosts": "最新ブログ"
   },
   "notFound": {
     "title": "ページが見つかりません",

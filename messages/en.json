@@ -19,7 +19,8 @@
   "nav": {
     "home": "Home",
     "search": "Search",
-    "about": "About"
+    "about": "About",
+    "compare": "Group Compare"
   },
   "group": {
     "tabCurrent": "Active Members",
@@ -184,6 +185,19 @@
     "eventTransferred": "Transferred",
     "chipConcurrent": "Concurrent",
     "currentStatus": "Now"
+  },
+  "compare": {
+    "pageTitle": "Group Comparison",
+    "pageSubtitle": "Compare up to 3 groups side-by-side — member counts, followers, and latest posts.",
+    "selectGroup": "Select group",
+    "selectNone": "None",
+    "statDebut": "Debut",
+    "statActiveSince": "Active for",
+    "statActiveMembers": "Active members",
+    "statGraduates": "Graduates",
+    "statOfficial": "Official",
+    "topFollowers": "Top 3 X Followers",
+    "latestPosts": "Latest posts"
   },
   "notFound": {
     "title": "Page not found",
