@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
-import { getMember, getMembers, getGroup, getGeneration, getSameGenerationMembers } from '@/lib/data';
+import { getMember, getMembers, getGroup, getGeneration, getSameGenerationMembers, getGroups } from '@/lib/data';
 import { routing } from '@/i18n/routing';
 import { AmbientBackground } from '@/components/background/AmbientBackground';
 import { Navigation } from '@/components/ui/Navigation';
@@ -13,6 +13,7 @@ import { LinkGrid } from '@/components/member/LinkGrid';
 import { MemberCard } from '@/components/member/MemberCard';
 import { Ruby } from '@/components/ui/Ruby';
 import { JsonLd } from '@/components/seo/JsonLd';
+import { CareerTimeline } from '@/components/member/CareerTimeline';
 
 interface MemberPageProps {
   params: Promise<{ locale: string; memberId: string }>;
@@ -258,6 +259,11 @@ export default async function MemberPage({ params }: MemberPageProps) {
             </div>
           </div>
         </section>
+
+        {/* Career Timeline */}
+        {member.memberships.length >= 1 && (
+          <CareerTimeline member={member} groups={getGroups()} locale={locale} />
+        )}
 
         {/* Links Grid - The Primary Destination */}
         <section className="mb-14">

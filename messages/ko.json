@@ -175,6 +175,16 @@
     "heading": "계보 변천사",
     "present": "현재"
   },
+  "timeline": {
+    "sectionKicker": "CAREER TIMELINE",
+    "sectionTitle": "활동 이력",
+    "eventJoined": "가입",
+    "eventGraduated": "졸업",
+    "eventWithdrew": "활동 종료",
+    "eventTransferred": "이적",
+    "chipConcurrent": "겸임",
+    "currentStatus": "현재"
+  },
   "notFound": {
     "title": "페이지를 찾을 수 없습니다",
     "subtitle": "찾으시는 페이지가 이동하거나 삭제되었을 수 있습니다. URL이 올바른지 확인해주세요.",

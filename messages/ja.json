@@ -175,6 +175,16 @@
     "heading": "系譜変遷",
     "present": "現在"
   },
+  "timeline": {
+    "sectionKicker": "CAREER TIMELINE",
+    "sectionTitle": "活動歴",
+    "eventJoined": "加入",
+    "eventGraduated": "卒業",
+    "eventWithdrew": "活動辞退",
+    "eventTransferred": "移籍",
+    "chipConcurrent": "兼任",
+    "currentStatus": "現在"
+  },
   "notFound": {
     "title": "ページが見つかりません",
     "subtitle": "お探しのページは移動または削除された可能性があります。URLが正しいかご確認ください。",

@@ -175,6 +175,16 @@
     "heading": "Lineage",
     "present": "Present"
   },
+  "timeline": {
+    "sectionKicker": "CAREER TIMELINE",
+    "sectionTitle": "Career timeline",
+    "eventJoined": "Joined",
+    "eventGraduated": "Graduated",
+    "eventWithdrew": "Withdrew",
+    "eventTransferred": "Transferred",
+    "chipConcurrent": "Concurrent",
+    "currentStatus": "Now"
+  },
   "notFound": {
     "title": "Page not found",
     "subtitle": "The page you're looking for may have been moved or removed. Please double-check the URL.",
