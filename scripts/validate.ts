@@ -2,6 +2,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { Dataset, checkIntegrity } from '../src/lib/schema';
 import { PortalDataset } from '../src/lib/portal-schema';
+import { Discography } from '../src/lib/discography-schema';
 
 function validate() {
   const dataDir = path.join(__dirname, '..', 'data');
@@ -58,6 +59,22 @@ function validate() {
   }
   console.log(`✅ Portal schema passed: ${portalResult.data.events.length} events, ${portalResult.data.venues.length} venues, ${portalResult.data.rankings.length} ranking facts.`);
   console.log(`📊 Summary: ${parseResult.data.groups.length} groups, ${parseResult.data.members.length} members.`);
+
+  // Validate discography.json (optional — skip if file not yet fetched)
+  const discographyPath = path.join(dataDir, 'discography.json');
+  if (fs.existsSync(discographyPath)) {
+    console.log('🔍 Validating discography.json...');
+    const discographyFile = JSON.parse(fs.readFileSync(discographyPath, 'utf-8'));
+    const discResult = Discography.safeParse(discographyFile);
+    if (!discResult.success) {
+      console.error('❌ Discography Schema Validation Failed:');
+      console.error(JSON.stringify(discResult.error.format(), null, 2));
+      process.exit(1);
+    }
+    console.log(`✅ Discography schema passed: ${discResult.data.singles.length} singles across all groups.`);
+  } else {
+    console.log('ℹ️  data/discography.json not found — skipping discography validation (run pnpm exec tsx scripts/fetch/discography.ts first).');
+  };
   const imageOwners = new Map<string, string[]>();
   for (const member of parseResult.data.members) {
     if (!member.imageUrl) continue;

@@ -205,5 +205,12 @@
     "homeLink": "Back to home",
     "searchLink": "Search members",
     "groupsHeading": "Browse groups"
+  },
+  "discography": {
+    "kicker": "DISCOGRAPHY",
+    "title": "Singles",
+    "empty": "No discography data yet",
+    "single": "Single",
+    "viewOnWikipedia": "View on Wikipedia"
   }
 }

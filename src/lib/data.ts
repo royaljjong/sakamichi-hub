@@ -15,6 +15,20 @@ import latestVideosData from '../../data/latest-videos.json';
 import { PortalDataset } from './portal-schema';
 import type { RecentUpdate } from '@/lib/updates-schema';
 import type { MemberVideo } from './videos-schema';
+import type { Single } from './discography-schema';
+
+// Discography — optional; file may not exist yet (manual fetch step)
+function loadDiscography(): Single[] {
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const raw = require('../../data/discography.json') as { singles?: Single[] };
+    return Array.isArray(raw.singles) ? raw.singles : [];
+  } catch {
+    return [];
+  }
+}
+
+const discographySingles: Single[] = loadDiscography();
 
 const groups: Group[] = (groupsData as { groups: Group[] }).groups;
 const members: Member[] = (membersData as Member[]) || [];
@@ -119,4 +133,15 @@ export function getPortalData() {
 
 export function getLatestVideos(): MemberVideo[] {
   return (latestVideosData as MemberVideo[]) || [];
+}
+
+export function getDiscography(): Single[] {
+  return discographySingles;
+}
+
+export function getGroupSingles(groupId: string, limit?: number): Single[] {
+  const filtered = discographySingles
+    .filter((s) => s.groupId === groupId)
+    .sort((a, b) => b.number - a.number); // latest first
+  return limit !== undefined ? filtered.slice(0, limit) : filtered;
 }

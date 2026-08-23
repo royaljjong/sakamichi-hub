@@ -205,5 +205,12 @@
     "homeLink": "ホームへ戻る",
     "searchLink": "メンバーを検索",
     "groupsHeading": "グループを選ぶ"
+  },
+  "discography": {
+    "kicker": "DISCOGRAPHY",
+    "title": "シングル",
+    "empty": "シングル情報がまだありません",
+    "single": "シングル",
+    "viewOnWikipedia": "Wikipediaで見る"
   }
 }
