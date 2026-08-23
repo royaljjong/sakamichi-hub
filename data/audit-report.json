@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-08-22T04:51:12.862Z",
+  "checkedAt": "2026-08-23T05:26:40.682Z",
   "stats": {
     "total": 453,
-    "activeWithPhoto": 235,
-    "activeWithoutPhoto": 100,
+    "activeWithPhoto": 256,
+    "activeWithoutPhoto": 79,
     "graduatesWithPhoto": 92,
     "graduatesWithoutPhoto": 26,
-    "photoCheckPassed": 311,
-    "photoCheckFailed": 16,
+    "photoCheckPassed": 231,
+    "photoCheckFailed": 117,
     "officialLinksChecked": 0,
     "officialLinksFailed": 0
   },
@@ -21,20 +21,28 @@
       "message": "Romaji contains invalid characters: \"Liu Yu-ching\""
     },
     {
-      "memberId": "mnl48-sheki",
-      "name": "シェキ",
-      "group": "mnl48",
+      "memberId": "nogi-morihira-urumi",
+      "name": "森平麗心",
+      "group": "nogizaka46",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 0: https://mnl48.ph/images/members/sheki.jpg"
+      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/035/aca8b6dccc829b810d24d6fbfc7c3.jpg"
     },
     {
-      "memberId": "nmb48-abe-wakana",
-      "name": "安部若菜",
-      "group": "nmb48",
+      "memberId": "nogi-masuda-mirine",
+      "name": "増田三莉音",
+      "group": "nogizaka46",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 429: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/%E5%AE%89%E9%83%A8%E8%8B%A5%E8%8F%9C.jpg/960px-%E5%AE%89%E9%83%A8%E8%8B%A5%E8%8F%9C.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/86b/0333e9148ad78d217822ccde31db8.jpg"
+    },
+    {
+      "memberId": "nogi-setoguchi-mitsuki",
+      "name": "瀬戸口心月",
+      "group": "nogizaka46",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/4b1/dbd952eb8141c36fae23b5b3b6098.jpg"
     },
     {
       "memberId": "nmb48-kojima-karin",
@@ -61,52 +69,28 @@
       "message": "Image URL returned status 429: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/%E5%A1%A9%E6%9C%88%E5%B8%8C%E4%BE%9D%E9%9F%B3.jpg/960px-%E5%A1%A9%E6%9C%88%E5%B8%8C%E4%BE%9D%E9%9F%B3.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "memberId": "akb48-team-sh-ryuu-nen",
-      "name": "劉念",
-      "group": "akb48-team-sh",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.akb48-china.com/upload/member/liu_nian.jpg"
-    },
-    {
-      "memberId": "bnk48-fupu",
-      "name": "フープ",
-      "group": "bnk48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 404: https://www.bnk48.com/images/members/hoop.jpg"
-    },
-    {
-      "memberId": "nmb48-sakashita-mako",
-      "name": "坂下真心",
+      "memberId": "nmb48-jounishi-rei",
+      "name": "上西怜",
       "group": "nmb48",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 429: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/%E5%9D%82%E4%B8%8B_%E7%9C%9F%E5%BF%83.jpg/960px-%E5%9D%82%E4%B8%8B_%E7%9C%9F%E5%BF%83.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "message": "Image URL returned status 429: https://upload.wikimedia.org/wikipedia/commons/0/01/Rei_Jonishi_YM04.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
-      "memberId": "akb48-hirata-yuki",
-      "name": "平田侑希",
-      "group": "akb48",
+      "memberId": "hkt48-sakamoto-erena",
+      "name": "坂本愛玲菜",
+      "group": "hkt48",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 429: https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/55th_Plumbing_Machine_Equipment_%26_General_Equipment_Exhibition_Hirata_Yuki_%2853152551255%29_%28cropped%29.jpg/960px-55th_Plumbing_Machine_Equipment_%26_General_Equipment_Exhibition_Hirata_Yuki_%2853152551255%29_%28cropped%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "message": "Image URL returned status 429: https://upload.wikimedia.org/wikipedia/commons/b/b7/%E5%9D%82%E6%9C%AC_%E6%84%9B%E7%8E%B2%E8%8F%9C.png?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
-      "memberId": "akb48-masai-mayuu",
-      "name": "正鋳真優",
-      "group": "akb48",
+      "memberId": "mnl48-sheki",
+      "name": "シェキ",
+      "group": "mnl48",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 429: https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Masaimayuu001.png/960px-Masaimayuu001.png?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "memberId": "akb48-hashimoto-eriko",
-      "name": "橋本恵理子",
-      "group": "akb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 429: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Hashimotoeriko001.jpg/960px-Hashimotoeriko001.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "message": "Image URL returned status 0: https://mnl48.ph/images/members/sheki.jpg"
     },
     {
       "memberId": "jkt48-fureya",
@@ -117,12 +101,20 @@
       "message": "Image URL returned status 404: https://jkt48.com/images/member/freya_jayawardana.jpg"
     },
     {
+      "memberId": "stu48-ishida-chiho",
+      "name": "石田千穂",
+      "group": "stu48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/b/b4/Chiho_Ishida.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
       "memberId": "jkt48-shani",
       "name": "シャニ",
       "group": "jkt48",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 404: https://jkt48.com/images/member/shani_indira_natio.jpg"
+      "message": "Image URL returned status 0: https://jkt48.com/images/member/shani_indira_natio.jpg"
     },
     {
       "memberId": "jkt48-feni",
@@ -130,7 +122,15 @@
       "group": "jkt48",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 404: https://jkt48.com/images/member/feni_fitriyanti.jpg"
+      "message": "Image URL returned status 0: https://jkt48.com/images/member/feni_fitriyanti.jpg"
+    },
+    {
+      "memberId": "bnk48-fupu",
+      "name": "フープ",
+      "group": "bnk48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://www.bnk48.com/images/members/hoop.jpg"
     },
     {
       "memberId": "cgm48-omu",
@@ -138,7 +138,15 @@
       "group": "cgm48",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 404: https://cgm48official.com/images/members/aom.jpg"
+      "message": "Image URL returned status 0: https://cgm48official.com/images/members/aom.jpg"
+    },
+    {
+      "memberId": "akb48-team-sh-ryuu-nen",
+      "name": "劉念",
+      "group": "akb48-team-sh",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://www.akb48-china.com/upload/member/liu_nian.jpg"
     },
     {
       "memberId": "akb48-team-tp-ryuu-gosei",
@@ -146,7 +154,807 @@
       "group": "akb48-team-tp",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 404: https://www.akb48teamtp.com/upload/members/77_yuqing.jpg"
+      "message": "Image URL returned status 0: https://www.akb48teamtp.com/upload/members/77_yuqing.jpg"
+    },
+    {
+      "memberId": "klp48-gyouten-yurina",
+      "name": "行天優莉奈",
+      "group": "klp48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100840.jpg"
+    },
+    {
+      "memberId": "klp48-kurosu-haruka",
+      "name": "黒須遥香",
+      "group": "klp48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100937.jpg"
+    },
+    {
+      "memberId": "klp48-yamane-suzuha",
+      "name": "山根涼羽",
+      "group": "klp48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100952.jpg"
+    },
+    {
+      "memberId": "ske48-aikawa-honoka",
+      "name": "相川暖花",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_43.jpg"
+    },
+    {
+      "memberId": "ske48-ishiguro-yuzuki",
+      "name": "石黒友月",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_4.jpg"
+    },
+    {
+      "memberId": "ske48-ito-kokomi",
+      "name": "伊藤虹々美",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_81.jpg"
+    },
+    {
+      "memberId": "ske48-iriuchijima-sayaka",
+      "name": "入内嶋涼",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_23.jpg"
+    },
+    {
+      "memberId": "ske48-kurashima-ami",
+      "name": "倉島杏実",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_50.jpg"
+    },
+    {
+      "memberId": "ske48-kuwahara-tsubaki",
+      "name": "桒原椿",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_96.jpg"
+    },
+    {
+      "memberId": "ske48-sugimoto-riina",
+      "name": "杉本りいな",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_76.jpg"
+    },
+    {
+      "memberId": "ske48-suzuki-kokona",
+      "name": "鈴木恋奈",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_55.jpg"
+    },
+    {
+      "memberId": "ske48-hara-yune",
+      "name": "原優寧",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_77.jpg"
+    },
+    {
+      "memberId": "ske48-matsukawa-miyu",
+      "name": "松川みゆ",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_90.jpg"
+    },
+    {
+      "memberId": "ske48-minamisawa-coco",
+      "name": "南澤恋々",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_91.jpg"
+    },
+    {
+      "memberId": "ske48-yamamura-sakura",
+      "name": "山村さくら",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_79.jpg"
+    },
+    {
+      "memberId": "ske48-arano-himeka",
+      "name": "荒野姫楓",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_3.jpg"
+    },
+    {
+      "memberId": "ske48-ikeda-kaede",
+      "name": "池田楓",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_45.jpg"
+    },
+    {
+      "memberId": "ske48-ito-miki",
+      "name": "伊藤実希",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_67.jpg"
+    },
+    {
+      "memberId": "ske48-okuno-kokoha",
+      "name": "奥野心羽",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_82.jpg"
+    },
+    {
+      "memberId": "ske48-kumoi-sana",
+      "name": "雲井紗菜",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_95.jpg"
+    },
+    {
+      "memberId": "ske48-kuramoto-hana",
+      "name": "倉本羽菜",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_86.jpg"
+    },
+    {
+      "memberId": "ske48-kondo-mikoto",
+      "name": "近藤海琴",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_97.jpg"
+    },
+    {
+      "memberId": "ske48-shinohara-kyoka",
+      "name": "篠原京香",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_75.jpg"
+    },
+    {
+      "memberId": "ske48-akahori-kimie",
+      "name": "赤堀君江",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_2.jpg"
+    },
+    {
+      "memberId": "ske48-ida-reona",
+      "name": "井田玲音名",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_47.jpg"
+    },
+    {
+      "memberId": "ske48-ota-manae",
+      "name": "太田愛恵",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_92.jpg"
+    },
+    {
+      "memberId": "ske48-omura-anzu",
+      "name": "大村杏",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_74.jpg"
+    },
+    {
+      "memberId": "ske48-kawamura-yua",
+      "name": "河村優愛",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_85.jpg"
+    },
+    {
+      "memberId": "ske48-suzuki-ena",
+      "name": "鈴木愛菜",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_34.jpg"
+    },
+    {
+      "memberId": "ske48-nakasaka-miyu",
+      "name": "中坂美祐",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_13.jpg"
+    },
+    {
+      "memberId": "ske48-nishii-mio",
+      "name": "西井美桜",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_72.jpg"
+    },
+    {
+      "memberId": "ske48-hasegawa-miyabi",
+      "name": "長谷川雅",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_89.jpg"
+    },
+    {
+      "memberId": "ske48-morimoto-kurumi",
+      "name": "森本くるみ",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_78.jpg"
+    },
+    {
+      "memberId": "ske48-iida-yura",
+      "name": "飯田ゆら",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_106.jpg"
+    },
+    {
+      "memberId": "ske48-ikeda-arisa",
+      "name": "池田有沙",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_107.jpg"
+    },
+    {
+      "memberId": "ske48-kawamura-syoko",
+      "name": "川村昇子",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_93.jpg"
+    },
+    {
+      "memberId": "ske48-kubota-rei",
+      "name": "久保田怜",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_94.jpg"
+    },
+    {
+      "memberId": "ske48-sakurai-arisa",
+      "name": "桜井愛莉咲",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_98.jpg"
+    },
+    {
+      "memberId": "ske48-sasaki-nozomi",
+      "name": "佐々木希美",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_99.jpg"
+    },
+    {
+      "memberId": "ske48-takamura-saya",
+      "name": "高村紗弥",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_88.jpg"
+    },
+    {
+      "memberId": "ske48-takeshita-marika",
+      "name": "竹下茉莉花",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_108.jpg"
+    },
+    {
+      "memberId": "ske48-tachibana-ayame",
+      "name": "立花菖",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_100.jpg"
+    },
+    {
+      "memberId": "ske48-tamura-mayu",
+      "name": "田村真悠",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_101.jpg"
+    },
+    {
+      "memberId": "ske48-nakao-fuka",
+      "name": "中尾楓華",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_109.jpg"
+    },
+    {
+      "memberId": "ske48-hijiri-haruka",
+      "name": "聖遥花",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_102.jpg"
+    },
+    {
+      "memberId": "ske48-miyamoto-rinka",
+      "name": "宮本倫花",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_104.jpg"
+    },
+    {
+      "memberId": "ske48-yajima-nagi",
+      "name": "矢島凪",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_110.jpg"
+    },
+    {
+      "memberId": "ske48-yokoi-shiho",
+      "name": "横井志穂",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_105.jpg"
+    },
+    {
+      "memberId": "akb48-hashimoto-eriko",
+      "name": "橋本恵理子",
+      "group": "akb48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Hashimotoeriko001.jpg/960px-Hashimotoeriko001.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "memberId": "akb48-hirata-yuki",
+      "name": "平田侑希",
+      "group": "akb48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/55th_Plumbing_Machine_Equipment_%26_General_Equipment_Exhibition_Hirata_Yuki_%2853152551255%29_%28cropped%29.jpg/960px-55th_Plumbing_Machine_Equipment_%26_General_Equipment_Exhibition_Hirata_Yuki_%2853152551255%29_%28cropped%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "memberId": "akb48-masai-mayuu",
+      "name": "正鋳真優",
+      "group": "akb48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Masaimayuu001.png/960px-Masaimayuu001.png?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "memberId": "nmb48-sakashita-mako",
+      "name": "坂下真心",
+      "group": "nmb48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/%E5%9D%82%E4%B8%8B_%E7%9C%9F%E5%BF%83.jpg/960px-%E5%9D%82%E4%B8%8B_%E7%9C%9F%E5%BF%83.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "memberId": "hkt48-ikuno-rina",
+      "name": "生野莉奈",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0100_240.jpg"
+    },
+    {
+      "memberId": "hkt48-ishimatsu-yuina",
+      "name": "石松結菜",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0102_240.jpg"
+    },
+    {
+      "memberId": "hkt48-kitagawa-hiiro",
+      "name": "北川陽彩",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0108_240.jpg"
+    },
+    {
+      "memberId": "hkt48-shibui-mina",
+      "name": "渋井美奈",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0109_240.jpg"
+    },
+    {
+      "memberId": "hkt48-nakano-minami",
+      "name": "中野南実",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0127_240.jpg"
+    },
+    {
+      "memberId": "hkt48-fujino-kokoha",
+      "name": "藤野心葉",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0112_240.jpg"
+    },
+    {
+      "memberId": "hkt48-matsunaga-yui",
+      "name": "松永悠良",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0129_240.jpg"
+    },
+    {
+      "memberId": "hkt48-yanase-reia",
+      "name": "梁瀬鈴雅",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0117_240.jpg"
+    },
+    {
+      "memberId": "hkt48-yamauchi-yuuna",
+      "name": "山内祐奈",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0052_240.jpg"
+    },
+    {
+      "memberId": "hkt48-ryuutou-ayane",
+      "name": "龍頭綺音",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0133_240.jpg"
+    },
+    {
+      "memberId": "hkt48-izawa-miyu",
+      "name": "井澤美優",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0101_240.jpg"
+    },
+    {
+      "memberId": "hkt48-ishii-ayane",
+      "name": "石井彩音",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0119_240.jpg"
+    },
+    {
+      "memberId": "hkt48-ihara-hanna",
+      "name": "猪原絆愛",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0103_240.jpg"
+    },
+    {
+      "memberId": "hkt48-imamura-maria",
+      "name": "今村麻莉愛",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0056_240.jpg"
+    },
+    {
+      "memberId": "hkt48-eura-yuuka",
+      "name": "江浦優香",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0122_240.jpg"
+    },
+    {
+      "memberId": "hkt48-ooba-risaki",
+      "name": "大庭凜咲",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0106_240.jpg"
+    },
+    {
+      "memberId": "hkt48-kuriyama-rina",
+      "name": "栗山梨奈",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0084_240.jpg"
+    },
+    {
+      "memberId": "hkt48-tachibana-kokoro",
+      "name": "立花心良",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0110_240.jpg"
+    },
+    {
+      "memberId": "hkt48-tanaka-iori",
+      "name": "田中伊桜莉",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0088_240.jpg"
+    },
+    {
+      "memberId": "hkt48-fukui-karen",
+      "name": "福井可憐",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0111_240.jpg"
+    },
+    {
+      "memberId": "hkt48-yasui-hina",
+      "name": "安井妃奈",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0116_240.jpg"
+    },
+    {
+      "memberId": "ngt48-isobe-rua",
+      "name": "磯部瑠紅",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/149/ngt_1768021484217.jpg"
+    },
+    {
+      "memberId": "ngt48-kita-hanae",
+      "name": "喜多花恵",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/150/ngt_1768021515757.jpg"
+    },
+    {
+      "memberId": "ngt48-kimoto-anna",
+      "name": "木本杏菜",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/163/ngt_1768022179596.jpg"
+    },
+    {
+      "memberId": "ngt48-satou-hiroka",
+      "name": "佐藤広花",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/164/ngt_1768022197907.jpg"
+    },
+    {
+      "memberId": "stu48-kai-kokoa",
+      "name": "甲斐心愛",
+      "group": "stu48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/7/7a/KLP48_in_Animangaki_2024_%28Cocoa_Kai%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "memberId": "ngt48-isozaki-nana",
+      "name": "磯崎菜々",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/160/ngt_1768022113723.jpg"
+    },
+    {
+      "memberId": "ngt48-shinzawa-aoi",
+      "name": "新沢葵唯",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/165/ngt_1768022233914.jpg"
+    },
+    {
+      "memberId": "ngt48-takashima-yua",
+      "name": "高島柚愛",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/167/ngt_1768022258745.jpg"
+    },
+    {
+      "memberId": "ngt48-nishikawa-haruna",
+      "name": "西川晴菜",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/168/ngt_1773149242476.jpg"
+    },
+    {
+      "memberId": "ngt48-azama-yui",
+      "name": "安座間結",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/172/ngt_1768021014933.jpg"
+    },
+    {
+      "memberId": "ngt48-adachi-yume",
+      "name": "阿達夢",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/173/ngt_1768021064042.jpg"
+    },
+    {
+      "memberId": "ngt48-oomachi-yuuka",
+      "name": "大町佑香",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/174/ngt_1768021075559.jpg"
+    },
+    {
+      "memberId": "ngt48-kai-mizuki",
+      "name": "甲斐瑞季",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/175/ngt_1768021127984.jpg"
+    },
+    {
+      "memberId": "ngt48-kitazawa-mone",
+      "name": "北澤百音",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/176/ngt_1768021146338.jpg"
+    },
+    {
+      "memberId": "ngt48-satou-yuuka",
+      "name": "佐藤柚花",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/177/ngt_1768021206412.jpg"
+    },
+    {
+      "memberId": "ngt48-sutou-rinka",
+      "name": "須藤凜華",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/178/ngt_1768021262732.jpg"
+    },
+    {
+      "memberId": "ngt48-taniguchi-haruka",
+      "name": "谷口陽香",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/179/ngt_1768021271898.jpg"
+    },
+    {
+      "memberId": "ngt48-nakata-asami",
+      "name": "中田麻実",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/181/ngt_1768021325244.jpg"
+    },
+    {
+      "memberId": "ngt48-minagawa-hiyori",
+      "name": "皆川日和",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/182/ngt_1768021338796.jpg"
+    },
+    {
+      "memberId": "ngt48-aiki-maaya",
+      "name": "相木茉采",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/183/ngt_1781311712871.jpg"
+    },
+    {
+      "memberId": "ngt48-inomata-sana",
+      "name": "猪股咲那",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/184/ngt_1781311972020.jpg"
+    },
+    {
+      "memberId": "ngt48-oohashi-ayano",
+      "name": "大橋彩乃",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/185/ngt_1781312318217.jpg"
+    },
+    {
+      "memberId": "ngt48-katayama-shuri",
+      "name": "片山珠吏",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/186/ngt_1781312731096.jpg"
+    },
+    {
+      "memberId": "ngt48-kuga-mirei",
+      "name": "久我水羚",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/187/ngt_1781315852119.jpg"
+    },
+    {
+      "memberId": "ngt48-satou-honoka",
+      "name": "佐藤歩夏",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/188/ngt_1781316209226.jpg"
+    },
+    {
+      "memberId": "ngt48-hirai-yuzuha",
+      "name": "平井柚葉",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/189/ngt_1781316432820.jpg"
+    },
+    {
+      "memberId": "ngt48-hosoya-naho",
+      "name": "細矢夏帆",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/190/ngt_1781316619834.jpg"
     }
   ]
 }

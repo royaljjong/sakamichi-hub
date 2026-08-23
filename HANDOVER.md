@@ -31,7 +31,7 @@
 Sakamichi Box/
 ├── data/                               # 애플리케이션 원천 데이터 (JSON)
 │   ├── groups.json                     # 16개 그룹 메타데이터 (아이디, 색상, 기수 정의, 공식 링크)
-│   ├── members.json                    # 299명 전체 멤버 데이터셋 (프로필, 사진, SNS 링크, 기수)
+│   ├── members.json                    # 453명 전체 멤버 데이터셋 (프로필, 사진, SNS 링크, 기수)
 │   └── latest-updates.json             # 공식 블로그 최신 피드 (사카미치 30개 + 48G 30개 = 60개)
 │
 ├── scripts/                            # 데이터 수집, 파싱, 검증 파이프라인
@@ -105,7 +105,7 @@ Sakamichi Box/
 3. **AKB48 해외 7개 자매그룹:**
    * `jkt48` (자카르타), `bnk48` (방콕), `cgm48` (치앙마이), `mnl48` (마닐라), `akb48-team-sh` (상하이), `akb48-team-tp` (타이베이), `klp48` (쿠알라룸푸르)
 
-### 3.2 멤버 데이터셋 (`data/members.json`) — 총 299명
+### 3.2 멤버 데이터셋 (`data/members.json`) — 총 453명 (Wikipedia jawiki + 공식 사이트 확장 후)
 * **乃木坂46 (96명):** 현역 34명 + 졸업생 62명 (1기~6기생)
   * 수집 경로: 노기자카46 공식 API (`fetchNogizaka`) + `NOGI_SNS_MAP` 사전 매핑
 * **櫻坂46 (50명):** 현역 32명 + 졸업생 18명 (1기~4기생)
