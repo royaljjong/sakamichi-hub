@@ -92,16 +92,16 @@ export function HomePortal({ groups, members, locale, portal, videos }: { groups
     return { today: todayBucket, upcoming, past, total: filtered.length };
   };
 
-  // Section 5 & 7: channel member helpers (active / trainee / graduating only)
-  const activeStatuses = new Set<string>(['active', 'trainee', 'graduating']);
+  // Section 5 & 7: channel member helpers.
+  // Include graduates — most curated official channels belong to graduate
+  // members (Shiraishi Mai, Sashihara Rino, Kashiwagi Yuki, etc.) whose
+  // channels remain active post-graduation.
   const ytMembersFor = (target: Family) => members.filter((m) =>
     groups.find((g) => g.id === m.primaryGroupId)?.franchise === target &&
-    activeStatuses.has(m.status) &&
     m.links?.some((l) => l.type === 'youtube' && l.status !== 'dead')
   );
   const ttMembersFor = (target: Family) => members.filter((m) =>
     groups.find((g) => g.id === m.primaryGroupId)?.franchise === target &&
-    activeStatuses.has(m.status) &&
     m.links?.some((l) => l.type === 'tiktok' && l.status !== 'dead')
   );
 
