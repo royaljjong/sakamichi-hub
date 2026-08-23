@@ -212,5 +212,10 @@
     "empty": "아직 싱글 정보가 없습니다",
     "single": "싱글",
     "viewOnWikipedia": "Wikipedia에서 보기"
+  },
+  "footer": {
+    "privacyPolicy": "개인정보 처리방침",
+    "terms": "이용약관",
+    "contact": "문의"
   }
 }

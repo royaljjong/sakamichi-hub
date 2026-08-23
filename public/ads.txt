@@ -1,0 +1,7 @@
+# ads.txt for Sakamichi Box
+# Google AdSense — replace ca-pub-XXXXXXXXXXXXXXXX with actual Publisher ID after approval
+# Steps after AdSense approval:
+#   1. Replace ca-pub-XXXXXXXXXXXXXXXX below with your Publisher ID (e.g. ca-pub-1234567890123456)
+#   2. Set NEXT_PUBLIC_ADSENSE_CLIENT=ca-pub-XXXXXXXXXXXXXXXX in Vercel environment variables
+#   3. Re-deploy the site so ads.txt is served at https://sakamichi-hub.vercel.app/ads.txt
+google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

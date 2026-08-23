@@ -212,5 +212,10 @@
     "empty": "No discography data yet",
     "single": "Single",
     "viewOnWikipedia": "View on Wikipedia"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms",
+    "contact": "Contact"
   }
 }

@@ -212,5 +212,10 @@
     "empty": "シングル情報がまだありません",
     "single": "シングル",
     "viewOnWikipedia": "Wikipediaで見る"
+  },
+  "footer": {
+    "privacyPolicy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "contact": "お問い合わせ"
   }
 }
