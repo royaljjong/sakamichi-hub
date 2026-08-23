@@ -31873,5 +31873,84 @@
     "height": null,
     "hobbies": null,
     "specialties": null
+  },
+  {
+    "id": "nmb48-yoshida-akari",
+    "name": {
+      "ja": {
+        "kanji": "吉田朱里",
+        "kana": "よしだ あかり"
+      },
+      "ko": {
+        "hangul": "요시다 아카리"
+      },
+      "en": {
+        "romaji": "Yoshida Akari"
+      },
+      "aliases": [
+        "yoshida akari",
+        "吉田朱里",
+        "요시다 아카리"
+      ]
+    },
+    "primaryGroupId": "nmb48",
+    "primaryGenerationId": "nmb-g-active",
+    "status": "graduated",
+    "memberships": [
+      {
+        "groupId": "nmb48",
+        "generationId": "nmb-g-active",
+        "joinedOn": "2011-05-21",
+        "leftOn": "2021-06-16",
+        "isConcurrent": false,
+        "endReason": "graduation"
+      }
+    ],
+    "birthDate": "1996-08-16",
+    "birthplace": {
+      "ja": "大阪府",
+      "ko": "오사카부",
+      "en": "Osaka"
+    },
+    "officialCode": null,
+    "imageUrl": null,
+    "links": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@YoshidaAkari",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-23",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.youtube.com/@YoshidaAkari",
+          "checkedAt": "2026-08-23",
+          "note": "user-curated"
+        }
+      },
+      {
+        "type": "tiktok",
+        "url": "https://www.tiktok.com/@_yoshida_akari",
+        "status": "ok",
+        "isOfficial": true,
+        "lastCheckedAt": "2026-08-23",
+        "provenance": {
+          "source": "manual",
+          "sourceUrl": "https://www.tiktok.com/@_yoshida_akari",
+          "checkedAt": "2026-08-23",
+          "note": "user-curated"
+        }
+      }
+    ],
+    "avatar": {
+      "glyph": "吉",
+      "hueShift": 23
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%90%89%E7%94%B0%E6%9C%B1%E9%87%8C",
+      "checkedAt": "2026-08-23",
+      "note": "user-curated"
+    }
   }
 ]
