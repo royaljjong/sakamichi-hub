@@ -17,7 +17,7 @@ interface AdSlotProps {
 }
 
 const PUBLISHER_ID =
-  process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? 'ca-pub-XXXXXXXXXXXXXXXX';
+  process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? 'ca-pub-8422791508684989';
 
 const IS_PLACEHOLDER =
   !PUBLISHER_ID || PUBLISHER_ID === 'ca-pub-XXXXXXXXXXXXXXXX';
