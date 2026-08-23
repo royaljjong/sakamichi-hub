@@ -290,6 +290,134 @@ async function fetchHinatazakaEvents(now: Date): Promise<PortalEvent[]> {
   return results;
 }
 
+/**
+ * AKB48 theater schedule: POST API at /public/api/schedule/calendar/
+ * Returns calendar data for a given month/year.
+ * Theater performances have css_class starting with "scheduleTheater" or "scheduleTeam".
+ */
+async function fetchAkb48TheaterSchedule(now: Date): Promise<PortalEvent[]> {
+  const today = now.toISOString().slice(0, 10);
+  const months = [now, new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1, 1))];
+  const seen = new Set<string>();
+  const results: PortalEvent[] = [];
+  const sourceUrl = 'https://www.akb48.co.jp/theater/schedule/';
+
+  for (const month of months) {
+    const mon = month.getUTCMonth() + 1;
+    const year = month.getUTCFullYear();
+    const apiUrl = 'https://www.akb48.co.jp/public/api/schedule/calendar/';
+
+    const formData = new URLSearchParams();
+    formData.append('month', String(mon));
+    formData.append('year', String(year));
+    formData.append('category', '1');
+
+    let response: Response;
+    try {
+      response = await fetch(apiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'user-agent': 'SakamichiBox/1.0 (+https://sakamichi-hub.vercel.app)',
+          'referer': sourceUrl,
+        },
+        body: formData.toString(),
+      });
+    } catch (e: any) {
+      console.warn(`  AKB48 theater API fetch error for ${year}/${mon}: ${e.message}`);
+      await sleep(1500);
+      continue;
+    }
+
+    if (!response.ok) {
+      console.warn(`  AKB48 theater API returned ${response.status} for ${year}/${mon}`);
+      await sleep(1500);
+      continue;
+    }
+
+    let json: { result: string; data: { thismonth: Record<string, Array<{
+      schedule_id: string;
+      title: string;
+      css_class: string;
+      date: string;
+      body: string | null;
+    }>> } };
+    try {
+      json = await response.json();
+    } catch (e: any) {
+      console.warn(`  AKB48 theater API JSON parse error: ${e.message}`);
+      await sleep(1500);
+      continue;
+    }
+
+    if (json.result !== 'ok') {
+      console.warn(`  AKB48 theater API result not ok for ${year}/${mon}`);
+      await sleep(1500);
+      continue;
+    }
+
+    const monthData = json.data.thismonth;
+    for (const [_key, items] of Object.entries(monthData)) {
+      for (const item of items) {
+        // Only theater performances: css_class starts with scheduleTheater or scheduleTeam
+        if (!item.css_class ||
+          (!item.css_class.startsWith('scheduleTheater') && !item.css_class.startsWith('scheduleTeam'))) {
+          continue;
+        }
+
+        // Parse date from item.date: "YYYY-MM-DD HH:MM:SS"
+        const dateParts = item.date.match(/^(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/);
+        if (!dateParts) continue;
+        const y = Number(dateParts[1]);
+        const m = Number(dateParts[2]);
+        const d = Number(dateParts[3]);
+        const hh = Number(dateParts[4]);
+        const mm = Number(dateParts[5]);
+        const isoDate = `${dateParts[1]}-${dateParts[2]}-${dateParts[3]}`;
+        if (isoDate < today) continue;
+
+        // Convert JST to UTC+00:00 (JST = UTC+9)
+        const utc = Date.UTC(y, m - 1, d, hh - 9, mm);
+        const startsAt = new Date(utc).toISOString().replace('Z', '+00:00');
+
+        const id = `akb48-theater-auto-${item.schedule_id}`;
+        if (seen.has(id)) continue;
+        seen.add(id);
+
+        const title = item.title.trim();
+
+        results.push({
+          id,
+          groupIds: ['akb48'],
+          title: { ja: title, ko: title, en: title },
+          kind: 'theater',
+          startsAt,
+          endsAt: null,
+          venueId: null,
+          posterUrl: null,
+          price: null,
+          ticketUrl: null,
+          officialUrl: sourceUrl,
+          provenance: {
+            sourceUrl,
+            checkedAt: today,
+          },
+        });
+
+        // Limit to 20 upcoming performances
+        if (results.length >= 20) break;
+      }
+      if (results.length >= 20) break;
+    }
+
+    await sleep(1500);
+
+    if (results.length >= 20) break;
+  }
+
+  return results;
+}
+
 async function main() {
   const now = new Date();
   const portalPath = path.join(process.cwd(), 'data', 'portal.json');
@@ -307,13 +435,26 @@ async function main() {
   console.log('Fetching Hinatazaka46 events...');
   const hinatazakaEvents = await fetchHinatazakaEvents(now);
 
-  const collected = [...nogizakaLives, ...sakurazakaEvents, ...hinatazakaEvents];
+  await sleep(1500);
+  console.log('Fetching AKB48 theater schedule...');
+  let akb48TheaterEvents: PortalEvent[] = [];
+  try {
+    akb48TheaterEvents = await fetchAkb48TheaterSchedule(now);
+  } catch (e: any) {
+    console.warn(`  AKB48 theater fetch failed: ${e.message} — skipping`);
+  }
+
+  // SKE48 theater schedule requires JavaScript rendering and member login — skip
+  console.log('Skipping SKE48 theater schedule (JS-rendered, requires login)');
+
+  const collected = [...nogizakaLives, ...sakurazakaEvents, ...hinatazakaEvents, ...akb48TheaterEvents];
 
   const preserved = portal.events.filter(
     (event) =>
       !event.id.startsWith('nogi-auto-') &&
       !event.id.startsWith('saku-auto-') &&
       !event.id.startsWith('hina-auto-') &&
+      !event.id.startsWith('akb48-theater-auto-') &&
       event.groupIds?.[0] !== 'nogizaka46' &&
       event.groupIds?.[0] !== 'sakurazaka46' &&
       event.groupIds?.[0] !== 'hinatazaka46',
@@ -327,7 +468,9 @@ async function main() {
   console.log(`  Nogizaka46: ${nogizakaLives.length} upcoming live events`);
   console.log(`  Sakurazaka46: ${sakurazakaEvents.length} upcoming events`);
   console.log(`  Hinatazaka46: ${hinatazakaEvents.length} upcoming events`);
+  console.log(`  AKB48 theater: ${akb48TheaterEvents.length} upcoming theater performances`);
   console.log(`  Total: ${collected.length} events written to portal.json`);
+  console.log(`  Total portal events (incl. preserved): ${portal.events.length}`);
 }
 
 main().catch((error) => {

@@ -80,8 +80,12 @@ export function HomePortal({ groups, members, locale, portal, videos }: { groups
       .slice()
       .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
       .slice(0, 20);
-  // TikTok videos: no tiktok platform in schema yet — always empty
-  const ttVideosFor = (_target: Family): MemberVideo[] => [];
+  const ttVideosFor = (target: Family) =>
+    videos
+      .filter((v) => v.platform === 'tiktok' && v.franchise === target)
+      .slice()
+      .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+      .slice(0, 20);
 
   const getMemberName = (member: Member) =>
     lang === 'ko' ? member.name.ko.hangul : lang === 'en' ? member.name.en.romaji : member.name.ja.kanji;

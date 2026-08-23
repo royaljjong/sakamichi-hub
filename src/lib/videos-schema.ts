@@ -1,7 +1,7 @@
 export interface MemberVideo {
-  id: string;              // e.g. "yt-VIDEOID"
-  platform: 'youtube';
-  videoId: string;         // YouTube video ID
+  id: string;              // e.g. "yt-VIDEOID" or "tt-VIDEOID"
+  platform: 'youtube' | 'tiktok';
+  videoId: string;         // YouTube video ID or TikTok video ID
   memberId: string;        // members.json id
   memberName: { ja: string; ko: string; en: string };
   memberGlyph: string;

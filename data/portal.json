@@ -87,7 +87,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106708?ima=5711&pri1=202608&wd00=2026&wd01=08&wd02=23",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106708?ima=0207&pri1=202608&wd00=2026&wd01=08&wd02=23",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202608",
         "checkedAt": "2026-08-23"
@@ -140,6 +140,167 @@
       }
     },
     {
+      "id": "akb48-theater-auto-95666",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「ＲＥＳＥＴ」公演",
+        "ko": "「ＲＥＳＥＴ」公演",
+        "en": "「ＲＥＳＥＴ」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-08-23T04:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "akb48-theater-auto-95665",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「ＲＥＳＥＴ」公演",
+        "ko": "「ＲＥＳＥＴ」公演",
+        "en": "「ＲＥＳＥＴ」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-08-23T08:30:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "akb48-theater-auto-95667",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「ここからだ」公演",
+        "ko": "「ここからだ」公演",
+        "en": "「ここからだ」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-08-24T09:30:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "akb48-theater-auto-95668",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「ＲＥＳＥＴ」公演",
+        "ko": "「ＲＥＳＥＴ」公演",
+        "en": "「ＲＥＳＥＴ」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-08-25T09:30:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "akb48-theater-auto-95669",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「夢のポップスター」公演",
+        "ko": "「夢のポップスター」公演",
+        "en": "「夢のポップスター」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-08-26T09:30:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "akb48-theater-auto-95670",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「ＲＥＳＥＴ」公演",
+        "ko": "「ＲＥＳＥＴ」公演",
+        "en": "「ＲＥＳＥＴ」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-08-27T09:30:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "akb48-theater-auto-95671",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「ここからだ」公演",
+        "ko": "「ここからだ」公演",
+        "en": "「ここからだ」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-08-28T09:30:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
       "id": "saku-auto-count-11567-29",
       "groupIds": [
         "sakurazaka46"
@@ -159,6 +320,52 @@
       "officialUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
       "provenance": {
         "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202608",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "akb48-theater-auto-95673",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「ＲＥＳＥＴ」公演",
+        "ko": "「ＲＥＳＥＴ」公演",
+        "en": "「ＲＥＳＥＴ」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-08-29T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "akb48-theater-auto-95672",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「ＲＥＳＥＴ」公演",
+        "ko": "「ＲＥＳＥＴ」公演",
+        "en": "「ＲＥＳＥＴ」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-08-29T07:30:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
         "checkedAt": "2026-08-23"
       }
     },
@@ -186,6 +393,121 @@
       }
     },
     {
+      "id": "akb48-theater-auto-95674",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「手をつなぎながら」公演",
+        "ko": "「手をつなぎながら」公演",
+        "en": "「手をつなぎながら」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-08-30T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "akb48-theater-auto-95675",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「手をつなぎながら」公演",
+        "ko": "「手をつなぎながら」公演",
+        "en": "「手をつなぎながら」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-08-30T07:30:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "akb48-theater-auto-95676",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「夢のポップスター」公演",
+        "ko": "「夢のポップスター」公演",
+        "en": "「夢のポップスター」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-08-31T09:30:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "akb48-theater-auto-95835",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「ＲＥＳＥＴ」公演",
+        "ko": "「ＲＥＳＥＴ」公演",
+        "en": "「ＲＥＳＥＴ」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-09-01T09:30:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "akb48-theater-auto-95834",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「ＲＥＳＥＴ」公演",
+        "ko": "「ＲＥＳＥＴ」公演",
+        "en": "「ＲＥＳＥＴ」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-09-02T10:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
       "id": "hina-auto-202609-11736",
       "groupIds": [
         "hinatazaka46"
@@ -205,6 +527,29 @@
       "officialUrl": "https://www.hinatazaka46.com/s/official/media/detail/11736?ima=0000",
       "provenance": {
         "sourceUrl": "https://www.hinatazaka46.com/s/official/media/list?dy=202609",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "akb48-theater-auto-95842",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「手をつなぎながら」公演",
+        "ko": "「手をつなぎながら」公演",
+        "en": "「手をつなぎながら」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-09-09T09:30:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
         "checkedAt": "2026-08-23"
       }
     },
@@ -232,6 +577,29 @@
       }
     },
     {
+      "id": "akb48-theater-auto-95843",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「夢のポップスター」公演",
+        "ko": "「夢のポップスター」公演",
+        "en": "「夢のポップスター」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-09-10T09:30:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
       "id": "nogi-auto-106810-20260919",
       "groupIds": [
         "nogizaka46"
@@ -248,7 +616,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=5716&pri1=202609&wd00=2026&wd01=09&wd02=19",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=0217&pri1=202609&wd00=2026&wd01=09&wd02=19",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-08-23"
