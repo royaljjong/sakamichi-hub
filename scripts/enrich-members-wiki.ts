@@ -99,38 +99,45 @@ async function fetchWikitext(title: string): Promise<string | null> {
 
 /**
  * Extract a single infobox field value by key.
- * Handles {{仮リンク|...}} and other simple templates by stripping them.
+ * Reads to end of line (stopping at \n), so wikilinks like [[A型|A型]] that
+ * contain | are captured in full since we don't stop at bare |.
+ * Accepts an array of candidate keys and returns the first non-empty match.
  */
-function extractField(wikitext: string, key: string): string | null {
-  // Match "| key = value" (with optional spaces / full-width spaces)
-  const re = new RegExp(
-    `\\|\\s*${key}\\s*=\\s*([^|\\n}]+)`,
-    'u',
-  );
-  const m = wikitext.match(re);
-  if (!m) return null;
+function extractField(wikitext: string, keys: string | string[]): string | null {
+  const keyList = Array.isArray(keys) ? keys : [keys];
 
-  let val = m[1]!.trim();
+  for (const key of keyList) {
+    // Capture everything from after '=' to end of line (exclusive).
+    // This safely includes wikilinks with embedded | chars.
+    const re = new RegExp(`\\|\\s*${key}\\s*=\\s*([^\\n]+)`, 'u');
+    const m = wikitext.match(re);
+    if (!m || !m[1]) continue;
 
-  // Strip wikilinks [[...]] → inner text (last part after |)
-  val = val.replace(/\[\[(?:[^\]|]*\|)?([^\]]+)\]\]/g, '$1');
-  // Strip {{...}} templates
-  val = val.replace(/\{\{[^}]*\}\}/g, '');
-  // Strip HTML tags
-  val = val.replace(/<[^>]+>/g, '');
-  // Strip ref tags
-  val = val.replace(/<ref[^/]*(\/|>.*?<\/ref)>/gi, '');
-  // Collapse whitespace
-  val = val.replace(/\s+/g, ' ').trim();
+    let val = m[1]!.trim();
 
-  return val || null;
+    // Strip ref tags first (inline self-closing and paired)
+    val = val.replace(/<ref[^>]*\/>/gi, '');
+    val = val.replace(/<ref[^>]*>[\s\S]*?<\/ref>/gi, '');
+    // Strip wikilinks [[...]] → last segment (after final |)
+    val = val.replace(/\[\[(?:[^\]|]*\|)*([^\]|]+)\]\]/g, '$1');
+    // Strip {{...}} templates (nested up to 2 levels)
+    val = val.replace(/\{\{(?:[^{}]|\{\{[^{}]*\}\})*\}\}/g, '');
+    // Strip remaining HTML tags
+    val = val.replace(/<[^>]+>/g, '');
+    // Collapse whitespace
+    val = val.replace(/\s+/g, ' ').trim();
+
+    if (val) return val;
+  }
+
+  return null;
 }
 
 /**
  * Parse blood type: accepts A/B/O/AB (Japanese or Latin).
  */
 function parseBloodType(raw: string): 'A' | 'B' | 'O' | 'AB' | null {
-  const cleaned = raw.toUpperCase().replace(/[^ABOO型]/g, '').replace('型', '');
+  const cleaned = raw.toUpperCase().replace(/[^ABO型]/g, '').replace('型', '');
   if (cleaned === 'AB') return 'AB';
   if (cleaned === 'A') return 'A';
   if (cleaned === 'B') return 'B';
@@ -179,11 +186,30 @@ async function main() {
     specialties: 0,
   };
 
+  // ---------------------------------------------------------------------------
+  // Pre-processing: reset null bloodType/hobbies/specialties for members
+  // where height is set (article exists) so we re-attempt extraction with the
+  // improved bracket-aware extractField.
+  // ---------------------------------------------------------------------------
+  let resetCount = 0;
+  for (const member of members) {
+    if (
+      member.height !== null && member.height !== undefined &&
+      (member.bloodType === null || member.hobbies === null || member.specialties === null)
+    ) {
+      if (member.bloodType === null) member.bloodType = undefined;
+      if (member.hobbies === null) member.hobbies = undefined;
+      if (member.specialties === null) member.specialties = undefined;
+      resetCount++;
+    }
+  }
+  console.log(`Pre-processing: reset ${resetCount} partial-null members for re-extraction\n`);
+
   for (let i = 0; i < members.length; i++) {
     const member = members[i]!;
     const kanji = member.name.ja.kanji;
 
-    // Skip if all four fields are already populated
+    // Skip if all four fields are already populated (non-undefined non-null values)
     const alreadyDone =
       member.bloodType !== undefined &&
       member.height !== undefined &&
@@ -216,8 +242,8 @@ async function main() {
     let changed = false;
 
     // Blood type
-    if (member.bloodType === undefined) {
-      const raw = extractField(wikitext, '血液型');
+    if (member.bloodType === undefined || member.bloodType === null) {
+      const raw = extractField(wikitext, ['血液型', '血液型（ABO式）']);
       const parsed = raw ? parseBloodType(raw) : null;
       member.bloodType = parsed;
       if (parsed) { stats.bloodType++; changed = true; }
@@ -225,23 +251,23 @@ async function main() {
 
     // Height
     if (member.height === undefined) {
-      const raw = extractField(wikitext, '身長');
+      const raw = extractField(wikitext, ['身長', '身長（cm）']);
       const parsed = raw ? parseHeight(raw) : null;
       member.height = parsed;
       if (parsed) { stats.height++; changed = true; }
     }
 
     // Hobbies
-    if (member.hobbies === undefined) {
-      const raw = extractField(wikitext, '趣味');
+    if (member.hobbies === undefined || member.hobbies === null) {
+      const raw = extractField(wikitext, ['趣味', '趣味・特技', '特技・趣味']);
       const parsed = raw ? parseList(raw) : null;
       member.hobbies = parsed && parsed.length > 0 ? parsed : null;
       if (member.hobbies) { stats.hobbies++; changed = true; }
     }
 
     // Specialties
-    if (member.specialties === undefined) {
-      const raw = extractField(wikitext, '特技');
+    if (member.specialties === undefined || member.specialties === null) {
+      const raw = extractField(wikitext, ['特技', '得意なこと', '趣味・特技', '特技・趣味']);
       const parsed = raw ? parseList(raw) : null;
       member.specialties = parsed && parsed.length > 0 ? parsed : null;
       if (member.specialties) { stats.specialties++; changed = true; }
