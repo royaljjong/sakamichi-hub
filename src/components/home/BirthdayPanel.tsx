@@ -27,7 +27,7 @@ function MemberCard({ member, groupMap, lang, todayMd, staggerIndex }: {
   return (
     <div className="stagger-item" style={{ '--i': Math.min(staggerIndex, 12) } as React.CSSProperties}>
       <Link href={`/m/${member.id}`} className="flex min-w-0 items-center gap-3 border-t border-black/10 py-3 transition-colors hover:text-[var(--g-brand)]" data-today={member.birthDate?.slice(5) === todayMd ? 'true' : undefined}>
-        <MemberAvatar glyph={member.avatar.glyph} hueShift={member.avatar.hueShift} imageUrl={member.imageUrl} name={name} size={42} />
+        <MemberAvatar glyph={member.avatar.glyph} hueShift={member.avatar.hueShift} imageUrl={member.imageUrl} groupLogoUrl={group?.logoUrl ?? null} name={name} size={42} />
         <span className="min-w-0">
           <span className="block truncate text-sm font-semibold">{name}</span>
           <span className="block truncate text-[11px] text-[var(--ink-soft)]">{member.birthDate?.slice(5).replace('-', '.')} · {group?.shortName[lang]}</span>

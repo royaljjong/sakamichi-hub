@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import type { Member } from '../src/lib/schema';
+import type { Member, Group } from '../src/lib/schema';
 import { extractChoseong, deriveFranchise, type SearchIndexItem } from '../src/lib/search';
 
 function buildIndex() {
@@ -11,6 +11,12 @@ function buildIndex() {
   }
 
   const members: Member[] = JSON.parse(fs.readFileSync(membersPath, 'utf-8'));
+
+  const groupsPath = path.join(__dirname, '..', 'data', 'groups.json');
+  const groups: Group[] = fs.existsSync(groupsPath)
+    ? (JSON.parse(fs.readFileSync(groupsPath, 'utf-8')) as { groups: Group[] }).groups ?? []
+    : [];
+  const groupMap = new Map(groups.map((g) => [g.id, g]));
 
   const indexItems: SearchIndexItem[] = members.map((m) => ({
     id: m.id,
@@ -27,6 +33,7 @@ function buildIndex() {
     glyph: m.avatar.glyph,
     hueShift: m.avatar.hueShift,
     imageUrl: m.imageUrl || null,
+    groupLogoUrl: groupMap.get(m.primaryGroupId)?.logoUrl ?? null,
   }));
 
   const publicDir = path.join(__dirname, '..', 'public');

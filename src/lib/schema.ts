@@ -259,6 +259,8 @@ export const Group = z.object({
   shortName: LocalizedText,
   status: z.enum(['active', 'archived']), // archived = 활동 종료 그룹
   debutedOn: IsoDate,
+  /** 그룹 공식 로고 URL (Wikimedia Commons 등). 사진 없는 멤버 아바타 폴백에 사용. */
+  logoUrl: HttpsUrl.nullable().optional(),
   /** 이름 변천사. 최소 1개(현재 이름) 이상. from 오름차순 정렬 필수. */
   lineage: z.array(LineageEntry).min(1),
   palette: GroupPalette,

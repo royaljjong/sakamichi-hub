@@ -15,6 +15,7 @@ export interface SearchIndexItem {
   glyph: string;
   hueShift: number;
   imageUrl?: string | null;
+  groupLogoUrl?: string | null;
 }
 
 export interface SearchFilters {

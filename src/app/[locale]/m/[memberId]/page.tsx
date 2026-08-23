@@ -211,6 +211,7 @@ export default async function MemberPage({ params }: MemberPageProps) {
               glyph={member.avatar.glyph}
               hueShift={member.avatar.hueShift}
               imageUrl={member.imageUrl}
+              groupLogoUrl={group?.logoUrl ?? null}
               name={member.name.ja.kanji}
               size={96}
               isGraduated={isGraduated}
