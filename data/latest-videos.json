@@ -441,6 +441,27 @@
     "channelUrl": "https://www.youtube.com/@karin_channel"
   },
   {
+    "id": "yt-eZl6G6w01l8",
+    "platform": "youtube",
+    "videoId": "eZl6G6w01l8",
+    "memberId": "nmb48-yoshida-akari",
+    "memberName": {
+      "ja": "吉田朱里",
+      "ko": "요시다 아카리",
+      "en": "Yoshida Akari"
+    },
+    "memberGlyph": "吉",
+    "memberHueShift": 23,
+    "memberImage": null,
+    "groupId": "nmb48",
+    "franchise": "akb48g",
+    "title": "cara membuat bakwan 100% no root",
+    "publishedAt": "2024-08-22T05:17:36+00:00",
+    "url": "https://www.youtube.com/watch?v=eZl6G6w01l8",
+    "thumbnailUrl": "https://i2.ytimg.com/vi/eZl6G6w01l8/hqdefault.jpg",
+    "channelUrl": "https://www.youtube.com/@YoshidaAkari"
+  },
+  {
     "id": "yt-jUKhm7pAHm4",
     "platform": "youtube",
     "videoId": "jUKhm7pAHm4",
