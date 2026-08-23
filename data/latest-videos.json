@@ -1,5 +1,26 @@
 [
   {
+    "id": "yt-iuwOD6nkcDM",
+    "platform": "youtube",
+    "videoId": "iuwOD6nkcDM",
+    "memberId": "nmb48-shibuya-nagisa",
+    "memberName": {
+      "ja": "渋谷凪咲",
+      "ko": "시부야 나기사",
+      "en": "Shibuya Nagisa"
+    },
+    "memberGlyph": "渋",
+    "memberHueShift": 17,
+    "memberImage": null,
+    "groupId": "nmb48",
+    "franchise": "akb48g",
+    "title": "【パルワールド】 #2｜Re:ハードコアなランダム世界であんずをクリアまで導け！ 【日ノ森あんず】",
+    "publishedAt": "2026-08-23T05:27:38+00:00",
+    "url": "https://www.youtube.com/watch?v=iuwOD6nkcDM",
+    "thumbnailUrl": "https://i2.ytimg.com/vi/iuwOD6nkcDM/hqdefault.jpg",
+    "channelUrl": "https://www.youtube.com/@nagichannel"
+  },
+  {
     "id": "yt-c5YX_XseSYw",
     "platform": "youtube",
     "videoId": "c5YX_XseSYw",
@@ -102,27 +123,6 @@
     "publishedAt": "2026-08-20T16:39:28+00:00",
     "url": "https://www.youtube.com/watch?v=7FTSBH2QtsA",
     "thumbnailUrl": "https://i4.ytimg.com/vi/7FTSBH2QtsA/hqdefault.jpg",
-    "channelUrl": "https://www.youtube.com/@nagichannel"
-  },
-  {
-    "id": "yt-GslG9VajStQ",
-    "platform": "youtube",
-    "videoId": "GslG9VajStQ",
-    "memberId": "nmb48-shibuya-nagisa",
-    "memberName": {
-      "ja": "渋谷凪咲",
-      "ko": "시부야 나기사",
-      "en": "Shibuya Nagisa"
-    },
-    "memberGlyph": "渋",
-    "memberHueShift": 17,
-    "memberImage": null,
-    "groupId": "nmb48",
-    "franchise": "akb48g",
-    "title": "【Mortal Shell II】 #2｜ネタバレ注意｜戦士の亡骸をあつめて戦うソウルライク 【日ノ森あんず】",
-    "publishedAt": "2026-08-19T15:37:23+00:00",
-    "url": "https://www.youtube.com/watch?v=GslG9VajStQ",
-    "thumbnailUrl": "https://i4.ytimg.com/vi/GslG9VajStQ/hqdefault.jpg",
     "channelUrl": "https://www.youtube.com/@nagichannel"
   },
   {
