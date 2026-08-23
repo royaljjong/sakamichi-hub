@@ -51,7 +51,11 @@
     "linksCount": "{count} リンク",
     "noLinks": "現在利用可能な公式リンクはありません",
     "gradBadge": "卒",
-    "emptyGrid": "該当するメンバーはいません。"
+    "emptyGrid": "該当するメンバーはいません。",
+    "bloodTypeLabel": "血液型",
+    "heightLabel": "身長",
+    "hobbiesLabel": "趣味",
+    "specialtiesLabel": "特技"
   },
   "link": {
     "official_blog": "公式ブログ",
@@ -170,5 +174,12 @@
   "lineage": {
     "heading": "系譜変遷",
     "present": "現在"
+  },
+  "notFound": {
+    "title": "ページが見つかりません",
+    "subtitle": "お探しのページは移動または削除された可能性があります。URLが正しいかご確認ください。",
+    "homeLink": "ホームへ戻る",
+    "searchLink": "メンバーを検索",
+    "groupsHeading": "グループを選ぶ"
   }
 }

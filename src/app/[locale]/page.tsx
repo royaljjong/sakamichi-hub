@@ -98,9 +98,56 @@ export default async function HomePage({ params }: HomePageProps) {
     },
   };
 
+  const now = new Date().toISOString();
+  const venueMap = new Map(portal.venues.map((v) => [v.id, v]));
+  const groupMap = new Map(groups.map((g) => [g.id, g]));
+  const upcomingEvents = portal.events
+    .filter((e) => e.startsAt >= now)
+    .slice(0, 30);
+
+  const eventsJsonLd =
+    upcomingEvents.length > 0
+      ? {
+          '@context': 'https://schema.org',
+          '@graph': upcomingEvents.map((e) => {
+            const venue = e.venueId ? venueMap.get(e.venueId) : undefined;
+            const primaryGroupId = e.groupIds[0];
+            const group = primaryGroupId ? groupMap.get(primaryGroupId) : undefined;
+            return {
+              '@type': 'Event',
+              name: e.title[locale as 'ja' | 'ko' | 'en'] || e.title.ja,
+              startDate: e.startsAt,
+              ...(e.endsAt ? { endDate: e.endsAt } : {}),
+              eventStatus: 'https://schema.org/EventScheduled',
+              eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+              ...(venue
+                ? {
+                    location: {
+                      '@type': 'Place',
+                      name: venue.name[locale as 'ja' | 'ko' | 'en'] || venue.name.ja,
+                      address: venue.address[locale as 'ja' | 'ko' | 'en'] || venue.address.ja,
+                    },
+                  }
+                : {}),
+              ...(group
+                ? {
+                    organizer: {
+                      '@type': 'MusicGroup',
+                      name: group.name.ja,
+                      url: group.official.site,
+                    },
+                  }
+                : {}),
+              url: e.officialUrl,
+            };
+          }),
+        }
+      : null;
+
   return (
     <div className="relative min-h-screen flex flex-col justify-between">
       <JsonLd data={websiteJsonLd} />
+      {eventsJsonLd && <JsonLd data={eventsJsonLd} />}
       <AmbientBackground groupId="home" motif="mixed" />
       <Navigation />
 

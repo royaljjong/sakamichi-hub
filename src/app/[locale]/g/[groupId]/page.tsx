@@ -130,9 +130,49 @@ export default async function GroupPage({ params }: GroupPageProps) {
     })),
   };
 
+  const now = new Date().toISOString();
+  const venueMap = new Map(portal.venues.map((v) => [v.id, v]));
+  const groupEvents = portal.events
+    .filter((e) => e.groupIds.includes(group.id) && e.startsAt >= now)
+    .slice(0, 20);
+
+  const eventJsonLd =
+    groupEvents.length > 0
+      ? {
+          '@context': 'https://schema.org',
+          '@graph': groupEvents.map((e) => {
+            const venue = e.venueId ? venueMap.get(e.venueId) : undefined;
+            return {
+              '@type': 'Event',
+              name: e.title[locale as 'ja' | 'ko' | 'en'] || e.title.ja,
+              startDate: e.startsAt,
+              ...(e.endsAt ? { endDate: e.endsAt } : {}),
+              eventStatus: 'https://schema.org/EventScheduled',
+              eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+              ...(venue
+                ? {
+                    location: {
+                      '@type': 'Place',
+                      name: venue.name[locale as 'ja' | 'ko' | 'en'] || venue.name.ja,
+                      address: venue.address[locale as 'ja' | 'ko' | 'en'] || venue.address.ja,
+                    },
+                  }
+                : {}),
+              organizer: {
+                '@type': 'MusicGroup',
+                name: group.name.ja,
+                url: group.official.site,
+              },
+              url: e.officialUrl,
+            };
+          }),
+        }
+      : null;
+
   return (
     <div className="relative min-h-screen flex flex-col justify-between">
       <JsonLd data={jsonLdData} />
+      {eventJsonLd && <JsonLd data={eventJsonLd} />}
       <AmbientBackground groupId={group.id} motif={group.motif} />
       <Navigation />
 

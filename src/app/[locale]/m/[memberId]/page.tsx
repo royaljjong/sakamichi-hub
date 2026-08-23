@@ -250,6 +250,10 @@ export default async function MemberPage({ params }: MemberPageProps) {
                 <span>{t('generationLabel')}: <strong>{genLabel}</strong></span>
                 {member.birthDate && <span>{t('birthDateLabel')}: <strong>{member.birthDate}</strong></span>}
                 {member.birthplace && <span>{t('birthplaceLabel')}: <strong>{member.birthplace[locale as 'ja'|'ko'|'en'] || member.birthplace.ja}</strong></span>}
+                {member.bloodType && <span>{t('bloodTypeLabel')}: <strong>{member.bloodType}</strong></span>}
+                {member.height && <span>{t('heightLabel')}: <strong>{member.height}cm</strong></span>}
+                {member.hobbies && member.hobbies.length > 0 && <span>{t('hobbiesLabel')}: <strong>{member.hobbies.join('・')}</strong></span>}
+                {member.specialties && member.specialties.length > 0 && <span>{t('specialtiesLabel')}: <strong>{member.specialties.join('・')}</strong></span>}
               </div>
             </div>
           </div>

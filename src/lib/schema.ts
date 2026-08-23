@@ -353,6 +353,14 @@ export const Member = z.object({
     /** 0~360. id 해시로 결정. 같은 그룹 내에서 색 편차를 주기 위함 */
     hueShift: z.number().min(-40).max(40).default(0),
   }),
+  /** Wikipedia jawiki 인포박스에서 추출한 추가 프로필 정보 (optional) */
+  bloodType: z.enum(['A', 'B', 'O', 'AB']).nullable().optional(),
+  /** 신장 (cm). Wikipedia 인포박스의 身長 필드 */
+  height: z.number().nullable().optional(),
+  /** 취미. Wikipedia 인포박스의 趣味 필드 */
+  hobbies: z.array(z.string()).nullable().optional(),
+  /** 특기. Wikipedia 인포박스의 特技 필드 */
+  specialties: z.array(z.string()).nullable().optional(),
 });
 export type Member = z.infer<typeof Member>;
 

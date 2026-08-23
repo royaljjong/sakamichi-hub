@@ -51,7 +51,11 @@
     "linksCount": "{count} links",
     "noLinks": "No verified official links available at this time.",
     "gradBadge": "OG",
-    "emptyGrid": "No matching members."
+    "emptyGrid": "No matching members.",
+    "bloodTypeLabel": "Blood type",
+    "heightLabel": "Height",
+    "hobbiesLabel": "Hobbies",
+    "specialtiesLabel": "Specialties"
   },
   "link": {
     "official_blog": "Official Blog",
@@ -170,5 +174,12 @@
   "lineage": {
     "heading": "Lineage",
     "present": "Present"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "subtitle": "The page you're looking for may have been moved or removed. Please double-check the URL.",
+    "homeLink": "Back to home",
+    "searchLink": "Search members",
+    "groupsHeading": "Browse groups"
   }
 }
