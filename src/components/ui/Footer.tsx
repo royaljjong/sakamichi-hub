@@ -6,6 +6,7 @@ import { MotionToggle } from './MotionToggle';
 export function Footer() {
   const t = useTranslations('common');
   const tNav = useTranslations('nav');
+  const tCredits = useTranslations('credits');
 
   return (
     <footer className="relative z-10 mt-20 pt-12 pb-16 border-t border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)] max-w-6xl mx-auto px-4 sm:px-6">
@@ -23,6 +24,13 @@ export function Footer() {
             className="hover:text-[var(--ink)] underline underline-offset-4 font-medium transition"
           >
             {tNav('search')}
+          </Link>
+          <span>•</span>
+          <Link
+            href="/credits"
+            className="hover:text-[var(--ink)] underline underline-offset-4 font-medium transition"
+          >
+            {tCredits('creditsLink')}
           </Link>
         </div>
 

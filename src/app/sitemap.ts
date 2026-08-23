@@ -96,8 +96,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Search & About
-  for (const staticPath of ['search', 'about']) {
+  // Search, About & Credits
+  for (const staticPath of ['search', 'about', 'credits']) {
     for (const locale of routing.locales) {
       entries.push({
         url: `${BASE_URL}/${locale}/${staticPath}`,

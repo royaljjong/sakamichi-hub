@@ -91,7 +91,23 @@
     "disclaimerTitle": "非公式ファンサイト宣言",
     "disclaimerBody": "当サイトはファンが運営する非公式・非営利のリンクハブです。乃木坂46 / 櫻坂46 / 日向坂46 および運営会社（株式会社Seed & Flower、株式会社ソニー・ミュージックレーベルズ）とは一切関係ありません。",
     "sourcesTitle": "出典・ライセンス",
+    "sourcesBody": "メンバー情報・公式リンクは以下の出典を使用しています。乃木坂46 / 櫻坂46 / 日向坂46 公式サイト；AKB48グループ各公式サイト；日本語版ウィキペディア（jawiki、CC BY-SA 4.0ライセンス）—メンバープロフィールデータ、ハングル転写、フォーマット変換を含む；Wikimedia Commons—各ファイルページへのリンク。詳細はクレジットページをご覧ください。",
     "takedownTitle": "削除要請・お問い合わせ"
+  },
+  "credits": {
+    "pageTitle": "出典と謝辞",
+    "intro": "本サイトで使用しているデータの出典と、各ライセンスの表記を掲載します。",
+    "officialSitesHeading": "公式サイト",
+    "officialSitesBody": "乃木坂46（nogizaka46.com）・櫻坂46（sakurazaka46.com）・日向坂46（hinatazaka46.com）の各公式サイト、およびAKB48グループ各公式サイト（akb48.co.jp、ske48.co.jp、nmb48.com、hkt48.co.jp、ngt48.jp、stu48.com）を参照しています。メンバー名、在籍状況、公式SNSリンクは各公式ページに基づきます。",
+    "wikipediaHeading": "Wikipedia (CC BY-SA 4.0)",
+    "wikipediaBody": "一部のメンバープロフィールは、日本語版ウィキペディア（jawiki）の記事を出典としています。これらのデータはCC BY-SA 4.0ライセンスの下で提供されており、ハングルへの自動転写や表記調整を含む変更を加えています。著作権は各記事の編集者（ウィキペディア日本語版編集者の皆様）に帰属します。ライセンス全文：https://creativecommons.org/licenses/by-sa/4.0/",
+    "wikimediaHeading": "Wikimedia Commons",
+    "wikimediaBody": "画像ファイルはWikimedia Commonsの各ファイルページにリンクしており、本サイト上にホスティングしていません。",
+    "changeIndicationHeading": "変更の表示",
+    "changeIndicationBody": "ウィキペディア記事を出典とするメンバープロフィールには、ハングル転写・フォーマット調整等の変更が含まれます（CC BY-SA 4.0「改変配布」条件に基づき表示）。",
+    "disclaimerHeading": "免責事項",
+    "disclaimerBody": "本サイトは非公式・非営利のファンサイトです。各アイドルグループおよびその運営会社とは一切関係がありません。",
+    "creditsLink": "クレジット・出典"
   },
   "a11y": {
     "skipToContent": "本文へスキップ",
@@ -115,7 +131,13 @@
     "tiktokVideos": "LATEST TIKTOKS / 最新TikTok",
     "emptyChannels": "現在チャンネルが登録されていません",
     "emptyVideos": "動画がありません",
-    "tiktokComingSoon": "TikTok 準備中"
+    "tiktokComingSoon": "TikTok 準備中",
+    "navFamily": "系列",
+    "navGroups": "グループ",
+    "navLive": "ライブ",
+    "navBirthdays": "誕生日",
+    "navYoutube": "YouTube",
+    "navTiktok": "TikTok"
   },
   "event": {
     "title": "これからの公演",

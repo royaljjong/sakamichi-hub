@@ -91,7 +91,23 @@
     "disclaimerTitle": "Unofficial Fan Site Notice",
     "disclaimerBody": "This website is an unofficial, non-commercial link hub maintained by fans. It is not affiliated with Nogizaka46, Sakurazaka46, Hinatazaka46, Seed & Flower LLC, or Sony Music Labels Inc.",
     "sourcesTitle": "Sources & Licensing",
+    "sourcesBody": "Member data and official links are sourced from: Nogizaka46 / Sakurazaka46 / Hinatazaka46 official sites; AKB48 Group official sites; Japanese Wikipedia (jawiki, CC BY-SA 4.0) — including member profile data, Korean transliteration, and formatting adjustments; Wikimedia Commons — linked to individual file pages. See the Credits page for full attribution.",
     "takedownTitle": "Takedown Requests & Inquiries"
+  },
+  "credits": {
+    "pageTitle": "Credits & Attribution",
+    "intro": "This page lists the data sources used on this site and the applicable license notices.",
+    "officialSitesHeading": "Official Sites",
+    "officialSitesBody": "Member names, active status, and official SNS links are sourced from the official sites of Nogizaka46 (nogizaka46.com), Sakurazaka46 (sakurazaka46.com), Hinatazaka46 (hinatazaka46.com), AKB48 (akb48.co.jp), SKE48 (ske48.co.jp), NMB48 (nmb48.com), HKT48 (hkt48.co.jp), NGT48 (ngt48.jp), and STU48 (stu48.com).",
+    "wikipediaHeading": "Wikipedia (CC BY-SA 4.0)",
+    "wikipediaBody": "Some member profiles include data derived from Japanese Wikipedia (jawiki) articles under CC BY-SA 4.0, with automatic transliteration to Korean hangul and formatting adjustments. Copyright belongs to the respective article authors (Wikipedia jawiki contributors). Full license text: https://creativecommons.org/licenses/by-sa/4.0/",
+    "wikimediaHeading": "Wikimedia Commons",
+    "wikimediaBody": "Image files are linked to their respective Wikimedia Commons file pages and are not hosted on this site.",
+    "changeIndicationHeading": "Change Indication",
+    "changeIndicationBody": "Member profiles derived from Wikipedia articles include changes such as Korean transliteration and formatting adjustments, as required under CC BY-SA 4.0 ShareAlike terms.",
+    "disclaimerHeading": "Disclaimer",
+    "disclaimerBody": "This is an unofficial, non-commercial fan site. It is not affiliated with any idol group or their management companies.",
+    "creditsLink": "Credits"
   },
   "a11y": {
     "skipToContent": "Skip to content",
@@ -115,7 +131,13 @@
     "tiktokVideos": "LATEST TIKTOKS / 最新TikTok",
     "emptyChannels": "No channels registered yet",
     "emptyVideos": "No videos available",
-    "tiktokComingSoon": "TikTok coming soon"
+    "tiktokComingSoon": "TikTok coming soon",
+    "navFamily": "Family",
+    "navGroups": "Groups",
+    "navLive": "Live",
+    "navBirthdays": "Birthdays",
+    "navYoutube": "YouTube",
+    "navTiktok": "TikTok"
   },
   "event": {
     "title": "Upcoming performances",

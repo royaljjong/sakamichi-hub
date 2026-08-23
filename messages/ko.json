@@ -90,8 +90,24 @@
   "about": {
     "disclaimerTitle": "비공식 팬사이트 선언",
     "disclaimerBody": "본 사이트는 팬이 운영하는 비공식·비영리 링크 허브입니다. 노기자카46 / 사쿠라자카46 / 히나타자카46 및 운영사(주식회사 Seed & Flower, 주식회사 소니 뮤직 레이블스)와 일체 관계가 없습니다.",
-    "sourcesTitle": "출처 및 라이선스",
+    "sourcesTitle": "출처・라이선스",
+    "sourcesBody": "멤버 정보 및 공식 링크는 다음 출처를 사용합니다. 노기자카46 / 사쿠라자카46 / 히나타자카46 공식 사이트；AKB48 그룹 각 공식 사이트；일본어 위키백과(jawiki, CC BY-SA 4.0 라이선스) — 멤버 프로필 데이터, 한글 전사, 포맷 변환 포함；Wikimedia Commons — 각 파일 페이지 링크. 자세한 내용은 출처 페이지를 참조하세요.",
     "takedownTitle": "삭제 요청 및 문의"
+  },
+  "credits": {
+    "pageTitle": "출처와 감사",
+    "intro": "본 사이트에서 사용하는 데이터의 출처와 각 라이선스 표기를 안내합니다.",
+    "officialSitesHeading": "공식 사이트",
+    "officialSitesBody": "노기자카46(nogizaka46.com)·사쿠라자카46(sakurazaka46.com)·히나타자카46(hinatazaka46.com) 각 공식 사이트, 및 AKB48 그룹 각 공식 사이트(akb48.co.jp, ske48.co.jp, nmb48.com, hkt48.co.jp, ngt48.jp, stu48.com)를 참조합니다. 멤버 이름, 재적 상태, 공식 SNS 링크는 각 공식 페이지를 기준으로 합니다.",
+    "wikipediaHeading": "Wikipedia (CC BY-SA 4.0)",
+    "wikipediaBody": "일부 멤버 프로필은 일본어 위키백과(jawiki) 문서를 출처로 합니다. 해당 데이터는 CC BY-SA 4.0 라이선스에 따라 제공되며, 한글 자동 전사 및 포맷 조정 등의 변경이 포함됩니다. 저작권은 각 문서 편집자(위키백과 jawiki 편집자 여러분)에게 귀속됩니다. 라이선스 전문: https://creativecommons.org/licenses/by-sa/4.0/",
+    "wikimediaHeading": "Wikimedia Commons",
+    "wikimediaBody": "이미지 파일은 Wikimedia Commons의 각 파일 페이지로 링크되어 있으며, 본 사이트에서 직접 호스팅하지 않습니다.",
+    "changeIndicationHeading": "변경 표시",
+    "changeIndicationBody": "위키백과 문서를 출처로 하는 멤버 프로필에는 한글 전사·포맷 조정 등의 변경이 포함됩니다(CC BY-SA 4.0 '개작 배포' 조건에 따라 표시).",
+    "disclaimerHeading": "면책 사항",
+    "disclaimerBody": "본 사이트는 비공식·비영리 팬사이트입니다. 각 아이돌 그룹 및 운영사와 일체 관계가 없습니다.",
+    "creditsLink": "출처・크레딧"
   },
   "a11y": {
     "skipToContent": "본문으로 건너뛰기",
@@ -115,7 +131,13 @@
     "tiktokVideos": "LATEST TIKTOKS / 최신 틱톡",
     "emptyChannels": "등록된 채널이 없습니다",
     "emptyVideos": "영상이 없습니다",
-    "tiktokComingSoon": "TikTok 준비 중"
+    "tiktokComingSoon": "TikTok 준비 중",
+    "navFamily": "계열",
+    "navGroups": "그룹",
+    "navLive": "라이브",
+    "navBirthdays": "생일",
+    "navYoutube": "YouTube",
+    "navTiktok": "TikTok"
   },
   "event": {
     "title": "다가오는 공연",

@@ -1,6 +1,6 @@
 import { setRequestLocale } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
 import { routing } from '@/i18n/routing';
+import { Link } from '@/i18n/routing';
 import { AmbientBackground } from '@/components/background/AmbientBackground';
 import { Navigation } from '@/components/ui/Navigation';
 import { Footer } from '@/components/ui/Footer';
@@ -62,16 +62,54 @@ export default async function AboutPage({ params }: AboutPageProps) {
           </section>
 
           {/* 3. Sources & Attribution */}
-          <section className="space-y-2">
+          <section className="space-y-3">
             <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
-              3. 出典・ライセンス / 출처 및 라이선스
+              3. 出典・ライセンス / 출처・라이선스
             </h2>
             <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">
-              メンバー情報・公式リンクは各グループ公式サイトおよび日本語版Wikipedia（CC BY-SA 4.0）を出典としています。
+              メンバー情報・公式リンクは以下の出典を使用しています。
+            </p>
+            <ul className="space-y-1.5 text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed list-none">
+              <li className="flex gap-2">
+                <span className="text-[var(--g-brand)] shrink-0">·</span>
+                <span>乃木坂46 / 櫻坂46 / 日向坂46 各公式サイト</span>
+              </li>
+              <li className="flex gap-2">
+                <span className="text-[var(--g-brand)] shrink-0">·</span>
+                <span>AKB48グループ各公式サイト（AKB48 / SKE48 / NMB48 / HKT48 / NGT48 / STU48）</span>
+              </li>
+              <li className="flex gap-2">
+                <span className="text-[var(--g-brand)] shrink-0">·</span>
+                <span>
+                  <strong>日本語版Wikipedia（jawiki）</strong> —{' '}
+                  <a
+                    href="https://creativecommons.org/licenses/by-sa/4.0/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline underline-offset-2 hover:text-[var(--g-brand)] transition-colors"
+                  >
+                    CC BY-SA 4.0
+                  </a>{' '}
+                  ライセンス。メンバープロフィールデータ、ハングル転写、フォーマット変換を含む。著作権はwikipedia jawiki編集者の皆様に帰属。
+                </span>
+              </li>
+              <li className="flex gap-2">
+                <span className="text-[var(--g-brand)] shrink-0">·</span>
+                <span>Wikimedia Commons — 各ファイルページへリンク（本サイトでホスティング不可）</span>
+              </li>
+            </ul>
+            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">
+              일부 멤버 프로필은 일본어 위키백과(jawiki) 문서를 출처로 하며, 한글 자동 전사 및 포맷 조정이 포함됩니다. CC BY-SA 4.0 라이선스. 저작권은 위키백과 jawiki 편집자 여러분께 귀속됩니다.
             </p>
             <p className="text-xs text-[var(--ink-faint)] font-[family-name:var(--font-zen-kaku)]">
-              最終データ確認日: 2026-08-16
+              最終データ確認日: 2026-08-23 ·{' '}
+              <Link
+                href="/credits"
+                className="underline underline-offset-2 hover:text-[var(--g-brand)] transition-colors"
+              >
+                詳細クレジット / 상세 출처
+              </Link>
             </p>
           </section>
 
