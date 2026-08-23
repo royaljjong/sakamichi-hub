@@ -15,7 +15,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import type { Single } from '../../src/lib/discography-schema';
 
-const RATE_LIMIT_MS = 4000;
+const RATE_LIMIT_MS = 6000;
 let lastRequest = 0;
 function sleep(ms: number) { return new Promise((r) => setTimeout(r, ms)); }
 
@@ -41,23 +41,33 @@ const GROUPS: GroupSpecExt[] = [
   { groupId: 'stu48', prefix: 'stu48', article: 'STU48', fallbackMainArticle: 'STU48' },
 ];
 
-async function wikiSectionList(article: string): Promise<Array<{ index: string; line: string }>> {
+async function wikiSectionList(article: string, retries = 3): Promise<Array<{ index: string; line: string }>> {
   const now = Date.now();
   if (now - lastRequest < RATE_LIMIT_MS) await sleep(RATE_LIMIT_MS - (now - lastRequest));
   lastRequest = Date.now();
   const url = `https://en.wikipedia.org/w/api.php?action=parse&format=json&page=${encodeURIComponent(article)}&prop=sections&formatversion=2`;
   const res = await fetch(url, { headers: { 'User-Agent': 'SakamichiBox/1.0' } });
+  if (res.status === 429 && retries > 0) {
+    console.warn(`  429 rate limit, waiting 10s before retry (${retries} left)...`);
+    await sleep(10000);
+    return wikiSectionList(article, retries - 1);
+  }
   if (!res.ok) return [];
   const data = await res.json();
   return data.parse?.sections || [];
 }
 
-async function wikiSection(article: string, section: string): Promise<string> {
+async function wikiSection(article: string, section: string, retries = 3): Promise<string> {
   const now = Date.now();
   if (now - lastRequest < RATE_LIMIT_MS) await sleep(RATE_LIMIT_MS - (now - lastRequest));
   lastRequest = Date.now();
   const url = `https://en.wikipedia.org/w/api.php?action=parse&format=json&page=${encodeURIComponent(article)}&prop=wikitext&section=${section}&formatversion=2`;
   const res = await fetch(url, { headers: { 'User-Agent': 'SakamichiBox/1.0' } });
+  if (res.status === 429 && retries > 0) {
+    console.warn(`  429 rate limit, waiting 10s before retry (${retries} left)...`);
+    await sleep(10000);
+    return wikiSection(article, section, retries - 1);
+  }
   if (!res.ok) return '';
   const data = await res.json();
   return data.parse?.wikitext || '';
@@ -71,20 +81,34 @@ async function wikiSection(article: string, section: string): Promise<string> {
  */
 function parseSingles(wikitext: string): Array<{ titleJa: string; titleEn: string; year: string | null }> {
   const singles: Array<{ titleJa: string; titleEn: string; year: string | null }> = [];
-  // Split by ! scope="row"
-  const rows = wikitext.split(/(?=!\s*scope="row")/);
+  // Split by both !scope="row" (Nogi/AKB/NMB) and |- (HKT/others). Rows without either marker are ignored.
+  const rowsA = wikitext.split(/(?=!\s*scope="row")/);
+  const rowsB = wikitext.split(/\n\|-/);
+  const allRows = [...rowsA, ...rowsB];
   let currentYear: string | null = null;
-  for (const row of rows) {
-    if (!row.startsWith('!')) continue;
+  const seenTitles = new Set<string>();
+  for (const row of allRows) {
+    // Must contain a title marker to be considered a data row
+    if (!/scope="row"|\{\{nihongo|\{\{lang\|ja/.test(row)) continue;
     // Title extraction
     // Pattern 1: [[Title]] ({{nihongo2|漢字}})
     // Pattern 2: [[Title|Display]]
     // Pattern 3: "[[Title]]" or "Title"
     let titleEn = '';
     let titleJa = '';
-    // Try nihongo2 template first
+    // Try nihongo2 template first (Nogi/AKB style)
     const nihongo = row.match(/\{\{nihongo2\|([^}]+)\}\}/i);
     if (nihongo) titleJa = nihongo[1]!.trim();
+    // Fallback: {{lang|ja|漢字}} template (NMB/HKT style)
+    if (!titleJa) {
+      const lang = row.match(/\{\{lang\|ja\|([^}]+)\}\}/i);
+      if (lang) titleJa = lang[1]!.trim();
+    }
+    // Fallback: {{nihongo|title|漢字|...}} 3-arg template
+    if (!titleJa) {
+      const nihongo3 = row.match(/\{\{nihongo\|[^|}]*\|([^|}]+)/i);
+      if (nihongo3) titleJa = nihongo3[1]!.trim();
+    }
     // Wikilink title
     const link = row.match(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/);
     if (link) {
@@ -99,9 +123,17 @@ function parseSingles(wikitext: string): Array<{ titleJa: string; titleEn: strin
       }
     }
     if (!titleJa) continue;
-    // Year: look for `| YYYY` after the title
+    if (seenTitles.has(titleJa)) continue; // dedupe (both split strategies may match same row)
+    seenTitles.add(titleJa);
+    // Year: look for `| YYYY` after the title. Also try full date like "March 20, 2013"
+    let year: string | null = null;
     const yearMatch = row.match(/\|\s*(?:rowspan="\d+"\s*\|\s*)?(\d{4})(?!\d)/);
-    if (yearMatch) currentYear = yearMatch[1]!;
+    if (yearMatch) year = yearMatch[1]!;
+    else {
+      const fullDate = row.match(/\|\s*align="left"\|\s*(?:[A-Za-z]+\s+\d{1,2},\s+)?(\d{4})/);
+      if (fullDate) year = fullDate[1]!;
+    }
+    if (year) currentYear = year;
     singles.push({ titleJa, titleEn, year: currentYear });
   }
   return singles;
