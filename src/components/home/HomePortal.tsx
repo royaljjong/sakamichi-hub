@@ -74,7 +74,12 @@ export function HomePortal({ groups, members, locale, portal, videos }: { groups
   );
 
   // Section 6 & 8: video helpers
-  const ytVideosFor = (target: Family) => videos.filter((v) => v.platform === 'youtube' && v.franchise === target).slice(0, 20);
+  const ytVideosFor = (target: Family) =>
+    videos
+      .filter((v) => v.platform === 'youtube' && v.franchise === target)
+      .slice()
+      .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+      .slice(0, 20);
   // TikTok videos: no tiktok platform in schema yet — always empty
   const ttVideosFor = (_target: Family): MemberVideo[] => [];
 

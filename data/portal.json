@@ -87,9 +87,147 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106708?ima=5158&pri1=202608&wd00=2026&wd01=08&wd02=23",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106708?ima=4642&pri1=202608&wd00=2026&wd01=08&wd02=23",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202608",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "saku-auto-count-11567-23",
+      "groupIds": [
+        "sakurazaka46"
+      ],
+      "title": {
+        "ja": "「Sakurazaka46 ARENA TOUR 2026 -What’s lonesome?-」",
+        "ko": "「Sakurazaka46 ARENA TOUR 2026 -What’s lonesome?-」",
+        "en": "「Sakurazaka46 ARENA TOUR 2026 -What’s lonesome?-」"
+      },
+      "kind": "concert",
+      "startsAt": "2026-08-23T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+      "provenance": {
+        "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202608",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "hina-auto-202608-11687",
+      "groupIds": [
+        "hinatazaka46"
+      ],
+      "title": {
+        "ja": "日向坂46「三期生LIVE」",
+        "ko": "日向坂46「三期生LIVE」",
+        "en": "日向坂46「三期生LIVE」"
+      },
+      "kind": "concert",
+      "startsAt": "2026-08-23T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hinatazaka46.com/s/official/media/detail/11687?ima=0000",
+      "provenance": {
+        "sourceUrl": "https://www.hinatazaka46.com/s/official/media/list?dy=202608",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "saku-auto-count-11567-29",
+      "groupIds": [
+        "sakurazaka46"
+      ],
+      "title": {
+        "ja": "「Sakurazaka46 ARENA TOUR 2026 -What’s lonesome?-」",
+        "ko": "「Sakurazaka46 ARENA TOUR 2026 -What’s lonesome?-」",
+        "en": "「Sakurazaka46 ARENA TOUR 2026 -What’s lonesome?-」"
+      },
+      "kind": "concert",
+      "startsAt": "2026-08-29T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+      "provenance": {
+        "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202608",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "saku-auto-count-11567-30",
+      "groupIds": [
+        "sakurazaka46"
+      ],
+      "title": {
+        "ja": "「Sakurazaka46 ARENA TOUR 2026 -What’s lonesome?-」",
+        "ko": "「Sakurazaka46 ARENA TOUR 2026 -What’s lonesome?-」",
+        "en": "「Sakurazaka46 ARENA TOUR 2026 -What’s lonesome?-」"
+      },
+      "kind": "concert",
+      "startsAt": "2026-08-30T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+      "provenance": {
+        "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202608",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "hina-auto-202609-11736",
+      "groupIds": [
+        "hinatazaka46"
+      ],
+      "title": {
+        "ja": "「ひなたフェス2026」",
+        "ko": "「ひなたフェス2026」",
+        "en": "「ひなたフェス2026」"
+      },
+      "kind": "concert",
+      "startsAt": "2026-09-05T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hinatazaka46.com/s/official/media/detail/11736?ima=0000",
+      "provenance": {
+        "sourceUrl": "https://www.hinatazaka46.com/s/official/media/list?dy=202609",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "saku-auto-count-11773-10",
+      "groupIds": [
+        "sakurazaka46"
+      ],
+      "title": {
+        "ja": "「第4回サクラミーツフェス」",
+        "ko": "「第4回サクラミーツフェス」",
+        "en": "「第4回サクラミーツフェス」"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-09-10T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.tv-asahi.co.jp/sakura__meets_event/",
+      "provenance": {
+        "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202609",
         "checkedAt": "2026-08-23"
       }
     },
@@ -110,9 +248,101 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=5159&pri1=202609&wd00=2026&wd01=09&wd02=19",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=4642&pri1=202609&wd00=2026&wd01=09&wd02=19",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "hina-auto-202609-11801",
+      "groupIds": [
+        "hinatazaka46"
+      ],
+      "title": {
+        "ja": "第4回 IDOL RUNWAY COLLECTION 2026 AUTUMN/WINTER Supported by TGC",
+        "ko": "第4回 IDOL RUNWAY COLLECTION 2026 AUTUMN/WINTER Supported by TGC",
+        "en": "第4回 IDOL RUNWAY COLLECTION 2026 AUTUMN/WINTER Supported by TGC"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-09-20T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hinatazaka46.com/s/official/media/detail/11801?ima=0000",
+      "provenance": {
+        "sourceUrl": "https://www.hinatazaka46.com/s/official/media/list?dy=202609",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "saku-auto-count-11744-21",
+      "groupIds": [
+        "sakurazaka46"
+      ],
+      "title": {
+        "ja": "「ROCK IN JAPAN FESTIVAL 2026」",
+        "ko": "「ROCK IN JAPAN FESTIVAL 2026」",
+        "en": "「ROCK IN JAPAN FESTIVAL 2026」"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-09-21T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://rijfes.jp/",
+      "provenance": {
+        "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202609",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "saku-auto-count-11765-29",
+      "groupIds": [
+        "sakurazaka46"
+      ],
+      "title": {
+        "ja": "「15th Single BACKS LIVE!!」",
+        "ko": "「15th Single BACKS LIVE!!」",
+        "en": "「15th Single BACKS LIVE!!」"
+      },
+      "kind": "concert",
+      "startsAt": "2026-09-29T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://sakurazaka46.com/s/s46/page/backslive_15th?ima=0000",
+      "provenance": {
+        "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202609",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "saku-auto-count-11766-30",
+      "groupIds": [
+        "sakurazaka46"
+      ],
+      "title": {
+        "ja": "「15th Single BACKS LIVE!!」「増本綺良 卒業セレモニー」",
+        "ko": "「15th Single BACKS LIVE!!」「増本綺良 卒業セレモニー」",
+        "en": "「15th Single BACKS LIVE!!」「増本綺良 卒業セレモニー」"
+      },
+      "kind": "concert",
+      "startsAt": "2026-09-30T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://sakurazaka46.com/s/s46/page/backslive_15th?ima=0000",
+      "provenance": {
+        "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202609",
         "checkedAt": "2026-08-23"
       }
     }
