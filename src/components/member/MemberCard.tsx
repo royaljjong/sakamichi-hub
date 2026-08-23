@@ -52,6 +52,7 @@ export function MemberCard({
           glyph={member.avatar.glyph}
           hueShift={member.avatar.hueShift}
           imageUrl={member.imageUrl}
+          groupLogoUrl={group?.logoUrl ?? null}
           name={member.name.ja.kanji}
           size={size === 'sm' ? 46 : 54}
           isGraduated={isGraduated}

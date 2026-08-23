@@ -126,7 +126,7 @@ export function HomePortal({ groups, members, locale, portal, videos }: { groups
                         return (
                           <div key={member.id} className="stagger-item" style={{ '--i': Math.min(startOffset + i, 12) } as React.CSSProperties}>
                             <Link href={`/m/${member.id}`} className="birthday-slide" data-today={member.birthDate?.slice(5) === todayMd ? 'true' : undefined}>
-                              <MemberAvatar glyph={member.avatar.glyph} hueShift={member.avatar.hueShift} imageUrl={member.imageUrl} name={name} size={72} />
+                              <MemberAvatar glyph={member.avatar.glyph} hueShift={member.avatar.hueShift} imageUrl={member.imageUrl} groupLogoUrl={group?.logoUrl ?? null} name={name} size={72} />
                               <span className="mt-3 block font-semibold">{name}</span>
                               <span className="mt-1 block text-[11px] text-[var(--ink-soft)]">{member.birthDate?.slice(5).replace('-', '.')} · {group?.shortName[lang]}</span>
                             </Link>
@@ -176,7 +176,7 @@ export function HomePortal({ groups, members, locale, portal, videos }: { groups
                         onMouseLeave={clearPreview}
                       >
                         <div className="relative inline-block">
-                          <MemberAvatar glyph={member.avatar.glyph} hueShift={member.avatar.hueShift} imageUrl={member.imageUrl} name={name} size={72} />
+                          <MemberAvatar glyph={member.avatar.glyph} hueShift={member.avatar.hueShift} imageUrl={member.imageUrl} groupLogoUrl={group?.logoUrl ?? null} name={name} size={72} />
                           <span className="absolute -bottom-1 -right-1 rounded-full bg-white p-[2px] shadow-sm">
                             <YouTubeIcon className="w-3.5 h-3.5 text-[#FF0000]" />
                           </span>
@@ -283,7 +283,7 @@ export function HomePortal({ groups, members, locale, portal, videos }: { groups
                         onMouseLeave={clearPreview}
                       >
                         <div className="relative inline-block">
-                          <MemberAvatar glyph={member.avatar.glyph} hueShift={member.avatar.hueShift} imageUrl={member.imageUrl} name={name} size={72} />
+                          <MemberAvatar glyph={member.avatar.glyph} hueShift={member.avatar.hueShift} imageUrl={member.imageUrl} groupLogoUrl={group?.logoUrl ?? null} name={name} size={72} />
                           <span className="absolute -bottom-1 -right-1 rounded-full bg-white p-[2px] shadow-sm">
                             <TikTokIcon className="w-3.5 h-3.5" />
                           </span>

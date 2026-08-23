@@ -67,6 +67,7 @@ export function SearchResults({
                 glyph={item.glyph}
                 hueShift={item.hueShift}
                 imageUrl={item.imageUrl}
+                groupLogoUrl={item.groupLogoUrl ?? null}
                 name={item.kanji}
                 size={44}
                 isGraduated={isGraduated}
