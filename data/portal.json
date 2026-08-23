@@ -87,7 +87,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106708?ima=2713&pri1=202608&wd00=2026&wd01=08&wd02=23",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106708?ima=4120&pri1=202608&wd00=2026&wd01=08&wd02=23",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202608",
         "checkedAt": "2026-08-23"
@@ -136,6 +136,29 @@
       "officialUrl": "https://www.hinatazaka46.com/s/official/media/detail/11687?ima=0000",
       "provenance": {
         "sourceUrl": "https://www.hinatazaka46.com/s/official/media/list?dy=202608",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "stu-auto-20260823-21969",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "13thシングル劇場盤　発売記念イベント「個別握手会」＆「選べる2ショット写真会orサイン会」",
+        "ko": "13thシングル劇場盤　発売記念イベント「個別握手会」＆「選べる2ショット写真会orサイン会」",
+        "en": "13thシングル劇場盤　発売記念イベント「個別握手会」＆「選べる2ショット写真会orサイン会」"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-08-23T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/21969",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/8/",
         "checkedAt": "2026-08-23"
       }
     },
@@ -228,6 +251,29 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "stu-auto-20260826-23170",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48「アイドルの夜明け」公演",
+        "ko": "STU48「アイドルの夜明け」公演",
+        "en": "STU48「アイドルの夜明け」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-08-26T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23170",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/8/",
         "checkedAt": "2026-08-23"
       }
     },
@@ -347,6 +393,52 @@
       }
     },
     {
+      "id": "hkt-auto-20260829-21160",
+      "groupIds": [
+        "hkt48"
+      ],
+      "title": {
+        "ja": "Sansan ＫＢＣオーガスタゴルフトーナメント２０２６／芥屋ゴルフ倶楽部",
+        "ko": "Sansan ＫＢＣオーガスタゴルフトーナメント２０２６／芥屋ゴルフ倶楽部",
+        "en": "Sansan ＫＢＣオーガスタゴルフトーナメント２０２６／芥屋ゴルフ倶楽部"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-08-29T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hkt48.jp/schedule/2026/08/21160",
+      "provenance": {
+        "sourceUrl": "https://www.hkt48.jp/schedule/2026/08",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "stu-auto-20260829-23066",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "@JAM EXPO 2026 supported by UP-T",
+        "ko": "@JAM EXPO 2026 supported by UP-T",
+        "en": "@JAM EXPO 2026 supported by UP-T"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-08-29T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23066",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/8/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
       "id": "akb48-theater-auto-95672",
       "groupIds": [
         "akb48"
@@ -416,6 +508,52 @@
       }
     },
     {
+      "id": "hkt-auto-20260830-21118",
+      "groupIds": [
+        "hkt48"
+      ],
+      "title": {
+        "ja": "@JAM EXPO 2026 supported by UP-T／横浜アリーナ",
+        "ko": "@JAM EXPO 2026 supported by UP-T／横浜アリーナ",
+        "en": "@JAM EXPO 2026 supported by UP-T／横浜アリーナ"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-08-30T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hkt48.jp/schedule/2026/08/21118",
+      "provenance": {
+        "sourceUrl": "https://www.hkt48.jp/schedule/2026/08",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "stu-auto-20260830-22727",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "「A Villa idol festival HOKKAIDO 2026」",
+        "ko": "「A Villa idol festival HOKKAIDO 2026」",
+        "en": "「A Villa idol festival HOKKAIDO 2026」"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-08-30T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/22727",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/8/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
       "id": "akb48-theater-auto-95675",
       "groupIds": [
         "akb48"
@@ -439,6 +577,29 @@
       }
     },
     {
+      "id": "stu-auto-20260831-22801",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48 Live Tour 2026",
+        "ko": "STU48 Live Tour 2026",
+        "en": "STU48 Live Tour 2026"
+      },
+      "kind": "theater",
+      "startsAt": "2026-08-31T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/22801",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/8/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
       "id": "akb48-theater-auto-95676",
       "groupIds": [
         "akb48"
@@ -458,6 +619,29 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "stu-auto-20260901-22802",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48 Live Tour 2026",
+        "ko": "STU48 Live Tour 2026",
+        "en": "STU48 Live Tour 2026"
+      },
+      "kind": "theater",
+      "startsAt": "2026-09-01T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/22802",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
         "checkedAt": "2026-08-23"
       }
     },
@@ -531,6 +715,75 @@
       }
     },
     {
+      "id": "stu-auto-20260905-23199",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "「PLAY PARADE vol.06」",
+        "ko": "「PLAY PARADE vol.06」",
+        "en": "「PLAY PARADE vol.06」"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-09-05T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23199",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "hkt-auto-20260906-21159",
+      "groupIds": [
+        "hkt48"
+      ],
+      "title": {
+        "ja": "takagi 北九州 WaterWave／北九州市民球場",
+        "ko": "takagi 北九州 WaterWave／北九州市民球場",
+        "en": "takagi 北九州 WaterWave／北九州市民球場"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-09-06T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hkt48.jp/schedule/2026/09/21159",
+      "provenance": {
+        "sourceUrl": "https://www.hkt48.jp/schedule/2026/09",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "hkt-auto-20260909-21162",
+      "groupIds": [
+        "hkt48"
+      ],
+      "title": {
+        "ja": "福岡ソフトバンクホークス 対 北海道日本ハムファイターズ戦／みずほPayPayドーム",
+        "ko": "福岡ソフトバンクホークス 対 北海道日本ハムファイターズ戦／みずほPayPayドーム",
+        "en": "福岡ソフトバンクホークス 対 北海道日本ハムファイターズ戦／みずほPayPayドーム"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-09-09T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hkt48.jp/schedule/2026/09/21162",
+      "provenance": {
+        "sourceUrl": "https://www.hkt48.jp/schedule/2026/09",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
       "id": "akb48-theater-auto-95842",
       "groupIds": [
         "akb48"
@@ -600,6 +853,121 @@
       }
     },
     {
+      "id": "hkt-auto-20260912-20366",
+      "groupIds": [
+        "hkt48"
+      ],
+      "title": {
+        "ja": "「HKT48 15th Anniversary Live Tour」/東京：昭和女子大学 人見記念講堂",
+        "ko": "「HKT48 15th Anniversary Live Tour」/東京：昭和女子大学 人見記念講堂",
+        "en": "「HKT48 15th Anniversary Live Tour」/東京：昭和女子大学 人見記念講堂"
+      },
+      "kind": "concert",
+      "startsAt": "2026-09-12T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hkt48.jp/schedule/2026/09/20366",
+      "provenance": {
+        "sourceUrl": "https://www.hkt48.jp/schedule/2026/09",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "stu-auto-20260912-22803",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48 Live Tour 2026",
+        "ko": "STU48 Live Tour 2026",
+        "en": "STU48 Live Tour 2026"
+      },
+      "kind": "theater",
+      "startsAt": "2026-09-12T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/22803",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "stu-auto-20260913-23151",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48 14thシングル「タイトル未定」発売記念イベント＠ららぽーと豊洲",
+        "ko": "STU48 14thシングル「タイトル未定」発売記念イベント＠ららぽーと豊洲",
+        "en": "STU48 14thシングル「タイトル未定」発売記念イベント＠ららぽーと豊洲"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-09-13T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23151",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "stu-auto-20260915-23207",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48「アイドルの夜明け」公演〜石原侑奈生誕祭〜",
+        "ko": "STU48「アイドルの夜明け」公演〜石原侑奈生誕祭〜",
+        "en": "STU48「アイドルの夜明け」公演〜石原侑奈生誕祭〜"
+      },
+      "kind": "theater",
+      "startsAt": "2026-09-15T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23207",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "stu-auto-20260916-23223",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演",
+        "ko": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演",
+        "en": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-09-16T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23223",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
       "id": "nogi-auto-106810-20260919",
       "groupIds": [
         "nogizaka46"
@@ -616,9 +984,55 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=2721&pri1=202609&wd00=2026&wd01=09&wd02=19",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=4120&pri1=202609&wd00=2026&wd01=09&wd02=19",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "hkt-auto-20260919-20714",
+      "groupIds": [
+        "hkt48"
+      ],
+      "title": {
+        "ja": "Boostyファンまつり2026/有明GYM-EX",
+        "ko": "Boostyファンまつり2026/有明GYM-EX",
+        "en": "Boostyファンまつり2026/有明GYM-EX"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-09-19T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hkt48.jp/schedule/2026/09/20714",
+      "provenance": {
+        "sourceUrl": "https://www.hkt48.jp/schedule/2026/09",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "stu-auto-20260919-22744",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "高松festhalle 10th Anniversary〜STU48 Live week〜",
+        "ko": "高松festhalle 10th Anniversary〜STU48 Live week〜",
+        "en": "高松festhalle 10th Anniversary〜STU48 Live week〜"
+      },
+      "kind": "theater",
+      "startsAt": "2026-09-19T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/22744",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
         "checkedAt": "2026-08-23"
       }
     },
@@ -646,6 +1060,52 @@
       }
     },
     {
+      "id": "hkt-auto-20260920-20715",
+      "groupIds": [
+        "hkt48"
+      ],
+      "title": {
+        "ja": "Boostyファンまつり2026/有明GYM-EX",
+        "ko": "Boostyファンまつり2026/有明GYM-EX",
+        "en": "Boostyファンまつり2026/有明GYM-EX"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-09-20T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hkt48.jp/schedule/2026/09/20715",
+      "provenance": {
+        "sourceUrl": "https://www.hkt48.jp/schedule/2026/09",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "stu-auto-20260920-23085",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "「フクフェスVol.6」",
+        "ko": "「フクフェスVol.6」",
+        "en": "「フクフェスVol.6」"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-09-20T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23085",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
       "id": "saku-auto-count-11744-21",
       "groupIds": [
         "sakurazaka46"
@@ -665,6 +1125,121 @@
       "officialUrl": "https://rijfes.jp/",
       "provenance": {
         "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202609",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "stu-auto-20260921-23086",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "「フクフェスVol.6」",
+        "ko": "「フクフェスVol.6」",
+        "en": "「フクフェスVol.6」"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-09-21T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23086",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "stu-auto-20260922-22747",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "高松festhalle 10th Anniversary〜STU48 Live week〜",
+        "ko": "高松festhalle 10th Anniversary〜STU48 Live week〜",
+        "en": "高松festhalle 10th Anniversary〜STU48 Live week〜"
+      },
+      "kind": "theater",
+      "startsAt": "2026-09-22T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/22747",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "stu-auto-20260923-22748",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "高松festhalle 10th Anniversary〜STU48 Live week〜",
+        "ko": "高松festhalle 10th Anniversary〜STU48 Live week〜",
+        "en": "高松festhalle 10th Anniversary〜STU48 Live week〜"
+      },
+      "kind": "theater",
+      "startsAt": "2026-09-23T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/22748",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "hkt-auto-20260925-21196",
+      "groupIds": [
+        "hkt48"
+      ],
+      "title": {
+        "ja": "Malymoon Halloween Fashion Show 2026  Produced by PECHE／The Garden Hall",
+        "ko": "Malymoon Halloween Fashion Show 2026  Produced by PECHE／The Garden Hall",
+        "en": "Malymoon Halloween Fashion Show 2026  Produced by PECHE／The Garden Hall"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-09-25T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hkt48.jp/schedule/2026/09/21196",
+      "provenance": {
+        "sourceUrl": "https://www.hkt48.jp/schedule/2026/09",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "stu-auto-20260927-22804",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48 Live Tour 2026",
+        "ko": "STU48 Live Tour 2026",
+        "en": "STU48 Live Tour 2026"
+      },
+      "kind": "theater",
+      "startsAt": "2026-09-27T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/22804",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
         "checkedAt": "2026-08-23"
       }
     },
@@ -692,6 +1267,29 @@
       }
     },
     {
+      "id": "stu-auto-20260929-23208",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48「アイドルの夜明け」公演〜信濃宙花生誕祭〜",
+        "ko": "STU48「アイドルの夜明け」公演〜信濃宙花生誕祭〜",
+        "en": "STU48「アイドルの夜明け」公演〜信濃宙花生誕祭〜"
+      },
+      "kind": "theater",
+      "startsAt": "2026-09-29T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23208",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
       "id": "saku-auto-count-11766-30",
       "groupIds": [
         "sakurazaka46"
@@ -711,6 +1309,29 @@
       "officialUrl": "https://sakurazaka46.com/s/s46/page/backslive_15th?ima=0000",
       "provenance": {
         "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202609",
+        "checkedAt": "2026-08-23"
+      }
+    },
+    {
+      "id": "stu-auto-20260930-23209",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演",
+        "ko": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演",
+        "en": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-09-30T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23209",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
         "checkedAt": "2026-08-23"
       }
     }

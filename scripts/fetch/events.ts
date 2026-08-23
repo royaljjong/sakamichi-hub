@@ -418,6 +418,255 @@ async function fetchAkb48TheaterSchedule(now: Date): Promise<PortalEvent[]> {
   return results;
 }
 
+/**
+ * NMB48 schedule: www.nmb48.com is unreachable (connection timeout on all probed URLs).
+ * Returns empty array with a warning.
+ */
+async function fetchNmbEvents(_now: Date): Promise<PortalEvent[]> {
+  console.warn('  NMB48: www.nmb48.com is unreachable — skipping');
+  return [];
+}
+
+/**
+ * HKT48 schedule: HTML table at https://www.hkt48.jp/schedule/YYYY/MM
+ * Structure: <table> with <tr><th id="dayN">…</th><td class="boxes"><p data-category="N">…<a href="/schedule/YYYY/MM/ID">TITLE</a>…</p></td></tr>
+ * Category codes kept: 21 (イベント/event), 24 (舞台/stage), 86 (コンサート/concert tour)
+ * Excluded: 20 (theater holiday), 22 (media/radio/TV), 35 (birthday), 23, 36, 85
+ */
+async function fetchHktEvents(now: Date): Promise<PortalEvent[]> {
+  const today = now.toISOString().slice(0, 10);
+  const months = [now, new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1, 1))];
+  const seen = new Set<string>();
+  const results: PortalEvent[] = [];
+
+  for (const month of months) {
+    const year = month.getUTCFullYear();
+    const mon = month.getUTCMonth() + 1;
+    const monPad = String(mon).padStart(2, '0');
+    const sourceUrl = `https://www.hkt48.jp/schedule/${year}/${monPad}`;
+
+    let response: Response;
+    try {
+      response = await fetch(sourceUrl, {
+        headers: { 'user-agent': 'SakamichiBox/1.0 (+https://sakamichi-hub.vercel.app)' },
+        signal: AbortSignal.timeout(20000),
+      });
+    } catch (e: any) {
+      console.warn(`  HKT48 schedule ${year}/${monPad} fetch error: ${e.message} — skipping`);
+      await sleep(2000);
+      continue;
+    }
+
+    if (!response.ok) {
+      console.warn(`  HKT48 schedule ${year}/${monPad} returned ${response.status} — skipping`);
+      await sleep(2000);
+      continue;
+    }
+
+    const html = await response.text();
+
+    // Parse <tr> rows: <th id="dayN"> … <td class="boxes"> … </td>
+    const rowRe = /<th scope="row" id="day(\d+)">([\s\S]*?)(?=<th scope="row"|<\/tbody>)/g;
+    let rowMatch: RegExpExecArray | null;
+    while ((rowMatch = rowRe.exec(html)) !== null) {
+      const dayNum = parseInt(rowMatch[1]!, 10);
+      const rowBody = rowMatch[2] ?? '';
+
+      const isoDate = `${year}-${monPad}-${String(dayNum).padStart(2, '0')}`;
+      if (isoDate < today) continue;
+
+      // Find the <td class="boxes"> content
+      const tdMatch = rowBody.match(/<td class="boxes">([\s\S]*?)(?=<\/td>)/);
+      if (!tdMatch?.[1]) continue;
+      const tdBody = tdMatch[1];
+
+      // Parse each <p data-category="N"> entry
+      const itemRe = /<p class="(\d+)" data-category="(\d+)">([\s\S]*?)(?=<p class="\d+"|$)/g;
+      let itemMatch: RegExpExecArray | null;
+      while ((itemMatch = itemRe.exec(tdBody)) !== null) {
+        const catNum = parseInt(itemMatch[2]!, 10);
+        // Only include: 21 (event), 24 (stage), 86 (concert/live tour)
+        if (catNum !== 21 && catNum !== 24 && catNum !== 86) continue;
+
+        const itemBody = itemMatch[3] ?? '';
+        const hrefMatch = itemBody.match(/href="(\/schedule\/(\d{4})\/(\d{2})\/(\d+))"/);
+        if (!hrefMatch) continue;
+        const schedId = hrefMatch[4]!;
+        const officialUrl = `https://www.hkt48.jp${hrefMatch[1]}`;
+
+        const titleMatch = itemBody.match(/<a [^>]*>([^<]+)<\/a>/);
+        if (!titleMatch?.[1]) continue;
+        const title = titleMatch[1].trim();
+
+        // Extract start time if present in title (e.g. "15:48～ ...")
+        const timeInTitle = title.match(/^(\d{1,2}:\d{2})[～〜\s]/);
+        const timeStr = timeInTitle?.[1];
+        const timeParts = timeStr ? timeStr.split(':').map(Number) : [12, 0];
+        const hr = timeParts[0]!;
+        const min = timeParts[1]!;
+        const utc = Date.UTC(year, mon - 1, dayNum, hr - 9, min);
+        const startsAt = new Date(utc).toISOString().replace('Z', '+00:00');
+
+        const kind = catNum === 86 ? 'concert' : catNum === 24 ? 'appearance' : 'appearance';
+
+        const id = `hkt-auto-${year}${monPad}${String(dayNum).padStart(2, '0')}-${schedId}`;
+        if (seen.has(id)) continue;
+        seen.add(id);
+
+        results.push({
+          id,
+          groupIds: ['hkt48'],
+          title: { ja: title, ko: title, en: title },
+          kind,
+          startsAt,
+          endsAt: null,
+          venueId: null,
+          posterUrl: null,
+          price: null,
+          ticketUrl: null,
+          officialUrl,
+          provenance: {
+            sourceUrl,
+            checkedAt: today,
+          },
+        });
+      }
+    }
+
+    await sleep(2000);
+  }
+
+  return results;
+}
+
+/**
+ * NGT48 schedule: The schedule page embeds a Google Calendar iframe with no server-side event data.
+ * No parseable schedule data is available without JavaScript execution.
+ * Returns empty array with a warning.
+ */
+async function fetchNgtEvents(_now: Date): Promise<PortalEvent[]> {
+  console.warn('  NGT48: schedule page uses Google Calendar iframe — no server-side data to parse, skipping');
+  return [];
+}
+
+/**
+ * STU48 schedule: HTML list at https://sp.stu48.com/schedule/list/YYYY/M/
+ * Structure: <li class="schedule_entry_box clearfix">
+ *   <p class="date"><span class="md">DD</span><span class="week">Weekday</span></p>
+ *   <div class="entry_box ...">
+ *     <div class="list__txt entry live04 cat14"><a href="/schedule/detail/ID">
+ *       <p class="category ...">カテゴリ</p>
+ *       <p class="tit">TITLE</p>
+ *     </a></div>...
+ * Category classes kept: live04 (公演・コンサート), live06 (イベント)
+ * Excluded: live02 (birthday), live03 (handshake), live05 (release), live08 (media), live10 (other)
+ * Month/year extracted from: <p class="month">MM<span class="year">YYYY</span>
+ */
+async function fetchStuEvents(now: Date): Promise<PortalEvent[]> {
+  const today = now.toISOString().slice(0, 10);
+  const months = [now, new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1, 1))];
+  const seen = new Set<string>();
+  const results: PortalEvent[] = [];
+
+  for (const month of months) {
+    const year = month.getUTCFullYear();
+    const mon = month.getUTCMonth() + 1;
+    const sourceUrl = `https://sp.stu48.com/schedule/list/${year}/${mon}/`;
+
+    let response: Response;
+    try {
+      response = await fetch(sourceUrl, {
+        headers: { 'user-agent': 'SakamichiBox/1.0 (+https://sakamichi-hub.vercel.app)' },
+        signal: AbortSignal.timeout(20000),
+      });
+    } catch (e: any) {
+      console.warn(`  STU48 schedule ${year}/${mon} fetch error: ${e.message} — skipping`);
+      await sleep(2000);
+      continue;
+    }
+
+    if (!response.ok) {
+      console.warn(`  STU48 schedule ${year}/${mon} returned ${response.status} — skipping`);
+      await sleep(2000);
+      continue;
+    }
+
+    const html = await response.text();
+
+    // Confirm year/month from page
+    const pageMonthMatch = html.match(/<p class="month">(\d+)\s*<span class="year">(\d+)/);
+    const pageYear = pageMonthMatch ? parseInt(pageMonthMatch[2]!, 10) : year;
+    const pageMon = pageMonthMatch ? parseInt(pageMonthMatch[1]!, 10) : mon;
+    const monPad = String(pageMon).padStart(2, '0');
+
+    // Parse <li class="schedule_entry_box ..."> entries
+    const entryRe = /<li class="schedule_entry_box[^"]*">([\s\S]*?)(?=<li class="schedule_entry_box|<\/ul>)/g;
+    let entryMatch: RegExpExecArray | null;
+    while ((entryMatch = entryRe.exec(html)) !== null) {
+      const entryBody = entryMatch[1] ?? '';
+
+      // Extract day number
+      const dayMatch = entryBody.match(/<span class="md">(\d+)<\/span>/);
+      if (!dayMatch?.[1]) continue;
+      const dayNum = parseInt(dayMatch[1], 10);
+      const isoDate = `${pageYear}-${monPad}-${String(dayNum).padStart(2, '0')}`;
+      if (isoDate < today) continue;
+
+      // Parse each schedule item in the entry
+      const itemRe = /<div class="list__txt entry (live\d+) ([^"]+)">([\s\S]*?)(?=<div class="list__txt|<div class="clear">|$)/g;
+      let itemMatch: RegExpExecArray | null;
+      while ((itemMatch = itemRe.exec(entryBody)) !== null) {
+        const liveClass = itemMatch[1]!;
+        // Only include: live04 (concert/theater), live06 (event)
+        if (liveClass !== 'live04' && liveClass !== 'live06') continue;
+
+        const itemBody = itemMatch[3] ?? '';
+        const hrefMatch = itemBody.match(/href="[^"]*\/schedule\/detail\/(\d+)"/);
+        const schedId = hrefMatch?.[1];
+        if (!schedId) continue;
+
+        const titleMatch = itemBody.match(/<p class="tit">([^<]+)<\/p>/);
+        if (!titleMatch?.[1]) continue;
+        const title = titleMatch[1].trim();
+
+        const kind = liveClass === 'live04' ? 'theater' : 'appearance';
+
+        // No time info in list view — use noon JST as default
+        const utc = Date.UTC(pageYear, pageMon - 1, dayNum, 3, 0); // 12:00 JST = 03:00 UTC
+        const startsAt = new Date(utc).toISOString().replace('Z', '+00:00');
+
+        const officialUrl = `https://www.stu48.com/schedule/detail/${schedId}`;
+
+        const id = `stu-auto-${pageYear}${monPad}${String(dayNum).padStart(2, '0')}-${schedId}`;
+        if (seen.has(id)) continue;
+        seen.add(id);
+
+        results.push({
+          id,
+          groupIds: ['stu48'],
+          title: { ja: title, ko: title, en: title },
+          kind,
+          startsAt,
+          endsAt: null,
+          venueId: null,
+          posterUrl: null,
+          price: null,
+          ticketUrl: null,
+          officialUrl,
+          provenance: {
+            sourceUrl,
+            checkedAt: today,
+          },
+        });
+      }
+    }
+
+    await sleep(2000);
+  }
+
+  return results;
+}
+
 async function main() {
   const now = new Date();
   const portalPath = path.join(process.cwd(), 'data', 'portal.json');
@@ -444,10 +693,55 @@ async function main() {
     console.warn(`  AKB48 theater fetch failed: ${e.message} — skipping`);
   }
 
+  await sleep(2000);
+  console.log('Fetching NMB48 events...');
+  let nmbEvents: PortalEvent[] = [];
+  try {
+    nmbEvents = await fetchNmbEvents(now);
+  } catch (e: any) {
+    console.warn(`  NMB48 fetch failed: ${e.message} — skipping`);
+  }
+
+  await sleep(2000);
+  console.log('Fetching HKT48 events...');
+  let hktEvents: PortalEvent[] = [];
+  try {
+    hktEvents = await fetchHktEvents(now);
+  } catch (e: any) {
+    console.warn(`  HKT48 fetch failed: ${e.message} — skipping`);
+  }
+
+  await sleep(2000);
+  console.log('Fetching NGT48 events...');
+  let ngtEvents: PortalEvent[] = [];
+  try {
+    ngtEvents = await fetchNgtEvents(now);
+  } catch (e: any) {
+    console.warn(`  NGT48 fetch failed: ${e.message} — skipping`);
+  }
+
+  await sleep(2000);
+  console.log('Fetching STU48 events...');
+  let stuEvents: PortalEvent[] = [];
+  try {
+    stuEvents = await fetchStuEvents(now);
+  } catch (e: any) {
+    console.warn(`  STU48 fetch failed: ${e.message} — skipping`);
+  }
+
   // SKE48 theater schedule requires JavaScript rendering and member login — skip
   console.log('Skipping SKE48 theater schedule (JS-rendered, requires login)');
 
-  const collected = [...nogizakaLives, ...sakurazakaEvents, ...hinatazakaEvents, ...akb48TheaterEvents];
+  const collected = [
+    ...nogizakaLives,
+    ...sakurazakaEvents,
+    ...hinatazakaEvents,
+    ...akb48TheaterEvents,
+    ...nmbEvents,
+    ...hktEvents,
+    ...ngtEvents,
+    ...stuEvents,
+  ];
 
   const preserved = portal.events.filter(
     (event) =>
@@ -455,6 +749,10 @@ async function main() {
       !event.id.startsWith('saku-auto-') &&
       !event.id.startsWith('hina-auto-') &&
       !event.id.startsWith('akb48-theater-auto-') &&
+      !event.id.startsWith('nmb-auto-') &&
+      !event.id.startsWith('hkt-auto-') &&
+      !event.id.startsWith('ngt-auto-') &&
+      !event.id.startsWith('stu-auto-') &&
       event.groupIds?.[0] !== 'nogizaka46' &&
       event.groupIds?.[0] !== 'sakurazaka46' &&
       event.groupIds?.[0] !== 'hinatazaka46',
@@ -469,6 +767,10 @@ async function main() {
   console.log(`  Sakurazaka46: ${sakurazakaEvents.length} upcoming events`);
   console.log(`  Hinatazaka46: ${hinatazakaEvents.length} upcoming events`);
   console.log(`  AKB48 theater: ${akb48TheaterEvents.length} upcoming theater performances`);
+  console.log(`  NMB48: ${nmbEvents.length} upcoming events`);
+  console.log(`  HKT48: ${hktEvents.length} upcoming events`);
+  console.log(`  NGT48: ${ngtEvents.length} upcoming events`);
+  console.log(`  STU48: ${stuEvents.length} upcoming events`);
   console.log(`  Total: ${collected.length} events written to portal.json`);
   console.log(`  Total portal events (incl. preserved): ${portal.events.length}`);
 }
