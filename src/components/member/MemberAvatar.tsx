@@ -55,12 +55,20 @@ export function MemberAvatar({
   }
 
   if (groupLogoUrl && !logoError) {
+    // Brand-tinted background fills the circle so a horizontal wordmark
+    // logo (AKB48, SKE48, etc.) doesn't leave awkward white space
+    // compared to portrait photo avatars in the same grid.
     return (
       <div
-        className={`relative inline-flex items-center justify-center rounded-full shrink-0 select-none border-2 border-[color-mix(in_oklab,var(--g-brand)_35%,transparent)] shadow-xs overflow-hidden bg-[var(--white-veil)] ${
+        className={`relative inline-flex items-center justify-center rounded-full shrink-0 select-none border-2 border-[color-mix(in_oklab,var(--g-brand)_35%,transparent)] shadow-xs overflow-hidden ${
           isGraduated ? 'filter grayscale-[40%] opacity-90' : ''
         } ${className}`}
-        style={{ width: `${size}px`, height: `${size}px` }}
+        style={{
+          width: `${size}px`,
+          height: `${size}px`,
+          background:
+            'radial-gradient(circle at 30% 30%, color-mix(in oklab, var(--g-brand) 22%, white), color-mix(in oklab, var(--g-brand) 12%, white))',
+        }}
         title={name || glyph}
       >
         <img
@@ -69,7 +77,8 @@ export function MemberAvatar({
           loading="lazy"
           referrerPolicy="no-referrer"
           onError={() => setLogoError(true)}
-          className="w-[72%] h-[72%] object-contain"
+          className="w-[88%] h-[88%] object-contain drop-shadow-sm"
+          style={{ mixBlendMode: 'multiply' }}
         />
       </div>
     );
