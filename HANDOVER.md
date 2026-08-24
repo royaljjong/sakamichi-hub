@@ -1,12 +1,14 @@
 # 🌸 사카미치 & 48그룹 통합 포털 (Sakamichi Hub) 시스템 인수인계서
 
-> **문서 버전:** 2.0.0  
-> **최종 수정일:** 2026-08-16  
+> **문서 버전:** 2.1.0  
+> **최종 수정일:** 2026-08-24  
 > **프로젝트 루트:** `D:\drive\programming\window\Sakamichi Box`  
 > **GitHub 저장소:** [https://github.com/royaljjong/sakamichi-hub](https://github.com/royaljjong/sakamichi-hub)  
 > **Vercel 라이브:** [https://sakamichi-hub.vercel.app](https://sakamichi-hub.vercel.app)  
 
-> ⚠️ **현행 계약**: 이 문서는 2026-08-16 시점 서술 기록입니다. 실행 계약은 [`AUDIT_AND_REBUILD_PLAN.md`](./AUDIT_AND_REBUILD_PLAN.md) + [`CODEX_HANDOVER.md`](./CODEX_HANDOVER.md)를 우선합니다.
+> ⚠️ **현행 계약**: 이 문서는 초기 아키텍처 서술 기록입니다. 최신 실행 계약·완료 항목·다음 스텝은 [`CODEX_HANDOVER.md`](./CODEX_HANDOVER.md) (2026-08-24 갱신) 를 우선하며, 지난 리팩터 결정은 [`AUDIT_AND_REBUILD_PLAN.md`](./AUDIT_AND_REBUILD_PLAN.md) 를 참고하세요.
+> 
+> 현재 규모 (2026-08-24): **멤버 454 · 이벤트 56 · 싱글 256 · 영상 33 · 그룹 로고 16 · YouTube 채널 33 · TikTok 채널 19 · AdSense 승인 대기 중**
 
 ---
 
