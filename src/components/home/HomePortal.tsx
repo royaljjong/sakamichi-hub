@@ -112,12 +112,9 @@ export function HomePortal({ groups, members, locale, portal, videos }: { groups
       .slice()
       .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
       .slice(0, 20);
-  const ttVideosFor = (target: Family) =>
-    videos
-      .filter((v) => v.platform === 'tiktok' && v.franchise === target)
-      .slice()
-      .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
-      .slice(0, 20);
+  // ttVideosFor removed: TikTok has no reliable public video feed API
+  // (Nitter/RSSHub blocked, Playwright detected). Users can visit
+  // individual TikTok channels via the channel rail below.
 
   const getMemberName = (member: Member) =>
     lang === 'ko' ? member.name.ko.hangul : lang === 'en' ? member.name.en.romaji : member.name.ja.kanji;
@@ -371,58 +368,5 @@ export function HomePortal({ groups, members, locale, portal, videos }: { groups
       })}
     </section>
 
-    {/* Section 8 — TikTok latest videos rail (per franchise, up to 20) */}
-    <section className="space-y-6">
-      {(['sakamichi', 'akb48g'] as Family[]).map((target) => {
-        const ttVideos = ttVideosFor(target);
-        return (
-          <div key={`tt-videos-${target}`} className="editorial-panel p-5 sm:p-7">
-            <div className="flex items-end justify-between gap-4">
-              <div>
-                <p className="section-kicker">{target === 'sakamichi' ? tFranchise('sakamichiShort') : tFranchise('akb48gShort')}</p>
-                <h2 className="section-title mt-2 flex items-center gap-2">
-                  <TikTokIcon className="w-5 h-5" />
-                  {t('tiktokVideos')}
-                </h2>
-              </div>
-              <span className="count-pill">{ttVideos.length}</span>
-            </div>
-            {ttVideos.length ? (
-              <Rail label={`${target} tiktok videos`}>
-                {ttVideos.map((video, i) => {
-                  const group = groupMap.get(video.groupId);
-                  return (
-                    <div key={video.id} className="stagger-item" style={{ '--i': Math.min(i, 12) } as React.CSSProperties}>
-                      <a
-                        href={video.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="video-card"
-                        onMouseEnter={() => group && setPreview(group.id)}
-                        onMouseLeave={clearPreview}
-                      >
-                        <div className="video-card-media">
-                          <img src={video.thumbnailUrl} alt="" loading="lazy" />
-                        </div>
-                        <div className="video-card-body">
-                          <p className="video-card-title">{video.title}</p>
-                          <div className="video-card-meta">
-                            <span>{video.memberName[lang]}</span>
-                            <span>·</span>
-                            <time>{new Intl.DateTimeFormat(lang, { month: 'short', day: 'numeric' }).format(new Date(video.publishedAt))}</time>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                  );
-                })}
-              </Rail>
-            ) : (
-              <p className="mt-5 text-sm text-[var(--ink-soft)]">{t('tiktokComingSoon')}</p>
-            )}
-          </div>
-        );
-      })}
-    </section>
   </div>;
 }
