@@ -1,5 +1,26 @@
 [
   {
+    "id": "yt-AE-LY9v3YS8",
+    "platform": "youtube",
+    "videoId": "AE-LY9v3YS8",
+    "memberId": "nmb48-shibuya-nagisa",
+    "memberName": {
+      "ja": "渋谷凪咲",
+      "ko": "시부야 나기사",
+      "en": "Shibuya Nagisa"
+    },
+    "memberGlyph": "渋",
+    "memberHueShift": 17,
+    "memberImage": null,
+    "groupId": "nmb48",
+    "franchise": "akb48g",
+    "title": "【ダスクブラッド】PvP苦手でもめっちゃ楽しめた！ネットワークテスト感想会！ 【日ノ森あんず】",
+    "publishedAt": "2026-08-25T15:41:57+00:00",
+    "url": "https://www.youtube.com/watch?v=AE-LY9v3YS8",
+    "thumbnailUrl": "https://i2.ytimg.com/vi/AE-LY9v3YS8/hqdefault.jpg",
+    "channelUrl": "https://www.youtube.com/@nagichannel"
+  },
+  {
     "id": "yt-XAvuMegaKgE",
     "platform": "youtube",
     "videoId": "XAvuMegaKgE",
@@ -103,27 +124,6 @@
     "url": "https://www.youtube.com/watch?v=m5WgttxN8B0",
     "thumbnailUrl": "https://i2.ytimg.com/vi/m5WgttxN8B0/hqdefault.jpg",
     "channelUrl": "https://www.youtube.com/@sakashita_mako"
-  },
-  {
-    "id": "yt-KOcHEUkwz1k",
-    "platform": "youtube",
-    "videoId": "KOcHEUkwz1k",
-    "memberId": "nmb48-shibuya-nagisa",
-    "memberName": {
-      "ja": "渋谷凪咲",
-      "ko": "시부야 나기사",
-      "en": "Shibuya Nagisa"
-    },
-    "memberGlyph": "渋",
-    "memberHueShift": 17,
-    "memberImage": null,
-    "groupId": "nmb48",
-    "franchise": "akb48g",
-    "title": "【Mortal Shell II】 #4｜ネタバレ注意｜戦士の亡骸をあつめて戦うソウルライク 【日ノ森あんず】",
-    "publishedAt": "2026-08-21T10:06:53+00:00",
-    "url": "https://www.youtube.com/watch?v=KOcHEUkwz1k",
-    "thumbnailUrl": "https://i4.ytimg.com/vi/KOcHEUkwz1k/hqdefault.jpg",
-    "channelUrl": "https://www.youtube.com/@nagichannel"
   },
   {
     "id": "yt-ruN4FoGm9zo",
