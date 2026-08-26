@@ -1,6 +1,77 @@
 [
   {
-    "id": "nogi-sn46diarydetail104793ima4949cdMEMBER",
+    "id": "hina-sofficialdiarydetail70741ima0000cdmember",
+    "groupId": "hinatazaka46",
+    "franchise": "sakamichi",
+    "memberId": "hina-katayama-saki",
+    "memberName": {
+      "ja": "片山 紗希",
+      "ko": "카타야마 사키",
+      "en": "Katayama Saki"
+    },
+    "memberGlyph": "片",
+    "memberHueShift": -1,
+    "memberImage": "https://cdn.hinatazaka46.com/images/14/eeb/9017dc75d5fdfbee93780aebd9fdd/800_800_102400.jpg",
+    "title": "個別ページ",
+    "publishedAt": "2026.8.26 15:16",
+    "url": "https://www.hinatazaka46.com/s/official/diary/detail/70741?ima=0000&cd=member",
+    "type": "official_blog"
+  },
+  {
+    "id": "nogi-sn46diarydetail104794ima3415cdMEMBER",
+    "groupId": "nogizaka46",
+    "franchise": "sakamichi",
+    "memberName": {
+      "ja": "乃木坂46",
+      "ko": "乃木坂46",
+      "en": "乃木坂46"
+    },
+    "memberGlyph": "乃",
+    "memberHueShift": 0,
+    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mobN0baNy.png",
+    "title": "2026神宮！！🎆",
+    "publishedAt": "2026.08.26 14:50",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104794?ima=3415&cd=MEMBER",
+    "type": "official_blog"
+  },
+  {
+    "id": "hina-sofficialdiarydetail70740ima0000cdmember",
+    "groupId": "hinatazaka46",
+    "franchise": "sakamichi",
+    "memberId": "hina-oota-mizuki",
+    "memberName": {
+      "ja": "大田 美月",
+      "ko": "오오타 미즈키",
+      "en": "Oota Mizuki"
+    },
+    "memberGlyph": "大",
+    "memberHueShift": 27,
+    "memberImage": "https://cdn.hinatazaka46.com/images/14/3ad/e07febee32edf17721f512802ee4b/800_800_102400.jpg",
+    "title": "個別ページ",
+    "publishedAt": "2026.8.26 12:41",
+    "url": "https://www.hinatazaka46.com/s/official/diary/detail/70740?ima=0000&cd=member",
+    "type": "official_blog"
+  },
+  {
+    "id": "hina-httpswwwhinatazaka46comsofficialima0000",
+    "groupId": "hinatazaka46",
+    "franchise": "sakamichi",
+    "memberId": "hina-satou-yuu",
+    "memberName": {
+      "ja": "佐藤 優羽",
+      "ko": "사토우 유우",
+      "en": "Satou Yuu"
+    },
+    "memberGlyph": "佐",
+    "memberHueShift": -28,
+    "memberImage": "https://cdn.hinatazaka46.com/images/14/37b/f66d43760157d8da05872b14a4e3d/800_800_102400.jpg",
+    "title": "日向坂46公式サイト",
+    "publishedAt": "2026.8.26 12:09",
+    "url": "https://www.hinatazaka46.com/s/official/?ima=0000",
+    "type": "official_blog"
+  },
+  {
+    "id": "nogi-sn46diarydetail104793ima3415cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -13,7 +84,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mob9Dp2E0.jpg",
     "title": "忘れない、この夏",
     "publishedAt": "2026.08.25 22:02",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104793?ima=4949&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104793?ima=3415&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -35,7 +106,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104792ima4949cdMEMBER",
+    "id": "nogi-sn46diarydetail104792ima3415cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -48,11 +119,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mobjSrWlS.jpg",
     "title": "夏の終わりのハーモニー",
     "publishedAt": "2026.08.25 21:02",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104792?ima=4949&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104792?ima=3415&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104791ima4949cdMEMBER",
+    "id": "nogi-sn46diarydetail104791ima3415cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -65,7 +136,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/moblq0Tun.png",
     "title": "夢中で駆け抜けた日々",
     "publishedAt": "2026.08.25 20:47",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104791?ima=4949&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104791?ima=3415&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -105,7 +176,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104790ima4949cdMEMBER",
+    "id": "nogi-sn46diarydetail104790ima3415cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -118,7 +189,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mobRmV9Nd.jpg",
     "title": "ただいまって",
     "publishedAt": "2026.08.25 15:05",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104790?ima=4949&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104790?ima=3415&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -140,7 +211,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104789ima4949cdMEMBER",
+    "id": "nogi-sn46diarydetail104789ima3415cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -153,7 +224,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mobauqwZ0.jpg",
     "title": "向日葵   五百城茉央",
     "publishedAt": "2026.08.25 13:00",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104789?ima=4949&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104789?ima=3415&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -247,7 +318,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104788ima4949cdMEMBER",
+    "id": "nogi-sn46diarydetail104788ima3415cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -260,7 +331,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mob9nik88.jpg",
     "title": "最高の夏だった",
     "publishedAt": "2026.08.24 20:30",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104788?ima=4949&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104788?ima=3415&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -282,7 +353,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104787ima4949cdMEMBER",
+    "id": "nogi-sn46diarydetail104787ima3415cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -295,7 +366,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mobU2Lk4Q.jpg",
     "title": "ありがとう！真夏の全国ツアー18公演",
     "publishedAt": "2026.08.24 16:57",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104787?ima=4949&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104787?ima=3415&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -371,7 +442,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104786ima4949cdMEMBER",
+    "id": "nogi-sn46diarydetail104786ima3415cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -384,11 +455,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mobUsujyL.jpg",
     "title": "好きの気持ちをどう伝えよう",
     "publishedAt": "2026.08.23 16:12",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104786?ima=4949&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104786?ima=3415&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-sn46diarydetail104785ima4949cdMEMBER",
+    "id": "nogi-sn46diarydetail104785ima3415cdMEMBER",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -401,7 +472,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/moboC6ctC.jpg",
     "title": "ん〜〜神宮最高✨✨　金川紗耶",
     "publishedAt": "2026.08.23 10:49",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104785?ima=4949&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104785?ima=3415&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -459,74 +530,21 @@
     "type": "official_blog"
   },
   {
-    "id": "hina-httpswwwhinatazaka46comsofficialpage18thSGhiraganalive",
-    "groupId": "hinatazaka46",
-    "franchise": "sakamichi",
-    "memberId": "hina-shimizu-rio",
+    "id": "ske-blog-6eppib",
+    "groupId": "ske48",
+    "franchise": "akb48g",
+    "memberId": "ske48-hijiri-haruka",
     "memberName": {
-      "ja": "清水 理央",
-      "ko": "시미즈 리오",
-      "en": "Shimizu Rio"
+      "ja": "聖遥花",
+      "ko": "히지리 하루카",
+      "en": "Hijiri Haruka"
     },
-    "memberGlyph": "清",
-    "memberHueShift": 0,
-    "memberImage": "https://cdn.hinatazaka46.com/images/14/e96/5acbcebcbb08f1b0e509d05ee11a6/800_800_102400.jpg",
-    "title": "https:&#x2F;&#x2F;www.hinatazaka46.com&#x2F;s&#x2F;official&#x2F;page&#x2F;18thSG_hiraganalive",
-    "publishedAt": "2026.8.21 23:21",
-    "url": "https://www.hinatazaka46.com/s/official/page/18thSG_hiraganalive",
-    "type": "official_blog"
-  },
-  {
-    "id": "hina-httpswwwhinatazaka46comsofficialnewsdetailE00886",
-    "groupId": "hinatazaka46",
-    "franchise": "sakamichi",
-    "memberId": "hina-oota-mizuki",
-    "memberName": {
-      "ja": "大田 美月",
-      "ko": "오오타 미즈키",
-      "en": "Oota Mizuki"
-    },
-    "memberGlyph": "大",
-    "memberHueShift": 27,
-    "memberImage": "https://cdn.hinatazaka46.com/images/14/3ad/e07febee32edf17721f512802ee4b/800_800_102400.jpg",
-    "title": "詳細はこちらから！",
-    "publishedAt": "2026.8.21 21:12",
-    "url": "https://www.hinatazaka46.com/s/official/news/detail/E00886",
-    "type": "official_blog"
-  },
-  {
-    "id": "hina-sofficialdiarydetail70677ima0000cdmember",
-    "groupId": "hinatazaka46",
-    "franchise": "sakamichi",
-    "memberId": "hina-tsurusaki-niko",
-    "memberName": {
-      "ja": "鶴崎 仁香",
-      "ko": "쓰루사키 니코",
-      "en": "Tsurusaki Niko"
-    },
-    "memberGlyph": "鶴",
-    "memberHueShift": 11,
-    "memberImage": "https://cdn.hinatazaka46.com/images/14/468/a512adc17581d6f50cdd3205557e2/800_800_102400.jpg",
-    "title": "個別ページ",
-    "publishedAt": "2026.8.21 20:35",
-    "url": "https://www.hinatazaka46.com/s/official/diary/detail/70677?ima=0000&cd=member",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-sn46diarydetail104784ima4949cdMEMBER",
-    "groupId": "nogizaka46",
-    "franchise": "sakamichi",
-    "memberName": {
-      "ja": "乃木坂46",
-      "ko": "乃木坂46",
-      "en": "乃木坂46"
-    },
-    "memberGlyph": "乃",
-    "memberHueShift": 0,
-    "memberImage": "/files/46/assets/img/blog/none.png",
-    "title": "幸せの座標",
-    "publishedAt": "2026.08.21 17:54",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104784?ima=4949&cd=MEMBER",
+    "memberGlyph": "聖",
+    "memberHueShift": 35,
+    "memberImage": "https://ske48.co.jp/image/profile/member_102.jpg",
+    "title": "どんどん殻を破りたい！🥚✨️",
+    "publishedAt": "2026-08-26",
+    "url": "https://ske48.co.jp/blog/detail/89243/",
     "type": "official_blog"
   },
   {
@@ -545,6 +563,23 @@
     "title": "挑戦っ",
     "publishedAt": "2026-08-26",
     "url": "https://ske48.co.jp/blog/detail/89242/",
+    "type": "official_blog"
+  },
+  {
+    "id": "akb-ameblo-stu48-kagiga",
+    "groupId": "stu48",
+    "franchise": "akb48g",
+    "memberName": {
+      "ja": "STU48",
+      "ko": "STU48",
+      "en": "STU48"
+    },
+    "memberGlyph": "S",
+    "memberHueShift": 0,
+    "memberImage": null,
+    "title": "NATSLIVE「さーやんエネギリッシュごはん」「さらぴりりゴハン」9月の配信日が決定！",
+    "publishedAt": "2026-08-26",
+    "url": "https://www.stu48.com/news/detail/23238",
     "type": "official_blog"
   },
   {
@@ -930,24 +965,6 @@
     "type": "official_blog"
   },
   {
-    "id": "ske-blog-6eporm",
-    "groupId": "ske48",
-    "franchise": "akb48g",
-    "memberId": "ske48-sasaki-nozomi",
-    "memberName": {
-      "ja": "佐々木希美",
-      "ko": "사사키 노조미",
-      "en": "Sasaki Nozomi"
-    },
-    "memberGlyph": "佐",
-    "memberHueShift": -31,
-    "memberImage": "https://ske48.co.jp/image/profile/member_99.jpg",
-    "title": "素敵な経験！！",
-    "publishedAt": "2026-08-23",
-    "url": "https://ske48.co.jp/blog/detail/89233/",
-    "type": "official_blog"
-  },
-  {
     "id": "akb-ameblo-akb48-a584rr",
     "groupId": "akb48",
     "franchise": "akb48g",
@@ -1030,23 +1047,6 @@
     "title": "「ちかっぱ祭2026」出演メンバー決定！",
     "publishedAt": "2026-08-23",
     "url": "https://www.stu48.com/news/detail/23225",
-    "type": "official_blog"
-  },
-  {
-    "id": "akb-ameblo-stu48-kagifb",
-    "groupId": "stu48",
-    "franchise": "akb48g",
-    "memberName": {
-      "ja": "STU48",
-      "ko": "STU48",
-      "en": "STU48"
-    },
-    "memberGlyph": "S",
-    "memberHueShift": 0,
-    "memberImage": null,
-    "title": "「ちかっぱ祭2026」出演メンバー決定！",
-    "publishedAt": "2026-08-23",
-    "url": "https://www.stu48.com/news/detail/23224",
     "type": "official_blog"
   }
 ]
