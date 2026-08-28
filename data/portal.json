@@ -577,6 +577,29 @@
       }
     },
     {
+      "id": "hkt-auto-20260906-21229",
+      "groupIds": [
+        "hkt48"
+      ],
+      "title": {
+        "ja": "HKT48のバリおめ！2026年9月生誕記念 オンラインおしゃべり会",
+        "ko": "HKT48のバリおめ！2026年9月生誕記念 オンラインおしゃべり会",
+        "en": "HKT48のバリおめ！2026年9月生誕記念 オンラインおしゃべり会"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-09-06T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hkt48.jp/schedule/2026/09/21229",
+      "provenance": {
+        "sourceUrl": "https://www.hkt48.jp/schedule/2026/09",
+        "checkedAt": "2026-08-28"
+      }
+    },
+    {
       "id": "hkt-auto-20260909-21162",
       "groupIds": [
         "hkt48"
@@ -800,7 +823,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=1423&pri1=202609&wd00=2026&wd01=09&wd02=19",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=3739&pri1=202609&wd00=2026&wd01=09&wd02=19",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-08-28"
