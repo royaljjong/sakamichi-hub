@@ -1,5 +1,26 @@
 [
   {
+    "id": "yt-L8QBfd8Lh58",
+    "platform": "youtube",
+    "videoId": "L8QBfd8Lh58",
+    "memberId": "nmb48-sakashita-mako",
+    "memberName": {
+      "ja": "坂下真心",
+      "ko": "사카시타 마코",
+      "en": "Sakashita Mako"
+    },
+    "memberGlyph": "坂",
+    "memberHueShift": -17,
+    "memberImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/%E5%9D%82%E4%B8%8B_%E7%9C%9F%E5%BF%83.jpg/960px-%E5%9D%82%E4%B8%8B_%E7%9C%9F%E5%BF%83.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "groupId": "nmb48",
+    "franchise": "akb48g",
+    "title": "【千鳥の鬼レンチャン出演】男女混合リレーに出場した裏側を話します🏃【NMB48 坂下真心】",
+    "publishedAt": "2026-08-28T06:10:29+00:00",
+    "url": "https://www.youtube.com/watch?v=L8QBfd8Lh58",
+    "thumbnailUrl": "https://i1.ytimg.com/vi/L8QBfd8Lh58/hqdefault.jpg",
+    "channelUrl": "https://www.youtube.com/@sakashita_mako"
+  },
+  {
     "id": "yt-AE-LY9v3YS8",
     "platform": "youtube",
     "videoId": "AE-LY9v3YS8",
@@ -208,27 +229,6 @@
     "url": "https://www.youtube.com/watch?v=iPkFrc-2ziM",
     "thumbnailUrl": "https://i2.ytimg.com/vi/iPkFrc-2ziM/hqdefault.jpg",
     "channelUrl": "https://www.youtube.com/c/yukirinworld"
-  },
-  {
-    "id": "yt-Uv22_5No-d4",
-    "platform": "youtube",
-    "videoId": "Uv22_5No-d4",
-    "memberId": "nmb48-sakashita-mako",
-    "memberName": {
-      "ja": "坂下真心",
-      "ko": "사카시타 마코",
-      "en": "Sakashita Mako"
-    },
-    "memberGlyph": "坂",
-    "memberHueShift": -17,
-    "memberImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/%E5%9D%82%E4%B8%8B_%E7%9C%9F%E5%BF%83.jpg/960px-%E5%9D%82%E4%B8%8B_%E7%9C%9F%E5%BF%83.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "groupId": "nmb48",
-    "franchise": "akb48g",
-    "title": "チーム名決定！NMB48フットサルチームでボレーシュート対決⚽【坂下真心】",
-    "publishedAt": "2026-07-24T13:00:06+00:00",
-    "url": "https://www.youtube.com/watch?v=Uv22_5No-d4",
-    "thumbnailUrl": "https://i2.ytimg.com/vi/Uv22_5No-d4/hqdefault.jpg",
-    "channelUrl": "https://www.youtube.com/@sakashita_mako"
   },
   {
     "id": "yt-inOKyt9aiuI",
