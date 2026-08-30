@@ -754,7 +754,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=5915&pri1=202609&wd00=2026&wd01=09&wd02=19",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=4829&pri1=202609&wd00=2026&wd01=09&wd02=19",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-08-30"
@@ -968,6 +968,29 @@
       }
     },
     {
+      "id": "akb48-theater-auto-95934",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「ここからだ」公演",
+        "ko": "「ここからだ」公演",
+        "en": "「ここからだ」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-09-20T09:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
       "id": "saku-auto-count-11744-21",
       "groupIds": [
         "sakurazaka46"
@@ -1025,6 +1048,29 @@
       },
       "kind": "theater",
       "startsAt": "2026-09-21T04:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": "akb48-theater-auto-95936",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「ＲＥＳＥＴ」公演",
+        "ko": "「ＲＥＳＥＴ」公演",
+        "en": "「ＲＥＳＥＴ」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-09-21T08:30:00.000+00:00",
       "endsAt": null,
       "venueId": null,
       "posterUrl": null,
