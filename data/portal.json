@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-29",
+  "generatedAt": "2026-08-30",
   "brandAssets": [],
   "venues": [
     {
@@ -71,121 +71,6 @@
       }
     },
     {
-      "id": "saku-auto-count-11567-29",
-      "groupIds": [
-        "sakurazaka46"
-      ],
-      "title": {
-        "ja": "「Sakurazaka46 ARENA TOUR 2026 -What’s lonesome?-」",
-        "ko": "「Sakurazaka46 ARENA TOUR 2026 -What’s lonesome?-」",
-        "en": "「Sakurazaka46 ARENA TOUR 2026 -What’s lonesome?-」"
-      },
-      "kind": "concert",
-      "startsAt": "2026-08-29T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
-      "provenance": {
-        "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202608",
-        "checkedAt": "2026-08-29"
-      }
-    },
-    {
-      "id": "akb48-theater-auto-95673",
-      "groupIds": [
-        "akb48"
-      ],
-      "title": {
-        "ja": "「ＲＥＳＥＴ」公演",
-        "ko": "「ＲＥＳＥＴ」公演",
-        "en": "「ＲＥＳＥＴ」公演"
-      },
-      "kind": "theater",
-      "startsAt": "2026-08-29T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
-      "provenance": {
-        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-08-29"
-      }
-    },
-    {
-      "id": "hkt-auto-20260829-21160",
-      "groupIds": [
-        "hkt48"
-      ],
-      "title": {
-        "ja": "Sansan ＫＢＣオーガスタゴルフトーナメント２０２６／芥屋ゴルフ倶楽部",
-        "ko": "Sansan ＫＢＣオーガスタゴルフトーナメント２０２６／芥屋ゴルフ倶楽部",
-        "en": "Sansan ＫＢＣオーガスタゴルフトーナメント２０２６／芥屋ゴルフ倶楽部"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-08-29T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.hkt48.jp/schedule/2026/08/21160",
-      "provenance": {
-        "sourceUrl": "https://www.hkt48.jp/schedule/2026/08",
-        "checkedAt": "2026-08-29"
-      }
-    },
-    {
-      "id": "stu-auto-20260829-23066",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "@JAM EXPO 2026 supported by UP-T",
-        "ko": "@JAM EXPO 2026 supported by UP-T",
-        "en": "@JAM EXPO 2026 supported by UP-T"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-08-29T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23066",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/8/",
-        "checkedAt": "2026-08-29"
-      }
-    },
-    {
-      "id": "akb48-theater-auto-95672",
-      "groupIds": [
-        "akb48"
-      ],
-      "title": {
-        "ja": "「ＲＥＳＥＴ」公演",
-        "ko": "「ＲＥＳＥＴ」公演",
-        "en": "「ＲＥＳＥＴ」公演"
-      },
-      "kind": "theater",
-      "startsAt": "2026-08-29T07:30:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
-      "provenance": {
-        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-08-29"
-      }
-    },
-    {
       "id": "saku-auto-count-11567-30",
       "groupIds": [
         "sakurazaka46"
@@ -205,7 +90,7 @@
       "officialUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
       "provenance": {
         "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202608",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -228,7 +113,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -251,7 +136,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/08/21118",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/08",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -274,7 +159,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/22727",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/8/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -297,7 +182,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -320,7 +205,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/22801",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/8/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -343,7 +228,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -366,7 +251,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/22802",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -389,7 +274,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -412,7 +297,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/09/21227",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/09",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -435,7 +320,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -458,7 +343,7 @@
       "officialUrl": "https://www.hinatazaka46.com/s/official/media/detail/11736?ima=0000",
       "provenance": {
         "sourceUrl": "https://www.hinatazaka46.com/s/official/media/list?dy=202609",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -481,7 +366,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23199",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -504,7 +389,7 @@
       "officialUrl": "https://x.com/odoru_movief",
       "provenance": {
         "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202609",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -527,7 +412,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/09/21159",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/09",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -550,7 +435,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/09/21229",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/09",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -573,7 +458,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/09/21162",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/09",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -596,7 +481,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -619,7 +504,7 @@
       "officialUrl": "https://www.tv-asahi.co.jp/sakura__meets_event/",
       "provenance": {
         "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202609",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -642,7 +527,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -665,7 +550,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/09/20366",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/09",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -688,7 +573,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/22803",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -711,7 +596,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23151",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -734,7 +619,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23207",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -757,7 +642,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23223",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -777,10 +662,10 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=2242&pri1=202609&wd00=2026&wd01=09&wd02=19",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=1959&pri1=202609&wd00=2026&wd01=09&wd02=19",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -803,7 +688,7 @@
       "officialUrl": "https://tgc.girlswalker.com/26aw/",
       "provenance": {
         "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202609",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -826,7 +711,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/09/20714",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/09",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -849,7 +734,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/22744",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -872,7 +757,7 @@
       "officialUrl": "https://www.hinatazaka46.com/s/official/media/detail/11801?ima=0000",
       "provenance": {
         "sourceUrl": "https://www.hinatazaka46.com/s/official/media/list?dy=202609",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -895,7 +780,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/09/20715",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/09",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -918,7 +803,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23085",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -941,7 +826,7 @@
       "officialUrl": "https://rijfes.jp/",
       "provenance": {
         "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202609",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -964,7 +849,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23086",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -987,7 +872,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/22747",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -1010,7 +895,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/22748",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -1033,7 +918,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/09/21196",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/09",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -1056,7 +941,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23228",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -1079,7 +964,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/22804",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -1102,7 +987,7 @@
       "officialUrl": "https://sakurazaka46.com/s/s46/page/backslive_15th?ima=0000",
       "provenance": {
         "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202609",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -1125,7 +1010,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23208",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -1148,7 +1033,7 @@
       "officialUrl": "https://sakurazaka46.com/s/s46/page/backslive_15th?ima=0000",
       "provenance": {
         "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202609",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     },
     {
@@ -1171,7 +1056,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23209",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
-        "checkedAt": "2026-08-29"
+        "checkedAt": "2026-08-30"
       }
     }
   ],
