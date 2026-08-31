@@ -209,6 +209,29 @@
       }
     },
     {
+      "id": "hina-auto-202609-12050",
+      "groupIds": [
+        "hinatazaka46"
+      ],
+      "title": {
+        "ja": "日向市駅(日向坂46駅) 出発式",
+        "ko": "日向市駅(日向坂46駅) 出発式",
+        "en": "日向市駅(日向坂46駅) 出発式"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-09-03T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hinatazaka46.com/s/official/media/detail/12050?ima=0000",
+      "provenance": {
+        "sourceUrl": "https://www.hinatazaka46.com/s/official/media/list?dy=202609",
+        "checkedAt": "2026-08-31"
+      }
+    },
+    {
       "id": "hina-auto-202609-11736",
       "groupIds": [
         "hinatazaka46"
@@ -639,7 +662,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=3953&pri1=202609&wd00=2026&wd01=09&wd02=19",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=1758&pri1=202609&wd00=2026&wd01=09&wd02=19",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-08-31"
