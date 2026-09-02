@@ -117,37 +117,14 @@
       }
     },
     {
-      "id": "hina-auto-202609-12050",
-      "groupIds": [
-        "hinatazaka46"
-      ],
-      "title": {
-        "ja": "日向市駅(日向坂46駅) 出発式",
-        "ko": "日向市駅(日向坂46駅) 出発式",
-        "en": "日向市駅(日向坂46駅) 出発式"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-09-03T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.hinatazaka46.com/s/official/media/detail/12050?ima=0000",
-      "provenance": {
-        "sourceUrl": "https://www.hinatazaka46.com/s/official/media/list?dy=202609",
-        "checkedAt": "2026-09-02"
-      }
-    },
-    {
       "id": "hina-auto-202609-11736",
       "groupIds": [
         "hinatazaka46"
       ],
       "title": {
-        "ja": "「ひなたフェス2026」",
-        "ko": "「ひなたフェス2026」",
-        "en": "「ひなたフェス2026」"
+        "ja": "※開催中止※「ひなたフェス2026」",
+        "ko": "※開催中止※「ひなたフェス2026」",
+        "en": "※開催中止※「ひなたフェス2026」"
       },
       "kind": "concert",
       "startsAt": "2026-09-05T03:00:00.000+00:00",
@@ -570,7 +547,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=1242&pri1=202609&wd00=2026&wd01=09&wd02=19",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=1806&pri1=202609&wd00=2026&wd01=09&wd02=19",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-02"
@@ -904,9 +881,9 @@
         "stu48"
       ],
       "title": {
-        "ja": "高松festhalle 10th Anniversary〜STU48 Live week〜",
-        "ko": "高松festhalle 10th Anniversary〜STU48 Live week〜",
-        "en": "高松festhalle 10th Anniversary〜STU48 Live week〜"
+        "ja": "高松festhalle 10th Anniversary〜STU48 Live week〜 14thシングルの発売記念リリースイベント",
+        "ko": "高松festhalle 10th Anniversary〜STU48 Live week〜 14thシングルの発売記念リリースイベント",
+        "en": "高松festhalle 10th Anniversary〜STU48 Live week〜 14thシングルの発売記念リリースイベント"
       },
       "kind": "theater",
       "startsAt": "2026-09-22T03:00:00.000+00:00",
@@ -987,6 +964,29 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/09/21196",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/09",
+        "checkedAt": "2026-09-02"
+      }
+    },
+    {
+      "id": "nogi-auto-107345-20260926",
+      "groupIds": [
+        "nogizaka46"
+      ],
+      "title": {
+        "ja": "「Rakuten GirlsAward 2026 AUTUMN/WINTER」",
+        "ko": "「Rakuten GirlsAward 2026 AUTUMN/WINTER」",
+        "en": "「Rakuten GirlsAward 2026 AUTUMN/WINTER」"
+      },
+      "kind": "concert",
+      "startsAt": "2026-09-26T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107345?ima=1806&pri1=202609&wd00=2026&wd01=09&wd02=26",
+      "provenance": {
+        "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-02"
       }
     },
@@ -1329,7 +1329,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=1243&pri1=202610&wd00=2026&wd01=10&wd02=20",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=1813&pri1=202610&wd00=2026&wd01=10&wd02=20",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-02"
@@ -1375,7 +1375,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=1243&pri1=202610&wd00=2026&wd01=10&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=1813&pri1=202610&wd00=2026&wd01=10&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-02"
