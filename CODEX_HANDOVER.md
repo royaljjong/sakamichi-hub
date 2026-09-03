@@ -134,6 +134,7 @@ Sakamichi Box는 지역 탐색 서비스가 아니다. 첫 화면에서 `사카�
 - 2026-09-03 공식 프로필 재감사에서 AKB48·SKE48·HKT48·NGT48의 현재 명단과 상세 페이지를 이름 정확 일치로 병합했다. 생일 44건·사진 18건을 포함해 152명 필드를 보강했고, 정리 후 재실행 변경 0건을 확인했다.
 - 전체 현황과 공식 명단 불일치 목록은 `data/profile-audit-report.json`이 기준이다. Instagram 등 개인 SNS는 공식 상세 페이지에 링크가 없으면 누락이 아니라 미확인/미개설로 취급한다.
 - 보강 데이터는 Vercel 프로덕션 배포 `dpl_6hsWpH5fyg7vWwtqNoBNyQGV5vuc`에서 1,538/1,538 경로 빌드 후 `READY`로 반영됐다.
+- rMVP·데이터 정합성·문의 보안·운영 문서의 기준 커밋은 `8c5fef7`(`feat: complete rMVP data integrity refresh`)이다. 이후 인수인계 결과 기록은 별도 문서 마감 커밋으로 이어진다.
 
 ### 인프라
 - GitHub Actions: `daily-updates.yml` 6h 주기 (blogs · videos · events)
