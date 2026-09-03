@@ -52,6 +52,16 @@ function sleep(ms: number) {
   return new Promise<void>((resolve) => setTimeout(resolve, ms));
 }
 
+function httpsUrlOrFallback(candidate: string | undefined, fallback: string): string {
+  if (!candidate) return fallback;
+  try {
+    const url = new URL(candidate.replace(/&amp;/g, '&'));
+    return url.protocol === 'https:' ? url.toString() : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
 async function fetchNogizakaLives(now: Date) {
   const months = [now, new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1, 1))];
   const rows: NogiSchedule[] = [];
@@ -139,7 +149,7 @@ async function fetchSakurazakaEvents(now: Date): Promise<PortalEvent[]> {
 
       // Extract official URL from modal
       const linkMatch = body.match(/href="(https?:\/\/[^"]+)"/);
-      const officialUrl = linkMatch?.[1] ?? sourceUrl;
+      const officialUrl = httpsUrlOrFallback(linkMatch?.[1], sourceUrl);
 
       // Extract start time from date field if present (e.g. "2026.08.01  22:00～")
       const timeMatch = body.match(/<p class="date[^"]*">[^<&\s][^<&]*?(?:&nbsp;)+([0-9]{1,2}:[0-9]{2})[^<]*</);

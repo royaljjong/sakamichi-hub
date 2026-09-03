@@ -5,6 +5,7 @@ import { AmbientBackground } from '@/components/background/AmbientBackground';
 import { Navigation } from '@/components/ui/Navigation';
 import { Footer } from '@/components/ui/Footer';
 import { Link } from '@/i18n/routing';
+import { PrivateInquiryBoard } from '@/components/contact/PrivateInquiryBoard';
 
 interface ContactPageProps {
   params: Promise<{ locale: string }>;
@@ -31,7 +32,7 @@ export async function generateMetadata({ params }: ContactPageProps): Promise<Me
       ? '삭제 요청, 정보 수정, 일반 문의는 여기서 연락해 주세요.'
       : 'For takedown requests, corrections, or general inquiries, please contact us here.';
 
-  return { title, description };
+  return { metadataBase: new URL('https://sakamichi-hub.vercel.app'), title, description };
 }
 
 export default async function ContactPage({ params }: ContactPageProps) {
@@ -45,12 +46,10 @@ export default async function ContactPage({ params }: ContactPageProps) {
     kicker: 'Contact',
     pageTitle: isJa ? 'お問い合わせ' : isKo ? '문의' : 'Contact',
     intro: isJa
-      ? '下記メールアドレスよりご連絡ください。'
+      ? '会員登録なしで、ご自身で決めた一時IDとパスワードを使う非公開お問い合わせボックスです。'
       : isKo
-        ? '아래 이메일로 연락해 주세요.'
-        : 'Please reach out via email below.',
-
-    emailLabel: isJa ? 'メールアドレス' : isKo ? '이메일' : 'Email',
+        ? '회원가입 없이 직접 정한 임시 아이디와 비밀번호를 사용하는 비공개 문의함입니다.'
+        : 'Use the private inquiry box without an account by choosing a temporary ID and password.',
 
     purposesHeading: isJa ? 'お問い合わせ内容' : isKo ? '문의 목적' : 'Purposes',
     purposeTakedown: isJa ? '削除要請（権利者様優先対応）' : isKo ? '삭제 요청 (권리자 우선 대응)' : 'Takedown requests (rights holders receive priority)',
@@ -94,21 +93,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
 
         <div className="space-y-8 bg-[var(--white-veil)] p-6 sm:p-10 rounded-[32px] border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] shadow-[var(--shadow-soft)] backdrop-blur-md">
 
-          {/* Email */}
-          <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
-              {t.emailLabel}
-            </h2>
-            <p>
-              <a
-                href="mailto:royaljjong@gmail.com"
-                className="text-base font-semibold text-[var(--g-brand)] font-mono hover:underline underline-offset-2 transition-colors"
-              >
-                royaljjong@gmail.com
-              </a>
-            </p>
-          </section>
+          <PrivateInquiryBoard locale={locale} />
 
           {/* Purposes */}
           <section className="space-y-3">

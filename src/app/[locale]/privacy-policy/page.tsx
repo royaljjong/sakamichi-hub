@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: PrivacyPolicyPageProps): Prom
       ? '본 사이트가 수집하는 정보, 사용하는 쿠키 및 서드파티 서비스에 대해 안내합니다.'
       : 'Learn about the information we collect, cookies we use, and third-party services on this site.';
 
-  return { title, description };
+  return { metadataBase: new URL('https://sakamichi-hub.vercel.app'), title, description };
 }
 
 export default async function PrivacyPolicyPage({ params }: PrivacyPolicyPageProps) {
@@ -44,7 +44,7 @@ export default async function PrivacyPolicyPage({ params }: PrivacyPolicyPagePro
   const t = {
     kicker: 'Privacy Policy',
     pageTitle: isJa ? 'プライバシーポリシー' : isKo ? '개인정보 처리방침' : 'Privacy Policy',
-    lastUpdated: isJa ? '最終更新: 2026年8月23日' : isKo ? '최종 업데이트: 2026년 8월 23일' : 'Last updated: August 23, 2026',
+    lastUpdated: isJa ? '最終更新: 2026年8月25日' : isKo ? '최종 업데이트: 2026년 8월 25일' : 'Last updated: August 25, 2026',
 
     introHeading: isJa ? '1. はじめに' : isKo ? '1. 개요' : '1. Introduction',
     introBody: isJa
@@ -54,6 +54,12 @@ export default async function PrivacyPolicyPage({ params }: PrivacyPolicyPagePro
         : 'Sakamichi & 48 Group Link Hub ("this site") respects your privacy. This policy explains what information we collect — including analytics, cookies, and advertising data. By using this site, you agree to this policy.',
 
     dataHeading: isJa ? '2. 収集する情報' : isKo ? '2. 수집하는 정보' : '2. Data We Collect',
+    dataAccountHeading: isJa ? '非公開お問い合わせ' : isKo ? '비공개 문의' : 'Private inquiries',
+    dataAccountBody: isJa
+      ? '非公開お問い合わせ機能では、仮IDとパスワードの一方向ハッシュ、投稿内容、処理状態、回答を保存します。IDとパスワードの原文は保存しません。正しい組み合わせを知る投稿者、および運営者のみ閲覧できます。'
+      : isKo
+        ? '비공개 문의 기능은 임시 아이디와 비밀번호의 단방향 해시, 문의 내용, 처리 상태와 답변을 저장합니다. 아이디와 비밀번호 원문은 저장하지 않습니다. 올바른 조합을 아는 작성자 및 운영자만 열람할 수 있습니다.'
+        : 'The private inquiry feature stores one-way hashes of the temporary ID and password, plus the message, status, and replies. Plaintext IDs and passwords are not stored. Only a visitor with the correct pair, and the administrator, can read the inquiries.',
     dataAnalyticsHeading: isJa ? 'アナリティクス' : isKo ? '애널리틱스' : 'Analytics',
     dataAnalyticsBody: isJa
       ? '当サイトはVercel Analytics および Vercel Speed Insights を使用し、匿名のページビュー、ブラウザ情報、デバイス情報を収集します。これらのデータは個人を特定するものではなく、サイトのパフォーマンス改善のみに使用されます。'
@@ -66,20 +72,20 @@ export default async function PrivacyPolicyPage({ params }: PrivacyPolicyPagePro
       : isKo
         ? '본 사이트는 다음 목적으로 쿠키 및 로컬 스토리지를 사용할 수 있습니다: 세션 관리, 언어 설정 저장, 모션 애니메이션 설정 저장. 이는 사이트 기능 제공에 필요한 항목입니다.'
         : 'This site may use cookies and local storage for: session management, saving your language preference, and saving your motion animation preference. These are necessary for site functionality.',
-    dataAdsHeading: isJa ? '広告（有効化時）' : isKo ? '광고(활성화 시)' : 'Advertising (when active)',
+    dataAdsHeading: isJa ? '広告' : isKo ? '광고' : 'Advertising',
     dataAdsBody: isJa
-      ? '当サイトでは将来的にGoogle AdSenseによる広告を表示する予定です。広告が有効な場合、Googleはパーソナライズ広告の配信のためにCookieを設定することがあります。'
+      ? '当サイトではGoogle AdSenseによる広告を表示しています。Googleおよびその広告パートナーは、広告の配信・測定・不正防止のためにCookie等を使用する場合があります。表示される広告は、地域・端末設定・同意状況に応じてパーソナライズまたは非パーソナライズされることがあります。'
       : isKo
-        ? '본 사이트는 향후 Google AdSense 광고를 표시할 예정입니다. 광고가 활성화된 경우, Google은 개인화 광고 제공을 위해 쿠키를 설정할 수 있습니다.'
-        : 'This site may display Google AdSense ads in the future. When ads are active, Google may set cookies to serve personalized advertisements.',
+        ? '본 사이트는 Google AdSense 광고를 표시합니다. Google 및 광고 파트너는 광고 제공·측정·부정행위 방지를 위해 쿠키 등의 기술을 사용할 수 있습니다. 표시되는 광고는 지역, 기기 설정 및 동의 상태에 따라 개인 맞춤 또는 비개인 맞춤 방식일 수 있습니다.'
+        : 'This site displays Google AdSense ads. Google and its advertising partners may use cookies or similar technologies for ad delivery, measurement, and fraud prevention. Ads may be personalized or non-personalized depending on your region, device settings, and consent choices.',
 
     thirdPartyHeading: isJa ? '3. サードパーティサービス' : isKo ? '3. 서드파티 서비스' : '3. Third-Party Services',
     thirdPartyAdSenseHeading: 'Google AdSense',
     thirdPartyAdSenseBody: isJa
-      ? 'Google AdSense（有効化後）はパーソナライズ広告を配信するためにCookieを使用する場合があります。Googleの広告設定ページからパーソナライズ広告をオプトアウトできます。'
+      ? 'Google AdSenseは広告の配信および測定のためにCookie等を使用する場合があります。Googleの広告設定ページでパーソナライズ広告を管理できます。'
       : isKo
-        ? 'Google AdSense(활성화 후)는 개인화 광고를 제공하기 위해 쿠키를 사용할 수 있습니다. Google 광고 설정 페이지에서 개인화 광고를 거부할 수 있습니다.'
-        : 'Google AdSense (once enabled) may use cookies to serve personalized ads. You can opt out of personalized advertising via Google\'s ad settings page.',
+        ? 'Google AdSense는 광고 제공 및 측정을 위해 쿠키 등을 사용할 수 있습니다. Google 광고 설정 페이지에서 개인 맞춤 광고를 관리할 수 있습니다.'
+        : 'Google AdSense may use cookies or similar technologies to deliver and measure ads. You can manage personalized advertising through Google\'s ad settings page.',
     thirdPartyAdSenseLink: isJa ? 'Google広告設定' : isKo ? 'Google 광고 설정' : 'Google Ad Settings',
     thirdPartyVercelHeading: 'Vercel',
     thirdPartyVercelBody: isJa
@@ -87,6 +93,12 @@ export default async function PrivacyPolicyPage({ params }: PrivacyPolicyPagePro
       : isKo
         ? '본 사이트는 Vercel에 의해 호스팅되며, Vercel Analytics 및 인프라 서비스를 사용합니다. 자세한 내용은 Vercel의 개인정보 처리방침을 참조하세요.'
         : 'This site is hosted by Vercel and uses Vercel Analytics and infrastructure services. See Vercel\'s privacy policy for details.',
+    thirdPartySupabaseHeading: 'Supabase',
+    thirdPartySupabaseBody: isJa
+      ? '非公開お問い合わせデータの保存とパスワード照合にSupabaseを使用します。公開ロールにはテーブルの直接閲覧権限を付与しません。'
+      : isKo
+        ? '비공개 문의 데이터 저장과 비밀번호 확인에 Supabase를 사용합니다. 공개 역할에는 테이블 직접 조회 권한을 부여하지 않습니다.'
+        : 'Supabase stores private inquiries and verifies inquiry passwords. Public roles are not granted direct access to the inquiry table.',
     thirdPartyWikimediaHeading: 'Wikimedia',
     thirdPartyWikimediaBody: isJa
       ? '一部の画像はWikimedia Commonsにリンクしています。当サイトはWikipediaの画像をホスティングしておらず、外部リンクのみを提供しています。'
@@ -109,17 +121,17 @@ export default async function PrivacyPolicyPage({ params }: PrivacyPolicyPagePro
 
     retentionHeading: isJa ? '5. データ保存について' : isKo ? '5. 데이터 보존' : '5. Data Retention',
     retentionBody: isJa
-      ? '当サイトのサーバーには個人データを保存していません。アナリティクスデータはVercelのインフラ上で匿名化された形で処理されます。'
+      ? '仮IDのハッシュと投稿内容は、対応および履歴確認に必要な期間保存します。削除のご要望はお問い合わせページから送信できます。アナリティクスデータはVercelのインフラ上で匿名化された形で処理されます。'
       : isKo
-        ? '본 사이트 서버에는 개인 데이터를 저장하지 않습니다. 애널리틱스 데이터는 Vercel 인프라에서 익명화된 형태로 처리됩니다.'
-        : 'We do not store personal data on our servers. Analytics data is processed in anonymized form on Vercel\'s infrastructure.',
+        ? '임시 아이디 해시와 작성 내용은 문의 처리 및 이력 확인에 필요한 기간 동안 보관합니다. 삭제 요청은 문의 페이지에서 제출할 수 있습니다. 애널리틱스 데이터는 Vercel 인프라에서 익명화된 형태로 처리됩니다.'
+        : 'Temporary-ID hashes and messages are retained as needed to handle requests and maintain their history. Deletion requests can be submitted through the inquiry page. Analytics data is processed in anonymized form on Vercel\'s infrastructure.',
 
     contactHeading: isJa ? '6. お問い合わせ' : isKo ? '6. 문의' : '6. Contact',
     contactBody: isJa
-      ? 'プライバシーに関するご質問やデータ関連のお問い合わせは、下記メールアドレスまでお送りください。'
+      ? 'プライバシーやデータに関するご質問は、非公開お問い合わせページから送信してください。'
       : isKo
-        ? '개인정보 관련 질문 또는 데이터 관련 문의는 아래 이메일로 보내주세요.'
-        : 'For privacy-related questions or data-related inquiries, please contact us at:',
+        ? '개인정보 또는 데이터 관련 문의는 비공개 문의 페이지에서 제출해 주세요.'
+        : 'Submit privacy or data-related questions through the private inquiry page.',
   };
 
   return (
@@ -156,6 +168,10 @@ export default async function PrivacyPolicyPage({ params }: PrivacyPolicyPagePro
               {t.dataHeading}
             </h2>
             <div className="space-y-3 pl-4">
+              <div>
+                <h3 className="text-sm font-semibold text-[var(--g-ink)] mb-1">{t.dataAccountHeading}</h3>
+                <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.dataAccountBody}</p>
+              </div>
               <div>
                 <h3 className="text-sm font-semibold text-[var(--g-ink)] mb-1">{t.dataAnalyticsHeading}</h3>
                 <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.dataAnalyticsBody}</p>
@@ -207,6 +223,10 @@ export default async function PrivacyPolicyPage({ params }: PrivacyPolicyPagePro
                 </p>
               </div>
               <div>
+                <h3 className="text-sm font-semibold text-[var(--g-ink)] mb-1">{t.thirdPartySupabaseHeading}</h3>
+                <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.thirdPartySupabaseBody}</p>
+              </div>
+              <div>
                 <h3 className="text-sm font-semibold text-[var(--g-ink)] mb-1">{t.thirdPartyWikimediaHeading}</h3>
                 <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.thirdPartyWikimediaBody}</p>
               </div>
@@ -249,14 +269,6 @@ export default async function PrivacyPolicyPage({ params }: PrivacyPolicyPagePro
               {t.contactHeading}
             </h2>
             <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.contactBody}</p>
-            <p>
-              <a
-                href="mailto:royaljjong@gmail.com"
-                className="text-sm font-semibold text-[var(--g-brand)] font-mono hover:underline underline-offset-2 transition-colors"
-              >
-                royaljjong@gmail.com
-              </a>
-            </p>
             <p className="text-xs text-[var(--ink-faint)] pt-2">
               <Link href="/contact" className="underline underline-offset-2 hover:text-[var(--g-brand)] transition-colors">
                 {isJa ? 'お問い合わせページへ' : isKo ? '문의 페이지로' : 'Go to Contact page'}

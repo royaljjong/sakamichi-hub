@@ -1,5 +1,9 @@
 # Google AdSense Application Guide / Google AdSense 신청 가이드
 
+> **Status update (2026-08-25): AdSense is approved and ads are live.** The application steps below are retained as historical setup notes. Current operations should focus on Policy Center alerts, consent-message/CMP configuration, mobile placement quality, and `ads.txt` availability.
+>
+> **상태 갱신 (2026-08-25): AdSense 승인 완료, 광고 게재 중.** 아래 신청 단계는 초기 설정 이력으로 유지합니다. 현재 운영에서는 정책 센터 경고, 동의 메시지/CMP 설정, 모바일 광고 배치 품질, `ads.txt` 접근성을 우선 점검합니다.
+
 ---
 
 ## English
@@ -10,8 +14,8 @@ The following have been implemented to meet AdSense requirements:
 
 - **Privacy Policy** — `/privacy-policy` (trilingual: ja/ko/en)
 - **Terms of Service** — `/terms` (trilingual)
-- **Contact page** — `/contact` with `royaljjong@gmail.com`
-- **ads.txt** — `public/ads.txt` (placeholder — update after approval)
+- **Contact page** — `/contact` with a no-account private inquiry box using a temporary ID and password (no public operator email)
+- **ads.txt** — `public/ads.txt` (historical setup note; the live publisher ID is already present)
 - **AdSlot component** — `src/components/ads/AdSlot.tsx` (renders nothing until Publisher ID is set)
 - **Unique content** — member directory for Sakamichi Series + AKB48 Group with multilingual search
 
@@ -38,12 +42,12 @@ import Script from 'next/script';
 />
 ```
 
-### 3. What to Give Me After Approval
+### 3. Historical post-approval inputs (completed for the publisher ID)
 
 Once approved, provide:
 
 1. **Publisher ID** — e.g. `ca-pub-1234567890123456`
-   - Replace `pub-XXXXXXXXXXXXXXXX` in `public/ads.txt`
+   - Historical action: replace `pub-XXXXXXXXXXXXXXXX` in `public/ads.txt` (completed; do not restore the placeholder)
    - Set in Vercel: `NEXT_PUBLIC_ADSENSE_CLIENT=ca-pub-1234567890123456`
 2. **Ad Slot IDs** — created in AdSense dashboard under **Ads > By ad unit**
    - Use these as the `slot` prop on `<AdSlot slot="1234567890" />`
@@ -83,8 +87,8 @@ AdSense 요구 사항을 충족하기 위해 다음이 구현되었습니다:
 
 - **개인정보 처리방침** — `/privacy-policy` (3개 언어: ja/ko/en)
 - **이용약관** — `/terms` (3개 언어)
-- **문의 페이지** — `/contact` (`royaljjong@gmail.com`)
-- **ads.txt** — `public/ads.txt` (승인 후 업데이트 필요)
+- **문의 페이지** — `/contact` 임시 아이디·비밀번호 방식의 무회원 비공개 문의함(운영자 이메일 비공개)
+- **ads.txt** — `public/ads.txt` (역사 설정 기록이며 현재 운영 Publisher ID 반영 완료)
 - **AdSlot 컴포넌트** — `src/components/ads/AdSlot.tsx` (Publisher ID 설정 전까지 렌더링 안 함)
 - **고유 콘텐츠** — 사카미치 시리즈 + AKB48 그룹 다국어 멤버 디렉토리
 
@@ -99,12 +103,12 @@ AdSense 요구 사항을 충족하기 위해 다음이 구현되었습니다:
 
 인증 스니펫을 사이트에 추가하려면 `src/app/layout.tsx`에 next/script를 사용하여 추가하세요.
 
-### 3. 승인 후 제공해야 할 정보
+### 3. 승인 후 입력 항목의 역사 기록 (Publisher ID 반영 완료)
 
 승인 후 다음을 알려주세요:
 
 1. **Publisher ID** — 예: `ca-pub-1234567890123456`
-   - `public/ads.txt`에서 `pub-XXXXXXXXXXXXXXXX` 교체
+   - 과거 실행 항목: `public/ads.txt`의 `pub-XXXXXXXXXXXXXXXX` 교체 (완료, placeholder로 되돌리지 않음)
    - Vercel 환경변수 설정: `NEXT_PUBLIC_ADSENSE_CLIENT=ca-pub-1234567890123456`
 2. **광고 슬롯 ID** — AdSense 대시보드의 **광고 > 광고 단위별**에서 생성
    - `<AdSlot slot="1234567890" />`의 `slot` prop으로 사용

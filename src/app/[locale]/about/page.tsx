@@ -123,7 +123,7 @@ export default async function AboutPage({ params }: AboutPageProps) {
               権利者様からの削除要請やお問い合わせには迅速に対応いたします。下記メールアドレスまでご連絡ください。
             </p>
             <p className="text-xs sm:text-sm font-semibold text-[var(--g-brand)] font-mono">
-              contact@sakamichi-hub.example.com
+              {locale === 'ja' ? '非公開お問い合わせページをご利用ください。' : locale === 'ko' ? '비공개 문의 페이지를 이용해 주세요.' : 'Use the private inquiry page.'}
             </p>
           </section>
         </div>

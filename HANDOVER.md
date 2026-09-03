@@ -1,14 +1,14 @@
 # 🌸 사카미치 & 48그룹 통합 포털 (Sakamichi Hub) 시스템 인수인계서
 
-> **문서 버전:** 2.1.0  
-> **최종 수정일:** 2026-08-24  
-> **프로젝트 루트:** `D:\drive\programming\window\Sakamichi Box`  
-> **GitHub 저장소:** [https://github.com/royaljjong/sakamichi-hub](https://github.com/royaljjong/sakamichi-hub)  
-> **Vercel 라이브:** [https://sakamichi-hub.vercel.app](https://sakamichi-hub.vercel.app)  
+> **문서 버전:** 2.1.1
+> **최종 정합성 확인일:** 2026-08-30
+> **프로젝트 루트:** `D:\drive\programming\window\Sakamichi Box`
+> **GitHub 저장소:** [https://github.com/royaljjong/sakamichi-hub](https://github.com/royaljjong/sakamichi-hub)
+> **Vercel 라이브:** [https://sakamichi-hub.vercel.app](https://sakamichi-hub.vercel.app)
 
-> ⚠️ **현행 계약**: 이 문서는 초기 아키텍처 서술 기록입니다. 최신 실행 계약·완료 항목·다음 스텝은 [`CODEX_HANDOVER.md`](./CODEX_HANDOVER.md) (2026-08-24 갱신) 를 우선하며, 지난 리팩터 결정은 [`AUDIT_AND_REBUILD_PLAN.md`](./AUDIT_AND_REBUILD_PLAN.md) 를 참고하세요.
+> ⚠️ **역사 참고 문서**: 이 문서는 초기 아키텍처와 당시 데이터 파이프라인의 서술 기록이며 실행 계약이 아닙니다. 최신 실행 계약·완료 항목·Supabase 상태·다음 스텝은 [`CODEX_HANDOVER.md`](./CODEX_HANDOVER.md)를 우선하고, 제품 줄기는 [`PRODUCT_RMVP_PLAN.md`](./PRODUCT_RMVP_PLAN.md)를 따릅니다. 아래의 과거 수치·구조 설명은 별도 `당시 기준` 표시가 없는 한 현재 운영 지시로 사용하지 않습니다.
 > 
-> 현재 규모 (2026-08-24): **멤버 454 · 이벤트 56 · 싱글 256 · 영상 33 · 그룹 로고 16 · YouTube 채널 33 · TikTok 채널 19 · AdSense 승인 대기 중**
+> 현재 규모 (2026-08-30 검증): **멤버 454 · 이벤트 44 · 싱글 256 · 영상 33 · 그룹 로고 16 · YouTube 채널 33 · TikTok 채널 19 · AdSense 승인 완료·광고 게재 중**
 
 ---
 
@@ -17,9 +17,9 @@
 **사카미치 허브(Sakamichi Hub)**는 일본 3대 사카미치 그룹(**노기자카46, 사쿠라자카46, 히나타자카46**)과 **AKB48 그룹(국내 6개 그룹 및 해외 7개 자매그룹)**의 현역 멤버, 연구생, 졸업생(OG) 정보와 공식 SNS, 블로그 최신 갱신 피드를 통합 제공하는 Next.js 기반 다국어 웹 애플리케이션입니다.
 
 ### 🛠️ 기술 스택
-* **Framework:** Next.js 15.5.23 (App Router, SSG 기반 1,056개 정적 페이지 사전 생성)
+* **Framework:** Next.js 15 (`package.json` 범위 `^15.1.7`, App Router, 당시 검증 기준 1,536개 정적 페이지)
 * **Language:** TypeScript 5.x
-* **Styling:** Tailwind CSS v4, Vanilla CSS 토큰 시스템 (`src/app/globals.css`, OKLCH 컬러 팔레트)
+* **Styling:** Tailwind CSS v3.4, Vanilla CSS 토큰 시스템 (`src/app/globals.css`, OKLCH 컬러 팔레트)
 * **Internationalization:** `next-intl` (3개 국어: `ja` 기본, `ko`, `en`)
 * **Validation:** `zod` 3.x (스키마 무결성 검증)
 * **Package Manager:** `pnpm` 10.x
@@ -33,7 +33,7 @@
 Sakamichi Box/
 ├── data/                               # 애플리케이션 원천 데이터 (JSON)
 │   ├── groups.json                     # 16개 그룹 메타데이터 (아이디, 색상, 기수 정의, 공식 링크)
-│   ├── members.json                    # 453명 전체 멤버 데이터셋 (프로필, 사진, SNS 링크, 기수)
+│   ├── members.json                    # 454명 전체 멤버 데이터셋 (프로필, 사진, SNS 링크, 기수)
 │   └── latest-updates.json             # 공식 블로그 최신 피드 (사카미치 30개 + 48G 30개 = 60개)
 │
 ├── scripts/                            # 데이터 수집, 파싱, 검증 파이프라인
@@ -107,7 +107,9 @@ Sakamichi Box/
 3. **AKB48 해외 7개 자매그룹:**
    * `jkt48` (자카르타), `bnk48` (방콕), `cgm48` (치앙마이), `mnl48` (마닐라), `akb48-team-sh` (상하이), `akb48-team-tp` (타이베이), `klp48` (쿠알라룸푸르)
 
-### 3.2 멤버 데이터셋 (`data/members.json`) — 총 453명 (Wikipedia jawiki + 공식 사이트 확장 후)
+### 3.2 멤버 데이터셋 (`data/members.json`) — 당시 상세 분해 기록
+
+> 현재 총수는 454명이며 최신 분해와 커버리지는 `CODEX_HANDOVER.md`를 우선합니다. 아래 그룹별 수치는 초기 수집 시점의 역사 기록입니다.
 * **乃木坂46 (96명):** 현역 34명 + 졸업생 62명 (1기~6기생)
   * 수집 경로: 노기자카46 공식 API (`fetchNogizaka`) + `NOGI_SNS_MAP` 사전 매핑
 * **櫻坂46 (50명):** 현역 32명 + 졸업생 18명 (1기~4기생)
@@ -167,7 +169,7 @@ pnpm data:validate
 # 5. 로컬 개발 서버 실행 (http://localhost:3000)
 pnpm dev
 
-# 6. 타입 검사 및 프로덕션 빌드 (1,056개 정적 페이지 빌드)
+# 6. 타입 검사 및 프로덕션 빌드 (당시 검증 기준 1,536개 정적 페이지)
 pnpm typecheck
 pnpm build
 
@@ -184,4 +186,4 @@ npx vercel --prod --yes
 2. **48그룹 졸업생 사진 에셋:**
    * 현재 48그룹의 졸업생 중 일부는 외부 구형 CDN의 403 차단 방지를 위해 `GlyphAvatar`로 안전하게 폴백되어 있습니다. 향후 라이선스 검증된 고화질 오픈 아카이브나 소속사 고정 에셋으로 확장이 가능합니다.
 3. **블로그 피드 정기 자동화:**
-   * 현재 `scripts/fetch/updates.ts`는 수동 또는 배포 시 실행됩니다. GitHub Actions Workflow(크론 30분 주기)를 연결하여 자동 커밋 & 배포 트리거를 연동할 수 있습니다.
+   * 현재 GitHub Actions의 6시간 주기 수집과 사용자 수동 갱신 매크로가 운영됩니다. 실제 스케줄·실패 경계는 `CODEX_HANDOVER.md`와 workflow 파일을 우선합니다.

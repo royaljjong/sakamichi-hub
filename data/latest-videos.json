@@ -1,5 +1,47 @@
 [
   {
+    "id": "yt-oNGw3QRGTmc",
+    "platform": "youtube",
+    "videoId": "oNGw3QRGTmc",
+    "memberId": "nmb48-shibuya-nagisa",
+    "memberName": {
+      "ja": "渋谷凪咲",
+      "ko": "시부야 나기사",
+      "en": "Shibuya Nagisa"
+    },
+    "memberGlyph": "渋",
+    "memberHueShift": 17,
+    "memberImage": null,
+    "groupId": "nmb48",
+    "franchise": "akb48g",
+    "title": "【The Blood of Dawnwalker】 #1｜ネタバレ注意｜ドーンウォーカーとして生きます 【日ノ森あんず】",
+    "publishedAt": "2026-09-02T11:35:45+00:00",
+    "url": "https://www.youtube.com/watch?v=oNGw3QRGTmc",
+    "thumbnailUrl": "https://i4.ytimg.com/vi/oNGw3QRGTmc/hqdefault.jpg",
+    "channelUrl": "https://www.youtube.com/@nagichannel"
+  },
+  {
+    "id": "yt-Z1AB85dR3QA",
+    "platform": "youtube",
+    "videoId": "Z1AB85dR3QA",
+    "memberId": "nmb48-shibuya-nagisa",
+    "memberName": {
+      "ja": "渋谷凪咲",
+      "ko": "시부야 나기사",
+      "en": "Shibuya Nagisa"
+    },
+    "memberGlyph": "渋",
+    "memberHueShift": 17,
+    "memberImage": null,
+    "groupId": "nmb48",
+    "franchise": "akb48g",
+    "title": "【雑談】PCこわれてノートPCです 【日ノ森あんず】",
+    "publishedAt": "2026-09-01T03:03:25+00:00",
+    "url": "https://www.youtube.com/watch?v=Z1AB85dR3QA",
+    "thumbnailUrl": "https://i3.ytimg.com/vi/Z1AB85dR3QA/hqdefault.jpg",
+    "channelUrl": "https://www.youtube.com/@nagichannel"
+  },
+  {
     "id": "yt-L8QBfd8Lh58",
     "platform": "youtube",
     "videoId": "L8QBfd8Lh58",
@@ -81,48 +123,6 @@
     "publishedAt": "2026-08-23T10:11:50+00:00",
     "url": "https://www.youtube.com/watch?v=iuwOD6nkcDM",
     "thumbnailUrl": "https://i2.ytimg.com/vi/iuwOD6nkcDM/hqdefault.jpg",
-    "channelUrl": "https://www.youtube.com/@nagichannel"
-  },
-  {
-    "id": "yt-c5YX_XseSYw",
-    "platform": "youtube",
-    "videoId": "c5YX_XseSYw",
-    "memberId": "nmb48-shibuya-nagisa",
-    "memberName": {
-      "ja": "渋谷凪咲",
-      "ko": "시부야 나기사",
-      "en": "Shibuya Nagisa"
-    },
-    "memberGlyph": "渋",
-    "memberHueShift": 17,
-    "memberImage": null,
-    "groupId": "nmb48",
-    "franchise": "akb48g",
-    "title": "【パルワールド】 #1｜Re:ハードコアなランダム世界であんずをクリアまで導け！ 【日ノ森あんず】",
-    "publishedAt": "2026-08-22T17:49:19+00:00",
-    "url": "https://www.youtube.com/watch?v=c5YX_XseSYw",
-    "thumbnailUrl": "https://i4.ytimg.com/vi/c5YX_XseSYw/hqdefault.jpg",
-    "channelUrl": "https://www.youtube.com/@nagichannel"
-  },
-  {
-    "id": "yt-88em2tmqKXI",
-    "platform": "youtube",
-    "videoId": "88em2tmqKXI",
-    "memberId": "nmb48-shibuya-nagisa",
-    "memberName": {
-      "ja": "渋谷凪咲",
-      "ko": "시부야 나기사",
-      "en": "Shibuya Nagisa"
-    },
-    "memberGlyph": "渋",
-    "memberHueShift": 17,
-    "memberImage": null,
-    "groupId": "nmb48",
-    "franchise": "akb48g",
-    "title": "【Mortal Shell II】 #4｜ネタバレ注意｜戦士の亡骸をあつめて戦うソウルライク 【日ノ森あんず】",
-    "publishedAt": "2026-08-21T14:29:38+00:00",
-    "url": "https://www.youtube.com/watch?v=88em2tmqKXI",
-    "thumbnailUrl": "https://i1.ytimg.com/vi/88em2tmqKXI/hqdefault.jpg",
     "channelUrl": "https://www.youtube.com/@nagichannel"
   },
   {

@@ -12,9 +12,15 @@
     "data:fetch": "tsx scripts/fetch/all.ts",
     "data:events": "tsx scripts/fetch/events.ts",
     "data:links": "tsx scripts/check-links.ts",
-    "data:contrast": "tsx scripts/check-contrast.ts"
+    "data:contrast": "tsx scripts/check-contrast.ts",
+    "data:coverage": "tsx scripts/audit-coverage.ts",
+    "data:profiles": "tsx scripts/enrich-official-profiles.ts",
+    "data:profiles:write": "tsx scripts/enrich-official-profiles.ts --write",
+    "search:build": "tsx scripts/build-search-index.ts",
+    "search:verify": "tsx scripts/verify-search-discovery.ts"
   },
   "dependencies": {
+    "@supabase/supabase-js": "2.112.4",
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
     "motion": "^12.4.7",

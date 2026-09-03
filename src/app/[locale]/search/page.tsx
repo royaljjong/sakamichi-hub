@@ -30,6 +30,7 @@ export async function generateMetadata({ params }: SearchPageProps): Promise<Met
   }
 
   return {
+    metadataBase: new URL(BASE_URL),
     title,
     description,
     alternates: {

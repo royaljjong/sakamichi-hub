@@ -14,6 +14,7 @@ import { MemberCard } from '@/components/member/MemberCard';
 import { Ruby } from '@/components/ui/Ruby';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { CareerTimeline } from '@/components/member/CareerTimeline';
+import { buildMemberDiscoveryTerms, visibleMemberAliases } from '@/lib/identity';
 
 interface MemberPageProps {
   params: Promise<{ locale: string; memberId: string }>;
@@ -37,6 +38,7 @@ export async function generateMetadata({ params }: MemberPageProps): Promise<Met
   const kana = member.name.ja.kana;
   const hangul = member.name.ko.hangul;
   const romaji = member.name.en.romaji;
+  const discoveryTerms = buildMemberDiscoveryTerms(member, group);
 
   let title = '';
   let description = '';
@@ -68,7 +70,7 @@ export async function generateMetadata({ params }: MemberPageProps): Promise<Met
     '坂道シリーズ',
     '사카미치',
     'Sakamichi',
-    ...(member.name.aliases || []),
+    ...discoveryTerms,
     // Additional multilingual keywords
     'idol profile',
     'member SNS',
@@ -82,6 +84,7 @@ export async function generateMetadata({ params }: MemberPageProps): Promise<Met
   const canonicalUrl = `${BASE_URL}/${locale}/m/${member.id}`;
 
   return {
+    metadataBase: new URL(BASE_URL),
     title,
     description,
     keywords,
@@ -141,6 +144,8 @@ export default async function MemberPage({ params }: MemberPageProps) {
   const isGraduated = member.status === 'graduated';
   const genLabel = gen?.label[locale as 'ja' | 'ko' | 'en'] || gen?.label.ja || '';
   const groupName = group?.name[locale as 'ja' | 'ko' | 'en'] || group?.name.ja || '';
+  const discoveryTerms = buildMemberDiscoveryTerms(member, group);
+  const visibleAliases = visibleMemberAliases(member);
 
   // Schema.org Person JSON-LD
   const sameAsLinks = member.links.map((l) => l.url);
@@ -148,12 +153,7 @@ export default async function MemberPage({ params }: MemberPageProps) {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: member.name.ja.kanji,
-    alternateName: [
-      member.name.ja.kana,
-      member.name.ko.hangul,
-      member.name.en.romaji,
-      ...(member.name.aliases || []),
-    ],
+    alternateName: discoveryTerms,
     image: member.imageUrl || undefined,
     birthDate: member.birthDate || undefined,
     memberOf: group
@@ -245,6 +245,15 @@ export default async function MemberPage({ params }: MemberPageProps) {
                 {locale !== 'en' && <span>Romaji: {member.name.en.romaji}</span>}
               </div>
 
+              {visibleAliases.length > 0 && (
+                <div className="mt-3 flex flex-wrap items-center justify-center gap-2 sm:justify-start">
+                  <span className="text-xs font-semibold text-[var(--ink-soft)]">{t('aliasesLabel')}</span>
+                  {visibleAliases.map((alias) => (
+                    <span key={alias} className="identity-chip">{alias}</span>
+                  ))}
+                </div>
+              )}
+
               {/* Metadata */}
               <div className="mt-4 pt-4 border-t border-[color-mix(in_oklab,var(--g-ink)_8%,transparent)] flex flex-wrap items-center justify-center sm:justify-start gap-x-6 gap-y-1 text-xs text-[var(--ink-soft)] font-[family-name:var(--font-zen-kaku)]">
                 <span>{t('affiliationLabel')}: <strong>{groupName}</strong></span>
@@ -257,6 +266,21 @@ export default async function MemberPage({ params }: MemberPageProps) {
                 {member.specialties && member.specialties.length > 0 && <span>{t('specialtiesLabel')}: <strong>{member.specialties.join('・')}</strong></span>}
               </div>
             </div>
+          </div>
+
+          <div className="mt-6 border-t border-[color-mix(in_oklab,var(--g-ink)_8%,transparent)] pt-4 text-xs leading-6 text-[var(--ink-soft)]">
+            <span className="font-semibold text-[var(--g-ink)]">{t('sourceLabel')}: </span>
+            {member.provenance.sourceUrl ? (
+              <a
+                href={member.provenance.sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline decoration-[color-mix(in_oklab,var(--g-brand)_45%,transparent)] underline-offset-4 hover:text-[var(--g-brand)]"
+              >
+                {member.provenance.source === 'wikipedia_ja' ? 'Wikipedia (jawiki)' : t('officialSource')}
+              </a>
+            ) : t('officialSource')}
+            <span className="ml-2">· {t('checkedAtLabel')}: {member.provenance.checkedAt}</span>
           </div>
         </section>
 

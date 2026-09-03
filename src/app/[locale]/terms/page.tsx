@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: TermsPageProps): Promise<Meta
       ? '사카미치・48그룹 링크 허브 이용약관입니다. 사이트 목적, 콘텐츠 소유권, 이용자 행동 규범에 대해 안내합니다.'
       : 'Terms of Service for Sakamichi & 48 Group Link Hub. Covers site purpose, content ownership, and user conduct.';
 
-  return { title, description };
+  return { metadataBase: new URL('https://sakamichi-hub.vercel.app'), title, description };
 }
 
 export default async function TermsPage({ params }: TermsPageProps) {

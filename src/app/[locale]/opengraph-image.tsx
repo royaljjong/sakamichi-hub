@@ -2,10 +2,7 @@ import { ImageResponse } from 'next/og';
 
 export const runtime = 'edge';
 export const alt = '坂道シリーズ リンクハブ / Sakamichi Series Link Hub';
-export const size = {
-  width: 1200,
-  height: 630,
-};
+export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
 export default async function Image() {
@@ -24,7 +21,6 @@ export default async function Image() {
           position: 'relative',
         }}
       >
-        {/* Soft circle backdrop */}
         <div
           style={{
             position: 'absolute',
@@ -41,54 +37,23 @@ export default async function Image() {
             padding: 48,
           }}
         >
-          {/* Group 3-color indicator dots */}
           <div style={{ display: 'flex', gap: 12, marginBottom: 20 }}>
             <div style={{ width: 14, height: 14, borderRadius: '50%', background: '#8A6BC1' }} />
             <div style={{ width: 14, height: 14, borderRadius: '50%', background: '#E88AA6' }} />
             <div style={{ width: 14, height: 14, borderRadius: '50%', background: '#5AB4E0' }} />
           </div>
-
-          <h1
-            style={{
-              fontSize: 52,
-              fontWeight: 800,
-              color: '#3A3630',
-              margin: 0,
-              letterSpacing: '-0.02em',
-            }}
-          >
+          <h1 style={{ fontSize: 52, fontWeight: 800, color: '#3A3630', margin: 0, letterSpacing: '-0.02em' }}>
             坂道シリーズ リンクハブ
           </h1>
-
-          <p
-            style={{
-              fontSize: 22,
-              color: '#7A736A',
-              marginTop: 14,
-              marginBottom: 0,
-              textAlign: 'center',
-            }}
-          >
+          <p style={{ fontSize: 22, color: '#7A736A', marginTop: 14, marginBottom: 0, textAlign: 'center' }}>
             乃木坂46 • 櫻坂46 • 日向坂46 公式リンク集
           </p>
-
-          <div
-            style={{
-              marginTop: 28,
-              fontSize: 14,
-              color: '#8A6BC1',
-              fontWeight: 600,
-              letterSpacing: '0.1em',
-              textTransform: 'uppercase',
-            }}
-          >
+          <div style={{ marginTop: 28, fontSize: 14, color: '#8A6BC1', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>
             Sakamichi Series Official Link Hub
           </div>
         </div>
       </div>
     ),
-    {
-      ...size,
-    },
+    size,
   );
 }

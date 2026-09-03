@@ -1,14 +1,13 @@
 import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
-import { getGroups, getMembers, getLatestUpdates, getPortalData } from '@/lib/data';
+import { getGroups, getMembers, getLatestUpdates } from '@/lib/data';
 import { AmbientBackground } from '@/components/background/AmbientBackground';
 import { Navigation } from '@/components/ui/Navigation';
 import { Footer } from '@/components/ui/Footer';
 import { GroupComparePicker } from '@/components/compare/GroupComparePicker';
 import type { Group, Member } from '@/lib/schema';
 import type { RecentUpdate } from '@/lib/updates-schema';
-import type { RankingSnapshot } from '@/lib/portal-schema';
 
 interface ComparePageProps {
   params: Promise<{ locale: string }>;
@@ -37,6 +36,7 @@ export async function generateMetadata({ params }: ComparePageProps): Promise<Me
   }
 
   return {
+    metadataBase: new URL('https://sakamichi-hub.vercel.app'),
     title,
     description,
     alternates: {
@@ -100,12 +100,11 @@ interface GroupCardProps {
   group: Group;
   members: Member[];
   updates: RecentUpdate[];
-  topFollowers: Array<{ member: Member; followers: number }>;
   locale: Locale;
   t: Awaited<ReturnType<typeof getTranslations>>;
 }
 
-function GroupCard({ group, members, updates, topFollowers, locale, t }: GroupCardProps) {
+function GroupCard({ group, members, updates, locale, t }: GroupCardProps) {
   const lang = locale;
   const brand = group.palette.brand;
 
@@ -179,31 +178,6 @@ function GroupCard({ group, members, updates, topFollowers, locale, t }: GroupCa
           />
         )}
       </div>
-
-      {/* Top X followers */}
-      {topFollowers.length > 0 && (
-        <div>
-          <p className="section-kicker mb-2">{t('topFollowers')}</p>
-          <ol className="space-y-1.5">
-            {topFollowers.map(({ member, followers }, idx) => (
-              <li key={member.id} className="flex items-center gap-2">
-                <span
-                  className="inline-flex items-center justify-center w-6 h-6 rounded-full text-white text-[10px] font-bold shrink-0"
-                  style={{ backgroundColor: brand }}
-                >
-                  {idx + 1}
-                </span>
-                <span className="text-sm text-[var(--g-ink)] truncate">
-                  {member.name.ja.kanji}
-                </span>
-                <span className="ml-auto text-xs text-[var(--ink-soft)] tabular-nums shrink-0">
-                  {followers.toLocaleString()}
-                </span>
-              </li>
-            ))}
-          </ol>
-        </div>
-      )}
 
       {/* Latest posts */}
       {groupPosts.length > 0 && (
@@ -290,33 +264,6 @@ export default async function ComparePage({ params, searchParams }: ComparePageP
 
   const allMembers = getMembers();
   const latestUpdates = getLatestUpdates();
-  const portal = getPortalData();
-
-  // Build top-3 X followers per group from portal rankings
-  function getTopFollowers(groupId: string): Array<{ member: Member; followers: number }> {
-    const memberSnapshots: Array<{ snapshot: RankingSnapshot; member: Member }> = [];
-
-    for (const snap of portal.rankings) {
-      if (snap.metric !== 'x_followers' || snap.scope !== 'member') continue;
-      const member = allMembers.find((m) => m.id === snap.subjectId);
-      if (!member || member.primaryGroupId !== groupId) continue;
-      memberSnapshots.push({ snapshot: snap, member });
-    }
-
-    // De-dupe by member id, keep highest value
-    const byMember = new Map<string, { member: Member; followers: number }>();
-    for (const { snapshot, member } of memberSnapshots) {
-      const existing = byMember.get(member.id);
-      if (!existing || snapshot.value > existing.followers) {
-        byMember.set(member.id, { member, followers: snapshot.value });
-      }
-    }
-
-    return [...byMember.values()]
-      .sort((a, b) => b.followers - a.followers)
-      .slice(0, 3);
-  }
-
   // Compute grid column count class
   const colCount = selectedGroups.length;
   const gridClass =
@@ -366,7 +313,6 @@ export default async function ComparePage({ params, searchParams }: ComparePageP
                 group={group}
                 members={allMembers}
                 updates={latestUpdates}
-                topFollowers={getTopFollowers(group.id)}
                 locale={lang}
                 t={t}
               />

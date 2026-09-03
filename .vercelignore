@@ -1,0 +1,5 @@
+.next
+.tmp
+node_modules
+.git
+supabase/.temp

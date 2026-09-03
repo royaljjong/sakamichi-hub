@@ -231,6 +231,7 @@ export type FranchiseKind = z.infer<typeof FranchiseKind>;
 /** 지역 구분: 일본 국내 그룹 vs 해외 자매 그룹 */
 export const RegionKind = z.enum(['domestic', 'international']);
 export type RegionKind = z.infer<typeof RegionKind>;
+export const RosterScope = z.enum(['complete', 'partial', 'representative']);
 
 /** 배경 파티클 모티프. 그룹 정체성과 결합된다. */
 export const ParticleMotif = z.enum([
@@ -250,6 +251,8 @@ export const Group = z.object({
   id: Slug, // 'nogizaka46' | 'sakurazaka46' | 'hinatazaka46' | 'akb48' ...
   franchise: FranchiseKind.default('sakamichi'),
   region: RegionKind.default('domestic'),
+  /** 공식 명단 대비 현재 members.json 수록 범위. 자산 커버리지와 분리한다. */
+  rosterScope: RosterScope.default('partial'),
   baseLocation: LocalizedText.nullable().default(null),
   /** 정렬 순서 (데뷔순) */
   order: z.number().int().positive(),

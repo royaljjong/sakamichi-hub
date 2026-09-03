@@ -10,6 +10,7 @@ import { GroupHeader } from '@/components/group/GroupHeader';
 import { GroupView } from '@/components/group/GroupView';
 import { GroupInsights } from '@/components/group/GroupInsights';
 import { GroupDiscography } from '@/components/group/GroupDiscography';
+import { GroupDataStatus } from '@/components/group/GroupDataStatus';
 import { JsonLd } from '@/components/seo/JsonLd';
 
 interface GroupPageProps {
@@ -44,6 +45,7 @@ export async function generateMetadata({ params }: GroupPageProps): Promise<Meta
   const canonicalUrl = `${BASE_URL}/${locale}/g/${group.id}`;
 
   return {
+    metadataBase: new URL(BASE_URL),
     title,
     description,
     keywords: [
@@ -196,6 +198,7 @@ export default async function GroupPage({ params }: GroupPageProps) {
 
       <main id="main-content" className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 py-8 flex-1">
         <GroupHeader group={group} locale={locale} />
+        <GroupDataStatus group={group} members={members} portal={portal} singlesCount={singles.length} />
         <GroupInsights group={group} members={members} updates={updates} locale={locale} portal={portal} />
         <GroupDiscography singles={singles} group={group} locale={locale} />
         <GroupView group={group} members={members} locale={locale} />
