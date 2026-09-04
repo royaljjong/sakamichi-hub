@@ -44,6 +44,9 @@ jobs:
       - name: Fetch Latest Member Videos
         run: pnpm exec tsx scripts/fetch/videos.ts
 
+      - name: Validate data before commit
+        run: pnpm data:validate
+
       - name: Commit and Push if new blogs available
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
