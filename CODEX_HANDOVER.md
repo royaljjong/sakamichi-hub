@@ -73,12 +73,14 @@ Sakamichi Box는 지역 탐색 서비스가 아니다. 첫 화면에서 `사카�
 | 멤버 | **454명** (사카미치 3사 185 + AKB48G 269) |
 | 활동 멤버 사진 커버 | 235 실사진 + 100 그룹 로고 폴백 = 100% 시각 |
 | 이벤트 (portal) | **59건** (2026-09-03 `data:validate` 기준) |
-| YouTube 링크 | 33명 (졸업생 포함) |
-| TikTok 링크 | 19명 |
+| YouTube 링크 | 131명 (any link of type=youtube, 졸업생 포함)[^1] |
+| TikTok 링크 | 118명[^1] |
 | 최신 영상 | 34건 (YouTube만) |
 | 최신 블로그 | 60건 (사카미치 30 + AKB48G 30) |
 | 디스코그래피 싱글 | **256곡** (9그룹 커버) |
 | 랭킹 스냅숏 | 15 (화면 미노출의 보존 데이터, 자동 갱신 전 사용 금지) |
+
+[^1]: 계산 근거: `data/members.json`에서 `links[].type === 'youtube' | 'tiktok'`인 링크 엔트리를 가진 멤버 수. 개인 채널만 세는 것이 아니라 그룹 공식 채널 링크 포함 모든 항목. 재확인 명령: `node -e "const m=require('./data/members.json'); console.log(m.filter(x=>x.links&&x.links.some(l=>l.type==='youtube')).length)"` (tiktok 동일 패턴). 감사 기준 2026-09-04.
 
 ## 3. 완료된 구현 (2026-08-24 기준)
 

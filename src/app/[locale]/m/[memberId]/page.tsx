@@ -15,6 +15,7 @@ import { Ruby } from '@/components/ui/Ruby';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { CareerTimeline } from '@/components/member/CareerTimeline';
 import { buildMemberDiscoveryTerms, visibleMemberAliases } from '@/lib/identity';
+import { renderableLinks } from '@/lib/schema';
 
 interface MemberPageProps {
   params: Promise<{ locale: string; memberId: string }>;
@@ -296,7 +297,7 @@ export default async function MemberPage({ params }: MemberPageProps) {
               {t('linksHeading')}
             </h2>
             <span className="text-xs text-[var(--ink-soft)] font-[family-name:var(--font-zen-kaku)]">
-              {t('linksCount', { count: member.links.length })}
+              {t('linksCount', { count: renderableLinks(member.links).length })}
             </span>
           </div>
 
