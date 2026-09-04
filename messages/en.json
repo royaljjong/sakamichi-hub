@@ -94,7 +94,12 @@
     "statusTrainee": "Trainee",
     "browseByFilterHint": "Browse with filters…",
     "franchiseSakamichi": "Sakamichi Series",
-    "franchiseAkb48g": "AKB48 Group"
+    "franchiseAkb48g": "AKB48 Group",
+    "match": {
+      "name": "Name match: {term}",
+      "alias": "Alias match: {term}",
+      "group": "Group name match: {term}"
+    }
   },
   "about": {
     "disclaimerTitle": "Unofficial Fan Site Notice",
