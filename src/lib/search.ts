@@ -33,6 +33,10 @@ const SAKAMICHI_GROUP_IDS = new Set([
   'keyakizaka46',
 ]);
 
+/**
+ * @deprecated Use `Group.franchise` from `data/groups.json` directly.
+ * `scripts/build-search-index.ts` now reads franchise from group data.
+ */
 export function deriveFranchise(groupId: string): 'sakamichi' | 'akb48g' {
   return SAKAMICHI_GROUP_IDS.has(groupId) ? 'sakamichi' : 'akb48g';
 }

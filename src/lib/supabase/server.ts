@@ -16,6 +16,7 @@ export async function callPrivateInquiryRpc(rpc: InquiryRpc, payload: Record<str
     method: 'POST',
     headers: {
       apikey: secretKey,
+      Authorization: `Bearer ${secretKey}`,
       'content-type': 'application/json',
     },
     body: JSON.stringify(payload),

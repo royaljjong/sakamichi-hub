@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import type { Member, Group } from '../src/lib/schema';
-import { extractChoseong, deriveFranchise, type SearchIndexItem } from '../src/lib/search';
+import { extractChoseong, type SearchIndexItem } from '../src/lib/search';
 import { buildMemberDiscoveryTerms } from '../src/lib/identity';
 
 function buildIndex() {
@@ -18,13 +18,16 @@ function buildIndex() {
     ? (JSON.parse(fs.readFileSync(groupsPath, 'utf-8')) as { groups: Group[] }).groups ?? []
     : [];
   const groupMap = new Map(groups.map((g) => [g.id, g]));
+  const franchiseMap = new Map<string, 'sakamichi' | 'akb48g'>(
+    groups.map((g) => [g.id, g.franchise as 'sakamichi' | 'akb48g'])
+  );
 
   const indexItems: SearchIndexItem[] = members.map((m) => {
     const group = groupMap.get(m.primaryGroupId);
     return {
       id: m.id,
       groupId: m.primaryGroupId,
-      franchise: deriveFranchise(m.primaryGroupId),
+      franchise: franchiseMap.get(m.primaryGroupId) ?? 'akb48g',
       genId: m.primaryGenerationId,
       status: m.status,
       kanji: m.name.ja.kanji,

@@ -14,6 +14,10 @@ const GROUPS = [
 ];
 
 export default function BackgroundDevPage() {
+  if (process.env.NODE_ENV === 'production') {
+    return null;
+  }
+
   const [selectedGroup, setSelectedGroup] = useState('home');
   const currentMotif = GROUPS.find((g) => g.id === selectedGroup)?.motif || 'mixed';
 
