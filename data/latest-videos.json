@@ -1,5 +1,26 @@
 [
   {
+    "id": "yt-sUPZmLIOoJs",
+    "platform": "youtube",
+    "videoId": "sUPZmLIOoJs",
+    "memberId": "nmb48-shibuya-nagisa",
+    "memberName": {
+      "ja": "渋谷凪咲",
+      "ko": "시부야 나기사",
+      "en": "Shibuya Nagisa"
+    },
+    "memberGlyph": "渋",
+    "memberHueShift": 17,
+    "memberImage": null,
+    "groupId": "nmb48",
+    "franchise": "akb48g",
+    "title": "【The Blood of Dawnwalker】 #3｜ネタバレ注意｜ドーンウォーカーとして生きます 【日ノ森あんず】",
+    "publishedAt": "2026-09-04T09:58:27+00:00",
+    "url": "https://www.youtube.com/watch?v=sUPZmLIOoJs",
+    "thumbnailUrl": "https://i4.ytimg.com/vi/sUPZmLIOoJs/hqdefault.jpg",
+    "channelUrl": "https://www.youtube.com/@nagichannel"
+  },
+  {
     "id": "yt-IHNoX2UJwMI",
     "platform": "youtube",
     "videoId": "IHNoX2UJwMI",
@@ -102,27 +123,6 @@
     "publishedAt": "2026-08-25T15:41:57+00:00",
     "url": "https://www.youtube.com/watch?v=AE-LY9v3YS8",
     "thumbnailUrl": "https://i2.ytimg.com/vi/AE-LY9v3YS8/hqdefault.jpg",
-    "channelUrl": "https://www.youtube.com/@nagichannel"
-  },
-  {
-    "id": "yt-XAvuMegaKgE",
-    "platform": "youtube",
-    "videoId": "XAvuMegaKgE",
-    "memberId": "nmb48-shibuya-nagisa",
-    "memberName": {
-      "ja": "渋谷凪咲",
-      "ko": "시부야 나기사",
-      "en": "Shibuya Nagisa"
-    },
-    "memberGlyph": "渋",
-    "memberHueShift": 17,
-    "memberImage": null,
-    "groupId": "nmb48",
-    "franchise": "akb48g",
-    "title": "【パルワールド】 #3｜Re:ハードコアなランダム世界であんずをクリアまで導け！ 【日ノ森あんず】",
-    "publishedAt": "2026-08-24T15:32:11+00:00",
-    "url": "https://www.youtube.com/watch?v=XAvuMegaKgE",
-    "thumbnailUrl": "https://i1.ytimg.com/vi/XAvuMegaKgE/hqdefault.jpg",
     "channelUrl": "https://www.youtube.com/@nagichannel"
   },
   {
