@@ -31,6 +31,7 @@ export async function generateMetadata({ params }: GenerationPageProps): Promise
   const canonicalUrl = `${BASE_URL}/${locale}/g/${group.id}/gen/${gen.id}`;
 
   return {
+    metadataBase: new URL(BASE_URL),
     title,
     description,
     keywords: [groupName, genLabel, group.name.ja, group.name.ko, group.name.en, 'メンバー', '공식 블로그'],

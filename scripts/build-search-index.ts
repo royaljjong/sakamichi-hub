@@ -2,6 +2,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import type { Member, Group } from '../src/lib/schema';
 import { extractChoseong, deriveFranchise, type SearchIndexItem } from '../src/lib/search';
+import { buildMemberDiscoveryTerms } from '../src/lib/identity';
 
 function buildIndex() {
   const membersPath = path.join(__dirname, '..', 'data', 'members.json');
@@ -18,23 +19,28 @@ function buildIndex() {
     : [];
   const groupMap = new Map(groups.map((g) => [g.id, g]));
 
-  const indexItems: SearchIndexItem[] = members.map((m) => ({
-    id: m.id,
-    groupId: m.primaryGroupId,
-    franchise: deriveFranchise(m.primaryGroupId),
-    genId: m.primaryGenerationId,
-    status: m.status,
-    kanji: m.name.ja.kanji,
-    kana: m.name.ja.kana,
-    hangul: m.name.ko.hangul,
-    hangulChoseong: extractChoseong(m.name.ko.hangul),
-    romaji: m.name.en.romaji,
-    aliases: m.name.aliases || [],
-    glyph: m.avatar.glyph,
-    hueShift: m.avatar.hueShift,
-    imageUrl: m.imageUrl || null,
-    groupLogoUrl: groupMap.get(m.primaryGroupId)?.logoUrl ?? null,
-  }));
+  const indexItems: SearchIndexItem[] = members.map((m) => {
+    const group = groupMap.get(m.primaryGroupId);
+    return {
+      id: m.id,
+      groupId: m.primaryGroupId,
+      franchise: deriveFranchise(m.primaryGroupId),
+      genId: m.primaryGenerationId,
+      status: m.status,
+      kanji: m.name.ja.kanji,
+      kana: m.name.ja.kana,
+      hangul: m.name.ko.hangul,
+      hangulChoseong: extractChoseong(m.name.ko.hangul),
+      romaji: m.name.en.romaji,
+      aliases: m.name.aliases || [],
+      searchTerms: buildMemberDiscoveryTerms(m, group),
+      groupName: group?.name ?? { ja: m.primaryGroupId, ko: m.primaryGroupId, en: m.primaryGroupId },
+      glyph: m.avatar.glyph,
+      hueShift: m.avatar.hueShift,
+      imageUrl: m.imageUrl || null,
+      groupLogoUrl: group?.logoUrl ?? null,
+    };
+  });
 
   const publicDir = path.join(__dirname, '..', 'public');
   if (!fs.existsSync(publicDir)) fs.mkdirSync(publicDir, { recursive: true });

@@ -1,16 +1,50 @@
 {
-  "checkedAt": "2026-08-16",
-  "totalLinks": 303,
-  "okCount": 295,
-  "redirectedCount": 2,
-  "deadCount": 6,
-  "unverifiedCount": 0,
+  "checkedAt": "2026-08-30",
+  "totalLinks": 777,
+  "okCount": 642,
+  "redirectedCount": 33,
+  "deadCount": 67,
+  "unverifiedCount": 35,
   "deadLinks": [
     {
-      "memberId": "saku-hirate-yurina",
-      "url": "https://cloud9-pro.com/artist/profile/yurinahirate/",
-      "status": 0,
-      "error": "fetch failed"
+      "memberId": "nogi-hori-miona",
+      "url": "https://x.com/mionaaaaa_staff",
+      "status": 404
+    },
+    {
+      "memberId": "nogi-hori-miona",
+      "url": "https://www.youtube.com/c/horimiona37",
+      "status": 404
+    },
+    {
+      "memberId": "nogi-wakatsuki-yumi",
+      "url": "https://x.com/WASM_official",
+      "status": 404
+    },
+    {
+      "memberId": "nogi-wakatsuki-yumi",
+      "url": "https://www.youtube.com/@wakatsukiyumi_channel",
+      "status": 404
+    },
+    {
+      "memberId": "nogi-matsumura-sayuri",
+      "url": "https://www.youtube.com/@matsumutei",
+      "status": 404
+    },
+    {
+      "memberId": "nogi-takayama-kazumi",
+      "url": "https://www.youtube.com/@KazumiTakayama_Official",
+      "status": 404
+    },
+    {
+      "memberId": "nogi-inoue-sayuri",
+      "url": "https://www.youtube.com/@sayu_channel",
+      "status": 404
+    },
+    {
+      "memberId": "nogi-ikoma-rina",
+      "url": "https://x.com/ikomarina_staff",
+      "status": 404
     },
     {
       "memberId": "saku-nagahama-neru",
@@ -23,19 +57,489 @@
       "status": 404
     },
     {
+      "memberId": "saku-sugai-yuuka",
+      "url": "https://www.youtube.com/@yuukasugai_official",
+      "status": 404
+    },
+    {
+      "memberId": "saku-satou-shiori",
+      "url": "https://x.com/shiorisato_art",
+      "status": 404
+    },
+    {
+      "memberId": "saku-oda-nana",
+      "url": "https://x.com/odanana_1107",
+      "status": 404
+    },
+    {
+      "memberId": "saku-shida-manaka",
+      "url": "https://www.youtube.com/@shidamanaka_official",
+      "status": 404
+    },
+    {
       "memberId": "hina-saitou-kyouko",
-      "url": "https://x.com/saitokyoko_fc",
+      "url": "https://x.com/kyoko_saito_09",
+      "status": 404
+    },
+    {
+      "memberId": "hina-saitou-kyouko",
+      "url": "https://www.youtube.com/@saitoukyoko_official",
       "status": 404
     },
     {
       "memberId": "hina-watanabe-miho",
-      "url": "https://x.com/mihowatanabestf",
+      "url": "https://x.com/mihowatanabe_st",
       "status": 404
     },
     {
-      "memberId": "hina-miyata-manamo",
-      "url": "https://x.com/manamumemo",
+      "memberId": "akb48-mukaichi-mion",
+      "url": "https://www.youtube.com/@yunamogion",
       "status": 404
+    },
+    {
+      "memberId": "akb48-murayama-yuiri",
+      "url": "https://www.youtube.com/@yunamogion",
+      "status": 404
+    },
+    {
+      "memberId": "akb48-maeda-atsuko",
+      "url": "https://www.youtube.com/@atsukomaeda_official",
+      "status": 404
+    },
+    {
+      "memberId": "akb48-sashihara-rino",
+      "url": "https://www.youtube.com/c/345channel",
+      "status": 404
+    },
+    {
+      "memberId": "akb48-takahashi-minami",
+      "url": "https://x.com/taka48_chan",
+      "status": 404
+    },
+    {
+      "memberId": "akb48-kojima-haruna",
+      "url": "https://www.youtube.com/c/HARUNAKOJIMA_official",
+      "status": 404
+    },
+    {
+      "memberId": "akb48-shinoda-mariko",
+      "url": "https://www.youtube.com/@shinodamariko_channel",
+      "status": 404
+    },
+    {
+      "memberId": "akb48-minegishi-minami",
+      "url": "https://www.youtube.com/@minegishi_minami",
+      "status": 404
+    },
+    {
+      "memberId": "akb48-okada-nana",
+      "url": "https://www.youtube.com/c/okadanana_official",
+      "status": 404
+    },
+    {
+      "memberId": "ske48-kumazaki-haruka",
+      "url": "https://ske48.co.jp/profile/detail/kumazaki_haruka",
+      "status": 404
+    },
+    {
+      "memberId": "ske48-nomura-miyo",
+      "url": "https://ske48.co.jp/profile/detail/nomura_miyo",
+      "status": 404
+    },
+    {
+      "memberId": "ske48-asai-yuuka",
+      "url": "https://ske48.co.jp/profile/detail/asai_yuka",
+      "status": 404
+    },
+    {
+      "memberId": "ske48-inoue-ruka",
+      "url": "https://ske48.co.jp/profile/detail/inoue_ruka",
+      "status": 404
+    },
+    {
+      "memberId": "ske48-kitagawa-yoshino",
+      "url": "https://ske48.co.jp/profile/detail/kitagawa_yoshino",
+      "status": 404
+    },
+    {
+      "memberId": "ske48-satou-kaho",
+      "url": "https://ske48.co.jp/profile/detail/sato_kaho",
+      "status": 404
+    },
+    {
+      "memberId": "ske48-kamata-natsuki",
+      "url": "https://x.com/nkkk_kmmt",
+      "status": 404
+    },
+    {
+      "memberId": "ske48-suda-akari",
+      "url": "https://www.youtube.com/@akari_suda",
+      "status": 404
+    },
+    {
+      "memberId": "nmb48-kojima-karin",
+      "url": "https://www.youtube.com/c/kojimarin",
+      "status": 404
+    },
+    {
+      "memberId": "nmb48-izumi-ayano",
+      "url": "https://x.com/ayanon_nmb48",
+      "status": 404
+    },
+    {
+      "memberId": "nmb48-haga-rei",
+      "url": "https://x.com/haga_rei_48",
+      "status": 404
+    },
+    {
+      "memberId": "nmb48-yamamoto-sayaka",
+      "url": "https://www.youtube.com/c/sayakayamamoto",
+      "status": 404
+    },
+    {
+      "memberId": "nmb48-shiroma-miru",
+      "url": "https://www.youtube.com/@mirurunchannel",
+      "status": 404
+    },
+    {
+      "memberId": "hkt48-sakamoto-erena",
+      "url": "https://x.com/Ern807",
+      "status": 404
+    },
+    {
+      "memberId": "hkt48-mogami-nanaka",
+      "url": "https://x.com/natanacho_0128",
+      "status": 404
+    },
+    {
+      "memberId": "hkt48-miyawaki-sakura",
+      "url": "https://www.youtube.com/@ChannelMiyawaki",
+      "status": 404
+    },
+    {
+      "memberId": "ngt48-satou-kairi",
+      "url": "https://x.com/SatouKairi_48",
+      "status": 404
+    },
+    {
+      "memberId": "ngt48-ootsuka-nanami",
+      "url": "https://x.com/otsuka_nanami",
+      "status": 404
+    },
+    {
+      "memberId": "ngt48-ogino-yuka",
+      "url": "https://x.com/yuka_ogino48",
+      "status": 404
+    },
+    {
+      "memberId": "stu48-okada-azumi",
+      "url": "https://sp.stu48.com/feature/profile_okada_azumi",
+      "status": 404
+    },
+    {
+      "memberId": "stu48-okada-azumi",
+      "url": "https://x.com/azumi_stu48",
+      "status": 404
+    },
+    {
+      "memberId": "stu48-nakamura-mai",
+      "url": "https://sp.stu48.com/feature/profile_nakamura_mai",
+      "status": 404
+    },
+    {
+      "memberId": "stu48-ishida-chiho",
+      "url": "https://sp.stu48.com/feature/profile_ishida_chiho",
+      "status": 404
+    },
+    {
+      "memberId": "stu48-fukuda-akari",
+      "url": "https://sp.stu48.com/feature/profile_fukuda_akari",
+      "status": 404
+    },
+    {
+      "memberId": "stu48-taniguchi-mahina",
+      "url": "https://x.com/Mahina_STU48",
+      "status": 404
+    },
+    {
+      "memberId": "stu48-hyoudou-aoi",
+      "url": "https://x.com/blue_Aoiheart",
+      "status": 404
+    },
+    {
+      "memberId": "stu48-mineyoshi-arisa",
+      "url": "https://x.com/arisa_stu48",
+      "status": 404
+    },
+    {
+      "memberId": "stu48-morishita-maiha",
+      "url": "https://x.com/maiha_48zomi",
+      "status": 404
+    },
+    {
+      "memberId": "stu48-kudou-riko",
+      "url": "https://x.com/riko_kudo329",
+      "status": 404
+    },
+    {
+      "memberId": "stu48-kojima-aiko",
+      "url": "https://x.com/stu48_aiko_c",
+      "status": 404
+    },
+    {
+      "memberId": "stu48-harada-sayaka",
+      "url": "https://x.com/harada_sayaka_",
+      "status": 404
+    },
+    {
+      "memberId": "stu48-muneyuki-rika",
+      "url": "https://x.com/grkc_stu48",
+      "status": 404
+    },
+    {
+      "memberId": "stu48-yoshida-sara",
+      "url": "https://x.com/sarah_10_0221",
+      "status": 404
+    },
+    {
+      "memberId": "stu48-watanabe-natsuki",
+      "url": "https://x.com/stu48_natsuki",
+      "status": 404
+    },
+    {
+      "memberId": "bnk48-fupu",
+      "url": "https://www.bnk48.com/bnk48-members/detail/hoop",
+      "status": 404
+    },
+    {
+      "memberId": "akb48-team-tp-ryuu-gosei",
+      "url": "https://www.akb48teamtp.com/members/77_yuqing",
+      "status": 404
+    },
+    {
+      "memberId": "klp48-gyouten-yurina",
+      "url": "https://klp48.my/members/yurina_gyoten",
+      "status": 404
+    },
+    {
+      "memberId": "klp48-kurosu-haruka",
+      "url": "https://klp48.my/members/haruka_kurosu",
+      "status": 404
+    },
+    {
+      "memberId": "klp48-kurosu-haruka",
+      "url": "https://x.com/kurosu_haruka_",
+      "status": 404
+    },
+    {
+      "memberId": "klp48-yamane-suzuha",
+      "url": "https://klp48.my/members/suzuha_yamane",
+      "status": 404
+    },
+    {
+      "memberId": "klp48-yamane-suzuha",
+      "url": "https://x.com/48_asayan",
+      "status": 404
+    }
+  ],
+  "unverifiedLinks": [
+    {
+      "memberId": "nogi-matsumura-sayuri",
+      "url": "https://sayurimatsumura.com/",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "nogi-ikoma-rina",
+      "url": "https://ikomarina.com/",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "saku-hirate-yurina",
+      "url": "https://cloud9-pro.com/artist/profile/yurinahirate/",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "saku-nagahama-neru",
+      "url": "https://seedandflower.co.jp/s/sal/artist/002",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "saku-sugai-yuuka",
+      "url": "https://seedandflower.co.jp/s/sal/artist/006",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "saku-watanabe-risa",
+      "url": "https://seedandflower.co.jp/s/sal/artist/003",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "saku-kobayashi-yui",
+      "url": "https://seedandflower.co.jp/s/sal/artist/009",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "saku-habu-mizuho",
+      "url": "https://habumizuho.com/",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "hina-saitou-kyouko",
+      "url": "https://seedandflower.co.jp/s/sal/artist/010",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "hina-kageyama-yuuka",
+      "url": "https://production.ogipro.com/talent/kageyamayuka/",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "hina-katou-shiho",
+      "url": "https://seedandflower.co.jp/s/sal/artist/011",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "hina-higashimura-mei",
+      "url": "https://seedandflower.co.jp/s/sal/artist/012",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "hina-nibu-akari",
+      "url": "https://seedandflower.co.jp/s/sal/artist/013",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "hina-hamagishi-hiyori",
+      "url": "https://seedandflower.co.jp/s/sal/artist/014",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "hina-takamoto-ayaka",
+      "url": "https://seedandflower.co.jp/s/sal/artist/015",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "nmb48-kojima-karin",
+      "url": "https://www.nmb48.com/member/kojima_karin",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "nmb48-shiotsuki-keito",
+      "url": "https://www.nmb48.com/member/shiotsuki_keito",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "nmb48-sakata-misaki",
+      "url": "https://www.nmb48.com/member/sakata_misaki",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "nmb48-kawakami-chihiro",
+      "url": "https://www.nmb48.com/member/kawakami_chihiro",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "nmb48-jounishi-rei",
+      "url": "https://www.nmb48.com/member/jonishi_rei",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "hkt48-toyonaga-aki",
+      "url": "https://www.hkt48.jp/profile/toyonaga_aki",
+      "status": 500
+    },
+    {
+      "memberId": "hkt48-ishibashi-ibuki",
+      "url": "https://www.hkt48.jp/profile/ishibashi_ibuki",
+      "status": 500
+    },
+    {
+      "memberId": "hkt48-takemoto-kurumi",
+      "url": "https://www.hkt48.jp/profile/takemoto_kurumi",
+      "status": 500
+    },
+    {
+      "memberId": "hkt48-ichimura-airi",
+      "url": "https://www.hkt48.jp/profile/ichimura_airi",
+      "status": 500
+    },
+    {
+      "memberId": "ngt48-nishigata-marina",
+      "url": "https://ngt48.jp/profile/detail/nishigata_marina",
+      "status": 500
+    },
+    {
+      "memberId": "ngt48-seiji-reina",
+      "url": "https://ngt48.jp/profile/detail/seiji_reina",
+      "status": 500
+    },
+    {
+      "memberId": "ngt48-satou-kairi",
+      "url": "https://ngt48.jp/profile/detail/sato_kairi",
+      "status": 500
+    },
+    {
+      "memberId": "ngt48-ootsuka-nanami",
+      "url": "https://ngt48.jp/profile/detail/otsuka_nanami",
+      "status": 500
+    },
+    {
+      "memberId": "stu48-takino-yumiko",
+      "url": "https://www.instagram.com/yumiko_anko/",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "jkt48-shani",
+      "url": "https://jkt48.com/member/detail/id/shani_indira_natio",
+      "status": 403
+    },
+    {
+      "memberId": "jkt48-feni",
+      "url": "https://jkt48.com/member/detail/id/feni_fitriyanti",
+      "status": 403
+    },
+    {
+      "memberId": "jkt48-fureya",
+      "url": "https://jkt48.com/member/detail/id/freya_jayawardana",
+      "status": 403
+    },
+    {
+      "memberId": "cgm48-omu",
+      "url": "https://cgm48official.com/members/aom",
+      "status": 500
+    },
+    {
+      "memberId": "mnl48-sheki",
+      "url": "https://mnl48.ph/members/sheki",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "akb48-team-sh-ryuu-nen",
+      "url": "https://www.akb48-china.com/member/liu_nian",
+      "status": null,
+      "error": "fetch failed"
     }
   ]
 }

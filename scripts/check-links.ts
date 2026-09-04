@@ -11,6 +11,7 @@ interface LinkReport {
   deadCount: number;
   unverifiedCount: number;
   deadLinks: { memberId: string; url: string; status: number | null; error?: string }[];
+  unverifiedLinks: { memberId: string; url: string; status: number | null; error?: string }[];
 }
 
 async function checkAllLinks() {
@@ -30,6 +31,8 @@ async function checkAllLinks() {
   let deadCount = 0;
   let unverifiedCount = 0;
   const deadLinks: LinkReport['deadLinks'] = [];
+  const unverifiedLinks: LinkReport['unverifiedLinks'] = [];
+  const writeMembers = process.argv.includes('--write-members');
 
   for (let mIdx = 0; mIdx < members.length; mIdx++) {
     const member = members[mIdx]!;
@@ -40,39 +43,45 @@ async function checkAllLinks() {
 
       try {
         const res = await safeFetch(link.url, { retries: 1 });
-        link.lastCheckedAt = today;
-        link.lastStatusCode = res.status;
-
+        let status: MemberLink['status'];
         if (res.ok) {
           if (res.finalUrl && res.finalUrl !== link.url) {
-            link.status = 'redirected';
+            status = 'redirected';
             redirectedCount++;
           } else {
-            link.status = 'ok';
+            status = 'ok';
             okCount++;
           }
-        } else if (res.status >= 400) {
-          link.status = 'dead';
+        } else if (res.status === 404 || res.status === 410) {
+          status = 'dead';
           deadCount++;
           deadLinks.push({ memberId: member.id, url: link.url, status: res.status });
         } else {
-          link.status = 'ok';
-          okCount++;
+          status = 'unverified';
+          unverifiedCount++;
+          unverifiedLinks.push({ memberId: member.id, url: link.url, status: res.status });
+        }
+        if (writeMembers) {
+          link.lastCheckedAt = today;
+          link.lastStatusCode = res.status;
+          link.status = status;
         }
       } catch (err: any) {
         console.warn(`⚠️ Error checking link ${link.url}: ${err.message}`);
-        // If timeout / connection error on external network
-        link.lastCheckedAt = today;
-        link.lastStatusCode = 0;
-        link.status = 'dead';
-        deadCount++;
-        deadLinks.push({ memberId: member.id, url: link.url, status: 0, error: err.message });
+        unverifiedCount++;
+        unverifiedLinks.push({ memberId: member.id, url: link.url, status: null, error: err.message });
+        if (writeMembers) {
+          link.lastCheckedAt = today;
+          link.lastStatusCode = 0;
+          link.status = 'unverified';
+        }
       }
     }
   }
 
-  // Update members.json
-  fs.writeFileSync(dataPath, JSON.stringify(members, null, 2), 'utf-8');
+  if (writeMembers) {
+    fs.writeFileSync(dataPath, JSON.stringify(members, null, 2), 'utf-8');
+  }
 
   const report: LinkReport = {
     checkedAt: today,
@@ -82,6 +91,7 @@ async function checkAllLinks() {
     deadCount,
     unverifiedCount,
     deadLinks,
+    unverifiedLinks,
   };
 
   const reportPath = path.join(__dirname, '..', 'data', 'link-report.json');
@@ -93,6 +103,7 @@ async function checkAllLinks() {
   console.log(`Redirected: ${redirectedCount}`);
   console.log(`Dead: ${deadCount}`);
   console.log(`Unverified: ${unverifiedCount}`);
+  console.log(`Members data: ${writeMembers ? 'updated by explicit --write-members option' : 'unchanged (report-only mode)'}`);
   console.log(`Report saved to data/link-report.json`);
   console.log('===================================================\n');
 

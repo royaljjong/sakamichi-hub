@@ -1,6 +1,6 @@
 # 坂道シリーズ リンクハブ — 작업지시서 v1.0
 
-> ⛔ **폐기됨 (2026-08-20)**: 이 문서는 [`AUDIT_AND_REBUILD_PLAN.md`](./AUDIT_AND_REBUILD_PLAN.md) §1에 의해 폐기되었습니다. 이력 참고용으로만 유지합니다. 현행 계약은 `AUDIT_AND_REBUILD_PLAN.md` + `CODEX_HANDOVER.md`.
+> ⛔ **폐기됨 (2026-08-20)**: 이 문서는 [`AUDIT_AND_REBUILD_PLAN.md`](./AUDIT_AND_REBUILD_PLAN.md) §1에 의해 폐기되었으며 이력 참고용으로만 유지합니다. 현행 제품 줄기는 [`PRODUCT_RMVP_PLAN.md`](./PRODUCT_RMVP_PLAN.md), 실행 기록은 [`WORK_ORDER_RMVP_2026-08-25.md`](./WORK_ORDER_RMVP_2026-08-25.md), 운영 상태는 [`CODEX_HANDOVER.md`](./CODEX_HANDOVER.md)를 우선합니다. `AUDIT_AND_REBUILD_PLAN.md`는 감사·재설계 이력입니다.
 >
 > **대상 실행자**: Antigravity CLI (자율 코딩 에이전트)
 > **작성일**: 2026-08-16

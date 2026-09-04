@@ -1,5 +1,7 @@
 # Sakamichi Box · 기획 검토 및 로드맵
 
+> **역사 스냅숏**: 이 문서는 2026-08-23의 커밋 `5a84302`를 대상으로 한 당시 진단입니다. 현재 상태·우선순위·완료 여부는 `PRODUCT_RMVP_PLAN.md`, `WORK_ORDER_RMVP_2026-08-25.md`, `CODEX_HANDOVER.md`를 우선합니다. 아래의 453명·56이벤트 및 미착수 표시는 현행 수치나 실행 지시가 아닙니다.
+
 **작성일**: 2026-08-23  
 **작성자**: Claude Opus 4.7 (기획·검토)  
 **대상 커밋**: `5a84302` (main + codex/trust-data-phase2 정합)
@@ -101,7 +103,9 @@
 
 ### 🔴 P0 · 즉시 (다음 세션)
 
-1. **Wikipedia CC BY-SA 4.0 attribution 페이지** — 법적 리스크. About 페이지 확장 또는 신규 `/attribution` 페이지
+> 이 로드맵의 홈 미니 내비, 인수인계 갱신, 상세 데이터, 구조화 데이터, OG 이미지, 404, 디스코그래피, 타임라인, 그룹 비교는 후속 실행에서 완료됐습니다. 최신 완료 근거는 `CODEX_HANDOVER.md` §3·§7을 따릅니다.
+
+1. ~~**Wikipedia CC BY-SA 4.0 attribution 페이지**~~ — `/[locale]/credits`와 Terms/About 연결로 구현 완료 확인 (2026-08-25)
 2. **홈 페이지 미니 네비 바** — 15+ 섹션 앵커 링크. sticky top or side rail
 3. **CODEX_HANDOVER 갱신** — 이번 세션 결과 반영 (453명, 56이벤트, 그룹 로고 등)
 
@@ -187,7 +191,7 @@
 ## 5. 권고
 
 **다음 세션 최우선 3가지**:
-1. Wikipedia CC BY-SA 4.0 attribution 페이지 (법적)
+1. AdSense 승인 후 CMP·정책 센터·모바일 광고 배치 점검 (관리 화면 확인 필요)
 2. 홈 페이지 미니 네비 바 (UX)
 3. Lighthouse 감사 + 성능 픽스 (품질)
 

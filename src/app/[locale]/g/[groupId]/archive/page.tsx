@@ -31,6 +31,7 @@ export async function generateMetadata({ params }: ArchivePageProps): Promise<Me
   const canonicalUrl = `${BASE_URL}/${locale}/g/${groupId}/archive`;
 
   return {
+    metadataBase: new URL(BASE_URL),
     title,
     description,
     keywords: [name, '欅坂46', 'けやき坂46', 'ひらがなけやき', '케야키자카46', '히라가나 케야키', 'Keyakizaka46', 'Hiragana Keyaki'],

@@ -57,6 +57,10 @@
     "heightLabel": "Height",
     "hobbiesLabel": "Hobbies",
     "specialtiesLabel": "Specialties"
+    ,"aliasesLabel": "Nicknames & other names"
+    ,"sourceLabel": "Information source"
+    ,"officialSource": "Official source"
+    ,"checkedAtLabel": "Last checked"
   },
   "link": {
     "official_blog": "Official Blog",
@@ -171,6 +175,20 @@
   "generation": {
     "joinedOn": "Joined",
     "totalLine": "Total {count} ({active} active / {graduated} graduated)"
+  },
+  "coverage": {
+    "heading": "Data coverage",
+    "complete": "Complete",
+    "partial": "Partial",
+    "collecting": "Collecting",
+    "members": "Members",
+    "officialLinks": "Official links",
+    "photos": "Member photos",
+    "events": "Events",
+    "discography": "Singles",
+    "checkedAt": "Last checked",
+    "scopeNotice": "Based on the official and verified data currently stored.",
+    "representativeNotice": "This group currently contains representative members, not a complete roster."
   },
   "lineage": {
     "heading": "Lineage",

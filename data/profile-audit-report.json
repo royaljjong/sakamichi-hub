@@ -1,0 +1,318 @@
+{
+  "checkedAt": "2026-09-03",
+  "mode": "preview",
+  "totalMembers": 454,
+  "groups": {
+    "akb48": {
+      "source": "https://www.akb48.co.jp/about/members/",
+      "sourceStatus": "verified",
+      "officialList": 45,
+      "localActive": 38,
+      "matched": 36,
+      "unmatched": [
+        {
+          "id": "akb48-mukaichi-mion",
+          "name": "向井地美音"
+        },
+        {
+          "id": "akb48-murayama-yuiri",
+          "name": "村山彩希"
+        }
+      ],
+      "changed": 0
+    },
+    "ske48": {
+      "source": "https://ske48.co.jp/feature/profile",
+      "sourceStatus": "verified",
+      "officialList": 55,
+      "localActive": 56,
+      "matched": 55,
+      "unmatched": [
+        {
+          "id": "ske48-ikeda-kaede",
+          "name": "池田楓"
+        }
+      ],
+      "changed": 0
+    },
+    "hkt48": {
+      "source": "https://www.hkt48.jp/profile/",
+      "sourceStatus": "verified",
+      "officialList": 39,
+      "localActive": 31,
+      "matched": 28,
+      "unmatched": [
+        {
+          "id": "hkt48-jitoue-nene",
+          "name": "地頭江音々"
+        },
+        {
+          "id": "hkt48-sakamoto-erena",
+          "name": "坂本愛玲菜"
+        },
+        {
+          "id": "hkt48-mogami-nanaka",
+          "name": "最上奈那華"
+        }
+      ],
+      "changed": 0
+    },
+    "ngt48": {
+      "source": "https://ngt48.jp/profile",
+      "sourceStatus": "verified",
+      "officialList": 33,
+      "localActive": 34,
+      "matched": 33,
+      "unmatched": [
+        {
+          "id": "ngt48-taniguchi-haruka",
+          "name": "谷口陽香"
+        }
+      ],
+      "changed": 0
+    }
+  },
+  "coverage": [
+    {
+      "groupId": "akb48",
+      "total": 50,
+      "active": 38,
+      "activeMissing": {
+        "birthDate": 0,
+        "imageUrl": 0,
+        "officialProfile": 0,
+        "instagram": 9,
+        "x": 0,
+        "youtube": 0,
+        "tiktok": 2
+      },
+      "liveSourceAudit": "verified"
+    },
+    {
+      "groupId": "akb48-team-sh",
+      "total": 1,
+      "active": 1,
+      "activeMissing": {
+        "birthDate": 0,
+        "imageUrl": 0,
+        "officialProfile": 0,
+        "instagram": 1,
+        "x": 1,
+        "youtube": 1,
+        "tiktok": 1
+      },
+      "liveSourceAudit": "not-supported-or-blocked"
+    },
+    {
+      "groupId": "akb48-team-tp",
+      "total": 1,
+      "active": 1,
+      "activeMissing": {
+        "birthDate": 0,
+        "imageUrl": 0,
+        "officialProfile": 0,
+        "instagram": 0,
+        "x": 1,
+        "youtube": 1,
+        "tiktok": 1
+      },
+      "liveSourceAudit": "not-supported-or-blocked"
+    },
+    {
+      "groupId": "bnk48",
+      "total": 1,
+      "active": 1,
+      "activeMissing": {
+        "birthDate": 0,
+        "imageUrl": 0,
+        "officialProfile": 0,
+        "instagram": 0,
+        "x": 1,
+        "youtube": 1,
+        "tiktok": 1
+      },
+      "liveSourceAudit": "not-supported-or-blocked"
+    },
+    {
+      "groupId": "cgm48",
+      "total": 1,
+      "active": 1,
+      "activeMissing": {
+        "birthDate": 0,
+        "imageUrl": 0,
+        "officialProfile": 0,
+        "instagram": 0,
+        "x": 1,
+        "youtube": 1,
+        "tiktok": 1
+      },
+      "liveSourceAudit": "not-supported-or-blocked"
+    },
+    {
+      "groupId": "hinatazaka46",
+      "total": 39,
+      "active": 27,
+      "activeMissing": {
+        "birthDate": 0,
+        "imageUrl": 0,
+        "officialProfile": 0,
+        "instagram": 13,
+        "x": 27,
+        "youtube": 27,
+        "tiktok": 27
+      },
+      "liveSourceAudit": "not-supported-or-blocked"
+    },
+    {
+      "groupId": "hkt48",
+      "total": 34,
+      "active": 31,
+      "activeMissing": {
+        "birthDate": 0,
+        "imageUrl": 2,
+        "officialProfile": 3,
+        "instagram": 3,
+        "x": 0,
+        "youtube": 3,
+        "tiktok": 7
+      },
+      "liveSourceAudit": "verified"
+    },
+    {
+      "groupId": "jkt48",
+      "total": 3,
+      "active": 3,
+      "activeMissing": {
+        "birthDate": 0,
+        "imageUrl": 0,
+        "officialProfile": 0,
+        "instagram": 0,
+        "x": 0,
+        "youtube": 3,
+        "tiktok": 3
+      },
+      "liveSourceAudit": "not-supported-or-blocked"
+    },
+    {
+      "groupId": "klp48",
+      "total": 3,
+      "active": 3,
+      "activeMissing": {
+        "birthDate": 0,
+        "imageUrl": 0,
+        "officialProfile": 0,
+        "instagram": 0,
+        "x": 0,
+        "youtube": 3,
+        "tiktok": 3
+      },
+      "liveSourceAudit": "not-supported-or-blocked"
+    },
+    {
+      "groupId": "mnl48",
+      "total": 1,
+      "active": 1,
+      "activeMissing": {
+        "birthDate": 0,
+        "imageUrl": 0,
+        "officialProfile": 0,
+        "instagram": 0,
+        "x": 1,
+        "youtube": 1,
+        "tiktok": 1
+      },
+      "liveSourceAudit": "not-supported-or-blocked"
+    },
+    {
+      "groupId": "ngt48",
+      "total": 37,
+      "active": 34,
+      "activeMissing": {
+        "birthDate": 0,
+        "imageUrl": 0,
+        "officialProfile": 0,
+        "instagram": 24,
+        "x": 10,
+        "youtube": 1,
+        "tiktok": 34
+      },
+      "liveSourceAudit": "verified"
+    },
+    {
+      "groupId": "nmb48",
+      "total": 46,
+      "active": 41,
+      "activeMissing": {
+        "birthDate": 0,
+        "imageUrl": 34,
+        "officialProfile": 36,
+        "instagram": 36,
+        "x": 30,
+        "youtube": 39,
+        "tiktok": 40
+      },
+      "liveSourceAudit": "not-supported-or-blocked"
+    },
+    {
+      "groupId": "nogizaka46",
+      "total": 96,
+      "active": 34,
+      "activeMissing": {
+        "birthDate": 0,
+        "imageUrl": 0,
+        "officialProfile": 0,
+        "instagram": 17,
+        "x": 34,
+        "youtube": 34,
+        "tiktok": 34
+      },
+      "liveSourceAudit": "not-supported-or-blocked"
+    },
+    {
+      "groupId": "sakurazaka46",
+      "total": 50,
+      "active": 32,
+      "activeMissing": {
+        "birthDate": 0,
+        "imageUrl": 0,
+        "officialProfile": 0,
+        "instagram": 16,
+        "x": 32,
+        "youtube": 32,
+        "tiktok": 32
+      },
+      "liveSourceAudit": "not-supported-or-blocked"
+    },
+    {
+      "groupId": "ske48",
+      "total": 59,
+      "active": 56,
+      "activeMissing": {
+        "birthDate": 1,
+        "imageUrl": 0,
+        "officialProfile": 0,
+        "instagram": 16,
+        "x": 16,
+        "youtube": 56,
+        "tiktok": 16
+      },
+      "liveSourceAudit": "verified"
+    },
+    {
+      "groupId": "stu48",
+      "total": 32,
+      "active": 31,
+      "activeMissing": {
+        "birthDate": 0,
+        "imageUrl": 29,
+        "officialProfile": 27,
+        "instagram": 28,
+        "x": 15,
+        "youtube": 31,
+        "tiktok": 31
+      },
+      "liveSourceAudit": "not-supported-or-blocked"
+    }
+  ],
+  "changes": []
+}

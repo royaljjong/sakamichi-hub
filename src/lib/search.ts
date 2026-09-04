@@ -12,6 +12,8 @@ export interface SearchIndexItem {
   hangulChoseong: string;
   romaji: string;
   aliases: string[];
+  searchTerms: string[];
+  groupName: { ja: string; ko: string; en: string };
   glyph: string;
   hueShift: number;
   imageUrl?: string | null;
@@ -62,7 +64,27 @@ export function normalizeQuery(q: string): string {
       // Katakana to hiragana
       return String.fromCharCode(match.charCodeAt(0) - 0x60);
     })
-    .replace(/\s+/g, '');
+    .replace(/[\s\-_・·]+/g, '');
+}
+
+export type SearchMatchKind = 'name' | 'alias' | 'group';
+
+export function findSearchMatch(item: SearchIndexItem, query: string): { kind: SearchMatchKind; term: string } | null {
+  const normalized = normalizeQuery(query);
+  if (!normalized) return null;
+
+  const names = [item.kanji, item.kana, item.hangul, item.romaji];
+  const name = names.find((term) => normalizeQuery(term).includes(normalized));
+  if (name) return { kind: 'name', term: name };
+
+  const alias = item.aliases.find((term) => normalizeQuery(term).includes(normalized));
+  if (alias) return { kind: 'alias', term: alias };
+
+  const group = Object.values(item.groupName).find((term) => normalizeQuery(term).includes(normalized));
+  if (group) return { kind: 'group', term: group };
+
+  const term = item.searchTerms.find((candidate) => normalizeQuery(candidate).includes(normalized));
+  return term ? { kind: 'name', term } : null;
 }
 
 function applyFilters(items: SearchIndexItem[], filters: SearchFilters): SearchIndexItem[] {
@@ -100,22 +122,22 @@ export function searchMembers(
 
   return pool.filter((item) => {
     if (isChoseongQuery) {
-      const cleanChoseong = item.hangulChoseong.replace(/\s+/g, '');
-      if (cleanChoseong.includes(query.trim())) return true;
+      const cleanChoseong = normalizeQuery(item.hangulChoseong);
+      if (cleanChoseong.includes(normalizeQuery(query))) return true;
     }
 
-    const kanjiNorm = item.kanji.toLowerCase().replace(/\s+/g, '');
-    const kanaNorm = item.kana.toLowerCase().replace(/\s+/g, '');
-    const hangulNorm = item.hangul.toLowerCase().replace(/\s+/g, '');
-    const romajiNorm = item.romaji.toLowerCase().replace(/\s+/g, '');
+    const kanjiNorm = normalizeQuery(item.kanji);
+    const kanaNorm = normalizeQuery(item.kana);
+    const hangulNorm = normalizeQuery(item.hangul);
+    const romajiNorm = normalizeQuery(item.romaji);
 
     if (kanjiNorm.includes(rawNorm)) return true;
     if (kanaNorm.includes(rawNorm)) return true;
     if (hangulNorm.includes(rawNorm)) return true;
     if (romajiNorm.includes(rawNorm)) return true;
 
-    for (const alias of item.aliases) {
-      if (alias.toLowerCase().replace(/\s+/g, '').includes(rawNorm)) return true;
+    for (const term of item.searchTerms ?? item.aliases) {
+      if (normalizeQuery(term).includes(rawNorm)) return true;
     }
 
     return false;

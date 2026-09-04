@@ -57,6 +57,10 @@
     "heightLabel": "키",
     "hobbiesLabel": "취미",
     "specialtiesLabel": "특기"
+    ,"aliasesLabel": "별명·다른 표기"
+    ,"sourceLabel": "정보 출처"
+    ,"officialSource": "공식 출처"
+    ,"checkedAtLabel": "마지막 확인"
   },
   "link": {
     "official_blog": "공식 블로그",
@@ -78,6 +82,7 @@
     "placeholder": "멤버 이름·한글·한자·초성·로마자로 검색",
     "noResults": "검색 결과가 없습니다",
     "resultCount": "{count}건",
+    "match": { "name": "이름 일치: {term}", "alias": "별명 일치: {term}", "group": "그룹명 일치: {term}" },
     "indexing": "인덱스 불러오는 중...",
     "pageTitle": "멤버 검색",
     "pageSubtitle": "한글·초성·한자·로마자 검색 지원. 노기자카·사쿠라자카·히나타자카·AKB48 전 그룹.",
@@ -171,6 +176,20 @@
   "generation": {
     "joinedOn": "가입",
     "totalLine": "총 {count}명 (현역 {active}명 / 졸업 {graduated}명)"
+  },
+  "coverage": {
+    "heading": "데이터 수록 상태",
+    "complete": "완전 수록",
+    "partial": "일부 수록",
+    "collecting": "수집 중",
+    "members": "멤버",
+    "officialLinks": "공식 링크",
+    "photos": "개인 사진",
+    "events": "이벤트",
+    "discography": "싱글",
+    "checkedAt": "마지막 확인",
+    "scopeNotice": "현재 저장된 공식·검증 데이터 기준입니다.",
+    "representativeNotice": "이 그룹은 전체 명단이 아닌 대표 멤버만 수록되어 있습니다."
   },
   "lineage": {
     "heading": "계보 변천사",

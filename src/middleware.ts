@@ -7,6 +7,10 @@ const intlMiddleware = createIntlMiddleware(routing);
 export default function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
+  if (pathname.startsWith('/api/')) {
+    return NextResponse.next();
+  }
+
   // Serve the default locale at the root path WITHOUT a redirect so that
   // Google AdSense (and other verifiers) can find the ad script + meta tags
   // in the response HTML at https://sakamichi-hub.vercel.app/ itself.

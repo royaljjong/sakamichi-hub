@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import type { SearchIndexItem } from '@/lib/search';
+import { findSearchMatch, type SearchIndexItem } from '@/lib/search';
 import { MemberAvatar } from '@/components/member/MemberAvatar';
 
 interface SearchResultsProps {
@@ -55,6 +55,8 @@ export function SearchResults({
             : locale === 'en'
             ? item.kanji
             : item.kana;
+        const groupName = item.groupName?.[locale as 'ja' | 'ko' | 'en'] ?? item.groupId;
+        const match = findSearchMatch(item, query);
 
         return (
           <Link
@@ -85,8 +87,13 @@ export function SearchResults({
                   )}
                 </div>
                 <p className="text-xs text-[var(--ink-soft)] truncate">
-                  {subName}
+                  {subName} · {groupName}
                 </p>
+                {match && normalizeForDisplay(match.term) !== normalizeForDisplay(primaryName) && (
+                  <p className="mt-0.5 truncate text-[11px] text-[var(--ink-faint)]">
+                    {t(`match.${match.kind}`, { term: match.term })}
+                  </p>
+                )}
               </div>
             </div>
             <span className="text-xs text-[var(--ink-faint)] group-hover:text-[var(--g-brand)] group-hover:translate-x-0.5 transition shrink-0 ml-2 font-bold">
@@ -97,4 +104,8 @@ export function SearchResults({
       })}
     </div>
   );
+}
+
+function normalizeForDisplay(value: string) {
+  return value.toLocaleLowerCase().replace(/[\s\-_・·]+/g, '');
 }

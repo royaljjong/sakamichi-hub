@@ -5,6 +5,7 @@ import { AmbientBackground } from '@/components/background/AmbientBackground';
 import { Navigation } from '@/components/ui/Navigation';
 import { Footer } from '@/components/ui/Footer';
 import { HomePortal } from '@/components/home/HomePortal';
+import type { HomeMember } from '@/components/home/HomePortal';
 import { JsonLd } from '@/components/seo/JsonLd';
 
 interface HomePageProps {
@@ -33,6 +34,7 @@ export async function generateMetadata({ params }: HomePageProps): Promise<Metad
   const canonicalUrl = `${BASE_URL}/${locale}`;
 
   return {
+    metadataBase: new URL(BASE_URL),
     title,
     description,
     keywords: [
@@ -79,6 +81,16 @@ export default async function HomePage({ params }: HomePageProps) {
   const t = await getTranslations('common');
   const groups = getGroups();
   const allMembers = getMembers();
+  const homeMembers: HomeMember[] = allMembers.map((member) => ({
+    id: member.id,
+    name: member.name,
+    primaryGroupId: member.primaryGroupId,
+    status: member.status,
+    birthDate: member.birthDate,
+    imageUrl: member.imageUrl,
+    avatar: member.avatar,
+    links: member.links.map(({ type, url, status }) => ({ type, url, status })),
+  }));
   const portal = getPortalData();
   const videos = getLatestVideos();
 
@@ -152,7 +164,7 @@ export default async function HomePage({ params }: HomePageProps) {
       <Navigation />
 
       <main id="main-content" className="relative z-10 mx-auto w-full max-w-7xl flex-1 px-4 py-6 sm:px-6 sm:py-10">
-        <HomePortal groups={groups} members={allMembers} locale={locale} portal={portal} videos={videos} />
+        <HomePortal groups={groups} members={homeMembers} locale={locale} portal={portal} videos={videos} />
       </main>
 
       <Footer />

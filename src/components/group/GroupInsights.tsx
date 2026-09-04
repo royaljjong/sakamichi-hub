@@ -1,7 +1,6 @@
 import type { Group, Member } from '@/lib/schema';
 import type { RecentUpdate } from '@/lib/updates-schema';
 import { BirthdayPanel } from '@/components/home/BirthdayPanel';
-import { RankingPanel } from '@/components/home/RankingPanel';
 import { EventBoard } from '@/components/home/EventBoard';
 import type { PortalDataset } from '@/lib/portal-schema';
 
@@ -50,10 +49,7 @@ export function GroupInsights({ group, members, updates, locale, portal }: Group
           }) : <p className="py-6 text-sm text-[var(--ink-soft)]">{COPY[lang].empty}</p>}
         </div>
       </section>
-      <div className="grid gap-6 lg:grid-cols-[1.25fr_.75fr]">
-        <BirthdayPanel members={members} groups={[group]} locale={locale} groupId={group.id} />
-        <RankingPanel locale={locale} />
-      </div>
+      <BirthdayPanel members={members} groups={[group]} locale={locale} groupId={group.id} />
     </div>
   );
 }

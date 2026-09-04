@@ -57,6 +57,10 @@
     "heightLabel": "身長",
     "hobbiesLabel": "趣味",
     "specialtiesLabel": "特技"
+    ,"aliasesLabel": "愛称・別表記"
+    ,"sourceLabel": "情報源"
+    ,"officialSource": "公式情報"
+    ,"checkedAtLabel": "最終確認"
   },
   "link": {
     "official_blog": "公式ブログ",
@@ -78,6 +82,7 @@
     "placeholder": "メンバー名・漢字・かな・ローマ字で検索",
     "noResults": "見つかりませんでした",
     "resultCount": "{count}件",
+    "match": { "name": "名前一致: {term}", "alias": "別名一致: {term}", "group": "グループ名一致: {term}" },
     "indexing": "インデックス読み込み中...",
     "pageTitle": "メンバー検索",
     "pageSubtitle": "漢字・かな・ローマ字・한글・초성検索に対応。乃木坂・櫻坂・日向坂・AKB48全グループ。",
@@ -171,6 +176,20 @@
   "generation": {
     "joinedOn": "加入",
     "totalLine": "計 {count}名 (現役 {active}名 / 卒業 {graduated}名)"
+  },
+  "coverage": {
+    "heading": "データ収録状況",
+    "complete": "収録完了",
+    "partial": "一部収録",
+    "collecting": "収集中",
+    "members": "メンバー",
+    "officialLinks": "公式リンク",
+    "photos": "個人写真",
+    "events": "イベント",
+    "discography": "シングル",
+    "checkedAt": "最終確認",
+    "scopeNotice": "現在保存されている公式・検証済みデータに基づきます。",
+    "representativeNotice": "このグループは全名簿ではなく、代表メンバーのみ収録しています。"
   },
   "lineage": {
     "heading": "系譜変遷",
