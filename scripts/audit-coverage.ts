@@ -12,7 +12,7 @@ const discography = Discography.parse(JSON.parse(fs.readFileSync(path.join(dataD
 const dataset = Dataset.parse({ schemaVersion: groupsFile.schemaVersion ?? '1.0.0', generatedAt: groupsFile.generatedAt, groups: groupsFile.groups, members: Array.isArray(membersFile) ? membersFile : membersFile.members });
 
 const groups = dataset.groups.map((group) => {
-  const members = dataset.members.filter((member) => member.primaryGroupId === group.id);
+  const members = dataset.members.filter((member) => member.memberships.some((ms) => ms.groupId === group.id));
   const active = members.filter((member) => member.status === 'active' || member.status === 'graduating');
   const count = (predicate: (member: typeof members[number]) => boolean) => members.filter(predicate).length;
   return {

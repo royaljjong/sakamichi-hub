@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T13:57:03.654Z",
+  "generatedAt": "2026-09-04T15:43:52.387Z",
   "sourceDates": {
     "groups": "2026-08-16",
     "portal": "2026-09-02",
@@ -7,7 +7,7 @@
   },
   "totals": {
     "groups": 16,
-    "members": 454,
+    "members": 451,
     "events": 59,
     "discography": 256
   },
@@ -32,7 +32,7 @@
       "activeMembers": 32,
       "withImage": 50,
       "withOfficialProfile": 39,
-      "withRenderableLink": 17,
+      "withRenderableLink": 49,
       "memberCheckedAtOldest": "2026-08-16",
       "events": 7,
       "discography": 20,
@@ -45,7 +45,7 @@
       "activeMembers": 27,
       "withImage": 39,
       "withOfficialProfile": 35,
-      "withRenderableLink": 11,
+      "withRenderableLink": 38,
       "memberCheckedAtOldest": "2026-08-16",
       "events": 3,
       "discography": 18,
@@ -215,7 +215,7 @@
       "withImage": 3,
       "withOfficialProfile": 3,
       "withRenderableLink": 3,
-      "memberCheckedAtOldest": "2026-08-16",
+      "memberCheckedAtOldest": "2026-09-03",
       "events": 0,
       "discography": 0,
       "hasLogo": true

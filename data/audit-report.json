@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-08-25T13:03:31.249Z",
+  "checkedAt": "2026-09-04T15:44:03.940Z",
   "stats": {
-    "total": 454,
-    "activeWithPhoto": 256,
-    "activeWithoutPhoto": 79,
+    "total": 451,
+    "activeWithPhoto": 267,
+    "activeWithoutPhoto": 65,
     "graduatesWithPhoto": 92,
     "graduatesWithoutPhoto": 27,
-    "photoCheckPassed": 0,
-    "photoCheckFailed": 348,
+    "photoCheckPassed": 204,
+    "photoCheckFailed": 155,
     "officialLinksChecked": 0,
     "officialLinksFailed": 0
   },
@@ -21,1508 +21,60 @@
       "message": "Romaji contains invalid characters: \"Liu Yu-ching\""
     },
     {
-      "memberId": "nogi-yada-moeka",
-      "name": "矢田萌華",
-      "group": "nogizaka46",
+      "memberId": "mnl48-sheki",
+      "name": "シェキ",
+      "group": "mnl48",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/1b6/eb145a98c28698e68696ed7deeab0.jpg"
+      "message": "Image URL returned status 0: https://mnl48.ph/images/members/sheki.jpg"
     },
     {
-      "memberId": "nogi-morihira-urumi",
-      "name": "森平麗心",
-      "group": "nogizaka46",
+      "memberId": "bnk48-fupu",
+      "name": "フープ",
+      "group": "bnk48",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/035/aca8b6dccc829b810d24d6fbfc7c3.jpg"
+      "message": "Image URL returned status 404: https://www.bnk48.com/images/members/hoop.jpg"
     },
     {
-      "memberId": "nogi-masuda-mirine",
-      "name": "増田三莉音",
-      "group": "nogizaka46",
+      "memberId": "akb48-team-sh-ryuu-nen",
+      "name": "劉念",
+      "group": "akb48-team-sh",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/86b/0333e9148ad78d217822ccde31db8.jpg"
+      "message": "Image URL returned status 0: https://www.akb48-china.com/upload/member/liu_nian.jpg"
     },
     {
-      "memberId": "nogi-setoguchi-mitsuki",
-      "name": "瀬戸口心月",
-      "group": "nogizaka46",
+      "memberId": "nmb48-sakata-misaki",
+      "name": "坂田心咲",
+      "group": "nmb48",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/4b1/dbd952eb8141c36fae23b5b3b6098.jpg"
+      "message": "Image URL returned status 429: https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/%E5%9D%82%E7%94%B0%E5%BF%83%E5%92%B2.jpg/960px-%E5%9D%82%E7%94%B0%E5%BF%83%E5%92%B2.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "memberId": "nogi-kawabata-hina",
-      "name": "川端晃菜",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/c95/5958d930809c5a57bf2e1b29a8354.jpg"
-    },
-    {
-      "memberId": "nogi-suzuki-yuuna",
-      "name": "鈴木佑捺",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/4f9/78599b601e4a5abe702f5c84241ae.jpg"
-    },
-    {
-      "memberId": "nogi-kaibe-akari",
-      "name": "海邉朱莉",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/9f0/a5e7a663deb87b228ebded01540be.jpg"
-    },
-    {
-      "memberId": "nogi-ozu-reina",
-      "name": "小津玲奈",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/59c/974b3199023a021b45c9d1b5a7635.jpg"
-    },
-    {
-      "memberId": "nogi-ookoshi-hinano",
-      "name": "大越ひなの",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/e94/f1e863935213cd18a7c25e87795f6.jpg"
-    },
-    {
-      "memberId": "nogi-atago-kokone",
-      "name": "愛宕心響",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/abd/4779c6d304e1c50c16d3f08e6e818.jpg"
-    },
-    {
-      "memberId": "nogi-nagashima-rio",
-      "name": "長嶋凛桜",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/c1d/2368d8afc850d797155f7d93d0569.jpg"
-    },
-    {
-      "memberId": "nogi-okamoto-hina",
-      "name": "岡本姫奈",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/0b4/6e7b29737ae59929b3b5d54901df9.jpg"
-    },
-    {
-      "memberId": "nogi-kawasaki-sakura",
-      "name": "川﨑桜",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/b4e/2a4faecdf5e257fa5e8aae4672f82.jpg"
-    },
-    {
-      "memberId": "nogi-ikeda-teresa",
-      "name": "池田瑛紗",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/3cd/248094368f7aab375f1900195098a.jpg"
-    },
-    {
-      "memberId": "nogi-ioki-mao",
-      "name": "五百城茉央",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/ec1/9c670b4ade367a2f551f26eef4450.jpg"
-    },
-    {
-      "memberId": "nogi-nakanishi-aruno",
-      "name": "中西アルノ",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/605/fde6153cac131c43a2e8e0ac0bfcb.jpg"
-    },
-    {
-      "memberId": "nogi-okuda-iroha",
-      "name": "奥田いろは",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/c2f/3eeaa463de1b7c93ce62b62270ec8.jpg"
-    },
-    {
-      "memberId": "nogi-tomisato-nao",
-      "name": "冨里奈央",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/e27/66bd6c894d1a96288bb9dfaf8809f.jpg"
-    },
-    {
-      "memberId": "nogi-ogawa-aya",
-      "name": "小川彩",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/e8f/d4b6b2c5802a42f04de0b62f4ab7f.jpg"
-    },
-    {
-      "memberId": "nogi-sugawara-satsuki",
-      "name": "菅原咲月",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/c09/dfacda505809637c8214da8a8432f.jpg"
-    },
-    {
-      "memberId": "nogi-inoue-nagi",
-      "name": "井上和",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/540/61c907a38e56dced12a57ab544fd3.jpg"
-    },
-    {
-      "memberId": "nogi-matsuo-miyu",
-      "name": "松尾美佑",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/3bd/51a432d9b74ca8b45bbc0e07d34df.jpg"
-    },
-    {
-      "memberId": "nogi-yumiki-nao",
-      "name": "弓木奈於",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/f75/2ec1740de010cde723653a4794af2.jpg"
-    },
-    {
-      "memberId": "nogi-hayashi-runa",
-      "name": "林瑠奈",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/cb1/f34ad14ecbf7be125b2f2f243f841.jpg"
-    },
-    {
-      "memberId": "nogi-satou-rika",
-      "name": "佐藤璃果",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/d5c/22cbd1c9536b89d66fb470e34f51e.jpg"
-    },
-    {
-      "memberId": "nogi-kuromi-haruka",
-      "name": "黒見明香",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/143/57bc0bef04a325148a8a7c62541e1.jpg"
-    },
-    {
-      "memberId": "nogi-seimiya-rei",
-      "name": "清宮レイ",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/38d/13aad5d716ac21d9909b499f314b8.jpg"
-    },
-    {
-      "memberId": "nogi-kitagawa-yuri",
-      "name": "北川悠理",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/15f/c02de720b14c65fc67f822178eb7b.jpg"
-    },
-    {
-      "memberId": "nogi-kanagawa-saya",
-      "name": "金川紗耶",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/880/87280a20095abdde1ffcd122d8d42.jpg"
-    },
-    {
-      "memberId": "nogi-yakubo-mio",
-      "name": "矢久保美緒",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/c7c/c19487b659717498f8ed992b08fce.jpg"
-    },
-    {
-      "memberId": "nogi-hayakawa-seira",
-      "name": "早川聖来",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/fdf/8aae16cae57263bf2121ae2942de0.jpg"
-    },
-    {
-      "memberId": "nogi-kakehashi-sayaka",
-      "name": "掛橋沙耶香",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/339/fc021b5c875ed016a3ce10003d076.jpg"
-    },
-    {
-      "memberId": "nogi-kaki-haruka",
-      "name": "賀喜遥香",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/9e1/b4f576fdc288cc8cc68320f657a5d.jpg"
-    },
-    {
-      "memberId": "nogi-tsutsui-ayame",
-      "name": "筒井あやめ",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/9db/414579921f85d8dd289e573c96dc3.jpg"
-    },
-    {
-      "memberId": "nogi-tamura-mayu",
-      "name": "田村真佑",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/de5/915861e02d78a55180a5d58ea5c80.jpg"
-    },
-    {
-      "memberId": "nogi-endou-sakura",
-      "name": "遠藤さくら",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/d90/5ca63b14dde51e680517af2216408.jpg"
-    },
-    {
-      "memberId": "nogi-shibata-yuna",
-      "name": "柴田柚菜",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/6d8/4643f09fc585a92576513888606c2.jpg"
-    },
-    {
-      "memberId": "nogi-yoshida-ayanokurisuti",
-      "name": "吉田綾乃クリスティー",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/7ae/b1038e6c3ecb60b9941b6aed7c276.jpg"
-    },
-    {
-      "memberId": "nogi-yoda-yuuki",
-      "name": "与田祐希",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/9db/4feadc18570db2c6e4c90999f8e20.jpg"
-    },
-    {
-      "memberId": "nogi-yamashita-mizuki",
-      "name": "山下美月",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/604/28d731b5afd6015abc449c5016563.jpg"
-    },
-    {
-      "memberId": "nogi-mukai-hazuki",
-      "name": "向井葉月",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/d0e/9b0f5e427ddafc1c0e65cf323d521.jpg"
-    },
-    {
-      "memberId": "nogi-nakamura-reno",
-      "name": "中村麗乃",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/a5a/ef48c50cbc388b3ef036fc8a04c1b.jpg"
-    },
-    {
-      "memberId": "nogi-satou-kaede",
-      "name": "佐藤楓",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/e40/6de034c40c0de70e8d83ccc8b6531.jpg"
-    },
-    {
-      "memberId": "nogi-sakaguchi-tamami",
-      "name": "阪口珠美",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/490/62caf7a265c8e71b826564aacfd20.jpg"
-    },
-    {
-      "memberId": "nogi-kubo-shiori",
-      "name": "久保史緒里",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/445/60cae08cc551e45e9d8aa008f871c.jpg"
-    },
-    {
-      "memberId": "nogi-umezawa-minami",
-      "name": "梅澤美波",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/8c7/646b36a936a7b4502c3020bbc090a.jpg"
-    },
-    {
-      "memberId": "nogi-oozono-momoko",
-      "name": "大園桃子",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/7d1/fd7b10426d19745559097b6159769.jpg"
-    },
-    {
-      "memberId": "nogi-iwamoto-renka",
-      "name": "岩本蓮加",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/4a8/fa2fc4b3c75b9568ce9adbc16d4bd.jpg"
-    },
-    {
-      "memberId": "nogi-itou-riria",
-      "name": "伊藤理々杏",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/1d1/b0f71982a410acda6e979d41cfb51.jpg"
-    },
-    {
-      "memberId": "nogi-sagara-iori",
-      "name": "相楽伊織",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/d26/712f823996906321cca6bf69349c4.jpg"
-    },
-    {
-      "memberId": "nogi-yonetoku-kyouka",
-      "name": "米徳京花",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/f2c/f421442e4642fbe61b3a0601fe4fc.jpg"
-    },
-    {
-      "memberId": "nogi-watanabe-miria",
-      "name": "渡辺みり愛",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/672/bbb38c5e3f8dd70e067ed14d3744e.jpg"
-    },
-    {
-      "memberId": "nogi-yamazaki-rena",
-      "name": "山崎怜奈",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/171/f3147a7a7d1739643a2e6a2425033.jpg"
-    },
-    {
-      "memberId": "nogi-yada-risako",
-      "name": "矢田里沙子",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/2f4/b264f62745e9c9d200dcd364692c1.jpg"
-    },
-    {
-      "memberId": "nogi-terada-ranze",
-      "name": "寺田蘭世",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/ac1/cdd887d56a22c1545a37beb36b42f.jpg"
-    },
-    {
-      "memberId": "nogi-suzuki-ayane",
-      "name": "鈴木絢音",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/a40/1757b12f731a2f0ceefb15dd54616.jpg"
-    },
-    {
-      "memberId": "nogi-sasaki-kotoko",
-      "name": "佐々木琴子",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/1a9/51d3aad7b037ac25f865bae68322c.jpg"
-    },
-    {
-      "memberId": "hina-ishizuka-tamaki",
-      "name": "石塚瑶季",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/5be/f67d7647a1c5ee45b523bd8f54f9c/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-oota-mizuki",
-      "name": "大田美月",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/3ad/e07febee32edf17721f512802ee4b/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-oono-manami",
-      "name": "大野愛実",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/470/ed3d7041d7849d03027bc53177234/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-katayama-saki",
-      "name": "片山紗希",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/eeb/9017dc75d5fdfbee93780aebd9fdd/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-kamimura-hinano",
-      "name": "上村ひなの",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/52b/3e937eaf84ab9d00614370354ff4a/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-kanemura-miku",
-      "name": "金村美玖",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/ce8/27d3cdf85a9b6c4cf7550f02268b0/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-kuramori-hinano",
-      "name": "蔵盛妃那乃",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/87a/d8d55ec8231575bac16a9a9164cc1/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-kosaka-nao",
-      "name": "小坂菜緒",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/051/33c12865773283a9d981ed3942e3f/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-konishi-nanami",
-      "name": "小西夏菜実",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/a89/bb9815aa9372bd297b499c1c3d6d2/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-sakai-niina",
-      "name": "坂井新奈",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/fc5/d14c63e95fbc0ebb286ed7c74657a/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-satou-yuu",
-      "name": "佐藤優羽",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/37b/f66d43760157d8da05872b14a4e3d/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-shimizu-rio",
-      "name": "清水理央",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/e96/5acbcebcbb08f1b0e509d05ee11a6/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-shougenji-youko",
-      "name": "正源司陽子",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/165/1a92a40f996f43ce58b2b701d46ef/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-shimoda-izuki",
-      "name": "下田衣珠季",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/e87/8f115c3821a46b01195006059799b/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-takai-rika",
-      "name": "高井俐香",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/83b/bb5b993fc209561fbbda61beebc11/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-takahashi-mikuni",
-      "name": "髙橋未来虹",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/714/1b1d32155c2d6589061f4b9ba6852/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-takeuchi-kirari",
-      "name": "竹内希来里",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/743/e04bbae745c7a0e0f4533e8de34f6/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-tsurusaki-niko",
-      "name": "鶴崎仁香",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/468/a512adc17581d6f50cdd3205557e2/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-hirao-honoka",
-      "name": "平尾帆夏",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/1be/9448762a37c3cd47360b7116843c2/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-hiraoka-mitsuki",
-      "name": "平岡海月",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/a3c/2c6a4ff4776e4129636e0596d3f7d/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-fujishima-kaho",
-      "name": "藤嶌果歩",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/064/fde79c3b07861b47854268d3e1f04/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-matsuo-sakura",
-      "name": "松尾桜",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/c81/eedeb7f985b4229d29af233e62177/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-miyachi-sumire",
-      "name": "宮地すみれ",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/386/776c165ad6849527c84b842dc2869/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-morimoto-marii",
-      "name": "森本茉莉",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/acb/4c7dbd928d6b98fc1132fdbbbaaa1/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-yamaguchi-haruyo",
-      "name": "山口陽世",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/6dc/314b1708020ead9ceccd72270ebe0/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-yamashita-haruka",
-      "name": "山下葉留花",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/1ed/655cf99f1faf4ac729156f33e7758/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-watanabe-rina",
-      "name": "渡辺莉奈",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/26a/42e27bbb19997f4165e50b93e49db/800_800_102400.jpg"
-    },
-    {
-      "memberId": "hina-saitou-kyouko",
-      "name": "齊藤京子",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/170/36b80e81c000f2fe829c9fe60da11/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "hina-kageyama-yuuka",
-      "name": "影山優佳",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/097/13359d9c223c6f4f25bca253e6dcf/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "hina-katou-shiho",
-      "name": "加藤史帆",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/176/4089849fa86196f7c32bf28b29c94/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "hina-higashimura-mei",
-      "name": "東村芽依",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/182/b86bdf3b54cb11ef628c6aa8c5cc1/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "hina-hamagishi-hiyori",
-      "name": "濱岸ひより",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/179/11b6be91176bfa254ff0391eb68d4/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "hina-nibu-akari",
-      "name": "丹生明里",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/177/0e74fec05ea5882650058b76c810d/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "hina-takamoto-ayaka",
-      "name": "高本彩花",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/174/61a34d7d13eb80dfa8717a6a4aee7/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "hina-ushio-sarina",
-      "name": "潮紗理菜",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/149/1dff90e85493b8e75e96ff72f0db3/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "hina-watanabe-miho",
-      "name": "渡邉美穂",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/127/3a2bc0a95ff71c6dcbb31ef9d27a1/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "hina-miyata-manamo",
-      "name": "宮田愛萌",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/136/f1b80d0d8bb5d1a0841b8a531ceba/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "hina-kakizaki-memi",
-      "name": "柿崎芽実",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/002/2ef2d4e8992a543ee7d4dfbfafc56/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "hina-iguchi-mao",
-      "name": "井口眞緒",
-      "group": "hinatazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cdn.hinatazaka46.com/images/14/001/01783cfdcf2d9c490a6ea5e4c0226/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "nogi-itou-junna",
-      "name": "伊藤純奈",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/5b2/7a42ee1617c848f5ef72d20dab915.jpg"
-    },
-    {
-      "memberId": "nogi-itou-karin",
-      "name": "伊藤かりん",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/c9f/9a081c46bc891777a2904f6049dcd.jpg"
-    },
-    {
-      "memberId": "nogi-shinuchi-mai",
-      "name": "新内眞衣",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/b6f/ce0ce5f8fe37958cca2de6ef8fb7d.jpg"
-    },
-    {
-      "memberId": "nogi-kitano-hinako",
-      "name": "北野日奈子",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/8ab/c0cc585deb438b6a3b1be66893c12.jpg"
-    },
-    {
-      "memberId": "nogi-hori-miona",
-      "name": "堀未央奈",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/aab/a34de3b1e317e5b316fc0ca679759.jpg"
-    },
-    {
-      "memberId": "nogi-akimoto-manatsu",
-      "name": "秋元真夏",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/dd5/1f1454110705ecb16fc882d3e63ea.jpg"
-    },
-    {
-      "memberId": "nogi-wada-maaya",
-      "name": "和田まあや",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/43b/92d716d1f682b982febf1b28c1cba.jpg"
-    },
-    {
-      "memberId": "nogi-wakatsuki-yumi",
-      "name": "若月佑美",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/1a8/0a3fa1f686abe6573e4ce44ec7fa4.jpg"
-    },
-    {
-      "memberId": "nogi-yamato-rina",
-      "name": "大和里菜",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/15c/ab2a3ad47874d46f62a25d28affc9.jpg"
-    },
-    {
-      "memberId": "nogi-miyazawa-seira",
-      "name": "宮澤成良",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/4cb/56f5fdc7e6f95c0149fce785cae58.jpg"
-    },
-    {
-      "memberId": "nogi-matsumura-sayuri",
-      "name": "松村沙友理",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/293/ed43065849d7ec42f83077cc2338f.jpg"
-    },
-    {
-      "memberId": "nogi-hoshino-minami",
-      "name": "星野みなみ",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/11f/ac4045d5a8c5b08f8b11f3602d08e.jpg"
-    },
-    {
-      "memberId": "nogi-fukagawa-mai",
-      "name": "深川麻衣",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/13a/de7e32f303ede80c4f1f79867e27e.jpg"
-    },
-    {
-      "memberId": "nogi-higuchi-hina",
-      "name": "樋口日奈",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/84f/0800ac3ecfd8ac702961e2d4ec656.jpg"
-    },
-    {
-      "memberId": "nogi-hatanaka-seira",
-      "name": "畠中清羅",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/f0b/982eefc63064ecefafafcb04f04c1.jpg"
-    },
-    {
-      "memberId": "nogi-hashimoto-nanami",
-      "name": "橋本奈々未",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/63f/470718bbce1db6339d32c30c377eb.jpg"
-    },
-    {
-      "memberId": "nogi-noujou-ami",
-      "name": "能條愛未",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/c6e/e107edab41d5fe4540a5d11083948.jpg"
-    },
-    {
-      "memberId": "nogi-nishino-nanase",
-      "name": "西野七瀬",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/cdf/ad7e2e2da3d2c217ce0a1127d07bc.jpg"
-    },
-    {
-      "memberId": "nogi-nagashima-seira",
-      "name": "永島聖羅",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/1c1/f25d14c3665883e2f502c54041a17.jpg"
-    },
-    {
-      "memberId": "nogi-nakamoto-himeka",
-      "name": "中元日芽香",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/48e/8847aa7465744abcde0a58e637d06.jpg"
-    },
-    {
-      "memberId": "nogi-nakada-kana",
-      "name": "中田花奈",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/ef4/bab6776f0f1e35a7ebb0af53c7e78.jpg"
-    },
-    {
-      "memberId": "nogi-takayama-kazumi",
-      "name": "高山一実",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/315/9e8b276331ee363a1ed3624d08ec0.jpg"
-    },
-    {
-      "memberId": "nogi-shiraishi-mai",
-      "name": "白石麻衣",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/659/ef8e6e2c54d50aab2eb79c9d8a577.jpg"
-    },
-    {
-      "memberId": "nogi-sakurai-reika",
-      "name": "桜井玲香",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/b1c/781c80e524585e6253ad5b4cdb25a.jpg"
-    },
-    {
-      "memberId": "nogi-saitou-yuuri",
-      "name": "斉藤優里",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/d85/07727a0506263c2b1e23747205071.jpg"
-    },
-    {
-      "memberId": "nogi-saitou-chiharu",
-      "name": "斎藤ちはる",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/e59/6a9938d8741474f0b6860f5d5f155.jpg"
-    },
-    {
-      "memberId": "nogi-saitou-asuka",
-      "name": "齋藤飛鳥",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/83c/8edd4e0d72fd9bc2f6b7aed33ea56.jpg"
-    },
-    {
-      "memberId": "nogi-kawamura-mahiro",
-      "name": "川村真洋",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/79b/b119060ac65aff844893dfc7558ce.jpg"
-    },
-    {
-      "memberId": "nogi-kawago-hina",
-      "name": "川後陽菜",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/436/451146a3356057d4085a020f29831.jpg"
-    },
-    {
-      "memberId": "nogi-kashiwa-yukina",
-      "name": "柏幸奈",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/00d/007125266ee2c13bf211bcea65cd3.jpg"
-    },
-    {
-      "memberId": "nogi-etou-misa",
-      "name": "衛藤美彩",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/70c/312784114435edcf84d22ee011d7c.jpg"
-    },
-    {
-      "memberId": "nogi-inoue-sayuri",
-      "name": "井上小百合",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/54f/a5644671f4eb2b14fc13c225bf551.jpg"
-    },
-    {
-      "memberId": "nogi-itou-marika",
-      "name": "伊藤万理華",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/acf/273dfee6329bc1b374d48d5ad87de.jpg"
-    },
-    {
-      "memberId": "nogi-itou-nene",
-      "name": "伊藤寧々",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/a05/33881a29dc50464ffc75badab4c05.jpg"
-    },
-    {
-      "memberId": "nogi-ichiki-rena",
-      "name": "市來玲奈",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/187/ce55feacf23cc0a73ec4cf17b857f.jpg"
-    },
-    {
-      "memberId": "nogi-iwase-yumiko",
-      "name": "岩瀬佑美子",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/0c3/709570b88db41143231b1d01b6a5c.jpg"
-    },
-    {
-      "memberId": "nogi-ikoma-rina",
-      "name": "生駒里奈",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/1be/619122c684579a4b68639c9b5b5ad.jpg"
-    },
-    {
-      "memberId": "nogi-ikuta-erika",
-      "name": "生田絵梨花",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/b48/659da6420fc1e56eb3a677b50d57a.jpg"
-    },
-    {
-      "memberId": "nogi-ichinose-miku",
-      "name": "一ノ瀬美空",
-      "group": "nogizaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.nogizaka46.com/images/46/d21/1d87f2203680137df7346b7551ed0.jpg"
-    },
-    {
-      "memberId": "saku-asai-konomi",
-      "name": "浅井恋乃未",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/05a/a333e9c23bd75ee0b826e12bd297f/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-ishimori-rika",
-      "name": "石森璃花",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/96c/e09c33f326876209556dd38ada02d/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-inaguma-hina",
-      "name": "稲熊ひな",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/e10/03eb3f4f005c628c086bbad020760/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-endou-hikari",
-      "name": "遠藤光莉",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/423/f8775e5a749ea13fbf0d2efa42226/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-endou-riko",
-      "name": "遠藤理子",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/d69/6df426b2e6f16523b91fca0be779d/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-oozono-rei",
-      "name": "大園玲",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/f70/6cf80fb594607faec98674c9e8eac/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-oonuma-akiho",
-      "name": "大沼晶保",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/ba6/a44f36a54d4327bd2639c5624658d/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-odakura-reina",
-      "name": "小田倉麗奈",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/078/60e215d29238247bb8b450990d660/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-katsumata-haru",
-      "name": "勝又春",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/af8/d7373c8f6d516b2546983d0da9546/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-koike-minami",
-      "name": "小池美波",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/8c4/fe37e1ed54e5d85d19929a94528d4/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "saku-kousaka-marino",
-      "name": "幸阪茉里乃",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/6da/9fee36187437c3f6f96f8c21f3ce5/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-kojima-nagisa",
-      "name": "小島凪紗",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/1c6/fa68af8880f33e0f0bd1b0fa55b23/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-satou-neo",
-      "name": "佐藤愛桜",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/35d/3c74f9e90f2436549fad9918ba4ac/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-tamura-hono",
-      "name": "田村保乃",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/75d/eb258ee5e23bf177e7f457200e9e6/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-taniguchi-airi",
-      "name": "谷口愛季",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/bbb/9661617ea1cae3d5722a04086b3b2/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-nakagawa-chihiro",
-      "name": "中川智尋",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/d72/c7bc8a8661d1ac165f281b5e05619/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-nakashima-yuzuki",
-      "name": "中嶋優月",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/9a0/49a7ba07c8a4e3e4d6e74f006c047/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-fujiyoshi-karin",
-      "name": "藤吉夏鈴",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/60b/85031e7f8c0af9dd7eba91904ca97/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-masumoto-kira",
-      "name": "増本綺良",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/640/e18c5d5478c704dc295cd80610393/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-matsumoto-wako",
-      "name": "松本和子",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/bf2/8064d1930ea330c874b8c2a7e9be8/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-matsuda-rina",
-      "name": "松田里奈",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/de8/01c8fb276815e134875196a7b5800/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-matono-mio",
-      "name": "的野美青",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/482/353b146b31b3868ae9fdbb399e1a7/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-mukai-itoha",
-      "name": "向井純葉",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/9ae/17778d4155da0c18a427f993973b8/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-murai-yuu",
-      "name": "村井優",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/ab2/a8eacdd0e3d6909c3faec11166900/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-murayama-miu",
-      "name": "村山美羽",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/cf4/652aff795272b42ba8fb2afc0853f/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-meguro-hiiro",
-      "name": "目黒陽色",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/c98/d7513f7ae741f67b2e22fb3519a13/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-morita-hikaru",
-      "name": "森田ひかる",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/897/5e3898e23a7e772e57bd3f9769399/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-moriya-rena",
-      "name": "守屋麗奈",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/1f6/e449b543b79e889ad163e984b286b/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-yamakawa-ui",
-      "name": "山川宇衣",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/0fd/f9ee562906efcad21c91605f3c632/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-yamasaki-ten",
-      "name": "山﨑天",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/107/65ad91c3ac2cc5419238c70a496f7/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-yamashita-shizuki",
-      "name": "山下瞳月",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/3f4/d0a80251dbb05f5ff26a4cc695ea9/400_320_102400.jpg"
-    },
-    {
-      "memberId": "saku-yamada-momomi",
-      "name": "山田桃実",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/676/8b28bb50d64b1f8b3fed70b156476/400_320_102400.jpg"
-    },
-    {
-      "memberId": "akb48-murayama-yuiri",
-      "name": "村山彩希",
+      "memberId": "akb48-sakagawa-hiyuka",
+      "name": "坂川陽香",
       "group": "akb48",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/%E3%80%8CAKB48_%E6%98%A5%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%BC%E3%83%882024%E3%80%8D%E3%81%AB%E3%81%A6.jpg/960px-%E3%80%8CAKB48_%E6%98%A5%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%BC%E3%83%882024%E3%80%8D%E3%81%AB%E3%81%A6.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100997.jpg"
     },
     {
-      "memberId": "akb48-mukaichi-mion",
-      "name": "向井地美音",
+      "memberId": "akb48-nagatomo-ayami",
+      "name": "長友彩海",
       "group": "akb48",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/55th_Plumbing_Machine_Equipment_%26_General_Equipment_Exhibition-_Mukaichi_Mion.jpg/960px-55th_Plumbing_Machine_Equipment_%26_General_Equipment_Exhibition-_Mukaichi_Mion.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100943.jpg"
     },
     {
-      "memberId": "akb48-iwatate-saho",
-      "name": "岩立沙穂",
+      "memberId": "akb48-mutou-orin",
+      "name": "武藤小麟",
       "group": "akb48",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/f/f4/%E5%B2%A9%E7%AB%8B%E6%B2%99%E7%A9%82.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
-      "memberId": "saku-hirate-yurina",
-      "name": "平手友梨奈",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/083/c989c92fa3daefaeeb4e3415cf2bc/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "saku-nagahama-neru",
-      "name": "長濱ねる",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/012/6fe2dc2c9f95cb0542387799d1fa7/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "saku-sugai-yuuka",
-      "name": "菅井友香",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/067/8df4f52e5a7bfe4239854be7e3c15/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "saku-watanabe-risa",
-      "name": "渡邉理佐",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/011/ff3f7dc57b44783307612f008852d/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "saku-kobayashi-yui",
-      "name": "小林由依",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/007/35790d97fe5b2b2b1ce050b182cb6/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "saku-habu-mizuho",
-      "name": "土生瑞穂",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/014/3f769df8b46da246c4f0ff0c2a2dc/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "saku-moriya-akane",
-      "name": "守屋茜",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/020/2eefef18f50c058778f5a600a9497/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "saku-watanabe-rika",
-      "name": "渡辺梨加",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/021/bf9bc5c3a3b04c86bc91f63004e6c/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "saku-ozeki-rika",
-      "name": "尾関梨香",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/004/b53bdf702eeeb9c7d03a11fc6db91/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "saku-harada-aoi",
-      "name": "原田葵",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/015/63bc7242c1613ee1f654b7325be91/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "saku-satou-shiori",
-      "name": "佐藤詩織",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/009/44daaa2c4819d9b626e2e4ff9d01e/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "saku-suzumoto-miyu",
-      "name": "鈴本美愉",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/010/893c5dca9e87515f4039b5635f791/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "saku-oda-nana",
-      "name": "織田奈那",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/005/23e934fb9e2d31fe186e812586b5e/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "saku-imaizumi-yui",
-      "name": "今泉佑唯",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/002/5e41cebfa18a99478f77372cf5bc9/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "saku-shida-manaka",
-      "name": "志田愛佳",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/008/172e73778a487cb18e202517ee8ff/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "saku-yonetani-nanami",
-      "name": "米谷奈々未",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/022/944e83c27e02dfaa36fb2629b359f/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "saku-nagasawa-nanako",
-      "name": "長沢菜々香",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/013/2a5c2d3cf38eb2aa026d36e2ce597/1000_1000_102400.jpg"
-    },
-    {
-      "memberId": "saku-seki-yumiko",
-      "name": "関有美子",
-      "group": "sakurazaka46",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://sakurazaka46.com/images/14/044/9233630f9a2e6fca7cce65b530c80/1000_1000_102400.jpg"
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100949.jpg"
     },
     {
       "memberId": "ske48-kumazaki-haruka",
@@ -1541,20 +93,20 @@
       "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_16.jpg"
     },
     {
-      "memberId": "ske48-inoue-ruka",
-      "name": "井上瑠夏",
-      "group": "ske48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_5.jpg"
-    },
-    {
       "memberId": "ske48-asai-yuuka",
       "name": "浅井裕華",
       "group": "ske48",
       "field": "imageUrl",
       "severity": "warning",
       "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_44.jpg"
+    },
+    {
+      "memberId": "ske48-inoue-ruka",
+      "name": "井上瑠夏",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_5.jpg"
     },
     {
       "memberId": "ske48-kitagawa-yoshino",
@@ -1597,20 +149,20 @@
       "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_26.jpg"
     },
     {
-      "memberId": "ske48-matsumoto-chikako",
-      "name": "松本慈子",
-      "group": "ske48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_19.jpg"
-    },
-    {
       "memberId": "ske48-kamata-natsuki",
       "name": "鎌田菜月",
       "group": "ske48",
       "field": "imageUrl",
       "severity": "warning",
       "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_48.jpg"
+    },
+    {
+      "memberId": "ske48-matsumoto-chikako",
+      "name": "松本慈子",
+      "group": "ske48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_19.jpg"
     },
     {
       "memberId": "nmb48-kojima-karin",
@@ -1637,44 +189,12 @@
       "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/0/01/Rei_Jonishi_YM04.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
-      "memberId": "nmb48-sakata-misaki",
-      "name": "坂田心咲",
-      "group": "nmb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/%E5%9D%82%E7%94%B0%E5%BF%83%E5%92%B2.jpg/960px-%E5%9D%82%E7%94%B0%E5%BF%83%E5%92%B2.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
       "memberId": "nmb48-abe-wakana",
       "name": "安部若菜",
       "group": "nmb48",
       "field": "imageUrl",
       "severity": "warning",
       "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/%E5%AE%89%E9%83%A8%E8%8B%A5%E8%8F%9C.jpg/960px-%E5%AE%89%E9%83%A8%E8%8B%A5%E8%8F%9C.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "memberId": "nmb48-deguchi-yuina",
-      "name": "出口結菜",
-      "group": "nmb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/1/17/Deguchi_Yuina_%40Orix_Theatre.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
-      "memberId": "hkt48-sakamoto-erena",
-      "name": "坂本愛玲菜",
-      "group": "hkt48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/b/b7/%E5%9D%82%E6%9C%AC_%E6%84%9B%E7%8E%B2%E8%8F%9C.png?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
-      "memberId": "hkt48-ishibashi-ibuki",
-      "name": "石橋颯",
-      "group": "hkt48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0078_240.jpg"
     },
     {
       "memberId": "hkt48-toyonaga-aki",
@@ -1685,12 +205,12 @@
       "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0067_240.jpg"
     },
     {
-      "memberId": "hkt48-ichimura-airi",
-      "name": "市村愛里",
+      "memberId": "hkt48-ishibashi-ibuki",
+      "name": "石橋颯",
       "group": "hkt48",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0079_240.jpg"
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0078_240.jpg"
     },
     {
       "memberId": "hkt48-takemoto-kurumi",
@@ -1699,6 +219,14 @@
       "field": "imageUrl",
       "severity": "warning",
       "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0087_240.jpg"
+    },
+    {
+      "memberId": "hkt48-ichimura-airi",
+      "name": "市村愛里",
+      "group": "hkt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0079_240.jpg"
     },
     {
       "memberId": "hkt48-kurihara-sae",
@@ -1725,164 +253,12 @@
       "message": "Image URL returned status 0: https://cf-pc.c-hkt48.com/img/profile/images/0023_240.jpg"
     },
     {
-      "memberId": "akb48-oguri-yui",
-      "name": "小栗有以",
-      "group": "akb48",
+      "memberId": "hkt48-sakamoto-erena",
+      "name": "坂本愛玲菜",
+      "group": "hkt48",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100816.jpg"
-    },
-    {
-      "memberId": "akb48-kuranoo-narumi",
-      "name": "倉野尾成美",
-      "group": "akb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100846.jpg"
-    },
-    {
-      "memberId": "akb48-chiba-erii",
-      "name": "千葉恵里",
-      "group": "akb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100927.jpg"
-    },
-    {
-      "memberId": "akb48-yamauchi-mizuki",
-      "name": "山内瑞葵",
-      "group": "akb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100951.jpg"
-    },
-    {
-      "memberId": "akb48-satou-airi",
-      "name": "佐藤綺星",
-      "group": "akb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101000.jpg"
-    },
-    {
-      "memberId": "akb48-yagi-azuki",
-      "name": "八木愛月",
-      "group": "akb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101015.jpg"
-    },
-    {
-      "memberId": "akb48-fukuoka-seina",
-      "name": "福岡聖菜",
-      "group": "akb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100790.jpg"
-    },
-    {
-      "memberId": "akb48-shitao-miu",
-      "name": "下尾みう",
-      "group": "akb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100838.jpg"
-    },
-    {
-      "memberId": "akb48-takahashi-ayane",
-      "name": "髙橋彩音",
-      "group": "akb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100814.jpg"
-    },
-    {
-      "memberId": "stu48-ishida-chiho",
-      "name": "石田千穂",
-      "group": "stu48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/b/b4/Chiho_Ishida.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
-      "memberId": "akb48-nagano-serika",
-      "name": "永野芹佳",
-      "group": "akb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100828.jpg"
-    },
-    {
-      "memberId": "akb48-hashimoto-haruna",
-      "name": "橋本陽菜",
-      "group": "akb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100824.jpg"
-    },
-    {
-      "memberId": "akb48-sakagawa-hiyuka",
-      "name": "坂川陽香",
-      "group": "akb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100997.jpg"
-    },
-    {
-      "memberId": "akb48-tokunaga-remi",
-      "name": "徳永羚海",
-      "group": "akb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100993.jpg"
-    },
-    {
-      "memberId": "akb48-mutou-orin",
-      "name": "武藤小麟",
-      "group": "akb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100949.jpg"
-    },
-    {
-      "memberId": "akb48-nagatomo-ayami",
-      "name": "長友彩海",
-      "group": "akb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100943.jpg"
-    },
-    {
-      "memberId": "akb48-arai-sae",
-      "name": "新井彩永",
-      "group": "akb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101010.jpg"
-    },
-    {
-      "memberId": "akb48-akiyama-yuna",
-      "name": "秋山由奈",
-      "group": "akb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101009.jpg"
-    },
-    {
-      "memberId": "akb48-itou-momoka",
-      "name": "伊藤百花",
-      "group": "akb48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101017.jpg"
-    },
-    {
-      "memberId": "ngt48-seiji-reina",
-      "name": "清司麗菜",
-      "group": "ngt48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://img.ngt48.com/artist/111/ngt_1768022064896.jpg"
+      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/b/b7/%E5%9D%82%E6%9C%AC_%E6%84%9B%E7%8E%B2%E8%8F%9C.png?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "memberId": "ngt48-nishigata-marina",
@@ -1891,6 +267,14 @@
       "field": "imageUrl",
       "severity": "warning",
       "message": "Image URL returned status 0: https://img.ngt48.com/artist/118/ngt_1768022673365.jpg"
+    },
+    {
+      "memberId": "ngt48-seiji-reina",
+      "name": "清司麗菜",
+      "group": "ngt48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://img.ngt48.com/artist/111/ngt_1768022064896.jpg"
     },
     {
       "memberId": "ngt48-satou-kairi",
@@ -1941,6 +325,14 @@
       "message": "Image URL returned status 0: https://img.ngt48.com/artist/144/ngt_1768021841829.jpg"
     },
     {
+      "memberId": "stu48-ishida-chiho",
+      "name": "石田千穂",
+      "group": "stu48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/b/b4/Chiho_Ishida.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
       "memberId": "jkt48-shani",
       "name": "シャニ",
       "group": "jkt48",
@@ -1965,14 +357,6 @@
       "message": "Image URL returned status 0: https://jkt48.com/images/member/freya_jayawardana.jpg"
     },
     {
-      "memberId": "bnk48-fupu",
-      "name": "フープ",
-      "group": "bnk48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.bnk48.com/images/members/hoop.jpg"
-    },
-    {
       "memberId": "cgm48-omu",
       "name": "オーム",
       "group": "cgm48",
@@ -1981,20 +365,12 @@
       "message": "Image URL returned status 0: https://cgm48official.com/images/members/aom.jpg"
     },
     {
-      "memberId": "mnl48-sheki",
-      "name": "シェキ",
-      "group": "mnl48",
+      "memberId": "akb48-team-tp-ryuu-gosei",
+      "name": "劉語晴",
+      "group": "akb48-team-tp",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 0: https://mnl48.ph/images/members/sheki.jpg"
-    },
-    {
-      "memberId": "akb48-team-sh-ryuu-nen",
-      "name": "劉念",
-      "group": "akb48-team-sh",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.akb48-china.com/upload/member/liu_nian.jpg"
+      "message": "Image URL returned status 0: https://www.akb48teamtp.com/upload/members/77_yuqing.jpg"
     },
     {
       "memberId": "ske48-aikawa-honoka",
@@ -2357,12 +733,52 @@
       "message": "Image URL returned status 0: https://ske48.co.jp/image/profile/member_105.jpg"
     },
     {
+      "memberId": "akb48-gyouten-yurina",
+      "name": "行天優莉奈",
+      "group": "akb48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100840.jpg"
+    },
+    {
+      "memberId": "akb48-kurosu-haruka",
+      "name": "黒須遥香",
+      "group": "akb48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100937.jpg"
+    },
+    {
+      "memberId": "akb48-yamane-suzuha",
+      "name": "山根涼羽",
+      "group": "akb48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100952.jpg"
+    },
+    {
+      "memberId": "akb48-oota-yuki",
+      "name": "太田有紀",
+      "group": "akb48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100998.jpg"
+    },
+    {
       "memberId": "akb48-hashimoto-eriko",
       "name": "橋本恵理子",
       "group": "akb48",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Hashimotoeriko001.jpg/960px-Hashimotoeriko001.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101001.jpg"
+    },
+    {
+      "memberId": "akb48-hatakeyama-nozomi",
+      "name": "畠山希美",
+      "group": "akb48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101003.jpg"
     },
     {
       "memberId": "akb48-hirata-yuki",
@@ -2370,7 +786,15 @@
       "group": "akb48",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/55th_Plumbing_Machine_Equipment_%26_General_Equipment_Exhibition_Hirata_Yuki_%2853152551255%29_%28cropped%29.jpg/960px-55th_Plumbing_Machine_Equipment_%26_General_Equipment_Exhibition_Hirata_Yuki_%2853152551255%29_%28cropped%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101004.jpg"
+    },
+    {
+      "memberId": "akb48-hotei-moka",
+      "name": "布袋百椛",
+      "group": "akb48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101005.jpg"
     },
     {
       "memberId": "akb48-masai-mayuu",
@@ -2378,7 +802,71 @@
       "group": "akb48",
       "field": "imageUrl",
       "severity": "warning",
-      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Masaimayuu001.png/960px-Masaimayuu001.png?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101006.jpg"
+    },
+    {
+      "memberId": "akb48-mizushima-miyuu",
+      "name": "水島美結",
+      "group": "akb48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101007.jpg"
+    },
+    {
+      "memberId": "akb48-kudou-kasumi",
+      "name": "工藤華純",
+      "group": "akb48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101011.jpg"
+    },
+    {
+      "memberId": "akb48-kubo-hinano",
+      "name": "久保姫菜乃",
+      "group": "akb48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101012.jpg"
+    },
+    {
+      "memberId": "akb48-sako-yumemi",
+      "name": "迫由芽実",
+      "group": "akb48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101013.jpg"
+    },
+    {
+      "memberId": "akb48-narita-kohina",
+      "name": "成田香姫奈",
+      "group": "akb48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101014.jpg"
+    },
+    {
+      "memberId": "akb48-yamaguchi-yui",
+      "name": "山口結愛",
+      "group": "akb48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101016.jpg"
+    },
+    {
+      "memberId": "akb48-okumoto-kairi",
+      "name": "奥本カイリ",
+      "group": "akb48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101018.jpg"
+    },
+    {
+      "memberId": "akb48-kawamura-yui",
+      "name": "川村結衣",
+      "group": "akb48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101019.jpg"
     },
     {
       "memberId": "nmb48-sakashita-mako",
@@ -2387,22 +875,6 @@
       "field": "imageUrl",
       "severity": "warning",
       "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/%E5%9D%82%E4%B8%8B_%E7%9C%9F%E5%BF%83.jpg/960px-%E5%9D%82%E4%B8%8B_%E7%9C%9F%E5%BF%83.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "memberId": "stu48-kai-kokoa",
-      "name": "甲斐心愛",
-      "group": "stu48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/7/7a/KLP48_in_Animangaki_2024_%28Cocoa_Kai%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
-      "memberId": "akb48-team-tp-ryuu-gosei",
-      "name": "劉語晴",
-      "group": "akb48-team-tp",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://www.akb48teamtp.com/upload/members/77_yuqing.jpg"
     },
     {
       "memberId": "hkt48-ikuno-rina",
@@ -2605,6 +1077,14 @@
       "message": "Image URL returned status 0: https://img.ngt48.com/artist/164/ngt_1768022197907.jpg"
     },
     {
+      "memberId": "stu48-kai-kokoa",
+      "name": "甲斐心愛",
+      "group": "stu48",
+      "field": "imageUrl",
+      "severity": "warning",
+      "message": "Image URL returned status 0: https://upload.wikimedia.org/wikipedia/commons/7/7a/KLP48_in_Animangaki_2024_%28Cocoa_Kai%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
       "memberId": "ngt48-isozaki-nana",
       "name": "磯崎菜々",
       "group": "ngt48",
@@ -2779,30 +1259,6 @@
       "field": "imageUrl",
       "severity": "warning",
       "message": "Image URL returned status 0: https://img.ngt48.com/artist/190/ngt_1781316619834.jpg"
-    },
-    {
-      "memberId": "klp48-gyouten-yurina",
-      "name": "行天優莉奈",
-      "group": "klp48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100840.jpg"
-    },
-    {
-      "memberId": "klp48-kurosu-haruka",
-      "name": "黒須遥香",
-      "group": "klp48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100937.jpg"
-    },
-    {
-      "memberId": "klp48-yamane-suzuha",
-      "name": "山根涼羽",
-      "group": "klp48",
-      "field": "imageUrl",
-      "severity": "warning",
-      "message": "Image URL returned status 0: https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100952.jpg"
     }
   ]
 }
