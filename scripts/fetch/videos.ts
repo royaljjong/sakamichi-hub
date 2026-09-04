@@ -165,6 +165,29 @@ async function fetchChannelVideos(channelId: string) {
 }
 
 // ──────────────────────────────────────────────────────────────
+// TikTok fetching feature flag — detect Playwright availability once
+// ──────────────────────────────────────────────────────────────
+let TIKTOK_CHECKED = false;
+let TIKTOK_ENABLED = false;
+
+async function isTikTokFetchingEnabled(): Promise<boolean> {
+  if (TIKTOK_CHECKED) return TIKTOK_ENABLED;
+  TIKTOK_CHECKED = true;
+  try {
+    const pw = await import('playwright');
+    if (!pw.chromium) throw new Error('chromium not exported');
+    const browser = await pw.chromium.launch({ headless: true });
+    await browser.close();
+    TIKTOK_ENABLED = true;
+    console.log('TikTok fetching enabled (Playwright available)');
+  } catch (e: any) {
+    TIKTOK_ENABLED = false;
+    console.warn(`TikTok fetching disabled: ${e?.message ?? e}`);
+  }
+  return TIKTOK_ENABLED;
+}
+
+// ──────────────────────────────────────────────────────────────
 // TikTok video fetching
 // ──────────────────────────────────────────────────────────────
 
@@ -303,6 +326,7 @@ async function fetchTikTokViaPlaywright(handle: string): Promise<TikTokVideo[]> 
 }
 
 async function fetchTikTokVideos(handle: string): Promise<TikTokVideo[]> {
+  if (TIKTOK_CHECKED && !TIKTOK_ENABLED) return [];
   // Approach A: RSSHub
   const rssVideos = await fetchTikTokViaRSSHub(handle);
   if (rssVideos.length > 0) return rssVideos;
@@ -379,68 +403,72 @@ async function main() {
   );
   console.log(`\nMembers with tiktok: ${withTt.length}`);
 
-  let ttFetchedCount = 0;
-  let ttFailedCount = 0;
-
-  for (const m of withTt) {
-    const ttLink = m.links.find((l) => l.type === 'tiktok');
-    if (!ttLink) continue;
-    // Extract handle from URL: https://www.tiktok.com/@handle
-    const handleMatch = ttLink.url.match(/tiktok\.com\/@([^/?#]+)/);
-    if (!handleMatch?.[1]) {
-      console.warn(`  ${m.id}: could not extract handle from ${ttLink.url}`);
-      continue;
-    }
-    const handle = handleMatch[1];
-    console.log(`  ${m.id}: @${handle}`);
-
-    let entries: TikTokVideo[] = [];
-    try {
-      entries = await fetchTikTokVideos(handle);
-    } catch (e: any) {
-      console.warn(`    fetch error: ${e.message}`);
-    }
-
-    if (entries.length === 0) {
-      ttFailedCount++;
-      console.warn(`    no videos fetched for @${handle}`);
-    } else {
-      ttFetchedCount += entries.length;
-    }
-
-    const group = groupMap.get(m.primaryGroupId);
-    for (const v of entries.slice(0, 5)) {
-      videos.push({
-        id: `tt-${v.videoId}`,
-        platform: 'tiktok',
-        videoId: v.videoId,
-        memberId: m.id,
-        memberName: {
-          ja: m.name.ja.kanji,
-          ko: m.name.ko.hangul,
-          en: m.name.en.romaji,
-        },
-        memberGlyph: m.avatar.glyph,
-        memberHueShift: m.avatar.hueShift,
-        memberImage: m.imageUrl || null,
-        groupId: m.primaryGroupId,
-        franchise: (
-          group?.franchise === 'sakamichi' ? 'sakamichi' : 'akb48g'
-        ) as 'sakamichi' | 'akb48g',
-        title: v.title,
-        publishedAt: v.published,
-        url: v.url,
-        thumbnailUrl: v.thumb,
-        channelUrl: ttLink.url,
-      });
-    }
-    await new Promise((r) => setTimeout(r, 1500));
-  }
-
-  if (ttFetchedCount === 0 && withTt.length > 0) {
-    console.warn(`\nWARNING: All RSSHub instances failed and Playwright could not fetch TikTok videos. TikTok section is empty.`);
+  if (!(await isTikTokFetchingEnabled())) {
+    console.log('\nSkipping TikTok fetching (Playwright unavailable in this environment)');
   } else {
-    console.log(`\nTikTok: fetched ${ttFetchedCount} videos across ${withTt.length - ttFailedCount}/${withTt.length} members`);
+    let ttFetchedCount = 0;
+    let ttFailedCount = 0;
+
+    for (const m of withTt) {
+      const ttLink = m.links.find((l) => l.type === 'tiktok');
+      if (!ttLink) continue;
+      // Extract handle from URL: https://www.tiktok.com/@handle
+      const handleMatch = ttLink.url.match(/tiktok\.com\/@([^/?#]+)/);
+      if (!handleMatch?.[1]) {
+        console.warn(`  ${m.id}: could not extract handle from ${ttLink.url}`);
+        continue;
+      }
+      const handle = handleMatch[1];
+      console.log(`  ${m.id}: @${handle}`);
+
+      let entries: TikTokVideo[] = [];
+      try {
+        entries = await fetchTikTokVideos(handle);
+      } catch (e: any) {
+        console.warn(`    fetch error: ${e.message}`);
+      }
+
+      if (entries.length === 0) {
+        ttFailedCount++;
+        console.warn(`    no videos fetched for @${handle}`);
+      } else {
+        ttFetchedCount += entries.length;
+      }
+
+      const group = groupMap.get(m.primaryGroupId);
+      for (const v of entries.slice(0, 5)) {
+        videos.push({
+          id: `tt-${v.videoId}`,
+          platform: 'tiktok',
+          videoId: v.videoId,
+          memberId: m.id,
+          memberName: {
+            ja: m.name.ja.kanji,
+            ko: m.name.ko.hangul,
+            en: m.name.en.romaji,
+          },
+          memberGlyph: m.avatar.glyph,
+          memberHueShift: m.avatar.hueShift,
+          memberImage: m.imageUrl || null,
+          groupId: m.primaryGroupId,
+          franchise: (
+            group?.franchise === 'sakamichi' ? 'sakamichi' : 'akb48g'
+          ) as 'sakamichi' | 'akb48g',
+          title: v.title,
+          publishedAt: v.published,
+          url: v.url,
+          thumbnailUrl: v.thumb,
+          channelUrl: ttLink.url,
+        });
+      }
+      await new Promise((r) => setTimeout(r, 1500));
+    }
+
+    if (ttFetchedCount === 0 && withTt.length > 0) {
+      console.warn(`\nWARNING: All RSSHub instances failed and Playwright could not fetch TikTok videos. TikTok section is empty.`);
+    } else {
+      console.log(`\nTikTok: fetched ${ttFetchedCount} videos across ${withTt.length - ttFailedCount}/${withTt.length} members`);
+    }
   }
 
   videos.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
