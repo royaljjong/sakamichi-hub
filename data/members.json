@@ -18912,19 +18912,6 @@
         "lastStatusCode": 200
       },
       {
-        "type": "official_profile",
-        "url": "https://www.hkt48.jp/profile/67",
-        "status": "ok",
-        "isOfficial": true,
-        "lastCheckedAt": "2026-08-22",
-        "provenance": {
-          "source": "official",
-          "sourceUrl": "https://www.hkt48.jp/profile/",
-          "checkedAt": "2026-08-22",
-          "note": null
-        }
-      },
-      {
         "type": "youtube",
         "url": "https://www.youtube.com/user/HKT48",
         "label": null,
@@ -19012,19 +18999,6 @@
         "status": "ok",
         "lastCheckedAt": "2026-09-03",
         "lastStatusCode": 200
-      },
-      {
-        "type": "official_profile",
-        "url": "https://www.hkt48.jp/profile/78",
-        "status": "ok",
-        "isOfficial": true,
-        "lastCheckedAt": "2026-08-22",
-        "provenance": {
-          "source": "official",
-          "sourceUrl": "https://www.hkt48.jp/profile/",
-          "checkedAt": "2026-08-22",
-          "note": null
-        }
       },
       {
         "type": "youtube",
@@ -19125,19 +19099,6 @@
         "lastStatusCode": 200
       },
       {
-        "type": "official_profile",
-        "url": "https://www.hkt48.jp/profile/87",
-        "status": "ok",
-        "isOfficial": true,
-        "lastCheckedAt": "2026-08-22",
-        "provenance": {
-          "source": "official",
-          "sourceUrl": "https://www.hkt48.jp/profile/",
-          "checkedAt": "2026-08-22",
-          "note": null
-        }
-      },
-      {
         "type": "youtube",
         "url": "https://www.youtube.com/user/HKT48",
         "label": null,
@@ -19225,19 +19186,6 @@
         "status": "ok",
         "lastCheckedAt": "2026-09-03",
         "lastStatusCode": 200
-      },
-      {
-        "type": "official_profile",
-        "url": "https://www.hkt48.jp/profile/79",
-        "status": "ok",
-        "isOfficial": true,
-        "lastCheckedAt": "2026-08-22",
-        "provenance": {
-          "source": "official",
-          "sourceUrl": "https://www.hkt48.jp/profile/",
-          "checkedAt": "2026-08-22",
-          "note": null
-        }
       },
       {
         "type": "youtube",
@@ -19336,19 +19284,6 @@
         "status": "ok",
         "lastCheckedAt": "2026-09-03",
         "lastStatusCode": 200
-      },
-      {
-        "type": "official_profile",
-        "url": "https://www.hkt48.jp/profile/46",
-        "status": "ok",
-        "isOfficial": true,
-        "lastCheckedAt": "2026-08-22",
-        "provenance": {
-          "source": "official",
-          "sourceUrl": "https://www.hkt48.jp/profile/",
-          "checkedAt": "2026-08-22",
-          "note": null
-        }
       },
       {
         "type": "youtube",
@@ -20091,19 +20026,6 @@
         "lastStatusCode": 200
       },
       {
-        "type": "official_profile",
-        "url": "https://ngt48.jp/profile/detail/118",
-        "status": "ok",
-        "isOfficial": true,
-        "lastCheckedAt": "2026-08-22",
-        "provenance": {
-          "source": "official",
-          "sourceUrl": "https://ngt48.jp/profile",
-          "checkedAt": "2026-08-22",
-          "note": null
-        }
-      },
-      {
         "type": "youtube",
         "url": "https://www.youtube.com/c/NGT48",
         "label": null,
@@ -20182,19 +20104,6 @@
         "status": "ok",
         "lastCheckedAt": "2026-09-03",
         "lastStatusCode": 200
-      },
-      {
-        "type": "official_profile",
-        "url": "https://ngt48.jp/profile/detail/111",
-        "status": "ok",
-        "isOfficial": true,
-        "lastCheckedAt": "2026-08-22",
-        "provenance": {
-          "source": "official",
-          "sourceUrl": "https://ngt48.jp/profile",
-          "checkedAt": "2026-08-22",
-          "note": null
-        }
       },
       {
         "type": "youtube",
@@ -20286,19 +20195,6 @@
         "lastStatusCode": 200
       },
       {
-        "type": "official_profile",
-        "url": "https://ngt48.jp/profile/detail/128",
-        "status": "ok",
-        "isOfficial": true,
-        "lastCheckedAt": "2026-08-22",
-        "provenance": {
-          "source": "official",
-          "sourceUrl": "https://ngt48.jp/profile",
-          "checkedAt": "2026-08-22",
-          "note": null
-        }
-      },
-      {
         "type": "youtube",
         "url": "https://www.youtube.com/c/NGT48",
         "label": null,
@@ -20386,19 +20282,6 @@
         "status": "ok",
         "lastCheckedAt": "2026-09-03",
         "lastStatusCode": 200
-      },
-      {
-        "type": "official_profile",
-        "url": "https://ngt48.jp/profile/detail/132",
-        "status": "ok",
-        "isOfficial": true,
-        "lastCheckedAt": "2026-08-22",
-        "provenance": {
-          "source": "official",
-          "sourceUrl": "https://ngt48.jp/profile",
-          "checkedAt": "2026-08-22",
-          "note": null
-        }
       },
       {
         "type": "youtube",
