@@ -4,11 +4,32 @@ import { routing } from './i18n/routing';
 
 const intlMiddleware = createIntlMiddleware(routing);
 
+const KLP48_TO_AKB48_MERGES: Record<string, string> = {
+  'klp48-gyouten-yurina': 'akb48-gyouten-yurina',
+  'klp48-kurosu-haruka': 'akb48-kurosu-haruka',
+  'klp48-yamane-suzuha': 'akb48-yamane-suzuha',
+};
+
 export default function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   if (pathname.startsWith('/api/')) {
     return NextResponse.next();
+  }
+
+  // Redirect merged KLP48 member pages to their AKB48 equivalents (301 permanent)
+  const memberMatch = pathname.match(/^\/(ja|ko|en)\/m\/(klp48-[a-z-]+)$/);
+  if (memberMatch) {
+    const locale = memberMatch[1];
+    const oldId = memberMatch[2];
+    if (locale && oldId) {
+      const newId = KLP48_TO_AKB48_MERGES[oldId];
+      if (newId) {
+        const url = request.nextUrl.clone();
+        url.pathname = `/${locale}/m/${newId}`;
+        return NextResponse.redirect(url, 301);
+      }
+    }
   }
 
   // Serve the default locale at the root path WITHOUT a redirect so that

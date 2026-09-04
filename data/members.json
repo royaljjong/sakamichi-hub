@@ -21529,234 +21529,6 @@
     "specialties": null
   },
   {
-    "id": "klp48-gyouten-yurina",
-    "name": {
-      "ja": {
-        "kanji": "行天優莉奈",
-        "kana": "ぎょうてん ゆりな"
-      },
-      "ko": {
-        "hangul": "교텐 유리나"
-      },
-      "en": {
-        "romaji": "Gyoten Yurina"
-      },
-      "aliases": []
-    },
-    "primaryGroupId": "klp48",
-    "primaryGenerationId": "klp-g-active",
-    "status": "active",
-    "memberships": [
-      {
-        "groupId": "klp48",
-        "generationId": "klp-g-active",
-        "joinedOn": "2014-04-03",
-        "leftOn": null,
-        "isConcurrent": false,
-        "endReason": null
-      }
-    ],
-    "birthDate": "1999-03-14",
-    "birthplace": null,
-    "officialCode": "yurina_gyoten",
-    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100840.jpg",
-    "links": [
-      {
-        "type": "official_profile",
-        "url": "https://klp48.my/members/yurina_gyoten",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "x",
-        "url": "https://x.com/tenten_yurina",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/yurina.gyoten/",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      }
-    ],
-    "avatar": {
-      "glyph": "行",
-      "hueShift": -28
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://klp48.my/members/yurina_gyoten",
-      "checkedAt": "2026-08-16",
-      "note": "AKB48 Group verified dataset from official sites"
-    },
-    "bloodType": null,
-    "height": null,
-    "hobbies": null,
-    "specialties": null
-  },
-  {
-    "id": "klp48-kurosu-haruka",
-    "name": {
-      "ja": {
-        "kanji": "黒須遥香",
-        "kana": "くろす はるか"
-      },
-      "ko": {
-        "hangul": "쿠로스 하루카"
-      },
-      "en": {
-        "romaji": "Kurosu Haruka"
-      },
-      "aliases": []
-    },
-    "primaryGroupId": "klp48",
-    "primaryGenerationId": "klp-g-active",
-    "status": "active",
-    "memberships": [
-      {
-        "groupId": "klp48",
-        "generationId": "klp-g-active",
-        "joinedOn": "2016-12-08",
-        "leftOn": null,
-        "isConcurrent": false,
-        "endReason": null
-      }
-    ],
-    "birthDate": "2001-02-28",
-    "birthplace": null,
-    "officialCode": "haruka_kurosu",
-    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100937.jpg",
-    "links": [
-      {
-        "type": "official_profile",
-        "url": "https://klp48.my/members/haruka_kurosu",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "x",
-        "url": "https://x.com/kurosu_haruka_",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/kurosu_haruka/",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      }
-    ],
-    "avatar": {
-      "glyph": "黒",
-      "hueShift": 31
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://klp48.my/members/haruka_kurosu",
-      "checkedAt": "2026-08-16",
-      "note": "AKB48 Group verified dataset from official sites"
-    },
-    "bloodType": null,
-    "height": null,
-    "hobbies": null,
-    "specialties": null
-  },
-  {
-    "id": "klp48-yamane-suzuha",
-    "name": {
-      "ja": {
-        "kanji": "山根涼羽",
-        "kana": "やまね すずは"
-      },
-      "ko": {
-        "hangul": "야마네 스즈하"
-      },
-      "en": {
-        "romaji": "Yamane Suzuha"
-      },
-      "aliases": []
-    },
-    "primaryGroupId": "klp48",
-    "primaryGenerationId": "klp-g-active",
-    "status": "active",
-    "memberships": [
-      {
-        "groupId": "klp48",
-        "generationId": "klp-g-active",
-        "joinedOn": "2016-12-08",
-        "leftOn": null,
-        "isConcurrent": false,
-        "endReason": null
-      }
-    ],
-    "birthDate": "2000-08-11",
-    "birthplace": null,
-    "officialCode": "suzuha_yamane",
-    "imageUrl": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100952.jpg",
-    "links": [
-      {
-        "type": "official_profile",
-        "url": "https://klp48.my/members/suzuha_yamane",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "x",
-        "url": "https://x.com/48_asayan",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/suzunya_48/",
-        "label": null,
-        "isOfficial": true,
-        "status": "ok",
-        "lastCheckedAt": "2026-08-16",
-        "lastStatusCode": 200
-      }
-    ],
-    "avatar": {
-      "glyph": "山",
-      "hueShift": 13
-    },
-    "provenance": {
-      "source": "official",
-      "sourceUrl": "https://klp48.my/members/suzuha_yamane",
-      "checkedAt": "2026-08-16",
-      "note": "AKB48 Group verified dataset from official sites"
-    },
-    "bloodType": null,
-    "height": null,
-    "hobbies": null,
-    "specialties": null
-  },
-  {
     "id": "ske48-aikawa-honoka",
     "name": {
       "ja": {
@@ -25404,6 +25176,14 @@
         "leftOn": null,
         "isConcurrent": false,
         "endReason": null
+      },
+      {
+        "groupId": "klp48",
+        "generationId": "klp-g-active",
+        "joinedOn": "2014-04-03",
+        "leftOn": null,
+        "isConcurrent": true,
+        "endReason": null
       }
     ],
     "birthDate": "1999-03-14",
@@ -25440,6 +25220,24 @@
         "isOfficial": true,
         "status": "ok",
         "lastCheckedAt": "2026-09-03",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://klp48.my/members/yurina_gyoten",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/yurina.gyoten/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
       }
     ],
@@ -25484,6 +25282,14 @@
         "leftOn": null,
         "isConcurrent": false,
         "endReason": null
+      },
+      {
+        "groupId": "klp48",
+        "generationId": "klp-g-active",
+        "joinedOn": "2016-12-08",
+        "leftOn": null,
+        "isConcurrent": true,
+        "endReason": null
       }
     ],
     "birthDate": "2001-02-28",
@@ -25520,6 +25326,33 @@
         "isOfficial": true,
         "status": "ok",
         "lastCheckedAt": "2026-09-03",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://klp48.my/members/haruka_kurosu",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "x",
+        "url": "https://x.com/kurosu_haruka_",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/kurosu_haruka/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
       }
     ],
@@ -25564,6 +25397,14 @@
         "leftOn": null,
         "isConcurrent": false,
         "endReason": null
+      },
+      {
+        "groupId": "klp48",
+        "generationId": "klp-g-active",
+        "joinedOn": "2016-12-08",
+        "leftOn": null,
+        "isConcurrent": true,
+        "endReason": null
       }
     ],
     "birthDate": "2000-08-11",
@@ -25600,6 +25441,33 @@
         "isOfficial": true,
         "status": "ok",
         "lastCheckedAt": "2026-09-03",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "official_profile",
+        "url": "https://klp48.my/members/suzuha_yamane",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "x",
+        "url": "https://x.com/48_asayan",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
+        "lastStatusCode": 200
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/suzunya_48/",
+        "label": null,
+        "isOfficial": true,
+        "status": "ok",
+        "lastCheckedAt": "2026-08-16",
         "lastStatusCode": 200
       }
     ],
