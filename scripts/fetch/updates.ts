@@ -1,6 +1,7 @@
 import { safeFetch } from '../lib/fetcher';
 import * as fs from 'fs';
 import * as path from 'path';
+import crypto from 'node:crypto';
 import type { Member } from '../../src/lib/schema';
 
 export interface RecentUpdate {
@@ -416,6 +417,64 @@ async function fetchNitterFeed(
   }
 
   return results;
+}
+
+// ─── Normalizer ─────────────────────────────────────────────────────────────
+
+const GROUP_PREFIX: Record<string, string> = {
+  nogizaka46: 'nogi', sakurazaka46: 'saku', hinatazaka46: 'hina',
+  akb48: 'akb', ske48: 'ske', nmb48: 'nmb', hkt48: 'hkt', ngt48: 'ngt', stu48: 'stu',
+  jkt48: 'jkt', bnk48: 'bnk', cgm48: 'cgm', mnl48: 'mnl',
+  'akb48-team-sh': 'sh', 'akb48-team-tp': 'tp', klp48: 'klp',
+};
+
+function normalizeUpdate(u: RecentUpdate): RecentUpdate | null {
+  // Decode HTML entities in title
+  let title = u.title.replace(/&#x([0-9A-Fa-f]+);/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)));
+  title = title.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"');
+  title = title.trim();
+
+  // Reject bare URL as title
+  if (/^https?:\/\//i.test(title)) return null;
+  // Reject empty title
+  if (!title) return null;
+
+  // Normalize publishedAt to ISO 8601 offset
+  let publishedAt = u.publishedAt;
+  const asDate = new Date(publishedAt);
+  if (isNaN(asDate.getTime())) {
+    // Try common non-ISO patterns: "2026.9.4 13:49" or "2026.09.04 19:02"
+    const m = publishedAt.match(/^(\d{4})[.\-\/](\d{1,2})[.\-\/](\d{1,2})[\s]+(\d{1,2}):(\d{1,2})/);
+    if (m) {
+      const y = m[1]!, mo = m[2]!, d = m[3]!, h = m[4]!, mi = m[5]!;
+      const iso = new Date(Date.UTC(+y, +mo - 1, +d, +h - 9, +mi)); // assume JST source
+      if (!isNaN(iso.getTime())) publishedAt = iso.toISOString();
+      else return null;
+    } else {
+      return null;
+    }
+  } else {
+    publishedAt = asDate.toISOString();
+  }
+
+  // Regenerate ID deterministically from url+publishedAt hash
+  const prefix = GROUP_PREFIX[u.groupId] ?? u.groupId.slice(0, 4);
+  const hash = crypto.createHash('sha1').update(u.url + '|' + publishedAt).digest('hex').slice(0, 12);
+  const id = `${prefix}-${hash}`;
+
+  return { ...u, title, publishedAt, id };
+}
+
+function normalizeAndDedup(items: RecentUpdate[]): RecentUpdate[] {
+  const normalized = items.map((u) => normalizeUpdate(u)).filter((x): x is RecentUpdate => x !== null);
+  const seen = new Map<string, RecentUpdate>();
+  for (const u of normalized) {
+    const existing = seen.get(u.url);
+    if (!existing || u.publishedAt > existing.publishedAt) {
+      seen.set(u.url, u);
+    }
+  }
+  return [...seen.values()].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 }
 
 // ─── Main ───────────────────────────────────────────────────────────────────
@@ -1114,7 +1173,7 @@ export async function fetchLatestUpdates(providedMembers?: Member[]): Promise<Re
   const finalSakamichi = sakamichiUpdates.slice(0, 30);
   const finalAkb = akbUpdates.slice(0, 30);
 
-  const combined = [...finalSakamichi, ...finalAkb];
+  const combined = normalizeAndDedup([...finalSakamichi, ...finalAkb]);
 
   try {
     const outPath = path.join(process.cwd(), 'data', 'latest-updates.json');

@@ -3,6 +3,8 @@ import * as path from 'path';
 import { Dataset, checkIntegrity } from '../src/lib/schema';
 import { PortalDataset } from '../src/lib/portal-schema';
 import { Discography } from '../src/lib/discography-schema';
+import { RecentUpdates } from '../src/lib/updates-schema';
+import { MemberVideos } from '../src/lib/videos-schema';
 
 function validate() {
   const dataDir = path.join(__dirname, '..', 'data');
@@ -59,6 +61,34 @@ function validate() {
   }
   console.log(`✅ Portal schema passed: ${portalResult.data.events.length} events, ${portalResult.data.venues.length} venues, ${portalResult.data.rankings.length} ranking facts.`);
   console.log(`📊 Summary: ${parseResult.data.groups.length} groups, ${parseResult.data.members.length} members.`);
+
+  const updatesPath = path.join(dataDir, 'latest-updates.json');
+  if (fs.existsSync(updatesPath)) {
+    const raw = JSON.parse(fs.readFileSync(updatesPath, 'utf-8'));
+    const result = RecentUpdates.safeParse(raw);
+    if (!result.success) {
+      console.error('❌ latest-updates.json invalid:');
+      result.error.issues.forEach((issue) => {
+        console.error(' -', issue.path.join('.'), ':', issue.message);
+      });
+      process.exit(1);
+    }
+    console.log(`✅ Updates schema passed: ${result.data.length} entries.`);
+  }
+
+  const videosPath = path.join(dataDir, 'latest-videos.json');
+  if (fs.existsSync(videosPath)) {
+    const raw = JSON.parse(fs.readFileSync(videosPath, 'utf-8'));
+    const result = MemberVideos.safeParse(raw);
+    if (!result.success) {
+      console.error('❌ latest-videos.json invalid:');
+      result.error.issues.forEach((issue) => {
+        console.error(' -', issue.path.join('.'), ':', issue.message);
+      });
+      process.exit(1);
+    }
+    console.log(`✅ Videos schema passed: ${result.data.length} entries.`);
+  }
 
   // Validate discography.json (optional — skip if file not yet fetched)
   const discographyPath = path.join(dataDir, 'discography.json');
