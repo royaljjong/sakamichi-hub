@@ -1,9 +1,38 @@
+import type { Metadata } from 'next';
 import { setRequestLocale } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import { Link } from '@/i18n/routing';
 import { AmbientBackground } from '@/components/background/AmbientBackground';
 import { Navigation } from '@/components/ui/Navigation';
 import { Footer } from '@/components/ui/Footer';
+
+const BASE_URL = 'https://sakamichi-hub.vercel.app';
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const title =
+    locale === 'ja' ? 'このサイトについて | 坂道・48グループ リンクハブ'
+    : locale === 'ko' ? '사이트 소개 | 사카미치・48그룹 링크 허브'
+    : 'About | Sakamichi & 48 Group Link Hub';
+  const description =
+    locale === 'ja' ? '坂道シリーズとAKB48グループの公式リンクを一箇所に集める非公式ディレクトリの目的・出典・運営方針。'
+    : locale === 'ko' ? '사카미치와 AKB48 그룹의 공식 링크를 한 곳에 모은 비공식 디렉터리의 목적·출처·운영 방침.'
+    : 'Purpose, sources, and editorial policy for this unofficial directory that consolidates official links for Sakamichi and AKB48 groups.';
+  return {
+    metadataBase: new URL(BASE_URL),
+    title,
+    description,
+    alternates: {
+      canonical: `${BASE_URL}/${locale}/about`,
+      languages: {
+        ja: `${BASE_URL}/ja/about`,
+        ko: `${BASE_URL}/ko/about`,
+        en: `${BASE_URL}/en/about`,
+        'x-default': `${BASE_URL}/ja/about`,
+      },
+    },
+  };
+}
 
 interface AboutPageProps {
   params: Promise<{ locale: string }>;

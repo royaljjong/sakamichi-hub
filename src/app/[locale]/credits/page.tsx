@@ -1,8 +1,37 @@
+import type { Metadata } from 'next';
 import { setRequestLocale } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import { AmbientBackground } from '@/components/background/AmbientBackground';
 import { Navigation } from '@/components/ui/Navigation';
 import { Footer } from '@/components/ui/Footer';
+
+const BASE_URL = 'https://sakamichi-hub.vercel.app';
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const title =
+    locale === 'ja' ? 'クレジット (CC BY-SA 4.0) | 坂道・48グループ リンクハブ'
+    : locale === 'ko' ? '크레디트 (CC BY-SA 4.0) | 사카미치・48그룹 링크 허브'
+    : 'Credits (CC BY-SA 4.0) | Sakamichi & 48 Group Link Hub';
+  const description =
+    locale === 'ja' ? 'Wikipedia (CC BY-SA 4.0) と Wikimedia Commons を含む本サイトのデータ・画像出典クレジット。'
+    : locale === 'ko' ? 'Wikipedia (CC BY-SA 4.0) 및 Wikimedia Commons을 포함한 본 사이트의 데이터·이미지 출처 크레디트.'
+    : 'Data and image source credits including Wikipedia (CC BY-SA 4.0) and Wikimedia Commons.';
+  return {
+    metadataBase: new URL(BASE_URL),
+    title,
+    description,
+    alternates: {
+      canonical: `${BASE_URL}/${locale}/credits`,
+      languages: {
+        ja: `${BASE_URL}/ja/credits`,
+        ko: `${BASE_URL}/ko/credits`,
+        en: `${BASE_URL}/en/credits`,
+        'x-default': `${BASE_URL}/ja/credits`,
+      },
+    },
+  };
+}
 
 interface CreditsPageProps {
   params: Promise<{ locale: string }>;
