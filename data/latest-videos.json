@@ -15,10 +15,31 @@
     "groupId": "nmb48",
     "franchise": "akb48g",
     "title": "【The Blood of Dawnwalker】 #3｜ネタバレ注意｜ドーンウォーカーとして生きます 【日ノ森あんず】",
-    "publishedAt": "2026-09-04T09:58:27+00:00",
+    "publishedAt": "2026-09-04T16:04:00+00:00",
     "url": "https://www.youtube.com/watch?v=sUPZmLIOoJs",
     "thumbnailUrl": "https://i4.ytimg.com/vi/sUPZmLIOoJs/hqdefault.jpg",
     "channelUrl": "https://www.youtube.com/@nagichannel"
+  },
+  {
+    "id": "yt-lkI3zHpVvhQ",
+    "platform": "youtube",
+    "videoId": "lkI3zHpVvhQ",
+    "memberId": "nmb48-sakashita-mako",
+    "memberName": {
+      "ja": "坂下真心",
+      "ko": "사카시타 마코",
+      "en": "Sakashita Mako"
+    },
+    "memberGlyph": "坂",
+    "memberHueShift": -17,
+    "memberImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/%E5%9D%82%E4%B8%8B_%E7%9C%9F%E5%BF%83.jpg/960px-%E5%9D%82%E4%B8%8B_%E7%9C%9F%E5%BF%83.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "groupId": "nmb48",
+    "franchise": "akb48g",
+    "title": "Jリーグ開幕！セレッソ大阪の推しポイント8選を語ったら愛が止まらなくなった⚽【NMB48 坂下真心】",
+    "publishedAt": "2026-09-04T13:00:06+00:00",
+    "url": "https://www.youtube.com/watch?v=lkI3zHpVvhQ",
+    "thumbnailUrl": "https://i1.ytimg.com/vi/lkI3zHpVvhQ/hqdefault.jpg",
+    "channelUrl": "https://www.youtube.com/@sakashita_mako"
   },
   {
     "id": "yt-IHNoX2UJwMI",
@@ -186,27 +207,6 @@
     "publishedAt": "2026-08-07T13:00:06+00:00",
     "url": "https://www.youtube.com/watch?v=jxDGbG-Hb_0",
     "thumbnailUrl": "https://i3.ytimg.com/vi/jxDGbG-Hb_0/hqdefault.jpg",
-    "channelUrl": "https://www.youtube.com/@sakashita_mako"
-  },
-  {
-    "id": "yt-UjjpVekHqcI",
-    "platform": "youtube",
-    "videoId": "UjjpVekHqcI",
-    "memberId": "nmb48-sakashita-mako",
-    "memberName": {
-      "ja": "坂下真心",
-      "ko": "사카시타 마코",
-      "en": "Sakashita Mako"
-    },
-    "memberGlyph": "坂",
-    "memberHueShift": -17,
-    "memberImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/%E5%9D%82%E4%B8%8B_%E7%9C%9F%E5%BF%83.jpg/960px-%E5%9D%82%E4%B8%8B_%E7%9C%9F%E5%BF%83.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "groupId": "nmb48",
-    "franchise": "akb48g",
-    "title": "ライブ翌日に猛練習！NMB48フットサルチームが特訓を始めました⚽【坂下真心】",
-    "publishedAt": "2026-07-31T13:00:06+00:00",
-    "url": "https://www.youtube.com/watch?v=UjjpVekHqcI",
-    "thumbnailUrl": "https://i2.ytimg.com/vi/UjjpVekHqcI/hqdefault.jpg",
     "channelUrl": "https://www.youtube.com/@sakashita_mako"
   },
   {
