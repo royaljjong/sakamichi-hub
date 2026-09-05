@@ -15,7 +15,6 @@ interface LinkReport {
 }
 
 async function checkAllLinks() {
-  console.log('🔍 Starting link health checks across all members...\n');
   const dataPath = path.join(__dirname, '..', 'data', 'members.json');
   if (!fs.existsSync(dataPath)) {
     console.error('❌ data/members.json does not exist');
@@ -25,7 +24,6 @@ async function checkAllLinks() {
   const members: Member[] = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
   const today = new Date().toISOString().slice(0, 10);
 
-  let totalLinks = 0;
   let okCount = 0;
   let redirectedCount = 0;
   let deadCount = 0;
@@ -34,50 +32,76 @@ async function checkAllLinks() {
   const unverifiedLinks: LinkReport['unverifiedLinks'] = [];
   const writeMembers = process.argv.includes('--write-members');
 
-  for (let mIdx = 0; mIdx < members.length; mIdx++) {
-    const member = members[mIdx]!;
-    for (let lIdx = 0; lIdx < member.links.length; lIdx++) {
-      const link = member.links[lIdx]!;
-      totalLinks++;
-      console.log(`[${totalLinks}] Checking [${member.name.ja.kanji}] (${link.type}): ${link.url}`);
+  // Build flat task list
+  type Task = { member: Member; link: MemberLink };
+  const tasks: Task[] = [];
+  for (const member of members) {
+    for (const link of member.links) tasks.push({ member, link });
+  }
+  const totalLinks = tasks.length;
+  console.log(`🔍 Starting ${totalLinks} link checks with concurrency 20...\n`);
 
-      try {
-        const res = await safeFetch(link.url, { retries: 1 });
-        let status: MemberLink['status'];
-        if (res.ok) {
-          if (res.finalUrl && res.finalUrl !== link.url) {
-            status = 'redirected';
-            redirectedCount++;
-          } else {
-            status = 'ok';
-            okCount++;
-          }
-        } else if (res.status === 404 || res.status === 410) {
-          status = 'dead';
-          deadCount++;
-          deadLinks.push({ memberId: member.id, url: link.url, status: res.status });
+  // Worker pool
+  const CONCURRENCY = 20;
+  let processedCount = 0;
+
+  async function processOne(task: Task): Promise<void> {
+    const { member, link } = task;
+    const idx = ++processedCount;
+    console.log(`[${idx}/${totalLinks}] ${member.name.ja.kanji} (${link.type}): ${link.url}`);
+    try {
+      const res = await safeFetch(link.url, { retries: 1 });
+      let status: MemberLink['status'];
+      if (res.ok) {
+        if (res.finalUrl && res.finalUrl !== link.url) {
+          status = 'redirected';
+          redirectedCount++;
         } else {
-          status = 'unverified';
-          unverifiedCount++;
-          unverifiedLinks.push({ memberId: member.id, url: link.url, status: res.status });
+          status = 'ok';
+          okCount++;
         }
-        if (writeMembers) {
-          link.lastCheckedAt = today;
-          link.lastStatusCode = res.status;
-          link.status = status;
-        }
-      } catch (err: any) {
-        console.warn(`⚠️ Error checking link ${link.url}: ${err.message}`);
+      } else if (res.status === 404 || res.status === 410) {
+        status = 'dead';
+        deadCount++;
+        deadLinks.push({ memberId: member.id, url: link.url, status: res.status });
+      } else {
+        status = 'unverified';
         unverifiedCount++;
-        unverifiedLinks.push({ memberId: member.id, url: link.url, status: null, error: err.message });
-        if (writeMembers) {
-          link.lastCheckedAt = today;
-          link.lastStatusCode = 0;
-          link.status = 'unverified';
-        }
+        unverifiedLinks.push({ memberId: member.id, url: link.url, status: res.status });
+      }
+      if (writeMembers) {
+        link.lastCheckedAt = today;
+        link.lastStatusCode = res.status;
+        link.status = status;
+      }
+    } catch (err: any) {
+      console.warn(`  ⚠️ error: ${err.message}`);
+      unverifiedCount++;
+      unverifiedLinks.push({ memberId: member.id, url: link.url, status: null, error: err.message });
+      if (writeMembers) {
+        link.lastCheckedAt = today;
+        link.lastStatusCode = 0;
+        link.status = 'unverified';
       }
     }
   }
+
+  async function runPool(items: Task[], concurrency: number): Promise<void> {
+    const queue = items.slice();
+    const workers: Promise<void>[] = [];
+    for (let i = 0; i < concurrency; i++) {
+      workers.push((async () => {
+        while (queue.length > 0) {
+          const task = queue.shift();
+          if (!task) return;
+          await processOne(task);
+        }
+      })());
+    }
+    await Promise.all(workers);
+  }
+
+  await runPool(tasks, CONCURRENCY);
 
   if (writeMembers) {
     fs.writeFileSync(dataPath, JSON.stringify(members, null, 2), 'utf-8');
