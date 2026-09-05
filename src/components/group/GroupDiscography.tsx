@@ -62,6 +62,9 @@ export function GroupDiscography({ singles, group, locale }: GroupDiscographyPro
                     <img
                       src={single.coverUrl}
                       alt={single.title.ja}
+                      loading="lazy"
+                      referrerPolicy="no-referrer"
+                      decoding="async"
                       className="w-full h-full object-cover"
                     />
                   ) : (

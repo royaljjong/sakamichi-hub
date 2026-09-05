@@ -407,6 +407,7 @@ export function HomePortal({
                                 alt=""
                                 loading="lazy"
                                 referrerPolicy="no-referrer"
+                                decoding="async"
                                 className="h-full w-full object-cover"
                                 onError={() =>
                                   setFailedPosters((current) => {
@@ -434,6 +435,7 @@ export function HomePortal({
                                     alt={`${localized(group.name)} logo`}
                                     loading="lazy"
                                     referrerPolicy="no-referrer"
+                                    decoding="async"
                                     className="event-group-logo"
                                     onError={() =>
                                       setFailedEventLogos((current) => {
@@ -737,6 +739,7 @@ export function HomePortal({
                               src={video.thumbnailUrl}
                               alt=""
                               loading="lazy"
+                              decoding="async"
                             />
                           </div>
                           <div className="video-card-body">

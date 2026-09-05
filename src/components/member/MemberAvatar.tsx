@@ -47,6 +47,7 @@ export function MemberAvatar({
           alt={name || glyph}
           loading="lazy"
           referrerPolicy="no-referrer"
+          decoding="async"
           onError={() => setImgError(true)}
           className="w-full h-full object-cover object-top scale-105"
         />
@@ -76,6 +77,7 @@ export function MemberAvatar({
           alt={name || glyph}
           loading="lazy"
           referrerPolicy="no-referrer"
+          decoding="async"
           onError={() => setLogoError(true)}
           className="w-[88%] h-[88%] object-contain drop-shadow-sm"
           style={{ mixBlendMode: 'multiply' }}

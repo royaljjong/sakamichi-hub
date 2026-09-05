@@ -1,10 +1,15 @@
 'use client';
 
 import React, { useEffect, useRef, useState } from 'react';
+import dynamic from 'next/dynamic';
 import { PaperGrain } from './PaperGrain';
 import { SlopeLine } from './SlopeLine';
-import { AquaPointerField } from './AquaPointerField';
 import type { ParticleMotif } from '@/lib/schema';
+
+const AquaPointerField = dynamic(
+  () => import('./AquaPointerField').then((m) => m.AquaPointerField),
+  { ssr: false, loading: () => null },
+);
 
 interface AmbientBackgroundProps {
   groupId?: string;
