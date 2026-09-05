@@ -8,7 +8,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 concurrency:
   group: weekly-link-health
@@ -39,10 +38,11 @@ jobs:
       - name: Run Link Checks
         run: pnpm data:links
 
-      - name: Create Pull Request if changes detected
-        uses: peter-evans/create-pull-request@v6
+      - name: Validate data before commit
+        run: pnpm data:validate
+
+      - name: Commit link report if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit-message: 'chore(links): weekly automated link health update'
-          title: 'Automated Link Health Report Update'
-          body: 'Automated weekly healthcheck results for Sakamichi official links.'
-          branch: 'chore/link-report-update'
+          commit_message: 'chore(links): weekly automated link health update'
+          file_pattern: 'data/link-report.json'
