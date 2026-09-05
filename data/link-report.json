@@ -1,24 +1,14 @@
 {
-  "checkedAt": "2026-08-30",
-  "totalLinks": 777,
-  "okCount": 642,
-  "redirectedCount": 33,
-  "deadCount": 67,
-  "unverifiedCount": 35,
+  "checkedAt": "2026-09-05",
+  "totalLinks": 1017,
+  "okCount": 490,
+  "redirectedCount": 16,
+  "deadCount": 32,
+  "unverifiedCount": 479,
   "deadLinks": [
     {
       "memberId": "nogi-hori-miona",
-      "url": "https://x.com/mionaaaaa_staff",
-      "status": 404
-    },
-    {
-      "memberId": "nogi-hori-miona",
       "url": "https://www.youtube.com/c/horimiona37",
-      "status": 404
-    },
-    {
-      "memberId": "nogi-wakatsuki-yumi",
-      "url": "https://x.com/WASM_official",
       "status": 404
     },
     {
@@ -42,33 +32,13 @@
       "status": 404
     },
     {
-      "memberId": "nogi-ikoma-rina",
-      "url": "https://x.com/ikomarina_staff",
-      "status": 404
-    },
-    {
-      "memberId": "saku-nagahama-neru",
-      "url": "https://x.com/neru_and_staff",
-      "status": 404
-    },
-    {
-      "memberId": "saku-sugai-yuuka",
-      "url": "https://x.com/yuuka_s_official",
-      "status": 404
-    },
-    {
       "memberId": "saku-sugai-yuuka",
       "url": "https://www.youtube.com/@yuukasugai_official",
       "status": 404
     },
     {
-      "memberId": "saku-satou-shiori",
-      "url": "https://x.com/shiorisato_art",
-      "status": 404
-    },
-    {
-      "memberId": "saku-oda-nana",
-      "url": "https://x.com/odanana_1107",
+      "memberId": "saku-moriya-akane",
+      "url": "https://tencarat.co.jp/moriyaakane/",
       "status": 404
     },
     {
@@ -78,26 +48,16 @@
     },
     {
       "memberId": "hina-saitou-kyouko",
-      "url": "https://x.com/kyoko_saito_09",
-      "status": 404
-    },
-    {
-      "memberId": "hina-saitou-kyouko",
       "url": "https://www.youtube.com/@saitoukyoko_official",
       "status": 404
     },
     {
-      "memberId": "hina-watanabe-miho",
-      "url": "https://x.com/mihowatanabe_st",
-      "status": 404
-    },
-    {
-      "memberId": "akb48-mukaichi-mion",
+      "memberId": "akb48-murayama-yuiri",
       "url": "https://www.youtube.com/@yunamogion",
       "status": 404
     },
     {
-      "memberId": "akb48-murayama-yuiri",
+      "memberId": "akb48-mukaichi-mion",
       "url": "https://www.youtube.com/@yunamogion",
       "status": 404
     },
@@ -109,11 +69,6 @@
     {
       "memberId": "akb48-sashihara-rino",
       "url": "https://www.youtube.com/c/345channel",
-      "status": 404
-    },
-    {
-      "memberId": "akb48-takahashi-minami",
-      "url": "https://x.com/taka48_chan",
       "status": 404
     },
     {
@@ -137,41 +92,6 @@
       "status": 404
     },
     {
-      "memberId": "ske48-kumazaki-haruka",
-      "url": "https://ske48.co.jp/profile/detail/kumazaki_haruka",
-      "status": 404
-    },
-    {
-      "memberId": "ske48-nomura-miyo",
-      "url": "https://ske48.co.jp/profile/detail/nomura_miyo",
-      "status": 404
-    },
-    {
-      "memberId": "ske48-asai-yuuka",
-      "url": "https://ske48.co.jp/profile/detail/asai_yuka",
-      "status": 404
-    },
-    {
-      "memberId": "ske48-inoue-ruka",
-      "url": "https://ske48.co.jp/profile/detail/inoue_ruka",
-      "status": 404
-    },
-    {
-      "memberId": "ske48-kitagawa-yoshino",
-      "url": "https://ske48.co.jp/profile/detail/kitagawa_yoshino",
-      "status": 404
-    },
-    {
-      "memberId": "ske48-satou-kaho",
-      "url": "https://ske48.co.jp/profile/detail/sato_kaho",
-      "status": 404
-    },
-    {
-      "memberId": "ske48-kamata-natsuki",
-      "url": "https://x.com/nkkk_kmmt",
-      "status": 404
-    },
-    {
       "memberId": "ske48-suda-akari",
       "url": "https://www.youtube.com/@akari_suda",
       "status": 404
@@ -179,16 +99,6 @@
     {
       "memberId": "nmb48-kojima-karin",
       "url": "https://www.youtube.com/c/kojimarin",
-      "status": 404
-    },
-    {
-      "memberId": "nmb48-izumi-ayano",
-      "url": "https://x.com/ayanon_nmb48",
-      "status": 404
-    },
-    {
-      "memberId": "nmb48-haga-rei",
-      "url": "https://x.com/haga_rei_48",
       "status": 404
     },
     {
@@ -202,43 +112,13 @@
       "status": 404
     },
     {
-      "memberId": "hkt48-sakamoto-erena",
-      "url": "https://x.com/Ern807",
-      "status": 404
-    },
-    {
-      "memberId": "hkt48-mogami-nanaka",
-      "url": "https://x.com/natanacho_0128",
-      "status": 404
-    },
-    {
       "memberId": "hkt48-miyawaki-sakura",
       "url": "https://www.youtube.com/@ChannelMiyawaki",
       "status": 404
     },
     {
-      "memberId": "ngt48-satou-kairi",
-      "url": "https://x.com/SatouKairi_48",
-      "status": 404
-    },
-    {
-      "memberId": "ngt48-ootsuka-nanami",
-      "url": "https://x.com/otsuka_nanami",
-      "status": 404
-    },
-    {
-      "memberId": "ngt48-ogino-yuka",
-      "url": "https://x.com/yuka_ogino48",
-      "status": 404
-    },
-    {
       "memberId": "stu48-okada-azumi",
       "url": "https://sp.stu48.com/feature/profile_okada_azumi",
-      "status": 404
-    },
-    {
-      "memberId": "stu48-okada-azumi",
-      "url": "https://x.com/azumi_stu48",
       "status": 404
     },
     {
@@ -257,56 +137,6 @@
       "status": 404
     },
     {
-      "memberId": "stu48-taniguchi-mahina",
-      "url": "https://x.com/Mahina_STU48",
-      "status": 404
-    },
-    {
-      "memberId": "stu48-hyoudou-aoi",
-      "url": "https://x.com/blue_Aoiheart",
-      "status": 404
-    },
-    {
-      "memberId": "stu48-mineyoshi-arisa",
-      "url": "https://x.com/arisa_stu48",
-      "status": 404
-    },
-    {
-      "memberId": "stu48-morishita-maiha",
-      "url": "https://x.com/maiha_48zomi",
-      "status": 404
-    },
-    {
-      "memberId": "stu48-kudou-riko",
-      "url": "https://x.com/riko_kudo329",
-      "status": 404
-    },
-    {
-      "memberId": "stu48-kojima-aiko",
-      "url": "https://x.com/stu48_aiko_c",
-      "status": 404
-    },
-    {
-      "memberId": "stu48-harada-sayaka",
-      "url": "https://x.com/harada_sayaka_",
-      "status": 404
-    },
-    {
-      "memberId": "stu48-muneyuki-rika",
-      "url": "https://x.com/grkc_stu48",
-      "status": 404
-    },
-    {
-      "memberId": "stu48-yoshida-sara",
-      "url": "https://x.com/sarah_10_0221",
-      "status": 404
-    },
-    {
-      "memberId": "stu48-watanabe-natsuki",
-      "url": "https://x.com/stu48_natsuki",
-      "status": 404
-    },
-    {
       "memberId": "bnk48-fupu",
       "url": "https://www.bnk48.com/bnk48-members/detail/hoop",
       "status": 404
@@ -317,32 +147,313 @@
       "status": 404
     },
     {
-      "memberId": "klp48-gyouten-yurina",
-      "url": "https://klp48.my/members/yurina_gyoten",
+      "memberId": "ske48-ikeda-kaede",
+      "url": "https://ske48.co.jp/feature/ikeda_kaede",
       "status": 404
     },
     {
-      "memberId": "klp48-kurosu-haruka",
+      "memberId": "akb48-kurosu-haruka",
       "url": "https://klp48.my/members/haruka_kurosu",
       "status": 404
     },
     {
-      "memberId": "klp48-kurosu-haruka",
-      "url": "https://x.com/kurosu_haruka_",
+      "memberId": "akb48-gyouten-yurina",
+      "url": "https://klp48.my/members/yurina_gyoten",
       "status": 404
     },
     {
-      "memberId": "klp48-yamane-suzuha",
+      "memberId": "akb48-yamane-suzuha",
       "url": "https://klp48.my/members/suzuha_yamane",
-      "status": 404
-    },
-    {
-      "memberId": "klp48-yamane-suzuha",
-      "url": "https://x.com/48_asayan",
       "status": 404
     }
   ],
   "unverifiedLinks": [
+    {
+      "memberId": "nogi-yamashita-mizuki",
+      "url": "https://x.com/mizuki_staff",
+      "status": 403
+    },
+    {
+      "memberId": "nogi-ikeda-teresa",
+      "url": "https://www.instagram.com/teresa_ikeda_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-ioki-mao",
+      "url": "https://www.instagram.com/ioki_mao_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-nakanishi-aruno",
+      "url": "https://www.instagram.com/arno_nakanishi_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-kawasaki-sakura",
+      "url": "https://www.instagram.com/sakura_kawasaki_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-inoue-nagi",
+      "url": "https://www.instagram.com/nagi_inoue_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-yumiki-nao",
+      "url": "https://www.instagram.com/nao.yumiki_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-sugawara-satsuki",
+      "url": "https://www.instagram.com/satsuki_sugawara_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-kanagawa-saya",
+      "url": "https://www.instagram.com/kanagawa_saya.official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-kaki-haruka",
+      "url": "https://www.instagram.com/kaki.haruka_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-tsutsui-ayame",
+      "url": "https://www.instagram.com/ayame.tsutsui_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-shibata-yuna",
+      "url": "https://www.instagram.com/yuna_shibata.official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-tamura-mayu",
+      "url": "https://www.instagram.com/tamura.mayu_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-endou-sakura",
+      "url": "https://www.instagram.com/sakura.endo_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-yoshida-ayanokurisuti",
+      "url": "https://www.instagram.com/yoshida_ayanochristie/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-yoda-yuuki",
+      "url": "https://www.instagram.com/yodayuuki_oimo/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-hori-miona",
+      "url": "https://x.com/mionaaaaa_staff",
+      "status": 403
+    },
+    {
+      "memberId": "nogi-akimoto-manatsu",
+      "url": "https://x.com/manatsu_staff",
+      "status": 403
+    },
+    {
+      "memberId": "nogi-yamashita-mizuki",
+      "url": "https://www.instagram.com/mizuki.yamashita.official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-mukai-hazuki",
+      "url": "https://www.instagram.com/hazuki.p3.official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-matsumura-sayuri",
+      "url": "https://x.com/sayuringo_staff",
+      "status": 403
+    },
+    {
+      "memberId": "nogi-wakatsuki-yumi",
+      "url": "https://x.com/WASM_official",
+      "status": 403
+    },
+    {
+      "memberId": "nogi-oozono-momoko",
+      "url": "https://www.instagram.com/oAggregation/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-nakamura-reno",
+      "url": "https://www.instagram.com/n.reno_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-kubo-shiori",
+      "url": "https://www.instagram.com/kubo.shiori.official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-iwamoto-renka",
+      "url": "https://www.instagram.com/renka.i_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-umezawa-minami",
+      "url": "https://www.instagram.com/ume_minami.official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-nishino-nanase",
+      "url": "https://x.com/nanase_andstaff",
+      "status": 403
+    },
+    {
+      "memberId": "nogi-takayama-kazumi",
+      "url": "https://x.com/takayama_staff",
+      "status": 403
+    },
+    {
+      "memberId": "nogi-itou-riria",
+      "url": "https://www.instagram.com/riria.ito_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-shiraishi-mai",
+      "url": "https://x.com/shiraishi_staff",
+      "status": 403
+    },
+    {
+      "memberId": "nogi-saitou-asuka",
+      "url": "https://x.com/asuka3110_staff",
+      "status": 403
+    },
+    {
+      "memberId": "nogi-shinuchi-mai",
+      "url": "https://www.instagram.com/mai_shinuchi_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-hori-miona",
+      "url": "https://www.instagram.com/horimiona_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-akimoto-manatsu",
+      "url": "https://www.instagram.com/manatsu.akimoto_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-ikoma-rina",
+      "url": "https://x.com/ikomarina_staff",
+      "status": 403
+    },
+    {
+      "memberId": "nogi-ikuta-erika",
+      "url": "https://x.com/ikuta_staff",
+      "status": 403
+    },
+    {
+      "memberId": "nogi-wakatsuki-yumi",
+      "url": "https://www.instagram.com/yumi_wakatsuki_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-matsumura-sayuri",
+      "url": "https://www.instagram.com/matsumura_sayuri_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-nishino-nanase",
+      "url": "https://www.instagram.com/nishino.nanase.official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-ikoma-rina",
+      "url": "https://ikomarina.com/",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "nogi-shiraishi-mai",
+      "url": "https://www.instagram.com/m.shiraishi.official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-takayama-kazumi",
+      "url": "https://www.instagram.com/takayama.kazumi.official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-sakurai-reika",
+      "url": "https://www.instagram.com/reika_s16/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-saitou-asuka",
+      "url": "https://www.instagram.com/asuka.3110.official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-ikuta-erika",
+      "url": "https://www.instagram.com/ikutaerika.official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-ikoma-rina",
+      "url": "https://www.instagram.com/ikoma_rina_official/",
+      "status": 429
+    },
+    {
+      "memberId": "nogi-ichinose-miku",
+      "url": "https://www.instagram.com/miku_ichinose_official/",
+      "status": 429
+    },
+    {
+      "memberId": "saku-ishimori-rika",
+      "url": "https://www.instagram.com/rika.ishimori.official/",
+      "status": 429
+    },
+    {
+      "memberId": "saku-endou-hikari",
+      "url": "https://www.instagram.com/endohikari_official",
+      "status": 429
+    },
+    {
+      "memberId": "saku-endou-riko",
+      "url": "https://www.instagram.com/riko.endo_official/",
+      "status": 429
+    },
+    {
+      "memberId": "saku-oozono-rei",
+      "url": "https://www.instagram.com/ozonoreis2",
+      "status": 429
+    },
+    {
+      "memberId": "saku-odakura-reina",
+      "url": "https://www.instagram.com/reinaodakura_official/",
+      "status": 429
+    },
+    {
+      "memberId": "saku-oonuma-akiho",
+      "url": "https://instagram.com/akiho_onuma_official",
+      "status": 429
+    },
+    {
+      "memberId": "saku-koike-minami",
+      "url": "https://www.instagram.com/miichan_official/",
+      "status": 429
+    },
+    {
+      "memberId": "saku-tamura-hono",
+      "url": "https://www.instagram.com/tamura.hono.official/",
+      "status": 429
+    },
+    {
+      "memberId": "saku-taniguchi-airi",
+      "url": "https://www.instagram.com/airi.taniguchi.official",
+      "status": 429
+    },
     {
       "memberId": "nogi-matsumura-sayuri",
       "url": "https://sayurimatsumura.com/",
@@ -350,10 +461,89 @@
       "error": "fetch failed"
     },
     {
-      "memberId": "nogi-ikoma-rina",
-      "url": "https://ikomarina.com/",
-      "status": null,
-      "error": "fetch failed"
+      "memberId": "saku-nakashima-yuzuki",
+      "url": "https://www.instagram.com/yuzuki_nakashima_official/",
+      "status": 429
+    },
+    {
+      "memberId": "saku-fujiyoshi-karin",
+      "url": "https://www.instagram.com/fujiyoshi.karin/",
+      "status": 429
+    },
+    {
+      "memberId": "saku-matsuda-rina",
+      "url": "https://www.instagram.com/matsudarina_official/",
+      "status": 429
+    },
+    {
+      "memberId": "saku-murai-yuu",
+      "url": "https://www.instagram.com/yu.murai_official/",
+      "status": 429
+    },
+    {
+      "memberId": "saku-murayama-miu",
+      "url": "https://www.instagram.com/miumurayama_official",
+      "status": 429
+    },
+    {
+      "memberId": "saku-moriya-rena",
+      "url": "https://www.instagram.com/rena_moriya_official/",
+      "status": 429
+    },
+    {
+      "memberId": "saku-yamasaki-ten",
+      "url": "https://www.instagram.com/yamasaki.ten",
+      "status": 429
+    },
+    {
+      "memberId": "hina-ishizuka-tamaki",
+      "url": "https://www.instagram.com/ishizukatamaki_official",
+      "status": 429
+    },
+    {
+      "memberId": "hina-kanemura-miku",
+      "url": "https://instagram.com/miku_osushi",
+      "status": 429
+    },
+    {
+      "memberId": "hina-kamimura-hinano",
+      "url": "https://www.instagram.com/hinanokamimura.official",
+      "status": 429
+    },
+    {
+      "memberId": "saku-nagahama-neru",
+      "url": "https://x.com/neru_and_staff",
+      "status": 403
+    },
+    {
+      "memberId": "saku-hirate-yurina",
+      "url": "https://x.com/Im_YurinaHirate",
+      "status": 403
+    },
+    {
+      "memberId": "saku-sugai-yuuka",
+      "url": "https://x.com/yuuka_s_official",
+      "status": 403
+    },
+    {
+      "memberId": "hina-takahashi-mikuni",
+      "url": "https://www.instagram.com/mikuni.takahashi__/",
+      "status": 429
+    },
+    {
+      "memberId": "hina-shimizu-rio",
+      "url": "https://www.instagram.com/rio_shimizu.official",
+      "status": 429
+    },
+    {
+      "memberId": "saku-watanabe-risa",
+      "url": "https://x.com/risa_and_staff",
+      "status": 403
+    },
+    {
+      "memberId": "saku-habu-mizuho",
+      "url": "https://x.com/habu_mizuho",
+      "status": 403
     },
     {
       "memberId": "saku-hirate-yurina",
@@ -368,10 +558,40 @@
       "error": "fetch failed"
     },
     {
+      "memberId": "hina-takeuchi-kirari",
+      "url": "https://www.instagram.com/kirari.takeuchi_official",
+      "status": 429
+    },
+    {
+      "memberId": "hina-hirao-honoka",
+      "url": "https://www.instagram.com/hiraho.official/",
+      "status": 429
+    },
+    {
+      "memberId": "hina-hiraoka-mitsuki",
+      "url": "https://www.instagram.com/mitsuki.hiraoka",
+      "status": 429
+    },
+    {
+      "memberId": "hina-fujishima-kaho",
+      "url": "https://www.instagram.com/kaho.fujishima_official",
+      "status": 429
+    },
+    {
+      "memberId": "hina-miyachi-sumire",
+      "url": "https://www.instagram.com/sumire_miyachi_/",
+      "status": 429
+    },
+    {
       "memberId": "saku-sugai-yuuka",
       "url": "https://seedandflower.co.jp/s/sal/artist/006",
       "status": null,
       "error": "fetch failed"
+    },
+    {
+      "memberId": "saku-satou-shiori",
+      "url": "https://x.com/shiorisato_art",
+      "status": 403
     },
     {
       "memberId": "saku-watanabe-risa",
@@ -380,16 +600,75 @@
       "error": "fetch failed"
     },
     {
+      "memberId": "saku-oda-nana",
+      "url": "https://x.com/odanana_1107",
+      "status": 403
+    },
+    {
       "memberId": "saku-kobayashi-yui",
       "url": "https://seedandflower.co.jp/s/sal/artist/009",
       "status": null,
       "error": "fetch failed"
     },
     {
+      "memberId": "hina-morimoto-marii",
+      "url": "https://www.instagram.com/mariemorimoto_official?igsh=Y2Y4OWZ0b2NtcHZi",
+      "status": 429
+    },
+    {
+      "memberId": "hina-yamashita-haruka",
+      "url": "https://www.instagram.com/haruka.yamashita.official",
+      "status": 429
+    },
+    {
+      "memberId": "hina-yamaguchi-haruyo",
+      "url": "https://www.instagram.com/haruyoyamaguchi.official",
+      "status": 429
+    },
+    {
+      "memberId": "saku-shida-manaka",
+      "url": "https://x.com/_manaka_shida_",
+      "status": 403
+    },
+    {
+      "memberId": "saku-nagasawa-nanako",
+      "url": "https://x.com/nanako0423_",
+      "status": 403
+    },
+    {
+      "memberId": "saku-nagahama-neru",
+      "url": "https://www.instagram.com/nerunagahama_",
+      "status": 429
+    },
+    {
+      "memberId": "hina-saitou-kyouko",
+      "url": "https://x.com/kyoko_saito_09",
+      "status": 403
+    },
+    {
+      "memberId": "saku-sugai-yuuka",
+      "url": "https://www.instagram.com/yuuka_sugai_official/",
+      "status": 429
+    },
+    {
+      "memberId": "hina-kageyama-yuuka",
+      "url": "https://x.com/kageyamayuka",
+      "status": 403
+    },
+    {
+      "memberId": "saku-kobayashi-yui",
+      "url": "https://www.instagram.com/_yui_kobayashi/",
+      "status": 429
+    },
+    {
       "memberId": "saku-habu-mizuho",
-      "url": "https://habumizuho.com/",
-      "status": null,
-      "error": "fetch failed"
+      "url": "https://www.instagram.com/habumizuho/",
+      "status": 429
+    },
+    {
+      "memberId": "saku-watanabe-risa",
+      "url": "https://www.instagram.com/_risawatanabe_/",
+      "status": 429
     },
     {
       "memberId": "hina-saitou-kyouko",
@@ -398,16 +677,71 @@
       "error": "fetch failed"
     },
     {
+      "memberId": "saku-harada-aoi",
+      "url": "https://www.instagram.com/harada_aoi_/",
+      "status": 429
+    },
+    {
+      "memberId": "saku-moriya-akane",
+      "url": "https://www.instagram.com/akane.moriya_official/",
+      "status": 429
+    },
+    {
+      "memberId": "saku-watanabe-rika",
+      "url": "https://www.instagram.com/watanabe.rika.official/",
+      "status": 429
+    },
+    {
       "memberId": "hina-kageyama-yuuka",
       "url": "https://production.ogipro.com/talent/kageyamayuka/",
       "status": null,
       "error": "fetch failed"
     },
     {
+      "memberId": "saku-ozeki-rika",
+      "url": "https://www.instagram.com/rika_ozeki_official/",
+      "status": 429
+    },
+    {
       "memberId": "hina-katou-shiho",
       "url": "https://seedandflower.co.jp/s/sal/artist/011",
       "status": null,
       "error": "fetch failed"
+    },
+    {
+      "memberId": "saku-suzumoto-miyu",
+      "url": "https://www.instagram.com/suzumotomiyu_/",
+      "status": 429
+    },
+    {
+      "memberId": "saku-oda-nana",
+      "url": "https://www.instagram.com/odanana_official/",
+      "status": 429
+    },
+    {
+      "memberId": "saku-satou-shiori",
+      "url": "https://www.instagram.com/shiori_sato_artwork/",
+      "status": 429
+    },
+    {
+      "memberId": "hina-watanabe-miho",
+      "url": "https://x.com/mihowatanabe_st",
+      "status": 403
+    },
+    {
+      "memberId": "hina-miyata-manamo",
+      "url": "https://x.com/manamo_miyata",
+      "status": 403
+    },
+    {
+      "memberId": "saku-shida-manaka",
+      "url": "https://www.instagram.com/manaka.shida.96/",
+      "status": 429
+    },
+    {
+      "memberId": "saku-seki-yumiko",
+      "url": "https://www.instagram.com/_yumiko_seki_/",
+      "status": 429
     },
     {
       "memberId": "hina-higashimura-mei",
@@ -422,10 +756,35 @@
       "error": "fetch failed"
     },
     {
+      "memberId": "saku-nagasawa-nanako",
+      "url": "https://www.instagram.com/nanako0423_/",
+      "status": 429
+    },
+    {
+      "memberId": "hina-iguchi-mao",
+      "url": "https://x.com/mao_iguchi_",
+      "status": 403
+    },
+    {
+      "memberId": "hina-saitou-kyouko",
+      "url": "https://www.instagram.com/kyoko.saito_official/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-oguri-yui",
+      "url": "https://x.com/yuiyui_maromaro",
+      "status": 403
+    },
+    {
       "memberId": "hina-hamagishi-hiyori",
       "url": "https://seedandflower.co.jp/s/sal/artist/014",
       "status": null,
       "error": "fetch failed"
+    },
+    {
+      "memberId": "akb48-kuranoo-narumi",
+      "url": "https://x.com/kuranoo_narumi_",
+      "status": 403
     },
     {
       "memberId": "hina-takamoto-ayaka",
@@ -434,14 +793,786 @@
       "error": "fetch failed"
     },
     {
+      "memberId": "akb48-mukaichi-mion",
+      "url": "https://x.com/mionnn_48",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-murayama-yuiri",
+      "url": "https://x.com/yuirii_murayama",
+      "status": 403
+    },
+    {
+      "memberId": "hina-kageyama-yuuka",
+      "url": "https://www.instagram.com/kageyamayuka_official/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-satou-airi",
+      "url": "https://x.com/airi_sato0624",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-chiba-erii",
+      "url": "https://x.com/erii_20031027",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-yamauchi-mizuki",
+      "url": "https://x.com/mizukiyamauchi",
+      "status": 403
+    },
+    {
+      "memberId": "hina-katou-shiho",
+      "url": "https://www.instagram.com/katoshi.official/",
+      "status": 429
+    },
+    {
+      "memberId": "hina-higashimura-mei",
+      "url": "https://www.instagram.com/mei.higashimura/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-yagi-azuki",
+      "url": "https://x.com/azuki_yagi0322",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-fukuoka-seina",
+      "url": "https://x.com/seina_fuku48",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-iwatate-saho",
+      "url": "https://x.com/yahho_sahho",
+      "status": 403
+    },
+    {
+      "memberId": "hina-takamoto-ayaka",
+      "url": "https://www.instagram.com/ayaka.takamoto_official/",
+      "status": 429
+    },
+    {
+      "memberId": "hina-nibu-akari",
+      "url": "https://www.instagram.com/nibuchan_akari/",
+      "status": 429
+    },
+    {
+      "memberId": "hina-hamagishi-hiyori",
+      "url": "https://www.instagram.com/hiyori_hamagishi.official/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-shitao-miu",
+      "url": "https://x.com/miumiu_0403",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-takahashi-ayane",
+      "url": "https://x.com/__ayn1230__",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-nagano-serika",
+      "url": "https://x.com/akb48serika",
+      "status": 403
+    },
+    {
+      "memberId": "hina-watanabe-miho",
+      "url": "https://www.instagram.com/mihowatanabe_/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-hashimoto-haruna",
+      "url": "https://x.com/harupyon_0525",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-tokunaga-remi",
+      "url": "https://x.com/48_RemiTokunaga",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-oguri-yui",
+      "url": "https://www.instagram.com/yuioguri_1226/",
+      "status": 429
+    },
+    {
+      "memberId": "hina-iguchi-mao",
+      "url": "https://www.instagram.com/iguchi.mao/",
+      "status": 429
+    },
+    {
+      "memberId": "hina-miyata-manamo",
+      "url": "https://www.instagram.com/manamo_miyata/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-sakagawa-hiyuka",
+      "url": "https://x.com/Hiyuka_1007",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-nagatomo-ayami",
+      "url": "https://x.com/ayamin_112",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-kuranoo-narumi",
+      "url": "https://www.instagram.com/noochan_1108/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-mukaichi-mion",
+      "url": "https://www.instagram.com/__mion.m__/",
+      "status": 429
+    },
+    {
+      "memberId": "saku-habu-mizuho",
+      "url": "https://habumizuho.com/",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "akb48-akiyama-yuna",
+      "url": "https://x.com/yunachan_akb48",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-mutou-orin",
+      "url": "https://x.com/muto_orin",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-itou-momoka",
+      "url": "https://x.com/momoka_ito1206",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-arai-sae",
+      "url": "https://x.com/saechan_akb48",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-chiba-erii",
+      "url": "https://www.instagram.com/eriierii_1027/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-yamauchi-mizuki",
+      "url": "https://www.instagram.com/zukky_48/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-satou-airi",
+      "url": "https://www.instagram.com/__aiichan.17",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-maeda-atsuko",
+      "url": "https://x.com/Atsuko_100",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-ooshima-yuuko",
+      "url": "https://x.com/Oshima__Yuko",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-kashiwagi-yuki",
+      "url": "https://x.com/Yukiriiiin__K",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-iwatate-saho",
+      "url": "https://www.instagram.com/saho_iwatate104/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-takahashi-minami",
+      "url": "https://x.com/taka48_chan",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-sashihara-rino",
+      "url": "https://x.com/345__chan",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-kojima-haruna",
+      "url": "https://x.com/kojiharunyan",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-fukuoka-seina",
+      "url": "https://www.instagram.com/seina___ff/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-takahashi-ayane",
+      "url": "https://www.instagram.com/aayyaannee811",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-shitao-miu",
+      "url": "https://www.instagram.com/miumiu1343",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-shinoda-mariko",
+      "url": "https://x.com/mariko_dayo",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-itano-tomomi",
+      "url": "https://x.com/tomo_coco73",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-tokunaga-remi",
+      "url": "https://www.instagram.com/remi_tokunaga1001/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-nagano-serika",
+      "url": "https://www.instagram.com/iroziro_serika",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-hashimoto-haruna",
+      "url": "https://www.instagram.com/48pyonz_toyama",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-honda-hitomi",
+      "url": "https://x.com/hnd_htm__1006",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-minegishi-minami",
+      "url": "https://x.com/chan__31",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-okada-nana",
+      "url": "https://x.com/okadanana_1107",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-nagatomo-ayami",
+      "url": "https://www.instagram.com/ayami.n_48/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-sakagawa-hiyuka",
+      "url": "https://www.instagram.com/hiyuka_sakagawa.1007/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-kumazaki-haruka",
+      "url": "https://x.com/kumachan9810",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-nomura-miyo",
+      "url": "https://x.com/MIYOMARUKO",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-mutou-orin",
+      "url": "https://www.instagram.com/muto_orin/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-asai-yuuka",
+      "url": "https://x.com/ske48_yuka",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-itou-momoka",
+      "url": "https://www.instagram.com/momoka_ito1206/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-maeda-atsuko",
+      "url": "https://www.instagram.com/atsuko_maeda_official/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-ooshima-yuuko",
+      "url": "https://www.instagram.com/yuk00shima/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-kashiwagi-yuki",
+      "url": "https://www.instagram.com/yukikashiwagi_official/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-satou-kaho",
+      "url": "https://x.com/BCNOkaho",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-kitagawa-yoshino",
+      "url": "https://x.com/kitagawa_yosino",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-inoue-ruka",
+      "url": "https://x.com/Inoueruka_48",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-sashihara-rino",
+      "url": "https://www.instagram.com/345insta/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-takahashi-minami",
+      "url": "https://www.instagram.com/taka37_chan/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-sakamoto-marin",
+      "url": "https://x.com/marin_ske48",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-aoki-rika",
+      "url": "https://x.com/rikaoki__92",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-kojima-haruna",
+      "url": "https://www.instagram.com/nyanchan22/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-itano-tomomi",
+      "url": "https://www.instagram.com/tomo.i_0703/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-kamata-natsuki",
+      "url": "https://x.com/nacky_k829",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-oota-ayaka",
+      "url": "https://x.com/Ayamelody0817",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-matsumoto-chikako",
+      "url": "https://x.com/chikako_1119",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-okada-nana",
+      "url": "https://www.instagram.com/okada7_akb48_stu48/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-shinoda-mariko",
+      "url": "https://www.instagram.com/shinodamariko3/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-minegishi-minami",
+      "url": "https://www.instagram.com/minegishi_31chan/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-honda-hitomi",
+      "url": "https://www.instagram.com/10_hitomi_06/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-matsui-jurina",
+      "url": "https://x.com/JURINA38G",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-matsui-rena",
+      "url": "https://x.com/renampme",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-suda-akari",
+      "url": "https://x.com/dasuwaikaa",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-kumazaki-haruka",
+      "url": "https://www.instagram.com/kumakuma9810/",
+      "status": 429
+    },
+    {
+      "memberId": "nmb48-kojima-karin",
+      "url": "https://x.com/nmb_KOJIMA_48",
+      "status": 403
+    },
+    {
+      "memberId": "nmb48-shiotsuki-keito",
+      "url": "https://x.com/keity_1215",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-asai-yuuka",
+      "url": "https://www.instagram.com/yuka1110_/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-nomura-miyo",
+      "url": "https://www.instagram.com/miyomaruko_0201/",
+      "status": 429
+    },
+    {
+      "memberId": "nmb48-sakata-misaki",
+      "url": "https://x.com/Michapiiii_",
+      "status": 403
+    },
+    {
+      "memberId": "nmb48-kawakami-chihiro",
+      "url": "https://x.com/kchi_hi1217",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-inoue-ruka",
+      "url": "https://www.instagram.com/ruka_inoue48/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-kitagawa-yoshino",
+      "url": "https://www.instagram.com/kitagawayoshino/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-satou-kaho",
+      "url": "https://www.instagram.com/biosato_3/",
+      "status": 429
+    },
+    {
+      "memberId": "nmb48-abe-wakana",
+      "url": "https://x.com/_wakapon_",
+      "status": 403
+    },
+    {
+      "memberId": "nmb48-jounishi-rei",
+      "url": "https://x.com/jonishi_rei",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-aoki-rika",
+      "url": "https://www.instagram.com/rikaoki__92/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-sakamoto-marin",
+      "url": "https://www.instagram.com/marin_ske48/",
+      "status": 429
+    },
+    {
+      "memberId": "nmb48-deguchi-yuina",
+      "url": "https://x.com/yuina_laby",
+      "status": 403
+    },
+    {
+      "memberId": "nmb48-izumi-ayano",
+      "url": "https://x.com/ayanon_nmb48",
+      "status": 403
+    },
+    {
+      "memberId": "nmb48-hirayama-mai",
+      "url": "https://x.com/maity_nmb",
+      "status": 403
+    },
+    {
+      "memberId": "nmb48-shinzawa-nao",
+      "url": "https://x.com/_shinshin_48",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-kamata-natsuki",
+      "url": "https://www.instagram.com/nacky_k829/",
+      "status": 429
+    },
+    {
+      "memberId": "nmb48-haga-rei",
+      "url": "https://x.com/haga_rei_48",
+      "status": 403
+    },
+    {
+      "memberId": "nmb48-yamamoto-sayaka",
+      "url": "https://x.com/SayakaNeon",
+      "status": 403
+    },
+    {
+      "memberId": "nmb48-watanabe-miyuki",
+      "url": "https://x.com/miyukiofficial9",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-matsui-jurina",
+      "url": "https://www.instagram.com/jurinamatsui3/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-matsui-rena",
+      "url": "https://www.instagram.com/renamatui27/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-matsumoto-chikako",
+      "url": "https://www.instagram.com/chikako_1119/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-suda-akari",
+      "url": "https://www.instagram.com/akarisuda/",
+      "status": 429
+    },
+    {
+      "memberId": "nmb48-shiroma-miru",
+      "url": "https://x.com/shiromiru36",
+      "status": 403
+    },
+    {
+      "memberId": "nmb48-shibuya-nagisa",
+      "url": "https://x.com/_Nagisa_Shibuya",
+      "status": 403
+    },
+    {
+      "memberId": "nmb48-shiotsuki-keito",
+      "url": "https://www.instagram.com/keity_1215/",
+      "status": 429
+    },
+    {
+      "memberId": "nmb48-kojima-karin",
+      "url": "https://www.instagram.com/nmb_kojima_48/",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-toyonaga-aki",
+      "url": "https://x.com/aki_toyonaga",
+      "status": 403
+    },
+    {
+      "memberId": "nmb48-sakata-misaki",
+      "url": "https://www.instagram.com/michapiiii_/",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-ishibashi-ibuki",
+      "url": "https://x.com/ibuki1484_hkt",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-ichimura-airi",
+      "url": "https://x.com/airi_213_hkt48",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-takemoto-kurumi",
+      "url": "https://x.com/kuru2_official",
+      "status": 403
+    },
+    {
+      "memberId": "nmb48-kawakami-chihiro",
+      "url": "https://www.instagram.com/this_is_chihiro/",
+      "status": 429
+    },
+    {
+      "memberId": "nmb48-jounishi-rei",
+      "url": "https://www.instagram.com/jonishi_rei/",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-kurihara-sae",
+      "url": "https://x.com/38sae_kurihara",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-fuchigami-mai",
+      "url": "https://x.com/maichan_F_0921",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-akiyoshi-yuka",
+      "url": "https://x.com/akiyoshi_hkt48",
+      "status": 403
+    },
+    {
+      "memberId": "nmb48-yamamoto-sayaka",
+      "url": "https://www.instagram.com/sayaka__714/",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-mogami-nanaka",
+      "url": "https://x.com/natanacho_0128",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-miyawaki-sakura",
+      "url": "https://x.com/39saku_chan",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-jitoue-nene",
+      "url": "https://x.com/nenechan0927",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-sakamoto-erena",
+      "url": "https://x.com/Ern807",
+      "status": 403
+    },
+    {
+      "memberId": "nmb48-shiroma-miru",
+      "url": "https://www.instagram.com/shiro36_run/",
+      "status": 429
+    },
+    {
+      "memberId": "nmb48-shibuya-nagisa",
+      "url": "https://www.instagram.com/nagisa_shibuya/",
+      "status": 429
+    },
+    {
+      "memberId": "nmb48-watanabe-miyuki",
+      "url": "https://www.instagram.com/miyukichan919/",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-yabuki-nako",
+      "url": "https://x.com/nako_yabuki_75",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-tanaka-miku",
+      "url": "https://x.com/miku_monmon3939",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-ishibashi-ibuki",
+      "url": "https://www.instagram.com/ibuki__hkt48",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-toyonaga-aki",
+      "url": "https://www.instagram.com/aki_t_official",
+      "status": 429
+    },
+    {
+      "memberId": "ngt48-nishigata-marina",
+      "url": "https://x.com/marina_ngt48n",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-satou-kairi",
+      "url": "https://x.com/_o_k_a_i_r_i_",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-seiji-reina",
+      "url": "https://x.com/official_seiji",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-takemoto-kurumi",
+      "url": "https://www.instagram.com/kuru02_hkt",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-ichimura-airi",
+      "url": "https://www.instagram.com/airi_hkt48",
+      "status": 429
+    },
+    {
+      "memberId": "ngt48-kitamura-yuuha",
+      "url": "https://x.com/yuha_kitamura",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-ootsuka-nanami",
+      "url": "https://x.com/nanami_otsuka",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-kurihara-sae",
+      "url": "https://www.instagram.com/hkt48_saekurihara",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-fuchigami-mai",
+      "url": "https://www.instagram.com/mai_fuchigami_48",
+      "status": 429
+    },
+    {
+      "memberId": "ngt48-suizu-natsuki",
+      "url": "https://x.com/natsuki_suizu",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-sugimoto-moe",
+      "url": "https://x.com/moe_sugimoto07",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-akiyoshi-yuka",
+      "url": "https://www.instagram.com/akiyoshi_1024",
+      "status": 429
+    },
+    {
       "memberId": "nmb48-kojima-karin",
       "url": "https://www.nmb48.com/member/kojima_karin",
       "status": null,
       "error": "fetch failed"
     },
     {
+      "memberId": "ngt48-ogino-yuka",
+      "url": "https://x.com/yuka_ogino48",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-mimura-hino",
+      "url": "https://x.com/hino_yuiitsu62",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-honma-hinata",
+      "url": "https://x.com/hinata_homma",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-miyawaki-sakura",
+      "url": "https://www.instagram.com/39saku_chan/",
+      "status": 429
+    },
+    {
       "memberId": "nmb48-shiotsuki-keito",
       "url": "https://www.nmb48.com/member/shiotsuki_keito",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "ngt48-nakai-rika",
+      "url": "https://x.com/rika_n24x",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-yabuki-nako",
+      "url": "https://www.instagram.com/nako_75_/",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-tanaka-miku",
+      "url": "https://www.instagram.com/mikumonmon_48/",
+      "status": 429
+    },
+    {
+      "memberId": "nmb48-kawakami-chihiro",
+      "url": "https://www.nmb48.com/member/kawakami_chihiro",
       "status": null,
       "error": "fetch failed"
     },
@@ -452,10 +1583,29 @@
       "error": "fetch failed"
     },
     {
-      "memberId": "nmb48-kawakami-chihiro",
-      "url": "https://www.nmb48.com/member/kawakami_chihiro",
-      "status": null,
-      "error": "fetch failed"
+      "memberId": "stu48-okada-azumi",
+      "url": "https://x.com/azumi_stu48",
+      "status": 403
+    },
+    {
+      "memberId": "stu48-nakamura-mai",
+      "url": "https://x.com/stu48_question",
+      "status": 403
+    },
+    {
+      "memberId": "stu48-ishida-chiho",
+      "url": "https://x.com/_ishida_chiho",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-seiji-reina",
+      "url": "https://www.instagram.com/seiji_0007/",
+      "status": 429
+    },
+    {
+      "memberId": "ngt48-nishigata-marina",
+      "url": "https://www.instagram.com/marina_1016.n/",
+      "status": 429
     },
     {
       "memberId": "nmb48-jounishi-rei",
@@ -464,54 +1614,113 @@
       "error": "fetch failed"
     },
     {
-      "memberId": "hkt48-toyonaga-aki",
-      "url": "https://www.hkt48.jp/profile/toyonaga_aki",
-      "status": 500
+      "memberId": "stu48-shinano-soraha",
+      "url": "https://x.com/soraha_stu48",
+      "status": 403
     },
     {
-      "memberId": "hkt48-ishibashi-ibuki",
-      "url": "https://www.hkt48.jp/profile/ishibashi_ibuki",
-      "status": 500
+      "memberId": "stu48-hyoudou-aoi",
+      "url": "https://x.com/blue_Aoiheart",
+      "status": 403
     },
     {
-      "memberId": "hkt48-takemoto-kurumi",
-      "url": "https://www.hkt48.jp/profile/takemoto_kurumi",
-      "status": 500
+      "memberId": "stu48-taniguchi-mahina",
+      "url": "https://x.com/Mahina_STU48",
+      "status": 403
     },
     {
-      "memberId": "hkt48-ichimura-airi",
-      "url": "https://www.hkt48.jp/profile/ichimura_airi",
-      "status": 500
+      "memberId": "stu48-morishita-maiha",
+      "url": "https://x.com/maiha_48zomi",
+      "status": 403
     },
     {
-      "memberId": "ngt48-nishigata-marina",
-      "url": "https://ngt48.jp/profile/detail/nishigata_marina",
-      "status": 500
+      "memberId": "stu48-mineyoshi-arisa",
+      "url": "https://x.com/arisa_stu48",
+      "status": 403
     },
     {
-      "memberId": "ngt48-seiji-reina",
-      "url": "https://ngt48.jp/profile/detail/seiji_reina",
-      "status": 500
+      "memberId": "stu48-fukuda-akari",
+      "url": "https://x.com/FUKUAKARI_STU48",
+      "status": 403
     },
     {
-      "memberId": "ngt48-satou-kairi",
-      "url": "https://ngt48.jp/profile/detail/sato_kairi",
-      "status": 500
+      "memberId": "stu48-kudou-riko",
+      "url": "https://x.com/riko_kudo329",
+      "status": 403
     },
     {
       "memberId": "ngt48-ootsuka-nanami",
-      "url": "https://ngt48.jp/profile/detail/otsuka_nanami",
-      "status": 500
+      "url": "https://www.instagram.com/otsuka773_ngt48",
+      "status": 429
+    },
+    {
+      "memberId": "ngt48-kitamura-yuuha",
+      "url": "https://www.instagram.com/yuha_kitamura",
+      "status": 429
+    },
+    {
+      "memberId": "ngt48-satou-kairi",
+      "url": "https://www.instagram.com/satokairi._.ngt48",
+      "status": 429
+    },
+    {
+      "memberId": "stu48-sako-himeka",
+      "url": "https://x.com/sako_himeka",
+      "status": 403
+    },
+    {
+      "memberId": "stu48-kojima-aiko",
+      "url": "https://x.com/stu48_aiko_c",
+      "status": 403
+    },
+    {
+      "memberId": "stu48-yoshida-sara",
+      "url": "https://x.com/sarah_10_0221",
+      "status": 403
+    },
+    {
+      "memberId": "stu48-harada-sayaka",
+      "url": "https://x.com/harada_sayaka_",
+      "status": 403
+    },
+    {
+      "memberId": "stu48-watanabe-natsuki",
+      "url": "https://x.com/stu48_natsuki",
+      "status": 403
+    },
+    {
+      "memberId": "stu48-muneyuki-rika",
+      "url": "https://x.com/grkc_stu48",
+      "status": 403
     },
     {
       "memberId": "stu48-takino-yumiko",
-      "url": "https://www.instagram.com/yumiko_anko/",
-      "status": null,
-      "error": "fetch failed"
+      "url": "https://x.com/yumiko_takino_",
+      "status": 403
+    },
+    {
+      "memberId": "jkt48-shani",
+      "url": "https://x.com/N_ShaniJKT48",
+      "status": 403
     },
     {
       "memberId": "jkt48-shani",
       "url": "https://jkt48.com/member/detail/id/shani_indira_natio",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-suizu-natsuki",
+      "url": "https://www.instagram.com/suisui_ngt48",
+      "status": 429
+    },
+    {
+      "memberId": "ngt48-sugimoto-moe",
+      "url": "https://www.instagram.com/mocchan0717",
+      "status": 429
+    },
+    {
+      "memberId": "jkt48-fureya",
+      "url": "https://x.com/Freya_JKT48",
       "status": 403
     },
     {
@@ -520,14 +1729,150 @@
       "status": 403
     },
     {
+      "memberId": "jkt48-feni",
+      "url": "https://x.com/F_FeniJKT48",
+      "status": 403
+    },
+    {
       "memberId": "jkt48-fureya",
       "url": "https://jkt48.com/member/detail/id/freya_jayawardana",
       "status": 403
     },
     {
+      "memberId": "ngt48-honma-hinata",
+      "url": "https://www.instagram.com/hinata_homma1110/",
+      "status": 429
+    },
+    {
+      "memberId": "ngt48-mimura-hino",
+      "url": "https://www.instagram.com/hino_yuiitsu62",
+      "status": 429
+    },
+    {
       "memberId": "cgm48-omu",
       "url": "https://cgm48official.com/members/aom",
       "status": 500
+    },
+    {
+      "memberId": "ngt48-nakai-rika",
+      "url": "https://www.instagram.com/rika___n24x/",
+      "status": 429
+    },
+    {
+      "memberId": "ngt48-ogino-yuka",
+      "url": "https://www.instagram.com/ogiyuka_ippaiwarae216/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-aikawa-honoka",
+      "url": "https://x.com/honoka_ske48",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-ishiguro-yuzuki",
+      "url": "https://x.com/Yuzuki_ishiguro",
+      "status": 403
+    },
+    {
+      "memberId": "stu48-nakamura-mai",
+      "url": "https://www.instagram.com/stu48.nakamuramai/",
+      "status": 429
+    },
+    {
+      "memberId": "stu48-ishida-chiho",
+      "url": "https://www.instagram.com/chiho_ishida/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-ito-kokomi",
+      "url": "https://x.com/kokomi__553",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-iriuchijima-sayaka",
+      "url": "https://x.com/__38hpy",
+      "status": 403
+    },
+    {
+      "memberId": "stu48-fukuda-akari",
+      "url": "https://www.instagram.com/akari_fukuda_official/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-team-sh-ryuu-nen",
+      "url": "https://www.akb48-china.com/member/liu_nian",
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "memberId": "ske48-kurashima-ami",
+      "url": "https://x.com/ANZUNOMI_SKE",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-kuwahara-tsubaki",
+      "url": "https://x.com/tsubaki_225_",
+      "status": 403
+    },
+    {
+      "memberId": "stu48-takino-yumiko",
+      "url": "https://www.instagram.com/yumiko_anko/",
+      "status": 429
+    },
+    {
+      "memberId": "jkt48-shani",
+      "url": "https://www.instagram.com/jkt48shani/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-suzuki-kokona",
+      "url": "https://x.com/kokochan_1228",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-sugimoto-riina",
+      "url": "https://x.com/vomriina_920",
+      "status": 403
+    },
+    {
+      "memberId": "bnk48-fupu",
+      "url": "https://www.instagram.com/hoop.bnk48official/",
+      "status": 429
+    },
+    {
+      "memberId": "cgm48-omu",
+      "url": "https://www.instagram.com/aom.cgm48official/",
+      "status": 429
+    },
+    {
+      "memberId": "jkt48-feni",
+      "url": "https://www.instagram.com/jkt48feni/",
+      "status": 429
+    },
+    {
+      "memberId": "jkt48-fureya",
+      "url": "https://www.instagram.com/jkt48.freya/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-hara-yune",
+      "url": "https://x.com/yune_hara",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-matsukawa-miyu",
+      "url": "https://x.com/miyu415_miitan",
+      "status": 403
+    },
+    {
+      "memberId": "mnl48-sheki",
+      "url": "https://www.instagram.com/sheki.mnl48official/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-team-tp-ryuu-gosei",
+      "url": "https://www.instagram.com/yuqing__77/",
+      "status": 429
     },
     {
       "memberId": "mnl48-sheki",
@@ -536,10 +1881,709 @@
       "error": "fetch failed"
     },
     {
-      "memberId": "akb48-team-sh-ryuu-nen",
-      "url": "https://www.akb48-china.com/member/liu_nian",
-      "status": null,
-      "error": "fetch failed"
+      "memberId": "ske48-minamisawa-coco",
+      "url": "https://x.com/coco_ske48",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-arano-himeka",
+      "url": "https://x.com/_arnhmk_",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-yamamura-sakura",
+      "url": "https://x.com/ske48_sakura",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-aikawa-honoka",
+      "url": "https://www.instagram.com/aikw_honoka/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-ishiguro-yuzuki",
+      "url": "https://www.instagram.com/yuduyu1011/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-okuno-kokoha",
+      "url": "https://x.com/558_omochi",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-ito-miki",
+      "url": "https://x.com/mikitiyan_811",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-ito-kokomi",
+      "url": "https://www.instagram.com/110_2424/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-kumoi-sana",
+      "url": "https://x.com/sana_kumoi",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-kuramoto-hana",
+      "url": "https://x.com/87nan913_",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-kurashima-ami",
+      "url": "https://www.instagram.com/anzunomi_ske/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-iriuchijima-sayaka",
+      "url": "https://www.instagram.com/__38hpy/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-kondo-mikoto",
+      "url": "https://x.com/miiko_ske48",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-shinohara-kyoka",
+      "url": "https://x.com/kyoka_shinohara",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-sugimoto-riina",
+      "url": "https://www.instagram.com/vomriina_920/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-kuwahara-tsubaki",
+      "url": "https://www.instagram.com/tsubaki_225_",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-ota-manae",
+      "url": "https://x.com/otama__1216",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-ida-reona",
+      "url": "https://x.com/reona_ske48",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-akahori-kimie",
+      "url": "https://x.com/knyam0",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-hara-yune",
+      "url": "https://www.instagram.com/yune_hara/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-matsukawa-miyu",
+      "url": "https://www.instagram.com/miyu415_miitan/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-suzuki-kokona",
+      "url": "https://www.instagram.com/kokona_1228_/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-kawamura-yua",
+      "url": "https://x.com/yuanyann_0131",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-omura-anzu",
+      "url": "https://x.com/omura_anzu_",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-yamamura-sakura",
+      "url": "https://www.instagram.com/ske48_sakura/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-minamisawa-coco",
+      "url": "https://www.instagram.com/coco_ske48",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-suzuki-ena",
+      "url": "https://x.com/_enatan0109_",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-nakasaka-miyu",
+      "url": "https://x.com/nakachan_0611",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-ito-miki",
+      "url": "https://www.instagram.com/mikitiyan_811/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-arano-himeka",
+      "url": "https://www.instagram.com/_arnhmk_/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-okuno-kokoha",
+      "url": "https://www.instagram.com/558_panda/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-nishii-mio",
+      "url": "https://x.com/_mio0316_",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-hasegawa-miyabi",
+      "url": "https://x.com/mii_chan1120",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-morimoto-kurumi",
+      "url": "https://x.com/kurumi_ske48_",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-kuramoto-hana",
+      "url": "https://www.instagram.com/87nan.913_",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-kumoi-sana",
+      "url": "https://www.instagram.com/sana_kumoi/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-shinohara-kyoka",
+      "url": "https://www.instagram.com/kyoka_shinohara_/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-kondo-mikoto",
+      "url": "https://www.instagram.com/miiko_ske48",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-gyouten-yurina",
+      "url": "https://x.com/tenten_yurina",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-ida-reona",
+      "url": "https://www.instagram.com/reona_ske48/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-akahori-kimie",
+      "url": "https://www.instagram.com/knyam0/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-kurosu-haruka",
+      "url": "https://x.com/kurooosu_48_16",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-kurosu-haruka",
+      "url": "https://x.com/kurosu_haruka_",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-yamane-suzuha",
+      "url": "https://x.com/48Suzuha_16LOVE",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-kawamura-yua",
+      "url": "https://www.instagram.com/_3l.xzq/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-omura-anzu",
+      "url": "https://www.instagram.com/azaz__920/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-ota-manae",
+      "url": "https://www.instagram.com/ota.ma__1216",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-yamane-suzuha",
+      "url": "https://x.com/48_asayan",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-hashimoto-eriko",
+      "url": "https://x.com/erichan_akb48",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-oota-yuki",
+      "url": "https://x.com/yuki_ota0327",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-suzuki-ena",
+      "url": "https://www.instagram.com/_enatan0109_/",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-nakasaka-miyu",
+      "url": "https://www.instagram.com/nakachan_0611/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-hatakeyama-nozomi",
+      "url": "https://x.com/nonchan_akb48",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-hirata-yuki",
+      "url": "https://x.com/yuki_hirata0903",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-hotei-moka",
+      "url": "https://x.com/moka_hotei1201",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-hasegawa-miyabi",
+      "url": "https://www.instagram.com/mii_channnn1120",
+      "status": 429
+    },
+    {
+      "memberId": "ske48-nishii-mio",
+      "url": "https://www.instagram.com/_mio0316_/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-mizushima-miyuu",
+      "url": "https://x.com/miyuu_mizushima",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-masai-mayuu",
+      "url": "https://x.com/mayuu_masai0301",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-kudou-kasumi",
+      "url": "https://x.com/kasumin_akb48",
+      "status": 403
+    },
+    {
+      "memberId": "ske48-morimoto-kurumi",
+      "url": "https://www.instagram.com/kurumi_ske48/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-sako-yumemi",
+      "url": "https://x.com/yumemi_sako0205",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-narita-kohina",
+      "url": "https://x.com/kohina_narita",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-kubo-hinano",
+      "url": "https://x.com/hinano_kubo0202",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-yamaguchi-yui",
+      "url": "https://x.com/yuichi_akb48",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-kawamura-yui",
+      "url": "https://x.com/yui_kawamura",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-okumoto-kairi",
+      "url": "https://x.com/kairi_okumoto",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-gyouten-yurina",
+      "url": "https://www.instagram.com/yurina.gyoten/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-kurosu-haruka",
+      "url": "https://www.instagram.com/hachan_haruka/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-kurosu-haruka",
+      "url": "https://www.instagram.com/kurosu_haruka/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-yamane-suzuha",
+      "url": "https://www.instagram.com/suzuha48yamane16/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-gyouten-yurina",
+      "url": "https://www.instagram.com/Yurina.0314",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-ikuno-rina",
+      "url": "https://x.com/IKUNOchan_Buu83",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-ishimatsu-yuina",
+      "url": "https://x.com/yuina_hkt48",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-yamane-suzuha",
+      "url": "https://www.instagram.com/suzunya_48/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-hashimoto-eriko",
+      "url": "https://www.instagram.com/eriko_hashimoto_",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-oota-yuki",
+      "url": "https://www.instagram.com/yuki_ota0327",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-nakano-minami",
+      "url": "https://x.com/hkt_minami",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-kitagawa-hiiro",
+      "url": "https://x.com/hi16_hkt48",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-hirata-yuki",
+      "url": "https://www.instagram.com/yuki__hirata",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-hatakeyama-nozomi",
+      "url": "https://www.instagram.com/Nozomi_akb4817",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-hotei-moka",
+      "url": "https://www.instagram.com/hotei_moka48",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-matsunaga-yui",
+      "url": "https://x.com/hkt48_yui",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-yanase-reia",
+      "url": "https://x.com/reia_hkt48",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-fujino-kokoha",
+      "url": "https://x.com/fujicoco_hkt48",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-masai-mayuu",
+      "url": "https://www.instagram.com/ma3_1mayuu",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-mizushima-miyuu",
+      "url": "https://www.instagram.com/17_miyuu_1112",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-izawa-miyu",
+      "url": "https://x.com/miyu_izawa_2525",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-yamauchi-yuuna",
+      "url": "https://x.com/yuna_0706hkt",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-ryuutou-ayane",
+      "url": "https://x.com/Ryuchan63",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-ihara-hanna",
+      "url": "https://x.com/0227hanchan",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-ishii-ayane",
+      "url": "https://x.com/HKT48_ayn141",
+      "status": 403
+    },
+    {
+      "memberId": "akb48-okumoto-kairi",
+      "url": "https://www.instagram.com/kairi_okumoto/",
+      "status": 429
+    },
+    {
+      "memberId": "akb48-kawamura-yui",
+      "url": "https://www.instagram.com/yui_kawamura0618/",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-eura-yuuka",
+      "url": "https://x.com/yuka_20_11",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-imamura-maria",
+      "url": "https://x.com/maria_0914_",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-ikuno-rina",
+      "url": "https://www.instagram.com/rina_ikuno_hkt",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-ishimatsu-yuina",
+      "url": "https://www.instagram.com/yuina_hkt48",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-ooba-risaki",
+      "url": "https://x.com/Risaki0423",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-kuriyama-rina",
+      "url": "https://x.com/krn__HKT48",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-kitagawa-hiiro",
+      "url": "https://www.instagram.com/hi16.u_u",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-nakano-minami",
+      "url": "https://www.instagram.com/minami_hkt48",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-shibui-mina",
+      "url": "https://www.instagram.com/minashibui_hkt48",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-tachibana-kokoro",
+      "url": "https://x.com/hkt48_kokoppe",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-tanaka-iori",
+      "url": "https://x.com/iori831_hkt48",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-fujino-kokoha",
+      "url": "https://www.instagram.com/cocoha_hkt48",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-matsunaga-yui",
+      "url": "https://www.instagram.com/yui_hkt48",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-yanase-reia",
+      "url": "https://www.instagram.com/reia.y.629",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-fukui-karen",
+      "url": "https://x.com/karenren_291",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-yasui-hina",
+      "url": "https://x.com/HKT48tan0209",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-izawa-miyu",
+      "url": "https://www.instagram.com/miyu_izawa_0814/",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-yamauchi-yuuna",
+      "url": "https://www.instagram.com/yuna_hkt48",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-ryuutou-ayane",
+      "url": "https://www.instagram.com/r_ayane.63",
+      "status": 429
+    },
+    {
+      "memberId": "ngt48-kimoto-anna",
+      "url": "https://x.com/anna_toriko_",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-kita-hanae",
+      "url": "https://x.com/hanae_kita",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-satou-hiroka",
+      "url": "https://x.com/satohiroka_pi",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-isozaki-nana",
+      "url": "https://x.com/nana_isozaki",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-ishii-ayane",
+      "url": "https://www.instagram.com/ayaya_kg",
+      "status": 429
+    },
+    {
+      "memberId": "ngt48-shinzawa-aoi",
+      "url": "https://x.com/aochan_724",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-takashima-yua",
+      "url": "https://x.com/takashima_yua",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-azama-yui",
+      "url": "https://x.com/azama_yui",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-nishikawa-haruna",
+      "url": "https://x.com/haruna0517ru",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-imamura-maria",
+      "url": "https://www.instagram.com/maria_0914_",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-ihara-hanna",
+      "url": "https://www.instagram.com/hanna_chakachaka_hkt48",
+      "status": 429
+    },
+    {
+      "memberId": "ngt48-kitazawa-mone",
+      "url": "https://x.com/monene_kitazawa",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-adachi-yume",
+      "url": "https://x.com/yume_adachi0905",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-oomachi-yuuka",
+      "url": "https://x.com/yuka_omachi",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-kai-mizuki",
+      "url": "https://x.com/zukizuki_kai",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-sutou-rinka",
+      "url": "https://x.com/rinks2_99",
+      "status": 403
+    },
+    {
+      "memberId": "ngt48-satou-yuuka",
+      "url": "https://x.com/sato_yuka1016",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-eura-yuuka",
+      "url": "https://www.instagram.com/yuka11_hkt",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-ooba-risaki",
+      "url": "https://www.instagram.com/ri__saki.o5",
+      "status": 429
+    },
+    {
+      "memberId": "ngt48-minagawa-hiyori",
+      "url": "https://x.com/minagawa_831",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-tanaka-iori",
+      "url": "https://www.instagram.com/iori_hkt48",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-kuriyama-rina",
+      "url": "https://www.instagram.com/krn_hkt48",
+      "status": 429
+    },
+    {
+      "memberId": "ngt48-nakata-asami",
+      "url": "https://x.com/iam_Asami77",
+      "status": 403
+    },
+    {
+      "memberId": "hkt48-tachibana-kokoro",
+      "url": "https://www.instagram.com/_kokoro_tachibana",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-fukui-karen",
+      "url": "https://www.instagram.com/__karen.o6",
+      "status": 429
+    },
+    {
+      "memberId": "hkt48-yasui-hina",
+      "url": "https://www.instagram.com/hinatan0209_hkt48",
+      "status": 429
+    },
+    {
+      "memberId": "ngt48-isobe-rua",
+      "url": "https://www.instagram.com/_rua57_/",
+      "status": 429
+    },
+    {
+      "memberId": "ngt48-kita-hanae",
+      "url": "https://www.instagram.com/_hanae.kita_/",
+      "status": 429
     }
   ]
 }
