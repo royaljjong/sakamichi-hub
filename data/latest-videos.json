@@ -1,5 +1,26 @@
 [
   {
+    "id": "yt-Z5_KgBjMIEk",
+    "platform": "youtube",
+    "videoId": "Z5_KgBjMIEk",
+    "memberId": "nmb48-shibuya-nagisa",
+    "memberName": {
+      "ja": "渋谷凪咲",
+      "ko": "시부야 나기사",
+      "en": "Shibuya Nagisa"
+    },
+    "memberGlyph": "渋",
+    "memberHueShift": 17,
+    "memberImage": null,
+    "groupId": "nmb48",
+    "franchise": "akb48g",
+    "title": "【The Blood of Dawnwalker】 #4｜ネタバレ注意｜ドーンウォーカーとして生きます 【日ノ森あんず】",
+    "publishedAt": "2026-09-05T11:29:58+00:00",
+    "url": "https://www.youtube.com/watch?v=Z5_KgBjMIEk",
+    "thumbnailUrl": "https://i3.ytimg.com/vi/Z5_KgBjMIEk/hqdefault.jpg",
+    "channelUrl": "https://www.youtube.com/@nagichannel"
+  },
+  {
     "id": "yt-sUPZmLIOoJs",
     "platform": "youtube",
     "videoId": "sUPZmLIOoJs",
@@ -124,27 +145,6 @@
     "url": "https://www.youtube.com/watch?v=L8QBfd8Lh58",
     "thumbnailUrl": "https://i1.ytimg.com/vi/L8QBfd8Lh58/hqdefault.jpg",
     "channelUrl": "https://www.youtube.com/@sakashita_mako"
-  },
-  {
-    "id": "yt-AE-LY9v3YS8",
-    "platform": "youtube",
-    "videoId": "AE-LY9v3YS8",
-    "memberId": "nmb48-shibuya-nagisa",
-    "memberName": {
-      "ja": "渋谷凪咲",
-      "ko": "시부야 나기사",
-      "en": "Shibuya Nagisa"
-    },
-    "memberGlyph": "渋",
-    "memberHueShift": 17,
-    "memberImage": null,
-    "groupId": "nmb48",
-    "franchise": "akb48g",
-    "title": "【ダスクブラッド】PvP苦手でもめっちゃ楽しめた！ネットワークテスト感想会！ 【日ノ森あんず】",
-    "publishedAt": "2026-08-25T15:41:57+00:00",
-    "url": "https://www.youtube.com/watch?v=AE-LY9v3YS8",
-    "thumbnailUrl": "https://i2.ytimg.com/vi/AE-LY9v3YS8/hqdefault.jpg",
-    "channelUrl": "https://www.youtube.com/@nagichannel"
   },
   {
     "id": "yt-m5WgttxN8B0",
