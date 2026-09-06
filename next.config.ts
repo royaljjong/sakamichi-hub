@@ -7,6 +7,11 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   outputFileTracingRoot: path.resolve(__dirname),
+  async rewrites() {
+    return [
+      { source: '/favicon.ico', destination: '/icon.svg' },
+    ];
+  },
   async headers() {
     const cspReportOnly = [
       "default-src 'self'",
