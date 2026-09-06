@@ -13,6 +13,8 @@ import { GroupDiscography } from '@/components/group/GroupDiscography';
 import { GroupDataStatus } from '@/components/group/GroupDataStatus';
 import { JsonLd } from '@/components/seo/JsonLd';
 
+export const dynamicParams = false;
+
 interface GroupPageProps {
   params: Promise<{ locale: string; groupId: string }>;
 }

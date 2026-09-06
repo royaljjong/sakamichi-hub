@@ -10,6 +10,8 @@ import { Footer } from '@/components/ui/Footer';
 import { MemberGrid } from '@/components/member/MemberGrid';
 import { LineageTimeline } from '@/components/group/LineageTimeline';
 
+export const dynamicParams = false;
+
 interface ArchivePageProps {
   params: Promise<{ locale: string; groupId: string }>;
 }

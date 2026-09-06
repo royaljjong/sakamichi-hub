@@ -17,6 +17,8 @@ import { CareerTimeline } from '@/components/member/CareerTimeline';
 import { buildMemberDiscoveryTerms, visibleMemberAliases } from '@/lib/identity';
 import { renderableLinks } from '@/lib/schema';
 
+export const dynamicParams = false;
+
 interface MemberPageProps {
   params: Promise<{ locale: string; memberId: string }>;
 }

@@ -10,6 +10,8 @@ import { Footer } from '@/components/ui/Footer';
 import { MemberGrid } from '@/components/member/MemberGrid';
 import { GenerationChip } from '@/components/generation/GenerationChip';
 
+export const dynamicParams = false;
+
 interface GenerationPageProps {
   params: Promise<{ locale: string; groupId: string; genId: string }>;
 }
