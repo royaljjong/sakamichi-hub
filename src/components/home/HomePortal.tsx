@@ -463,6 +463,7 @@ export function HomePortal({
                                 month: "short",
                                 day: "numeric",
                                 weekday: "short",
+                                timeZone: "Asia/Tokyo",
                               }).format(new Date(event.startsAt))}
                             </time>
                             <h3 className="mt-2 line-clamp-2 text-sm font-semibold">
@@ -754,6 +755,7 @@ export function HomePortal({
                                 {new Intl.DateTimeFormat(lang, {
                                   month: "short",
                                   day: "numeric",
+                                  timeZone: "Asia/Tokyo",
                                 }).format(new Date(video.publishedAt))}
                               </time>
                             </div>

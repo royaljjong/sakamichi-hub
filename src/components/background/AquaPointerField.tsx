@@ -87,7 +87,7 @@ function drawHighlight(
   r: number,
   baseOpacity: number,
 ): void {
-  const arcR = r * 0.68;
+  const arcR = Math.max(0.1, r * 0.68);
   ctx.beginPath();
   ctx.arc(cx, cy, arcR, Math.PI * 1.05, Math.PI * 1.55);
   ctx.strokeStyle = `rgba(255,255,255,${(baseOpacity * 0.75).toFixed(3)})`;
@@ -410,7 +410,7 @@ export function AquaPointerField() {
 
         // Draw bubble fill
         ctx.beginPath();
-        ctx.arc(b.x, b.y, displayR, 0, Math.PI * 2);
+        ctx.arc(b.x, b.y, Math.max(0.1, displayR), 0, Math.PI * 2);
         ctx.globalAlpha = b.opacity;
         ctx.fillStyle   = color;
         ctx.fill();
@@ -419,7 +419,7 @@ export function AquaPointerField() {
         // Fake soft outer ring for large bubbles (r > 30 = radius > 15)
         if (b.r > 15) {
           ctx.beginPath();
-          ctx.arc(b.x, b.y, displayR + 4, 0, Math.PI * 2);
+          ctx.arc(b.x, b.y, Math.max(0.1, displayR + 4), 0, Math.PI * 2);
           ctx.globalAlpha = b.opacity * 0.30;
           ctx.fillStyle   = color;
           ctx.fill();
@@ -484,7 +484,7 @@ export function AquaPointerField() {
           const color = getColor(pal, drop.colorKey);
 
           ctx.beginPath();
-          ctx.arc(dx, dy, dr, 0, Math.PI * 2);
+          ctx.arc(dx, dy, Math.max(0.1, dr), 0, Math.PI * 2);
           ctx.globalAlpha = alpha;
           ctx.fillStyle   = color;
           ctx.fill();
