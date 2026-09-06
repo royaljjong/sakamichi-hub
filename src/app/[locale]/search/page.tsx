@@ -62,13 +62,13 @@ export default async function SearchPage({ params }: SearchPageProps) {
 
       <main id="main-content" className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 py-8 flex-1 w-full">
         <div className="text-center mb-10">
-          <span className="text-xs uppercase tracking-widest text-[var(--g-brand)] font-semibold mb-2 block font-[family-name:var(--font-zen-kaku)]">
+          <span className="text-xs uppercase tracking-widest text-(--g-brand) font-semibold mb-2 block font-(family-name:--font-zen-kaku)">
             Member Search
           </span>
-          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] mb-3">
+          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-(--g-ink) font-(family-name:--font-klee-one) mb-3">
             {t('pageTitle')}
           </h1>
-          <p className="text-xs sm:text-sm text-[var(--ink-soft)] max-w-md mx-auto leading-relaxed">
+          <p className="text-xs sm:text-sm text-(--ink-soft) max-w-md mx-auto leading-relaxed">
             {t('pageSubtitle')}
           </p>
         </div>

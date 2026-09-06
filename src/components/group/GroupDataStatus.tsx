@@ -33,7 +33,7 @@ export function GroupDataStatus({ group, members, portal, singlesCount }: Props)
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
           <p className="section-kicker">DATA TRUST</p>
-          <h2 className="mt-1 text-base font-bold text-[var(--g-ink)]">{t('heading')}</h2>
+          <h2 className="mt-1 text-base font-bold text-(--g-ink)">{t('heading')}</h2>
         </div>
         <span className={`coverage-status coverage-status-${status}`}>{t(status)}</span>
       </div>
@@ -45,7 +45,7 @@ export function GroupDataStatus({ group, members, portal, singlesCount }: Props)
           </div>
         ))}
       </dl>
-      <p className="mt-4 text-xs leading-5 text-[var(--ink-soft)]">
+      <p className="mt-4 text-xs leading-5 text-(--ink-soft)">
         {isCollecting ? t('representativeNotice') : t('scopeNotice')}
         <span className="ml-2">· {t('checkedAt')}: {group.provenance.checkedAt}</span>
       </p>

@@ -47,31 +47,31 @@ export default function LocaleError({
   return (
     <div className="min-h-[60vh] flex items-center justify-center p-6">
       <div className="max-w-md text-center">
-        <p className="text-xs uppercase tracking-widest text-[color:var(--g-brand,#B27B4E)] font-semibold mb-2">
+        <p className="text-xs uppercase tracking-widest text-(--g-brand,#B27B4E) font-semibold mb-2">
           Error
         </p>
-        <h1 className="text-2xl font-bold text-[color:var(--g-ink,#3A3630)] mb-3 font-[family-name:var(--font-klee-one)]">
+        <h1 className="text-2xl font-bold text-(--g-ink,#3A3630) mb-3 font-(family-name:--font-klee-one)">
           {copy.title}
         </h1>
-        <p className="text-sm text-[color:var(--ink-soft,#6b615a)] leading-relaxed mb-6">
+        <p className="text-sm text-(--ink-soft,#6b615a) leading-relaxed mb-6">
           {copy.body}
         </p>
         <div className="flex gap-3 justify-center">
           <button
             onClick={() => reset()}
-            className="px-4 py-2 rounded-xl bg-[color:var(--g-brand,#B27B4E)] text-white text-sm font-semibold hover:opacity-90 transition"
+            className="px-4 py-2 rounded-xl bg-(--g-brand,#B27B4E) text-white text-sm font-semibold hover:opacity-90 transition"
           >
             {copy.retry}
           </button>
           <Link
             href={`/${lang}`}
-            className="px-4 py-2 rounded-xl border border-[color:var(--g-ink,#3A3630)] text-sm font-semibold hover:bg-[color:var(--paper-deep,#f0eae0)] transition"
+            className="px-4 py-2 rounded-xl border border-(--g-ink,#3A3630) text-sm font-semibold hover:bg-(--paper-deep,#f0eae0) transition"
           >
             {copy.home}
           </Link>
         </div>
         {error.digest && (
-          <p className="mt-6 text-[10px] text-[color:var(--ink-faint,#B5ADA2)]">
+          <p className="mt-6 text-[10px] text-(--ink-faint,#B5ADA2)">
             digest: {error.digest}
           </p>
         )}

@@ -43,7 +43,7 @@ export function GroupDiscography({ singles, group, locale }: GroupDiscographyPro
       <h2 className="section-title mt-2">{c.title}</h2>
 
       {singles.length === 0 ? (
-        <p className="mt-5 text-sm text-[var(--ink-soft)]">{c.empty}</p>
+        <p className="mt-5 text-sm text-(--ink-soft)">{c.empty}</p>
       ) : (
         <div className="mt-5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {singles.map((single) => {

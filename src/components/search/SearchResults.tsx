@@ -24,7 +24,7 @@ export function SearchResults({
 
   if (loading) {
     return (
-      <div className="py-8 text-center text-sm text-[var(--ink-soft)]">
+      <div className="py-8 text-center text-sm text-(--ink-soft)">
         {t('indexing')}
       </div>
     );
@@ -62,7 +62,7 @@ export function SearchResults({
           <Link
             key={item.id}
             href={`/m/${item.id}`}
-            className="group flex items-center justify-between p-3.5 rounded-2xl bg-[var(--white-veil)] hover:bg-white/95 border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] hover:border-[var(--g-brand)] shadow-[var(--shadow-soft)] transition duration-200"
+            className="group flex items-center justify-between p-3.5 rounded-2xl bg-(--white-veil) hover:bg-white/95 border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] hover:border-(--g-brand) shadow-(--shadow-soft) transition duration-200"
           >
             <div className="flex items-center gap-3 min-w-0">
               <MemberAvatar
@@ -77,26 +77,26 @@ export function SearchResults({
               />
               <div className="min-w-0">
                 <div className="flex items-center gap-1.5">
-                  <p className="text-sm font-bold text-[var(--g-ink)] truncate font-[family-name:var(--font-klee-one)]">
+                  <p className="text-sm font-bold text-(--g-ink) truncate font-(family-name:--font-klee-one)">
                     {primaryName}
                   </p>
                   {isGraduated && (
-                    <span className="text-[9px] px-1 py-0.2 rounded bg-stone-200 text-stone-600">
+                    <span className="text-[9px] px-1 py-0.2 rounded-sm bg-stone-200 text-stone-600">
                       {tMember('gradBadge')}
                     </span>
                   )}
                 </div>
-                <p className="text-xs text-[var(--ink-soft)] truncate">
+                <p className="text-xs text-(--ink-soft) truncate">
                   {subName} · {groupName}
                 </p>
                 {match && normalizeForDisplay(match.term) !== normalizeForDisplay(primaryName) && (
-                  <p className="mt-0.5 truncate text-[11px] text-[var(--ink-faint)]">
+                  <p className="mt-0.5 truncate text-[11px] text-(--ink-faint)">
                     {t(`match.${match.kind}`, { term: match.term })}
                   </p>
                 )}
               </div>
             </div>
-            <span className="text-xs text-[var(--ink-faint)] group-hover:text-[var(--g-brand)] group-hover:translate-x-0.5 transition shrink-0 ml-2 font-bold">
+            <span className="text-xs text-(--ink-faint) group-hover:text-(--g-brand) group-hover:translate-x-0.5 transition shrink-0 ml-2 font-bold">
               →
             </span>
           </Link>

@@ -83,28 +83,28 @@ export default async function GenerationPage({ params }: GenerationPageProps) {
 
       <main id="main-content" className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 py-8 flex-1">
         {/* Breadcrumb */}
-        <div className="flex items-center gap-2 text-xs text-[var(--ink-soft)] mb-6 font-medium">
-          <Link href="/" className="hover:text-[var(--ink)] transition">
+        <div className="flex items-center gap-2 text-xs text-(--ink-soft) mb-6 font-medium">
+          <Link href="/" className="hover:text-(--ink) transition">
             Home
           </Link>
           <span>/</span>
-          <Link href={`/g/${group.id}`} className="hover:text-[var(--ink)] transition">
+          <Link href={`/g/${group.id}`} className="hover:text-(--ink) transition">
             {group.name[locale as 'ja' | 'ko' | 'en'] || group.name.ja}
           </Link>
           <span>/</span>
-          <span className="text-[var(--ink)]">{label}</span>
+          <span className="text-(--ink)">{label}</span>
         </div>
 
         {/* Generation Title & Quick Navigation */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-6 mb-8 border-b border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)]">
           <div>
-            <span className="text-xs uppercase tracking-widest text-[var(--g-brand)] font-semibold mb-1 block font-[family-name:var(--font-zen-kaku)]">
+            <span className="text-xs uppercase tracking-widest text-(--g-brand) font-semibold mb-1 block font-(family-name:--font-zen-kaku)">
               {group.shortName[locale as 'ja' | 'ko' | 'en'] || group.shortName.ja}
             </span>
-            <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--g-ink)] font-[family-name:var(--font-klee-one)]">
+            <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-(--g-ink) font-(family-name:--font-klee-one)">
               {label}
             </h1>
-            <p className="text-xs text-[var(--ink-soft)] mt-2 font-[family-name:var(--font-zen-kaku)]">
+            <p className="text-xs text-(--ink-soft) mt-2 font-(family-name:--font-zen-kaku)">
               {gen.joinedOn && `가입일 / 加入日: ${gen.joinedOn}`} • 計 {members.length}名
             </p>
           </div>

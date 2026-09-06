@@ -5,9 +5,9 @@ export default function Loading() {
       role="status"
       aria-live="polite"
     >
-      <div className="flex items-center gap-3 text-sm text-[color:var(--ink-soft,#6b615a)]">
+      <div className="flex items-center gap-3 text-sm text-(--ink-soft,#6b615a)">
         <span
-          className="inline-block h-4 w-4 rounded-full border-2 border-[color:var(--g-brand,#B27B4E)] border-t-transparent animate-spin"
+          className="inline-block h-4 w-4 rounded-full border-2 border-(--g-brand,#B27B4E) border-t-transparent animate-spin"
           aria-hidden="true"
         />
         <span>Loading…</span>

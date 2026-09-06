@@ -68,12 +68,12 @@ export function GroupComparePicker({
   }
 
   const selectClass =
-    'w-full rounded-2xl border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] bg-[var(--white-veil)] px-4 py-2.5 text-sm font-medium text-[var(--ink)] shadow-xs backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-[var(--g-brand)] transition cursor-pointer';
+    'w-full rounded-2xl border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] bg-(--white-veil) px-4 py-2.5 text-sm font-medium text-(--ink) shadow-2xs backdrop-blur-xs focus:outline-hidden focus:ring-2 focus:ring-(--g-brand) transition cursor-pointer';
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8">
       <div>
-        <label className="block text-[10px] font-bold uppercase tracking-widest text-[var(--ink-soft)] mb-1.5 pl-1">
+        <label className="block text-[10px] font-bold uppercase tracking-widest text-(--ink-soft) mb-1.5 pl-1">
           A
         </label>
         <select
@@ -86,7 +86,7 @@ export function GroupComparePicker({
         </select>
       </div>
       <div>
-        <label className="block text-[10px] font-bold uppercase tracking-widest text-[var(--ink-soft)] mb-1.5 pl-1">
+        <label className="block text-[10px] font-bold uppercase tracking-widest text-(--ink-soft) mb-1.5 pl-1">
           B
         </label>
         <select
@@ -99,7 +99,7 @@ export function GroupComparePicker({
         </select>
       </div>
       <div>
-        <label className="block text-[10px] font-bold uppercase tracking-widest text-[var(--ink-soft)] mb-1.5 pl-1">
+        <label className="block text-[10px] font-bold uppercase tracking-widest text-(--ink-soft) mb-1.5 pl-1">
           C
         </label>
         <select

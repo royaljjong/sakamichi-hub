@@ -94,49 +94,49 @@ export default async function CreditsPage({ params }: CreditsPageProps) {
 
       <main id="main-content" className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 py-8 flex-1 w-full">
         <div className="text-center mb-12">
-          <span className="text-xs uppercase tracking-widest text-[var(--g-brand)] font-semibold mb-2 block font-[family-name:var(--font-zen-kaku)]">
+          <span className="text-xs uppercase tracking-widest text-(--g-brand) font-semibold mb-2 block font-(family-name:--font-zen-kaku)">
             Sources & Attribution
           </span>
-          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] mb-3">
+          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-(--g-ink) font-(family-name:--font-klee-one) mb-3">
             {t.pageTitle}
           </h1>
-          <p className="text-sm text-[var(--ink-soft)]">{t.intro}</p>
+          <p className="text-sm text-(--ink-soft)">{t.intro}</p>
         </div>
 
-        <div className="space-y-8 bg-[var(--white-veil)] p-6 sm:p-10 rounded-[32px] border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] shadow-[var(--shadow-soft)] backdrop-blur-md">
+        <div className="space-y-8 bg-(--white-veil) p-6 sm:p-10 rounded-[32px] border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] shadow-(--shadow-soft) backdrop-blur-md">
 
           {/* Official Sites */}
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.officialSitesHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">
               {t.officialSitesBody}
             </p>
           </section>
 
           {/* Wikipedia */}
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.wikipediaHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">
               {t.wikipediaBody}
             </p>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">
               {isJa ? 'ライセンス全文: ' : isKo ? '라이선스 전문: ' : 'Full license text: '}
               <a
                 href="https://creativecommons.org/licenses/by-sa/4.0/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline underline-offset-2 hover:text-[var(--g-brand)] transition-colors font-medium"
+                className="underline underline-offset-2 hover:text-(--g-brand) transition-colors font-medium"
               >
                 https://creativecommons.org/licenses/by-sa/4.0/
               </a>
             </p>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">
               {isJa
                 ? 'ウィキペディア日本語版へのリンク: '
                 : isKo
@@ -146,7 +146,7 @@ export default async function CreditsPage({ params }: CreditsPageProps) {
                 href="https://ja.wikipedia.org/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline underline-offset-2 hover:text-[var(--g-brand)] transition-colors"
+                className="underline underline-offset-2 hover:text-(--g-brand) transition-colors"
               >
                 https://ja.wikipedia.org/
               </a>
@@ -155,33 +155,33 @@ export default async function CreditsPage({ params }: CreditsPageProps) {
 
           {/* Wikimedia Commons */}
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.wikimediaHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">
               {t.wikimediaBody}
             </p>
           </section>
 
           {/* Change Indication */}
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.changeIndicationHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">
               {t.changeIndicationBody}
             </p>
           </section>
 
           {/* Disclaimer */}
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.disclaimerHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">
               {t.disclaimerBody}
             </p>
           </section>

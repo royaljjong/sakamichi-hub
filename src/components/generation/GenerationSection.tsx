@@ -27,15 +27,15 @@ export function GenerationSection({
     <section className="mb-14 last:mb-0">
       <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 pb-3 mb-6 border-b border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)]">
         <div className="flex items-baseline gap-3">
-          <h2 className="text-xl sm:text-2xl font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)]">
+          <h2 className="text-xl sm:text-2xl font-bold text-(--g-ink) font-(family-name:--font-klee-one)">
             {label}
           </h2>
-          <span className="text-xs text-[var(--ink-soft)] font-[family-name:var(--font-zen-kaku)]">
+          <span className="text-xs text-(--ink-soft) font-(family-name:--font-zen-kaku)">
             {generation.joinedOn && `${generation.joinedOn} ${t('joinedOn')}`}
           </span>
         </div>
 
-        <div className="text-xs text-[var(--ink-soft)] font-medium font-[family-name:var(--font-zen-kaku)]">
+        <div className="text-xs text-(--ink-soft) font-medium font-(family-name:--font-zen-kaku)">
           {t('totalLine', { count: members.length, active: activeCount, graduated: gradCount })}
         </div>
       </div>

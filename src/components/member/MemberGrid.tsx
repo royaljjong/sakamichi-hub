@@ -14,7 +14,7 @@ export function MemberGrid({ members, group, locale }: MemberGridProps) {
 
   if (members.length === 0) {
     return (
-      <div className="py-12 text-center text-sm text-[var(--ink-soft)] bg-[var(--white-veil)] rounded-3xl border border-[color-mix(in_oklab,var(--g-ink)_8%,transparent)]">
+      <div className="py-12 text-center text-sm text-(--ink-soft) bg-(--white-veil) rounded-3xl border border-[color-mix(in_oklab,var(--g-ink)_8%,transparent)]">
         {t('emptyGrid')}
       </div>
     );

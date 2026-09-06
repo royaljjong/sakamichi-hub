@@ -11,11 +11,11 @@ export function StatusBadge({ status, size = 'md' }: StatusBadgeProps) {
   const t = useTranslations('member');
 
   let label = t('statusActive');
-  let styleClasses = 'bg-[color-mix(in_oklab,var(--g-brand)_15%,white)] text-[var(--g-ink)] border-[color-mix(in_oklab,var(--g-brand)_30%,transparent)]';
+  let styleClasses = 'bg-[color-mix(in_oklab,var(--g-brand)_15%,white)] text-(--g-ink) border-[color-mix(in_oklab,var(--g-brand)_30%,transparent)]';
 
   if (status === 'graduated') {
     label = t('statusGraduated');
-    styleClasses = 'bg-[var(--paper-deep)] text-[var(--ink-soft)] border-[color-mix(in_oklab,var(--ink)_15%,transparent)]';
+    styleClasses = 'bg-(--paper-deep) text-(--ink-soft) border-[color-mix(in_oklab,var(--ink)_15%,transparent)]';
   } else if (status === 'graduating') {
     label = t('statusGraduating');
     styleClasses = 'bg-amber-50 text-amber-800 border-amber-200';

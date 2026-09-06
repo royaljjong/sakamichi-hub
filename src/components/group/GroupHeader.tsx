@@ -46,22 +46,22 @@ export function GroupHeader({ group, locale }: GroupHeaderProps) {
               className="inline-block w-3 h-3 rounded-full"
               style={{ backgroundColor: group.palette.brand }}
             />
-            <span className="text-xs font-semibold tracking-wider text-[var(--ink-soft)] uppercase font-[family-name:var(--font-zen-kaku)]">
+            <span className="text-xs font-semibold tracking-wider text-(--ink-soft) uppercase font-(family-name:--font-zen-kaku)">
               {group.debutedOn} {t('debutedOn')}
             </span>
           </div>
 
-          <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] mb-2">
+          <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-(--g-ink) font-(family-name:--font-klee-one) mb-2">
             {group.name.ja}
           </h1>
 
           {locale !== 'ja' && (
-            <p className="text-lg font-medium text-[var(--ink-soft)]">
+            <p className="text-lg font-medium text-(--ink-soft)">
               {groupName}
             </p>
           )}
 
-          <p className="text-sm text-[var(--ink-soft)] mt-3 max-w-2xl leading-relaxed">
+          <p className="text-sm text-(--ink-soft) mt-3 max-w-2xl leading-relaxed">
             {group.description[locale as 'ja' | 'ko' | 'en'] || group.description.ja}
           </p>
         </div>
@@ -74,7 +74,7 @@ export function GroupHeader({ group, locale }: GroupHeaderProps) {
               href={ol.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[var(--white-veil)] hover:bg-white text-xs font-medium text-[var(--ink)] border border-[color-mix(in_oklab,var(--g-ink)_15%,transparent)] shadow-xs transition hover:scale-105"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-(--white-veil) hover:bg-white text-xs font-medium text-(--ink) border border-[color-mix(in_oklab,var(--g-ink)_15%,transparent)] shadow-2xs transition hover:scale-105"
             >
               {ol.icon}
               <span>{ol.label}</span>

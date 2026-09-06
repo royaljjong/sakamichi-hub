@@ -14,7 +14,7 @@ export function LinkGrid({ links, locale }: LinkGridProps) {
 
   if (validLinks.length === 0) {
     return (
-      <div className="p-8 text-center rounded-2xl bg-[var(--white-veil)] border border-[color-mix(in_oklab,var(--g-ink)_8%,transparent)] text-[var(--ink-soft)] text-sm">
+      <div className="p-8 text-center rounded-2xl bg-(--white-veil) border border-[color-mix(in_oklab,var(--g-ink)_8%,transparent)] text-(--ink-soft) text-sm">
         {t('noLinks')}
       </div>
     );

@@ -13,13 +13,13 @@ export function Ruby({
   kana,
   locale,
   className = '',
-  subClassName = 'text-xs text-[var(--ink-soft)]',
+  subClassName = 'text-xs text-(--ink-soft)',
 }: RubyProps) {
   if (locale === 'ja') {
     return (
       <ruby className={className}>
         {kanji}
-        <rt className="text-[0.6em] text-[var(--ink-soft)] font-normal tracking-normal select-none">
+        <rt className="text-[0.6em] text-(--ink-soft) font-normal tracking-normal select-none">
           {kana}
         </rt>
       </ruby>

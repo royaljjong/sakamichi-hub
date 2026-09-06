@@ -104,29 +104,29 @@ export default async function ArchivePage({ params }: ArchivePageProps) {
 
       <main id="main-content" className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 py-8 flex-1">
         {/* Breadcrumb */}
-        <div className="flex items-center gap-2 text-xs text-[var(--ink-soft)] mb-6 font-medium">
-          <Link href="/" className="hover:text-[var(--ink)] transition">
+        <div className="flex items-center gap-2 text-xs text-(--ink-soft) mb-6 font-medium">
+          <Link href="/" className="hover:text-(--ink) transition">
             Home
           </Link>
           <span>/</span>
-          <Link href={`/g/${group.id}`} className="hover:text-[var(--ink)] transition">
+          <Link href={`/g/${group.id}`} className="hover:text-(--ink) transition">
             {group.name[locale as 'ja' | 'ko' | 'en'] || group.name.ja}
           </Link>
           <span>/</span>
-          <span className="text-[var(--ink)]">
+          <span className="text-(--ink)">
             {archiveName[locale as 'ja' | 'ko' | 'en'] || archiveName.ja}
           </span>
         </div>
 
         {/* Archive Header */}
         <div className="pb-6 mb-8 border-b border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)]">
-          <span className="text-xs uppercase tracking-widest text-[#5FAE84] font-bold mb-2 block font-[family-name:var(--font-zen-kaku)]">
+          <span className="text-xs uppercase tracking-widest text-[#5FAE84] font-bold mb-2 block font-(family-name:--font-zen-kaku)">
             Historical Archive
           </span>
-          <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] mb-3">
+          <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-(--g-ink) font-(family-name:--font-klee-one) mb-3">
             {archiveName[locale as 'ja' | 'ko' | 'en'] || archiveName.ja}
           </h1>
-          <p className="text-sm text-[var(--ink-soft)] max-w-2xl leading-relaxed">
+          <p className="text-sm text-(--ink-soft) max-w-2xl leading-relaxed">
             {archiveDescription[locale as 'ja' | 'ko' | 'en'] || archiveDescription.ja}
           </p>
 

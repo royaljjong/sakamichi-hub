@@ -41,25 +41,25 @@ export default function LocaleNotFound() {
   return (
     <div className="min-h-[60vh] flex items-center justify-center px-4 py-16">
       <div className="max-w-md w-full text-center">
-        <p className="text-xs uppercase tracking-widest text-[color:var(--g-brand,#B27B4E)] font-semibold mb-2 font-[family-name:var(--font-zen-kaku)]">
+        <p className="text-xs uppercase tracking-widest text-(--g-brand,#B27B4E) font-semibold mb-2 font-(family-name:--font-zen-kaku)">
           {t.kicker}
         </p>
-        <h1 className="text-3xl sm:text-4xl font-bold text-[color:var(--g-ink,#3A3630)] mb-3 font-[family-name:var(--font-klee-one)]">
+        <h1 className="text-3xl sm:text-4xl font-bold text-(--g-ink,#3A3630) mb-3 font-(family-name:--font-klee-one)">
           {t.title}
         </h1>
-        <p className="text-sm text-[color:var(--ink-soft,#6b615a)] leading-relaxed mb-6">
+        <p className="text-sm text-(--ink-soft,#6b615a) leading-relaxed mb-6">
           {t.body}
         </p>
         <div className="flex gap-3 justify-center">
           <Link
             href="/"
-            className="px-4 py-2 rounded-xl bg-[color:var(--g-brand,#B27B4E)] text-white text-sm font-semibold hover:opacity-90 transition"
+            className="px-4 py-2 rounded-xl bg-(--g-brand,#B27B4E) text-white text-sm font-semibold hover:opacity-90 transition"
           >
             {t.backHome}
           </Link>
           <Link
             href="/search"
-            className="px-4 py-2 rounded-xl border border-[color:var(--g-ink,#3A3630)] text-sm font-semibold hover:bg-[color:var(--paper-deep,#f0eae0)] transition"
+            className="px-4 py-2 rounded-xl border border-(--g-ink,#3A3630) text-sm font-semibold hover:bg-(--paper-deep,#f0eae0) transition"
           >
             {t.backSearch}
           </Link>

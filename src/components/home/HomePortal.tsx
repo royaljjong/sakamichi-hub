@@ -241,7 +241,7 @@ export function HomePortal({
       {/* Mini-nav: desktop sticky, mobile scrollable */}
       <nav
         aria-label="Page sections"
-        className="sticky top-0 z-10 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2 bg-[color-mix(in_oklab,var(--page-bg,white)_85%,transparent)] backdrop-blur-sm border-b border-[color-mix(in_oklab,var(--g-ink)_8%,transparent)]"
+        className="sticky top-0 z-10 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2 bg-[color-mix(in_oklab,var(--page-bg,white)_85%,transparent)] backdrop-blur-xs border-b border-[color-mix(in_oklab,var(--g-ink)_8%,transparent)]"
       >
         <div className="flex gap-1 overflow-x-auto hide-scrollbar sm:flex-wrap">
           {miniNavSections.map(({ id, labelKey }) => (
@@ -257,8 +257,8 @@ export function HomePortal({
               className={[
                 "shrink-0 rounded-full px-3 py-1 text-[11px] font-semibold tracking-wide transition-colors whitespace-nowrap",
                 activeSection === id
-                  ? "bg-[var(--g-brand)] text-white"
-                  : "text-[var(--ink-soft)] hover:text-[var(--g-ink)] hover:bg-[color-mix(in_oklab,var(--g-brand)_10%,transparent)]",
+                  ? "bg-(--g-brand) text-white"
+                  : "text-(--ink-soft) hover:text-(--g-ink) hover:bg-[color-mix(in_oklab,var(--g-brand)_10%,transparent)]",
               ].join(" ")}
             >
               {t(labelKey)}
@@ -272,10 +272,10 @@ export function HomePortal({
         className="border-b border-black/10 pb-10 pt-6"
       >
         <p className="section-kicker">OFFICIAL IDOL DIRECTORY</p>
-        <h1 className="mt-5 max-w-5xl text-4xl font-semibold tracking-[-.045em] text-[var(--g-ink)] sm:text-6xl lg:text-7xl">
+        <h1 className="mt-5 max-w-5xl text-4xl font-semibold tracking-[-.045em] text-(--g-ink) sm:text-6xl lg:text-7xl">
           {t("title")}
         </h1>
-        <p className="mt-5 text-sm text-[var(--ink-soft)] sm:text-base">
+        <p className="mt-5 text-sm text-(--ink-soft) sm:text-base">
           {t("lead")}
         </p>
       </section>
@@ -336,7 +336,7 @@ export function HomePortal({
                   onMouseLeave={clearPreview}
                   className="group-tile block h-full w-full"
                 >
-                  <span className="text-[10px] uppercase tracking-[.14em] text-[var(--ink-soft)]">
+                  <span className="text-[10px] uppercase tracking-[.14em] text-(--ink-soft)">
                     {group.franchise === "sakamichi"
                       ? tFranchise("sakamichiShort")
                       : tFranchise("akb48gShort")}
@@ -344,7 +344,7 @@ export function HomePortal({
                   <strong className="mt-5 block text-xl tracking-tight">
                     {localized(group.name)}
                   </strong>
-                  <span className="mt-2 block text-xs text-[var(--ink-soft)]">
+                  <span className="mt-2 block text-xs text-(--ink-soft)">
                     {tMember("statusActive")} {active} · {t("memberCountLabel")}{" "}
                     {
                       members.filter((m) => m.primaryGroupId === group.id)
@@ -374,7 +374,7 @@ export function HomePortal({
                       : tFranchise("akb48gShort")}
                   </p>
                   <h2 className="section-title mt-2">{t("events")}</h2>
-                  <p className="mt-2 text-xs text-[var(--ink-soft)]">
+                  <p className="mt-2 text-xs text-(--ink-soft)">
                     {t("updated")} · {portal.generatedAt}
                   </p>
                 </div>
@@ -458,7 +458,7 @@ export function HomePortal({
                             )}
                           </div>
                           <div className="p-4">
-                            <time className="text-xs text-[var(--ink-soft)]">
+                            <time className="text-xs text-(--ink-soft)">
                               {new Intl.DateTimeFormat(lang, {
                                 month: "short",
                                 day: "numeric",
@@ -469,7 +469,7 @@ export function HomePortal({
                             <h3 className="mt-2 line-clamp-2 text-sm font-semibold">
                               {localized(event.title)}
                             </h3>
-                            <p className="mt-2 truncate text-xs text-[var(--ink-soft)]">
+                            <p className="mt-2 truncate text-xs text-(--ink-soft)">
                               {venue
                                 ? localized(venue.name)
                                 : localized(
@@ -488,7 +488,7 @@ export function HomePortal({
                   })}
                 </Rail>
               ) : (
-                <p className="mt-6 border-t border-black/10 py-8 text-sm text-[var(--ink-soft)]">
+                <p className="mt-6 border-t border-black/10 py-8 text-sm text-(--ink-soft)">
                   {t("emptyEvent")}
                 </p>
               )}
@@ -592,7 +592,7 @@ export function HomePortal({
                                 <span className="mt-3 block font-semibold">
                                   {name}
                                 </span>
-                                <span className="mt-1 block text-[11px] text-[var(--ink-soft)]">
+                                <span className="mt-1 block text-[11px] text-(--ink-soft)">
                                   {member.birthDate?.slice(5).replace("-", ".")}{" "}
                                   · {group?.shortName[lang]}
                                 </span>
@@ -605,7 +605,7 @@ export function HomePortal({
                   })}
                 </Rail>
               ) : (
-                <p className="mt-5 text-sm text-[var(--ink-soft)]">
+                <p className="mt-5 text-sm text-(--ink-soft)">
                   {t("emptyBirthday")}
                 </p>
               )}
@@ -670,14 +670,14 @@ export function HomePortal({
                               name={name}
                               size={72}
                             />
-                            <span className="absolute -bottom-1 -right-1 rounded-full bg-white p-[2px] shadow-sm">
+                            <span className="absolute -bottom-1 -right-1 rounded-full bg-white p-[2px] shadow-xs">
                               <YouTubeIcon className="w-3.5 h-3.5 text-[#FF0000]" />
                             </span>
                           </div>
                           <span className="mt-3 block font-semibold text-[13px]">
                             {name}
                           </span>
-                          <span className="mt-1 block text-[11px] text-[var(--ink-soft)]">
+                          <span className="mt-1 block text-[11px] text-(--ink-soft)">
                             {group?.shortName[lang]}
                           </span>
                         </a>
@@ -686,7 +686,7 @@ export function HomePortal({
                   })}
                 </Rail>
               ) : (
-                <p className="mt-5 text-sm text-[var(--ink-soft)]">
+                <p className="mt-5 text-sm text-(--ink-soft)">
                   {t("emptyChannels")}
                 </p>
               )}
@@ -766,7 +766,7 @@ export function HomePortal({
                   })}
                 </Rail>
               ) : (
-                <p className="mt-5 text-sm text-[var(--ink-soft)]">
+                <p className="mt-5 text-sm text-(--ink-soft)">
                   {t("emptyVideos")}
                 </p>
               )}
@@ -831,14 +831,14 @@ export function HomePortal({
                               name={name}
                               size={72}
                             />
-                            <span className="absolute -bottom-1 -right-1 rounded-full bg-white p-[2px] shadow-sm">
+                            <span className="absolute -bottom-1 -right-1 rounded-full bg-white p-[2px] shadow-xs">
                               <TikTokIcon className="w-3.5 h-3.5" />
                             </span>
                           </div>
                           <span className="mt-3 block font-semibold text-[13px]">
                             {name}
                           </span>
-                          <span className="mt-1 block text-[11px] text-[var(--ink-soft)]">
+                          <span className="mt-1 block text-[11px] text-(--ink-soft)">
                             {group?.shortName[lang]}
                           </span>
                         </a>
@@ -847,7 +847,7 @@ export function HomePortal({
                   })}
                 </Rail>
               ) : (
-                <p className="mt-5 text-sm text-[var(--ink-soft)]">
+                <p className="mt-5 text-sm text-(--ink-soft)">
                   {t("emptyChannels")}
                 </p>
               )}

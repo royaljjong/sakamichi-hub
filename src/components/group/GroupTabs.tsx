@@ -61,7 +61,7 @@ export function GroupTabs({
       <div
         role="tablist"
         aria-label="Member Categories"
-        className="inline-flex p-1 rounded-full bg-[var(--paper-deep)] border border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)] self-start"
+        className="inline-flex p-1 rounded-full bg-(--paper-deep) border border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)] self-start"
       >
         {tabs.map((tab, index) => {
           const isActive = activeTab === tab.id;
@@ -76,8 +76,8 @@ export function GroupTabs({
               ref={(el) => { tabRefs.current[index] = el; }}
               className={`px-4 py-2 text-xs sm:text-sm font-semibold rounded-full transition-all duration-200 focus-visible:outline-2 ${
                 isActive
-                  ? 'bg-[var(--white-veil)] text-[var(--g-ink)] shadow-xs font-bold'
-                  : 'text-[var(--ink-soft)] hover:text-[var(--ink)]'
+                  ? 'bg-(--white-veil) text-(--g-ink) shadow-2xs font-bold'
+                  : 'text-(--ink-soft) hover:text-(--ink)'
               }`}
             >
               {tab.label}
@@ -90,7 +90,7 @@ export function GroupTabs({
       {archiveInfo && (
         <Link
           href={archiveInfo.href}
-          className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-[var(--ink-soft)] hover:text-[var(--g-brand)] transition self-end sm:self-auto px-3 py-1.5 rounded-full hover:bg-[var(--white-veil)]"
+          className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-(--ink-soft) hover:text-(--g-brand) transition self-end sm:self-auto px-3 py-1.5 rounded-full hover:bg-(--white-veil)"
         >
           <span>{t('archiveLink', { name: archiveInfo.name })}</span>
           <span>→</span>

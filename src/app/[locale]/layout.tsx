@@ -56,7 +56,7 @@ export default async function LocaleLayout({
         />
       </head>
       <body
-        className={`antialiased min-h-screen bg-[var(--paper)] text-[var(--ink)] ${fontClassNames}`}
+        className={`antialiased min-h-screen bg-(--paper) text-(--ink) ${fontClassNames}`}
       >
         <NextIntlClientProvider messages={messages}>
           {children}

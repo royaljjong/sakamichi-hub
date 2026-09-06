@@ -31,7 +31,7 @@ export function MotionToggle() {
   return (
     <button
       onClick={toggle}
-      className="text-xs text-[var(--ink-soft)] hover:text-[var(--ink)] underline underline-offset-4 transition py-1 px-2 rounded focus-visible:outline-2"
+      className="text-xs text-(--ink-soft) hover:text-(--ink) underline underline-offset-4 transition py-1 px-2 rounded-sm focus-visible:outline-2"
       aria-pressed={reduced}
     >
       {reduced ? t('resumeMotion') : t('reduceMotion')}

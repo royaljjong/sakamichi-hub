@@ -26,11 +26,11 @@ function MemberCard({ member, groupMap, lang, todayMd, staggerIndex }: {
   const name = lang === 'ko' ? member.name.ko.hangul : lang === 'en' ? member.name.en.romaji : member.name.ja.kanji;
   return (
     <div className="stagger-item" style={{ '--i': Math.min(staggerIndex, 12) } as React.CSSProperties}>
-      <Link href={`/m/${member.id}`} className="flex min-w-0 items-center gap-3 border-t border-black/10 py-3 transition-colors hover:text-[var(--g-brand)]" data-today={member.birthDate?.slice(5) === todayMd ? 'true' : undefined}>
+      <Link href={`/m/${member.id}`} className="flex min-w-0 items-center gap-3 border-t border-black/10 py-3 transition-colors hover:text-(--g-brand)" data-today={member.birthDate?.slice(5) === todayMd ? 'true' : undefined}>
         <MemberAvatar glyph={member.avatar.glyph} hueShift={member.avatar.hueShift} imageUrl={member.imageUrl} groupLogoUrl={group?.logoUrl ?? null} name={name} size={42} />
         <span className="min-w-0">
           <span className="block truncate text-sm font-semibold">{name}</span>
-          <span className="block truncate text-[11px] text-[var(--ink-soft)]">{member.birthDate?.slice(5).replace('-', '.')} · {group?.shortName[lang]}</span>
+          <span className="block truncate text-[11px] text-(--ink-soft)">{member.birthDate?.slice(5).replace('-', '.')} · {group?.shortName[lang]}</span>
         </span>
       </Link>
     </div>
@@ -70,7 +70,7 @@ export function BirthdayPanel({ members, groups, locale, groupId }: BirthdayPane
       <p className="section-kicker">BIRTHDAY CALENDAR</p>
       <div className="mt-2 flex items-end justify-between gap-4">
         <h2 className="section-title">{t('title')}</h2>
-        <span className="text-xs text-[var(--ink-soft)]">{month.toString().padStart(2, '0')} / {total}</span>
+        <span className="text-xs text-(--ink-soft)">{month.toString().padStart(2, '0')} / {total}</span>
       </div>
       {total > 0 ? (
         <div className="mt-5">
@@ -105,7 +105,7 @@ export function BirthdayPanel({ members, groups, locale, groupId }: BirthdayPane
             </div>
           )}
         </div>
-      ) : <p className="mt-5 text-sm text-[var(--ink-soft)]">{t('empty')}</p>}
+      ) : <p className="mt-5 text-sm text-(--ink-soft)">{t('empty')}</p>}
     </section>
   );
 }

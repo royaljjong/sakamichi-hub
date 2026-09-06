@@ -13,8 +13,8 @@ export function LineageTimeline({ lineage, locale }: LineageTimelineProps) {
   if (lineage.length <= 1) return null;
 
   return (
-    <div className="my-6 p-5 rounded-2xl bg-[var(--white-veil)] border border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)]">
-      <h3 className="text-xs font-bold text-[var(--ink-soft)] uppercase tracking-wider mb-4">
+    <div className="my-6 p-5 rounded-2xl bg-(--white-veil) border border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)]">
+      <h3 className="text-xs font-bold text-(--ink-soft) uppercase tracking-wider mb-4">
         {t('heading')}
       </h3>
       <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 relative">
@@ -30,16 +30,16 @@ export function LineageTimeline({ lineage, locale }: LineageTimelineProps) {
                   style={{ backgroundColor: item.color }}
                 />
                 <div>
-                  <p className="text-sm font-bold text-[var(--ink)]">
+                  <p className="text-sm font-bold text-(--ink)">
                     {name}
                   </p>
-                  <p className="text-[11px] text-[var(--ink-soft)] font-[family-name:var(--font-zen-kaku)]">
+                  <p className="text-[11px] text-(--ink-soft) font-(family-name:--font-zen-kaku)">
                     {item.from} ~ {item.to || t('present')}
                   </p>
                 </div>
               </div>
               {idx < lineage.length - 1 && (
-                <span className="hidden sm:inline text-xs text-[var(--ink-faint)] font-bold">
+                <span className="hidden sm:inline text-xs text-(--ink-faint) font-bold">
                   ➔
                 </span>
               )}

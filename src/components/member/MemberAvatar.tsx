@@ -32,10 +32,10 @@ export function MemberAvatar({
   if (imageUrl && !imgError && !isLikelyLogo) {
     return (
       <div
-        className={`relative inline-block overflow-hidden rounded-full shrink-0 select-none bg-[var(--paper-deep)] border-2 transition-transform duration-300 ${
+        className={`relative inline-block overflow-hidden rounded-full shrink-0 select-none bg-(--paper-deep) border-2 transition-transform duration-300 ${
           isGraduated
-            ? 'border-stone-300 filter grayscale-[40%]'
-            : 'border-[color-mix(in_oklab,var(--g-brand)_35%,transparent)] shadow-xs'
+            ? 'border-stone-300 filter grayscale-40'
+            : 'border-[color-mix(in_oklab,var(--g-brand)_35%,transparent)] shadow-2xs'
         } ${className}`}
         style={{
           width: `${size}px`,
@@ -61,8 +61,8 @@ export function MemberAvatar({
     // compared to portrait photo avatars in the same grid.
     return (
       <div
-        className={`relative inline-flex items-center justify-center rounded-full shrink-0 select-none border-2 border-[color-mix(in_oklab,var(--g-brand)_35%,transparent)] shadow-xs overflow-hidden ${
-          isGraduated ? 'filter grayscale-[40%] opacity-90' : ''
+        className={`relative inline-flex items-center justify-center rounded-full shrink-0 select-none border-2 border-[color-mix(in_oklab,var(--g-brand)_35%,transparent)] shadow-2xs overflow-hidden ${
+          isGraduated ? 'filter grayscale-40 opacity-90' : ''
         } ${className}`}
         style={{
           width: `${size}px`,
@@ -79,7 +79,7 @@ export function MemberAvatar({
           referrerPolicy="no-referrer"
           decoding="async"
           onError={() => setLogoError(true)}
-          className="w-[88%] h-[88%] object-contain drop-shadow-sm"
+          className="w-[88%] h-[88%] object-contain drop-shadow-xs"
           style={{ mixBlendMode: 'multiply' }}
         />
       </div>

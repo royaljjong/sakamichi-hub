@@ -115,7 +115,7 @@ export async function CareerTimeline({ member, groups, locale }: Props) {
       {/* Section header */}
       <div className="pb-3 mb-6 border-b border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)]">
         <p className="section-kicker mb-1">{t('sectionKicker')}</p>
-        <h2 className="text-lg sm:text-xl font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)]">
+        <h2 className="text-lg sm:text-xl font-bold text-(--g-ink) font-(family-name:--font-klee-one)">
           {t('sectionTitle')}
         </h2>
       </div>
@@ -132,12 +132,12 @@ export async function CareerTimeline({ member, groups, locale }: Props) {
           {events.map((ev, i) => (
             <li key={`${ev.date}-${ev.kind}-${ev.groupId}`} className="relative flex gap-4 pb-6 last:pb-2">
               {/* Dot */}
-              <div className="relative z-10 mt-0.5 flex-shrink-0">
+              <div className="relative z-10 mt-0.5 shrink-0">
                 <div
                   className={`w-3.5 h-3.5 rounded-full border-2 ${
                     ev.kind === 'join'
-                      ? 'bg-[var(--g-brand)] border-[var(--g-brand)]'
-                      : 'bg-[var(--white-veil)] border-[var(--g-brand)]'
+                      ? 'bg-(--g-brand) border-(--g-brand)'
+                      : 'bg-(--white-veil) border-(--g-brand)'
                   }`}
                   style={{ boxShadow: `0 0 0 3px color-mix(in oklab, var(--g-brand) 12%, transparent)` }}
                 />
@@ -148,7 +148,7 @@ export async function CareerTimeline({ member, groups, locale }: Props) {
                 {/* Date */}
                 <time
                   dateTime={ev.date}
-                  className="block text-[10px] font-mono tracking-widest text-[var(--ink-soft)] mb-1.5"
+                  className="block text-[10px] font-mono tracking-widest text-(--ink-soft) mb-1.5"
                 >
                   {ev.date}
                 </time>
@@ -163,20 +163,20 @@ export async function CareerTimeline({ member, groups, locale }: Props) {
                   </span>
 
                   {/* Generation */}
-                  <span className="text-xs text-[var(--ink-soft)] font-[family-name:var(--font-zen-kaku)]">
+                  <span className="text-xs text-(--ink-soft) font-(family-name:--font-zen-kaku)">
                     {genLabel(ev.generationId, ev.groupId)}
                   </span>
 
                   {/* Concurrent chip */}
                   {ev.isConcurrent && (
-                    <span className="inline-flex items-center px-1.5 py-0.5 rounded text-[9px] font-bold tracking-wide bg-[color-mix(in_oklab,var(--g-brand)_12%,white)] text-[var(--g-ink)] border border-[color-mix(in_oklab,var(--g-brand)_30%,transparent)]">
+                    <span className="inline-flex items-center px-1.5 py-0.5 rounded-sm text-[9px] font-bold tracking-wide bg-[color-mix(in_oklab,var(--g-brand)_12%,white)] text-(--g-ink) border border-[color-mix(in_oklab,var(--g-brand)_30%,transparent)]">
                       {t('chipConcurrent')}
                     </span>
                   )}
                 </div>
 
                 {/* Event label */}
-                <p className="mt-1 text-sm font-semibold text-[var(--g-ink)]">
+                <p className="mt-1 text-sm font-semibold text-(--g-ink)">
                   {eventLabel(ev)}
                 </p>
               </div>
@@ -185,13 +185,13 @@ export async function CareerTimeline({ member, groups, locale }: Props) {
 
           {/* Current status footer */}
           <li className="relative flex gap-4 pt-2">
-            <div className="relative z-10 mt-0.5 flex-shrink-0">
+            <div className="relative z-10 mt-0.5 shrink-0">
               <div
-                className="w-3.5 h-3.5 rounded-full bg-[var(--paper-deep)] border-2 border-[color-mix(in_oklab,var(--g-ink)_25%,transparent)]"
+                className="w-3.5 h-3.5 rounded-full bg-(--paper-deep) border-2 border-[color-mix(in_oklab,var(--g-ink)_25%,transparent)]"
               />
             </div>
             <div className="flex-1 min-w-0 pt-0.5">
-              <p className="text-xs text-[var(--ink-soft)] font-[family-name:var(--font-zen-kaku)]">
+              <p className="text-xs text-(--ink-soft) font-(family-name:--font-zen-kaku)">
                 {currentStatusLabel()}
               </p>
             </div>

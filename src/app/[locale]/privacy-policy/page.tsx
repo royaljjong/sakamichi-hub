@@ -141,136 +141,136 @@ export default async function PrivacyPolicyPage({ params }: PrivacyPolicyPagePro
 
       <main id="main-content" className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 py-8 flex-1 w-full">
         <div className="text-center mb-12">
-          <span className="text-xs uppercase tracking-widest text-[var(--g-brand)] font-semibold mb-2 block font-[family-name:var(--font-zen-kaku)]">
+          <span className="text-xs uppercase tracking-widest text-(--g-brand) font-semibold mb-2 block font-(family-name:--font-zen-kaku)">
             {t.kicker}
           </span>
-          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] mb-3">
+          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-(--g-ink) font-(family-name:--font-klee-one) mb-3">
             {t.pageTitle}
           </h1>
-          <p className="text-xs text-[var(--ink-faint)]">{t.lastUpdated}</p>
+          <p className="text-xs text-(--ink-faint)">{t.lastUpdated}</p>
         </div>
 
-        <div className="space-y-8 bg-[var(--white-veil)] p-6 sm:p-10 rounded-[32px] border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] shadow-[var(--shadow-soft)] backdrop-blur-md">
+        <div className="space-y-8 bg-(--white-veil) p-6 sm:p-10 rounded-[32px] border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] shadow-(--shadow-soft) backdrop-blur-md">
 
           {/* Introduction */}
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.introHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.introBody}</p>
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.introBody}</p>
           </section>
 
           {/* Data We Collect */}
           <section className="space-y-3">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.dataHeading}
             </h2>
             <div className="space-y-3 pl-4">
               <div>
-                <h3 className="text-sm font-semibold text-[var(--g-ink)] mb-1">{t.dataAccountHeading}</h3>
-                <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.dataAccountBody}</p>
+                <h3 className="text-sm font-semibold text-(--g-ink) mb-1">{t.dataAccountHeading}</h3>
+                <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.dataAccountBody}</p>
               </div>
               <div>
-                <h3 className="text-sm font-semibold text-[var(--g-ink)] mb-1">{t.dataAnalyticsHeading}</h3>
-                <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.dataAnalyticsBody}</p>
+                <h3 className="text-sm font-semibold text-(--g-ink) mb-1">{t.dataAnalyticsHeading}</h3>
+                <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.dataAnalyticsBody}</p>
               </div>
               <div>
-                <h3 className="text-sm font-semibold text-[var(--g-ink)] mb-1">{t.dataCookiesHeading}</h3>
-                <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.dataCookiesBody}</p>
+                <h3 className="text-sm font-semibold text-(--g-ink) mb-1">{t.dataCookiesHeading}</h3>
+                <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.dataCookiesBody}</p>
               </div>
               <div>
-                <h3 className="text-sm font-semibold text-[var(--g-ink)] mb-1">{t.dataAdsHeading}</h3>
-                <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.dataAdsBody}</p>
+                <h3 className="text-sm font-semibold text-(--g-ink) mb-1">{t.dataAdsHeading}</h3>
+                <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.dataAdsBody}</p>
               </div>
             </div>
           </section>
 
           {/* Third-Party Services */}
           <section className="space-y-3">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.thirdPartyHeading}
             </h2>
             <div className="space-y-3 pl-4">
               <div>
-                <h3 className="text-sm font-semibold text-[var(--g-ink)] mb-1">{t.thirdPartyAdSenseHeading}</h3>
-                <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">
+                <h3 className="text-sm font-semibold text-(--g-ink) mb-1">{t.thirdPartyAdSenseHeading}</h3>
+                <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">
                   {t.thirdPartyAdSenseBody}{' '}
                   <a
                     href="https://adssettings.google.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="underline underline-offset-2 hover:text-[var(--g-brand)] transition-colors font-medium"
+                    className="underline underline-offset-2 hover:text-(--g-brand) transition-colors font-medium"
                   >
                     {t.thirdPartyAdSenseLink}
                   </a>
                 </p>
               </div>
               <div>
-                <h3 className="text-sm font-semibold text-[var(--g-ink)] mb-1">{t.thirdPartyVercelHeading}</h3>
-                <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">
+                <h3 className="text-sm font-semibold text-(--g-ink) mb-1">{t.thirdPartyVercelHeading}</h3>
+                <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">
                   {t.thirdPartyVercelBody}{' '}
                   <a
                     href="https://vercel.com/legal/privacy-policy"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="underline underline-offset-2 hover:text-[var(--g-brand)] transition-colors"
+                    className="underline underline-offset-2 hover:text-(--g-brand) transition-colors"
                   >
                     vercel.com/legal/privacy-policy
                   </a>
                 </p>
               </div>
               <div>
-                <h3 className="text-sm font-semibold text-[var(--g-ink)] mb-1">{t.thirdPartySupabaseHeading}</h3>
-                <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.thirdPartySupabaseBody}</p>
+                <h3 className="text-sm font-semibold text-(--g-ink) mb-1">{t.thirdPartySupabaseHeading}</h3>
+                <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.thirdPartySupabaseBody}</p>
               </div>
               <div>
-                <h3 className="text-sm font-semibold text-[var(--g-ink)] mb-1">{t.thirdPartyWikimediaHeading}</h3>
-                <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.thirdPartyWikimediaBody}</p>
+                <h3 className="text-sm font-semibold text-(--g-ink) mb-1">{t.thirdPartyWikimediaHeading}</h3>
+                <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.thirdPartyWikimediaBody}</p>
               </div>
             </div>
           </section>
 
           {/* User Rights */}
           <section className="space-y-3">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.rightsHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">
               {t.rightsAdsOptOut}
               <a
                 href="https://adssettings.google.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline underline-offset-2 hover:text-[var(--g-brand)] transition-colors font-medium"
+                className="underline underline-offset-2 hover:text-(--g-brand) transition-colors font-medium"
               >
                 {t.rightsAdsOptOutLink}
               </a>
             </p>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.rightsCookiesBody}</p>
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.rightsCookiesBody}</p>
           </section>
 
           {/* Data Retention */}
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.retentionHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.retentionBody}</p>
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.retentionBody}</p>
           </section>
 
           {/* Contact */}
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.contactHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.contactBody}</p>
-            <p className="text-xs text-[var(--ink-faint)] pt-2">
-              <Link href="/contact" className="underline underline-offset-2 hover:text-[var(--g-brand)] transition-colors">
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.contactBody}</p>
+            <p className="text-xs text-(--ink-faint) pt-2">
+              <Link href="/contact" className="underline underline-offset-2 hover:text-(--g-brand) transition-colors">
                 {isJa ? 'お問い合わせページへ' : isKo ? '문의 페이지로' : 'Go to Contact page'}
               </Link>
             </p>

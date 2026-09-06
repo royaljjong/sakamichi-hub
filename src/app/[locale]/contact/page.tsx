@@ -82,36 +82,36 @@ export default async function ContactPage({ params }: ContactPageProps) {
 
       <main id="main-content" className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 py-8 flex-1 w-full">
         <div className="text-center mb-12">
-          <span className="text-xs uppercase tracking-widest text-[var(--g-brand)] font-semibold mb-2 block font-[family-name:var(--font-zen-kaku)]">
+          <span className="text-xs uppercase tracking-widest text-(--g-brand) font-semibold mb-2 block font-(family-name:--font-zen-kaku)">
             {t.kicker}
           </span>
-          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] mb-3">
+          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-(--g-ink) font-(family-name:--font-klee-one) mb-3">
             {t.pageTitle}
           </h1>
-          <p className="text-sm text-[var(--ink-soft)]">{t.intro}</p>
+          <p className="text-sm text-(--ink-soft)">{t.intro}</p>
         </div>
 
-        <div className="space-y-8 bg-[var(--white-veil)] p-6 sm:p-10 rounded-[32px] border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] shadow-[var(--shadow-soft)] backdrop-blur-md">
+        <div className="space-y-8 bg-(--white-veil) p-6 sm:p-10 rounded-[32px] border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] shadow-(--shadow-soft) backdrop-blur-md">
 
           <PrivateInquiryBoard locale={locale} />
 
           {/* Purposes */}
           <section className="space-y-3">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.purposesHeading}
             </h2>
             <ul className="space-y-2">
-              <li className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed flex gap-2">
-                <span className="text-[var(--g-brand)] shrink-0">·</span>
+              <li className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed flex gap-2">
+                <span className="text-(--g-brand) shrink-0">·</span>
                 <span>{t.purposeTakedown}</span>
               </li>
-              <li className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed flex gap-2">
-                <span className="text-[var(--g-brand)] shrink-0">·</span>
+              <li className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed flex gap-2">
+                <span className="text-(--g-brand) shrink-0">·</span>
                 <span>{t.purposeCorrection}</span>
               </li>
-              <li className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed flex gap-2">
-                <span className="text-[var(--g-brand)] shrink-0">·</span>
+              <li className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed flex gap-2">
+                <span className="text-(--g-brand) shrink-0">·</span>
                 <span>{t.purposeGeneral}</span>
               </li>
             </ul>
@@ -119,37 +119,37 @@ export default async function ContactPage({ params }: ContactPageProps) {
 
           {/* Response Time */}
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.responseHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.responseBody}</p>
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.responseBody}</p>
           </section>
 
           {/* Takedown Note */}
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.takedownNoteHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.takedownNoteBody}</p>
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.takedownNoteBody}</p>
           </section>
 
           {/* Related Links */}
           <section className="space-y-2">
-            <h2 className="text-sm font-semibold text-[var(--ink-soft)] font-[family-name:var(--font-zen-kaku)]">
+            <h2 className="text-sm font-semibold text-(--ink-soft) font-(family-name:--font-zen-kaku)">
               {t.linksHeading}
             </h2>
             <div className="flex gap-4 text-xs">
               <Link
                 href="/privacy-policy"
-                className="underline underline-offset-2 hover:text-[var(--g-brand)] transition-colors text-[var(--ink-soft)]"
+                className="underline underline-offset-2 hover:text-(--g-brand) transition-colors text-(--ink-soft)"
               >
                 {t.linkPrivacy}
               </Link>
               <Link
                 href="/terms"
-                className="underline underline-offset-2 hover:text-[var(--g-brand)] transition-colors text-[var(--ink-soft)]"
+                className="underline underline-offset-2 hover:text-(--g-brand) transition-colors text-(--ink-soft)"
               >
                 {t.linkTerms}
               </Link>

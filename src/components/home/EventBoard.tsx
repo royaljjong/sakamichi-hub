@@ -35,7 +35,7 @@ export function EventBoard({ portal, groups, locale, groupId }: EventBoardProps)
     <section className="editorial-panel overflow-hidden p-5 sm:p-7">
       <div className="flex items-end justify-between gap-4 border-b border-black/10 pb-5">
         <div><p className="section-kicker">04 · LIVE & THEATER</p><h2 className="section-title mt-2">{t('title')}</h2></div>
-        <span className="text-xs text-[var(--ink-soft)]">{events.length.toString().padStart(2, '0')}</span>
+        <span className="text-xs text-(--ink-soft)">{events.length.toString().padStart(2, '0')}</span>
       </div>
       <div className="divide-y divide-black/10">
         {events.length ? events.map((event, i) => {
@@ -46,22 +46,22 @@ export function EventBoard({ portal, groups, locale, groupId }: EventBoardProps)
             <div key={event.id} className="stagger-item" style={{ '--i': Math.min(i, 8) } as React.CSSProperties}>
             <article className="grid gap-4 py-5 md:grid-cols-[8rem_1fr_auto] md:items-center">
               <div>
-                <p className="text-sm font-semibold text-[var(--g-brand)]">{date}</p>
-                <p className="mt-1 text-[10px] font-bold uppercase tracking-[.14em] text-[var(--ink-soft)]">{event.kind === 'theater' ? t('theater') : t('concert')}</p>
+                <p className="text-sm font-semibold text-(--g-brand)">{date}</p>
+                <p className="mt-1 text-[10px] font-bold uppercase tracking-[.14em] text-(--ink-soft)">{event.kind === 'theater' ? t('theater') : t('concert')}</p>
               </div>
               <div className="min-w-0">
-                <p className="text-[11px] text-[var(--ink-soft)]">{group?.name[lang]}</p>
+                <p className="text-[11px] text-(--ink-soft)">{group?.name[lang]}</p>
                 <h3 className="mt-1 text-base font-semibold tracking-tight">{event.title[lang]}</h3>
-                <p className="mt-2 text-xs text-[var(--ink-soft)]">{venue?.name[lang]} · {event.price?.[lang] ?? t('price')}</p>
+                <p className="mt-2 text-xs text-(--ink-soft)">{venue?.name[lang]} · {event.price?.[lang] ?? t('price')}</p>
               </div>
               <div className="flex gap-2 text-xs font-semibold">
-                {venue && <a href={venue.googleMapsUrl} target="_blank" rel="noopener noreferrer" className="border border-black/15 px-3 py-2 hover:border-[var(--g-brand)]">{t('map')} ↗</a>}
-                <a href={event.ticketUrl ?? event.officialUrl} target="_blank" rel="noopener noreferrer" className="bg-[var(--g-ink)] px-3 py-2 text-white hover:bg-[var(--g-brand)]">{t('ticket')} ↗</a>
+                {venue && <a href={venue.googleMapsUrl} target="_blank" rel="noopener noreferrer" className="border border-black/15 px-3 py-2 hover:border-(--g-brand)">{t('map')} ↗</a>}
+                <a href={event.ticketUrl ?? event.officialUrl} target="_blank" rel="noopener noreferrer" className="bg-(--g-ink) px-3 py-2 text-white hover:bg-(--g-brand)">{t('ticket')} ↗</a>
               </div>
             </article>
             </div>
           );
-        }) : <p className="py-8 text-sm text-[var(--ink-soft)]">{t('empty')}</p>}
+        }) : <p className="py-8 text-sm text-(--ink-soft)">{t('empty')}</p>}
       </div>
     </section>
   );

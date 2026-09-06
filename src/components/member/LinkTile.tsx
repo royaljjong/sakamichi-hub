@@ -23,8 +23,8 @@ export function LinkTile({ link, locale }: LinkTileProps) {
   const clickable = isClickable(link);
 
   let icon = <GlobeIcon className="w-5 h-5" />;
-  if (link.type === 'official_blog') icon = <BlogIcon className="w-5 h-5 text-[var(--g-brand)]" />;
-  else if (link.type === 'official_profile') icon = <ProfileIcon className="w-5 h-5 text-[var(--g-brand)]" />;
+  if (link.type === 'official_blog') icon = <BlogIcon className="w-5 h-5 text-(--g-brand)" />;
+  else if (link.type === 'official_profile') icon = <ProfileIcon className="w-5 h-5 text-(--g-brand)" />;
   else if (link.type === 'x') icon = <XIcon className="w-5 h-5" />;
   else if (link.type === 'instagram') icon = <InstagramIcon className="w-5 h-5 text-pink-600" />;
   else if (link.type === 'tiktok') icon = <TikTokIcon className="w-5 h-5" />;
@@ -46,8 +46,8 @@ export function LinkTile({ link, locale }: LinkTileProps) {
 
   const containerClasses = `group relative flex items-center justify-between p-4 min-h-[56px] rounded-2xl border transition-all duration-300 ${
     clickable
-      ? 'bg-[var(--white-veil)] hover:bg-white/95 text-[var(--ink)] border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] hover:border-[var(--g-brand)] shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-lift)] hover:-translate-y-0.5'
-      : 'bg-[var(--paper-deep)] text-[var(--ink-faint)] border-[color-mix(in_oklab,var(--ink)_10%,transparent)] cursor-not-allowed opacity-70'
+      ? 'bg-(--white-veil) hover:bg-white/95 text-(--ink) border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] hover:border-(--g-brand) shadow-(--shadow-soft) hover:shadow-(--shadow-lift) hover:-translate-y-0.5'
+      : 'bg-(--paper-deep) text-(--ink-faint) border-[color-mix(in_oklab,var(--ink)_10%,transparent)] cursor-not-allowed opacity-70'
   }`;
 
   if (!clickable) {
@@ -59,12 +59,12 @@ export function LinkTile({ link, locale }: LinkTileProps) {
             <p className="text-sm font-medium leading-tight truncate">
               {labelText}
             </p>
-            <p className="text-xs text-[var(--ink-faint)] truncate mt-0.5">
+            <p className="text-xs text-(--ink-faint) truncate mt-0.5">
               {domain}
             </p>
           </div>
         </div>
-        <span className="shrink-0 text-[10px] px-2 py-0.5 rounded bg-stone-200 text-stone-600">
+        <span className="shrink-0 text-[10px] px-2 py-0.5 rounded-sm bg-stone-200 text-stone-600">
           {tLink('archived')}
         </span>
       </div>
@@ -79,19 +79,19 @@ export function LinkTile({ link, locale }: LinkTileProps) {
       className={containerClasses}
     >
       <div className="flex items-center gap-3.5 min-w-0">
-        <div className="p-2 rounded-xl bg-white/70 shadow-xs group-hover:scale-105 transition-transform duration-200">
+        <div className="p-2 rounded-xl bg-white/70 shadow-2xs group-hover:scale-105 transition-transform duration-200">
           {icon}
         </div>
         <div className="min-w-0">
-          <p className="text-sm font-semibold text-[var(--g-ink)] leading-tight truncate">
+          <p className="text-sm font-semibold text-(--g-ink) leading-tight truncate">
             {labelText}
           </p>
-          <p className="text-xs text-[var(--ink-soft)] truncate mt-0.5">
+          <p className="text-xs text-(--ink-soft) truncate mt-0.5">
             {domain}
           </p>
         </div>
       </div>
-      <ExternalLinkIcon className="w-4 h-4 text-[var(--ink-faint)] group-hover:text-[var(--g-brand)] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-200 shrink-0 ml-2" />
+      <ExternalLinkIcon className="w-4 h-4 text-(--ink-faint) group-hover:text-(--g-brand) group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-200 shrink-0 ml-2" />
     </a>
   );
 }

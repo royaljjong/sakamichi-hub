@@ -129,52 +129,52 @@ export default async function TermsPage({ params }: TermsPageProps) {
 
       <main id="main-content" className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 py-8 flex-1 w-full">
         <div className="text-center mb-12">
-          <span className="text-xs uppercase tracking-widest text-[var(--g-brand)] font-semibold mb-2 block font-[family-name:var(--font-zen-kaku)]">
+          <span className="text-xs uppercase tracking-widest text-(--g-brand) font-semibold mb-2 block font-(family-name:--font-zen-kaku)">
             {t.kicker}
           </span>
-          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] mb-3">
+          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-(--g-ink) font-(family-name:--font-klee-one) mb-3">
             {t.pageTitle}
           </h1>
-          <p className="text-xs text-[var(--ink-faint)]">{t.lastUpdated}</p>
+          <p className="text-xs text-(--ink-faint)">{t.lastUpdated}</p>
         </div>
 
-        <div className="space-y-8 bg-[var(--white-veil)] p-6 sm:p-10 rounded-[32px] border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] shadow-[var(--shadow-soft)] backdrop-blur-md">
+        <div className="space-y-8 bg-(--white-veil) p-6 sm:p-10 rounded-[32px] border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] shadow-(--shadow-soft) backdrop-blur-md">
 
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.acceptanceHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.acceptanceBody}</p>
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.acceptanceBody}</p>
           </section>
 
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.purposeHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.purposeBody}</p>
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.purposeBody}</p>
           </section>
 
           <section className="space-y-3">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.ownershipHeading}
             </h2>
             <ul className="space-y-2 pl-4">
-              <li className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed flex gap-2">
-                <span className="text-[var(--g-brand)] shrink-0">·</span>
+              <li className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed flex gap-2">
+                <span className="text-(--g-brand) shrink-0">·</span>
                 <span>{t.ownershipDataBody}</span>
               </li>
-              <li className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed flex gap-2">
-                <span className="text-[var(--g-brand)] shrink-0">·</span>
+              <li className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed flex gap-2">
+                <span className="text-(--g-brand) shrink-0">·</span>
                 <span>{t.ownershipPhotosBody}</span>
               </li>
-              <li className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed flex gap-2">
-                <span className="text-[var(--g-brand)] shrink-0">·</span>
+              <li className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed flex gap-2">
+                <span className="text-(--g-brand) shrink-0">·</span>
                 <span>
                   {t.ownershipWikipediaBody}
-                  <Link href="/credits" className="underline underline-offset-2 hover:text-[var(--g-brand)] transition-colors font-medium">
+                  <Link href="/credits" className="underline underline-offset-2 hover:text-(--g-brand) transition-colors font-medium">
                     {t.ownershipWikipediaLinkText}
                   </Link>
                   {t.ownershipWikipediaSuffix}
@@ -184,51 +184,51 @@ export default async function TermsPage({ params }: TermsPageProps) {
           </section>
 
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.conductHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.conductBody}</p>
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.conductBody}</p>
           </section>
 
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.disclaimerHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.disclaimerBody}</p>
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.disclaimerBody}</p>
           </section>
 
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.liabilityHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.liabilityBody}</p>
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.liabilityBody}</p>
           </section>
 
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.affiliationHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.affiliationBody}</p>
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.affiliationBody}</p>
           </section>
 
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.governingLawHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.governingLawBody}</p>
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.governingLawBody}</p>
           </section>
 
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[var(--g-brand)]" />
+            <h2 className="text-lg font-bold text-(--g-ink) font-(family-name:--font-klee-one) flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-(--g-brand)" />
               {t.changesHeading}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--ink-soft)] leading-relaxed">{t.changesBody}</p>
+            <p className="text-xs sm:text-sm text-(--ink-soft) leading-relaxed">{t.changesBody}</p>
           </section>
 
         </div>

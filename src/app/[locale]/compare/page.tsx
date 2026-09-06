@@ -136,11 +136,11 @@ function GroupCard({ group, members, updates, locale, t }: GroupCardProps) {
           {group.name.ja.slice(0, 1)}
         </span>
         <div className="min-w-0">
-          <p className="text-base font-bold text-[var(--g-ink)] truncate leading-tight font-[family-name:var(--font-klee-one)]">
+          <p className="text-base font-bold text-(--g-ink) truncate leading-tight font-(family-name:--font-klee-one)">
             {group.name.ja}
           </p>
           {lang !== 'ja' && (
-            <p className="text-xs text-[var(--ink-soft)] truncate">
+            <p className="text-xs text-(--ink-soft) truncate">
               {group.name[lang]}
             </p>
           )}
@@ -148,7 +148,7 @@ function GroupCard({ group, members, updates, locale, t }: GroupCardProps) {
       </div>
 
       {/* Stats */}
-      <div className="divide-y divide-black/[0.06]">
+      <div className="divide-y divide-black/6">
         <StatRow label={t('statDebut')} value={group.debutedOn} />
         <StatRow
           label={t('statActiveSince')}
@@ -190,9 +190,9 @@ function GroupCard({ group, members, updates, locale, t }: GroupCardProps) {
                   href={post.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex flex-col gap-0.5 hover:text-[var(--g-brand)] transition-colors"
+                  className="flex flex-col gap-0.5 hover:text-(--g-brand) transition-colors"
                 >
-                  <span className="text-xs text-[var(--ink-soft)]">
+                  <span className="text-xs text-(--ink-soft)">
                     {post.publishedAt.slice(0, 10)} · {post.memberName[lang]}
                   </span>
                   <span className="text-sm font-medium line-clamp-2">{post.title}</span>
@@ -216,19 +216,19 @@ interface StatRowProps {
 function StatRow({ label, value, href, accent }: StatRowProps) {
   return (
     <div className="flex items-center justify-between gap-4 py-2">
-      <span className="text-xs text-[var(--ink-soft)] shrink-0">{label}</span>
+      <span className="text-xs text-(--ink-soft) shrink-0">{label}</span>
       {href ? (
         <a
           href={href}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-sm font-medium text-[var(--g-brand)] hover:underline truncate"
+          className="text-sm font-medium text-(--g-brand) hover:underline truncate"
         >
           {value}
         </a>
       ) : (
         <span
-          className={`text-sm font-semibold truncate ${accent ? 'text-[var(--g-brand)]' : 'text-[var(--g-ink)]'}`}
+          className={`text-sm font-semibold truncate ${accent ? 'text-(--g-brand)' : 'text-(--g-ink)'}`}
         >
           {value}
         </span>
@@ -284,13 +284,13 @@ export default async function ComparePage({ params, searchParams }: ComparePageP
       >
         {/* Page title */}
         <div className="text-center mb-8">
-          <span className="text-xs uppercase tracking-widest text-[var(--g-brand)] font-semibold mb-2 block font-[family-name:var(--font-zen-kaku)]">
+          <span className="text-xs uppercase tracking-widest text-(--g-brand) font-semibold mb-2 block font-(family-name:--font-zen-kaku)">
             Group Comparison
           </span>
-          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[var(--g-ink)] font-[family-name:var(--font-klee-one)] mb-3">
+          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-(--g-ink) font-(family-name:--font-klee-one) mb-3">
             {t('pageTitle')}
           </h1>
-          <p className="text-xs sm:text-sm text-[var(--ink-soft)] max-w-md mx-auto leading-relaxed">
+          <p className="text-xs sm:text-sm text-(--ink-soft) max-w-md mx-auto leading-relaxed">
             {t('pageSubtitle')}
           </p>
         </div>
@@ -319,7 +319,7 @@ export default async function ComparePage({ params, searchParams }: ComparePageP
             ))}
           </div>
         ) : (
-          <p className="text-center text-[var(--ink-soft)] py-16">{t('selectGroup')}</p>
+          <p className="text-center text-(--ink-soft) py-16">{t('selectGroup')}</p>
         )}
       </main>
 

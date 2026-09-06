@@ -122,7 +122,7 @@ function SearchBoxInner({ locale }: SearchBoxProps) {
     <div className="w-full max-w-2xl mx-auto">
       {/* Search Input Bar */}
       <div className="relative flex items-center">
-        <div className="absolute left-4 pointer-events-none text-[var(--ink-soft)]">
+        <div className="absolute left-4 pointer-events-none text-(--ink-soft)">
           <SearchIcon className="w-5 h-5" />
         </div>
         <input
@@ -130,14 +130,14 @@ function SearchBoxInner({ locale }: SearchBoxProps) {
           value={query}
           onChange={handleQueryChange}
           placeholder={hasFilters && !hasQuery ? t('browseByFilterHint') : t('placeholder')}
-          className="w-full pl-12 pr-4 py-3.5 text-base sm:text-lg rounded-2xl bg-[var(--white-veil)] border border-[color-mix(in_oklab,var(--g-ink)_15%,transparent)] focus:border-[var(--g-brand)] shadow-[var(--shadow-soft)] focus:shadow-[var(--shadow-lift)] backdrop-blur-md outline-none transition duration-200 text-[var(--ink)] placeholder:text-[var(--ink-faint)]"
+          className="w-full pl-12 pr-4 py-3.5 text-base sm:text-lg rounded-2xl bg-(--white-veil) border border-[color-mix(in_oklab,var(--g-ink)_15%,transparent)] focus:border-(--g-brand) shadow-(--shadow-soft) focus:shadow-(--shadow-lift) backdrop-blur-md outline-hidden transition duration-200 text-(--ink) placeholder:text-(--ink-faint)"
           autoFocus
         />
         {query && (
           <button
             type="button"
             onClick={handleQueryClear}
-            className="absolute right-4 text-xs font-semibold text-[var(--ink-soft)] hover:text-[var(--ink)] px-2 py-1 rounded-md"
+            className="absolute right-4 text-xs font-semibold text-(--ink-soft) hover:text-(--ink) px-2 py-1 rounded-md"
           >
             ✕
           </button>
@@ -149,12 +149,12 @@ function SearchBoxInner({ locale }: SearchBoxProps) {
 
       {/* Result count summary */}
       {showStats && (
-        <div className="mt-3 text-xs text-[var(--ink-soft)] px-2 font-[family-name:var(--font-zen-kaku)]">
+        <div className="mt-3 text-xs text-(--ink-soft) px-2 font-(family-name:--font-zen-kaku)">
           {results.length > 0 ? (
             <span>
               {t('resultCount', { count: results.length })}
               {groupBreakdown && (
-                <span className="ml-2 text-[var(--ink-faint)]">({groupBreakdown})</span>
+                <span className="ml-2 text-(--ink-faint)">({groupBreakdown})</span>
               )}
             </span>
           ) : (

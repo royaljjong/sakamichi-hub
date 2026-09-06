@@ -34,19 +34,19 @@ export function GroupInsights({ group, members, updates, locale, portal }: Group
           {groupUpdates.length ? groupUpdates.map((item) => {
             const isGroupAccount = !item.memberId;
             return (
-              <a key={item.id} href={item.url} target="_blank" rel="noopener noreferrer" className="grid gap-2 py-4 hover:text-[var(--g-brand)] sm:grid-cols-[7rem_1fr_auto]">
-                <time className="text-[11px] text-[var(--ink-soft)]">{item.publishedAt.slice(0, 10)}</time>
+              <a key={item.id} href={item.url} target="_blank" rel="noopener noreferrer" className="grid gap-2 py-4 hover:text-(--g-brand) sm:grid-cols-[7rem_1fr_auto]">
+                <time className="text-[11px] text-(--ink-soft)">{item.publishedAt.slice(0, 10)}</time>
                 <span className="truncate text-sm font-medium">{item.title}</span>
                 {isGroupAccount ? (
-                  <span className="inline-flex items-center gap-1 rounded-full bg-[color-mix(in_oklab,var(--g-brand)_12%,white)] px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-[var(--g-brand)] w-fit">
+                  <span className="inline-flex items-center gap-1 rounded-full bg-[color-mix(in_oklab,var(--g-brand)_12%,white)] px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-(--g-brand) w-fit">
                     Official ↗
                   </span>
                 ) : (
-                  <span className="text-[11px] text-[var(--ink-soft)]">{item.memberName[lang]} ↗</span>
+                  <span className="text-[11px] text-(--ink-soft)">{item.memberName[lang]} ↗</span>
                 )}
               </a>
             );
-          }) : <p className="py-6 text-sm text-[var(--ink-soft)]">{COPY[lang].empty}</p>}
+          }) : <p className="py-6 text-sm text-(--ink-soft)">{COPY[lang].empty}</p>}
         </div>
       </section>
       <BirthdayPanel members={members} groups={[group]} locale={locale} groupId={group.id} />

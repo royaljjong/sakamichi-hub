@@ -25,15 +25,15 @@ export function GenerationChip({
       href={`/g/${groupId}/gen/${generation.id}`}
       className={`inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold border transition-all duration-200 ${
         active
-          ? 'bg-[var(--g-brand)] text-white border-[var(--g-brand)] shadow-xs'
-          : 'bg-[var(--white-veil)] text-[var(--ink)] border-[color-mix(in_oklab,var(--g-ink)_15%,transparent)] hover:bg-white'
+          ? 'bg-(--g-brand) text-white border-(--g-brand) shadow-2xs'
+          : 'bg-(--white-veil) text-(--ink) border-[color-mix(in_oklab,var(--g-ink)_15%,transparent)] hover:bg-white'
       }`}
     >
       <span>{label}</span>
       {count !== undefined && (
         <span
           className={`text-[10px] px-1.5 py-0.2 rounded-full ${
-            active ? 'bg-white/30 text-white' : 'bg-[var(--paper-deep)] text-[var(--ink-soft)]'
+            active ? 'bg-white/30 text-white' : 'bg-(--paper-deep) text-(--ink-soft)'
           }`}
         >
           {count}

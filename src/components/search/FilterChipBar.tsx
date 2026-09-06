@@ -43,8 +43,8 @@ function Chip({ active, onClick, children }: ChipProps) {
       onClick={onClick}
       className={`px-3 py-1.5 rounded-full text-xs font-semibold transition ${
         active
-          ? 'bg-[var(--g-brand)] text-white shadow-xs'
-          : 'bg-[var(--white-veil)] text-[var(--ink-soft)] border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] hover:border-[var(--g-brand)]'
+          ? 'bg-(--g-brand) text-white shadow-2xs'
+          : 'bg-(--white-veil) text-(--ink-soft) border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] hover:border-(--g-brand)'
       }`}
     >
       {children}
@@ -95,10 +95,10 @@ export function FilterChipBar({ filters, onChange }: FilterChipBarProps) {
   }
 
   return (
-    <div className="flex flex-col gap-2 mt-4 mb-2 font-[family-name:var(--font-zen-kaku)]">
+    <div className="flex flex-col gap-2 mt-4 mb-2 font-(family-name:--font-zen-kaku)">
       {/* Franchise row */}
       <div className="flex items-center gap-2 flex-wrap">
-        <span className="text-[10px] uppercase tracking-wider text-[var(--ink-faint)] w-12 shrink-0">
+        <span className="text-[10px] uppercase tracking-wider text-(--ink-faint) w-12 shrink-0">
           {t('filterFranchise')}
         </span>
         <div className="flex gap-1.5 flex-wrap">
@@ -116,7 +116,7 @@ export function FilterChipBar({ filters, onChange }: FilterChipBarProps) {
 
       {/* Status row */}
       <div className="flex items-center gap-2 flex-wrap">
-        <span className="text-[10px] uppercase tracking-wider text-[var(--ink-faint)] w-12 shrink-0">
+        <span className="text-[10px] uppercase tracking-wider text-(--ink-faint) w-12 shrink-0">
           {t('filterStatus')}
         </span>
         <div className="flex gap-1.5 flex-wrap">
@@ -135,7 +135,7 @@ export function FilterChipBar({ filters, onChange }: FilterChipBarProps) {
       {/* Group row — only shown when franchise is selected */}
       {filters.franchise != null && (
         <div className="flex items-center gap-2 flex-wrap">
-          <span className="text-[10px] uppercase tracking-wider text-[var(--ink-faint)] w-12 shrink-0">
+          <span className="text-[10px] uppercase tracking-wider text-(--ink-faint) w-12 shrink-0">
             {t('filterGroup')}
           </span>
           <div className="flex gap-1.5 flex-wrap">

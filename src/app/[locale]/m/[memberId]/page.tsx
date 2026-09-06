@@ -179,14 +179,14 @@ export default async function MemberPage({ params }: MemberPageProps) {
 
       <main id="main-content" className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 py-8 flex-1 w-full">
         {/* Breadcrumb */}
-        <div className="flex items-center gap-2 text-xs text-[var(--ink-soft)] mb-8 font-medium">
-          <Link href="/" className="hover:text-[var(--ink)] transition">
+        <div className="flex items-center gap-2 text-xs text-(--ink-soft) mb-8 font-medium">
+          <Link href="/" className="hover:text-(--ink) transition">
             Home
           </Link>
           <span>/</span>
           {group && (
             <>
-              <Link href={`/g/${group.id}`} className="hover:text-[var(--ink)] transition">
+              <Link href={`/g/${group.id}`} className="hover:text-(--ink) transition">
                 {groupName}
               </Link>
               <span>/</span>
@@ -196,20 +196,20 @@ export default async function MemberPage({ params }: MemberPageProps) {
             <>
               <Link
                 href={`/g/${group.id}/gen/${gen.id}`}
-                className="hover:text-[var(--ink)] transition"
+                className="hover:text-(--ink) transition"
               >
                 {genLabel}
               </Link>
               <span>/</span>
             </>
           )}
-          <span className="text-[var(--ink)] font-semibold">
+          <span className="text-(--ink) font-semibold">
             {member.name.ja.kanji}
           </span>
         </div>
 
         {/* Member Profile Header */}
-        <section className="p-6 sm:p-10 rounded-[32px] bg-[var(--white-veil)] border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] shadow-[var(--shadow-lift)] backdrop-blur-md mb-10">
+        <section className="p-6 sm:p-10 rounded-[32px] bg-(--white-veil) border border-[color-mix(in_oklab,var(--g-ink)_12%,transparent)] shadow-(--shadow-lift) backdrop-blur-md mb-10">
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 text-center sm:text-left">
             <MemberAvatar
               glyph={member.avatar.glyph}
@@ -224,7 +224,7 @@ export default async function MemberPage({ params }: MemberPageProps) {
 
             <div className="flex-1 min-w-0">
               <div className="flex flex-wrap items-center justify-center sm:justify-start gap-3 mb-2">
-                <h1 className="text-2xl sm:text-4xl font-bold text-[var(--g-ink)] tracking-tight font-[family-name:var(--font-klee-one)]">
+                <h1 className="text-2xl sm:text-4xl font-bold text-(--g-ink) tracking-tight font-(family-name:--font-klee-one)">
                   {locale === 'ja' ? (
                     <Ruby
                       kanji={member.name.ja.kanji}
@@ -241,7 +241,7 @@ export default async function MemberPage({ params }: MemberPageProps) {
               </div>
 
               {/* Multilingual subnames */}
-              <div className="flex flex-wrap items-center justify-center sm:justify-start gap-x-3 text-xs sm:text-sm text-[var(--ink-soft)] mt-1 font-[family-name:var(--font-zen-kaku)]">
+              <div className="flex flex-wrap items-center justify-center sm:justify-start gap-x-3 text-xs sm:text-sm text-(--ink-soft) mt-1 font-(family-name:--font-zen-kaku)">
                 {locale !== 'ja' && <span>漢字: {member.name.ja.kanji}</span>}
                 {locale !== 'ja' && <span>かな: {member.name.ja.kana}</span>}
                 {locale !== 'ko' && <span>한글: {member.name.ko.hangul}</span>}
@@ -250,7 +250,7 @@ export default async function MemberPage({ params }: MemberPageProps) {
 
               {visibleAliases.length > 0 && (
                 <div className="mt-3 flex flex-wrap items-center justify-center gap-2 sm:justify-start">
-                  <span className="text-xs font-semibold text-[var(--ink-soft)]">{t('aliasesLabel')}</span>
+                  <span className="text-xs font-semibold text-(--ink-soft)">{t('aliasesLabel')}</span>
                   {visibleAliases.map((alias) => (
                     <span key={alias} className="identity-chip">{alias}</span>
                   ))}
@@ -258,7 +258,7 @@ export default async function MemberPage({ params }: MemberPageProps) {
               )}
 
               {/* Metadata */}
-              <div className="mt-4 pt-4 border-t border-[color-mix(in_oklab,var(--g-ink)_8%,transparent)] flex flex-wrap items-center justify-center sm:justify-start gap-x-6 gap-y-1 text-xs text-[var(--ink-soft)] font-[family-name:var(--font-zen-kaku)]">
+              <div className="mt-4 pt-4 border-t border-[color-mix(in_oklab,var(--g-ink)_8%,transparent)] flex flex-wrap items-center justify-center sm:justify-start gap-x-6 gap-y-1 text-xs text-(--ink-soft) font-(family-name:--font-zen-kaku)">
                 <span>{t('affiliationLabel')}: <strong>{groupName}</strong></span>
                 <span>{t('generationLabel')}: <strong>{genLabel}</strong></span>
                 {member.birthDate && <span>{t('birthDateLabel')}: <strong>{member.birthDate}</strong></span>}
@@ -271,14 +271,14 @@ export default async function MemberPage({ params }: MemberPageProps) {
             </div>
           </div>
 
-          <div className="mt-6 border-t border-[color-mix(in_oklab,var(--g-ink)_8%,transparent)] pt-4 text-xs leading-6 text-[var(--ink-soft)]">
-            <span className="font-semibold text-[var(--g-ink)]">{t('sourceLabel')}: </span>
+          <div className="mt-6 border-t border-[color-mix(in_oklab,var(--g-ink)_8%,transparent)] pt-4 text-xs leading-6 text-(--ink-soft)">
+            <span className="font-semibold text-(--g-ink)">{t('sourceLabel')}: </span>
             {member.provenance.sourceUrl ? (
               <a
                 href={member.provenance.sourceUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline decoration-[color-mix(in_oklab,var(--g-brand)_45%,transparent)] underline-offset-4 hover:text-[var(--g-brand)]"
+                className="underline decoration-[color-mix(in_oklab,var(--g-brand)_45%,transparent)] underline-offset-4 hover:text-(--g-brand)"
               >
                 {member.provenance.source === 'wikipedia_ja' ? 'Wikipedia (jawiki)' : t('officialSource')}
               </a>
@@ -295,10 +295,10 @@ export default async function MemberPage({ params }: MemberPageProps) {
         {/* Links Grid - The Primary Destination */}
         <section className="mb-14">
           <div className="flex items-center justify-between pb-3 mb-6 border-b border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)]">
-            <h2 className="text-xl sm:text-2xl font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)]">
+            <h2 className="text-xl sm:text-2xl font-bold text-(--g-ink) font-(family-name:--font-klee-one)">
               {t('linksHeading')}
             </h2>
-            <span className="text-xs text-[var(--ink-soft)] font-[family-name:var(--font-zen-kaku)]">
+            <span className="text-xs text-(--ink-soft) font-(family-name:--font-zen-kaku)">
               {t('linksCount', { count: renderableLinks(member.links).length })}
             </span>
           </div>
@@ -310,7 +310,7 @@ export default async function MemberPage({ params }: MemberPageProps) {
         {peers.length > 0 && (
           <section className="mb-12">
             <div className="pb-3 mb-6 border-b border-[color-mix(in_oklab,var(--g-ink)_10%,transparent)]">
-              <h2 className="text-lg sm:text-xl font-bold text-[var(--g-ink)] font-[family-name:var(--font-klee-one)]">
+              <h2 className="text-lg sm:text-xl font-bold text-(--g-ink) font-(family-name:--font-klee-one)">
                 {t('sameGeneration')} ({genLabel})
               </h2>
             </div>

@@ -19,7 +19,7 @@ export function GlyphAvatar({
 
   return (
     <div
-      className={`relative inline-flex items-center justify-center rounded-full shrink-0 select-none transition-transform duration-300 font-[family-name:var(--font-klee-one)] font-semibold ${className}`}
+      className={`relative inline-flex items-center justify-center rounded-full shrink-0 select-none transition-transform duration-300 font-(family-name:--font-klee-one) font-semibold ${className}`}
       style={{
         width: `${size}px`,
         height: `${size}px`,
@@ -33,7 +33,7 @@ export function GlyphAvatar({
       }}
       aria-hidden="true"
     >
-      <span className="leading-none transform translate-y-[-1px]">
+      <span className="leading-none transform -translate-y-px">
         {glyph}
       </span>
     </div>
