@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-09-03",
-  "mode": "preview",
-  "totalMembers": 454,
+  "checkedAt": "2026-09-06",
+  "mode": "write",
+  "totalMembers": 451,
   "groups": {
     "akb48": {
       "source": "https://www.akb48.co.jp/about/members/",
@@ -19,7 +19,7 @@
           "name": "村山彩希"
         }
       ],
-      "changed": 0
+      "changed": 36
     },
     "ske48": {
       "source": "https://ske48.co.jp/feature/profile",
@@ -33,7 +33,7 @@
           "name": "池田楓"
         }
       ],
-      "changed": 0
+      "changed": 55
     },
     "hkt48": {
       "source": "https://www.hkt48.jp/profile/",
@@ -55,7 +55,7 @@
           "name": "最上奈那華"
         }
       ],
-      "changed": 0
+      "changed": 28
     },
     "ngt48": {
       "source": "https://ngt48.jp/profile",
@@ -69,7 +69,7 @@
           "name": "谷口陽香"
         }
       ],
-      "changed": 0
+      "changed": 33
     }
   },
   "coverage": [
@@ -194,21 +194,6 @@
       "liveSourceAudit": "not-supported-or-blocked"
     },
     {
-      "groupId": "klp48",
-      "total": 3,
-      "active": 3,
-      "activeMissing": {
-        "birthDate": 0,
-        "imageUrl": 0,
-        "officialProfile": 0,
-        "instagram": 0,
-        "x": 0,
-        "youtube": 3,
-        "tiktok": 3
-      },
-      "liveSourceAudit": "not-supported-or-blocked"
-    },
-    {
       "groupId": "mnl48",
       "total": 1,
       "active": 1,
@@ -314,5 +299,1070 @@
       "liveSourceAudit": "not-supported-or-blocked"
     }
   ],
-  "changes": []
+  "changes": [
+    {
+      "memberId": "akb48-oguri-yui",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=180"
+    },
+    {
+      "memberId": "akb48-kuranoo-narumi",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=210"
+    },
+    {
+      "memberId": "akb48-chiba-erii",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=289"
+    },
+    {
+      "memberId": "akb48-yamauchi-mizuki",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1024"
+    },
+    {
+      "memberId": "akb48-satou-airi",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1076"
+    },
+    {
+      "memberId": "akb48-yagi-azuki",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1091"
+    },
+    {
+      "memberId": "akb48-iwatate-saho",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=110"
+    },
+    {
+      "memberId": "akb48-fukuoka-seina",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=152"
+    },
+    {
+      "memberId": "akb48-shitao-miu",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=202"
+    },
+    {
+      "memberId": "akb48-takahashi-ayane",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=178"
+    },
+    {
+      "memberId": "akb48-nagano-serika",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=192"
+    },
+    {
+      "memberId": "akb48-hashimoto-haruna",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=183"
+    },
+    {
+      "memberId": "akb48-tokunaga-remi",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1069"
+    },
+    {
+      "memberId": "akb48-sakagawa-hiyuka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1073"
+    },
+    {
+      "memberId": "akb48-nagatomo-ayami",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1016"
+    },
+    {
+      "memberId": "akb48-mutou-orin",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1022"
+    },
+    {
+      "memberId": "akb48-akiyama-yuna",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1085"
+    },
+    {
+      "memberId": "akb48-arai-sae",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1086"
+    },
+    {
+      "memberId": "akb48-itou-momoka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1093"
+    },
+    {
+      "memberId": "akb48-gyouten-yurina",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=204"
+    },
+    {
+      "memberId": "akb48-kurosu-haruka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1010"
+    },
+    {
+      "memberId": "akb48-yamane-suzuha",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1025"
+    },
+    {
+      "memberId": "akb48-oota-yuki",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1074"
+    },
+    {
+      "memberId": "akb48-hashimoto-eriko",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1077"
+    },
+    {
+      "memberId": "akb48-hatakeyama-nozomi",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1079"
+    },
+    {
+      "memberId": "akb48-hirata-yuki",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1080"
+    },
+    {
+      "memberId": "akb48-hotei-moka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1081"
+    },
+    {
+      "memberId": "akb48-masai-mayuu",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1082"
+    },
+    {
+      "memberId": "akb48-mizushima-miyuu",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1083"
+    },
+    {
+      "memberId": "akb48-kudou-kasumi",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1087"
+    },
+    {
+      "memberId": "akb48-kubo-hinano",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1088"
+    },
+    {
+      "memberId": "akb48-sako-yumemi",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1089"
+    },
+    {
+      "memberId": "akb48-narita-kohina",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1090"
+    },
+    {
+      "memberId": "akb48-yamaguchi-yui",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1092"
+    },
+    {
+      "memberId": "akb48-okumoto-kairi",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1094"
+    },
+    {
+      "memberId": "akb48-kawamura-yui",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.akb48.co.jp/about/members/detail?mid=1095"
+    },
+    {
+      "memberId": "ske48-kumazaki-haruka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/haruka_kumazaki"
+    },
+    {
+      "memberId": "ske48-nomura-miyo",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/nomura_miyo"
+    },
+    {
+      "memberId": "ske48-asai-yuuka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/asai_yuka"
+    },
+    {
+      "memberId": "ske48-inoue-ruka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/inoue_ruka"
+    },
+    {
+      "memberId": "ske48-kitagawa-yoshino",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/kitagawa_yoshino"
+    },
+    {
+      "memberId": "ske48-satou-kaho",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/sato_kaho"
+    },
+    {
+      "memberId": "ske48-sakamoto-marin",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/sakamoto_marin"
+    },
+    {
+      "memberId": "ske48-aoki-rika",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/aoki_rika"
+    },
+    {
+      "memberId": "ske48-oota-ayaka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/ota_ayaka"
+    },
+    {
+      "memberId": "ske48-kamata-natsuki",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/natsuki_kamata"
+    },
+    {
+      "memberId": "ske48-matsumoto-chikako",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/matsumoto_chikako"
+    },
+    {
+      "memberId": "ske48-aikawa-honoka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/aikawa_honoka"
+    },
+    {
+      "memberId": "ske48-ishiguro-yuzuki",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/ishiguro_yuzuki"
+    },
+    {
+      "memberId": "ske48-ito-kokomi",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/kokomi_ito"
+    },
+    {
+      "memberId": "ske48-iriuchijima-sayaka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/iriuchijima_sayaka"
+    },
+    {
+      "memberId": "ske48-kurashima-ami",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/kurashima_ami"
+    },
+    {
+      "memberId": "ske48-kuwahara-tsubaki",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/tsubaki_kuwahara"
+    },
+    {
+      "memberId": "ske48-sugimoto-riina",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/sugimoto_riina"
+    },
+    {
+      "memberId": "ske48-suzuki-kokona",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/suzuki_kokona"
+    },
+    {
+      "memberId": "ske48-hara-yune",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/hara_yune"
+    },
+    {
+      "memberId": "ske48-matsukawa-miyu",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/miyu_matsukawa"
+    },
+    {
+      "memberId": "ske48-minamisawa-coco",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/coco_minamisawa"
+    },
+    {
+      "memberId": "ske48-yamamura-sakura",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/yamamura_sakura"
+    },
+    {
+      "memberId": "ske48-arano-himeka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/arano_himeka"
+    },
+    {
+      "memberId": "ske48-ito-miki",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/ito_miki"
+    },
+    {
+      "memberId": "ske48-okuno-kokoha",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/kokoha_okuno"
+    },
+    {
+      "memberId": "ske48-kumoi-sana",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/sana_kumoi"
+    },
+    {
+      "memberId": "ske48-kuramoto-hana",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/hana_kuramoto"
+    },
+    {
+      "memberId": "ske48-kondo-mikoto",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/mikoto_kondo"
+    },
+    {
+      "memberId": "ske48-shinohara-kyoka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/shinohara_kyoka"
+    },
+    {
+      "memberId": "ske48-akahori-kimie",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/akahori_kimie"
+    },
+    {
+      "memberId": "ske48-ida-reona",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/reona_ida"
+    },
+    {
+      "memberId": "ske48-ota-manae",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/manae_ota"
+    },
+    {
+      "memberId": "ske48-omura-anzu",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/omura_anzu"
+    },
+    {
+      "memberId": "ske48-kawamura-yua",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/yua_kawamura"
+    },
+    {
+      "memberId": "ske48-suzuki-ena",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/suzuki_ena"
+    },
+    {
+      "memberId": "ske48-nakasaka-miyu",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/nakasaka_miyu"
+    },
+    {
+      "memberId": "ske48-nishii-mio",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/nishii_mio"
+    },
+    {
+      "memberId": "ske48-hasegawa-miyabi",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/miyabi_hasegawa"
+    },
+    {
+      "memberId": "ske48-morimoto-kurumi",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/morimoto_kurumi"
+    },
+    {
+      "memberId": "ske48-iida-yura",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/yura_iida"
+    },
+    {
+      "memberId": "ske48-ikeda-arisa",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/arisa_ikeda"
+    },
+    {
+      "memberId": "ske48-kawamura-syoko",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/syoko_kuwamura"
+    },
+    {
+      "memberId": "ske48-kubota-rei",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/rei_kubota"
+    },
+    {
+      "memberId": "ske48-sakurai-arisa",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/sakurai_arisa"
+    },
+    {
+      "memberId": "ske48-sasaki-nozomi",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/nozomi_sasaki"
+    },
+    {
+      "memberId": "ske48-takamura-saya",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/saya_takamura"
+    },
+    {
+      "memberId": "ske48-takeshita-marika",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/marika_takeshita"
+    },
+    {
+      "memberId": "ske48-tachibana-ayame",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/ayame_tachibana"
+    },
+    {
+      "memberId": "ske48-tamura-mayu",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/mayu_tamura"
+    },
+    {
+      "memberId": "ske48-nakao-fuka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/fuka_nakao"
+    },
+    {
+      "memberId": "ske48-hijiri-haruka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/haruka_hijiri"
+    },
+    {
+      "memberId": "ske48-miyamoto-rinka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/rinka_miyamoto"
+    },
+    {
+      "memberId": "ske48-yajima-nagi",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/nagi_yajima"
+    },
+    {
+      "memberId": "ske48-yokoi-shiho",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ske48.co.jp/feature/shiho_yokoi"
+    },
+    {
+      "memberId": "hkt48-toyonaga-aki",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/67"
+    },
+    {
+      "memberId": "hkt48-ishibashi-ibuki",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/78"
+    },
+    {
+      "memberId": "hkt48-takemoto-kurumi",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/87"
+    },
+    {
+      "memberId": "hkt48-ichimura-airi",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/79"
+    },
+    {
+      "memberId": "hkt48-kurihara-sae",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/46"
+    },
+    {
+      "memberId": "hkt48-fuchigami-mai",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/42"
+    },
+    {
+      "memberId": "hkt48-akiyoshi-yuka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/23"
+    },
+    {
+      "memberId": "hkt48-ikuno-rina",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/100"
+    },
+    {
+      "memberId": "hkt48-ishimatsu-yuina",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/102"
+    },
+    {
+      "memberId": "hkt48-kitagawa-hiiro",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/108"
+    },
+    {
+      "memberId": "hkt48-shibui-mina",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/109"
+    },
+    {
+      "memberId": "hkt48-nakano-minami",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/127"
+    },
+    {
+      "memberId": "hkt48-fujino-kokoha",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/112"
+    },
+    {
+      "memberId": "hkt48-matsunaga-yui",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/129"
+    },
+    {
+      "memberId": "hkt48-yanase-reia",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/117"
+    },
+    {
+      "memberId": "hkt48-yamauchi-yuuna",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/52"
+    },
+    {
+      "memberId": "hkt48-ryuutou-ayane",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/133"
+    },
+    {
+      "memberId": "hkt48-izawa-miyu",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/101"
+    },
+    {
+      "memberId": "hkt48-ishii-ayane",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/119"
+    },
+    {
+      "memberId": "hkt48-ihara-hanna",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/103"
+    },
+    {
+      "memberId": "hkt48-imamura-maria",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/56"
+    },
+    {
+      "memberId": "hkt48-eura-yuuka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/122"
+    },
+    {
+      "memberId": "hkt48-ooba-risaki",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/106"
+    },
+    {
+      "memberId": "hkt48-kuriyama-rina",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/84"
+    },
+    {
+      "memberId": "hkt48-tachibana-kokoro",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/110"
+    },
+    {
+      "memberId": "hkt48-tanaka-iori",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/88"
+    },
+    {
+      "memberId": "hkt48-fukui-karen",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/111"
+    },
+    {
+      "memberId": "hkt48-yasui-hina",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://www.hkt48.jp/profile/116"
+    },
+    {
+      "memberId": "ngt48-nishigata-marina",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/118"
+    },
+    {
+      "memberId": "ngt48-seiji-reina",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/111"
+    },
+    {
+      "memberId": "ngt48-satou-kairi",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/128"
+    },
+    {
+      "memberId": "ngt48-ootsuka-nanami",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/132"
+    },
+    {
+      "memberId": "ngt48-kitamura-yuuha",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/151"
+    },
+    {
+      "memberId": "ngt48-suizu-natsuki",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/154"
+    },
+    {
+      "memberId": "ngt48-sugimoto-moe",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/155"
+    },
+    {
+      "memberId": "ngt48-mimura-hino",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/144"
+    },
+    {
+      "memberId": "ngt48-isobe-rua",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/149"
+    },
+    {
+      "memberId": "ngt48-kita-hanae",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/150"
+    },
+    {
+      "memberId": "ngt48-kimoto-anna",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/163"
+    },
+    {
+      "memberId": "ngt48-satou-hiroka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/164"
+    },
+    {
+      "memberId": "ngt48-isozaki-nana",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/160"
+    },
+    {
+      "memberId": "ngt48-shinzawa-aoi",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/165"
+    },
+    {
+      "memberId": "ngt48-takashima-yua",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/167"
+    },
+    {
+      "memberId": "ngt48-nishikawa-haruna",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/168"
+    },
+    {
+      "memberId": "ngt48-azama-yui",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/172"
+    },
+    {
+      "memberId": "ngt48-adachi-yume",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/173"
+    },
+    {
+      "memberId": "ngt48-oomachi-yuuka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/174"
+    },
+    {
+      "memberId": "ngt48-kai-mizuki",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/175"
+    },
+    {
+      "memberId": "ngt48-kitazawa-mone",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/176"
+    },
+    {
+      "memberId": "ngt48-satou-yuuka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/177"
+    },
+    {
+      "memberId": "ngt48-sutou-rinka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/178"
+    },
+    {
+      "memberId": "ngt48-nakata-asami",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/181"
+    },
+    {
+      "memberId": "ngt48-minagawa-hiyori",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/182"
+    },
+    {
+      "memberId": "ngt48-aiki-maaya",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/183"
+    },
+    {
+      "memberId": "ngt48-inomata-sana",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/184"
+    },
+    {
+      "memberId": "ngt48-oohashi-ayano",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/185"
+    },
+    {
+      "memberId": "ngt48-katayama-shuri",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/186"
+    },
+    {
+      "memberId": "ngt48-kuga-mirei",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/187"
+    },
+    {
+      "memberId": "ngt48-satou-honoka",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/188"
+    },
+    {
+      "memberId": "ngt48-hirai-yuzuha",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/189"
+    },
+    {
+      "memberId": "ngt48-hosoya-naho",
+      "fields": [
+        "links"
+      ],
+      "sourceUrl": "https://ngt48.jp/profile/detail/190"
+    }
+  ]
 }
