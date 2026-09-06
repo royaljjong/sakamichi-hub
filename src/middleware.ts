@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
-import createIntlMiddleware from 'next-intl/middleware';
+import createMiddleware from 'next-intl/middleware';
 import { routing } from './i18n/routing';
 
-const intlMiddleware = createIntlMiddleware(routing);
+const intlMiddleware = createMiddleware(routing);
 
 const KLP48_TO_AKB48_MERGES: Record<string, string> = {
   'klp48-gyouten-yurina': 'akb48-gyouten-yurina',
