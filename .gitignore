@@ -34,3 +34,6 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
+
+# temporary artifacts (build recovery, one-shot scripts)
+.tmp/
