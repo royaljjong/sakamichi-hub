@@ -104,9 +104,12 @@ export function HomePortal({
   );
   const venues = new Map(portal.venues.map((venue) => [venue.id, venue]));
   const groupMap = new Map(groups.map((group) => [group.id, group]));
-  const today = new Date();
-  const month = today.getMonth() + 1;
-  const todayMd = `${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
+  const [today, setToday] = useState<Date | null>(null);
+  useEffect(() => setToday(new Date()), []);
+  const month = today ? today.getMonth() + 1 : 0;
+  const todayMd = today
+    ? `${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`
+    : "";
   const localized = (value: { ja: string; ko: string; en: string }) =>
     value[lang] || value.ja;
 

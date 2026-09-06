@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import type { Group, Member } from '@/lib/schema';
@@ -40,7 +40,9 @@ function MemberCard({ member, groupMap, lang, todayMd, staggerIndex }: {
 export function BirthdayPanel({ members, groups, locale, groupId }: BirthdayPanelProps) {
   const t = useTranslations('birthday');
   const lang = (['ja', 'ko', 'en'].includes(locale) ? locale : 'ja') as Locale;
-  const today = new Date();
+  const [today, setToday] = useState<Date | null>(null);
+  useEffect(() => setToday(new Date()), []);
+  if (!today) return null;
   const month = today.getMonth() + 1;
   const todayMd = `${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
 

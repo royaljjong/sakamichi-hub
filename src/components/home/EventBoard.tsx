@@ -1,3 +1,6 @@
+'use client';
+
+import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type { PortalDataset } from '@/lib/portal-schema';
 import type { Group } from '@/lib/schema';
@@ -16,8 +19,13 @@ export function EventBoard({ portal, groups, locale, groupId }: EventBoardProps)
   const lang = (['ja', 'ko', 'en'].includes(locale) ? locale : 'ja') as Locale;
   const venues = new Map(portal.venues.map((venue) => [venue.id, venue]));
   const groupMap = new Map(groups.map((group) => [group.id, group]));
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
+  const [today, setToday] = useState<Date | null>(null);
+  useEffect(() => {
+    const d = new Date();
+    d.setHours(0, 0, 0, 0);
+    setToday(d);
+  }, []);
+  if (!today) return null;
   const events = portal.events
     .filter((event) => !groupId || event.groupIds.includes(groupId))
     .filter((event) => new Date(event.startsAt).getTime() >= today.getTime())
