@@ -13,7 +13,7 @@ const nextConfig: NextConfig = {
     ];
   },
   async headers() {
-    const cspReportOnly = [
+    const csp = [
       "default-src 'self'",
       // AdSense + Vercel Analytics/SpeedInsights require inline scripts and eval.
       "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://pagead2.googlesyndication.com https://*.googlesyndication.com https://*.doubleclick.net https://*.google.com https://www.googletagservices.com https://va.vercel-scripts.com",
@@ -40,7 +40,7 @@ const nextConfig: NextConfig = {
             key: 'Permissions-Policy',
             value: 'camera=(), microphone=(), geolocation=(), interest-cohort=()',
           },
-          { key: 'Content-Security-Policy-Report-Only', value: cspReportOnly },
+          { key: 'Content-Security-Policy', value: csp },
         ],
       },
     ];
