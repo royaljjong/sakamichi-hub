@@ -10,7 +10,7 @@ const KLP48_TO_AKB48_MERGES: Record<string, string> = {
   'klp48-yamane-suzuha': 'akb48-yamane-suzuha',
 };
 
-export default function middleware(request: NextRequest) {
+export default function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   if (pathname.startsWith('/api/')) {
