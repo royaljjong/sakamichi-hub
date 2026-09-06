@@ -1,6 +1,40 @@
 [
   {
-    "id": "nogi-5757878e2719",
+    "id": "nogi-5a8fbbab78df",
+    "groupId": "nogizaka46",
+    "franchise": "sakamichi",
+    "memberName": {
+      "ja": "乃木坂46",
+      "ko": "乃木坂46",
+      "en": "乃木坂46"
+    },
+    "memberGlyph": "乃",
+    "memberHueShift": 0,
+    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mob2mlAIw.jpg",
+    "title": "夏のあとがき",
+    "publishedAt": "2026-09-06T10:46:00.000Z",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104819?ima=1051&cd=MEMBER",
+    "type": "official_blog"
+  },
+  {
+    "id": "nogi-e68b5dae270e",
+    "groupId": "nogizaka46",
+    "franchise": "sakamichi",
+    "memberName": {
+      "ja": "乃木坂46",
+      "ko": "乃木坂46",
+      "en": "乃木坂46"
+    },
+    "memberGlyph": "乃",
+    "memberHueShift": 0,
+    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mobMtylEM.jpg",
+    "title": "東京パソコンクラブの新レギュラーメンバーになりました！",
+    "publishedAt": "2026-09-06T10:36:00.000Z",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104818?ima=1051&cd=MEMBER",
+    "type": "official_blog"
+  },
+  {
+    "id": "nogi-1507f64ed618",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -13,11 +47,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mobxuJku7.jpg",
     "title": "11年目",
     "publishedAt": "2026-09-05T20:54:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104817?ima=4522&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104817?ima=1051&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-50ca91ed61e9",
+    "id": "nogi-333fc7e08dd4",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -30,11 +64,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mob2DZw3Y.jpg",
     "title": "他の星から",
     "publishedAt": "2026-09-05T17:36:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104816?ima=4522&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104816?ima=1051&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-72bf47b03a1c",
+    "id": "nogi-153da559e0ec",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -47,7 +81,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mobLqkqU4.jpg",
     "title": "秋の始まり",
     "publishedAt": "2026-09-05T15:26:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104815?ima=4522&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104815?ima=1051&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -328,7 +362,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-6fba249b6874",
+    "id": "nogi-6c4e89b1ab6f",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -341,7 +375,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mobvntk4h.jpg",
     "title": "10",
     "publishedAt": "2026-09-04T19:02:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104814?ima=4522&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104814?ima=1051&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -556,7 +590,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-566d30b8bcad",
+    "id": "nogi-84c11a856ca1",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -569,7 +603,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mobWnudHX.jpg",
     "title": "わ〜恐ろしい、恐竜お姉さんですよ〜",
     "publishedAt": "2026-09-03T22:19:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104813?ima=4522&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104813?ima=1051&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -854,7 +888,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-33dc3e32ae3e",
+    "id": "nogi-2b668f47622f",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -867,11 +901,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mob32OfOC.jpg",
     "title": "余熱",
     "publishedAt": "2026-09-02T19:37:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104812?ima=4522&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104812?ima=1051&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-236f397e0eef",
+    "id": "nogi-716df00144e0",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -884,41 +918,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mob90usvQ.jpg",
     "title": "8月32日",
     "publishedAt": "2026-09-01T20:29:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104811?ima=4522&cd=MEMBER",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-d4d83f54c720",
-    "groupId": "nogizaka46",
-    "franchise": "sakamichi",
-    "memberName": {
-      "ja": "乃木坂46",
-      "ko": "乃木坂46",
-      "en": "乃木坂46"
-    },
-    "memberGlyph": "乃",
-    "memberHueShift": 0,
-    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202608/mobCSr939.png",
-    "title": "乃木坂三昧",
-    "publishedAt": "2026-09-01T20:28:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104810?ima=4522&cd=MEMBER",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-a731b7cdda0d",
-    "groupId": "nogizaka46",
-    "franchise": "sakamichi",
-    "memberName": {
-      "ja": "乃木坂46",
-      "ko": "乃木坂46",
-      "en": "乃木坂46"
-    },
-    "memberGlyph": "乃",
-    "memberHueShift": 0,
-    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mobuyZCNY.jpg",
-    "title": "9月生まれの皆さん おめでとうございます   #岡本姫奈  #hinadaniblog",
-    "publishedAt": "2026-09-01T19:38:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104809?ima=4522&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104811?ima=1051&cd=MEMBER",
     "type": "official_blog"
   }
 ]
