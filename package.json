@@ -16,6 +16,8 @@
     "data:coverage": "tsx scripts/audit-coverage.ts",
     "data:profiles": "tsx scripts/enrich-official-profiles.ts",
     "data:profiles:write": "tsx scripts/enrich-official-profiles.ts --write",
+    "data:wiki-images": "tsx scripts/enrich-wikipedia-images.ts",
+    "data:wiki-images:write": "tsx scripts/enrich-wikipedia-images.ts --write",
     "search:build": "tsx scripts/build-search-index.ts",
     "search:verify": "tsx scripts/verify-search-discovery.ts"
   },
