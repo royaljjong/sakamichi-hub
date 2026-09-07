@@ -1,14 +1,35 @@
 # Sakamichi Box — Codex 인수인계
 
-기준일: 2026-08-31
-확인 브랜치: `codex/trust-data-phase2`
+기준일: 2026-09-07 (rev15 후속 조치 완료)
+확인 브랜치: `main`
 프로덕션: https://sakamichi-hub.vercel.app
+감사 이력: `AUDIT_REPORT_2026-09-04_rev1.md` ~ `AUDIT_REPORT_2026-09-07_rev15.md` (15개 rev)
 
 ## 0. 현재 상태 — 다음 작업자는 여기부터 확인
 
-### 완료된 로컬 구현·검증
+### 스택 현재 (rev14 완료 후)
 
-- 2026-09-03 전체 정합성 복구: 이벤트 HTTP URL이 스키마와 Vercel 빌드를 깨뜨리던 문제를 수집기 경계와 현재 데이터에서 해결했다. 현재 검증값은 16그룹·454멤버·59이벤트·2장소·15 ranking facts·256싱글이다.
+| Package | 버전 | 비고 |
+|---|---|---|
+| Next.js | **16.3.4** | Turbopack 기본, App Router. `middleware.ts` → `src/proxy.ts` 이관 완료 (rev15) |
+| next-intl | **4.14.2** | v4 신규 signature (`{ locale }` prop, `createMiddleware` default export) |
+| Tailwind CSS | **4.3.3** | CSS-first 구성, `tailwind.config.ts` 삭제, `@import "tailwindcss"` + `@theme` in globals.css |
+| motion (Framer Motion) | 13.2.0 | 1 사용처 (SlopeLine) |
+| ESLint | 10.10.0 | flat config (`eslint.config.mjs`), `pnpm lint` = `eslint .` |
+| eslint-config-next | 16.3.4 | Native flat config |
+| React | 19.x | 유지 |
+| pnpm | 11 | workspace overrides에 postcss ^8.5.28 강제 (rev10) |
+
+### 최근 조치 (rev14~rev15 + 후속)
+
+- **rev14 (2026-09-06)**: CSP Report-Only → Enforce 승격, 4 major deps 업그레이드 (Next 16 + next-intl 4 + Tailwind 4 + motion 13 + ESLint 10)
+- **rev15 (2026-09-07)**: `middleware.ts` → `proxy.ts` rename (Next 16 deprecation 대응), ESLint flat config 신규 (`eslint.config.mjs`)
+- **Wikipedia CC-BY-SA 이미지 보강** (커밋 `b576bc6`): 92명 사진 부재 중 **19명 확보** (AKB48 10 · SKE48 2 · NMB48 3 · HKT48 2 · NGT48 1 · STU48 1). 그룹 사진 오탐 28건 자동 제거. `scripts/enrich-wikipedia-images.ts` 신규
+- **Surrogate pair fix** (커밋 `67611b5`): auto-sync가 lone `\ud83d` (broken emoji) 포함 JSON을 push하여 Next 16 Turbopack 빌드 실패. fetch/updates.ts + updates-schema.ts에 방어 추가
+
+### 완료된 로컬 구현·검증 (rev1-13 아카이브)
+
+- 2026-09-03 전체 정합성 복구: 이벤트 HTTP URL이 스키마와 Vercel 빌드를 깨뜨리던 문제를 수집기 경계와 현재 데이터에서 해결했다. 현재 검증값은 16그룹·**451**멤버·**60**이벤트·2장소·15 ranking facts·256싱글이다.
 - 검색은 가나·초성·공백/하이픈 변형을 검증하고 결과 카드에 이름·별명·그룹명 일치 근거를 표시한다. 그룹 커버리지는 명시적 `rosterScope`와 클릭 가능한 공식 링크를 기준으로 보수적으로 판정한다.
 - 2026-09-03 검증: `pnpm typecheck`, `pnpm data:validate`, `pnpm search:verify`, `pnpm data:contrast`, `pnpm data:coverage`, `pnpm build` 통과. 1,538/1,538 경로.
 - Vercel 프로덕션 배포 `dpl_8MJ991bx7a1mjfa8apn6VjddfBAx`는 `READY`이며 `https://sakamichi-hub.vercel.app`에 alias 됐다. 인증 curl HTML 응답은 확인했으나 로컬 브라우저 자동화가 무응답이라 시각·콘솔 검증은 남아 있다.
@@ -65,20 +86,22 @@ Sakamichi Box는 지역 탐색 서비스가 아니다. 첫 화면에서 `사카�
 - GroupView (탭: 현역/연습생/졸업/기수별)
 - **CareerTimeline** — 멤버 프로필 페이지 프로필 헤더 아래에 신규 (2026-08-24)
 
-## 2. 현재 데이터
+## 2. 현재 데이터 (2026-09-07 기준)
 
 | 카테고리 | 수치 |
 |---|---|
 | 그룹 | 16 (로고 100% · 팔레트 100%) |
-| 멤버 | **454명** (사카미치 3사 185 + AKB48G 269) |
-| 활동 멤버 사진 커버 | 235 실사진 + 100 그룹 로고 폴백 = 100% 시각 |
-| 이벤트 (portal) | **59건** (2026-09-03 `data:validate` 기준) |
+| 멤버 | **451명** (rev5 KLP48↔AKB48 3명 병합 후. 사카미치 3사 185 + AKB48G 266) |
+| 활동 멤버 사진 커버 | 실사진 **378명** + 그룹 로고 폴백 73명 = 100% 시각. rev14+Wikipedia 보강으로 92→73 감소 |
+| 이벤트 (portal) | **60건** (2026-09-07 `data:validate` 기준) |
 | YouTube 링크 | 131명 (any link of type=youtube, 졸업생 포함)[^1] |
 | TikTok 링크 | 118명[^1] |
-| 최신 영상 | 34건 (YouTube만) |
-| 최신 블로그 | 60건 (사카미치 30 + AKB48G 30) |
+| 최신 영상 (videos) | 60건 (rev14 이후 auto-sync 확대) |
+| 최신 블로그 (updates) | 53건 (rev14 이후 정규화·surrogate 청소 반영) |
 | 디스코그래피 싱글 | **256곡** (9그룹 커버) |
 | 랭킹 스냅숏 | 15 (화면 미노출의 보존 데이터, 자동 갱신 전 사용 금지) |
+| static routes | **1,529** (rev5 KLP48 병합으로 −9, rev11 dynamicParams=false로 unknown 404) |
+| npm audit vulnerabilities | **0** (rev14에서 sharp + next-intl v3 CVE 자연 해소, postcss overrides rev10) |
 
 [^1]: 계산 근거: `data/members.json`에서 `links[].type === 'youtube' | 'tiktok'`인 링크 엔트리를 가진 멤버 수. 개인 채널만 세는 것이 아니라 그룹 공식 채널 링크 포함 모든 항목. 재확인 명령: `node -e "const m=require('./data/members.json'); console.log(m.filter(x=>x.links&&x.links.some(l=>l.type==='youtube')).length)"` (tiktok 동일 패턴). 감사 기준 2026-09-04.
 
@@ -196,28 +219,50 @@ Sakamichi Box는 지역 탐색 서비스가 아니다. 첫 화면에서 `사카�
 3. 현재 운영 상태·안전 게이트·다음 실행 순서는 이 `CODEX_HANDOVER.md`를 따른다.
 4. `AUDIT_AND_REBUILD_PLAN.md`, `HANDOVER.md`, `PLAN_REPORT_2026-08-23_rev1.md`, `sakamichi-hub-work-order.md`는 역사 참고이며 현행 실행 계약으로 사용하지 않는다.
 
-### 다음 무료 로컬 실행
+### 다음 무료 로컬 실행 (rev14+15 이후 갱신)
 
-1. `pnpm data:profiles`로 공식 프로필 변경을 먼저 미리보고, 근거와 명단 불일치를 확인한 뒤에만 `pnpm data:profiles:write`를 실행한다.
-2. NMB48·STU48은 공식 현재 명단 페이지의 접근 가능한 URL이 확인된 뒤 수집기를 확장한다. 현재 활동 멤버 기준 NMB48 사진 34·프로필 36, STU48 사진 29·프로필 27이 남아 있다.
-3. `pnpm data:links`의 dead 항목은 404·410을 개별 출처와 대조한 뒤에만 데이터 상태를 바꾼다. unverified 항목은 네트워크·봇 차단 가능성이므로 삭제 근거로 사용하지 않는다.
-4. 데이터 변경 후 `pnpm data:validate`, `pnpm search:build`, `pnpm search:verify`, `pnpm data:coverage`, `pnpm build`를 다시 실행하고 보고서 수치를 동기화한다.
-5. 홈 카드·LIVE fallback 변경은 배포 전 데스크톱과 390px 세 언어 뷰포트에서 재검증한다.
+1. **의존성 마이그레이션 완료**: Next 16 + next-intl 4 + Tailwind 4 + motion 13 + ESLint 10. 추가 major upgrade는 이제 없음. minor는 자유롭게 `pnpm outdated` → `pnpm update`.
+2. **공식 프로필 재감사**: `pnpm data:profiles` 미리보기 → `pnpm data:profiles:write` 순으로 4그룹 (AKB/SKE/HKT/NGT) 재스캔. 마지막 실행 2026-09-07 커밋 `e74ea90` (imageUrl 신규 추가 0, link 상태 146건 갱신).
+3. **Wikipedia CC-BY-SA 재스캔** (신규 rev15): `pnpm data:wiki-images` 미리보기 → `pnpm data:wiki-images:write`. jawiki 문서 추가로 등록된 CC-BY-SA 사진 자동 병합. 마지막 실행 2026-09-07 커밋 `b576bc6` (19명 확보).
+4. **NMB48/STU48**: 환경 접근 복원 시에만 `enrich-official-profiles.ts`에 케이스 추가. 현재 활동 멤버 기준 NMB48 사진 36·STU48 사진 29가 남아 있음 (Wikipedia에 없는 신인·비인기 멤버).
+5. `pnpm data:links` dead 항목은 404·410을 개별 출처와 대조한 뒤에만 데이터 상태를 바꾼다. unverified 항목은 네트워크·봇 차단 가능성이므로 삭제 근거로 사용하지 않는다. rev10에서 병렬화 (concurrency 20, ~3분 완료).
+6. 데이터 변경 후 `pnpm typecheck`, `pnpm data:validate`, `pnpm search:verify`, `pnpm data:contrast`, `pnpm build`, `pnpm lint` (rev15 신규) 실행.
 
 ### 무료 운영 관찰
 
 - Vercel Hobby와 현재 단일 Firewall rate-limit 규칙을 유지한다. 문의 API 429·5xx, 실제 문의량, Supabase Advisor를 관찰하되 정상 상태에서는 schema나 규칙을 늘리지 않는다.
-- GitHub Actions의 6시간 데이터 갱신과 주간 이미지 갱신은 최근 실행 상태를 읽기 전용 확인한다. 이번 로컬 실행에서는 sandbox 네트워크 차단으로 원격 run 상태를 확인하지 못했다.
+- GitHub Actions의 6시간 데이터 갱신과 주간 이미지 갱신은 최근 실행 상태를 읽기 전용 확인한다.
+- **자동화 4중 방어** 실전 검증 지속: (1) fetch 정규화 (rev4 N3 + rev15 surrogate strip) → (2) auto-commit validate 게이트 (rev4 N1) → (3) CI + Vercel → (4) link-check 병렬화 (rev10 RV-6).
+- **보안 5중 계층**: HSTS (Vercel 자동) + X-Content-Type-Options·Referrer-Policy·X-Frame-Options·Permissions-Policy (rev8) + **CSP Enforce** 12지시자 (rev9 Report-Only → rev14 Enforce) + 문의 API 3중 방어 + Supabase Authorization Bearer.
 - 실제 AdSense auto-ad가 주입된 모바일 기기에서 내비게이션·검색·카드 클릭 영역 충돌을 관찰한다. headless 통과를 실광고 통과로 간주하지 않는다.
+- CSP enforce 승격 후 브라우저 콘솔에서 위반 로그 관찰 필요 (사용자 실측 항목).
 
 ### 승인 필요 — 자동 진행 금지
 
 - Vercel 배포·환경 변수·Firewall 변경, Supabase schema·운영 데이터 변경, AdSense/CMP 관리 화면, Search Console, 커스텀 도메인, workflow dispatch.
 - 유료 Vercel 요금제와 유료 Firewall 확장은 제품 경계에서 제외한다. 새 저장이 실제로 필요하면 두 번째 조직의 기존 `sakamichi-box` 프로젝트를 우선 검토하고 다른 Supabase 프로젝트는 변경하지 않는다.
 - TikTok/X/Instagram 유료 API 또는 별도 프록시 인프라는 명시 승인과 비용 결정 전 도입하지 않는다.
+- **저작권 관련 자동 크롭 금지**: 사진집·IG·홍보자료·뉴스에서 얼굴 크롭·재호스팅은 rMVP §12 안전 경계·저작권·IG ToS §3.2 위반. Wikimedia Commons CC-BY-SA 소스만 허용 (`scripts/enrich-wikipedia-images.ts`). 사용자가 직접 저작권 확보 URL을 제공한 경우에 한해 개별 삽입 가능.
 
 ### 선택적 후속 제품 가지 — rMVP 비차단
 
 - 멤버별 검증된 discography 참여 트랙, 그룹 비교 지표, 통계 대시보드, 의미 기반 토큰 정리 후 dark mode.
 
 각 멤버는 공식 프로필 URL, 표시 이름, 사진 URL, 상태, SNS, 확인일을 한 묶음으로 검증한다. 검색 결과 이미지나 이름 추정으로 교체하지 않는다.
+
+## 8. rev1-15 감사 이력 요약
+
+- 총 커밋 (실 코드): ~35건 (rev1-15 조치 + 후속 fix)
+- P0-P3 해소: 43+건
+- 공식 종결: 3건 (NMB48/STU48 환경 차단 · Middleware core → Proxy · Sitemap size)
+- **npm audit vulnerabilities: 0**
+- 모든 major deps 최신 (Next 16 · next-intl 4 · Tailwind 4 · motion 13 · eslint 10 · eslint-config-next 16)
+
+감사 리포트 전체 아카이브: `AUDIT_REPORT_2026-09-04_rev1.md` ~ `AUDIT_REPORT_2026-09-07_rev15.md`.
+
+### 잔여 관찰만 유지 항목 (외부 조건 대기)
+
+1. **NMB48 네트워크 차단**: 사용자 ISP에서 `www.nmb48.com` timeout. rev6 이후 4회 재확인 모두 동일.
+2. **STU48 팬클럽 벽**: `sp.stu48.com` 홈은 200이나 개별 프로필이 `plusmember.jp` 로그인 뒤.
+3. **73명 프로필 사진 부재**: NMB48 36 + STU48 29 + AKB48 2 + HKT48 3 + SKE48 1 + NGT48 2. Wikipedia 개인 문서 없음 or Commons 사진 미등록. Wikipedia 커뮤니티가 신규 업로드 시 `pnpm data:wiki-images:write`로 자동 반영.
+4. **브라우저 실측 4항목** (사용자만 가능): Tailwind v4 시각 회귀, CSP Enforce 위반 로그, LCP/FCP Lighthouse, 모바일 반응형.
