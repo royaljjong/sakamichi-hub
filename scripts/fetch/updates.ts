@@ -434,6 +434,11 @@ function normalizeUpdate(u: RecentUpdate): RecentUpdate | null {
   title = title.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"');
   title = title.trim();
 
+  // Strip lone UTF-16 surrogate halves (emoji truncated by upstream RSS). Next.js
+  // Turbopack refuses to parse JSON containing them; a lone \uD83D or similar
+  // triggers "Unable to make a module from invalid JSON" at build time.
+  title = title.replace(/[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]/g, '');
+
   // Reject bare URL as title
   if (/^https?:\/\//i.test(title)) return null;
   // Reject empty title

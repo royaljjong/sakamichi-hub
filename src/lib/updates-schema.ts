@@ -13,6 +13,9 @@ export const RecentUpdate = z.object({
   title: z.string().min(1).max(200)
     .refine((v) => !/^https?:\/\//i.test(v.replace(/&#x[0-9A-Fa-f]+;/g, '')), {
       message: 'title cannot be a bare URL',
+    })
+    .refine((v) => !/[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]/.test(v), {
+      message: 'title has lone UTF-16 surrogate half (breaks Next.js Turbopack JSON parser)',
     }),
   publishedAt: z.string().datetime({ offset: true }),
   url: HttpsUrl,
