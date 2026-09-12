@@ -18,7 +18,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-7b08e0c115ea",
+    "id": "nogi-bf921420d828",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -31,7 +31,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mob8XeMrZ.jpg",
     "title": "ヒグラシの声がする",
     "publishedAt": "2026-09-12T20:37:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104835?ima=4338&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104835?ima=5607&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -398,74 +398,6 @@
     "type": "official_blog"
   },
   {
-    "id": "nmb-7cf2919d0e55",
-    "groupId": "nmb48",
-    "franchise": "akb48g",
-    "memberName": {
-      "ja": "NMB48",
-      "ko": "NMB48",
-      "en": "NMB48"
-    },
-    "memberGlyph": "N",
-    "memberHueShift": 0,
-    "memberImage": null,
-    "title": "🐦 ** ┈┈┈┈┈┈┈┈┈┈┈┈** #NMB48 official #TikTok 更新 ** ┈┈┈┈┈┈┈┈┈┈┈┈** 🐅˒˒ ⟡.· #泉綾乃 #平山真衣 #NMB48 https://vt",
-    "publishedAt": "2026-09-12T00:00:00.000Z",
-    "url": "https://x.com/nmb48_official/status/2098729767604547727",
-    "type": "official_blog"
-  },
-  {
-    "id": "nmb-f438954c4cd2",
-    "groupId": "nmb48",
-    "franchise": "akb48g",
-    "memberName": {
-      "ja": "NMB48",
-      "ko": "NMB48",
-      "en": "NMB48"
-    },
-    "memberGlyph": "N",
-    "memberHueShift": 0,
-    "memberImage": null,
-    "title": "🐦 ⭐︎⌒ 𝗜𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻📢 🎤⊹˚₊꒰ #無限大ノック公演 ꒱₊˚⊹ 9/12 sat. 14:00- | 18:00- @ NMB48 THEATER DMM LIV",
-    "publishedAt": "2026-09-12T00:00:00.000Z",
-    "url": "https://x.com/nmb48_official/status/2098633271051751905",
-    "type": "official_blog"
-  },
-  {
-    "id": "nmb-202992a95a8e",
-    "groupId": "nmb48",
-    "franchise": "akb48g",
-    "memberName": {
-      "ja": "NMB48",
-      "ko": "NMB48",
-      "en": "NMB48"
-    },
-    "memberGlyph": "N",
-    "memberHueShift": 0,
-    "memberImage": null,
-    "title": "🐦 ⭐︎⌒ 𝗜𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻📢 📷⊹˚₊꒰ #無限大ノック公演 ꒱₊˚⊹ 9/12 sat. 14:00- | 18:00- @ NMB48 THEATER 〖 出演メンバ",
-    "publishedAt": "2026-09-12T00:00:00.000Z",
-    "url": "https://x.com/nmb48_official/status/2098577339533910258",
-    "type": "official_blog"
-  },
-  {
-    "id": "nmb-1c6ba0c6db52",
-    "groupId": "nmb48",
-    "franchise": "akb48g",
-    "memberName": {
-      "ja": "NMB48",
-      "ko": "NMB48",
-      "en": "NMB48"
-    },
-    "memberGlyph": "N",
-    "memberHueShift": 0,
-    "memberImage": null,
-    "title": "🐦 ⭐︎⌒ 𝘁𝗶𝗰𝗸𝗲𝘁 𝗜𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻📢 10/17(土)・10/18(日)開催 ˗ˏˋ 𝐍𝐌𝐁𝟒𝟖 𝟏𝟔𝐭𝐡 𝐀𝐧𝐧𝐢𝐯𝐞𝐫",
-    "publishedAt": "2026-09-12T00:00:00.000Z",
-    "url": "https://x.com/nmb48_official/status/2098577338132996298",
-    "type": "official_blog"
-  },
-  {
     "id": "hina-d23318951fd2",
     "groupId": "hinatazaka46",
     "franchise": "sakamichi",
@@ -691,6 +623,74 @@
     "type": "official_blog"
   },
   {
+    "id": "stu-6933ac04912b",
+    "groupId": "stu48",
+    "franchise": "akb48g",
+    "memberName": {
+      "ja": "STU48",
+      "ko": "STU48",
+      "en": "STU48"
+    },
+    "memberGlyph": "S",
+    "memberHueShift": 0,
+    "memberImage": null,
+    "title": "STU48 Live Tour 2026 9月12日(土)愛知公演、当日券販売に関してのお知らせ",
+    "publishedAt": "2026-09-11T00:00:00.000Z",
+    "url": "https://www.stu48.com/news/detail/23366",
+    "type": "official_blog"
+  },
+  {
+    "id": "stu-cebb21b66cde",
+    "groupId": "stu48",
+    "franchise": "akb48g",
+    "memberName": {
+      "ja": "STU48",
+      "ko": "STU48",
+      "en": "STU48"
+    },
+    "memberGlyph": "S",
+    "memberHueShift": 0,
+    "memberImage": null,
+    "title": "STU48 Live Tour 2026 10月4日(日)東京追加公演、イープラス プレオーダー受付(抽選販売)開始のお知らせ",
+    "publishedAt": "2026-09-11T00:00:00.000Z",
+    "url": "https://www.stu48.com/news/detail/23365",
+    "type": "official_blog"
+  },
+  {
+    "id": "stu-aaab1d923fba",
+    "groupId": "stu48",
+    "franchise": "akb48g",
+    "memberName": {
+      "ja": "STU48",
+      "ko": "STU48",
+      "en": "STU48"
+    },
+    "memberGlyph": "S",
+    "memberHueShift": 0,
+    "memberImage": null,
+    "title": "STU48 Live Tour 2026 10月17日(土)・18日(日)広島公演、STU48スペシャルサポーター・STU48 FAN CLUB会員先行チケット受付開始のお知らせ",
+    "publishedAt": "2026-09-11T00:00:00.000Z",
+    "url": "https://www.stu48.com/news/detail/23364",
+    "type": "official_blog"
+  },
+  {
+    "id": "stu-d7541eb5d49f",
+    "groupId": "stu48",
+    "franchise": "akb48g",
+    "memberName": {
+      "ja": "STU48",
+      "ko": "STU48",
+      "en": "STU48"
+    },
+    "memberGlyph": "S",
+    "memberHueShift": 0,
+    "memberImage": null,
+    "title": "STU48 14thシングル「冬服に着替えたら」CDショップオリジナル特典の絵柄メンバーが決定！",
+    "publishedAt": "2026-09-11T00:00:00.000Z",
+    "url": "https://www.stu48.com/news/detail/23356",
+    "type": "official_blog"
+  },
+  {
     "id": "hina-cd0d040a2f33",
     "groupId": "hinatazaka46",
     "franchise": "sakamichi",
@@ -708,7 +708,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-1454da418e1b",
+    "id": "nogi-07154fe94a48",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -721,7 +721,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mobesgjyw.png",
     "title": "てれぱん屋さん",
     "publishedAt": "2026-09-10T20:55:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104834?ima=4338&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104834?ima=5607&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -869,7 +869,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-0f3206e5980b",
+    "id": "nogi-c2fcdde9f81e",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -882,11 +882,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mob20tJzZ.jpg",
     "title": "優しさの旋律",
     "publishedAt": "2026-09-08T18:46:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104822?ima=4338&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104822?ima=5607&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-aa3cdce3a734",
+    "id": "nogi-c7a91efa60b0",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -899,7 +899,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mobiZCIR6.jpg",
     "title": "内緒",
     "publishedAt": "2026-09-07T19:24:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104821?ima=4338&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104821?ima=5607&cd=MEMBER",
     "type": "official_blog"
   }
 ]
