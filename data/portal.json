@@ -294,7 +294,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=2451&pri1=202609&wd00=2026&wd01=09&wd02=19",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=5226&pri1=202609&wd00=2026&wd01=09&wd02=19",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-12"
@@ -731,7 +731,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107345?ima=2451&pri1=202609&wd00=2026&wd01=09&wd02=26",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107345?ima=5226&pri1=202609&wd00=2026&wd01=09&wd02=26",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-12"
@@ -1014,6 +1014,29 @@
       }
     },
     {
+      "id": "stu-auto-20261007-23373",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48 甲斐心愛スペシャルソロイベント「今宵１番ホットになれる“合言葉”は〜？“甲斐心愛”！！！」",
+        "ko": "STU48 甲斐心愛スペシャルソロイベント「今宵１番ホットになれる“合言葉”は〜？“甲斐心愛”！！！」",
+        "en": "STU48 甲斐心愛スペシャルソロイベント「今宵１番ホットになれる“合言葉”は〜？“甲斐心愛”！！！」"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-10-07T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23373",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
+        "checkedAt": "2026-09-12"
+      }
+    },
+    {
       "id": "stu-auto-20261010-23108",
       "groupIds": [
         "stu48"
@@ -1031,6 +1054,29 @@
       "price": null,
       "ticketUrl": null,
       "officialUrl": "https://www.stu48.com/schedule/detail/23108",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
+        "checkedAt": "2026-09-12"
+      }
+    },
+    {
+      "id": "stu-auto-20261011-23371",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "MATSUYAMA GROOVE Fes 2026",
+        "ko": "MATSUYAMA GROOVE Fes 2026",
+        "en": "MATSUYAMA GROOVE Fes 2026"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-10-11T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23371",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
         "checkedAt": "2026-09-12"
@@ -1145,7 +1191,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=2452&pri1=202610&wd00=2026&wd01=10&wd02=20",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=5234&pri1=202610&wd00=2026&wd01=10&wd02=20",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-12"
@@ -1260,7 +1306,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=2452&pri1=202610&wd00=2026&wd01=10&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=5234&pri1=202610&wd00=2026&wd01=10&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-12"
