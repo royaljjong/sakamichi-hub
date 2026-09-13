@@ -1,5 +1,26 @@
 [
   {
+    "id": "yt-Vq13Hxq6fYg",
+    "platform": "youtube",
+    "videoId": "Vq13Hxq6fYg",
+    "memberId": "nmb48-shibuya-nagisa",
+    "memberName": {
+      "ja": "渋谷凪咲",
+      "ko": "시부야 나기사",
+      "en": "Shibuya Nagisa"
+    },
+    "memberGlyph": "渋",
+    "memberHueShift": 17,
+    "memberImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/%E3%82%B9%E3%83%88%E3%83%83%E3%83%97%E3%83%BB%E3%82%AA%E3%83%AC%E3%82%AA%E3%83%AC%E8%A9%90%E6%AC%BA47%E5%AE%B6%E6%97%8F%E3%81%AE%E7%B5%86%E4%BD%9C%E6%88%A6%E6%B8%8B%E8%B0%B7%E5%87%AA%E5%92%B2%282020%E5%B9%B4%29.png/250px-%E3%82%B9%E3%83%88%E3%83%83%E3%83%97%E3%83%BB%E3%82%AA%E3%83%AC%E3%82%AA%E3%83%AC%E8%A9%90%E6%AC%BA47%E5%AE%B6%E6%97%8F%E3%81%AE%E7%B5%86%E4%BD%9C%E6%88%A6%E6%B8%8B%E8%B0%B7%E5%87%AA%E5%92%B2%282020%E5%B9%B4%29.png?utm_source=ja.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "groupId": "nmb48",
+    "franchise": "akb48g",
+    "title": "【鬼武者 Way of the Sword】 #3｜ネタバレ注意｜寄り道しすぎてストーリーすすまん 【日ノ森あんず】",
+    "publishedAt": "2026-09-13T11:11:57+00:00",
+    "url": "https://www.youtube.com/watch?v=Vq13Hxq6fYg",
+    "thumbnailUrl": "https://i3.ytimg.com/vi/Vq13Hxq6fYg/hqdefault.jpg",
+    "channelUrl": "https://www.youtube.com/@nagichannel"
+  },
+  {
     "id": "yt-ZoQMtVlXemo",
     "platform": "youtube",
     "videoId": "ZoQMtVlXemo",
@@ -1230,27 +1251,6 @@
     "memberGlyph": "行",
     "memberHueShift": -37,
     "memberImage": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100840.jpg",
-    "groupId": "akb48",
-    "franchise": "akb48g",
-    "title": "T.M.Revolutionさんと #好きish 🤘🏻❤️‍🔥 #西川貴教 #小栗有以 #倉野尾成美 #八木愛月 #伊藤百花 #TMRevolution さん #AKB48 #AKBが好きish",
-    "publishedAt": "2026-09-11T08:30:27+00:00",
-    "url": "https://www.youtube.com/watch?v=VNijoFIOQnI",
-    "thumbnailUrl": "https://i3.ytimg.com/vi/VNijoFIOQnI/hqdefault.jpg",
-    "channelUrl": "https://www.youtube.com/user/AKB48"
-  },
-  {
-    "id": "yt-VNijoFIOQnI",
-    "platform": "youtube",
-    "videoId": "VNijoFIOQnI",
-    "memberId": "akb48-kurosu-haruka",
-    "memberName": {
-      "ja": "黒須遥香",
-      "ko": "쿠로스 하루카",
-      "en": "Kurosu Haruka"
-    },
-    "memberGlyph": "黒",
-    "memberHueShift": 39,
-    "memberImage": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100937.jpg",
     "groupId": "akb48",
     "franchise": "akb48g",
     "title": "T.M.Revolutionさんと #好きish 🤘🏻❤️‍🔥 #西川貴教 #小栗有以 #倉野尾成美 #八木愛月 #伊藤百花 #TMRevolution さん #AKB48 #AKBが好きish",
