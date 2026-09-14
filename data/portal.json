@@ -94,6 +94,29 @@
       }
     },
     {
+      "id": "saku-auto-count-12078-14",
+      "groupIds": [
+        "sakurazaka46"
+      ],
+      "title": {
+        "ja": "「Sakurazaka46 ARENA TOUR 2026 -What’s lonesome?-」香川公演リピート配信",
+        "ko": "「Sakurazaka46 ARENA TOUR 2026 -What’s lonesome?-」香川公演リピート配信",
+        "en": "「Sakurazaka46 ARENA TOUR 2026 -What’s lonesome?-」香川公演リピート配信"
+      },
+      "kind": "concert",
+      "startsAt": "2026-09-14T11:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+      "provenance": {
+        "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202609",
+        "checkedAt": "2026-09-14"
+      }
+    },
+    {
       "id": "stu-auto-20260915-23207",
       "groupIds": [
         "stu48"
@@ -136,6 +159,29 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-09-14"
+      }
+    },
+    {
+      "id": "saku-auto-count-12092-15",
+      "groupIds": [
+        "sakurazaka46"
+      ],
+      "title": {
+        "ja": "「Sakurazaka46 ARENA TOUR 2026 -What’s lonesome?-」香川公演リピート配信",
+        "ko": "「Sakurazaka46 ARENA TOUR 2026 -What’s lonesome?-」香川公演リピート配信",
+        "en": "「Sakurazaka46 ARENA TOUR 2026 -What’s lonesome?-」香川公演リピート配信"
+      },
+      "kind": "concert",
+      "startsAt": "2026-09-15T11:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+      "provenance": {
+        "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202609",
         "checkedAt": "2026-09-14"
       }
     },
@@ -225,7 +271,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=4022&pri1=202609&wd00=2026&wd01=09&wd02=19",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/106810?ima=2200&pri1=202609&wd00=2026&wd01=09&wd02=19",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-14"
@@ -662,7 +708,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107345?ima=4022&pri1=202609&wd00=2026&wd01=09&wd02=26",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107345?ima=2200&pri1=202609&wd00=2026&wd01=09&wd02=26",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-14"
@@ -1122,7 +1168,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=4022&pri1=202610&wd00=2026&wd01=10&wd02=20",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=2208&pri1=202610&wd00=2026&wd01=10&wd02=20",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-14"
@@ -1237,7 +1283,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=4022&pri1=202610&wd00=2026&wd01=10&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=2208&pri1=202610&wd00=2026&wd01=10&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-14"
