@@ -44,5 +44,5 @@ jobs:
       - name: Commit link report if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore(links): weekly automated link health update'
+          commit_message: 'chore(links): weekly automated link health update [skip ci]'
           file_pattern: 'data/link-report.json'
