@@ -126,91 +126,6 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-0e9c21d412d0",
-    "groupId": "nogizaka46",
-    "franchise": "sakamichi",
-    "memberName": {
-      "ja": "乃木坂46",
-      "ko": "노기자카46",
-      "en": "Nogizaka46"
-    },
-    "memberGlyph": "乃",
-    "memberHueShift": 0,
-    "memberImage": null,
-    "title": "🐦 本日9月15日(火)24:00～、 TOKYO MX「小峠英二のなんて美だ！」に、 #池田瑛紗 が出演します⭕️ テーマは&apos;&apos;丸&apos;&apos;🙆‍♀️🙆‍♂️ 皆さま",
-    "publishedAt": "2026-09-15T00:00:00.000Z",
-    "url": "https://x.com/nogizaka46/status/2099844598784991548",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-a6f7b07a89da",
-    "groupId": "nogizaka46",
-    "franchise": "sakamichi",
-    "memberName": {
-      "ja": "乃木坂46",
-      "ko": "노기자카46",
-      "en": "Nogizaka46"
-    },
-    "memberGlyph": "乃",
-    "memberHueShift": 0,
-    "memberImage": null,
-    "title": "🐦 本日9月15日(火)23:00から、 BAYFM「乃木坂46 柴田柚菜のDreaming time」に #柴田柚菜 が出演します🧓🏻👵🏻 みなさま、ぜひお聴きください🍂 https://pr",
-    "publishedAt": "2026-09-15T00:00:00.000Z",
-    "url": "https://x.com/nogizaka46/status/2099841850853265726",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-56af736835f8",
-    "groupId": "nogizaka46",
-    "franchise": "sakamichi",
-    "memberName": {
-      "ja": "乃木坂46",
-      "ko": "노기자카46",
-      "en": "Nogizaka46"
-    },
-    "memberGlyph": "乃",
-    "memberHueShift": 0,
-    "memberImage": null,
-    "title": "🐦 本日9月15日(火)21:00〜、 FM FUJI「#フニャフニャ伝説」に #愛宕心響 が生出演します🎧🎶 ぜひ、お聴きください🫶🏻 @fmfujiaoiro1gou #乃木坂46",
-    "publishedAt": "2026-09-15T00:00:00.000Z",
-    "url": "https://x.com/nogizaka46/status/2099822875691889017",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-8f0f788a8391",
-    "groupId": "nogizaka46",
-    "franchise": "sakamichi",
-    "memberName": {
-      "ja": "乃木坂46",
-      "ko": "노기자카46",
-      "en": "Nogizaka46"
-    },
-    "memberGlyph": "乃",
-    "memberHueShift": 0,
-    "memberImage": null,
-    "title": "🐦 本日9月15日(月)19:00頃～、 #SHOWROOM 「#のぎおび」に、#矢田萌華 が出演します🧀💜 皆さま、ぜひご覧ください🦔 https://www.showroom-live.com/",
-    "publishedAt": "2026-09-15T00:00:00.000Z",
-    "url": "https://x.com/nogizaka46/status/2099800170074701966",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-598c4ada6b3a",
-    "groupId": "nogizaka46",
-    "franchise": "sakamichi",
-    "memberName": {
-      "ja": "乃木坂46",
-      "ko": "노기자카46",
-      "en": "Nogizaka46"
-    },
-    "memberGlyph": "乃",
-    "memberHueShift": 0,
-    "memberImage": null,
-    "title": "🐦 【ニュース更新】 川﨑桜が「CanCam」専属モデルに決定！ https://dlvr.it/TVTkwz",
-    "publishedAt": "2026-09-15T00:00:00.000Z",
-    "url": "https://x.com/nogizaka46/status/2099744151982244020",
-    "type": "official_blog"
-  },
-  {
     "id": "ske-686a7ef520db",
     "groupId": "ske48",
     "franchise": "akb48g",
@@ -316,7 +231,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-03a5c7ca4da6",
+    "id": "nogi-5cf562822775",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -329,11 +244,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mobjvGZLG.jpg",
     "title": "ニャンとも幸せな日",
     "publishedAt": "2026-09-14T20:48:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104838?ima=5837&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104838?ima=4216&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-9b04794e5c5e",
+    "id": "nogi-fd92aab87ee9",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -346,7 +261,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mob1RjQqI.jpg",
     "title": "青春亡霊長嶋凛桜",
     "publishedAt": "2026-09-14T20:21:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104837?ima=5837&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104837?ima=4216&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -577,7 +492,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-eecbb92983ac",
+    "id": "nogi-755a2a5afd14",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -590,7 +505,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mobSks8iI.jpg",
     "title": "牛タンと揚げもみじ",
     "publishedAt": "2026-09-13T21:23:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104836?ima=5837&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104836?ima=4216&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -820,7 +735,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-6fb15a364fdf",
+    "id": "nogi-2ff9b643a317",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -833,7 +748,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mob8XeMrZ.jpg",
     "title": "ヒグラシの声がする",
     "publishedAt": "2026-09-12T20:37:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104835?ima=5837&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104835?ima=4216&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -903,6 +818,91 @@
     "title": "AKB48 Team A 7th Stage「M.T.に捧ぐ」アルバム 12月16日発売決定！",
     "publishedAt": "2026-09-12T00:00:00.000Z",
     "url": "https://ameblo.jp/akihabara48/entry-12978495505.html",
+    "type": "official_blog"
+  },
+  {
+    "id": "nogi-5a61683c36a2",
+    "groupId": "nogizaka46",
+    "franchise": "sakamichi",
+    "memberName": {
+      "ja": "乃木坂46",
+      "ko": "乃木坂46",
+      "en": "乃木坂46"
+    },
+    "memberGlyph": "乃",
+    "memberHueShift": 0,
+    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mobesgjyw.png",
+    "title": "てれぱん屋さん",
+    "publishedAt": "2026-09-10T20:55:00.000Z",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104834?ima=4216&cd=MEMBER",
+    "type": "official_blog"
+  },
+  {
+    "id": "nogi-e255ea2eb699",
+    "groupId": "nogizaka46",
+    "franchise": "sakamichi",
+    "memberName": {
+      "ja": "乃木坂46",
+      "ko": "乃木坂46",
+      "en": "乃木坂46"
+    },
+    "memberGlyph": "乃",
+    "memberHueShift": 0,
+    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mob20tJzZ.jpg",
+    "title": "優しさの旋律",
+    "publishedAt": "2026-09-08T18:46:00.000Z",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104822?ima=4216&cd=MEMBER",
+    "type": "official_blog"
+  },
+  {
+    "id": "nogi-2e021d60dd7e",
+    "groupId": "nogizaka46",
+    "franchise": "sakamichi",
+    "memberName": {
+      "ja": "乃木坂46",
+      "ko": "乃木坂46",
+      "en": "乃木坂46"
+    },
+    "memberGlyph": "乃",
+    "memberHueShift": 0,
+    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mobiZCIR6.jpg",
+    "title": "内緒",
+    "publishedAt": "2026-09-07T19:24:00.000Z",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104821?ima=4216&cd=MEMBER",
+    "type": "official_blog"
+  },
+  {
+    "id": "nogi-0abfaa2bb720",
+    "groupId": "nogizaka46",
+    "franchise": "sakamichi",
+    "memberName": {
+      "ja": "乃木坂46",
+      "ko": "乃木坂46",
+      "en": "乃木坂46"
+    },
+    "memberGlyph": "乃",
+    "memberHueShift": 0,
+    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mobPgc6LF.jpg",
+    "title": "最高のツアー！",
+    "publishedAt": "2026-09-06T19:47:00.000Z",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104820?ima=4216&cd=MEMBER",
+    "type": "official_blog"
+  },
+  {
+    "id": "nogi-72d469ae74cc",
+    "groupId": "nogizaka46",
+    "franchise": "sakamichi",
+    "memberName": {
+      "ja": "乃木坂46",
+      "ko": "乃木坂46",
+      "en": "乃木坂46"
+    },
+    "memberGlyph": "乃",
+    "memberHueShift": 0,
+    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202609/mob2mlAIw.jpg",
+    "title": "夏のあとがき",
+    "publishedAt": "2026-09-06T10:46:00.000Z",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104819?ima=4216&cd=MEMBER",
     "type": "official_blog"
   }
 ]
