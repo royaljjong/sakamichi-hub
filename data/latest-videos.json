@@ -1,5 +1,26 @@
 [
   {
+    "id": "yt-kcf10_ynMjk",
+    "platform": "youtube",
+    "videoId": "kcf10_ynMjk",
+    "memberId": "nmb48-shibuya-nagisa",
+    "memberName": {
+      "ja": "渋谷凪咲",
+      "ko": "시부야 나기사",
+      "en": "Shibuya Nagisa"
+    },
+    "memberGlyph": "渋",
+    "memberHueShift": 17,
+    "memberImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/%E3%82%B9%E3%83%88%E3%83%83%E3%83%97%E3%83%BB%E3%82%AA%E3%83%AC%E3%82%AA%E3%83%AC%E8%A9%90%E6%AC%BA47%E5%AE%B6%E6%97%8F%E3%81%AE%E7%B5%86%E4%BD%9C%E6%88%A6%E6%B8%8B%E8%B0%B7%E5%87%AA%E5%92%B2%282020%E5%B9%B4%29.png/250px-%E3%82%B9%E3%83%88%E3%83%83%E3%83%97%E3%83%BB%E3%82%AA%E3%83%AC%E3%82%AA%E3%83%AC%E8%A9%90%E6%AC%BA47%E5%AE%B6%E6%97%8F%E3%81%AE%E7%B5%86%E4%BD%9C%E6%88%A6%E6%B8%8B%E8%B0%B7%E5%87%AA%E5%92%B2%282020%E5%B9%B4%29.png?utm_source=ja.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "groupId": "nmb48",
+    "franchise": "akb48g",
+    "title": "【ファイアーエムブレム 万紫千紅】 #1｜ネタバレ注意｜FE新作！世界を救う戦いへ…！ 【日ノ森あんず】",
+    "publishedAt": "2026-09-16T15:02:52+00:00",
+    "url": "https://www.youtube.com/watch?v=kcf10_ynMjk",
+    "thumbnailUrl": "https://i4.ytimg.com/vi/kcf10_ynMjk/hqdefault.jpg",
+    "channelUrl": "https://www.youtube.com/@nagichannel"
+  },
+  {
     "id": "yt-Ck0jCp9BCKM",
     "platform": "youtube",
     "videoId": "Ck0jCp9BCKM",
@@ -1230,27 +1251,6 @@
     "memberGlyph": "水",
     "memberHueShift": -25,
     "memberImage": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101007.jpg",
-    "groupId": "akb48",
-    "franchise": "akb48g",
-    "title": "#ICEx #山本龍人 さん #八神遼介さんと好きish🤘🏻🩷🤍コラボありがとうござました🧊#伊藤百花  #千葉恵里 #AKB48 #AKBが好きish",
-    "publishedAt": "2026-09-14T12:00:36+00:00",
-    "url": "https://www.youtube.com/watch?v=1L3gIlaeMk0",
-    "thumbnailUrl": "https://i2.ytimg.com/vi/1L3gIlaeMk0/hqdefault.jpg",
-    "channelUrl": "https://www.youtube.com/user/AKB48"
-  },
-  {
-    "id": "yt-1L3gIlaeMk0",
-    "platform": "youtube",
-    "videoId": "1L3gIlaeMk0",
-    "memberId": "akb48-kudou-kasumi",
-    "memberName": {
-      "ja": "工藤華純",
-      "ko": "쿠도우 카스미",
-      "en": "Kudou Kasumi"
-    },
-    "memberGlyph": "工",
-    "memberHueShift": 19,
-    "memberImage": "https://d2r1lkk9i7row.cloudfront.net/hashiranokai/member/83101011.jpg",
     "groupId": "akb48",
     "franchise": "akb48g",
     "title": "#ICEx #山本龍人 さん #八神遼介さんと好きish🤘🏻🩷🤍コラボありがとうござました🧊#伊藤百花  #千葉恵里 #AKB48 #AKBが好きish",
