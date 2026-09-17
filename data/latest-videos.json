@@ -1,5 +1,26 @@
 [
   {
+    "id": "yt-0EOT3NSY5wQ",
+    "platform": "youtube",
+    "videoId": "0EOT3NSY5wQ",
+    "memberId": "nmb48-shibuya-nagisa",
+    "memberName": {
+      "ja": "渋谷凪咲",
+      "ko": "시부야 나기사",
+      "en": "Shibuya Nagisa"
+    },
+    "memberGlyph": "渋",
+    "memberHueShift": 17,
+    "memberImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/%E3%82%B9%E3%83%88%E3%83%83%E3%83%97%E3%83%BB%E3%82%AA%E3%83%AC%E3%82%AA%E3%83%AC%E8%A9%90%E6%AC%BA47%E5%AE%B6%E6%97%8F%E3%81%AE%E7%B5%86%E4%BD%9C%E6%88%A6%E6%B8%8B%E8%B0%B7%E5%87%AA%E5%92%B2%282020%E5%B9%B4%29.png/250px-%E3%82%B9%E3%83%88%E3%83%83%E3%83%97%E3%83%BB%E3%82%AA%E3%83%AC%E3%82%AA%E3%83%AC%E8%A9%90%E6%AC%BA47%E5%AE%B6%E6%97%8F%E3%81%AE%E7%B5%86%E4%BD%9C%E6%88%A6%E6%B8%8B%E8%B0%B7%E5%87%AA%E5%92%B2%282020%E5%B9%B4%29.png?utm_source=ja.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "groupId": "nmb48",
+    "franchise": "akb48g",
+    "title": "【ファイアーエムブレム 万紫千紅】 #2｜ネタバレ注意｜ディートリヒ篇、つづきから～～～～！ 【日ノ森あんず】",
+    "publishedAt": "2026-09-17T16:31:45+00:00",
+    "url": "https://www.youtube.com/watch?v=0EOT3NSY5wQ",
+    "thumbnailUrl": "https://i1.ytimg.com/vi/0EOT3NSY5wQ/hqdefault.jpg",
+    "channelUrl": "https://www.youtube.com/@nagichannel"
+  },
+  {
     "id": "yt-kcf10_ynMjk",
     "platform": "youtube",
     "videoId": "kcf10_ynMjk",
@@ -348,27 +369,6 @@
     "memberGlyph": "梁",
     "memberHueShift": -33,
     "memberImage": "https://cf-pc.c-hkt48.com/img/profile/images/0117_240.jpg",
-    "groupId": "hkt48",
-    "franchise": "akb48g",
-    "title": "【あいゴル#18】市村・栗原の100切りチャレンジ完結編！",
-    "publishedAt": "2026-09-15T12:00:16+00:00",
-    "url": "https://www.youtube.com/watch?v=3eLMRfSNsg4",
-    "thumbnailUrl": "https://i4.ytimg.com/vi/3eLMRfSNsg4/hqdefault.jpg",
-    "channelUrl": "https://www.youtube.com/user/HKT48"
-  },
-  {
-    "id": "yt-3eLMRfSNsg4",
-    "platform": "youtube",
-    "videoId": "3eLMRfSNsg4",
-    "memberId": "hkt48-yamauchi-yuuna",
-    "memberName": {
-      "ja": "山内祐奈",
-      "ko": "야마우치 유우나",
-      "en": "Yamauchi Yuuna"
-    },
-    "memberGlyph": "山",
-    "memberHueShift": 26,
-    "memberImage": "https://cf-pc.c-hkt48.com/img/profile/images/0052_240.jpg",
     "groupId": "hkt48",
     "franchise": "akb48g",
     "title": "【あいゴル#18】市村・栗原の100切りチャレンジ完結編！",
