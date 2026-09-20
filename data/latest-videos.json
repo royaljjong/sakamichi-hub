@@ -948,6 +948,27 @@
     "id": "yt--tgftddwxpw",
     "platform": "youtube",
     "videoId": "-tgftddwxpw",
+    "memberId": "hkt48-ishimatsu-yuina",
+    "memberName": {
+      "ja": "石松結菜",
+      "ko": "이시마쓰 유이나",
+      "en": "Ishimatsu Yuina"
+    },
+    "memberGlyph": "石",
+    "memberHueShift": -25,
+    "memberImage": "https://cf-pc.c-hkt48.com/img/profile/images/0102_240.jpg",
+    "groupId": "hkt48",
+    "franchise": "akb48g",
+    "title": "【己の運で掴み取れ！】第一回運だけ王決定戦！",
+    "publishedAt": "2026-09-20T03:00:02+00:00",
+    "url": "https://www.youtube.com/watch?v=-tgftddwxpw",
+    "thumbnailUrl": "https://i2.ytimg.com/vi/-tgftddwxpw/hqdefault.jpg",
+    "channelUrl": "https://www.youtube.com/user/HKT48"
+  },
+  {
+    "id": "yt--tgftddwxpw",
+    "platform": "youtube",
+    "videoId": "-tgftddwxpw",
     "memberId": "hkt48-kitagawa-hiiro",
     "memberName": {
       "ja": "北川陽彩",
@@ -1230,27 +1251,6 @@
     "memberGlyph": "大",
     "memberHueShift": 40,
     "memberImage": "https://cf-pc.c-hkt48.com/img/profile/images/0106_240.jpg",
-    "groupId": "hkt48",
-    "franchise": "akb48g",
-    "title": "【己の運で掴み取れ！】第一回運だけ王決定戦！",
-    "publishedAt": "2026-09-20T03:00:02+00:00",
-    "url": "https://www.youtube.com/watch?v=-tgftddwxpw",
-    "thumbnailUrl": "https://i2.ytimg.com/vi/-tgftddwxpw/hqdefault.jpg",
-    "channelUrl": "https://www.youtube.com/user/HKT48"
-  },
-  {
-    "id": "yt--tgftddwxpw",
-    "platform": "youtube",
-    "videoId": "-tgftddwxpw",
-    "memberId": "hkt48-kuriyama-rina",
-    "memberName": {
-      "ja": "栗山梨奈",
-      "ko": "쿠리야마 리나",
-      "en": "Kuriyama Rina"
-    },
-    "memberGlyph": "栗",
-    "memberHueShift": -15,
-    "memberImage": "https://cf-pc.c-hkt48.com/img/profile/images/0084_240.jpg",
     "groupId": "hkt48",
     "franchise": "akb48g",
     "title": "【己の運で掴み取れ！】第一回運だけ王決定戦！",
