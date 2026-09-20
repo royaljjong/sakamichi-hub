@@ -386,7 +386,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107345?ima=4004&pri1=202609&wd00=2026&wd01=09&wd02=26",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107345?ima=2159&pri1=202609&wd00=2026&wd01=09&wd02=26",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-20"
@@ -458,6 +458,29 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/22804",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
+        "checkedAt": "2026-09-20"
+      }
+    },
+    {
+      "id": "nogi-auto-107442-20260929",
+      "groupIds": [
+        "nogizaka46"
+      ],
+      "title": {
+        "ja": "「42ndSGアンダーライブ」",
+        "ko": "「42ndSGアンダーライブ」",
+        "en": "「42ndSGアンダーライブ」"
+      },
+      "kind": "concert",
+      "startsAt": "2026-09-29T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=2159&pri1=202609&wd00=2026&wd01=09&wd02=29",
+      "provenance": {
+        "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-20"
       }
     },
@@ -550,6 +573,29 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-09-20"
+      }
+    },
+    {
+      "id": "nogi-auto-107442-20260930",
+      "groupIds": [
+        "nogizaka46"
+      ],
+      "title": {
+        "ja": "「42ndSGアンダーライブ」",
+        "ko": "「42ndSGアンダーライブ」",
+        "en": "「42ndSGアンダーライブ」"
+      },
+      "kind": "concert",
+      "startsAt": "2026-09-30T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=2159&pri1=202609&wd00=2026&wd01=09&wd02=30",
+      "provenance": {
+        "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-20"
       }
     },
@@ -1306,7 +1352,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=4004&pri1=202610&wd00=2026&wd01=10&wd02=20",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=2200&pri1=202610&wd00=2026&wd01=10&wd02=20",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-20"
@@ -1421,7 +1467,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=4004&pri1=202610&wd00=2026&wd01=10&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=2200&pri1=202610&wd00=2026&wd01=10&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-20"
