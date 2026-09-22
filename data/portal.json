@@ -179,7 +179,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107345?ima=3905&pri1=202609&wd00=2026&wd01=09&wd02=26",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107345?ima=4121&pri1=202609&wd00=2026&wd01=09&wd02=26",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-22"
@@ -271,7 +271,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=3905&pri1=202609&wd00=2026&wd01=09&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=4121&pri1=202609&wd00=2026&wd01=09&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-22"
@@ -386,7 +386,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=3905&pri1=202609&wd00=2026&wd01=09&wd02=30",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=4121&pri1=202609&wd00=2026&wd01=09&wd02=30",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-22"
@@ -784,6 +784,29 @@
       }
     },
     {
+      "id": "hkt-auto-20261009-21254",
+      "groupIds": [
+        "hkt48"
+      ],
+      "title": {
+        "ja": "大分コントしてっちゃ／大分ホルトホール",
+        "ko": "大分コントしてっちゃ／大分ホルトホール",
+        "en": "大分コントしてっちゃ／大分ホルトホール"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-10-09T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hkt48.jp/schedule/2026/10/21254",
+      "provenance": {
+        "sourceUrl": "https://www.hkt48.jp/schedule/2026/10",
+        "checkedAt": "2026-09-22"
+      }
+    },
+    {
       "id": "akb48-theater-auto-95997",
       "groupIds": [
         "akb48"
@@ -918,6 +941,29 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "hkt-auto-20261011-21253",
+      "groupIds": [
+        "hkt48"
+      ],
+      "title": {
+        "ja": "長崎コントばしてくれん／長崎歴史文化博物館",
+        "ko": "長崎コントばしてくれん／長崎歴史文化博物館",
+        "en": "長崎コントばしてくれん／長崎歴史文化博物館"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-10-11T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hkt48.jp/schedule/2026/10/21253",
+      "provenance": {
+        "sourceUrl": "https://www.hkt48.jp/schedule/2026/10",
         "checkedAt": "2026-09-22"
       }
     },
@@ -1237,7 +1283,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=3913&pri1=202610&wd00=2026&wd01=10&wd02=20",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=4121&pri1=202610&wd00=2026&wd01=10&wd02=20",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-22"
@@ -1352,7 +1398,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=3913&pri1=202610&wd00=2026&wd01=10&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=4121&pri1=202610&wd00=2026&wd01=10&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-22"
