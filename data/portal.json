@@ -110,7 +110,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107345?ima=4551&pri1=202609&wd00=2026&wd01=09&wd02=26",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107345?ima=5417&pri1=202609&wd00=2026&wd01=09&wd02=26",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-25"
@@ -225,7 +225,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=4551&pri1=202609&wd00=2026&wd01=09&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=5417&pri1=202609&wd00=2026&wd01=09&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-25"
@@ -340,7 +340,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=4551&pri1=202609&wd00=2026&wd01=09&wd02=30",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=5417&pri1=202609&wd00=2026&wd01=09&wd02=30",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-25"
@@ -412,6 +412,29 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-09-25"
+      }
+    },
+    {
+      "id": "hkt-auto-20261001-21292",
+      "groupIds": [
+        "hkt48"
+      ],
+      "title": {
+        "ja": "第80回赤い羽根共同募金運動／JR博多駅前広場 大屋根イベントスペース",
+        "ko": "第80回赤い羽根共同募金運動／JR博多駅前広場 大屋根イベントスペース",
+        "en": "第80回赤い羽根共同募金運動／JR博多駅前広場 大屋根イベントスペース"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-10-01T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hkt48.jp/schedule/2026/10/21292",
+      "provenance": {
+        "sourceUrl": "https://www.hkt48.jp/schedule/2026/10",
         "checkedAt": "2026-09-25"
       }
     },
@@ -784,29 +807,6 @@
       }
     },
     {
-      "id": "stu-auto-20261009-23405",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演",
-        "ko": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演",
-        "en": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演"
-      },
-      "kind": "theater",
-      "startsAt": "2026-10-09T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23405",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-25"
-      }
-    },
-    {
       "id": "akb48-theater-auto-95997",
       "groupIds": [
         "akb48"
@@ -991,29 +991,6 @@
       }
     },
     {
-      "id": "stu-auto-20261011-23388",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "New Wave Project 放課後音楽祭",
-        "ko": "New Wave Project 放課後音楽祭",
-        "en": "New Wave Project 放課後音楽祭"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-10-11T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23388",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-25"
-      }
-    },
-    {
       "id": "stu-auto-20261011-23371",
       "groupIds": [
         "stu48"
@@ -1031,6 +1008,29 @@
       "price": null,
       "ticketUrl": null,
       "officialUrl": "https://www.stu48.com/schedule/detail/23371",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
+        "checkedAt": "2026-09-25"
+      }
+    },
+    {
+      "id": "stu-auto-20261011-23388",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "New Wave Project 放課後音楽祭",
+        "ko": "New Wave Project 放課後音楽祭",
+        "en": "New Wave Project 放課後音楽祭"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-10-11T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23388",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
         "checkedAt": "2026-09-25"
@@ -1306,7 +1306,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=4551&pri1=202610&wd00=2026&wd01=10&wd02=20",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=5417&pri1=202610&wd00=2026&wd01=10&wd02=20",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-25"
@@ -1336,29 +1336,6 @@
       }
     },
     {
-      "id": "stu-auto-20261024-23332",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "加藤汽船グループ150周年の2027年に、「あおい」の1日船長",
-        "ko": "加藤汽船グループ150周年の2027年に、「あおい」の1日船長",
-        "en": "加藤汽船グループ150周年の2027年に、「あおい」の1日船長"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-10-24T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23332",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-25"
-      }
-    },
-    {
       "id": "stu-auto-20261024-23331",
       "groupIds": [
         "stu48"
@@ -1376,6 +1353,29 @@
       "price": null,
       "ticketUrl": null,
       "officialUrl": "https://www.stu48.com/schedule/detail/23331",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
+        "checkedAt": "2026-09-25"
+      }
+    },
+    {
+      "id": "stu-auto-20261024-23332",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "加藤汽船グループ150周年の2027年に、「あおい」の1日船長",
+        "ko": "加藤汽船グループ150周年の2027年に、「あおい」の1日船長",
+        "en": "加藤汽船グループ150周年の2027年に、「あおい」の1日船長"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-10-24T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23332",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
         "checkedAt": "2026-09-25"
@@ -1444,7 +1444,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=4551&pri1=202610&wd00=2026&wd01=10&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=5417&pri1=202610&wd00=2026&wd01=10&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-25"
