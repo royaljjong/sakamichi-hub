@@ -71,29 +71,6 @@
       }
     },
     {
-      "id": "stu-auto-20260927-22804",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "STU48 Live Tour 2026",
-        "ko": "STU48 Live Tour 2026",
-        "en": "STU48 Live Tour 2026"
-      },
-      "kind": "theater",
-      "startsAt": "2026-09-27T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/22804",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
-        "checkedAt": "2026-09-27"
-      }
-    },
-    {
       "id": "nogi-auto-107442-20260929",
       "groupIds": [
         "nogizaka46"
@@ -110,7 +87,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=0712&pri1=202609&wd00=2026&wd01=09&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=0714&pri1=202609&wd00=2026&wd01=09&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-27"
@@ -163,29 +140,6 @@
       }
     },
     {
-      "id": "stu-auto-20260929-23208",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "STU48「アイドルの夜明け」公演〜信濃宙花生誕祭〜",
-        "ko": "STU48「アイドルの夜明け」公演〜信濃宙花生誕祭〜",
-        "en": "STU48「アイドルの夜明け」公演〜信濃宙花生誕祭〜"
-      },
-      "kind": "theater",
-      "startsAt": "2026-09-29T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23208",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
-        "checkedAt": "2026-09-27"
-      }
-    },
-    {
       "id": "akb48-theater-auto-95944",
       "groupIds": [
         "akb48"
@@ -225,7 +179,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=0712&pri1=202609&wd00=2026&wd01=09&wd02=30",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=0714&pri1=202609&wd00=2026&wd01=09&wd02=30",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-27"
@@ -251,29 +205,6 @@
       "officialUrl": "https://sakurazaka46.com/s/s46/page/backslive_15th?ima=0000",
       "provenance": {
         "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202609",
-        "checkedAt": "2026-09-27"
-      }
-    },
-    {
-      "id": "stu-auto-20260930-23209",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演",
-        "ko": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演",
-        "en": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演"
-      },
-      "kind": "theater",
-      "startsAt": "2026-09-30T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23209",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
         "checkedAt": "2026-09-27"
       }
     },
@@ -386,7 +317,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107485?ima=0712&pri1=202610&wd00=2026&wd01=10&wd02=03",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107485?ima=0714&pri1=202610&wd00=2026&wd01=10&wd02=03",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-27"
@@ -412,29 +343,6 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/10/21246",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/10",
-        "checkedAt": "2026-09-27"
-      }
-    },
-    {
-      "id": "stu-auto-20261003-23044",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "「YOKOSO SHIZUOKA SP DAY1」",
-        "ko": "「YOKOSO SHIZUOKA SP DAY1」",
-        "en": "「YOKOSO SHIZUOKA SP DAY1」"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-10-03T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23044",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
         "checkedAt": "2026-09-27"
       }
     },
@@ -508,29 +416,6 @@
       }
     },
     {
-      "id": "stu-auto-20261004-23167",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "STU48 Live Tour 2026 東京追加公演",
-        "ko": "STU48 Live Tour 2026 東京追加公演",
-        "en": "STU48 Live Tour 2026 東京追加公演"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-10-04T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23167",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-27"
-      }
-    },
-    {
       "id": "akb48-theater-auto-95994",
       "groupIds": [
         "akb48"
@@ -596,52 +481,6 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-27"
-      }
-    },
-    {
-      "id": "stu-auto-20261007-23349",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "【リリイベ第3弾】STU48　14thシングル「冬服に着替えたら」発売日当日イベント",
-        "ko": "【リリイベ第3弾】STU48　14thシングル「冬服に着替えたら」発売日当日イベント",
-        "en": "【リリイベ第3弾】STU48　14thシングル「冬服に着替えたら」発売日当日イベント"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-10-07T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23349",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-27"
-      }
-    },
-    {
-      "id": "stu-auto-20261007-23373",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "STU48 甲斐心愛スペシャルソロイベント「今宵１番ホットになれる“合言葉”は〜？“甲斐心愛”！！！」",
-        "ko": "STU48 甲斐心愛スペシャルソロイベント「今宵１番ホットになれる“合言葉”は〜？“甲斐心愛”！！！」",
-        "en": "STU48 甲斐心愛スペシャルソロイベント「今宵１番ホットになれる“合言葉”は〜？“甲斐心愛”！！！」"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-10-07T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23373",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
         "checkedAt": "2026-09-27"
       }
     },
@@ -715,29 +554,6 @@
       }
     },
     {
-      "id": "stu-auto-20261009-23405",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演",
-        "ko": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演",
-        "en": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演"
-      },
-      "kind": "theater",
-      "startsAt": "2026-10-09T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23405",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-27"
-      }
-    },
-    {
       "id": "akb48-theater-auto-95997",
       "groupIds": [
         "akb48"
@@ -803,29 +619,6 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/10/21248",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/10",
-        "checkedAt": "2026-09-27"
-      }
-    },
-    {
-      "id": "stu-auto-20261010-23108",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "オンライン個別お話し会",
-        "ko": "オンライン個別お話し会",
-        "en": "オンライン個別お話し会"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-10-10T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23108",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
         "checkedAt": "2026-09-27"
       }
     },
@@ -922,52 +715,6 @@
       }
     },
     {
-      "id": "stu-auto-20261011-23388",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "New Wave Project 放課後音楽祭",
-        "ko": "New Wave Project 放課後音楽祭",
-        "en": "New Wave Project 放課後音楽祭"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-10-11T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23388",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-27"
-      }
-    },
-    {
-      "id": "stu-auto-20261011-23371",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "MATSUYAMA GROOVE Fes 2026",
-        "ko": "MATSUYAMA GROOVE Fes 2026",
-        "en": "MATSUYAMA GROOVE Fes 2026"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-10-11T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23371",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-27"
-      }
-    },
-    {
       "id": "akb48-theater-auto-96001",
       "groupIds": [
         "akb48"
@@ -1010,29 +757,6 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-27"
-      }
-    },
-    {
-      "id": "stu-auto-20261012-23358",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "STU48 14thシングル「冬服に着替えたら」発売記念イベント＠アリオ倉敷",
-        "ko": "STU48 14thシングル「冬服に着替えたら」発売記念イベント＠アリオ倉敷",
-        "en": "STU48 14thシングル「冬服に着替えたら」発売記念イベント＠アリオ倉敷"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-10-12T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23358",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
         "checkedAt": "2026-09-27"
       }
     },
@@ -1175,52 +899,6 @@
       }
     },
     {
-      "id": "stu-auto-20261017-22805",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "STU48 Live Tour 2026",
-        "ko": "STU48 Live Tour 2026",
-        "en": "STU48 Live Tour 2026"
-      },
-      "kind": "theater",
-      "startsAt": "2026-10-17T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/22805",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-27"
-      }
-    },
-    {
-      "id": "stu-auto-20261018-22806",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "STU48 Live Tour 2026",
-        "ko": "STU48 Live Tour 2026",
-        "en": "STU48 Live Tour 2026"
-      },
-      "kind": "theater",
-      "startsAt": "2026-10-18T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/22806",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-27"
-      }
-    },
-    {
       "id": "nogi-auto-107229-20261020",
       "groupIds": [
         "nogizaka46"
@@ -1237,78 +915,9 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=0712&pri1=202610&wd00=2026&wd01=10&wd02=20",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=0714&pri1=202610&wd00=2026&wd01=10&wd02=20",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
-        "checkedAt": "2026-09-27"
-      }
-    },
-    {
-      "id": "stu-auto-20261021-23406",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "STU48「アイドルの夜明け」公演",
-        "ko": "STU48「アイドルの夜明け」公演",
-        "en": "STU48「アイドルの夜明け」公演"
-      },
-      "kind": "theater",
-      "startsAt": "2026-10-21T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23406",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-27"
-      }
-    },
-    {
-      "id": "stu-auto-20261024-23332",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "加藤汽船グループ150周年の2027年に、「あおい」の1日船長",
-        "ko": "加藤汽船グループ150周年の2027年に、「あおい」の1日船長",
-        "en": "加藤汽船グループ150周年の2027年に、「あおい」の1日船長"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-10-24T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23332",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-27"
-      }
-    },
-    {
-      "id": "stu-auto-20261024-23331",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "聖カタリナ大学　大学祭",
-        "ko": "聖カタリナ大学　大学祭",
-        "en": "聖カタリナ大学　大学祭"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-10-24T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23331",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
         "checkedAt": "2026-09-27"
       }
     },
@@ -1336,29 +945,6 @@
       }
     },
     {
-      "id": "stu-auto-20261025-23359",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "STU48　14thシングル「冬服に着替えたら」発売記念リリースイベント@阪急西宮ガーデンズ",
-        "ko": "STU48　14thシングル「冬服に着替えたら」発売記念リリースイベント@阪急西宮ガーデンズ",
-        "en": "STU48　14thシングル「冬服に着替えたら」発売記念リリースイベント@阪急西宮ガーデンズ"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-10-25T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23359",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-27"
-      }
-    },
-    {
       "id": "nogi-auto-107278-20261029",
       "groupIds": [
         "nogizaka46"
@@ -1375,7 +961,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=0712&pri1=202610&wd00=2026&wd01=10&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=0714&pri1=202610&wd00=2026&wd01=10&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-27"
