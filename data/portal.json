@@ -87,7 +87,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=5048&pri1=202609&wd00=2026&wd01=09&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=3027&pri1=202609&wd00=2026&wd01=09&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-28"
@@ -202,7 +202,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=5048&pri1=202609&wd00=2026&wd01=09&wd02=30",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=3027&pri1=202609&wd00=2026&wd01=09&wd02=30",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-28"
@@ -363,7 +363,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107485?ima=5048&pri1=202610&wd00=2026&wd01=10&wd02=03",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107485?ima=3028&pri1=202610&wd00=2026&wd01=10&wd02=03",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-28"
@@ -899,29 +899,6 @@
       }
     },
     {
-      "id": "stu-auto-20261011-23388",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "New Wave Project 放課後音楽祭",
-        "ko": "New Wave Project 放課後音楽祭",
-        "en": "New Wave Project 放課後音楽祭"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-10-11T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23388",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-28"
-      }
-    },
-    {
       "id": "stu-auto-20261011-23371",
       "groupIds": [
         "stu48"
@@ -939,6 +916,29 @@
       "price": null,
       "ticketUrl": null,
       "officialUrl": "https://www.stu48.com/schedule/detail/23371",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
+        "checkedAt": "2026-09-28"
+      }
+    },
+    {
+      "id": "stu-auto-20261011-23388",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "New Wave Project 放課後音楽祭",
+        "ko": "New Wave Project 放課後音楽祭",
+        "en": "New Wave Project 放課後音楽祭"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-10-11T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23388",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
         "checkedAt": "2026-09-28"
@@ -1214,7 +1214,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=5048&pri1=202610&wd00=2026&wd01=10&wd02=20",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=3028&pri1=202610&wd00=2026&wd01=10&wd02=20",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-28"
@@ -1352,9 +1352,32 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=5048&pri1=202610&wd00=2026&wd01=10&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=3028&pri1=202610&wd00=2026&wd01=10&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
+        "checkedAt": "2026-09-28"
+      }
+    },
+    {
+      "id": "stu-auto-20261030-23419",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "10月30日(金)「IDOL HALLOWEEN JAPAN 2026 Supported by Malymoon」",
+        "ko": "10月30日(金)「IDOL HALLOWEEN JAPAN 2026 Supported by Malymoon」",
+        "en": "10月30日(金)「IDOL HALLOWEEN JAPAN 2026 Supported by Malymoon」"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-10-30T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23419",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
         "checkedAt": "2026-09-28"
       }
     }
