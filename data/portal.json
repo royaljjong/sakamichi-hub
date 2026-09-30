@@ -87,7 +87,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=1600&pri1=202609&wd00=2026&wd01=09&wd02=30",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=4032&pri1=202609&wd00=2026&wd01=09&wd02=30",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
         "checkedAt": "2026-09-30"
@@ -248,7 +248,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107485?ima=1619&pri1=202610&wd00=2026&wd01=10&wd02=03",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107485?ima=4032&pri1=202610&wd00=2026&wd01=10&wd02=03",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-30"
@@ -379,7 +379,7 @@
         "ko": "STU48 Live Tour 2026 東京追加公演",
         "en": "STU48 Live Tour 2026 東京追加公演"
       },
-      "kind": "appearance",
+      "kind": "theater",
       "startsAt": "2026-10-04T03:00:00.000+00:00",
       "endsAt": null,
       "venueId": null,
@@ -462,29 +462,6 @@
       }
     },
     {
-      "id": "stu-auto-20261007-23349",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "【リリイベ第3弾】STU48　14thシングル「冬服に着替えたら」発売日当日イベント",
-        "ko": "【リリイベ第3弾】STU48　14thシングル「冬服に着替えたら」発売日当日イベント",
-        "en": "【リリイベ第3弾】STU48　14thシングル「冬服に着替えたら」発売日当日イベント"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-10-07T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23349",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-30"
-      }
-    },
-    {
       "id": "stu-auto-20261007-23373",
       "groupIds": [
         "stu48"
@@ -502,6 +479,29 @@
       "price": null,
       "ticketUrl": null,
       "officialUrl": "https://www.stu48.com/schedule/detail/23373",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
+        "checkedAt": "2026-09-30"
+      }
+    },
+    {
+      "id": "stu-auto-20261007-23349",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "【リリイベ第3弾】STU48　14thシングル「冬服に着替えたら」発売日当日イベント",
+        "ko": "【リリイベ第3弾】STU48　14thシングル「冬服に着替えたら」発売日当日イベント",
+        "en": "【リリイベ第3弾】STU48　14thシングル「冬服に着替えたら」発売日当日イベント"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-10-07T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23349",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
         "checkedAt": "2026-09-30"
@@ -1122,7 +1122,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=1619&pri1=202610&wd00=2026&wd01=10&wd02=20",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=4032&pri1=202610&wd00=2026&wd01=10&wd02=20",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-30"
@@ -1152,29 +1152,6 @@
       }
     },
     {
-      "id": "stu-auto-20261024-23332",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "加藤汽船グループ150周年の2027年に、「あおい」の1日船長",
-        "ko": "加藤汽船グループ150周年の2027年に、「あおい」の1日船長",
-        "en": "加藤汽船グループ150周年の2027年に、「あおい」の1日船長"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-10-24T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23332",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-30"
-      }
-    },
-    {
       "id": "stu-auto-20261024-23331",
       "groupIds": [
         "stu48"
@@ -1192,6 +1169,29 @@
       "price": null,
       "ticketUrl": null,
       "officialUrl": "https://www.stu48.com/schedule/detail/23331",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
+        "checkedAt": "2026-09-30"
+      }
+    },
+    {
+      "id": "stu-auto-20261024-23332",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "加藤汽船グループ150周年の2027年に、「あおい」の1日船長",
+        "ko": "加藤汽船グループ150周年の2027年に、「あおい」の1日船長",
+        "en": "加藤汽船グループ150周年の2027年に、「あおい」の1日船長"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-10-24T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23332",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
         "checkedAt": "2026-09-30"
@@ -1260,7 +1260,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=1619&pri1=202610&wd00=2026&wd01=10&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=4032&pri1=202610&wd00=2026&wd01=10&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-09-30"
