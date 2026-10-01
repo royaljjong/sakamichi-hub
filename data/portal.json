@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-30",
+  "generatedAt": "2026-10-01",
   "brandAssets": [],
   "venues": [
     {
@@ -71,98 +71,6 @@
       }
     },
     {
-      "id": "nogi-auto-107442-20260930",
-      "groupIds": [
-        "nogizaka46"
-      ],
-      "title": {
-        "ja": "「42ndSGアンダーライブ」",
-        "ko": "「42ndSGアンダーライブ」",
-        "en": "「42ndSGアンダーライブ」"
-      },
-      "kind": "concert",
-      "startsAt": "2026-09-30T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107442?ima=4337&pri1=202609&wd00=2026&wd01=09&wd02=30",
-      "provenance": {
-        "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202609",
-        "checkedAt": "2026-09-30"
-      }
-    },
-    {
-      "id": "saku-auto-count-11766-30",
-      "groupIds": [
-        "sakurazaka46"
-      ],
-      "title": {
-        "ja": "「15th Single BACKS LIVE!!」「増本綺良 卒業セレモニー」",
-        "ko": "「15th Single BACKS LIVE!!」「増本綺良 卒業セレモニー」",
-        "en": "「15th Single BACKS LIVE!!」「増本綺良 卒業セレモニー」"
-      },
-      "kind": "concert",
-      "startsAt": "2026-09-30T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://sakurazaka46.com/s/s46/page/backslive_15th?ima=0000",
-      "provenance": {
-        "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202609",
-        "checkedAt": "2026-09-30"
-      }
-    },
-    {
-      "id": "stu-auto-20260930-23209",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演",
-        "ko": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演",
-        "en": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演"
-      },
-      "kind": "theater",
-      "startsAt": "2026-09-30T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23209",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/9/",
-        "checkedAt": "2026-09-30"
-      }
-    },
-    {
-      "id": "akb48-theater-auto-95945",
-      "groupIds": [
-        "akb48"
-      ],
-      "title": {
-        "ja": "「ここからだ」公演",
-        "ko": "「ここからだ」公演",
-        "en": "「ここからだ」公演"
-      },
-      "kind": "theater",
-      "startsAt": "2026-09-30T09:30:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
-      "provenance": {
-        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
-      }
-    },
-    {
       "id": "hkt-auto-20261001-21292",
       "groupIds": [
         "hkt48"
@@ -182,7 +90,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/10/21292",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/10",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -205,7 +113,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -228,7 +136,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -248,10 +156,10 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107485?ima=4347&pri1=202610&wd00=2026&wd01=10&wd02=03",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107485?ima=2301&pri1=202610&wd00=2026&wd01=10&wd02=03",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -274,7 +182,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/10/21246",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/10",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -297,7 +205,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23044",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -320,7 +228,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -343,7 +251,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -366,7 +274,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/10/21240",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/10",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -389,7 +297,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23167",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -412,7 +320,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -435,7 +343,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/10/21291",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/10",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -458,7 +366,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -481,7 +389,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23373",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -504,7 +412,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23349",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -527,7 +435,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -550,7 +458,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -573,7 +481,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/10/21254",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/10",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -596,7 +504,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23405",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -619,7 +527,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -642,7 +550,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/10/21252",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/10",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -665,7 +573,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/10/21248",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/10",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -688,7 +596,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23108",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -711,7 +619,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -734,7 +642,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -757,7 +665,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/10/21253",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/10",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -780,7 +688,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/10/21249",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/10",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -803,7 +711,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23371",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -826,7 +734,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23388",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -849,7 +757,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -872,7 +780,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -895,7 +803,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23358",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -918,7 +826,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -941,7 +849,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -964,7 +872,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -987,7 +895,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -1010,7 +918,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -1033,7 +941,7 @@
       "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
       "provenance": {
         "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -1056,7 +964,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/10/20367",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/10",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -1079,7 +987,30 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/22805",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
+      }
+    },
+    {
+      "id": "akb48-theater-auto-96009",
+      "groupIds": [
+        "akb48"
+      ],
+      "title": {
+        "ja": "「ＲＥＳＥＴ」公演",
+        "ko": "「ＲＥＳＥＴ」公演",
+        "en": "「ＲＥＳＥＴ」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-10-17T04:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.akb48.co.jp/theater/schedule/",
+      "provenance": {
+        "sourceUrl": "https://www.akb48.co.jp/theater/schedule/",
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -1102,7 +1033,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/22806",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -1122,10 +1053,10 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=4347&pri1=202610&wd00=2026&wd01=10&wd02=20",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=2301&pri1=202610&wd00=2026&wd01=10&wd02=20",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -1148,7 +1079,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23406",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -1171,7 +1102,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23331",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -1194,7 +1125,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23332",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -1217,7 +1148,7 @@
       "officialUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202610",
       "provenance": {
         "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202610",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -1240,7 +1171,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23359",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -1260,10 +1191,10 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=4347&pri1=202610&wd00=2026&wd01=10&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=2301&pri1=202610&wd00=2026&wd01=10&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
       }
     },
     {
@@ -1286,7 +1217,306 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23419",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-10-01"
+      }
+    },
+    {
+      "id": "stu-auto-20261101-23355",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "みんなの四国文化祭2026「みんなのLIVE！」",
+        "ko": "みんなの四国文化祭2026「みんなのLIVE！」",
+        "en": "みんなの四国文化祭2026「みんなのLIVE！」"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-11-01T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23355",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
+        "checkedAt": "2026-10-01"
+      }
+    },
+    {
+      "id": "nogi-auto-107488-20261103",
+      "groupIds": [
+        "nogizaka46"
+      ],
+      "title": {
+        "ja": "『大河ドラマ「豊臣兄弟！」トークライブ in 北近江・長浜～茶々のふるさと北近江～』井上和",
+        "ko": "『大河ドラマ「豊臣兄弟！」トークライブ in 北近江・長浜～茶々のふるさと北近江～』井上和",
+        "en": "『大河ドラマ「豊臣兄弟！」トークライブ in 北近江・長浜～茶々のふるさと北近江～』井上和"
+      },
+      "kind": "concert",
+      "startsAt": "2026-11-03T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107488?ima=2306&pri1=202611&wd00=2026&wd01=11&wd02=03",
+      "provenance": {
+        "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
+        "checkedAt": "2026-10-01"
+      }
+    },
+    {
+      "id": "hina-auto-202611-12183",
+      "groupIds": [
+        "hinatazaka46"
+      ],
+      "title": {
+        "ja": "「サントリー オールフリー presents 氣志團万博2026 ～房総爆音リゾート～」",
+        "ko": "「サントリー オールフリー presents 氣志團万博2026 ～房総爆音リゾート～」",
+        "en": "「サントリー オールフリー presents 氣志團万博2026 ～房総爆音リゾート～」"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-11-07T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hinatazaka46.com/s/official/media/detail/12183?ima=0000",
+      "provenance": {
+        "sourceUrl": "https://www.hinatazaka46.com/s/official/media/list?dy=202611",
+        "checkedAt": "2026-10-01"
+      }
+    },
+    {
+      "id": "stu-auto-20261108-23109",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "オンライン個別お話し会",
+        "ko": "オンライン個別お話し会",
+        "en": "オンライン個別お話し会"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-11-08T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23109",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
+        "checkedAt": "2026-10-01"
+      }
+    },
+    {
+      "id": "saku-auto-count-11565-14",
+      "groupIds": [
+        "sakurazaka46"
+      ],
+      "title": {
+        "ja": "「6th YEAR ANNIVERSARY LIVE」",
+        "ko": "「6th YEAR ANNIVERSARY LIVE」",
+        "en": "「6th YEAR ANNIVERSARY LIVE」"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-11-14T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://sakurazaka46.com/s/s46/page/6th_anniversary",
+      "provenance": {
+        "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202611",
+        "checkedAt": "2026-10-01"
+      }
+    },
+    {
+      "id": "stu-auto-20261114-23112",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "「個別握手会」＆「選べる2ショット写真会orサイン会」@インテックス大阪",
+        "ko": "「個別握手会」＆「選べる2ショット写真会orサイン会」@インテックス大阪",
+        "en": "「個別握手会」＆「選べる2ショット写真会orサイン会」@インテックス大阪"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-11-14T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23112",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
+        "checkedAt": "2026-10-01"
+      }
+    },
+    {
+      "id": "saku-auto-count-12075-15",
+      "groupIds": [
+        "sakurazaka46"
+      ],
+      "title": {
+        "ja": "「6th YEAR ANNIVERSARY LIVE」「松田里奈 卒業セレモニー」",
+        "ko": "「6th YEAR ANNIVERSARY LIVE」「松田里奈 卒業セレモニー」",
+        "en": "「6th YEAR ANNIVERSARY LIVE」「松田里奈 卒業セレモニー」"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-11-15T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://sakurazaka46.com/s/s46/page/6th_anniversary",
+      "provenance": {
+        "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202611",
+        "checkedAt": "2026-10-01"
+      }
+    },
+    {
+      "id": "stu-auto-20261115-23113",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "「個別握手会」＆「選べる2ショット写真会orサイン会」@インテックス大阪",
+        "ko": "「個別握手会」＆「選べる2ショット写真会orサイン会」@インテックス大阪",
+        "en": "「個別握手会」＆「選べる2ショット写真会orサイン会」@インテックス大阪"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-11-15T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23113",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
+        "checkedAt": "2026-10-01"
+      }
+    },
+    {
+      "id": "stu-auto-20261121-23360",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48　14thシングル「冬服に着替えたら」発売記念リリースイベント@ららぽーと福岡",
+        "ko": "STU48　14thシングル「冬服に着替えたら」発売記念リリースイベント@ららぽーと福岡",
+        "en": "STU48　14thシングル「冬服に着替えたら」発売記念リリースイベント@ららぽーと福岡"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-11-21T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23360",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
+        "checkedAt": "2026-10-01"
+      }
+    },
+    {
+      "id": "stu-auto-20261123-23195",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "「ちかっぱ祭2026」",
+        "ko": "「ちかっぱ祭2026」",
+        "en": "「ちかっぱ祭2026」"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-11-23T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23195",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
+        "checkedAt": "2026-10-01"
+      }
+    },
+    {
+      "id": "hkt-auto-20261126-20368",
+      "groupIds": [
+        "hkt48"
+      ],
+      "title": {
+        "ja": "「HKT48 15th Anniversary Live Tour」/福岡：福岡市民ホール 大ホール",
+        "ko": "「HKT48 15th Anniversary Live Tour」/福岡：福岡市民ホール 大ホール",
+        "en": "「HKT48 15th Anniversary Live Tour」/福岡：福岡市民ホール 大ホール"
+      },
+      "kind": "concert",
+      "startsAt": "2026-11-26T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hkt48.jp/schedule/2026/11/20368",
+      "provenance": {
+        "sourceUrl": "https://www.hkt48.jp/schedule/2026/11",
+        "checkedAt": "2026-10-01"
+      }
+    },
+    {
+      "id": "hina-auto-202611-12109",
+      "groupIds": [
+        "hinatazaka46"
+      ],
+      "title": {
+        "ja": "「GIFT ～Girls Idol Festival Tokyo～」",
+        "ko": "「GIFT ～Girls Idol Festival Tokyo～」",
+        "en": "「GIFT ～Girls Idol Festival Tokyo～」"
+      },
+      "kind": "concert",
+      "startsAt": "2026-11-28T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.hinatazaka46.com/s/official/media/detail/12109?ima=0000",
+      "provenance": {
+        "sourceUrl": "https://www.hinatazaka46.com/s/official/media/list?dy=202611",
+        "checkedAt": "2026-10-01"
+      }
+    },
+    {
+      "id": "nogi-auto-107319-20261129",
+      "groupIds": [
+        "nogizaka46"
+      ],
+      "title": {
+        "ja": "「GIFT〜Girls Idol Festival Tokyo〜」",
+        "ko": "「GIFT〜Girls Idol Festival Tokyo〜」",
+        "en": "「GIFT〜Girls Idol Festival Tokyo〜」"
+      },
+      "kind": "concert",
+      "startsAt": "2026-11-29T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107319?ima=2306&pri1=202611&wd00=2026&wd01=11&wd02=29",
+      "provenance": {
+        "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
+        "checkedAt": "2026-10-01"
       }
     }
   ],
