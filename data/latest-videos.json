@@ -1179,27 +1179,6 @@
     "id": "yt-5caC0Fa4FGQ",
     "platform": "youtube",
     "videoId": "5caC0Fa4FGQ",
-    "memberId": "hkt48-imamura-maria",
-    "memberName": {
-      "ja": "今村麻莉愛",
-      "ko": "이마무라 마리아",
-      "en": "Imamura Maria"
-    },
-    "memberGlyph": "今",
-    "memberHueShift": 26,
-    "memberImage": "https://cf-pc.c-hkt48.com/img/profile/images/0056_240.jpg",
-    "groupId": "hkt48",
-    "franchise": "akb48g",
-    "title": "【初めての〇〇】石井彩音のはじめてのおつかい＆クッキング！",
-    "publishedAt": "2026-10-04T03:00:15+00:00",
-    "url": "https://www.youtube.com/watch?v=5caC0Fa4FGQ",
-    "thumbnailUrl": "https://i2.ytimg.com/vi/5caC0Fa4FGQ/hqdefault.jpg",
-    "channelUrl": "https://www.youtube.com/user/HKT48"
-  },
-  {
-    "id": "yt-5caC0Fa4FGQ",
-    "platform": "youtube",
-    "videoId": "5caC0Fa4FGQ",
     "memberId": "hkt48-eura-yuuka",
     "memberName": {
       "ja": "江浦優香",
@@ -1251,6 +1230,27 @@
     "memberGlyph": "栗",
     "memberHueShift": -15,
     "memberImage": "https://cf-pc.c-hkt48.com/img/profile/images/0084_240.jpg",
+    "groupId": "hkt48",
+    "franchise": "akb48g",
+    "title": "【初めての〇〇】石井彩音のはじめてのおつかい＆クッキング！",
+    "publishedAt": "2026-10-04T03:00:15+00:00",
+    "url": "https://www.youtube.com/watch?v=5caC0Fa4FGQ",
+    "thumbnailUrl": "https://i2.ytimg.com/vi/5caC0Fa4FGQ/hqdefault.jpg",
+    "channelUrl": "https://www.youtube.com/user/HKT48"
+  },
+  {
+    "id": "yt-5caC0Fa4FGQ",
+    "platform": "youtube",
+    "videoId": "5caC0Fa4FGQ",
+    "memberId": "hkt48-tachibana-kokoro",
+    "memberName": {
+      "ja": "立花心良",
+      "ko": "타치바나 코코로",
+      "en": "Tachibana Kokoro"
+    },
+    "memberGlyph": "立",
+    "memberHueShift": -30,
+    "memberImage": "https://cf-pc.c-hkt48.com/img/profile/images/0110_240.jpg",
     "groupId": "hkt48",
     "franchise": "akb48g",
     "title": "【初めての〇〇】石井彩音のはじめてのおつかい＆クッキング！",
