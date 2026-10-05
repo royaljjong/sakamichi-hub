@@ -812,9 +812,9 @@
         "hkt48"
       ],
       "title": {
-        "ja": "HKT48 石橋颯 13th/14th/15th/16th/17th/19th シングルおよび2ndアルバム 劇場盤発売記念「オンライン握手会」「個別ハイタッチ会」「2ショット写真会」 振替開催",
-        "ko": "HKT48 石橋颯 13th/14th/15th/16th/17th/19th シングルおよび2ndアルバム 劇場盤発売記念「オンライン握手会」「個別ハイタッチ会」「2ショット写真会」 振替開催",
-        "en": "HKT48 石橋颯 13th/14th/15th/16th/17th/19th シングルおよび2ndアルバム 劇場盤発売記念「オンライン握手会」「個別ハイタッチ会」「2ショット写真会」 振替開催"
+        "ja": "HKT48 石橋颯 13th/14th/15th/16th/17th/19th シングルおよび2ndアルバム 劇場盤発売記念「オンライン握手会」「個別ハイタッチ会」「2ショット写真会」 振替開催/関東会場：大崎ブライトコアホール",
+        "ko": "HKT48 石橋颯 13th/14th/15th/16th/17th/19th シングルおよび2ndアルバム 劇場盤発売記念「オンライン握手会」「個別ハイタッチ会」「2ショット写真会」 振替開催/関東会場：大崎ブライトコアホール",
+        "en": "HKT48 石橋颯 13th/14th/15th/16th/17th/19th シングルおよび2ndアルバム 劇場盤発売記念「オンライン握手会」「個別ハイタッチ会」「2ショット写真会」 振替開催/関東会場：大崎ブライトコアホール"
       },
       "kind": "appearance",
       "startsAt": "2026-10-18T03:00:00.000+00:00",
@@ -938,7 +938,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=1857&pri1=202610&wd00=2026&wd01=10&wd02=20",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=1053&pri1=202610&wd00=2026&wd01=10&wd02=20",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-10-05"
@@ -973,9 +973,9 @@
         "hkt48"
       ],
       "title": {
-        "ja": "HKT48 石橋颯 13th/14th/15th/16th/17th/19th シングルおよび2ndアルバム 劇場盤発売記念「オンライン握手会」「個別ハイタッチ会」「2ショット写真会」 振替開催",
-        "ko": "HKT48 石橋颯 13th/14th/15th/16th/17th/19th シングルおよび2ndアルバム 劇場盤発売記念「オンライン握手会」「個別ハイタッチ会」「2ショット写真会」 振替開催",
-        "en": "HKT48 石橋颯 13th/14th/15th/16th/17th/19th シングルおよび2ndアルバム 劇場盤発売記念「オンライン握手会」「個別ハイタッチ会」「2ショット写真会」 振替開催"
+        "ja": "HKT48 石橋颯 13th/14th/15th/16th/17th/19th シングルおよび2ndアルバム 劇場盤発売記念「オンライン握手会」「個別ハイタッチ会」「2ショット写真会」 振替開催/福岡会場：福岡国際会議場",
+        "ko": "HKT48 石橋颯 13th/14th/15th/16th/17th/19th シングルおよび2ndアルバム 劇場盤発売記念「オンライン握手会」「個別ハイタッチ会」「2ショット写真会」 振替開催/福岡会場：福岡国際会議場",
+        "en": "HKT48 石橋颯 13th/14th/15th/16th/17th/19th シングルおよび2ndアルバム 劇場盤発売記念「オンライン握手会」「個別ハイタッチ会」「2ショット写真会」 振替開催/福岡会場：福岡国際会議場"
       },
       "kind": "appearance",
       "startsAt": "2026-10-24T03:00:00.000+00:00",
@@ -1099,7 +1099,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=1857&pri1=202610&wd00=2026&wd01=10&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=1053&pri1=202610&wd00=2026&wd01=10&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-10-05"
@@ -1168,7 +1168,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107488?ima=1858&pri1=202611&wd00=2026&wd01=11&wd02=03",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107488?ima=1053&pri1=202611&wd00=2026&wd01=11&wd02=03",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
         "checkedAt": "2026-10-05"
@@ -1444,7 +1444,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107319?ima=1858&pri1=202611&wd00=2026&wd01=11&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107319?ima=1053&pri1=202611&wd00=2026&wd01=11&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
         "checkedAt": "2026-10-05"
