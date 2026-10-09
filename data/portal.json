@@ -823,7 +823,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=2152&pri1=202610&wd00=2026&wd01=10&wd02=20",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=0425&pri1=202610&wd00=2026&wd01=10&wd02=20",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-10-09"
@@ -1060,52 +1060,6 @@
       }
     },
     {
-      "id": "stu-auto-20261027-23525",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演",
-        "ko": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演",
-        "en": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演"
-      },
-      "kind": "theater",
-      "startsAt": "2026-10-27T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23525",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-10-09"
-      }
-    },
-    {
-      "id": "stu-auto-20261028-23526",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "STU48 課外活動「Charming Trip」公演",
-        "ko": "STU48 課外活動「Charming Trip」公演",
-        "en": "STU48 課外活動「Charming Trip」公演"
-      },
-      "kind": "theater",
-      "startsAt": "2026-10-28T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23526",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-10-09"
-      }
-    },
-    {
       "id": "nogi-auto-107278-20261029",
       "groupIds": [
         "nogizaka46"
@@ -1122,7 +1076,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=2152&pri1=202610&wd00=2026&wd01=10&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=0425&pri1=202610&wd00=2026&wd01=10&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-10-09"
@@ -1214,7 +1168,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107488?ima=2153&pri1=202611&wd00=2026&wd01=11&wd02=03",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107488?ima=0434&pri1=202611&wd00=2026&wd01=11&wd02=03",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
         "checkedAt": "2026-10-09"
@@ -1513,7 +1467,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107319?ima=2153&pri1=202611&wd00=2026&wd01=11&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107319?ima=0434&pri1=202611&wd00=2026&wd01=11&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
         "checkedAt": "2026-10-09"

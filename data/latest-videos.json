@@ -1,5 +1,26 @@
 [
   {
+    "id": "yt-587EhBVHQo0",
+    "platform": "youtube",
+    "videoId": "587EhBVHQo0",
+    "memberId": "nmb48-shibuya-nagisa",
+    "memberName": {
+      "ja": "渋谷凪咲",
+      "ko": "시부야 나기사",
+      "en": "Shibuya Nagisa"
+    },
+    "memberGlyph": "渋",
+    "memberHueShift": 17,
+    "memberImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/%E3%82%B9%E3%83%88%E3%83%83%E3%83%97%E3%83%BB%E3%82%AA%E3%83%AC%E3%82%AA%E3%83%AC%E8%A9%90%E6%AC%BA47%E5%AE%B6%E6%97%8F%E3%81%AE%E7%B5%86%E4%BD%9C%E6%88%A6%E6%B8%8B%E8%B0%B7%E5%87%AA%E5%92%B2%282020%E5%B9%B4%29.png/250px-%E3%82%B9%E3%83%88%E3%83%83%E3%83%97%E3%83%BB%E3%82%AA%E3%83%AC%E3%82%AA%E3%83%AC%E8%A9%90%E6%AC%BA47%E5%AE%B6%E6%97%8F%E3%81%AE%E7%B5%86%E4%BD%9C%E6%88%A6%E6%B8%8B%E8%B0%B7%E5%87%AA%E5%92%B2%282020%E5%B9%B4%29.png?utm_source=ja.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "groupId": "nmb48",
+    "franchise": "akb48g",
+    "title": "【ファイアーエムブレム 万紫千紅】 #18｜ネタバレ注意｜セオドラ篇4章～！トビアスが癖になる 【日ノ森あんず】",
+    "publishedAt": "2026-10-09T16:55:18+00:00",
+    "url": "https://www.youtube.com/watch?v=587EhBVHQo0",
+    "thumbnailUrl": "https://i2.ytimg.com/vi/587EhBVHQo0/hqdefault.jpg",
+    "channelUrl": "https://www.youtube.com/@nagichannel"
+  },
+  {
     "id": "yt-p4KFNdHw3y8",
     "platform": "youtube",
     "videoId": "p4KFNdHw3y8",
@@ -1230,27 +1251,6 @@
     "memberGlyph": "畠",
     "memberHueShift": -37,
     "memberImage": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101003.jpg",
-    "groupId": "akb48",
-    "franchise": "akb48g",
-    "title": "ポムポムプリンくんに、会いたかった〜👋🍮日本推し活大賞でコラボありがとうございました💛🤎#POMPOMPURIN #サンリオ #倉野尾成美 #佐藤綺星 #八木愛月 #伊藤百花  #AKB48",
-    "publishedAt": "2026-10-09T04:34:30+00:00",
-    "url": "https://www.youtube.com/watch?v=ReR5pmTDeP8",
-    "thumbnailUrl": "https://i3.ytimg.com/vi/ReR5pmTDeP8/hqdefault.jpg",
-    "channelUrl": "https://www.youtube.com/user/AKB48"
-  },
-  {
-    "id": "yt-ReR5pmTDeP8",
-    "platform": "youtube",
-    "videoId": "ReR5pmTDeP8",
-    "memberId": "akb48-hirata-yuki",
-    "memberName": {
-      "ja": "平田侑希",
-      "ko": "히라타 유키",
-      "en": "Hirata Yuki"
-    },
-    "memberGlyph": "平",
-    "memberHueShift": -18,
-    "memberImage": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101004.jpg",
     "groupId": "akb48",
     "franchise": "akb48g",
     "title": "ポムポムプリンくんに、会いたかった〜👋🍮日本推し活大賞でコラボありがとうございました💛🤎#POMPOMPURIN #サンリオ #倉野尾成美 #佐藤綺星 #八木愛月 #伊藤百花  #AKB48",
