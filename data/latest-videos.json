@@ -1,5 +1,26 @@
 [
   {
+    "id": "yt-mxQIsx_9hx4",
+    "platform": "youtube",
+    "videoId": "mxQIsx_9hx4",
+    "memberId": "nmb48-sakashita-mako",
+    "memberName": {
+      "ja": "坂下真心",
+      "ko": "사카시타 마코",
+      "en": "Sakashita Mako"
+    },
+    "memberGlyph": "坂",
+    "memberHueShift": -17,
+    "memberImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/%E5%9D%82%E4%B8%8B_%E7%9C%9F%E5%BF%83.jpg/960px-%E5%9D%82%E4%B8%8B_%E7%9C%9F%E5%BF%83.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "groupId": "nmb48",
+    "franchise": "akb48g",
+    "title": "【直後の感想語る】オールスター感謝祭の赤坂５丁目ミニマラソンで25年ぶりに女性で優勝できました！【NMB48坂下真心】",
+    "publishedAt": "2026-10-10T15:20:20+00:00",
+    "url": "https://www.youtube.com/watch?v=mxQIsx_9hx4",
+    "thumbnailUrl": "https://i2.ytimg.com/vi/mxQIsx_9hx4/hqdefault.jpg",
+    "channelUrl": "https://www.youtube.com/@sakashita_mako"
+  },
+  {
     "id": "yt-tjM0ReXX9Aw",
     "platform": "youtube",
     "videoId": "tjM0ReXX9Aw",
@@ -1230,27 +1251,6 @@
     "memberGlyph": "太",
     "memberHueShift": -38,
     "memberImage": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83100998.jpg",
-    "groupId": "akb48",
-    "franchise": "akb48g",
-    "title": "ポムポムプリンくんに、会いたかった〜👋🍮日本推し活大賞でコラボありがとうございました💛🤎#POMPOMPURIN #サンリオ #倉野尾成美 #佐藤綺星 #八木愛月 #伊藤百花  #AKB48",
-    "publishedAt": "2026-10-09T04:34:30+00:00",
-    "url": "https://www.youtube.com/watch?v=ReR5pmTDeP8",
-    "thumbnailUrl": "https://i3.ytimg.com/vi/ReR5pmTDeP8/hqdefault.jpg",
-    "channelUrl": "https://www.youtube.com/user/AKB48"
-  },
-  {
-    "id": "yt-ReR5pmTDeP8",
-    "platform": "youtube",
-    "videoId": "ReR5pmTDeP8",
-    "memberId": "akb48-hashimoto-eriko",
-    "memberName": {
-      "ja": "橋本恵理子",
-      "ko": "하시모토 에리코",
-      "en": "Hashimoto Eriko"
-    },
-    "memberGlyph": "橋",
-    "memberHueShift": 20,
-    "memberImage": "https://d2r1lkk9i7row.cloudfront.net/mobile/member/83101001.jpg",
     "groupId": "akb48",
     "franchise": "akb48g",
     "title": "ポムポムプリンくんに、会いたかった〜👋🍮日本推し活大賞でコラボありがとうございました💛🤎#POMPOMPURIN #サンリオ #倉野尾成美 #佐藤綺星 #八木愛月 #伊藤百花  #AKB48",
