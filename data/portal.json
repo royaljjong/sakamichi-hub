@@ -294,7 +294,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=2253&pri1=202610&wd00=2026&wd01=10&wd02=20",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107229?ima=5732&pri1=202610&wd00=2026&wd01=10&wd02=20",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-10-17"
@@ -800,7 +800,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=2253&pri1=202610&wd00=2026&wd01=10&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=5732&pri1=202610&wd00=2026&wd01=10&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-10-17"
@@ -961,7 +961,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107488?ima=2259&pri1=202611&wd00=2026&wd01=11&wd02=03",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107488?ima=5732&pri1=202611&wd00=2026&wd01=11&wd02=03",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
         "checkedAt": "2026-10-17"
@@ -987,6 +987,29 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/11/21354",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/11",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "id": "stu-auto-20261106-23557",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演",
+        "ko": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演",
+        "en": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-11-06T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23557",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
         "checkedAt": "2026-10-17"
       }
     },
@@ -1033,6 +1056,52 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/11/21348",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/11",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "id": "stu-auto-20261107-23558",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48「アイドルの夜明け」公演〜久留島優果生誕祭〜",
+        "ko": "STU48「アイドルの夜明け」公演〜久留島優果生誕祭〜",
+        "en": "STU48「アイドルの夜明け」公演〜久留島優果生誕祭〜"
+      },
+      "kind": "theater",
+      "startsAt": "2026-11-07T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23558",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "id": "stu-auto-20261107-23559",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48「アイドルの夜明け」公演〜新井梨杏生誕祭〜",
+        "ko": "STU48「アイドルの夜明け」公演〜新井梨杏生誕祭〜",
+        "en": "STU48「アイドルの夜明け」公演〜新井梨杏生誕祭〜"
+      },
+      "kind": "theater",
+      "startsAt": "2026-11-07T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23559",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
         "checkedAt": "2026-10-17"
       }
     },
@@ -1198,6 +1267,52 @@
       }
     },
     {
+      "id": "stu-auto-20261117-23560",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48「アイドルの夜明け」公演〜岡村梨央生誕祭〜",
+        "ko": "STU48「アイドルの夜明け」公演〜岡村梨央生誕祭〜",
+        "en": "STU48「アイドルの夜明け」公演〜岡村梨央生誕祭〜"
+      },
+      "kind": "theater",
+      "startsAt": "2026-11-17T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23560",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "id": "stu-auto-20261119-23561",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48「アイドルの夜明け」公演〜内海里音生誕祭〜",
+        "ko": "STU48「アイドルの夜明け」公演〜内海里音生誕祭〜",
+        "en": "STU48「アイドルの夜明け」公演〜内海里音生誕祭〜"
+      },
+      "kind": "theater",
+      "startsAt": "2026-11-19T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23561",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
       "id": "stu-auto-20261120-23536",
       "groupIds": [
         "stu48"
@@ -1290,6 +1405,29 @@
       }
     },
     {
+      "id": "stu-auto-20261125-23562",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48「アイドルの夜明け」公演〜諸葛望愛生誕祭〜",
+        "ko": "STU48「アイドルの夜明け」公演〜諸葛望愛生誕祭〜",
+        "en": "STU48「アイドルの夜明け」公演〜諸葛望愛生誕祭〜"
+      },
+      "kind": "theater",
+      "startsAt": "2026-11-25T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23562",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
       "id": "hkt-auto-20261126-20368",
       "groupIds": [
         "hkt48"
@@ -1352,7 +1490,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107319?ima=2259&pri1=202611&wd00=2026&wd01=11&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107319?ima=5732&pri1=202611&wd00=2026&wd01=11&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
         "checkedAt": "2026-10-17"
