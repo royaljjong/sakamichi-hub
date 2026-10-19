@@ -428,7 +428,7 @@ const GROUP_PREFIX: Record<string, string> = {
   'akb48-team-sh': 'sh', 'akb48-team-tp': 'tp', klp48: 'klp',
 };
 
-function normalizeUpdate(u: RecentUpdate): RecentUpdate | null {
+export function normalizeUpdate(u: RecentUpdate): RecentUpdate | null {
   // Decode HTML entities in title
   let title = u.title.replace(/&#x([0-9A-Fa-f]+);/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)));
   title = title.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"');
@@ -443,6 +443,27 @@ function normalizeUpdate(u: RecentUpdate): RecentUpdate | null {
   if (/^https?:\/\//i.test(title)) return null;
   // Reject empty title
   if (!title) return null;
+
+  // The feed may supply a full article as its title. Keep the visible prefix
+  // within the data contract without cutting an emoji surrogate pair in half.
+  if (title.length > 200) {
+    title = title.slice(0, 200).replace(/[\uD800-\uDBFF]$/, '').trimEnd();
+  }
+
+  let memberImage: string | null = null;
+  if (u.memberImage) {
+    try {
+      const rawImage = u.memberImage.trim();
+      const isWebUrl = /^https?:\/\//i.test(rawImage);
+      const isRelativePath = /^(?:\/|\.\/|\.\.\/)/.test(rawImage);
+      const imageUrl = new URL(rawImage, u.url);
+      if ((isWebUrl || isRelativePath) && (imageUrl.protocol === 'https:' || imageUrl.protocol === 'http:')) {
+        memberImage = imageUrl.href;
+      }
+    } catch {
+      // An unusable optional image falls back to the existing member glyph.
+    }
+  }
 
   // Normalize publishedAt to ISO 8601 offset
   let publishedAt = u.publishedAt;
@@ -467,7 +488,7 @@ function normalizeUpdate(u: RecentUpdate): RecentUpdate | null {
   const hash = crypto.createHash('sha1').update(u.url + '|' + publishedAt).digest('hex').slice(0, 12);
   const id = `${prefix}-${hash}`;
 
-  return { ...u, title, publishedAt, id };
+  return { ...u, memberImage, title, publishedAt, id };
 }
 
 function normalizeAndDedup(items: RecentUpdate[]): RecentUpdate[] {
