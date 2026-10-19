@@ -1,5 +1,73 @@
 [
   {
+    "id": "nogi-eb889cae516e",
+    "groupId": "nogizaka46",
+    "franchise": "sakamichi",
+    "memberName": {
+      "ja": "乃木坂46",
+      "ko": "乃木坂46",
+      "en": "乃木坂46"
+    },
+    "memberGlyph": "乃",
+    "memberHueShift": 0,
+    "memberImage": "https://www.nogizaka46.com/files/46/assets/img/blog/none.png",
+    "title": "足元を見る",
+    "publishedAt": "2026-10-19T00:55:00.000Z",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104918?ima=3820&cd=MEMBER",
+    "type": "official_blog"
+  },
+  {
+    "id": "nogi-cb9035ee85f5",
+    "groupId": "nogizaka46",
+    "franchise": "sakamichi",
+    "memberName": {
+      "ja": "乃木坂46",
+      "ko": "乃木坂46",
+      "en": "乃木坂46"
+    },
+    "memberGlyph": "乃",
+    "memberHueShift": 0,
+    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobI9xevE.jpg",
+    "title": "43枚目シングル 「君ロス」     #hinadaniblog   #岡本姫奈",
+    "publishedAt": "2026-10-19T00:55:00.000Z",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104916?ima=3820&cd=MEMBER",
+    "type": "official_blog"
+  },
+  {
+    "id": "nogi-bdd36f4f4195",
+    "groupId": "nogizaka46",
+    "franchise": "sakamichi",
+    "memberName": {
+      "ja": "乃木坂46",
+      "ko": "乃木坂46",
+      "en": "乃木坂46"
+    },
+    "memberGlyph": "乃",
+    "memberHueShift": 0,
+    "memberImage": "https://www.nogizaka46.com/files/46/assets/img/blog/none.png",
+    "title": "「金川紗耶」",
+    "publishedAt": "2026-10-19T00:55:00.000Z",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104915?ima=3820&cd=MEMBER",
+    "type": "official_blog"
+  },
+  {
+    "id": "nogi-46ba9397c7d4",
+    "groupId": "nogizaka46",
+    "franchise": "sakamichi",
+    "memberName": {
+      "ja": "乃木坂46",
+      "ko": "乃木坂46",
+      "en": "乃木坂46"
+    },
+    "memberGlyph": "乃",
+    "memberHueShift": 0,
+    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobEzdQbj.jpg",
+    "title": "愛惜",
+    "publishedAt": "2026-10-19T00:46:00.000Z",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104917?ima=3820&cd=MEMBER",
+    "type": "official_blog"
+  },
+  {
     "id": "hina-b0b2d5224424",
     "groupId": "hinatazaka46",
     "franchise": "sakamichi",
@@ -36,7 +104,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-9fd00354bdfe",
+    "id": "nogi-bb785ec5266c",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -49,7 +117,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobjqPb64.jpg",
     "title": "たぶんこれから秋",
     "publishedAt": "2026-10-18T20:29:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104914?ima=1011&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104914?ima=3820&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -384,6 +452,91 @@
     "type": "official_blog"
   },
   {
+    "id": "ngt-b05d20e865dc",
+    "groupId": "ngt48",
+    "franchise": "akb48g",
+    "memberName": {
+      "ja": "NGT48",
+      "ko": "NGT48",
+      "en": "NGT48"
+    },
+    "memberGlyph": "N",
+    "memberHueShift": 0,
+    "memberImage": null,
+    "title": "🐦 RT by @official_NGT48: おぢや麺フェス2026のポスター・フライヤーが完成しました～‼️ ポスターデザインは、小千谷西高校の美術選択の生徒さんからしていただき、厳正なる審査の結果",
+    "publishedAt": "2026-10-18T00:00:00.000Z",
+    "url": "https://x.com/official_ngt48/status/2111935262179893357",
+    "type": "official_blog"
+  },
+  {
+    "id": "ngt-9364b617f924",
+    "groupId": "ngt48",
+    "franchise": "akb48g",
+    "memberName": {
+      "ja": "NGT48",
+      "ko": "NGT48",
+      "en": "NGT48"
+    },
+    "memberGlyph": "N",
+    "memberHueShift": 0,
+    "memberImage": null,
+    "title": "🐦 Pinned: .˚⊹⁺‧┈┈┈┈┈┈┈┈‧⁺ ⊹˚. 発売まであと10日 .˚⊹⁺‧┈┈┈┈┈┈┈┈‧⁺ ⊹˚. #NGT48 12th single #風の片想い 2026.10.28releas",
+    "publishedAt": "2026-10-18T00:00:00.000Z",
+    "url": "https://x.com/official_ngt48/status/2111797145812799510",
+    "type": "official_blog"
+  },
+  {
+    "id": "ngt-f9331cdba0cf",
+    "groupId": "ngt48",
+    "franchise": "akb48g",
+    "memberName": {
+      "ja": "NGT48",
+      "ko": "NGT48",
+      "en": "NGT48"
+    },
+    "memberGlyph": "N",
+    "memberHueShift": 0,
+    "memberImage": null,
+    "title": "🐦 RT by @official_NGT48: #NGT48 #大塚七海 さん #佐藤広花 さん #グラビアプレス Vol.21撮影風景＆コメントをお届け✨ 大塚「お人形さんになれました」 佐藤「夏終わ",
+    "publishedAt": "2026-10-18T00:00:00.000Z",
+    "url": "https://x.com/official_ngt48/status/2111790278990586337",
+    "type": "official_blog"
+  },
+  {
+    "id": "ngt-26fbf00d9cbf",
+    "groupId": "ngt48",
+    "franchise": "akb48g",
+    "memberName": {
+      "ja": "NGT48",
+      "ko": "NGT48",
+      "en": "NGT48"
+    },
+    "memberGlyph": "N",
+    "memberHueShift": 0,
+    "memberImage": null,
+    "title": "🐦 RT by @official_NGT48: 【速報】 NGT48「青いマックの日」新潟市内で募金活動 佐藤海里「知ってもらうことから始まる」 https://www.nikkansports.com",
+    "publishedAt": "2026-10-18T00:00:00.000Z",
+    "url": "https://x.com/official_ngt48/status/2111788992979161138",
+    "type": "official_blog"
+  },
+  {
+    "id": "ngt-63c18826325c",
+    "groupId": "ngt48",
+    "franchise": "akb48g",
+    "memberName": {
+      "ja": "NGT48",
+      "ko": "NGT48",
+      "en": "NGT48"
+    },
+    "memberGlyph": "N",
+    "memberHueShift": 0,
+    "memberImage": null,
+    "title": "🐦 .˚⊹⁺‧┈┈┈┈┈┈┈┈‧⁺ ⊹˚. 発売まであと10日 .˚⊹⁺‧┈┈┈┈┈┈┈┈‧⁺ ⊹˚. #風の片想い 2026.10.28release #NGT48 12th single coming",
+    "publishedAt": "2026-10-18T00:00:00.000Z",
+    "url": "https://x.com/official_ngt48/status/2111773124421451800",
+    "type": "official_blog"
+  },
+  {
     "id": "hina-b7667f3fa3c5",
     "groupId": "hinatazaka46",
     "franchise": "sakamichi",
@@ -402,7 +555,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-0c1d45a625bf",
+    "id": "nogi-1048a49a8fbe",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -415,7 +568,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/moborXx67.jpg",
     "title": "秋を満喫したい",
     "publishedAt": "2026-10-17T20:58:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104913?ima=1011&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104913?ima=3820&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -491,7 +644,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-7ec42db589de",
+    "id": "nogi-b84d257873b4",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -504,11 +657,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobe1ldkY.jpg",
     "title": "好きだったこの場所",
     "publishedAt": "2026-10-17T18:00:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104912?ima=1011&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104912?ima=3820&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-a67378923db7",
+    "id": "nogi-99f098496f87",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -521,7 +674,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobNjsldH.jpg",
     "title": "ふらっと書いてみた",
     "publishedAt": "2026-10-17T15:56:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104911?ima=1011&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104911?ima=3820&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -543,7 +696,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-a82e2fa2e1f8",
+    "id": "nogi-1635e0274253",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -556,7 +709,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobpf8FQI.jpg",
     "title": "💐秘密の花園🌼",
     "publishedAt": "2026-10-17T11:46:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104910?ima=1011&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104910?ima=3820&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -819,163 +972,6 @@
     "title": "松田 里奈\n        \n      \n      \n        2026/10/14\n        #435 ｢愛MUST BE｣発売❤️\n      \n      こんばんは！櫻坂46   二期生   宮崎県出身    まつりちゃんこと松田里奈です。ブログ開いていただきありがとうございます。本日...\n    \n    \n      MORE",
     "publishedAt": "2026-10-16T00:00:00.000Z",
     "url": "https://sakurazaka46.com/s/s46/diary/detail/71391?ima=0000&cd=blog",
-    "type": "official_blog"
-  },
-  {
-    "id": "ske-c1fd07a5631a",
-    "groupId": "ske48",
-    "franchise": "akb48g",
-    "memberId": "ske48-suzuki-ena",
-    "memberName": {
-      "ja": "鈴木愛菜",
-      "ko": "스즈키 에나",
-      "en": "Suzuki Ena"
-    },
-    "memberGlyph": "鈴",
-    "memberHueShift": -18,
-    "memberImage": "https://ske48.co.jp/image/profile/member_34.jpg",
-    "title": "クリスマスソング。",
-    "publishedAt": "2026-10-16T00:00:00.000Z",
-    "url": "https://ske48.co.jp/blog/detail/89430/",
-    "type": "official_blog"
-  },
-  {
-    "id": "ske-91d37c90863e",
-    "groupId": "ske48",
-    "franchise": "akb48g",
-    "memberId": "ske48-ida-reona",
-    "memberName": {
-      "ja": "井田玲音名",
-      "ko": "이다 레오나",
-      "en": "Ida Reona"
-    },
-    "memberGlyph": "井",
-    "memberHueShift": -4,
-    "memberImage": "https://ske48.co.jp/image/profile/member_47.jpg",
-    "title": "毎年恒例",
-    "publishedAt": "2026-10-16T00:00:00.000Z",
-    "url": "https://ske48.co.jp/blog/detail/89429/",
-    "type": "official_blog"
-  },
-  {
-    "id": "ske-d3de17fee77a",
-    "groupId": "ske48",
-    "franchise": "akb48g",
-    "memberId": "ske48-miyamoto-rinka",
-    "memberName": {
-      "ja": "宮本倫花",
-      "ko": "미야모토 링카",
-      "en": "Miyamoto Rinka"
-    },
-    "memberGlyph": "宮",
-    "memberHueShift": 14,
-    "memberImage": "https://ske48.co.jp/image/profile/member_104.jpg",
-    "title": "宮本倫花✋",
-    "publishedAt": "2026-10-16T00:00:00.000Z",
-    "url": "https://ske48.co.jp/blog/detail/89428/",
-    "type": "official_blog"
-  },
-  {
-    "id": "ske-4f6b328cc7ca",
-    "groupId": "ske48",
-    "franchise": "akb48g",
-    "memberId": "ske48-takeshita-marika",
-    "memberName": {
-      "ja": "竹下茉莉花",
-      "ko": "타케시타 마리카",
-      "en": "Takeshita Marika"
-    },
-    "memberGlyph": "竹",
-    "memberHueShift": 37,
-    "memberImage": "https://ske48.co.jp/image/profile/member_108.jpg",
-    "title": "いろいろ！！！",
-    "publishedAt": "2026-10-16T00:00:00.000Z",
-    "url": "https://ske48.co.jp/blog/detail/89427/",
-    "type": "official_blog"
-  },
-  {
-    "id": "akb-12b51ea42038",
-    "groupId": "akb48",
-    "franchise": "akb48g",
-    "memberName": {
-      "ja": "AKB48",
-      "ko": "AKB48",
-      "en": "AKB48"
-    },
-    "memberGlyph": "秋",
-    "memberHueShift": 0,
-    "memberImage": null,
-    "title": "【伊藤百花】『Án MILLE 冬コレクション』のモデルに決定！",
-    "publishedAt": "2026-10-16T00:00:00.000Z",
-    "url": "https://ameblo.jp/akihabara48/entry-12981477157.html",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-d3a4c43bb859",
-    "groupId": "nogizaka46",
-    "franchise": "sakamichi",
-    "memberName": {
-      "ja": "乃木坂46",
-      "ko": "乃木坂46",
-      "en": "乃木坂46"
-    },
-    "memberGlyph": "乃",
-    "memberHueShift": 0,
-    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobcHARNx.jpg",
-    "title": "おはぎをあなたとほおばりたい",
-    "publishedAt": "2026-10-15T20:37:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104907?ima=1011&cd=MEMBER",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-ee40f2387e49",
-    "groupId": "nogizaka46",
-    "franchise": "sakamichi",
-    "memberName": {
-      "ja": "乃木坂46",
-      "ko": "乃木坂46",
-      "en": "乃木坂46"
-    },
-    "memberGlyph": "乃",
-    "memberHueShift": 0,
-    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobvCnsiN.jpg",
-    "title": "林檎と旬と私。",
-    "publishedAt": "2026-10-15T20:19:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104906?ima=1011&cd=MEMBER",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-4e10122aa31a",
-    "groupId": "nogizaka46",
-    "franchise": "sakamichi",
-    "memberName": {
-      "ja": "乃木坂46",
-      "ko": "乃木坂46",
-      "en": "乃木坂46"
-    },
-    "memberGlyph": "乃",
-    "memberHueShift": 0,
-    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobun51fc.jpg",
-    "title": "白猫、現る",
-    "publishedAt": "2026-10-15T18:19:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104905?ima=1011&cd=MEMBER",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-7776551fbea5",
-    "groupId": "nogizaka46",
-    "franchise": "sakamichi",
-    "memberName": {
-      "ja": "乃木坂46",
-      "ko": "乃木坂46",
-      "en": "乃木坂46"
-    },
-    "memberGlyph": "乃",
-    "memberHueShift": 0,
-    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobHqNqoK.jpg",
-    "title": "さつまいろ、さつまいも",
-    "publishedAt": "2026-10-15T12:58:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104903?ima=1011&cd=MEMBER",
     "type": "official_blog"
   }
 ]
