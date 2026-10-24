@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-23",
+  "generatedAt": "2026-10-24",
   "brandAssets": [],
   "venues": [
     {
@@ -90,7 +90,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/10/21337",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/10",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -113,30 +113,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23331",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-10-23"
-      }
-    },
-    {
-      "id": "stu-auto-20261024-23538",
-      "groupIds": [
-        "stu48"
-      ],
-      "title": {
-        "ja": "STU48 初選抜メンバーをみんなでお祝いしょう！",
-        "ko": "STU48 初選抜メンバーをみんなでお祝いしょう！",
-        "en": "STU48 初選抜メンバーをみんなでお祝いしょう！"
-      },
-      "kind": "appearance",
-      "startsAt": "2026-10-24T03:00:00.000+00:00",
-      "endsAt": null,
-      "venueId": null,
-      "posterUrl": null,
-      "price": null,
-      "ticketUrl": null,
-      "officialUrl": "https://www.stu48.com/schedule/detail/23538",
-      "provenance": {
-        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -159,7 +136,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23332",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -182,7 +159,30 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23537",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
+      "id": "stu-auto-20261024-23538",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48 初選抜メンバーをみんなでお祝いしょう！",
+        "ko": "STU48 初選抜メンバーをみんなでお祝いしょう！",
+        "en": "STU48 初選抜メンバーをみんなでお祝いしょう！"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-10-24T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23538",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -202,10 +202,10 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107631?ima=5041&pri1=202610&wd00=2026&wd01=10&wd02=25",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107631?ima=4332&pri1=202610&wd00=2026&wd01=10&wd02=25",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -228,7 +228,7 @@
       "officialUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202610",
       "provenance": {
         "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202610",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -251,7 +251,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/10/21362",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/10",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -274,7 +274,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/10/21357",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/10",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -297,7 +297,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23359",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -317,10 +317,10 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107626?ima=5041&pri1=202610&wd00=2026&wd01=10&wd02=26",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107626?ima=4332&pri1=202610&wd00=2026&wd01=10&wd02=26",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -340,10 +340,33 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107626?ima=5041&pri1=202610&wd00=2026&wd01=10&wd02=27",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107626?ima=4332&pri1=202610&wd00=2026&wd01=10&wd02=27",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
+      "id": "stu-auto-20261027-23597",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演",
+        "ko": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演",
+        "en": "STU48 4期研究生「さあ 未来を探しに行こうか？」公演"
+      },
+      "kind": "theater",
+      "startsAt": "2026-10-27T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23597",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -366,7 +389,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23526",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -386,10 +409,10 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=5041&pri1=202610&wd00=2026&wd01=10&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=4332&pri1=202610&wd00=2026&wd01=10&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -412,7 +435,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23419",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -435,7 +458,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23527",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/10/",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -458,7 +481,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/11/21364",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/11",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -481,7 +504,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23355",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -501,10 +524,10 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107488?ima=5042&pri1=202611&wd00=2026&wd01=11&wd02=03",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107488?ima=4339&pri1=202611&wd00=2026&wd01=11&wd02=03",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -527,7 +550,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/11/21354",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/11",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -550,7 +573,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23557",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -573,7 +596,7 @@
       "officialUrl": "https://www.hinatazaka46.com/s/official/media/detail/12183?ima=0000",
       "provenance": {
         "sourceUrl": "https://www.hinatazaka46.com/s/official/media/list?dy=202611",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -596,7 +619,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/11/21348",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/11",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -619,7 +642,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23558",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -642,7 +665,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23559",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -665,7 +688,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23514",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -688,7 +711,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/11/21358",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/11",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -711,7 +734,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23109",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -731,10 +754,10 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107632?ima=5042&pri1=202611&wd00=2026&wd01=11&wd02=09",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107632?ima=4339&pri1=202611&wd00=2026&wd01=11&wd02=09",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -754,10 +777,10 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107627?ima=5042&pri1=202611&wd00=2026&wd01=11&wd02=10",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107627?ima=4339&pri1=202611&wd00=2026&wd01=11&wd02=10",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -777,10 +800,10 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107627?ima=5042&pri1=202611&wd00=2026&wd01=11&wd02=11",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107627?ima=4339&pri1=202611&wd00=2026&wd01=11&wd02=11",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -803,7 +826,7 @@
       "officialUrl": "https://sakurazaka46.com/s/s46/page/6th_anniversary",
       "provenance": {
         "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202611",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -826,7 +849,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23112",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -849,7 +872,7 @@
       "officialUrl": "https://sakurazaka46.com/s/s46/page/6th_anniversary",
       "provenance": {
         "sourceUrl": "https://sakurazaka46.com/s/s46/media/list?dy=202611",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -872,7 +895,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23113",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -892,10 +915,10 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107633?ima=5042&pri1=202611&wd00=2026&wd01=11&wd02=16",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107633?ima=4339&pri1=202611&wd00=2026&wd01=11&wd02=16",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -915,10 +938,10 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107628?ima=5042&pri1=202611&wd00=2026&wd01=11&wd02=17",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107628?ima=4339&pri1=202611&wd00=2026&wd01=11&wd02=17",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -938,10 +961,10 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107628?ima=5042&pri1=202611&wd00=2026&wd01=11&wd02=18",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107628?ima=4339&pri1=202611&wd00=2026&wd01=11&wd02=18",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -964,7 +987,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23536",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -987,7 +1010,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23360",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -1010,7 +1033,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/11/21359",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/11",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -1033,7 +1056,7 @@
       "officialUrl": "https://www.stu48.com/schedule/detail/23498",
       "provenance": {
         "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -1053,10 +1076,33 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107634?ima=5042&pri1=202611&wd00=2026&wd01=11&wd02=23",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107634?ima=4339&pri1=202611&wd00=2026&wd01=11&wd02=23",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
+      "id": "stu-auto-20261123-23195",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "「ちかっぱ祭2026」",
+        "ko": "「ちかっぱ祭2026」",
+        "en": "「ちかっぱ祭2026」"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-11-23T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23195",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -1076,10 +1122,10 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107629?ima=5042&pri1=202611&wd00=2026&wd01=11&wd02=24",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107629?ima=4339&pri1=202611&wd00=2026&wd01=11&wd02=24",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -1099,10 +1145,10 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107629?ima=5042&pri1=202611&wd00=2026&wd01=11&wd02=25",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107629?ima=4339&pri1=202611&wd00=2026&wd01=11&wd02=25",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -1125,7 +1171,7 @@
       "officialUrl": "https://www.hkt48.jp/schedule/2026/11/20368",
       "provenance": {
         "sourceUrl": "https://www.hkt48.jp/schedule/2026/11",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -1148,7 +1194,7 @@
       "officialUrl": "https://www.hinatazaka46.com/s/official/media/detail/12109?ima=0000",
       "provenance": {
         "sourceUrl": "https://www.hinatazaka46.com/s/official/media/list?dy=202611",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -1168,10 +1214,10 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107319?ima=5042&pri1=202611&wd00=2026&wd01=11&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107319?ima=4339&pri1=202611&wd00=2026&wd01=11&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     },
     {
@@ -1191,10 +1237,10 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107635?ima=5042&pri1=202611&wd00=2026&wd01=11&wd02=30",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107635?ima=4339&pri1=202611&wd00=2026&wd01=11&wd02=30",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-24"
       }
     }
   ],
