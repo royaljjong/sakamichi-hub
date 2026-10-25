@@ -1,5 +1,91 @@
 [
   {
+    "id": "stu-a6f1addae3c7",
+    "groupId": "stu48",
+    "franchise": "akb48g",
+    "memberName": {
+      "ja": "STU48",
+      "ko": "STU48",
+      "en": "STU48"
+    },
+    "memberGlyph": "S",
+    "memberHueShift": 0,
+    "memberImage": null,
+    "title": "【STU48 FAN CLUB】野中 莉央へのバースデーメッセージを募集中♪",
+    "publishedAt": "2026-10-26T00:00:00.000Z",
+    "url": "https://www.stu48.com/news/detail/23581",
+    "type": "official_blog"
+  },
+  {
+    "id": "nogi-fe6042d6f238",
+    "groupId": "nogizaka46",
+    "franchise": "sakamichi",
+    "memberName": {
+      "ja": "乃木坂46",
+      "ko": "乃木坂46",
+      "en": "乃木坂46"
+    },
+    "memberGlyph": "乃",
+    "memberHueShift": 0,
+    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobtxpUCC.jpg",
+    "title": "アップトゥボーイ連載",
+    "publishedAt": "2026-10-25T22:10:00.000Z",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104944?ima=2026&cd=MEMBER",
+    "type": "official_blog"
+  },
+  {
+    "id": "nogi-5954ea61b276",
+    "groupId": "nogizaka46",
+    "franchise": "sakamichi",
+    "memberName": {
+      "ja": "乃木坂46",
+      "ko": "乃木坂46",
+      "en": "乃木坂46"
+    },
+    "memberGlyph": "乃",
+    "memberHueShift": 0,
+    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobxCaDs9.jpg",
+    "title": "いよいよ始まるよ！",
+    "publishedAt": "2026-10-25T21:53:00.000Z",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104943?ima=2026&cd=MEMBER",
+    "type": "official_blog"
+  },
+  {
+    "id": "nogi-854227ac102d",
+    "groupId": "nogizaka46",
+    "franchise": "sakamichi",
+    "memberName": {
+      "ja": "乃木坂46",
+      "ko": "乃木坂46",
+      "en": "乃木坂46"
+    },
+    "memberGlyph": "乃",
+    "memberHueShift": 0,
+    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mob0HE6YC.jpg",
+    "title": "海を照らす太陽は希望に見える",
+    "publishedAt": "2026-10-25T21:52:00.000Z",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104942?ima=2026&cd=MEMBER",
+    "type": "official_blog"
+  },
+  {
+    "id": "hina-f653311cb947",
+    "groupId": "hinatazaka46",
+    "franchise": "sakamichi",
+    "memberId": "hina-katayama-saki",
+    "memberName": {
+      "ja": "片山 紗希",
+      "ko": "카타야마 사키",
+      "en": "Katayama Saki"
+    },
+    "memberGlyph": "片",
+    "memberHueShift": -1,
+    "memberImage": "https://cdn.hinatazaka46.com/images/14/eeb/9017dc75d5fdfbee93780aebd9fdd/800_800_102400.jpg",
+    "title": "日向坂46 ARENA TOUR「ひなくり2026」 SPECIAL SITE",
+    "publishedAt": "2026-10-25T21:51:00.000Z",
+    "url": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+    "type": "official_blog"
+  },
+  {
     "id": "hina-e931dd0f024c",
     "groupId": "hinatazaka46",
     "franchise": "sakamichi",
@@ -15,6 +101,60 @@
     "title": "個別ページ",
     "publishedAt": "2026-10-25T09:40:00.000Z",
     "url": "https://www.hinatazaka46.com/s/official/diary/detail/71494?ima=0000&cd=member",
+    "type": "official_blog"
+  },
+  {
+    "id": "ske-3d1fd52cbda5",
+    "groupId": "ske48",
+    "franchise": "akb48g",
+    "memberId": "ske48-suzuki-ena",
+    "memberName": {
+      "ja": "鈴木愛菜",
+      "ko": "스즈키 에나",
+      "en": "Suzuki Ena"
+    },
+    "memberGlyph": "鈴",
+    "memberHueShift": -18,
+    "memberImage": "https://ske48.co.jp/image/profile/member_34.jpg",
+    "title": "今日もありがとう。",
+    "publishedAt": "2026-10-25T00:00:00.000Z",
+    "url": "https://ske48.co.jp/blog/detail/89466/",
+    "type": "official_blog"
+  },
+  {
+    "id": "ske-00a74b8b80b6",
+    "groupId": "ske48",
+    "franchise": "akb48g",
+    "memberId": "ske48-akahori-kimie",
+    "memberName": {
+      "ja": "赤堀君江",
+      "ko": "아카호리 키미에",
+      "en": "Akahori Kimie"
+    },
+    "memberGlyph": "赤",
+    "memberHueShift": 22,
+    "memberImage": "https://ske48.co.jp/image/profile/member_2.jpg",
+    "title": "おもいで📷",
+    "publishedAt": "2026-10-25T00:00:00.000Z",
+    "url": "https://ske48.co.jp/blog/detail/89465/",
+    "type": "official_blog"
+  },
+  {
+    "id": "ske-938716961d42",
+    "groupId": "ske48",
+    "franchise": "akb48g",
+    "memberId": "ske48-nakao-fuka",
+    "memberName": {
+      "ja": "中尾楓華",
+      "ko": "나카오 후카",
+      "en": "Nakao Fuka"
+    },
+    "memberGlyph": "中",
+    "memberHueShift": 15,
+    "memberImage": "https://ske48.co.jp/image/profile/member_109.jpg",
+    "title": "はい、チーズ！",
+    "publishedAt": "2026-10-25T00:00:00.000Z",
+    "url": "https://ske48.co.jp/blog/detail/89464/",
     "type": "official_blog"
   },
   {
@@ -122,7 +262,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-3a4bff03f4a1",
+    "id": "nogi-f3840af66586",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -135,7 +275,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobwdNyb7.jpg",
     "title": "フォーマルハウト",
     "publishedAt": "2026-10-24T21:29:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104941?ima=2818&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104941?ima=2026&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -278,7 +418,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-789fe0d7f596",
+    "id": "nogi-a8eec0e0cbdf",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -291,7 +431,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobZMbuuC.jpg",
     "title": "終わってしまうなら",
     "publishedAt": "2026-10-23T21:10:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104940?ima=2818&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104940?ima=2026&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -313,7 +453,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-957dad285ace",
+    "id": "nogi-57fae21f3bb2",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -326,7 +466,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobBV7sds.jpg",
     "title": "自分が嫌になる、",
     "publishedAt": "2026-10-23T18:33:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104939?ima=2818&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104939?ima=2026&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -546,24 +686,6 @@
     "type": "official_blog"
   },
   {
-    "id": "ske-a0a94ccffccf",
-    "groupId": "ske48",
-    "franchise": "akb48g",
-    "memberId": "ske48-takeshita-marika",
-    "memberName": {
-      "ja": "竹下茉莉花",
-      "ko": "타케시타 마리카",
-      "en": "Takeshita Marika"
-    },
-    "memberGlyph": "竹",
-    "memberHueShift": 37,
-    "memberImage": "https://ske48.co.jp/image/profile/member_108.jpg",
-    "title": "わちゃわちゃハロウィンナイト",
-    "publishedAt": "2026-10-23T00:00:00.000Z",
-    "url": "https://ske48.co.jp/blog/detail/89453/",
-    "type": "official_blog"
-  },
-  {
     "id": "akb-e75624d09883",
     "groupId": "akb48",
     "franchise": "akb48g",
@@ -734,60 +856,7 @@
     "type": "official_blog"
   },
   {
-    "id": "ske-1f1a0c4c0421",
-    "groupId": "ske48",
-    "franchise": "akb48g",
-    "memberId": "ske48-suzuki-ena",
-    "memberName": {
-      "ja": "鈴木愛菜",
-      "ko": "스즈키 에나",
-      "en": "Suzuki Ena"
-    },
-    "memberGlyph": "鈴",
-    "memberHueShift": -18,
-    "memberImage": "https://ske48.co.jp/image/profile/member_34.jpg",
-    "title": "毎日幸せ。",
-    "publishedAt": "2026-10-22T00:00:00.000Z",
-    "url": "https://ske48.co.jp/blog/detail/89456/",
-    "type": "official_blog"
-  },
-  {
-    "id": "ske-003d93b5871a",
-    "groupId": "ske48",
-    "franchise": "akb48g",
-    "memberId": "ske48-ida-reona",
-    "memberName": {
-      "ja": "井田玲音名",
-      "ko": "이다 레오나",
-      "en": "Ida Reona"
-    },
-    "memberGlyph": "井",
-    "memberHueShift": -4,
-    "memberImage": "https://ske48.co.jp/image/profile/member_47.jpg",
-    "title": "ついつい",
-    "publishedAt": "2026-10-22T00:00:00.000Z",
-    "url": "https://ske48.co.jp/blog/detail/89455/",
-    "type": "official_blog"
-  },
-  {
-    "id": "akb-e368e08755a0",
-    "groupId": "akb48",
-    "franchise": "akb48g",
-    "memberName": {
-      "ja": "AKB48",
-      "ko": "AKB48",
-      "en": "AKB48"
-    },
-    "memberGlyph": "秋",
-    "memberHueShift": 0,
-    "memberImage": null,
-    "title": "【正鋳真優】映画「こどものおたより」予告解禁",
-    "publishedAt": "2026-10-22T00:00:00.000Z",
-    "url": "https://ameblo.jp/akihabara48/entry-12982133929.html",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-7b9ec6123209",
+    "id": "nogi-c15ce8841b20",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -800,11 +869,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mob44iheh.png",
     "title": "考えることをやめないで。",
     "publishedAt": "2026-10-21T17:28:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104938?ima=2818&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104938?ima=2026&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-40ee7a209070",
+    "id": "nogi-6c85d4c88886",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -817,11 +886,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobdCMQFr.jpg",
     "title": "早起きは苦手なので冬はつとめてとは言えません",
     "publishedAt": "2026-10-21T17:17:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104937?ima=2818&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104937?ima=2026&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-57989a8f07f2",
+    "id": "nogi-f30990388c14",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -834,11 +903,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobX0vpxO.jpg",
     "title": "当たっていないスポットライト",
     "publishedAt": "2026-10-21T17:06:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104936?ima=2818&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104936?ima=2026&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-167f58c0aab3",
+    "id": "nogi-ba8d5271152c",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -851,7 +920,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobQIcrFz.jpg",
     "title": "自分のすきもきらいも",
     "publishedAt": "2026-10-21T16:25:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104935?ima=2818&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104935?ima=2026&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -870,76 +939,6 @@
     "title": "個別ページ",
     "publishedAt": "2026-10-21T15:46:00.000Z",
     "url": "https://www.hinatazaka46.com/s/official/diary/detail/71466?ima=0000&cd=member",
-    "type": "official_blog"
-  },
-  {
-    "id": "hina-e233fa3c1d97",
-    "groupId": "hinatazaka46",
-    "franchise": "sakamichi",
-    "memberId": "hina-matsuo-sakura",
-    "memberName": {
-      "ja": "松尾 桜",
-      "ko": "마쓰오 사쿠라",
-      "en": "Matsuo Sakura"
-    },
-    "memberGlyph": "松",
-    "memberHueShift": 32,
-    "memberImage": "https://cdn.hinatazaka46.com/images/14/c81/eedeb7f985b4229d29af233e62177/800_800_102400.jpg",
-    "title": "NHK MUSIC",
-    "publishedAt": "2026-10-20T19:08:00.000Z",
-    "url": "https://youtu.be/7UDlIyZL5XY",
-    "type": "official_blog"
-  },
-  {
-    "id": "hina-fda6ab2f8b3e",
-    "groupId": "hinatazaka46",
-    "franchise": "sakamichi",
-    "memberId": "hina-oota-mizuki",
-    "memberName": {
-      "ja": "大田 美月",
-      "ko": "오오타 미즈키",
-      "en": "Oota Mizuki"
-    },
-    "memberGlyph": "大",
-    "memberHueShift": 27,
-    "memberImage": "https://cdn.hinatazaka46.com/images/14/3ad/e07febee32edf17721f512802ee4b/800_800_102400.jpg",
-    "title": "ひなリハ",
-    "publishedAt": "2026-10-20T18:56:00.000Z",
-    "url": "https://youtu.be/_EP75eSPL_U",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-2511ee305d62",
-    "groupId": "nogizaka46",
-    "franchise": "sakamichi",
-    "memberName": {
-      "ja": "乃木坂46",
-      "ko": "乃木坂46",
-      "en": "乃木坂46"
-    },
-    "memberGlyph": "乃",
-    "memberHueShift": 0,
-    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobSdGFiP.png",
-    "title": "さざ波は戻らない",
-    "publishedAt": "2026-10-20T18:02:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104934?ima=2818&cd=MEMBER",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-9d8dfc8dda45",
-    "groupId": "nogizaka46",
-    "franchise": "sakamichi",
-    "memberName": {
-      "ja": "乃木坂46",
-      "ko": "乃木坂46",
-      "en": "乃木坂46"
-    },
-    "memberGlyph": "乃",
-    "memberHueShift": 0,
-    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobQBd4a0.jpg",
-    "title": "船出",
-    "publishedAt": "2026-10-19T21:26:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104932?ima=2818&cd=MEMBER",
     "type": "official_blog"
   }
 ]
