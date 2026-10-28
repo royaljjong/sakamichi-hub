@@ -110,7 +110,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=1939&pri1=202610&wd00=2026&wd01=10&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107278?ima=5448&pri1=202610&wd00=2026&wd01=10&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202610",
         "checkedAt": "2026-10-28"
@@ -225,7 +225,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107488?ima=1939&pri1=202611&wd00=2026&wd01=11&wd02=03",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107488?ima=5448&pri1=202611&wd00=2026&wd01=11&wd02=03",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
         "checkedAt": "2026-10-28"
@@ -347,6 +347,29 @@
       }
     },
     {
+      "id": "stu-auto-20261107-23615",
+      "groupIds": [
+        "stu48"
+      ],
+      "title": {
+        "ja": "兵頭葵が&quot;結&quot;島fes in HIROSHIMA GATE PARK 2026に参加",
+        "ko": "兵頭葵が&quot;結&quot;島fes in HIROSHIMA GATE PARK 2026に参加",
+        "en": "兵頭葵が&quot;結&quot;島fes in HIROSHIMA GATE PARK 2026に参加"
+      },
+      "kind": "appearance",
+      "startsAt": "2026-11-07T03:00:00.000+00:00",
+      "endsAt": null,
+      "venueId": null,
+      "posterUrl": null,
+      "price": null,
+      "ticketUrl": null,
+      "officialUrl": "https://www.stu48.com/schedule/detail/23615",
+      "provenance": {
+        "sourceUrl": "https://sp.stu48.com/schedule/list/2026/11/",
+        "checkedAt": "2026-10-28"
+      }
+    },
+    {
       "id": "stu-auto-20261107-23558",
       "groupIds": [
         "stu48"
@@ -455,7 +478,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107632?ima=1939&pri1=202611&wd00=2026&wd01=11&wd02=09",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107632?ima=5448&pri1=202611&wd00=2026&wd01=11&wd02=09",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
         "checkedAt": "2026-10-28"
@@ -478,7 +501,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107627?ima=1939&pri1=202611&wd00=2026&wd01=11&wd02=10",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107627?ima=5448&pri1=202611&wd00=2026&wd01=11&wd02=10",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
         "checkedAt": "2026-10-28"
@@ -501,7 +524,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107627?ima=1939&pri1=202611&wd00=2026&wd01=11&wd02=11",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107627?ima=5448&pri1=202611&wd00=2026&wd01=11&wd02=11",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
         "checkedAt": "2026-10-28"
@@ -616,7 +639,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107633?ima=1939&pri1=202611&wd00=2026&wd01=11&wd02=16",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107633?ima=5448&pri1=202611&wd00=2026&wd01=11&wd02=16",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
         "checkedAt": "2026-10-28"
@@ -685,7 +708,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107628?ima=1939&pri1=202611&wd00=2026&wd01=11&wd02=17",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107628?ima=5448&pri1=202611&wd00=2026&wd01=11&wd02=17",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
         "checkedAt": "2026-10-28"
@@ -731,7 +754,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107628?ima=1939&pri1=202611&wd00=2026&wd01=11&wd02=18",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107628?ima=5448&pri1=202611&wd00=2026&wd01=11&wd02=18",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
         "checkedAt": "2026-10-28"
@@ -892,7 +915,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107634?ima=1939&pri1=202611&wd00=2026&wd01=11&wd02=23",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107634?ima=5448&pri1=202611&wd00=2026&wd01=11&wd02=23",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
         "checkedAt": "2026-10-28"
@@ -938,7 +961,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107629?ima=1939&pri1=202611&wd00=2026&wd01=11&wd02=24",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107629?ima=5448&pri1=202611&wd00=2026&wd01=11&wd02=24",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
         "checkedAt": "2026-10-28"
@@ -961,7 +984,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107629?ima=1939&pri1=202611&wd00=2026&wd01=11&wd02=25",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107629?ima=5448&pri1=202611&wd00=2026&wd01=11&wd02=25",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
         "checkedAt": "2026-10-28"
@@ -1053,7 +1076,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107319?ima=1939&pri1=202611&wd00=2026&wd01=11&wd02=29",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107319?ima=5448&pri1=202611&wd00=2026&wd01=11&wd02=29",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
         "checkedAt": "2026-10-28"
@@ -1076,7 +1099,7 @@
       "posterUrl": null,
       "price": null,
       "ticketUrl": null,
-      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107635?ima=1939&pri1=202611&wd00=2026&wd01=11&wd02=30",
+      "officialUrl": "https://www.nogizaka46.com/s/n46/media/detail/107635?ima=5448&pri1=202611&wd00=2026&wd01=11&wd02=30",
       "provenance": {
         "sourceUrl": "https://www.nogizaka46.com/s/n46/media/list?dy=202611",
         "checkedAt": "2026-10-28"
