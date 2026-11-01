@@ -1,6 +1,40 @@
 [
   {
-    "id": "nogi-26d92d9874a2",
+    "id": "stu-520c4f31884f",
+    "groupId": "stu48",
+    "franchise": "akb48g",
+    "memberName": {
+      "ja": "STU48",
+      "ko": "STU48",
+      "en": "STU48"
+    },
+    "memberGlyph": "S",
+    "memberHueShift": 0,
+    "memberImage": null,
+    "title": "【STU48 FAN CLUB】道保 琉南へのバースデーメッセージを募集中♪",
+    "publishedAt": "2026-11-02T00:00:00.000Z",
+    "url": "https://www.stu48.com/news/detail/23624",
+    "type": "official_blog"
+  },
+  {
+    "id": "nogi-7b1965db6646",
+    "groupId": "nogizaka46",
+    "franchise": "sakamichi",
+    "memberName": {
+      "ja": "乃木坂46",
+      "ko": "乃木坂46",
+      "en": "乃木坂46"
+    },
+    "memberGlyph": "乃",
+    "memberHueShift": 0,
+    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202611/mob1RAfc2.png",
+    "title": "憧れの衣装でした",
+    "publishedAt": "2026-11-01T21:34:00.000Z",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104965?ima=3208&cd=MEMBER",
+    "type": "official_blog"
+  },
+  {
+    "id": "nogi-021876ac2a3f",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -13,11 +47,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202611/mobl5mfRt.jpg",
     "title": "トリックオア … ???",
     "publishedAt": "2026-11-01T20:55:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104964?ima=2523&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104964?ima=3208&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-930170966a25",
+    "id": "nogi-ba3cda1e3e5b",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -30,11 +64,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202611/mobvznQL9.jpg",
     "title": "11月です！よ！",
     "publishedAt": "2026-11-01T18:45:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104963?ima=2523&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104963?ima=3208&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-433c47288603",
+    "id": "nogi-2ab896881c5a",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -47,11 +81,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202611/mobJKxMYw.jpg",
     "title": "まだハロウィン気分で一緒に過ごそ？",
     "publishedAt": "2026-11-01T18:12:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104962?ima=2523&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104962?ima=3208&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "hina-2de76fcd80f2",
+    "id": "hina-9d1b94645258",
     "groupId": "hinatazaka46",
     "franchise": "sakamichi",
     "memberId": "hina-shougenji-youko",
@@ -65,11 +99,11 @@
     "memberImage": "https://cdn.hinatazaka46.com/images/14/165/1a92a40f996f43ce58b2b701d46ef/800_800_102400.jpg",
     "title": "[email&#160;protected]",
     "publishedAt": "2026-11-01T15:57:00.000Z",
-    "url": "https://www.hinatazaka46.com/cdn-cgi/l/email-protection#95ecfafefad5f4f9f9fbfcf2fde1fbfce5e5fafbbbf6faf8",
+    "url": "https://www.hinatazaka46.com/cdn-cgi/l/email-protection#d8a1b7b3b798b9b4b4b6b1bfb0acb6b1a8a8b7b6f6bbb7b5",
     "type": "official_blog"
   },
   {
-    "id": "nogi-3e3949485d6c",
+    "id": "nogi-9b844c39b489",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -82,7 +116,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202611/mobqb7Sck.jpg",
     "title": "エルフになってみた🧝‍♀️",
     "publishedAt": "2026-11-01T15:51:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104961?ima=2523&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104961?ima=3208&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -104,7 +138,25 @@
     "type": "official_blog"
   },
   {
-    "id": "saku-92eaea8ebb5e",
+    "id": "saku-e261f5a60c1d",
+    "groupId": "sakurazaka46",
+    "franchise": "sakamichi",
+    "memberId": "saku-katsumata-haru",
+    "memberName": {
+      "ja": "勝又 春",
+      "ko": "카쓰마타 하루",
+      "en": "Katsumata Haru"
+    },
+    "memberGlyph": "勝",
+    "memberHueShift": 16,
+    "memberImage": "https://sakurazaka46.com/images/14/af8/d7373c8f6d516b2546983d0da9546/400_320_102400.jpg",
+    "title": "大沼 晶保\n        \n      \n      \n        2026/11/01\n        ハロウィン🎃\n      \n      開いてくださりありがとうございます！静岡県出身櫻坂46 大沼晶保です🐟🌻HappyHalloween👻🎃🕸🕷10月31日ハロウィン当日にミーグ...\n    \n    \n      MORE",
+    "publishedAt": "2026-11-01T00:00:00.000Z",
+    "url": "https://sakurazaka46.com/s/s46/diary/detail/71570?ima=0000&cd=blog",
+    "type": "official_blog"
+  },
+  {
+    "id": "saku-0e377cd8aaa9",
     "groupId": "sakurazaka46",
     "franchise": "sakamichi",
     "memberId": "saku-oonuma-akiho",
@@ -116,13 +168,13 @@
     "memberGlyph": "大",
     "memberHueShift": 10,
     "memberImage": "https://sakurazaka46.com/images/14/ba6/a44f36a54d4327bd2639c5624658d/400_320_102400.jpg",
-    "title": "稲熊 ひな\n        \n      \n      \n        2026/11/01\n        好きになっチャイナ◝✩ ‌‌ ‌\n      \n      ブログを読みに来てくださり、ありがとうございます櫻坂46 四期生の稲熊ひな（いなぐまひな）です🐥⸒⸒🥟10月31日のオンラインミ...\n    \n    \n      MORE",
+    "title": "石森 璃花\n        \n      \n      \n        2026/11/01\n        ハート、204\n      \n      ￼￼ハロウィンでこんな風にコスプレするのもライブでかっこいい曲をパフォーマンスするのもバラエティでいろんなことに挑戦するの...\n    \n    \n      MORE",
     "publishedAt": "2026-11-01T00:00:00.000Z",
-    "url": "https://sakurazaka46.com/s/s46/diary/detail/71569?ima=0000&cd=blog",
+    "url": "https://sakurazaka46.com/s/s46/diary/detail/71568?ima=0000&cd=blog",
     "type": "official_blog"
   },
   {
-    "id": "saku-9ed8cc26b382",
+    "id": "saku-4ce8cf31f7ed",
     "groupId": "sakurazaka46",
     "franchise": "sakamichi",
     "memberId": "saku-inaguma-hina",
@@ -134,13 +186,13 @@
     "memberGlyph": "稲",
     "memberHueShift": 39,
     "memberImage": "https://sakurazaka46.com/images/14/e10/03eb3f4f005c628c086bbad020760/400_320_102400.jpg",
-    "title": "向井 純葉\n        \n      \n      \n        2026/11/01\n        繋いでいて\n      \n      今日から11月 パジャマ長袖デビュー ブログをご覧頂きありがとうございます。広 島 県 出 身 2 0 歳向 井 純 葉 ( む か い い ...\n    \n    \n      MORE",
+    "title": "中川 智尋\n        \n      \n      \n        2026/11/01\n         \n      \n      こんばんは四期生の中川智尋です （うさぎ仕様♡）1日遅れのハッピーハロウィン🎃昨日は本当にいい日でしたね…廊下を歩くと素敵な...\n    \n    \n      MORE",
     "publishedAt": "2026-11-01T00:00:00.000Z",
-    "url": "https://sakurazaka46.com/s/s46/diary/detail/71567?ima=0000&cd=blog",
+    "url": "https://sakurazaka46.com/s/s46/diary/detail/71566?ima=0000&cd=blog",
     "type": "official_blog"
   },
   {
-    "id": "saku-4310a3623438",
+    "id": "saku-8955e9b530c8",
     "groupId": "sakurazaka46",
     "franchise": "sakamichi",
     "memberId": "saku-ishimori-rika",
@@ -152,13 +204,13 @@
     "memberGlyph": "石",
     "memberHueShift": -24,
     "memberImage": "https://sakurazaka46.com/images/14/96c/e09c33f326876209556dd38ada02d/400_320_102400.jpg",
-    "title": "山田 桃実\n        \n      \n      \n        2026/11/01\n        Halloweenでした\n      \n      🐰こんばんは~ブログを開いて下さりありがとうございます櫻坂46 四期生 山田桃実(やまだももみ)です☺︎昨日はオンラインミーグリ...\n    \n    \n      MORE",
+    "title": "遠藤 理子\n        \n      \n      \n        2026/11/01\n        🐺\n      \n      ブログを開いていただき、ありがとうございます！埼玉県出身のえんどうりこです。☺︎ハロウィンミーグリありがとうございました！...\n    \n    \n      MORE",
     "publishedAt": "2026-11-01T00:00:00.000Z",
-    "url": "https://sakurazaka46.com/s/s46/diary/detail/71565?ima=0000&cd=blog",
+    "url": "https://sakurazaka46.com/s/s46/diary/detail/71564?ima=0000&cd=blog",
     "type": "official_blog"
   },
   {
-    "id": "saku-cce4c1f2b910",
+    "id": "saku-91bcfab467ab",
     "groupId": "sakurazaka46",
     "franchise": "sakamichi",
     "memberId": "saku-mukai-itoha",
@@ -170,13 +222,13 @@
     "memberGlyph": "向",
     "memberHueShift": -22,
     "memberImage": "https://sakurazaka46.com/images/14/9ae/17778d4155da0c18a427f993973b8/400_320_102400.jpg",
-    "title": "浅井 恋乃未\n        \n      \n      \n        2026/10/31\n        　\n      \n      ブログを開いてくださり、ありがとうございます☺︎櫻坂46 四期生埼玉県出身21歳の浅井恋乃未（あさいこのみ）です。どうしてもハ...\n    \n    \n      MORE",
+    "title": "遠藤 光莉\n        \n      \n      \n        2026/10/31\n        #428. ハロウィン🎃\n      \n      ブログを開いて下さり、ありがとうございます。櫻坂46 二期生の遠藤光莉です。ﾟ+｡::ﾟ｡:.ﾟ｡+｡｡+.:ﾟ｡:.ﾟ｡+｡｡+.｡ﾟ:;｡+ﾟ+｡:今日10月3...\n    \n    \n      MORE",
     "publishedAt": "2026-11-01T00:00:00.000Z",
-    "url": "https://sakurazaka46.com/s/s46/diary/detail/71560?ima=0000&cd=blog",
+    "url": "https://sakurazaka46.com/s/s46/diary/detail/71559?ima=0000&cd=blog",
     "type": "official_blog"
   },
   {
-    "id": "saku-75b75c546103",
+    "id": "saku-7f47b9c61b1f",
     "groupId": "sakurazaka46",
     "franchise": "sakamichi",
     "memberId": "saku-nakagawa-chihiro",
@@ -188,27 +240,27 @@
     "memberGlyph": "中",
     "memberHueShift": 6,
     "memberImage": "https://sakurazaka46.com/images/14/d72/c7bc8a8661d1ac165f281b5e05619/400_320_102400.jpg",
-    "title": "谷口 愛季\n        \n      \n      \n        2026/10/31\n        オレンジの灯り\n      \n      ブログを開いてくださり、ありがとうございます櫻坂46 三期生 山口県出身🐡 21歳の谷口愛季(たにぐちあいり)です。 ーーー 🐾 ー...\n    \n    \n      MORE",
+    "title": "山田 桃実\n        \n      \n      \n        2026/10/31\n        朝です\n      \n      Good morningです^_^‪ブログを開いて下さりありがとうございます！櫻坂46 四期生 山田桃実(やまだももみ)です~じゃーん現像した...\n    \n    \n      MORE",
     "publishedAt": "2026-11-01T00:00:00.000Z",
-    "url": "https://sakurazaka46.com/s/s46/diary/detail/71548?ima=0000&cd=blog",
+    "url": "https://sakurazaka46.com/s/s46/diary/detail/71547?ima=0000&cd=blog",
     "type": "official_blog"
   },
   {
-    "id": "saku-0424ecd06b2f",
-    "groupId": "sakurazaka46",
-    "franchise": "sakamichi",
-    "memberId": "saku-yamada-momomi",
+    "id": "ske-421b30d28fae",
+    "groupId": "ske48",
+    "franchise": "akb48g",
+    "memberId": "ske48-ida-reona",
     "memberName": {
-      "ja": "山田 桃実",
-      "ko": "야마다 모모미",
-      "en": "Yamada Momomi"
+      "ja": "井田玲音名",
+      "ko": "이다 레오나",
+      "en": "Ida Reona"
     },
-    "memberGlyph": "山",
-    "memberHueShift": 34,
-    "memberImage": "https://sakurazaka46.com/images/14/676/8b28bb50d64b1f8b3fed70b156476/400_320_102400.jpg",
-    "title": "小田倉 麗奈\n        \n      \n      \n        2026/10/30\n        センチメンタル シーズン\n      \n      こんばんは小田倉麗奈(おだくられいな)です最近、大人になりたくないって呟いたら、あなたはもう立派な大人だよって言われました...\n    \n    \n      MORE",
+    "memberGlyph": "井",
+    "memberHueShift": -4,
+    "memberImage": "https://ske48.co.jp/image/profile/member_47.jpg",
+    "title": "ふしぎ",
     "publishedAt": "2026-11-01T00:00:00.000Z",
-    "url": "https://sakurazaka46.com/s/s46/diary/detail/71545?ima=0000&cd=blog",
+    "url": "https://ske48.co.jp/blog/detail/89491/",
     "type": "official_blog"
   },
   {
@@ -281,6 +333,23 @@
     "type": "official_blog"
   },
   {
+    "id": "nmb-ac687c88742e",
+    "groupId": "nmb48",
+    "franchise": "akb48g",
+    "memberName": {
+      "ja": "NMB48",
+      "ko": "NMB48",
+      "en": "NMB48"
+    },
+    "memberGlyph": "N",
+    "memberHueShift": 0,
+    "memberImage": null,
+    "title": "11月9日～11月15日 NMB48劇場公演スケジュール",
+    "publishedAt": "2026-11-01T00:00:00.000Z",
+    "url": "https://ameblo.jp/nmb48/entry-12982752225.html",
+    "type": "official_blog"
+  },
+  {
     "id": "stu-c9e3d1a82625",
     "groupId": "stu48",
     "franchise": "akb48g",
@@ -349,7 +418,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-da2dbb757aad",
+    "id": "nogi-ea733c151575",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -362,7 +431,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobOZmaPp.jpg",
     "title": "HALLOWEEN2026",
     "publishedAt": "2026-10-31T21:28:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104960?ima=2523&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104960?ima=3208&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -384,7 +453,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-df91bde95049",
+    "id": "nogi-8f9e5fcd6abe",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -397,11 +466,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobYXzzeQ.jpg",
     "title": "なんて日だ！",
     "publishedAt": "2026-10-31T21:04:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104959?ima=2523&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104959?ima=3208&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-b57cff662609",
+    "id": "nogi-9deac0587163",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -414,7 +483,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mob2F9tcQ.jpg",
     "title": "ハロウィン🐱🐭",
     "publishedAt": "2026-10-31T20:12:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104958?ima=2523&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104958?ima=3208&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -436,7 +505,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-094a8fea33dd",
+    "id": "nogi-3bb5d2a5ab2b",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -449,11 +518,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mob884aiz.jpg",
     "title": "かぼちゃプリンとか",
     "publishedAt": "2026-10-31T19:46:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104957?ima=2523&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104957?ima=3208&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-5b30cddae4be",
+    "id": "nogi-61d8dd774eb0",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -466,7 +535,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobahjwe2.jpg",
     "title": "21",
     "publishedAt": "2026-10-31T19:16:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104956?ima=2523&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104956?ima=3208&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -485,23 +554,6 @@
     "title": "日向坂46 ARENA TOUR「ひなくり2026」 SPECIAL SITE",
     "publishedAt": "2026-10-31T18:30:00.000Z",
     "url": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-46ded971c34a",
-    "groupId": "nogizaka46",
-    "franchise": "sakamichi",
-    "memberName": {
-      "ja": "乃木坂46",
-      "ko": "乃木坂46",
-      "en": "乃木坂46"
-    },
-    "memberGlyph": "乃",
-    "memberHueShift": 0,
-    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobd1WXdc.jpg",
-    "title": "ハッピーハロウィン🎃🦇🕸",
-    "publishedAt": "2026-10-31T18:00:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104955?ima=2523&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -887,57 +939,6 @@
     "title": "《あやみのブログ#1390》",
     "publishedAt": "2026-10-30T00:00:00.000Z",
     "url": "https://ameblo.jp/nmb48/entry-12983106704.html",
-    "type": "official_blog"
-  },
-  {
-    "id": "nmb-c52eaa167fd7",
-    "groupId": "nmb48",
-    "franchise": "akb48g",
-    "memberName": {
-      "ja": "NMB48",
-      "ko": "NMB48",
-      "en": "NMB48"
-    },
-    "memberGlyph": "N",
-    "memberHueShift": 0,
-    "memberImage": null,
-    "title": "11月9日～11月15日 NMB48劇場公演スケジュール",
-    "publishedAt": "2026-10-30T00:00:00.000Z",
-    "url": "https://ameblo.jp/nmb48/entry-12982752225.html",
-    "type": "official_blog"
-  },
-  {
-    "id": "stu-02eb04cd1a56",
-    "groupId": "stu48",
-    "franchise": "akb48g",
-    "memberName": {
-      "ja": "STU48",
-      "ko": "STU48",
-      "en": "STU48"
-    },
-    "memberGlyph": "S",
-    "memberHueShift": 0,
-    "memberImage": null,
-    "title": "10月31日(土) STU48 4期研究生「さあ 未来を探しに行こうか？」公演、チケット当日券販売のお知らせ",
-    "publishedAt": "2026-10-30T00:00:00.000Z",
-    "url": "https://www.stu48.com/news/detail/23640",
-    "type": "official_blog"
-  },
-  {
-    "id": "stu-542c00f256c6",
-    "groupId": "stu48",
-    "franchise": "akb48g",
-    "memberName": {
-      "ja": "STU48",
-      "ko": "STU48",
-      "en": "STU48"
-    },
-    "memberGlyph": "S",
-    "memberHueShift": 0,
-    "memberImage": null,
-    "title": "「りおつんと巡るLoveつんバスツアーin山口」チケット販売延期のお知らせ",
-    "publishedAt": "2026-10-30T00:00:00.000Z",
-    "url": "https://www.stu48.com/news/detail/23642",
     "type": "official_blog"
   }
 ]
