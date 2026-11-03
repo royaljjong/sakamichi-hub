@@ -1,6 +1,23 @@
 [
   {
-    "id": "nogi-2c45998bd42e",
+    "id": "nogi-10322fcd3b1c",
+    "groupId": "nogizaka46",
+    "franchise": "sakamichi",
+    "memberName": {
+      "ja": "乃木坂46",
+      "ko": "乃木坂46",
+      "en": "乃木坂46"
+    },
+    "memberGlyph": "乃",
+    "memberHueShift": 0,
+    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/261102_1.jpg",
+    "title": "薄明の空を背に。17歳",
+    "publishedAt": "2026-11-02T23:25:00.000Z",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104974?ima=1435&cd=MEMBER",
+    "type": "official_blog"
+  },
+  {
+    "id": "nogi-2891874b4752",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -13,7 +30,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202611/mobJkZ1Pq.png",
     "title": "一つずつ、確かなものに",
     "publishedAt": "2026-11-02T18:41:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104973?ima=2201&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104973?ima=1435&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -140,6 +157,24 @@
     "title": "雨の日。",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "url": "https://ske48.co.jp/blog/detail/89494/",
+    "type": "official_blog"
+  },
+  {
+    "id": "ske-4b47e23b4e9a",
+    "groupId": "ske48",
+    "franchise": "akb48g",
+    "memberId": "ske48-ida-reona",
+    "memberName": {
+      "ja": "井田玲音名",
+      "ko": "이다 레오나",
+      "en": "Ida Reona"
+    },
+    "memberGlyph": "井",
+    "memberHueShift": -4,
+    "memberImage": "https://ske48.co.jp/image/profile/member_47.jpg",
+    "title": "応援ありがとうございます！",
+    "publishedAt": "2026-11-02T00:00:00.000Z",
+    "url": "https://ske48.co.jp/blog/detail/89495/",
     "type": "official_blog"
   },
   {
@@ -298,24 +333,7 @@
     "type": "official_blog"
   },
   {
-    "id": "stu-520c4f31884f",
-    "groupId": "stu48",
-    "franchise": "akb48g",
-    "memberName": {
-      "ja": "STU48",
-      "ko": "STU48",
-      "en": "STU48"
-    },
-    "memberGlyph": "S",
-    "memberHueShift": 0,
-    "memberImage": null,
-    "title": "【STU48 FAN CLUB】道保 琉南へのバースデーメッセージを募集中♪",
-    "publishedAt": "2026-11-02T00:00:00.000Z",
-    "url": "https://www.stu48.com/news/detail/23624",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-442caa81a2f6",
+    "id": "nogi-956759a8ca84",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -328,11 +346,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202611/mob1RAfc2.png",
     "title": "憧れの衣装でした",
     "publishedAt": "2026-11-01T21:34:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104965?ima=2201&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104965?ima=1435&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-10d905e7b3a5",
+    "id": "nogi-31efaf71618f",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -345,11 +363,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202611/mobl5mfRt.jpg",
     "title": "トリックオア … ???",
     "publishedAt": "2026-11-01T20:55:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104964?ima=2201&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104964?ima=1435&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-45bd6d445d0e",
+    "id": "nogi-4b86e1e768f3",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -362,11 +380,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202611/mobvznQL9.jpg",
     "title": "11月です！よ！",
     "publishedAt": "2026-11-01T18:45:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104963?ima=2201&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104963?ima=1435&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-7e0d37f9944d",
+    "id": "nogi-197f7fbe3111",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -379,11 +397,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202611/mobJKxMYw.jpg",
     "title": "まだハロウィン気分で一緒に過ごそ？",
     "publishedAt": "2026-11-01T18:12:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104962?ima=2201&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104962?ima=1435&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "hina-a2cfab6f9456",
+    "id": "hina-810065f59e49",
     "groupId": "hinatazaka46",
     "franchise": "sakamichi",
     "memberId": "hina-shougenji-youko",
@@ -397,11 +415,11 @@
     "memberImage": "https://cdn.hinatazaka46.com/images/14/165/1a92a40f996f43ce58b2b701d46ef/800_800_102400.jpg",
     "title": "[email&#160;protected]",
     "publishedAt": "2026-11-01T15:57:00.000Z",
-    "url": "https://www.hinatazaka46.com/cdn-cgi/l/email-protection#89f0e6e2e6c9e8e5e5e7e0eee1fde7e0f9f9e6e7a7eae6e4",
+    "url": "https://www.hinatazaka46.com/cdn-cgi/l/email-protection#7c051317133c1d101012151b140812150c0c1312521f1311",
     "type": "official_blog"
   },
   {
-    "id": "nogi-facbe7721388",
+    "id": "nogi-c989df6c5526",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -414,7 +432,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202611/mobqb7Sck.jpg",
     "title": "エルフになってみた🧝‍♀️",
     "publishedAt": "2026-11-01T15:51:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104961?ima=2201&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104961?ima=1435&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -680,7 +698,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-978e6323adb2",
+    "id": "nogi-d29c03d4057e",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -693,7 +711,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobOZmaPp.jpg",
     "title": "HALLOWEEN2026",
     "publishedAt": "2026-10-31T21:28:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104960?ima=2201&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104960?ima=1435&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -715,7 +733,7 @@
     "type": "official_blog"
   },
   {
-    "id": "nogi-0759f8e95c2c",
+    "id": "nogi-fc5e604058ff",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -728,11 +746,11 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mobYXzzeQ.jpg",
     "title": "なんて日だ！",
     "publishedAt": "2026-10-31T21:04:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104959?ima=2201&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104959?ima=1435&cd=MEMBER",
     "type": "official_blog"
   },
   {
-    "id": "nogi-7e747cc3c548",
+    "id": "nogi-8d24d4f928a8",
     "groupId": "nogizaka46",
     "franchise": "sakamichi",
     "memberName": {
@@ -745,7 +763,7 @@
     "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mob2F9tcQ.jpg",
     "title": "ハロウィン🐱🐭",
     "publishedAt": "2026-10-31T20:12:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104958?ima=2201&cd=MEMBER",
+    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104958?ima=1435&cd=MEMBER",
     "type": "official_blog"
   },
   {
@@ -764,23 +782,6 @@
     "title": "日向坂46｜ライブ・コンサートのチケット ローチケ[ローソンチケット]",
     "publishedAt": "2026-10-31T20:01:00.000Z",
     "url": "https://l-tike.com/concert/mevent/?mid=306614",
-    "type": "official_blog"
-  },
-  {
-    "id": "nogi-98585a23779b",
-    "groupId": "nogizaka46",
-    "franchise": "sakamichi",
-    "memberName": {
-      "ja": "乃木坂46",
-      "ko": "乃木坂46",
-      "en": "乃木坂46"
-    },
-    "memberGlyph": "乃",
-    "memberHueShift": 0,
-    "memberImage": "https://www.nogizaka46.com/files/46/diary/n46/MEMBER/moblog/202610/mob884aiz.jpg",
-    "title": "かぼちゃプリンとか",
-    "publishedAt": "2026-10-31T19:46:00.000Z",
-    "url": "https://www.nogizaka46.com/s/n46/diary/detail/104957?ima=2201&cd=MEMBER",
     "type": "official_blog"
   },
   {
